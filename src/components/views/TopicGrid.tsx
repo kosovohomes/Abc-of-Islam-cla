@@ -90,68 +90,115 @@ function ImagePreviewModal({ topic, locale, theme, onClose, onReadFull }: {
   return (
     <motion.div
       initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-      className="fixed inset-0 z-50 bg-black/60 backdrop-blur-md flex items-center justify-center p-4"
+      className="fixed inset-0 z-50 bg-black/65 backdrop-blur-md flex items-end sm:items-center justify-center sm:p-4"
       onClick={onClose}
     >
       <motion.div
-        initial={{ scale: 0.85, y: 30, opacity: 0 }}
-        animate={{ scale: 1, y: 0, opacity: 1 }}
-        exit={{ scale: 0.85, y: 30, opacity: 0 }}
-        transition={{ type: 'spring', stiffness: 320, damping: 26 }}
-        className="relative w-full max-w-lg overflow-hidden rounded-3xl shadow-2xl"
+        initial={{ y: 80, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        exit={{ y: 80, opacity: 0 }}
+        transition={{ type: 'spring', stiffness: 300, damping: 28 }}
+        className="relative w-full sm:max-w-3xl bg-white overflow-hidden shadow-2xl rounded-t-3xl sm:rounded-3xl flex flex-col sm:flex-row"
+        style={{ maxHeight: '92vh' }}
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Gradient header band */}
-        <div className={`${theme.cardBg} p-5 pb-0`}>
-          <div className="flex items-start justify-between mb-4">
-            <div className="flex items-center gap-3">
-              <div className="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-3xl shadow-lg border border-white/30">
-                {topic.emoji}
-              </div>
-              <div>
-                <span className="text-white/70 text-[10px] font-bold uppercase tracking-widest block">
-                  {getCategoryName(topic.category, locale)}
-                </span>
-                <h3 className="text-xl font-serif font-extrabold text-white leading-tight">{title}</h3>
-              </div>
-            </div>
-            <button onClick={onClose} className="p-2 bg-white/20 hover:bg-white/30 rounded-full text-white cursor-pointer transition-all border border-white/20">
+        {/* Mobile swipe handle */}
+        <div className="absolute top-2.5 left-1/2 -translate-x-1/2 w-10 h-1 bg-gray-300 rounded-full sm:hidden z-20 pointer-events-none" />
+
+        {/* ── LEFT: Text content ── */}
+        <div className="flex-1 flex flex-col min-w-0 order-2 sm:order-1 overflow-hidden">
+
+          {/* Coloured header */}
+          <div className={`${theme.cardBg} p-5 pb-4 relative overflow-hidden shrink-0`}>
+            <div className="absolute -top-5 -right-5 w-20 h-20 rounded-full bg-white/10 pointer-events-none" />
+            <div className="absolute -bottom-4 -left-4 w-14 h-14 rounded-full bg-black/10 pointer-events-none" />
+
+            {/* Close */}
+            <button onClick={onClose}
+              className="absolute top-3.5 right-3.5 p-2 bg-white/20 hover:bg-white/35 rounded-full text-white cursor-pointer transition-all border border-white/25 z-10">
               <X className="w-4 h-4 stroke-[2.5]" />
             </button>
+
+            <div className="flex items-center gap-3 relative z-10 pr-10">
+              <motion.div
+                animate={{ y: [0, -5, 0] }}
+                transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
+                className="w-13 h-13 min-w-[52px] min-h-[52px] bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-3xl shadow-lg border border-white/30 select-none">
+                {topic.emoji}
+              </motion.div>
+              <div className="min-w-0">
+                <span className="text-white/70 text-[10px] font-extrabold uppercase tracking-[0.15em] block">
+                  {getCategoryName(topic.category, locale)}
+                </span>
+                <h3 className="text-lg sm:text-xl font-serif font-extrabold text-white leading-tight">
+                  {title}
+                </h3>
+              </div>
+            </div>
           </div>
-          {/* Image peek */}
-          <div className="relative aspect-[16/7] overflow-hidden rounded-t-2xl">
-            <img src={imageSrc} alt={title}
-              className="w-full h-full object-cover"
-              onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+
+          {/* Scrollable body */}
+          <div className="flex-1 overflow-y-auto p-5 space-y-4 custom-scrollbar">
+            {funFact && (
+              <motion.div
+                initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.12 }}
+                className="flex items-start gap-3 p-4 bg-amber-50 rounded-2xl border border-amber-100"
+              >
+                <span className="text-2xl shrink-0 select-none">🌟</span>
+                <div>
+                  <p className="text-[9px] font-extrabold uppercase tracking-[0.15em] text-amber-600 mb-1">Fun Fact</p>
+                  <p className="text-sm text-amber-900 leading-relaxed">{funFact}</p>
+                </div>
+              </motion.div>
+            )}
+            {bodyText && (
+              <motion.p
+                initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }}
+                className="text-sm text-gray-600 leading-relaxed"
+              >
+                {bodyText}
+              </motion.p>
+            )}
+          </div>
+
+          {/* CTA pinned bottom */}
+          <div className="p-4 pt-2 shrink-0 border-t border-gray-100">
+            <motion.button
+              onClick={() => { onClose(); onReadFull(topic.id); }}
+              whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
+              className={`w-full flex items-center justify-center gap-2.5 px-5 py-4 bg-gradient-to-r ${theme.gradientFrom} ${theme.gradientTo} text-white rounded-2xl font-extrabold text-base cursor-pointer shadow-lg hover:shadow-xl transition-shadow`}
+            >
+              <BookOpen className="w-5 h-5" />
+              <span>Read Full Chapter</span>
+              <ChevronRight className="w-5 h-5 stroke-[2.5]" />
+            </motion.button>
           </div>
         </div>
 
-        {/* Content card */}
-        <div className="bg-white p-5 space-y-4">
-          {funFact && (
-            <div className="flex items-start gap-3 p-3.5 bg-amber-50 rounded-2xl border border-amber-100">
-              <span className="text-2xl shrink-0">🌟</span>
-              <div>
-                <p className="text-[9px] font-extrabold uppercase tracking-widest text-amber-700 mb-0.5">Fun Fact</p>
-                <p className="text-sm text-amber-900 leading-relaxed line-clamp-2">{funFact}</p>
-              </div>
+        {/* ── RIGHT: Image ── */}
+        {/* Mobile: 4:3 strip on top. Desktop: fixed-width right column filling full height */}
+        <div className="order-1 sm:order-2 sm:w-72 md:w-80 lg:w-96 shrink-0 relative bg-gray-50">
+          {/* Mobile aspect box / Desktop fills parent height absolutely */}
+          <div className="relative aspect-[4/3] sm:aspect-auto sm:absolute sm:inset-0 overflow-hidden">
+            <img
+              src={imageSrc}
+              alt={title}
+              className="w-full h-full object-contain bg-gray-50"
+              onError={(e) => {
+                const img = e.currentTarget as HTMLImageElement;
+                img.style.display = 'none';
+                const fb = img.parentElement?.querySelector('.emoji-fallback') as HTMLElement | null;
+                if (fb) fb.style.display = 'flex';
+              }}
+            />
+            {/* Fallback */}
+            <div className="emoji-fallback hidden absolute inset-0 items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
+              <span className="text-8xl select-none">{topic.emoji}</span>
             </div>
-          )}
-          {bodyText && (
-            <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">{bodyText}</p>
-          )}
-          <motion.button
-            onClick={() => { onClose(); onReadFull(topic.id); }}
-            whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
-            className={`w-full flex items-center justify-center gap-2.5 px-5 py-3.5 bg-gradient-to-r ${theme.gradientFrom} ${theme.gradientTo} text-white rounded-2xl font-extrabold text-sm transition-all cursor-pointer shadow-lg`}
-          >
-            <BookOpen className="w-4 h-4" />
-            <span>Read Full Chapter</span>
-            <ChevronRight className="w-4 h-4 stroke-[2.5]" />
-          </motion.button>
+
+            {/* Category colour top border */}
+            <div className={`absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r ${theme.gradientFrom} ${theme.gradientTo} sm:hidden`} />
+          </div>
         </div>
       </motion.div>
     </motion.div>
