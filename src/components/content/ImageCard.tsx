@@ -10,33 +10,29 @@ interface ImageCardProps {
 
 export default function ImageCard({ src, alt, icon }: ImageCardProps) {
   const [zoomed, setZoomed] = useState(false);
-  const [extIndex, setExtIndex] = useState(0);
   const [hasError, setHasError] = useState(false);
 
-  // Compute Candidates for Fallback Image Paths (e.g. .webp, .png, .jpg, .jpeg)
-  const getImagePathList = () => {
+  // ── Key fix: detect external URLs and use them as-is ──
+  const isExternalUrl = src.startsWith('http');
+
+  // For external URLs: use as-is. For local: try multiple extensions.
+  const getImagePath = (): string | null => {
+    if (isExternalUrl) return src;
+
     const dotIndex = src.lastIndexOf('.');
     const base = dotIndex !== -1 ? src.substring(0, dotIndex) : src;
     const origExt = dotIndex !== -1 ? src.substring(dotIndex) : '';
 
     const candidateExtensions = [origExt, '.webp', '.png', '.jpg', '.jpeg'].filter(Boolean);
-    return candidateExtensions.filter((value, index, self) => self.indexOf(value) === index);
+    const unique = candidateExtensions.filter((value, index, self) => self.indexOf(value) === index);
+
+    // Return first candidate (original extension)
+    if (unique.length > 0) return `/images/${base}${unique[0]}`;
+    return null;
   };
 
-  const uniqueCandidates = getImagePathList();
-  const currentImagePath = extIndex < uniqueCandidates.length 
-    ? `/images/${src.lastIndexOf('.') !== -1 ? src.substring(0, src.lastIndexOf('.')) : src}${uniqueCandidates[extIndex]}`
-    : null;
-
-  const handleImageError = () => {
-    if (extIndex < uniqueCandidates.length - 1) {
-      setExtIndex(prev => prev + 1);
-    } else {
-      setHasError(true);
-    }
-  };
-
-  const isFailedAll = hasError || currentImagePath === null;
+  const imagePath = getImagePath();
+  const isFailed = hasError || imagePath === null;
 
   return (
     <>
@@ -46,16 +42,16 @@ export default function ImageCard({ src, alt, icon }: ImageCardProps) {
         onClick={() => setZoomed(true)}
       >
         <div className="aspect-[4/3] bg-gradient-to-b from-emerald-50/40 to-amber-50/20 flex items-center justify-center overflow-hidden relative border-b border-emerald-50">
-          {isFailedAll ? (
+          {isFailed ? (
             <div className="flex flex-col items-center justify-center text-center p-6 gap-2">
               <span className="text-7xl filter select-none">{icon}</span>
               <span className="text-sm font-bold uppercase tracking-wider text-emerald-800 mt-3 font-sans">{alt}</span>
             </div>
           ) : (
             <img
-              src={currentImagePath}
+              src={imagePath}
               alt={alt}
-              onError={handleImageError}
+              onError={() => setHasError(true)}
               className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
               loading="lazy"
               referrerPolicy="no-referrer"
@@ -67,7 +63,7 @@ export default function ImageCard({ src, alt, icon }: ImageCardProps) {
             <ZoomIn className="w-4 h-4 text-emerald-600 stroke-[2.5]" />
           </div>
         </div>
-        {!isFailedAll && (
+        {!isFailed && (
           <div className="absolute bottom-3.5 left-3.5 text-2xl filter drop-shadow-sm leading-none select-none">
             {icon}
           </div>
@@ -91,14 +87,14 @@ export default function ImageCard({ src, alt, icon }: ImageCardProps) {
               className="relative max-w-4xl w-full bg-transparent p-2 rounded-3xl overflow-hidden flex items-center justify-center m-auto"
               onClick={(e) => e.stopPropagation()}
             >
-              {isFailedAll ? (
+              {isFailed ? (
                 <div className="aspect-[4/3] w-full max-w-xl bg-white border-4 border-emerald-200 rounded-3xl flex flex-col items-center justify-center text-center p-12 gap-4 shadow-xl">
                   <span className="text-9xl filter">{icon}</span>
                   <h3 className="text-2xl font-serif font-bold text-emerald-800">{alt}</h3>
                 </div>
               ) : (
                 <img
-                  src={currentImagePath}
+                  src={imagePath}
                   alt={alt}
                   className="w-full h-auto rounded-3xl border-4 border-white shadow-2xl object-contain max-h-[85vh]"
                 />
