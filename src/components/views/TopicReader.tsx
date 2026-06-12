@@ -63,7 +63,7 @@ export default function TopicReader({
       initial={{ opacity: 0, scale: 0.99 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.99 }}
-      className="px-4 py-4 max-w-7xl mx-auto w-full flex-1 flex flex-col lg:h-[calc(100vh-64px)] lg:max-h-[calc(100vh-64px)] lg:overflow-hidden"
+      className="px-4 sm:px-6 lg:px-10 py-4 max-w-full mx-auto w-full flex-1 flex flex-col lg:h-[calc(100vh-64px)] lg:max-h-[calc(100vh-64px)] lg:overflow-hidden"
     >
       {/* ── Top action bar ── */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-3 no-print shrink-0">
@@ -101,7 +101,7 @@ export default function TopicReader({
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch flex-1 min-h-0 lg:overflow-hidden mb-2">
 
         {/* Left column: image, audio, content text */}
-        <div className="lg:col-span-7 bg-white border-2 border-emerald-100 p-4 sm:p-5 space-y-4 rounded-3xl shadow-lg relative overflow-hidden flex flex-col h-full lg:overflow-y-auto custom-scrollbar">
+        <div className="lg:col-span-8 bg-white border-2 border-emerald-100 p-4 sm:p-5 space-y-4 rounded-3xl shadow-lg relative overflow-hidden flex flex-col h-full lg:overflow-y-auto custom-scrollbar">
 
           {/* Translation loading overlay */}
           {translating && (
@@ -139,7 +139,7 @@ export default function TopicReader({
           </div>
 
           {/* Illustration */}
-          <div className="relative z-10 w-full max-w-xs sm:max-w-sm mx-auto shrink-0 shadow-sm rounded-3xl overflow-hidden">
+          <div className="relative z-10 w-full max-w-md sm:max-w-lg mx-auto shrink-0 shadow-sm rounded-3xl overflow-hidden">
             <ImageCard src={activeTopic.image} alt={title} icon={activeTopic.emoji} />
           </div>
 
@@ -195,7 +195,7 @@ export default function TopicReader({
         </div>
 
         {/* Right column: quiz panel */}
-        <div className="lg:col-span-5 flex flex-col h-full lg:overflow-y-auto custom-scrollbar space-y-4">
+        <div className="lg:col-span-4 flex flex-col h-full lg:overflow-y-auto custom-scrollbar space-y-4">
           {/*
            * key={selectedTopicId} on the Fragment — when the topic changes,
            * the Fragment unmounts, fully resetting QuizPanel's internal state

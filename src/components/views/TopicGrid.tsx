@@ -245,14 +245,14 @@ function CategoryCard({
       </div>
 
       {/* Card content */}
-      <div className="p-5 pt-10 flex flex-col items-center text-center text-white">
+      <div className="p-6 pt-12 flex flex-col items-center text-center text-white">
         {/* Category emoji/icon */}
-        <div className="text-5xl mb-3 drop-shadow-lg filter">
+        <div className="text-6xl mb-4 drop-shadow-lg filter">
           {category.emoji}
         </div>
 
         {/* Category title */}
-        <h3 className="text-lg font-bold leading-tight mb-1">
+        <h3 className="text-xl font-bold leading-tight mb-1.5">
           {getCategoryName(category.id, locale)}
         </h3>
 
@@ -360,7 +360,7 @@ function CategoryDetailView({
       </div>
 
       {/* Topics grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {topics.map((topic, idx) => {
           const isRead = progress.topicsRead.includes(topic.id);
           const quizRecord = progress.quizzesCompleted[topic.id];
@@ -377,7 +377,7 @@ function CategoryDetailView({
             >
               {/* Image */}
               <div
-                className="relative aspect-[4/3] bg-gray-50 overflow-hidden cursor-pointer"
+                className="relative aspect-[3/2] bg-gray-50 overflow-hidden cursor-pointer"
                 onClick={(e) => { e.stopPropagation(); onPreview(topic); }}
               >
                 <img
@@ -514,7 +514,7 @@ export default function TopicGrid({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="mx-auto w-full max-w-6xl px-4 sm:px-6 py-8"
+          className="mx-auto w-full max-w-full px-4 sm:px-6 lg:px-10 py-8"
         >
           <CategoryDetailView
             category={cat}
@@ -550,7 +550,7 @@ export default function TopicGrid({
       initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -15 }}
-      className="mx-auto w-full max-w-6xl px-4 sm:px-6 py-8"
+      className="mx-auto w-full max-w-full px-4 sm:px-6 lg:px-10 py-8"
     >
       {/* ── Header ── */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
@@ -667,7 +667,7 @@ export default function TopicGrid({
                   </h3>
                   <span className="text-[10px] text-gray-400 font-medium">{topicsInCat.length} results</span>
                 </div>
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {topicsInCat.map(topic => {
                     const isRead = progress.topicsRead.includes(topic.id);
                     const imageSrc = topic.image.startsWith('http') ? topic.image : `/images/${topic.image}`;
@@ -727,7 +727,7 @@ export default function TopicGrid({
         </div>
       ) : (
         /* ── Category cards grid (3x2) ── */
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {CATEGORIES.map(category => {
             const topics = getFilteredTopics(category.id);
             if (topics.length === 0) return null;

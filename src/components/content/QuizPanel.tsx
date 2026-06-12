@@ -89,16 +89,16 @@ export default function QuizPanel({
   // ── Render ───────────────────────────────────────────────────────────────────
 
   return (
-    <div className="bg-white border-2 border-amber-250 p-4 sm:p-5 text-slate-800 relative overflow-hidden rounded-3xl shadow-lg flex-1 min-h-0 flex flex-col justify-center">
+    <div className="bg-white border-2 border-amber-250 p-3 sm:p-4 text-slate-800 relative overflow-hidden rounded-2xl shadow-lg flex-1 min-h-0 flex flex-col justify-center">
       {/* Decorative top stripe */}
-      <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 via-rose-400 to-sky-400" />
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-rose-400 to-sky-400" />
 
       {/* ── Pre-quiz prompt ── */}
       {!quizActive ? (
-        <div className="text-center py-4 my-auto shrink-0">
-          <div className="text-4xl mb-2 select-none">🎯</div>
-          <h3 className="text-base font-serif font-bold text-[#2C3E50]">{t(locale, 'takeQuiz')}</h3>
-          <p className="text-xs text-gray-500 mt-1.5 max-w-xs mx-auto leading-normal font-medium">
+        <div className="text-center py-3 my-auto shrink-0">
+          <div className="text-3xl mb-1.5 select-none">🎯</div>
+          <h3 className="text-sm font-serif font-bold text-[#2C3E50]">{t(locale, 'takeQuiz')}</h3>
+          <p className="text-[11px] text-gray-500 mt-1 max-w-xs mx-auto leading-normal font-medium">
             Let's practice what we learned about {getDefensiveTitle(activeTopic, locale)} with a fun puzzle!
           </p>
           {progress.quizzesCompleted[activeTopic.id] !== undefined && (
@@ -109,7 +109,7 @@ export default function QuizPanel({
           <button
             id="btn-start-quiz"
             onClick={() => setQuizActive(true)}
-            className="mt-6 inline-flex items-center gap-2.5 px-6 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full text-xs font-extrabold uppercase tracking-wide transition-all hover:scale-105 hover:shadow-md cursor-pointer"
+            className="mt-4 inline-flex items-center gap-2 px-5 py-2 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full text-[11px] font-extrabold uppercase tracking-wide transition-all hover:scale-105 hover:shadow-md cursor-pointer"
           >
             <span>Start Quiz! 🎯</span>
             <ArrowRight className="w-3.5 h-3.5 stroke-[2.5]" />
@@ -167,7 +167,7 @@ export default function QuizPanel({
                           key={oIdx}
                           onClick={() => handleOptionPress(oIdx, activeTopic.quiz[currentQuestionIdx].correct)}
                           disabled={answered}
-                          className={`w-full py-2.5 px-3.5 text-left rounded-xl text-xs font-bold border-2 transition-all flex items-center justify-between gap-2 min-h-10 cursor-pointer ${btnStyle}`}
+                          className={`w-full py-2 px-3 text-left rounded-lg text-[11px] font-bold border-2 transition-all flex items-center justify-between gap-2 min-h-9 cursor-pointer ${btnStyle}`}
                         >
                           <span>{optText}</span>
                           {answered && isCorrect && <CheckCircle2 className="w-3.5 h-3.5 text-white shrink-0" />}
@@ -179,7 +179,7 @@ export default function QuizPanel({
 
                   {/* Explanation */}
                   {selectedOption !== null && (
-                    <div className="p-3 bg-amber-50/70 border border-amber-100 rounded-xl text-[11px] text-slate-750 leading-relaxed shrink-0">
+                    <div className="p-2.5 bg-amber-50/70 border border-amber-100 rounded-lg text-[10px] text-slate-750 leading-relaxed shrink-0">
                       <span className="font-extrabold block text-[9px] uppercase tracking-wider text-amber-800 mb-0.5">
                         🎯 Learning Moment
                       </span>
@@ -191,7 +191,7 @@ export default function QuizPanel({
                     <button
                       id="btn-quiz-continue"
                       onClick={handleNext}
-                      className="w-full mt-2 flex items-center justify-center gap-1.5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full text-xs font-extrabold uppercase tracking-wide shadow-md cursor-pointer transition-transform hover:scale-[1.01] shrink-0"
+                      className="w-full mt-1.5 flex items-center justify-center gap-1.5 py-2 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full text-[11px] font-extrabold uppercase tracking-wide shadow-md cursor-pointer transition-transform hover:scale-[1.01] shrink-0"
                     >
                       <span>
                         {currentQuestionIdx < totalQuestions - 1
@@ -207,37 +207,37 @@ export default function QuizPanel({
 
           ) : (
             // ── Results dashboard ──
-            <div className="text-center py-4 my-auto shrink-0 space-y-3.5">
-              <div className="text-4xl select-none animate-bounce" style={{ animationDuration: '3s' }}>🏆</div>
-              <h4 className="text-base font-serif font-extrabold text-[#2C3E50]">
+            <div className="text-center py-3 my-auto shrink-0 space-y-2.5">
+              <div className="text-3xl select-none animate-bounce" style={{ animationDuration: '3s' }}>🏆</div>
+              <h4 className="text-sm font-serif font-extrabold text-[#2C3E50]">
                 {displayScore === 3
                   ? t(locale, 'perfectScore')
                   : displayScore >= 2
                   ? t(locale, 'greatJob')
                   : t(locale, 'keepTrying')}
               </h4>
-              <p className="text-xs font-semibold text-slate-600 mt-1">
+              <p className="text-[11px] font-semibold text-slate-600 mt-0.5">
                 You answered{' '}
                 <span className="font-bold text-amber-600 bg-amber-50 px-2.5 py-0.5 rounded-full">
                   {displayScore}
                 </span>{' '}
                 of <span className="font-bold">3</span> answers correctly.
               </p>
-              <div className="border-t border-b border-gray-100 py-2.5 my-1.5 max-h-36 overflow-y-auto custom-scrollbar">
+              <div className="border-t border-b border-gray-100 py-2 my-1 max-h-28 overflow-y-auto custom-scrollbar">
                 <BadgeBoard />
               </div>
               <div className="flex gap-2.5 pt-2">
                 <button
                   id="btn-quiz-retry"
                   onClick={resetQuiz}
-                  className="flex-1 py-2.5 bg-white hover:bg-gray-50 rounded-full text-[10px] font-bold uppercase tracking-wider text-gray-700 transition-colors cursor-pointer border border-[#ccc] shadow-sm"
+                  className="flex-1 py-2 bg-white hover:bg-gray-50 rounded-full text-[9px] font-bold uppercase tracking-wider text-gray-700 transition-colors cursor-pointer border border-[#ccc] shadow-sm"
                 >
                   {t(locale, 'tryAgain')}
                 </button>
                 <button
                   id="btn-quiz-complete"
                   onClick={resetQuiz}
-                  className="flex-1 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full text-[10px] font-bold uppercase tracking-wider transition-colors cursor-pointer shadow-md"
+                  className="flex-1 py-2 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full text-[9px] font-bold uppercase tracking-wider transition-colors cursor-pointer shadow-md"
                 >
                   {t(locale, 'continueBtn')}
                 </button>
