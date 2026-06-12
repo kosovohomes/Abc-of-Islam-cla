@@ -413,6 +413,9 @@ export default function App() {
               <LandingPage
                 locale={locale}
                 onStart={() => setCurrentView('grid')}
+                onTopicSelect={(topicId) => {
+                  handleTopicSelect(topicId);
+                }}
               />
             </Fragment>
           )}

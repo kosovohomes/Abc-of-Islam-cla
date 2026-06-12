@@ -9,6 +9,8 @@ import {
   Check,
   Sun,
   Moon,
+  X,
+  ExternalLink,
 } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import AgeSelector from '@/components/content/AgeSelector';
@@ -18,6 +20,7 @@ import type { Locale } from '@/types';
 interface LandingPageV2Props {
   locale: Locale;
   onStart: () => void;
+  onTopicSelect?: (topicId: string) => void;
 }
 
 /* =====================================================
@@ -30,6 +33,7 @@ const topicCards = [
     subtitle: 'The sacred journey to Makkah',
     tag: 'Pilgrimage',
     tagColor: '#0d9488',
+    topicLink: 'hajj',
     img: 'https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446',
   },
   {
@@ -38,6 +42,7 @@ const topicCards = [
     subtitle: 'The lesser pilgrimage, full of reward',
     tag: 'Pilgrimage',
     tagColor: '#ff7f5c',
+    topicLink: 'hajj',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326',
   },
   {
@@ -47,6 +52,7 @@ const topicCards = [
     tag: 'Charity',
     tagColor: '#f5b400',
     tagTextDark: true,
+    topicLink: 'zakat',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_46_sadaqah_voluntary-metCJkjaZZWHwc3n86346d.webp?updatedAt=1781117902191',
   },
   {
@@ -55,6 +61,7 @@ const topicCards = [
     subtitle: 'The blessed month of fasting & reflection',
     tag: 'Fasting',
     tagColor: '#0d9488',
+    topicLink: 'ramadan',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_39_ramadan_overview-KSNdX85Mzos8r2Xf3JL6rh.webp?updatedAt=1781117901328',
   },
   {
@@ -63,6 +70,7 @@ const topicCards = [
     subtitle: 'Separating truth from misconception',
     tag: 'Truth',
     tagColor: '#ff7f5c',
+    topicLink: 'day_of_judgment',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326',
   },
   {
@@ -72,6 +80,7 @@ const topicCards = [
     tag: 'Prophet',
     tagColor: '#f5b400',
     tagTextDark: true,
+    topicLink: 'prophet_muhammad',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256',
   },
   {
@@ -80,6 +89,7 @@ const topicCards = [
     subtitle: 'Adam, Nuh, Musa & more — timeless tales',
     tag: 'Stories',
     tagColor: '#0d9488',
+    topicLink: 'prophets',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_3_prophet_stories_feature-FtRej2zvGTyPa9u6r2MF85.webp?updatedAt=1781117901347',
   },
   {
@@ -88,6 +98,7 @@ const topicCards = [
     subtitle: 'Two joyful celebrations for Muslims',
     tag: 'Celebration',
     tagColor: '#ff7f5c',
+    topicLink: 'eid_al_fitr',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_44_eid_fitr_vs_adha-5iDNf8qryiopWpY9KdzQY6.webp?updatedAt=1781117900159',
   },
   {
@@ -96,14 +107,16 @@ const topicCards = [
     subtitle: 'Understanding what is permitted in Islam',
     tag: 'Lifestyle',
     tagColor: '#0a7a70',
+    topicLink: 'halal_food',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194',
   },
 ];
 
-export default function LandingPageV2({ locale, onStart }: LandingPageV2Props) {
+export default function LandingPageV2({ locale, onStart, onTopicSelect }: LandingPageV2Props) {
   const [activeSlide, setActiveSlide] = useState(0);
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const [activeAge, setActiveAge] = useState<'Beginner' | 'Explorer' | 'Thinker'>('Explorer');
+  const [modalCard, setModalCard] = useState<typeof topicCards[number] | null>(null);
   const carouselRef = useRef<HTMLDivElement>(null);
   const isDragging = useRef(false);
   const startX = useRef(0);
@@ -121,9 +134,11 @@ export default function LandingPageV2({ locale, onStart }: LandingPageV2Props) {
   }, [activeSlide, reduceMotion]);
 
   /* Drag-to-scroll on the carousel */
+  const dragDistance = useRef(0);
   const onPointerDown = (e: React.PointerEvent) => {
     if (!carouselRef.current) return;
     isDragging.current = true;
+    dragDistance.current = 0;
     startX.current = e.pageX - carouselRef.current.offsetLeft;
     scrollLeft.current = carouselRef.current.scrollLeft;
     carouselRef.current.style.cursor = 'grabbing';
@@ -133,7 +148,9 @@ export default function LandingPageV2({ locale, onStart }: LandingPageV2Props) {
     if (!isDragging.current || !carouselRef.current) return;
     e.preventDefault();
     const x = e.pageX - carouselRef.current.offsetLeft;
-    carouselRef.current.scrollLeft = scrollLeft.current - (x - startX.current) * 1.4;
+    const delta = x - startX.current;
+    dragDistance.current = Math.abs(delta);
+    carouselRef.current.scrollLeft = scrollLeft.current - delta * 1.4;
   };
   const onPointerUp = () => {
     if (!carouselRef.current) return;
@@ -700,7 +717,11 @@ export default function LandingPageV2({ locale, onStart }: LandingPageV2Props) {
                       : '0 20px 50px rgba(13,148,136,.18)',
                     transformStyle: 'preserve-3d',
                   }}
-                  onClick={() => setActiveSlide(idx)}
+                  onClick={() => {
+                    if (dragDistance.current > 6) return; // was a drag, not a click
+                    setActiveSlide(idx);
+                    setModalCard(card);
+                  }}
                   whileHover={reduceMotion ? undefined : { y: -8 }}
                 >
                   <img
@@ -1082,6 +1103,93 @@ export default function LandingPageV2({ locale, onStart }: LandingPageV2Props) {
           ))}
         </div>
       </footer>
+
+      {/* ============================================================
+         IMAGE MODAL — opens when a carousel card is clicked
+         ============================================================ */}
+      <AnimatePresence>
+        {modalCard && (
+          <motion.div
+            key="carousel-modal-backdrop"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-8"
+            style={{ background: 'rgba(0,0,0,0.82)', backdropFilter: 'blur(6px)' }}
+            onClick={() => setModalCard(null)}
+          >
+            <motion.div
+              key="carousel-modal-card"
+              initial={{ opacity: 0, scale: 0.88, y: 30 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.88, y: 30 }}
+              transition={{ type: 'spring', stiffness: 260, damping: 22 }}
+              className="relative w-full max-w-lg rounded-3xl overflow-hidden"
+              style={{ boxShadow: '0 40px 100px rgba(0,0,0,0.6)' }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Full image */}
+              <img
+                src={modalCard.img}
+                alt={modalCard.title}
+                className="w-full block"
+                style={{ maxHeight: '60vh', objectFit: 'cover' }}
+              />
+
+              {/* Gradient overlay */}
+              <div
+                className="absolute inset-0 pointer-events-none"
+                style={{ background: 'linear-gradient(180deg, transparent 40%, rgba(6,36,31,.95) 100%)' }}
+              />
+
+              {/* Close button */}
+              <button
+                onClick={() => setModalCard(null)}
+                className="absolute top-4 right-4 w-10 h-10 rounded-full flex items-center justify-center text-white"
+                style={{ background: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(4px)' }}
+                aria-label="Close"
+              >
+                <X className="w-5 h-5" />
+              </button>
+
+              {/* Card info */}
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                <span
+                  className="inline-block text-[10px] font-extrabold tracking-wider px-2.5 py-1 rounded-md mb-2 uppercase"
+                  style={{
+                    background: modalCard.tagColor,
+                    color: modalCard.tagTextDark ? '#6b4a00' : 'white',
+                  }}
+                >
+                  {modalCard.tag}
+                </span>
+                <h3 className="text-2xl sm:text-3xl font-extrabold leading-tight mb-1" style={{ textShadow: '0 2px 8px rgba(0,0,0,.6)' }}>
+                  {modalCard.title}
+                </h3>
+                <p className="text-sm opacity-90 font-medium mb-5">{modalCard.subtitle}</p>
+
+                {/* CTA: go to topic */}
+                <button
+                  onClick={() => {
+                    setModalCard(null);
+                    if (onTopicSelect) {
+                      onTopicSelect(modalCard.topicLink);
+                    } else {
+                      onStart();
+                    }
+                  }}
+                  className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full text-white font-bold text-sm"
+                  style={{ background: 'linear-gradient(135deg, #0d9488, #075f58)', boxShadow: '0 8px 24px rgba(13,148,136,.5)' }}
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  Explore This Topic
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.div>
   );
 }
