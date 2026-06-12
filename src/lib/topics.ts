@@ -30,6 +30,7 @@ export const TOPICS: Omit<Topic, 'content' | 'funFact' | 'quiz'>[] = [
   { id: 'halal_food',    emoji: '🍽️',  title: 'Halal Food',                     image: 'https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194',     category: 'daily_practices' },
   { id: 'duas',          emoji: '🤲',  title: 'Duas - Supplications',           image: 'https://ik.imagekit.io/4zbzbdytp/imgi_10_pillar_duas-EqyXdQq6eb7Aov9Lmrvy3T.webp?updatedAt=1781117901995',         category: 'daily_practices' },
   { id: 'reading_quran', emoji: '📖',  title: 'Reading Quran',                  image: 'https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610',   category: 'daily_practices' },
+  { id: 'how_to_pray',   emoji: '🕌',  title: 'How to Pray: A Complete Guide',  image: 'https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214',  category: 'daily_practices' },
 
   // ── Islamic Values ────────────────────────────────────────────────────────
   { id: 'honesty',       emoji: '🤝',  title: 'Honesty',                        image: 'https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378',      category: 'islamic_values' },
