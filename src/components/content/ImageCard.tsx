@@ -79,7 +79,7 @@ export default function ImageCard({ src, alt, icon }: ImageCardProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] bg-black/80 flex items-center justify-center p-4 backdrop-blur-sm no-print"
+            className="fixed inset-0 z-[300] bg-black/80 flex items-center justify-center p-4 backdrop-blur-sm no-print"
             onClick={() => setZoomed(false)}
           >
             <motion.div
@@ -105,7 +105,7 @@ export default function ImageCard({ src, alt, icon }: ImageCardProps) {
 
               <button
                 onClick={() => setZoomed(false)}
-                className="absolute -top-3 -right-3 p-2.5 bg-white text-gray-700 border border-black/10 rounded-full shadow-xl hover:bg-rose-500 hover:text-white transition-all cursor-pointer hover:scale-110"
+                className="absolute top-3 right-3 p-2.5 bg-white/90 text-gray-700 border border-black/10 rounded-full shadow-xl hover:bg-rose-500 hover:text-white transition-all cursor-pointer hover:scale-110 z-10"
               >
                 <X className="w-5 h-5 stroke-[2.5]" />
               </button>
