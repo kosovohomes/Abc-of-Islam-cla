@@ -41,7 +41,7 @@ export default function ImageCard({ src, alt, icon }: ImageCardProps) {
         className="relative rounded-3xl overflow-hidden border-2 border-emerald-100 cursor-pointer group hover:shadow-xl hover:scale-[1.02] hover:border-emerald-300 transition-all duration-300 bg-white shadow-md"
         onClick={() => setZoomed(true)}
       >
-        <div className="aspect-[4/3] bg-gradient-to-b from-emerald-50/40 to-amber-50/20 flex items-center justify-center overflow-hidden relative border-b border-emerald-50">
+        <div className="aspect-[16/9] bg-gradient-to-b from-emerald-50/40 to-amber-50/20 flex items-center justify-center overflow-hidden relative border-b border-emerald-50">
           {isFailed ? (
             <div className="flex flex-col items-center justify-center text-center p-6 gap-2">
               <span className="text-7xl filter select-none">{icon}</span>
