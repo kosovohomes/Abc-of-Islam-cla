@@ -1377,7 +1377,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
               className="relative flex flex-col sm:flex-row rounded-3xl overflow-hidden"
               style={{
                 width: 'min(92vw, 960px)',
-                maxHeight: '90vh',
+                height: 'min(90vh, 620px)',
                 background: '#000',
                 boxShadow: '0 40px 100px rgba(0,0,0,0.75)',
               }}
@@ -1385,8 +1385,8 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             >
               {/* ── LEFT: image (≈70% width) ── */}
               <div
-                className="flex items-center justify-center"
-                style={{ flex: '0 0 68%', background: '#000', minHeight: 300 }}
+                className="relative flex items-stretch justify-center overflow-hidden"
+                style={{ flex: '0 0 68%', background: '#111' }}
               >
                 <img
                   src={modalCard.img}
@@ -1394,9 +1394,9 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                   style={{
                     display: 'block',
                     width: '100%',
-                    height: '90vh',
-                    maxHeight: '90vh',
-                    objectFit: 'contain',
+                    height: '100%',
+                    objectFit: 'cover',
+                    objectPosition: 'center top',
                   }}
                 />
               </div>
@@ -1408,7 +1408,8 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                   flex: '1 1 0',
                   background: 'linear-gradient(160deg, #0e2522, #071510)',
                   borderLeft: '1px solid rgba(255,255,255,0.07)',
-                  minWidth: 220,
+                  minWidth: 200,
+                  maxWidth: 320,
                 }}
               >
                 <div>
