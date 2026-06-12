@@ -1364,29 +1364,35 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-6"
-            style={{ background: 'rgba(0,0,0,0.88)', backdropFilter: 'blur(8px)' }}
+            className="fixed inset-0 z-[100] flex items-center justify-center"
+            style={{ background: 'rgba(0,0,0,0.88)', backdropFilter: 'blur(8px)', padding: 'clamp(12px, 3vw, 24px)' }}
             onClick={() => setModalCard(null)}
           >
             <motion.div
               key="carousel-modal-card"
-              initial={{ opacity: 0, scale: 0.9, y: 24 }}
+              initial={{ opacity: 0, scale: 0.92, y: 24 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.9, y: 24 }}
+              exit={{ opacity: 0, scale: 0.92, y: 24 }}
               transition={{ type: 'spring', stiffness: 260, damping: 22 }}
-              className="relative flex flex-col sm:flex-row rounded-3xl overflow-hidden"
+              className="relative w-full rounded-3xl overflow-hidden modal-card-inner"
               style={{
-                width: 'min(92vw, 960px)',
-                height: 'min(90vh, 620px)',
-                background: '#000',
+                maxWidth: 960,
+                maxHeight: '90vh',
+                display: 'flex',
+                flexDirection: 'row',
                 boxShadow: '0 40px 100px rgba(0,0,0,0.75)',
               }}
               onClick={(e) => e.stopPropagation()}
             >
-              {/* ── LEFT: image (≈70% width) ── */}
+              {/* ── LEFT: image panel — natural aspect ratio, fills height ── */}
               <div
-                className="relative flex items-stretch justify-center overflow-hidden"
-                style={{ flex: '0 0 68%', background: '#111' }}
+                style={{
+                  flex: '1 1 0',
+                  minWidth: 0,
+                  position: 'relative',
+                  backgroundColor: '#000',
+                  overflow: 'hidden',
+                }}
               >
                 <img
                   src={modalCard.img}
@@ -1396,48 +1402,68 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                     width: '100%',
                     height: '100%',
                     objectFit: 'cover',
-                    objectPosition: 'center top',
+                    objectPosition: 'center center',
                   }}
                 />
               </div>
 
-              {/* ── RIGHT: info panel (≈30% width) ── */}
+              {/* ── RIGHT: info panel — fixed 300px wide, full height, dark teal ── */}
               <div
-                className="flex flex-col justify-between p-6 sm:p-8 overflow-y-auto text-white"
+                className="modal-right-panel"
                 style={{
-                  flex: '1 1 0',
-                  background: 'linear-gradient(160deg, #0e2522, #071510)',
-                  borderLeft: '1px solid rgba(255,255,255,0.07)',
-                  minWidth: 200,
-                  maxWidth: 320,
+                  width: 300,
+                  flexShrink: 0,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'space-between',
+                  padding: '32px 28px',
+                  backgroundColor: '#0a2520',
+                  overflowY: 'auto',
+                  color: 'white',
+                  position: 'relative',
+                  borderLeft: '1px solid rgba(255,255,255,0.06)',
                 }}
               >
-                <div>
+                {/* ✕ close — inside right panel, top-right corner */}
+                <button
+                  onClick={() => setModalCard(null)}
+                  className="absolute top-4 right-4 w-9 h-9 rounded-full flex items-center justify-center text-white transition-colors hover:bg-white/10"
+                  style={{ background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)' }}
+                  aria-label="Close"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+
+                {/* Top: tag + title + subtitle + divider + hint */}
+                <div className="flex flex-col gap-4 pt-2">
                   <span
-                    className="inline-block text-[10px] font-extrabold tracking-wider px-3 py-1 rounded-lg mb-5 uppercase"
+                    className="inline-block text-[10px] font-extrabold tracking-widest px-3 py-1.5 rounded-lg uppercase w-fit"
                     style={{ background: modalCard.tagColor, color: modalCard.tagTextDark ? '#6b4a00' : 'white' }}
                   >
                     {modalCard.tag}
                   </span>
 
-                  <h3
-                    className="text-2xl font-extrabold leading-snug mb-3"
-                    style={{ fontFamily: 'Poppins, sans-serif' }}
-                  >
-                    {modalCard.title}
-                  </h3>
+                  <div>
+                    <h3
+                      className="text-2xl sm:text-3xl font-extrabold leading-tight"
+                      style={{ fontFamily: 'Poppins, sans-serif', color: 'white' }}
+                    >
+                      {modalCard.title}
+                    </h3>
+                    <p className="text-sm mt-2 leading-relaxed" style={{ color: 'rgba(255,255,255,0.62)' }}>
+                      {modalCard.subtitle}
+                    </p>
+                  </div>
 
-                  <p className="text-sm leading-relaxed mb-6" style={{ color: 'rgba(255,255,255,0.6)' }}>
-                    {modalCard.subtitle}
-                  </p>
+                  {/* Accent divider */}
+                  <div style={{ width: 40, height: 3, borderRadius: 99, background: modalCard.tagColor }} />
 
-                  <div className="w-10 h-0.5 rounded-full mb-6" style={{ background: modalCard.tagColor }} />
-
-                  <p className="text-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.38)' }}>
+                  <p className="text-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.35)' }}>
                     Tap below to open the full lesson — illustrations, explanations &amp; a quiz.
                   </p>
                 </div>
 
+                {/* Bottom: CTA + Close buttons */}
                 <div className="flex flex-col gap-3 mt-8">
                   <motion.button
                     whileHover={reduceMotion ? undefined : { scale: 1.03 }}
@@ -1447,7 +1473,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                       if (onTopicSelect) onTopicSelect(modalCard.topicLink);
                       else onStart();
                     }}
-                    className="w-full flex items-center justify-center gap-2.5 py-3.5 rounded-xl font-bold text-sm text-white"
+                    className="w-full flex items-center justify-center gap-2.5 py-4 rounded-2xl font-bold text-sm text-white"
                     style={{ background: 'linear-gradient(135deg,#0d9488,#075f58)', boxShadow: '0 8px 24px rgba(13,148,136,.45)' }}
                   >
                     <ExternalLink className="w-4 h-4" />
@@ -1456,23 +1482,13 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
 
                   <button
                     onClick={() => setModalCard(null)}
-                    className="w-full py-2.5 rounded-xl text-xs font-semibold"
-                    style={{ color: 'rgba(255,255,255,0.35)', background: 'rgba(255,255,255,0.05)' }}
+                    className="w-full py-3 rounded-2xl text-xs font-semibold transition-colors hover:bg-white/10"
+                    style={{ color: 'rgba(255,255,255,0.30)', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.08)' }}
                   >
                     Close
                   </button>
                 </div>
               </div>
-
-              {/* ✕ close */}
-              <button
-                onClick={() => setModalCard(null)}
-                className="absolute top-4 right-4 w-9 h-9 rounded-full flex items-center justify-center text-white z-10"
-                style={{ background: 'rgba(0,0,0,0.55)', backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.15)' }}
-                aria-label="Close"
-              >
-                <X className="w-4 h-4" />
-              </button>
             </motion.div>
           </motion.div>
         )}
