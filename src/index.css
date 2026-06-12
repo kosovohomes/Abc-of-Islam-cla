@@ -150,3 +150,40 @@ body {
 }
 .pulse-glow { animation: pulse-glow 2s infinite; }
 .bounce-in { animation: bounce-in 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; }
+
+/* ── Carousel Modal — Responsive Layout ──────────────────────────── */
+/* Desktop: side-by-side (row). Mobile: stacked (column) */
+@media (max-width: 639px) {
+  .modal-card-inner {
+    flex-direction: column !important;
+    max-height: 92vh !important;
+    overflow-y: auto !important;
+  }
+  .modal-card-inner > div:first-child {
+    /* Image panel on mobile: fixed height, full width */
+    width: 100% !important;
+    flex: none !important;
+    height: 52vw !important;
+    min-height: 200px !important;
+    max-height: 280px !important;
+  }
+  .modal-right-panel {
+    /* Info panel on mobile: full width, auto height */
+    width: 100% !important;
+    flex-shrink: 0 !important;
+    border-left: none !important;
+    border-top: 1px solid rgba(255,255,255,0.06) !important;
+    padding: 24px 20px !important;
+  }
+}
+
+@media (min-width: 640px) {
+  .modal-card-inner {
+    /* On desktop: constrain total height so both panels align */
+    height: min(86vh, 640px);
+  }
+  .modal-card-inner > div:first-child {
+    /* Image fills full height of the row */
+    height: 100%;
+  }
+}
