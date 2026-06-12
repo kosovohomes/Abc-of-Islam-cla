@@ -36,8 +36,47 @@ export default function App() {
   } = useAppStore();
 
   // ── View / navigation state ───────────────────────────────────────────────────
-  const [currentView, setCurrentView] = useState<'landing' | 'grid' | 'topic'>('landing');
-  const [selectedTopicId, setSelectedTopicId] = useState<string>('shahada');
+  // Parse initial state from URL hash (e.g. #/topic/shahada, #/topics, #/)
+  const parseHashState = (): { view: 'landing' | 'grid' | 'topic'; topicId: string } => {
+    if (typeof window === 'undefined') return { view: 'landing', topicId: 'shahada' };
+    const hash = window.location.hash.replace(/^#\//, '');
+    if (hash.startsWith('topic/')) {
+      const id = hash.slice('topic/'.length) || 'shahada';
+      return { view: 'topic', topicId: id };
+    }
+    if (hash === 'topics') return { view: 'grid', topicId: 'shahada' };
+    return { view: 'landing', topicId: 'shahada' };
+  };
+
+  const [currentView, setCurrentView] = useState<'landing' | 'grid' | 'topic'>(() => parseHashState().view);
+  const [selectedTopicId, setSelectedTopicId] = useState<string>(() => parseHashState().topicId);
+
+  // Keep URL hash in sync with view state
+  const pushHash = (view: 'landing' | 'grid' | 'topic', topicId?: string) => {
+    if (typeof window === 'undefined') return;
+    let hash = '#/';
+    if (view === 'grid') hash = '#/topics';
+    else if (view === 'topic' && topicId) hash = `#/topic/${topicId}`;
+    if (window.location.hash !== hash) {
+      window.history.pushState(null, '', hash);
+    }
+  };
+
+  // Sync hash → state when user presses Back/Forward
+  useEffect(() => {
+    const onPopState = () => {
+      const { view, topicId } = parseHashState();
+      setCurrentView(view);
+      setSelectedTopicId(topicId);
+    };
+    window.addEventListener('popstate', onPopState);
+    return () => window.removeEventListener('popstate', onPopState);
+  }, []);
+
+  // Sync state → hash whenever view or topic changes
+  useEffect(() => {
+    pushHash(currentView, selectedTopicId);
+  }, [currentView, selectedTopicId]);
 
   // ── Overlay state ─────────────────────────────────────────────────────────────
   const [showBadges, setShowBadges] = useState(false);
@@ -293,8 +332,7 @@ export default function App() {
   const handleTopicSelect = (topicId: string) => {
     setSelectedTopicId(topicId);
     setCurrentView('topic');
-    // No explicit quiz reset needed: TopicReader uses key={selectedTopicId},
-    // so it fully remounts (and QuizPanel resets) whenever the topic changes.
+    // URL is synced via the useEffect above
   };
 
   const handleNavigateNext = () => {
