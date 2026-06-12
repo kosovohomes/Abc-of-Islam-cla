@@ -117,6 +117,19 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const [activeAge, setActiveAge] = useState<'Beginner' | 'Explorer' | 'Thinker'>('Explorer');
   const [modalCard, setModalCard] = useState<typeof topicCards[number] | null>(null);
+  const [showAuthModal, setShowAuthModal] = useState(false);
+  const [authTab, setAuthTab] = useState<'signin' | 'signup'>('signin');
+  const [authEmail, setAuthEmail] = useState('');
+  const [authPassword, setAuthPassword] = useState('');
+  const [authName, setAuthName] = useState('');
+  const [authError, setAuthError] = useState('');
+  const [authSuccess, setAuthSuccess] = useState('');
+  const [currentUser, setCurrentUser] = useState<{ name: string; email: string } | null>(() => {
+    try {
+      const stored = localStorage.getItem('abc_islam_user');
+      return stored ? JSON.parse(stored) : null;
+    } catch { return null; }
+  });
   const carouselRef = useRef<HTMLDivElement>(null);
   const isDragging = useRef(false);
   const startX = useRef(0);
@@ -421,16 +434,60 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
           </div>
         </div>
 
-        {/* Sign in */}
-        <motion.button
-          whileHover={reduceMotion ? undefined : { y: -2 }}
-          whileTap={reduceMotion ? undefined : { scale: 0.97 }}
-          className="order-2 md:order-3 inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-2xl bg-gradient-to-br from-[#0d9488] to-[#075f58] text-white text-sm font-bold"
-          style={{ boxShadow: '0 4px 14px rgba(13,148,136,.4)' }}
-        >
-          <Sparkles className="w-4 h-4" />
-          <span className="hidden sm:inline">Sign In</span>
-        </motion.button>
+        {/* Sign In / Sign Up */}
+        {currentUser ? (
+          <div className="order-2 md:order-3 flex items-center gap-2">
+            <motion.div
+              whileHover={reduceMotion ? undefined : { y: -2 }}
+              className={`inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-2xl text-sm font-bold ${
+                theme === 'dark' ? 'bg-[#0e2522] border border-[#1a3d38] text-[#5cd5bd]' : 'bg-white border border-[#c8f4ea] text-[#0a7a70]'
+              }`}
+            >
+              <span className="w-7 h-7 rounded-full bg-gradient-to-br from-[#0d9488] to-[#075f58] text-white flex items-center justify-center text-xs font-black">
+                {currentUser.name.charAt(0).toUpperCase()}
+              </span>
+              <span className="hidden sm:inline">{currentUser.name}</span>
+            </motion.div>
+            <motion.button
+              whileHover={reduceMotion ? undefined : { y: -2 }}
+              whileTap={reduceMotion ? undefined : { scale: 0.97 }}
+              onClick={() => {
+                localStorage.removeItem('abc_islam_user');
+                setCurrentUser(null);
+              }}
+              className={`px-3 py-2.5 rounded-2xl text-xs font-bold transition-colors ${
+                theme === 'dark' ? 'text-[#7fa89f] hover:text-[#5cd5bd]' : 'text-[#4a6b62] hover:text-[#0a7a70]'
+              }`}
+            >
+              Sign out
+            </motion.button>
+          </div>
+        ) : (
+          <div className="order-2 md:order-3 flex items-center gap-2">
+            <motion.button
+              whileHover={reduceMotion ? undefined : { y: -2 }}
+              whileTap={reduceMotion ? undefined : { scale: 0.97 }}
+              onClick={() => { setAuthTab('signin'); setAuthError(''); setAuthSuccess(''); setShowAuthModal(true); }}
+              className={`inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-2xl text-sm font-bold border ${
+                theme === 'dark'
+                  ? 'bg-transparent border-[#0d9488] text-[#5cd5bd] hover:bg-[#0e2522]'
+                  : 'bg-white border-[#0d9488] text-[#0a7a70] hover:bg-[#ecfcf8]'
+              }`}
+            >
+              Sign In
+            </motion.button>
+            <motion.button
+              whileHover={reduceMotion ? undefined : { y: -2 }}
+              whileTap={reduceMotion ? undefined : { scale: 0.97 }}
+              onClick={() => { setAuthTab('signup'); setAuthError(''); setAuthSuccess(''); setShowAuthModal(true); }}
+              className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-2xl bg-gradient-to-br from-[#0d9488] to-[#075f58] text-white text-sm font-bold"
+              style={{ boxShadow: '0 4px 14px rgba(13,148,136,.4)' }}
+            >
+              <Sparkles className="w-4 h-4" />
+              <span className="hidden sm:inline">Sign Up</span>
+            </motion.button>
+          </div>
+        )}
       </header>
 
       {/* ============================================================
@@ -1105,6 +1162,198 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
       </footer>
 
       {/* ============================================================
+         AUTH MODAL — Sign In / Sign Up
+         ============================================================ */}
+      <AnimatePresence>
+        {showAuthModal && (
+          <motion.div
+            key="auth-modal-backdrop"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 z-[110] flex items-center justify-center p-4"
+            style={{ background: 'rgba(0,0,0,0.75)', backdropFilter: 'blur(8px)' }}
+            onClick={() => setShowAuthModal(false)}
+          >
+            <motion.div
+              key="auth-modal-card"
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              transition={{ type: 'spring', stiffness: 280, damping: 24 }}
+              className="relative w-full max-w-md rounded-3xl overflow-hidden"
+              style={{
+                background: theme === 'dark' ? '#0a1a18' : 'white',
+                boxShadow: '0 40px 80px rgba(0,0,0,0.5)',
+                border: theme === 'dark' ? '1px solid #1a3d38' : '1px solid #ecfcf8',
+              }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Header strip */}
+              <div className="h-1.5 w-full bg-gradient-to-r from-[#0d9488] via-[#f5b400] to-[#ff7f5c]" />
+
+              <div className="p-7 sm:p-8">
+                {/* Logo + title */}
+                <div className="text-center mb-6">
+                  <div className="text-4xl mb-2">🕌</div>
+                  <h2
+                    className={`text-2xl font-extrabold ${theme === 'dark' ? 'text-[#5cd5bd]' : 'text-[#075f58]'}`}
+                    style={{ fontFamily: 'Poppins, sans-serif' }}
+                  >
+                    ABC of Islam
+                  </h2>
+                  <p className={`text-sm mt-1 ${theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'}`}>
+                    {authTab === 'signin' ? 'Welcome back! Sign in to continue.' : 'Create your account to get started.'}
+                  </p>
+                </div>
+
+                {/* Tabs */}
+                <div
+                  className={`flex rounded-2xl p-1 mb-6 ${theme === 'dark' ? 'bg-[#0e2522]' : 'bg-[#f0faf8]'}`}
+                >
+                  {(['signin', 'signup'] as const).map((tab) => (
+                    <button
+                      key={tab}
+                      onClick={() => { setAuthTab(tab); setAuthError(''); setAuthSuccess(''); }}
+                      className={`flex-1 py-2.5 rounded-xl text-sm font-bold transition-all ${
+                        authTab === tab
+                          ? 'bg-gradient-to-br from-[#0d9488] to-[#075f58] text-white shadow-md'
+                          : theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'
+                      }`}
+                    >
+                      {tab === 'signin' ? 'Sign In' : 'Sign Up'}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Form */}
+                <div className="space-y-4">
+                  {authTab === 'signup' && (
+                    <div>
+                      <label className={`block text-xs font-bold mb-1.5 ${theme === 'dark' ? 'text-[#a8ccc4]' : 'text-[#0a3a32]'}`}>
+                        Your Name
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="e.g. Aisha"
+                        value={authName}
+                        onChange={(e) => setAuthName(e.target.value)}
+                        className={`w-full px-4 py-3 rounded-xl text-sm outline-none transition-all ${
+                          theme === 'dark'
+                            ? 'bg-[#0e2522] border border-[#1a3d38] text-[#d4e8e3] placeholder-[#4a6b62] focus:border-[#0d9488]'
+                            : 'bg-[#f8fdfc] border border-[#c8f4ea] text-[#06241f] placeholder-[#9bbfb8] focus:border-[#0d9488]'
+                        }`}
+                      />
+                    </div>
+                  )}
+                  <div>
+                    <label className={`block text-xs font-bold mb-1.5 ${theme === 'dark' ? 'text-[#a8ccc4]' : 'text-[#0a3a32]'}`}>
+                      Email Address
+                    </label>
+                    <input
+                      type="email"
+                      placeholder="you@example.com"
+                      value={authEmail}
+                      onChange={(e) => setAuthEmail(e.target.value)}
+                      className={`w-full px-4 py-3 rounded-xl text-sm outline-none transition-all ${
+                        theme === 'dark'
+                          ? 'bg-[#0e2522] border border-[#1a3d38] text-[#d4e8e3] placeholder-[#4a6b62] focus:border-[#0d9488]'
+                          : 'bg-[#f8fdfc] border border-[#c8f4ea] text-[#06241f] placeholder-[#9bbfb8] focus:border-[#0d9488]'
+                      }`}
+                    />
+                  </div>
+                  <div>
+                    <label className={`block text-xs font-bold mb-1.5 ${theme === 'dark' ? 'text-[#a8ccc4]' : 'text-[#0a3a32]'}`}>
+                      Password
+                    </label>
+                    <input
+                      type="password"
+                      placeholder="••••••••"
+                      value={authPassword}
+                      onChange={(e) => setAuthPassword(e.target.value)}
+                      className={`w-full px-4 py-3 rounded-xl text-sm outline-none transition-all ${
+                        theme === 'dark'
+                          ? 'bg-[#0e2522] border border-[#1a3d38] text-[#d4e8e3] placeholder-[#4a6b62] focus:border-[#0d9488]'
+                          : 'bg-[#f8fdfc] border border-[#c8f4ea] text-[#06241f] placeholder-[#9bbfb8] focus:border-[#0d9488]'
+                      }`}
+                    />
+                  </div>
+
+                  {/* Error / success messages */}
+                  {authError && (
+                    <p className="text-xs font-semibold text-red-400 bg-red-50 dark:bg-red-900/20 px-3 py-2 rounded-xl">{authError}</p>
+                  )}
+                  {authSuccess && (
+                    <p className="text-xs font-semibold text-emerald-600 bg-emerald-50 px-3 py-2 rounded-xl">{authSuccess}</p>
+                  )}
+
+                  {/* Submit button */}
+                  <motion.button
+                    whileHover={reduceMotion ? undefined : { y: -2 }}
+                    whileTap={reduceMotion ? undefined : { scale: 0.97 }}
+                    onClick={() => {
+                      setAuthError('');
+                      setAuthSuccess('');
+                      if (!authEmail.includes('@')) { setAuthError('Please enter a valid email.'); return; }
+                      if (authPassword.length < 6) { setAuthError('Password must be at least 6 characters.'); return; }
+
+                      if (authTab === 'signup') {
+                        if (!authName.trim()) { setAuthError('Please enter your name.'); return; }
+                        const existing = localStorage.getItem(`abc_user_${authEmail}`);
+                        if (existing) { setAuthError('An account with this email already exists.'); return; }
+                        const user = { name: authName.trim(), email: authEmail };
+                        localStorage.setItem(`abc_user_${authEmail}`, JSON.stringify({ ...user, password: authPassword }));
+                        localStorage.setItem('abc_islam_user', JSON.stringify(user));
+                        setCurrentUser(user);
+                        setAuthSuccess('Account created! Welcome 🌟');
+                        setTimeout(() => setShowAuthModal(false), 1200);
+                      } else {
+                        const stored = localStorage.getItem(`abc_user_${authEmail}`);
+                        if (!stored) { setAuthError('No account found. Please sign up first.'); return; }
+                        const record = JSON.parse(stored);
+                        if (record.password !== authPassword) { setAuthError('Incorrect password. Please try again.'); return; }
+                        const user = { name: record.name, email: record.email };
+                        localStorage.setItem('abc_islam_user', JSON.stringify(user));
+                        setCurrentUser(user);
+                        setAuthSuccess(`Welcome back, ${user.name}! 🌟`);
+                        setTimeout(() => setShowAuthModal(false), 1200);
+                      }
+                    }}
+                    className="w-full py-3.5 rounded-xl text-white font-bold text-sm"
+                    style={{ background: 'linear-gradient(135deg, #0d9488, #075f58)', boxShadow: '0 8px 24px rgba(13,148,136,.4)' }}
+                  >
+                    {authTab === 'signin' ? 'Sign In →' : 'Create Account →'}
+                  </motion.button>
+
+                  <p className={`text-center text-xs ${theme === 'dark' ? 'text-[#4a6b62]' : 'text-[#9bbfb8]'}`}>
+                    {authTab === 'signin' ? "Don't have an account? " : 'Already have an account? '}
+                    <button
+                      onClick={() => { setAuthTab(authTab === 'signin' ? 'signup' : 'signin'); setAuthError(''); }}
+                      className="font-bold text-[#0d9488] hover:underline"
+                    >
+                      {authTab === 'signin' ? 'Sign Up' : 'Sign In'}
+                    </button>
+                  </p>
+                </div>
+              </div>
+
+              {/* Close button */}
+              <button
+                onClick={() => setShowAuthModal(false)}
+                className={`absolute top-5 right-5 w-8 h-8 rounded-full flex items-center justify-center ${
+                  theme === 'dark' ? 'bg-[#0e2522] text-[#7fa89f]' : 'bg-[#f0faf8] text-[#4a6b62]'
+                }`}
+                aria-label="Close"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* ============================================================
          IMAGE MODAL — opens when a carousel card is clicked
          ============================================================ */}
       <AnimatePresence>
@@ -1115,8 +1364,8 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-8"
-            style={{ background: 'rgba(0,0,0,0.82)', backdropFilter: 'blur(6px)' }}
+            className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6"
+            style={{ background: 'rgba(0,0,0,0.88)', backdropFilter: 'blur(8px)' }}
             onClick={() => setModalCard(null)}
           >
             <motion.div
@@ -1125,38 +1374,41 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.88, y: 30 }}
               transition={{ type: 'spring', stiffness: 260, damping: 22 }}
-              className="relative w-full max-w-lg rounded-3xl overflow-hidden"
-              style={{ boxShadow: '0 40px 100px rgba(0,0,0,0.6)' }}
+              className="relative w-full max-w-2xl rounded-3xl overflow-hidden flex flex-col"
+              style={{
+                background: theme === 'dark' ? '#0c1f1d' : '#071a17',
+                boxShadow: '0 40px 100px rgba(0,0,0,0.7)',
+                maxHeight: '90vh',
+              }}
               onClick={(e) => e.stopPropagation()}
             >
-              {/* Full image */}
-              <img
-                src={modalCard.img}
-                alt={modalCard.title}
-                className="w-full block"
-                style={{ maxHeight: '60vh', objectFit: 'cover' }}
-              />
-
-              {/* Gradient overlay */}
+              {/* Full image — contained so nothing is cropped */}
               <div
-                className="absolute inset-0 pointer-events-none"
-                style={{ background: 'linear-gradient(180deg, transparent 40%, rgba(6,36,31,.95) 100%)' }}
-              />
+                className="w-full flex-shrink-0 flex items-center justify-center"
+                style={{ background: '#000', minHeight: 280, maxHeight: '60vh' }}
+              >
+                <img
+                  src={modalCard.img}
+                  alt={modalCard.title}
+                  className="w-full h-full block"
+                  style={{ maxHeight: '60vh', objectFit: 'contain' }}
+                />
+              </div>
 
               {/* Close button */}
               <button
                 onClick={() => setModalCard(null)}
                 className="absolute top-4 right-4 w-10 h-10 rounded-full flex items-center justify-center text-white"
-                style={{ background: 'rgba(0,0,0,0.5)', backdropFilter: 'blur(4px)' }}
+                style={{ background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.15)' }}
                 aria-label="Close"
               >
                 <X className="w-5 h-5" />
               </button>
 
-              {/* Card info */}
-              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+              {/* Info panel below the image */}
+              <div className="p-6 sm:p-8 text-white flex-shrink-0">
                 <span
-                  className="inline-block text-[10px] font-extrabold tracking-wider px-2.5 py-1 rounded-md mb-2 uppercase"
+                  className="inline-block text-[10px] font-extrabold tracking-wider px-2.5 py-1 rounded-md mb-3 uppercase"
                   style={{
                     background: modalCard.tagColor,
                     color: modalCard.tagTextDark ? '#6b4a00' : 'white',
@@ -1164,10 +1416,13 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                 >
                   {modalCard.tag}
                 </span>
-                <h3 className="text-2xl sm:text-3xl font-extrabold leading-tight mb-1" style={{ textShadow: '0 2px 8px rgba(0,0,0,.6)' }}>
+                <h3
+                  className="text-2xl sm:text-3xl font-extrabold leading-tight mb-1.5"
+                  style={{ fontFamily: 'Poppins, sans-serif' }}
+                >
                   {modalCard.title}
                 </h3>
-                <p className="text-sm opacity-90 font-medium mb-5">{modalCard.subtitle}</p>
+                <p className="text-sm opacity-70 font-medium mb-6">{modalCard.subtitle}</p>
 
                 {/* CTA: go to topic */}
                 <button
@@ -1179,7 +1434,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                       onStart();
                     }
                   }}
-                  className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full text-white font-bold text-sm"
+                  className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full text-white font-bold text-sm"
                   style={{ background: 'linear-gradient(135deg, #0d9488, #075f58)', boxShadow: '0 8px 24px rgba(13,148,136,.5)' }}
                 >
                   <ExternalLink className="w-4 h-4" />
