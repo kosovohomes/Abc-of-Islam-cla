@@ -53,7 +53,7 @@ export const TOPICS: Omit<Topic, 'content' | 'funFact' | 'quiz'>[] = [
   { id: 'ibn_khaldun',        emoji: '📜',  title: 'Ibn Khaldun - Father of Sociology',   image: 'ibn_khaldun.png',    category: 'stories_history' },
 
   // ── Special Times ─────────────────────────────────────────────────────────
-  { id: 'ramadan',     emoji: '🌙',  title: 'Ramadan',     image: 'https://ik.imagekit.io/4zbzbdytp/REPLACE_WITH_RAMADAN_URL.webp',  category: 'special_times' },
+  { id: 'ramadan',     emoji: '🌙',  title: 'Ramadan',     image: 'https://ik.imagekit.io/4zbzbdytp/8_shaving_kids.png?updatedAt=1781117913693',  category: 'special_times' },
   { id: 'eid_al_fitr', emoji: '🎉',  title: 'Eid al-Fitr', image: 'https://ik.imagekit.io/4zbzbdytp/REPLACE_WITH_EID_FITR_URL.webp', category: 'special_times' },
   { id: 'eid_al_adha', emoji: '🐑',  title: 'Eid al-Adha', image: 'eid_adha.webp',                                                   category: 'special_times' },
 ];
