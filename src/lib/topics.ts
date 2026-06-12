@@ -60,7 +60,7 @@ export function getTopicsByCategory(categoryId: string): typeof TOPICS {
   return TOPICS.filter(t => t.category === categoryId);
 }
 export function getTopicById(id: string): typeof TOPICS[number] | undefined {
-  return topics.find(t => t.id === id);
+  return TOPICS.find(t => t.id === id);
 }
 export function getCategoryById(id: string): Category | undefined {
   return CATEGORIES.find(c => c.id === id);

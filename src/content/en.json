@@ -2,7 +2,7 @@
   {
     "id": "shahada",
     "title": "Shahada - Declaration of Faith",
-    "image": "aqeedah.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☪️",
     "category": "pillars_of_islam",
     "content": {
@@ -14,19 +14,31 @@
     "quiz": [
       {
         "q": "What does Shahada mean?",
-        "options": ["Declaration of Faith", "Daily Prayer", "Charity Giving"],
+        "options": [
+          "Declaration of Faith",
+          "Daily Prayer",
+          "Charity Giving"
+        ],
         "correct": 0,
         "explanation": "Shahada means 'Declaration of Faith' — it's the statement that makes someone Muslim."
       },
       {
         "q": "How many parts does the Shahada have?",
-        "options": ["One part", "Two parts", "Three parts"],
+        "options": [
+          "One part",
+          "Two parts",
+          "Three parts"
+        ],
         "correct": 1,
         "explanation": "The Shahada has two parts: believing in one God and believing Muhammad is His messenger."
       },
       {
         "q": "Who is the last prophet mentioned in the Shahada?",
-        "options": ["Prophet Musa", "Prophet Isa", "Prophet Muhammad"],
+        "options": [
+          "Prophet Musa",
+          "Prophet Isa",
+          "Prophet Muhammad"
+        ],
         "correct": 2,
         "explanation": "The Shahada mentions Prophet Muhammad ﷺ as Allah's final messenger."
       }
@@ -35,7 +47,7 @@
   {
     "id": "salah",
     "title": "Salah - Prayer",
-    "image": "prayer_salah.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🤲",
     "category": "pillars_of_islam",
     "content": {
@@ -47,19 +59,31 @@
     "quiz": [
       {
         "q": "How many times a day do Muslims pray?",
-        "options": ["Three times", "Five times", "Seven times"],
+        "options": [
+          "Three times",
+          "Five times",
+          "Seven times"
+        ],
         "correct": 1,
         "explanation": "Muslims pray five times a day: Fajr, Dhuhr, Asr, Maghrib, and Isha."
       },
       {
         "q": "What do we do before praying?",
-        "options": ["Eat food", "Perform wudu (ablution)", "Read a book"],
+        "options": [
+          "Eat food",
+          "Perform wudu (ablution)",
+          "Read a book"
+        ],
         "clean": 1,
         "explanation": "We perform wudu (ablution) to clean ourselves before praying."
       },
       {
         "q": "Which direction do Muslims face when praying?",
-        "options": ["North", "The Kaaba in Mecca", "East"],
+        "options": [
+          "North",
+          "The Kaaba in Mecca",
+          "East"
+        ],
         "correct": 1,
         "explanation": "Muslims face the Kaaba in Mecca, which is called the Qibla."
       }
@@ -68,7 +92,7 @@
   {
     "id": "zakat",
     "title": "Zakat - Charity",
-    "image": "zakat.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_45_zakat_overview-iB69C239XxvYzdfsgqWaNR.webp?updatedAt=1781117902141",
     "emoji": "💰",
     "category": "pillars_of_islam",
     "content": {
@@ -80,19 +104,31 @@
     "quiz": [
       {
         "q": "What percentage of savings is given as Zakat?",
-        "options": ["1%", "2.5%", "10%"],
+        "options": [
+          "1%",
+          "2.5%",
+          "10%"
+        ],
         "correct": 1,
         "explanation": "Muslims give 2.5% (one-fortieth) of their savings as Zakat each year."
       },
       {
         "q": "What does the word 'Zakat' mean?",
-        "options": ["Charity", "Purification", "Prayer"],
+        "options": [
+          "Charity",
+          "Purification",
+          "Prayer"
+        ],
         "correct": 1,
         "explanation": "Zakat means 'purification' — it purifies our wealth and our hearts."
       },
       {
         "q": "Who receives Zakat?",
-        "options": ["Only family", "People in need", "Only the rich"],
+        "options": [
+          "Only family",
+          "People in need",
+          "Only the rich"
+        ],
         "correct": 1,
         "explanation": "Zakat is given to people in need, including the poor, debtors, and travelers."
       }
@@ -101,7 +137,7 @@
   {
     "id": "sawm",
     "title": "Sawm - Fasting in Ramadan",
-    "image": "ramadan_fasting.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_40_ramadan_fasting-SeQhGeRR5buiYbtryMhUKA.webp?updatedAt=1781117899738",
     "emoji": "🌙",
     "category": "pillars_of_islam",
     "content": {
@@ -113,19 +149,31 @@
     "quiz": [
       {
         "q": "During which month do Muslims fast?",
-        "options": ["Muharram", "Ramadan", "Shawwal"],
+        "options": [
+          "Muharram",
+          "Ramadan",
+          "Shawwal"
+        ],
         "correct": 1,
         "explanation": "Muslims fast during the holy month of Ramadan."
       },
       {
         "q": "What is the meal called when we break our fast?",
-        "options": ["Suhoor", "Iftar", "Dhuhr"],
+        "options": [
+          "Suhoor",
+          "Iftar",
+          "Dhuhr"
+        ],
         "correct": 1,
         "explanation": "The meal at sunset to break the fast is called Iftar."
       },
       {
         "q": "What food did Prophet Muhammad ﷺ use to break his fast?",
-        "options": ["Bread", "Dates", "Rice"],
+        "options": [
+          "Bread",
+          "Dates",
+          "Rice"
+        ],
         "correct": 1,
         "explanation": "Prophet Muhammad ﷺ would break his fast with dates and water."
       }
@@ -134,7 +182,7 @@
   {
     "id": "hajj",
     "title": "Hajj - Pilgrimage to Mecca",
-    "image": "hajj_overview.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446",
     "emoji": "🕋",
     "category": "pillars_of_islam",
     "content": {
@@ -146,19 +194,31 @@
     "quiz": [
       {
         "q": "How often must a Muslim perform Hajj?",
-        "options": ["Every year", "Once in a lifetime", "Every 5 years"],
+        "options": [
+          "Every year",
+          "Once in a lifetime",
+          "Every 5 years"
+        ],
         "correct": 1,
         "explanation": "Every Muslim who is able must perform Hajj at least once in their lifetime."
       },
       {
         "q": "What do pilgrims wear during Hajj?",
-        "options": ["Regular clothes", "Simple white clothes called Ihram", "Black clothes"],
+        "options": [
+          "Regular clothes",
+          "Simple white clothes called Ihram",
+          "Black clothes"
+        ],
         "correct": 1,
         "explanation": "Pilgrims wear simple white clothes called Ihram to show everyone is equal."
       },
       {
         "q": "Which prophet's example do pilgrims follow at Hajj?",
-        "options": ["Prophet Musa", "Prophet Ibrahim", "Prophet Isa"],
+        "options": [
+          "Prophet Musa",
+          "Prophet Ibrahim",
+          "Prophet Isa"
+        ],
         "correct": 1,
         "explanation": "Pilgrims follow the example of Prophet Ibrahim ﷺ and his family."
       }
@@ -167,7 +227,7 @@
   {
     "id": "tawheed",
     "title": "Tawheed - Oneness of God",
-    "image": "aqeedah.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☝️",
     "category": "core_beliefs",
     "content": {
@@ -179,19 +239,31 @@
     "quiz": [
       {
         "q": "What does Tawheed mean?",
-        "options": ["Many gods", "Oneness of God", "Prayer"],
+        "options": [
+          "Many gods",
+          "Oneness of God",
+          "Prayer"
+        ],
         "correct": 1,
         "explanation": "Tawheed means the Oneness of God — believing there is only one God, Allah."
       },
       {
         "q": "How many gods does Islam teach us about?",
-        "options": ["Many gods", "Only one God", "Two gods"],
+        "options": [
+          "Many gods",
+          "Only one God",
+          "Two gods"
+        ],
         "correct": 1,
         "explanation": "Islam teaches us that there is only one God — Allah."
       },
       {
         "q": "Which surah of the Quran talks about Tawheed?",
-        "options": ["Al-Fatiha", "Al-Ikhlas", "Al-Baqarah"],
+        "options": [
+          "Al-Fatiha",
+          "Al-Ikhlas",
+          "Al-Baqarah"
+        ],
         "correct": 1,
         "explanation": "Surah Al-Ikhlas (112) talks about the Oneness of God."
       }
@@ -200,7 +272,7 @@
   {
     "id": "angels",
     "title": "Angels",
-    "image": "imgi_10_pillar_duas.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "👼",
     "category": "core_beliefs",
     "content": {
@@ -212,19 +284,31 @@
     "quiz": [
       {
         "q": "What are angels made of?",
-        "options": ["Fire", "Light", "Water"],
+        "options": [
+          "Fire",
+          "Light",
+          "Water"
+        ],
         "correct": 1,
         "explanation": "Angels are created from light."
       },
       {
         "q": "Which angel brought messages to the prophets?",
-        "options": ["Mikail", "Jibril", "Israfil"],
+        "options": [
+          "Mikail",
+          "Jibril",
+          "Israfil"
+        ],
         "correct": 1,
         "explanation": "Jibril (Gabriel) brought Allah's messages to the prophets."
       },
       {
         "q": "Do angels have free will?",
-        "options": ["Yes, they can choose", "No, they always obey Allah", "Sometimes"],
+        "options": [
+          "Yes, they can choose",
+          "No, they always obey Allah",
+          "Sometimes"
+        ],
         "correct": 1,
         "explanation": "Angels always obey Allah — they don't have free will like humans."
       }
@@ -233,7 +317,7 @@
   {
     "id": "holy_books",
     "title": "Holy Books",
-    "image": "quran_arabic.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📕",
     "category": "core_beliefs",
     "content": {
@@ -245,19 +329,31 @@
     "quiz": [
       {
         "q": "Which is the final holy book in Islam?",
-        "options": ["Torah", "Bible", "Quran"],
+        "options": [
+          "Torah",
+          "Bible",
+          "Quran"
+        ],
         "correct": 2,
         "explanation": "The Quran is the final and most complete holy book sent by Allah."
       },
       {
         "q": "Which prophet received the Torah?",
-        "options": ["Prophet Ibrahim", "Prophet Musa", "Prophet Isa"],
+        "options": [
+          "Prophet Ibrahim",
+          "Prophet Musa",
+          "Prophet Isa"
+        ],
         "correct": 1,
         "explanation": "The Torah (Tawrat) was given to Prophet Musa (Moses)."
       },
       {
         "q": "What makes the Quran special?",
-        "options": ["It's the oldest book", "Allah promised to protect it", "It has many pages"],
+        "options": [
+          "It's the oldest book",
+          "Allah promised to protect it",
+          "It has many pages"
+        ],
         "correct": 1,
         "explanation": "Allah promised to protect the Quran from being changed — it's preserved exactly as revealed."
       }
@@ -266,8 +362,8 @@
   {
     "id": "prophets",
     "title": "Prophets of Allah",
-    "image": "prophet_stories.webp",
-    "emoji": "🧑\u200D🏫",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_3_prophet_stories_feature-FtRej2zvGTyPa9u6r2MF85.webp?updatedAt=1781117901347",
+    "emoji": "🧑‍🏫",
     "category": "core_beliefs",
     "content": {
       "starter": "Allah sent many prophets to guide people! We believe in 25 prophets, like Adam, Ibrahim, Musa, Isa, and the last one, Muhammad ﷺ. They were all good people who taught us to worship Allah and be kind to others!",
@@ -278,19 +374,31 @@
     "quiz": [
       {
         "q": "How many prophets are mentioned in the Quran?",
-        "options": ["10", "25", "100"],
+        "options": [
+          "10",
+          "25",
+          "100"
+        ],
         "correct": 1,
         "explanation": "25 prophets are specifically mentioned in the Quran."
       },
       {
         "q": "Who is the last prophet in Islam?",
-        "options": ["Prophet Isa", "Prophet Musa", "Prophet Muhammad"],
+        "options": [
+          "Prophet Isa",
+          "Prophet Musa",
+          "Prophet Muhammad"
+        ],
         "correct": 2,
         "explanation": "Prophet Muhammad ﷺ is the last and final prophet sent by Allah."
       },
       {
         "q": "What did all prophets teach?",
-        "options": ["Different messages", "Worship Allah alone and be kind", "Only pray"],
+        "options": [
+          "Different messages",
+          "Worship Allah alone and be kind",
+          "Only pray"
+        ],
         "correct": 1,
         "explanation": "All prophets taught the same message: worship Allah alone and be good to others."
       }
@@ -299,7 +407,7 @@
   {
     "id": "day_of_judgment",
     "title": "Day of Judgment",
-    "image": "myths_facts.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326",
     "emoji": "⚖️",
     "category": "core_beliefs",
     "content": {
@@ -311,19 +419,31 @@
     "quiz": [
       {
         "q": "What happens on the Day of Judgment?",
-        "options": ["Everyone goes to Paradise", "Everyone is judged for their deeds", "Nothing happens"],
+        "options": [
+          "Everyone goes to Paradise",
+          "Everyone is judged for their deeds",
+          "Nothing happens"
+        ],
         "correct": 1,
         "explanation": "On the Day of Judgment, everyone will be judged for their good and bad deeds."
       },
       {
         "q": "What is the name of Paradise in Arabic?",
-        "options": ["Jannah", "Jahannam", "Dunya"],
+        "options": [
+          "Jannah",
+          "Jahannam",
+          "Dunya"
+        ],
         "correct": 0,
         "explanation": "Paradise is called Jannah in Arabic — it means 'garden'."
       },
       {
         "q": "Will even small deeds be judged?",
-        "options": ["No, only big deeds", "Yes, every single deed", "Only bad deeds"],
+        "options": [
+          "No, only big deeds",
+          "Yes, every single deed",
+          "Only bad deeds"
+        ],
         "correct": 1,
         "explanation": "Every deed, no matter how small, will be weighed on the Day of Judgment."
       }
@@ -332,7 +452,7 @@
   {
     "id": "wudu",
     "title": "Wudu - Ablution",
-    "image": "ablution_wudu.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🚿",
     "category": "daily_practices",
     "content": {
@@ -344,19 +464,31 @@
     "quiz": [
       {
         "q": "What do we perform before praying?",
-        "options": ["Ghusl", "Wudu", "Tayammum"],
+        "options": [
+          "Ghusl",
+          "Wudu",
+          "Tayammum"
+        ],
         "correct": 1,
         "explanation": "We perform wudu (ablution) before praying to clean ourselves."
       },
       {
         "q": "How many steps are in wudu?",
-        "options": ["3 steps", "7 steps", "10 steps"],
+        "options": [
+          "3 steps",
+          "7 steps",
+          "10 steps"
+        ],
         "correct": 1,
         "explanation": "There are 7 main steps in wudu: hands, mouth, nose, face, arms, head, and feet."
       },
       {
         "q": "What does wudu clean besides the body?",
-        "options": ["Our clothes", "Our sins", "Our room"],
+        "options": [
+          "Our clothes",
+          "Our sins",
+          "Our room"
+        ],
         "correct": 1,
         "explanation": "Wudu washes away our small sins — it's spiritual purification too!"
       }
@@ -365,7 +497,7 @@
   {
     "id": "islamic_dress",
     "title": "Islamic Dress",
-    "image": "islamic_dress.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_13_topic_islamic_dress-7whwzZgTnmsVkCdmrsGaFv.webp?updatedAt=1781117899286",
     "emoji": "👗",
     "category": "daily_practices",
     "content": {
@@ -377,19 +509,31 @@
     "quiz": [
       {
         "q": "What is the main purpose of Islamic dress?",
-        "options": ["Fashion", "Modesty", "Uniform"],
+        "options": [
+          "Fashion",
+          "Modesty",
+          "Uniform"
+        ],
         "correct": 1,
         "explanation": "Islamic dress is about modesty and respecting Allah's guidelines."
       },
       {
         "q": "What does 'hijab' mean?",
-        "options": ["Prayer", "Curtain or screen", "Charity"],
+        "options": [
+          "Prayer",
+          "Curtain or screen",
+          "Charity"
+        ],
         "correct": 1,
         "explanation": "The word 'hijab' means 'curtain' or 'screen' in Arabic."
       },
       {
         "q": "For men, what part of the body must be covered?",
-        "options": ["Only the head", "From navel to knees", "Entire body"],
+        "options": [
+          "Only the head",
+          "From navel to knees",
+          "Entire body"
+        ],
         "correct": 1,
         "explanation": "Men must cover from the navel to the knees as a minimum."
       }
@@ -398,7 +542,7 @@
   {
     "id": "halal_food",
     "title": "Halal Food",
-    "image": "halal_haram.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194",
     "emoji": "🍽️",
     "category": "daily_practices",
     "content": {
@@ -410,19 +554,31 @@
     "quiz": [
       {
         "q": "What does 'halal' mean?",
-        "options": ["Forbidden", "Permissible", "Delicious"],
+        "options": [
+          "Forbidden",
+          "Permissible",
+          "Delicious"
+        ],
         "correct": 1,
         "explanation": "Halal means 'permissible' — food that Allah allows us to eat."
       },
       {
         "q": "Which of these is haram (forbidden) in Islam?",
-        "options": ["Chicken", "Fruits", "Pork"],
+        "options": [
+          "Chicken",
+          "Fruits",
+          "Pork"
+        ],
         "correct": 2,
         "explanation": "Pork is haram (forbidden) in Islam."
       },
       {
         "q": "What do Muslims say before eating?",
-        "options": ["Alhamdulillah", "Bismillah", "Subhanallah"],
+        "options": [
+          "Alhamdulillah",
+          "Bismillah",
+          "Subhanallah"
+        ],
         "correct": 1,
         "explanation": "Muslims say 'Bismillah' (In the name of Allah) before eating."
       }
@@ -431,7 +587,7 @@
   {
     "id": "duas",
     "title": "Duas - Supplications",
-    "image": "duas.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_10_pillar_duas-EqyXdQq6eb7Aov9Lmrvy3T.webp?updatedAt=1781117901995",
     "emoji": "🤲",
     "category": "daily_practices",
     "content": {
@@ -443,19 +599,31 @@
     "quiz": [
       {
         "q": "What is a dua?",
-        "options": ["A type of food", "A personal prayer to Allah", "A holy book"],
+        "options": [
+          "A type of food",
+          "A personal prayer to Allah",
+          "A holy book"
+        ],
         "correct": 1,
         "explanation": "A dua is a personal prayer — talking to Allah anytime, anywhere."
       },
       {
         "q": "Can duas be made in any language?",
-        "options": ["Only in Arabic", "Only in English", "Yes, in any language"],
+        "options": [
+          "Only in Arabic",
+          "Only in English",
+          "Yes, in any language"
+        ],
         "correct": 2,
         "explanation": "Duas can be made in any language — Allah understands all languages!"
       },
       {
         "q": "What did the Prophet ﷺ say about dua?",
-        "options": ["Dua is useless", "Dua is the essence of worship", "Only pray at night"],
+        "options": [
+          "Dua is useless",
+          "Dua is the essence of worship",
+          "Only pray at night"
+        ],
         "correct": 1,
         "explanation": "The Prophet ﷺ said: 'Dua is the essence of worship.'"
       }
@@ -464,7 +632,7 @@
   {
     "id": "reading_quran",
     "title": "Reading Quran",
-    "image": "quran_recitation.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📖",
     "category": "daily_practices",
     "content": {
@@ -476,19 +644,31 @@
     "quiz": [
       {
         "q": "Who revealed the Quran to Prophet Muhammad ﷺ?",
-        "options": ["Allah directly", "Angel Jibril", "Angel Mikail"],
+        "options": [
+          "Allah directly",
+          "Angel Jibril",
+          "Angel Mikail"
+        ],
         "correct": 1,
         "explanation": "Angel Jibril (Gabriel) brought the Quran to Prophet Muhammad ﷺ."
       },
       {
         "q": "How many rewards do you get for reading one letter of the Quran?",
-        "options": ["1 reward", "10 rewards", "100 rewards"],
+        "options": [
+          "1 reward",
+          "10 rewards",
+          "100 rewards"
+        ],
         "correct": 1,
         "explanation": "The Prophet ﷺ said each letter of the Quran earns 10 rewards."
       },
       {
         "q": "How many surahs (chapters) are in the Quran?",
-        "options": ["100", "114", "200"],
+        "options": [
+          "100",
+          "114",
+          "200"
+        ],
         "correct": 1,
         "explanation": "The Quran has 114 surahs (chapters)."
       }
@@ -497,7 +677,7 @@
   {
     "id": "honesty",
     "title": "Honesty",
-    "image": "akhlaq.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🤝",
     "category": "islamic_values",
     "content": {
@@ -509,19 +689,31 @@
     "quiz": [
       {
         "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
-        "options": ["Al-Hakim", "Al-Amin", "Al-Karim"],
+        "options": [
+          "Al-Hakim",
+          "Al-Amin",
+          "Al-Karim"
+        ],
         "correct": 1,
         "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
       },
       {
         "q": "Is honesty only about not lying?",
-        "options": ["Yes", "No, it includes sincerity and integrity too", "Sometimes"],
+        "options": [
+          "Yes",
+          "No, it includes sincerity and integrity too",
+          "Sometimes"
+        ],
         "correct": 1,
         "explanation": "Honesty includes being truthful, sincere, and having integrity in everything."
       },
       {
         "q": "What does Allah say about truthful people?",
-        "options": ["They are punished", "He loves them", "They are ignored"],
+        "options": [
+          "They are punished",
+          "He loves them",
+          "They are ignored"
+        ],
         "correct": 1,
         "explanation": "Allah loves truthful people and promises them Paradise."
       }
@@ -530,7 +722,7 @@
   {
     "id": "kindness",
     "title": "Kindness",
-    "image": "helping_poor.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_46_sadaqah_voluntary-metCJkjaZZWHwc3n86346d.webp?updatedAt=1781117902191",
     "emoji": "💕",
     "category": "islamic_values",
     "content": {
@@ -542,19 +734,31 @@
     "quiz": [
       {
         "q": "What did the Prophet ﷺ say about smiling?",
-        "options": ["It's sinful", "It's a form of charity", "It's meaningless"],
+        "options": [
+          "It's sinful",
+          "It's a form of charity",
+          "It's meaningless"
+        ],
         "correct": 1,
         "explanation": "The Prophet ﷺ said even a smile is charity (sadaqah)."
       },
       {
         "q": "Who should we be kind to?",
-        "options": ["Only Muslims", "Only family", "Everyone"],
+        "options": [
+          "Only Muslims",
+          "Only family",
+          "Everyone"
+        ],
         "correct": 2,
         "explanation": "Islam teaches us to be kind to everyone — Muslim or not."
       },
       {
         "q": "What is the most beloved person to Allah?",
-        "options": ["The richest", "The most beautiful", "The most beneficial to others"],
+        "options": [
+          "The richest",
+          "The most beautiful",
+          "The most beneficial to others"
+        ],
         "correct": 2,
         "explanation": "The Prophet ﷺ said the most beloved to Allah are those most beneficial to people."
       }
@@ -563,7 +767,7 @@
   {
     "id": "respect",
     "title": "Respect",
-    "image": "respect_elders.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_17_topic_respect_elders-6wUPfPgJRqgzEPbLKEPMkD.webp?updatedAt=1781117900196",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
@@ -575,19 +779,31 @@
     "quiz": [
       {
         "q": "What comes right after worshipping Allah in importance?",
-        "options": ["Being rich", "Respecting parents", "Going to Hajj"],
+        "options": [
+          "Being rich",
+          "Respecting parents",
+          "Going to Hajj"
+        ],
         "correct": 1,
         "explanation": "The Quran commands us to worship Allah alone, then to honor our parents."
       },
       {
         "q": "How should we treat elders?",
-        "options": ["Ignore them", "With disrespect", "With honor and dignity"],
+        "options": [
+          "Ignore them",
+          "With disrespect",
+          "With honor and dignity"
+        ],
         "correct": 2,
         "explanation": "Islam teaches us to treat elders with honor and dignity."
       },
       {
         "q": "What does 'Adab' mean?",
-        "options": ["Prayer", "Respect and good manners", "Food"],
+        "options": [
+          "Prayer",
+          "Respect and good manners",
+          "Food"
+        ],
         "correct": 1,
         "explanation": "Adab means respect, good manners, and proper etiquette in Islam."
       }
@@ -596,7 +812,7 @@
   {
     "id": "patience",
     "title": "Patience",
-    "image": "shared_values.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🧘",
     "category": "islamic_values",
     "content": {
@@ -608,19 +824,31 @@
     "quiz": [
       {
         "q": "What is 'Sabr'?",
-        "options": ["Prayer", "Patience", "Charity"],
+        "options": [
+          "Prayer",
+          "Patience",
+          "Charity"
+        ],
         "correct": 1,
         "explanation": "Sabr means patience — staying calm during difficulties and trusting Allah."
       },
       {
         "q": "How many times does Allah mention patience in the Quran?",
-        "options": ["5 times", "Over 70 times", "100 times"],
+        "options": [
+          "5 times",
+          "Over 70 times",
+          "100 times"
+        ],
         "correct": 1,
         "explanation": "Allah mentions patience (Sabr) over 70 times in the Quran."
       },
       {
         "q": "What happens to patient people?",
-        "options": ["Nothing", "They are rewarded without limit", "They are punished"],
+        "options": [
+          "Nothing",
+          "They are rewarded without limit",
+          "They are punished"
+        ],
         "correct": 1,
         "explanation": "Allah says the patient will be given their reward without account."
       }
@@ -629,7 +857,7 @@
   {
     "id": "gratitude",
     "title": "Gratitude",
-    "image": "hiba_gifts.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_50_hiba_gifts-6i3784QxV2uUz9RuU6ni4m.webp?updatedAt=1781117899322",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
@@ -641,19 +869,31 @@
     "quiz": [
       {
         "q": "What does 'Shukr' mean?",
-        "options": ["Prayer", "Gratitude", "Fasting"],
+        "options": [
+          "Prayer",
+          "Gratitude",
+          "Fasting"
+        ],
         "correct": 1,
         "explanation": "Shukr means gratitude — being thankful to Allah for His blessings."
       },
       {
         "q": "What does Allah promise to grateful people?",
-        "options": ["Nothing", "He will increase their blessings", "He will punish them"],
+        "options": [
+          "Nothing",
+          "He will increase their blessings",
+          "He will punish them"
+        ],
         "correct": 1,
         "explanation": "Allah says: 'If you are grateful, I will surely increase you.'"
       },
       {
         "q": "What are the three dimensions of gratitude?",
-        "options": ["Heart, tongue, and limbs", "Mind, body, soul", "Morning, afternoon, night"],
+        "options": [
+          "Heart, tongue, and limbs",
+          "Mind, body, soul",
+          "Morning, afternoon, night"
+        ],
         "correct": 0,
         "explanation": "Gratitude is expressed through the heart (recognizing), tongue (thanking), and limbs (using blessings to do good)."
       }
@@ -662,7 +902,7 @@
   {
     "id": "prophet_muhammad",
     "title": "Prophet Muhammad ﷺ",
-    "image": "prophet_journey.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "☪️",
     "category": "stories_history",
     "content": {
@@ -674,19 +914,31 @@
     "quiz": [
       {
         "q": "In which city was Prophet Muhammad ﷺ born?",
-        "options": ["Medina", "Mecca", "Jerusalem"],
+        "options": [
+          "Medina",
+          "Mecca",
+          "Jerusalem"
+        ],
         "correct": 1,
         "explanation": "Prophet Muhammad ﷺ was born in Mecca in 570 CE."
       },
       {
         "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
-        "options": ["Al-Hakim", "Al-Amin", "Al-Karim"],
+        "options": [
+          "Al-Hakim",
+          "Al-Amin",
+          "Al-Karim"
+        ],
         "correct": 1,
         "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
       },
       {
         "q": "How old was Prophet Muhammad ﷺ when he received the first revelation?",
-        "options": ["25", "30", "40"],
+        "options": [
+          "25",
+          "30",
+          "40"
+        ],
         "correct": 2,
         "explanation": "Prophet Muhammad ﷺ was 40 years old when Angel Jibril brought the first revelation."
       }
@@ -695,7 +947,7 @@
   {
     "id": "prophet_ibrahim",
     "title": "Prophet Ibrahim",
-    "image": "imgi_21_topic_abrahamic_religions.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "🏗️",
     "category": "stories_history",
     "content": {
@@ -707,19 +959,31 @@
     "quiz": [
       {
         "q": "What was Prophet Ibrahim known as?",
-        "options": ["Prophet of Thunder", "Friend of Allah", "King of Nations"],
+        "options": [
+          "Prophet of Thunder",
+          "Friend of Allah",
+          "King of Nations"
+        ],
         "correct": 1,
         "explanation": "Ibrahim is called 'Khalilullah' — the Friend of Allah."
       },
       {
         "q": "What did Ibrahim break?",
-        "options": ["The Kaaba", "Idols people worshipped", "A window"],
+        "options": [
+          "The Kaaba",
+          "Idols people worshipped",
+          "A window"
+        ],
         "correct": 1,
         "explanation": "Ibrahim broke the idols people were worshipping to show only Allah deserves worship."
       },
       {
         "q": "What did Allah ask Ibrahim to build?",
-        "options": ["A house", "The Kaaba", "A school"],
+        "options": [
+          "A house",
+          "The Kaaba",
+          "A school"
+        ],
         "correct": 1,
         "explanation": "Allah asked Ibrahim to build the Kaaba in Mecca."
       }
@@ -728,7 +992,7 @@
   {
     "id": "islamic_civilization",
     "title": "Islamic Civilization",
-    "image": "islamic_civilization.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_20_topic_islamic_civilization-gNpeURs5zuRnR3dMvEndDR.webp?updatedAt=1781117902871",
     "emoji": "🏛️",
     "category": "stories_history",
     "content": {
@@ -740,19 +1004,31 @@
     "quiz": [
       {
         "q": "What did Al-Khwarizmi invent?",
-        "options": ["Medicine", "Algebra", "Astronomy"],
+        "options": [
+          "Medicine",
+          "Algebra",
+          "Astronomy"
+        ],
         "correct": 1,
         "explanation": "Al-Khwarizmi invented algebra — the word 'algorithm' comes from his name!"
       },
       {
         "q": "Who built the first university in the world?",
-        "options": ["A Muslim man", "Fatima al-Fihri", "A Greek scholar"],
+        "options": [
+          "A Muslim man",
+          "Fatima al-Fihri",
+          "A Greek scholar"
+        ],
         "correct": 1,
         "explanation": "Fatima al-Fihri, a Muslim woman, built the first university in Morocco in 859 CE."
       },
       {
         "q": "What was the Islamic Golden Age known for?",
-        "options": ["Only art", "Advances in science, math, and medicine", "Only farming"],
+        "options": [
+          "Only art",
+          "Advances in science, math, and medicine",
+          "Only farming"
+        ],
         "correct": 1,
         "explanation": "Muslims made incredible advances in science, math, medicine, and many other fields."
       }
@@ -761,7 +1037,7 @@
   {
     "id": "ramadan",
     "title": "Ramadan",
-    "image": "ramadan_overview.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_39_ramadan_overview-KSNdX85Mzos8r2Xf3JL6rh.webp?updatedAt=1781117901328",
     "emoji": "🌙",
     "category": "special_times",
     "content": {
@@ -773,19 +1049,31 @@
     "quiz": [
       {
         "q": "During which month was the Quran revealed?",
-        "options": ["Muharram", "Ramadan", "Shawwal"],
+        "options": [
+          "Muharram",
+          "Ramadan",
+          "Shawwal"
+        ],
         "correct": 1,
         "explanation": "The Quran was first revealed during the month of Ramadan."
       },
       {
         "q": "What is Laylat al-Qadr?",
-        "options": ["A regular night", "The Night of Power, better than 1,000 months", "The first day of Ramadan"],
+        "options": [
+          "A regular night",
+          "The Night of Power, better than 1,000 months",
+          "The first day of Ramadan"
+        ],
         "correct": 1,
         "explanation": "Laylat al-Qadr (Night of Power) is better than 1,000 months of worship."
       },
       {
         "q": "What is the pre-dawn meal called?",
-        "options": ["Iftar", "Suhoor", "Dhuhr"],
+        "options": [
+          "Iftar",
+          "Suhoor",
+          "Dhuhr"
+        ],
         "correct": 1,
         "explanation": "The pre-dawn meal before fasting is called Suhoor."
       }
@@ -794,7 +1082,7 @@
   {
     "id": "eid_al_fitr",
     "title": "Eid al-Fitr",
-    "image": "eid_fitr.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_42_eid_fitr_celebration-WoRzqkwEMUXtjWTsNNttWJ.webp?updatedAt=1781117904296",
     "emoji": "🎉",
     "category": "special_times",
     "content": {
@@ -806,19 +1094,31 @@
     "quiz": [
       {
         "q": "When is Eid al-Fitr celebrated?",
-        "options": ["Beginning of Ramadan", "End of Ramadan", "Middle of Ramadan"],
+        "options": [
+          "Beginning of Ramadan",
+          "End of Ramadan",
+          "Middle of Ramadan"
+        ],
         "correct": 1,
         "explanation": "Eid al-Fitr is celebrated at the end of Ramadan."
       },
       {
         "q": "What must Muslims give before Eid prayer?",
-        "options": ["More fasting", "Zakat al-Fitr (charity)", "A new car"],
+        "options": [
+          "More fasting",
+          "Zakat al-Fitr (charity)",
+          "A new car"
+        ],
         "correct": 1,
         "explanation": "Zakat al-Fitr is charity given before Eid prayer so the poor can celebrate too."
       },
       {
         "q": "What do we say to others on Eid?",
-        "options": ["Happy Birthday", "Eid Mubarak", "Good Morning"],
+        "options": [
+          "Happy Birthday",
+          "Eid Mubarak",
+          "Good Morning"
+        ],
         "correct": 1,
         "explanation": "We say 'Eid Mubarak' — meaning 'Blessed Eid!'"
       }
@@ -827,7 +1127,7 @@
   {
     "id": "eid_al_adha",
     "title": "Eid al-Adha",
-    "image": "eid_adha.webp",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_43_eid_adha_celebration-a8nckcQaGvn3CYJJy7ta5A.webp?updatedAt=1781117903366",
     "emoji": "🐑",
     "category": "special_times",
     "content": {
@@ -839,19 +1139,31 @@
     "quiz": [
       {
         "q": "What does Eid al-Adha remember?",
-        "options": ["Ramadan ending", "Ibrahim's willingness to sacrifice his son", "The Quran being revealed"],
+        "options": [
+          "Ramadan ending",
+          "Ibrahim's willingness to sacrifice his son",
+          "The Quran being revealed"
+        ],
         "correct": 1,
         "explanation": "Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah."
       },
       {
         "q": "How many parts is the sacrificial meat divided into?",
-        "options": ["One part", "Two parts", "Three parts"],
+        "options": [
+          "One part",
+          "Two parts",
+          "Three parts"
+        ],
         "correct": 2,
         "explanation": "The meat is divided into three: family, friends/neighbors, and the poor."
       },
       {
         "q": "What did Allah send instead of Ibrahim's son?",
-        "options": ["Nothing", "A ram (sheep)", "An angel"],
+        "options": [
+          "Nothing",
+          "A ram (sheep)",
+          "An angel"
+        ],
         "correct": 1,
         "explanation": "Allah sent a ram to be sacrificed instead, accepting Ibrahim's willingness."
       }
@@ -860,7 +1172,7 @@
   {
     "id": "al_khwarizmi",
     "title": "Al-Khwarizmi - Father of Algebra",
-    "image": "al_khwarizmi.png",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_25_scholar_al_khwarizmi-YyTnbwqk77BcABwPTm7CYw.webp?updatedAt=1781117901745",
     "emoji": "📐",
     "category": "stories_history",
     "content": {
@@ -872,19 +1184,31 @@
     "quiz": [
       {
         "q": "What branch of mathematics did Al-Khwarizmi invent?",
-        "options": ["Calculus", "Geometry", "Algebra"],
+        "options": [
+          "Calculus",
+          "Geometry",
+          "Algebra"
+        ],
         "correct": 2,
         "explanation": "Al-Khwarizmi wrote 'Al-Jabr', creating a structured system for solving equations called algebra."
       },
       {
         "q": "Where did Al-Khwarizmi carry out his scientific research?",
-        "options": ["The Pyramids", "The House of Wisdom in Baghdad", "The Library of Alexandria"],
+        "options": [
+          "The Pyramids",
+          "The House of Wisdom in Baghdad",
+          "The Library of Alexandria"
+        ],
         "correct": 1,
         "explanation": "The House of Wisdom in Baghdad was the premier intellectual hub of the Islamic Golden Age."
       },
       {
         "q": "Which modern computer science term is derived from Al-Khwarizmi's name?",
-        "options": ["Hardware", "Algorithm", "Internet"],
+        "options": [
+          "Hardware",
+          "Algorithm",
+          "Internet"
+        ],
         "correct": 1,
         "explanation": "The word 'algorithm' comes from the Latin translation of his name, 'Algoritmi'."
       }
@@ -893,7 +1217,7 @@
   {
     "id": "ibn_sina",
     "title": "Ibn Sina - Father of Medicine",
-    "image": "ibn_sina.png",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_26_scholar_ibn_sina-96S5bSYcoRZXXh4aq6Jx7q.webp?updatedAt=1781117902508",
     "emoji": "🩺",
     "category": "stories_history",
     "content": {
@@ -905,19 +1229,31 @@
     "quiz": [
       {
         "q": "What is the name of Ibn Sina's famous medical textbook?",
-        "options": ["The Book of Wisdom", "The Canon of Medicine", "The Laws of Nature"],
+        "options": [
+          "The Book of Wisdom",
+          "The Canon of Medicine",
+          "The Laws of Nature"
+        ],
         "correct": 1,
         "explanation": "Ibn Sina wrote 'The Canon of Medicine', which remained the standard text for centuries."
       },
       {
         "q": "At what age did Ibn Sina memorize the entire Quran?",
-        "options": ["10 years old", "18 years old", "25 years old"],
+        "options": [
+          "10 years old",
+          "18 years old",
+          "25 years old"
+        ],
         "correct": 0,
         "explanation": "Ibn Sina memorized the Quran at age 10, displaying genius intellect from a very young age."
       },
       {
         "q": "Which medical practice did Ibn Sina pioneer to control the spread of contagious diseases?",
-        "options": ["Acupuncture", "Quarantine", "Plaster casts"],
+        "options": [
+          "Acupuncture",
+          "Quarantine",
+          "Plaster casts"
+        ],
         "correct": 1,
         "explanation": "Ibn Sina hypothesized that diseases spread through microscopic particles and pioneered quarantine methods."
       }
@@ -926,7 +1262,7 @@
   {
     "id": "al_razi",
     "title": "Al-Razi - Pioneer of Chemistry",
-    "image": "al_razi.png",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_27_scholar_al_razi-734zXvqhUQPULCRdzdCjA9.webp?updatedAt=1781117901576",
     "emoji": "🧪",
     "category": "stories_history",
     "content": {
@@ -938,19 +1274,31 @@
     "quiz": [
       {
         "q": "How did Al-Razi choose the cleanest place to build Baghdad's hospital?",
-        "options": ["By asking the king", "By hanging raw meat to see where it decayed slowest", "By measuring water temperature"],
+        "options": [
+          "By asking the king",
+          "By hanging raw meat to see where it decayed slowest",
+          "By measuring water temperature"
+        ],
         "correct": 1,
         "explanation": "He hung meat around the city; the location where the meat stayed fresh longest had the cleanest air."
       },
       {
         "q": "Al-Razi was the first physician in history to distinguish between which two diseases?",
-        "options": ["Smallpox and measles", "Flu and malaria", "Colds and fevers"],
+        "options": [
+          "Smallpox and measles",
+          "Flu and malaria",
+          "Colds and fevers"
+        ],
         "correct": 0,
         "explanation": "His treatise on smallpox and measles was acclaimed internationally and translated into multiple languages."
       },
       {
         "q": "What did Al-Razi classify in his chemical studies?",
-        "options": ["Stars and planets", "Minerals and substances", "Animals and plants"],
+        "options": [
+          "Stars and planets",
+          "Minerals and substances",
+          "Animals and plants"
+        ],
         "correct": 1,
         "explanation": "He created an early classification system for minerals and organic substances, laying foundations for chemistry."
       }
@@ -959,7 +1307,7 @@
   {
     "id": "al_biruni",
     "title": "Al-Biruni - Master of Sciences",
-    "image": "al_biruni.png",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_28_scholar_al_biruni-3CxEZkDDXSfMvzUgmWWyDk.webp?updatedAt=1781117901825",
     "emoji": "🌍",
     "category": "stories_history",
     "content": {
@@ -971,19 +1319,31 @@
     "quiz": [
       {
         "q": "What geographic measurement did Al-Biruni calculate with incredible precision?",
-        "options": ["The depth of the oceans", "The distance to the Moon", "The size (circumference) of the Earth"],
+        "options": [
+          "The depth of the oceans",
+          "The distance to the Moon",
+          "The size (circumference) of the Earth"
+        ],
         "correct": 2,
         "explanation": "Using a mountain and trigonometric formulas, Al-Biruni calculated the radius of the Earth with under 1% error."
       },
       {
         "q": "Al-Biruni wrote 'Kitab al-Hind' after studying the culture and sciences of which region?",
-        "options": ["China", "India", "Greece"],
+        "options": [
+          "China",
+          "India",
+          "Greece"
+        ],
         "correct": 1,
         "explanation": "He traveled extensively in India, learning Sanskrit and writing a comprehensive cultural analysis."
       },
       {
         "q": "Which astronomical instrument did Al-Biruni develop further for navigation?",
-        "options": ["Astrolabe", "Compass", "Microscope"],
+        "options": [
+          "Astrolabe",
+          "Compass",
+          "Microscope"
+        ],
         "correct": 0,
         "explanation": "Al-Biruni designed astronomical maps and improved astrolabes to calculate solar positions and prayer directions."
       }
@@ -992,7 +1352,7 @@
   {
     "id": "al_ghazali",
     "title": "Al-Ghazali - Islamic Philosophy",
-    "image": "al_ghazali.png",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_29_scholar_al_ghazali-hXQACXYZ4iArCEGuBdVNNd.webp?updatedAt=1781117901160",
     "emoji": "💡",
     "category": "stories_history",
     "content": {
@@ -1004,19 +1364,31 @@
     "quiz": [
       {
         "q": "What title is Al-Ghazali famously known as?",
-        "options": ["Father of Physics", "Hujjat al-Islam (Proof of Islam)", "Teacher of East and West"],
+        "options": [
+          "Father of Physics",
+          "Hujjat al-Islam (Proof of Islam)",
+          "Teacher of East and West"
+        ],
         "correct": 1,
         "explanation": "He is renowned as 'Hujjat al-Islam' due to his mastery over theological philosophy."
       },
       {
         "q": "What has Al-Ghazali described as the revival of religious sciences in his masterpiece?",
-        "options": ["Ethics, spirituality, and knowledge of the heart", "Building faster boats", "Learning calculus"],
+        "options": [
+          "Ethics, spirituality, and knowledge of the heart",
+          "Building faster boats",
+          "Learning calculus"
+        ],
         "correct": 0,
         "explanation": "'Ihya Ulum al-Din' focuses on rejuvenating faith, moral character, and spiritual consciousness."
       },
       {
         "q": "According to Al-Ghazali, the objective of obtaining knowledge is:",
-        "options": ["To win debates", "To build noble character and get closer to Allah", "To boast about it"],
+        "options": [
+          "To win debates",
+          "To build noble character and get closer to Allah",
+          "To boast about it"
+        ],
         "correct": 1,
         "explanation": "He taught that intellectual knowledge is worthless unless accompanied by spiritual humility and high ethical standards."
       }
@@ -1025,7 +1397,7 @@
   {
     "id": "fatima_al_fihri",
     "title": "Fatima al-Fihri - First University",
-    "image": "fatima_al_fihri.png",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_30_scholar_fatima_al_fihri-oUUmqToz9ELRTCtWCXgCQn.webp?updatedAt=1781117901536",
     "emoji": "🎓",
     "category": "stories_history",
     "content": {
@@ -1037,19 +1409,31 @@
     "quiz": [
       {
         "q": "In which city and country did Fatima al-Fihri found the oldest university?",
-        "options": ["Cairo, Egypt", "Fez, Morocco", "Baghdad, Iraq"],
+        "options": [
+          "Cairo, Egypt",
+          "Fez, Morocco",
+          "Baghdad, Iraq"
+        ],
         "correct": 1,
         "explanation": "She founded the University of al-Qarawiyyin in the city of Fez, Morocco."
       },
       {
         "q": "What did Fatima do during the construction of Al-Qarawiyyin?",
-        "options": ["She took a long holiday", "She fasted daily until its completion", "She went on a sailing trip"],
+        "options": [
+          "She took a long holiday",
+          "She fasted daily until its completion",
+          "She went on a sailing trip"
+        ],
         "correct": 1,
         "explanation": "As an act of piety, Fatima al-Fihri vowed to fast every single day during the years it took to build."
       },
       {
         "q": "According to UNESCO, what distinction does the University of al-Qarawiyyin hold?",
-        "options": ["Oldest running library only", "Oldest continuously operating, degree-granting university in the world", "First medical school in Europe"],
+        "options": [
+          "Oldest running library only",
+          "Oldest continuously operating, degree-granting university in the world",
+          "First medical school in Europe"
+        ],
         "correct": 1,
         "explanation": "Al-Qarawiyyin has been fully operating and granting college degrees continuously since 859 CE."
       }
@@ -1058,7 +1442,7 @@
   {
     "id": "ibn_khaldun",
     "title": "Ibn Khaldun - Father of Sociology",
-    "image": "ibn_khaldun.png",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_31_scholar_ibn_khaldun-22Tqw9TsmYYVf9NDTfPHYp.webp?updatedAt=1781117901557",
     "emoji": "📜",
     "category": "stories_history",
     "content": {
@@ -1070,19 +1454,31 @@
     "quiz": [
       {
         "q": "What is the title of Ibn Khaldun's world-famous historical introduction book?",
-        "options": ["Al-Muqaddimah (The Introduction)", "The Book of History", "The Golden Age"],
+        "options": [
+          "Al-Muqaddimah (The Introduction)",
+          "The Book of History",
+          "The Golden Age"
+        ],
         "correct": 0,
         "explanation": "He wrote 'Al-Muqaddimah', which analyzed the sociopolitical growth of societies."
       },
       {
         "q": "Which major scientific discipline did Ibn Khaldun pioneer centuries before Western scholars?",
-        "options": ["Sociology and Historiography", "Nuclear Physics", "Marine Biology"],
+        "options": [
+          "Sociology and Historiography",
+          "Nuclear Physics",
+          "Marine Biology"
+        ],
         "correct": 0,
         "explanation": "His systematic analysis of social patterns and historical cycles makes him the father of sociology."
       },
       {
         "q": "What is 'Asabiyyah', the core concept proposed by Ibn Khaldun?",
-        "options": ["Sailing skills", "Social solidarity and cohesion", "Astronomy calculations"],
+        "options": [
+          "Sailing skills",
+          "Social solidarity and cohesion",
+          "Astronomy calculations"
+        ],
         "correct": 1,
         "explanation": "'Asabiyyah' is the community bond or social group solidarity that enables societies to build stable nations."
       }
