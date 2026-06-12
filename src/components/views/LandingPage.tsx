@@ -1,24 +1,16 @@
-import { motion } from 'motion/react';
+import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
 import {
   Sparkles,
   ArrowRight,
   ArrowLeft,
   Shield,
-  Star,
   Heart,
   BookOpen,
-  Volume2,
-  Globe,
   Check,
-  ChevronRight,
-  Moon,
   Sun,
-  Search,
-  Brain,
-  Sprout,
-  Lock,
+  Moon,
 } from 'lucide-react';
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import AgeSelector from '@/components/content/AgeSelector';
 import { t } from '@/lib/translations';
 import type { Locale } from '@/types';
@@ -28,65 +20,141 @@ interface LandingPageV2Props {
   onStart: () => void;
 }
 
+/* =====================================================
+   9 chapter cards with REAL images from the new design
+   ===================================================== */
 const topicCards = [
+  {
+    id: 'hajj',
+    title: 'Hajj',
+    subtitle: 'The sacred journey to Makkah',
+    tag: 'Pilgrimage',
+    tagColor: '#0d9488',
+    img: 'https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446',
+  },
+  {
+    id: 'umrah',
+    title: 'Umrah',
+    subtitle: 'The lesser pilgrimage, full of reward',
+    tag: 'Pilgrimage',
+    tagColor: '#ff7f5c',
+    img: 'https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326',
+  },
   {
     id: 'sadaqah',
     title: 'Sadaqah',
     subtitle: 'Voluntary giving for the love of Allah',
-    badge: 'CHARITY',
-    accent: 'from-emerald-300 via-teal-200 to-cyan-200',
-    icon: '🤲',
-    color: 'text-emerald-900',
+    tag: 'Charity',
+    tagColor: '#f5b400',
+    tagTextDark: true,
+    img: 'https://ik.imagekit.io/4zbzbdytp/imgi_46_sadaqah_voluntary-metCJkjaZZWHwc3n86346d.webp?updatedAt=1781117902191',
   },
   {
     id: 'ramadan',
     title: 'Ramadan',
     subtitle: 'The blessed month of fasting & reflection',
-    badge: 'FASTING',
-    accent: 'from-amber-300 via-orange-300 to-rose-300',
-    icon: '🌙',
-    color: 'text-amber-900',
-    featured: true,
+    tag: 'Fasting',
+    tagColor: '#0d9488',
+    img: 'https://ik.imagekit.io/4zbzbdytp/imgi_39_ramadan_overview-KSNdX85Mzos8r2Xf3JL6rh.webp?updatedAt=1781117901328',
   },
   {
     id: 'myths-facts',
     title: 'Myths & Facts',
     subtitle: 'Separating truth from misconception',
-    badge: 'TRUTH',
-    accent: 'from-sky-300 via-blue-200 to-indigo-200',
-    icon: '🧠',
-    color: 'text-sky-900',
+    tag: 'Truth',
+    tagColor: '#ff7f5c',
+    img: 'https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326',
   },
   {
-    id: 'prayer',
-    title: 'The 5 Daily Prayers',
-    subtitle: 'Connecting with Allah five times a day',
-    badge: 'PRAYER',
-    accent: 'from-violet-300 via-purple-200 to-fuchsia-200',
-    icon: '🕌',
-    color: 'text-violet-900',
+    id: 'prophet-muhammad',
+    title: 'Prophet Muhammad ﷺ',
+    subtitle: 'The journey of the final messenger',
+    tag: 'Prophet',
+    tagColor: '#f5b400',
+    tagTextDark: true,
+    img: 'https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256',
   },
   {
-    id: 'prophets',
+    id: 'prophet-stories',
     title: 'Stories of Prophets',
-    subtitle: 'Inspiring tales of faith and courage',
-    badge: 'STORIES',
-    accent: 'from-rose-300 via-pink-200 to-orange-200',
-    icon: '📖',
-    color: 'text-rose-900',
+    subtitle: 'Adam, Nuh, Musa & more — timeless tales',
+    tag: 'Stories',
+    tagColor: '#0d9488',
+    img: 'https://ik.imagekit.io/4zbzbdytp/imgi_3_prophet_stories_feature-FtRej2zvGTyPa9u6r2MF85.webp?updatedAt=1781117901347',
+  },
+  {
+    id: 'eid',
+    title: 'Eid al-Fitr & Eid al-Adha',
+    subtitle: 'Two joyful celebrations for Muslims',
+    tag: 'Celebration',
+    tagColor: '#ff7f5c',
+    img: 'https://ik.imagekit.io/4zbzbdytp/imgi_44_eid_fitr_vs_adha-5iDNf8qryiopWpY9KdzQY6.webp?updatedAt=1781117900159',
+  },
+  {
+    id: 'halal-haram',
+    title: 'Halal & Haram',
+    subtitle: 'Understanding what is permitted in Islam',
+    tag: 'Lifestyle',
+    tagColor: '#0a7a70',
+    img: 'https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194',
   },
 ];
 
 export default function LandingPageV2({ locale, onStart }: LandingPageV2Props) {
-  const [activeSlide, setActiveSlide] = useState(2); // Center card (Ramadan)
+  const [activeSlide, setActiveSlide] = useState(0);
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [activeAge, setActiveAge] = useState<'Beginner' | 'Explorer' | 'Thinker'>('Explorer');
   const carouselRef = useRef<HTMLDivElement>(null);
+  const isDragging = useRef(false);
+  const startX = useRef(0);
+  const scrollLeft = useRef(0);
+  const reduceMotion = useReducedMotion();
 
-  const slideNext = () => {
-    setActiveSlide((prev) => (prev + 1) % topicCards.length);
+  /* Auto-center the active slide */
+  useEffect(() => {
+    if (!carouselRef.current) return;
+    const container = carouselRef.current;
+    const card = container.children[activeSlide] as HTMLElement | undefined;
+    if (!card) return;
+    const target = card.offsetLeft - container.clientWidth / 2 + card.clientWidth / 2;
+    container.scrollTo({ left: target, behavior: reduceMotion ? 'auto' : 'smooth' });
+  }, [activeSlide, reduceMotion]);
+
+  /* Drag-to-scroll on the carousel */
+  const onPointerDown = (e: React.PointerEvent) => {
+    if (!carouselRef.current) return;
+    isDragging.current = true;
+    startX.current = e.pageX - carouselRef.current.offsetLeft;
+    scrollLeft.current = carouselRef.current.scrollLeft;
+    carouselRef.current.style.cursor = 'grabbing';
+    carouselRef.current.style.scrollBehavior = 'auto';
   };
-  const slidePrev = () => {
-    setActiveSlide((prev) => (prev - 1 + topicCards.length) % topicCards.length);
+  const onPointerMove = (e: React.PointerEvent) => {
+    if (!isDragging.current || !carouselRef.current) return;
+    e.preventDefault();
+    const x = e.pageX - carouselRef.current.offsetLeft;
+    carouselRef.current.scrollLeft = scrollLeft.current - (x - startX.current) * 1.4;
+  };
+  const onPointerUp = () => {
+    if (!carouselRef.current) return;
+    isDragging.current = false;
+    carouselRef.current.style.cursor = 'grab';
+    carouselRef.current.style.scrollBehavior = 'smooth';
+    // snap to nearest card
+    const container = carouselRef.current;
+    const center = container.scrollLeft + container.clientWidth / 2;
+    let nearest = 0;
+    let nearestDist = Infinity;
+    Array.from(container.children).forEach((c, i) => {
+      const el = c as HTMLElement;
+      const cardCenter = el.offsetLeft + el.clientWidth / 2;
+      const dist = Math.abs(cardCenter - center);
+      if (dist < nearestDist) {
+        nearestDist = dist;
+        nearest = i;
+      }
+    });
+    setActiveSlide(nearest);
   };
 
   return (
@@ -95,451 +163,923 @@ export default function LandingPageV2({ locale, onStart }: LandingPageV2Props) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen w-full bg-gradient-to-b from-[#FFF7ED] via-[#FEF3E2] to-[#FFEDD5] text-slate-800 relative overflow-x-hidden"
+      className={`min-h-screen w-full relative overflow-x-hidden font-['Poppins','Tajawal','system-ui'] ${
+        theme === 'dark'
+          ? 'bg-gradient-to-b from-[#0a1a18] via-[#0c2420] to-[#081e1b] text-[#d4e8e3]'
+          : 'bg-gradient-to-b from-[#fdf6ee] via-[#f0ece4] to-[#e8f0f0] text-[#06241f]'
+      }`}
     >
-      {/* ============ TOP NAV ============ */}
-      <header className="relative z-30 w-full px-4 sm:px-8 py-4 flex items-center justify-between gap-3 max-w-7xl mx-auto">
-        {/* Logo */}
-        <div className="flex items-center gap-2.5">
-          <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-emerald-400 via-teal-500 to-cyan-600 flex items-center justify-center shadow-md shadow-teal-200">
-            <BookOpen className="w-5 h-5 text-white" strokeWidth={2.5} />
-          </div>
+      {/* ============================================================
+         ANIMATED BACKGROUND (radial pulse + stars + falling lanterns)
+         ============================================================ */}
+      <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+        <motion.div
+          className="absolute inset-0"
+          style={{
+            background:
+              theme === 'dark'
+                ? 'radial-gradient(circle at 15% 15%, rgba(13,148,136,.06), transparent 45%), radial-gradient(circle at 85% 25%, rgba(245,180,0,.04), transparent 45%), radial-gradient(circle at 50% 75%, rgba(78,167,255,.04), transparent 50%)'
+                : 'radial-gradient(circle at 15% 15%, rgba(13,148,136,.15), transparent 45%), radial-gradient(circle at 85% 25%, rgba(245,180,0,.10), transparent 45%), radial-gradient(circle at 50% 75%, rgba(78,167,255,.10), transparent 50%)',
+          }}
+          animate={
+            reduceMotion
+              ? undefined
+              : { scale: [1, 1.1, 1], rotate: [0, 1.5, 0] }
+          }
+          transition={{ duration: 20, ease: 'easeInOut', repeat: Infinity }}
+        />
+
+        {/* Twinkling stars */}
+        {[
+          { x: 8, y: 12, big: false, color: 'var(--teal-400, #2bbfa1)' },
+          { x: 22, y: 6, big: true, color: '#fbcb4d' },
+          { x: 35, y: 18, big: false, color: 'var(--teal-400, #2bbfa1)' },
+          { x: 50, y: 9, big: true, color: '#ff7f5c' },
+          { x: 64, y: 22, big: false, color: 'var(--teal-400, #2bbfa1)' },
+          { x: 78, y: 14, big: true, color: '#ff97c2' },
+          { x: 90, y: 6, big: false, color: '#fbcb4d' },
+          { x: 15, y: 78, big: false, color: '#ff7f5c' },
+          { x: 75, y: 88, big: true, color: 'var(--teal-400, #2bbfa1)' },
+          { x: 45, y: 92, big: false, color: '#ff97c2' },
+        ].map((s, i) => (
+          <motion.span
+            key={i}
+            className="absolute rounded-full"
+            style={{
+              left: `${s.x}%`,
+              top: `${s.y}%`,
+              width: s.big ? 6 : 4,
+              height: s.big ? 6 : 4,
+              background: s.color,
+              boxShadow: `0 0 ${s.big ? 10 : 8}px ${s.color}`,
+            }}
+            animate={
+              reduceMotion
+                ? undefined
+                : { opacity: [0.15, 1, 0.15], scale: [0.9, 1.4, 0.9] }
+            }
+            transition={{
+              duration: 3,
+              ease: 'easeInOut',
+              repeat: Infinity,
+              delay: i * 0.3,
+            }}
+          />
+        ))}
+
+        {/* Falling lanterns */}
+        {[
+          { left: 10, delay: 0 },
+          { left: 28, delay: 3 },
+          { left: 48, delay: 6 },
+          { left: 68, delay: 9 },
+          { left: 88, delay: 12 },
+        ].map((l, i) => (
+          <motion.span
+            key={`lantern-${i}`}
+            className="absolute w-8 h-13 rounded-md"
+            style={{
+              top: -40,
+              left: `${l.left}%`,
+              width: 32,
+              height: 52,
+              background: 'linear-gradient(180deg, #fbcb4d, #f5b400)',
+              borderRadius: '8px 8px 12px 12px',
+              boxShadow: '0 0 30px rgba(245,180,0,.45)',
+            }}
+            animate={
+              reduceMotion
+                ? undefined
+                : { y: ['0vh', '60vh', '110vh'], rotate: [-2, 3, -2], opacity: [0, 1, 1, 0] }
+            }
+            transition={{
+              duration: 14,
+              ease: 'linear',
+              repeat: Infinity,
+              delay: l.delay,
+            }}
+          />
+        ))}
+      </div>
+
+      {/* ============================================================
+         TOP NAV
+         ============================================================ */}
+      <header className="relative z-30 flex items-center justify-between gap-3 px-4 sm:px-8 py-4 sm:py-5 max-w-[1320px] mx-auto flex-wrap">
+        {/* Brand */}
+        <motion.div
+          className="flex items-center gap-3 cursor-pointer"
+          whileHover={reduceMotion ? undefined : { scale: 1.05, rotate: -2 }}
+          transition={{ type: 'spring', stiffness: 300 }}
+        >
+          <motion.div
+            className="w-12 h-12 sm:w-13 sm:h-13 rounded-2xl overflow-hidden flex items-center justify-center bg-gradient-to-br from-[#0d9488] to-[#075f58]"
+            style={{ width: 52, height: 52, borderRadius: 16 }}
+            animate={
+              reduceMotion
+                ? undefined
+                : {
+                    boxShadow: [
+                      '0 8px 22px rgba(13,148,136,.4)',
+                      '0 8px 32px rgba(13,148,136,.7), 0 0 0 8px rgba(13,148,136,.18)',
+                      '0 8px 22px rgba(13,148,136,.4)',
+                    ],
+                  }
+            }
+            transition={{ duration: 3, ease: 'easeInOut', repeat: Infinity }}
+          >
+            <img
+              src="/images/brand-mark.jpg"
+              alt="ABC of Islam"
+              className="w-full h-full object-cover"
+              style={{ borderRadius: 14 }}
+            />
+          </motion.div>
           <div className="leading-tight">
-            <div className="font-serif font-extrabold text-teal-900 text-base sm:text-lg">ABC of Islam</div>
-            <div className="text-[9px] sm:text-[10px] font-bold uppercase tracking-widest text-teal-700/70">
+            <div
+              className={`font-extrabold text-base sm:text-lg ${
+                theme === 'dark' ? 'text-[#5cd5bd]' : 'text-[#075f58]'
+              }`}
+              style={{ fontFamily: 'Poppins, sans-serif' }}
+            >
+              ABC of Islam
+            </div>
+            <div
+              className={`text-[9px] sm:text-[10px] font-semibold uppercase tracking-[2px] ${
+                theme === 'dark' ? 'text-[#a8ccc4]' : 'text-[#4a6b62]'
+              }`}
+              style={{ fontFamily: 'Caveat, cursive', textTransform: 'uppercase', letterSpacing: 2 }}
+            >
               A Journey of Faith
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        {/* Center: theme + age selector */}
-        <div className="hidden md:flex items-center gap-3">
-          <div className="flex items-center bg-white border-2 border-teal-100 rounded-full p-1 shadow-sm">
-            <button
+        {/* Center: theme + age pills */}
+        <div className="order-3 md:order-2 w-full md:w-auto flex items-center gap-2 sm:gap-3 overflow-x-auto md:overflow-visible">
+          {/* Theme toggle */}
+          <div
+            className={`flex items-center rounded-2xl p-1 backdrop-blur-md ${
+              theme === 'dark'
+                ? 'bg-[#0a1a18]/85 border border-[#0d9488]/30'
+                : 'bg-white/85 border border-[#0d9488]/20 shadow-sm'
+            }`}
+            style={{ boxShadow: theme === 'dark' ? undefined : '0 4px 12px rgba(13,148,136,.08)' }}
+          >
+            <motion.button
               onClick={() => setTheme('light')}
-              className={`w-9 h-9 rounded-full flex items-center justify-center transition-all ${
+              whileHover={reduceMotion ? undefined : { y: -2 }}
+              className={`w-9 h-9 rounded-xl flex items-center justify-center transition-colors ${
                 theme === 'light' ? 'bg-amber-100 text-amber-600' : 'text-slate-400 hover:text-slate-600'
               }`}
               aria-label="Light mode"
             >
               <Sun className="w-4 h-4" />
-            </button>
-            <button
+            </motion.button>
+            <motion.button
               onClick={() => setTheme('dark')}
-              className={`w-9 h-9 rounded-full flex items-center justify-center transition-all ${
+              whileHover={reduceMotion ? undefined : { y: -2 }}
+              className={`w-9 h-9 rounded-xl flex items-center justify-center transition-colors ${
                 theme === 'dark' ? 'bg-indigo-100 text-indigo-600' : 'text-slate-400 hover:text-slate-600'
               }`}
               aria-label="Dark mode"
             >
               <Moon className="w-4 h-4" />
-            </button>
+            </motion.button>
           </div>
-          <div className="flex items-center bg-white border-2 border-teal-100 rounded-full p-1 shadow-sm">
+
+          {/* Age pills */}
+          <div
+            className={`flex items-center rounded-2xl p-1 backdrop-blur-md ${
+              theme === 'dark'
+                ? 'bg-[#0a1a18]/85 border border-[#0d9488]/30'
+                : 'bg-white/85 border border-[#0d9488]/20 shadow-sm'
+            }`}
+            style={{ boxShadow: theme === 'dark' ? undefined : '0 4px 12px rgba(13,148,136,.08)' }}
+          >
             {[
-              { label: 'Beginner', color: 'bg-emerald-100 text-emerald-800' },
-              { label: 'Explorer', color: 'bg-teal-100 text-teal-800', active: true },
-              { label: 'Thinker', color: 'bg-rose-100 text-rose-800' },
-            ].map((lvl) => (
-              <button
-                key={lvl.label}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
-                  lvl.active ? lvl.color + ' shadow-sm' : 'text-slate-500 hover:text-slate-700'
-                }`}
-              >
-                {lvl.label}
-                <span className={`ml-1.5 w-1.5 h-1.5 rounded-full inline-block ${lvl.active ? 'bg-current' : 'bg-slate-300'}`} />
-              </button>
-            ))}
+              { label: 'Beginner', dotColor: '#0d9488' },
+              { label: 'Explorer', dotColor: '#0d9488', active: true },
+              { label: 'Thinker', dotColor: '#ff6fa5' },
+            ].map((lvl) => {
+              const active = (lvl.label === 'Explorer' && theme === 'light') || (lvl.label === activeAge && theme === 'dark');
+              return (
+                <motion.button
+                  key={lvl.label}
+                  whileHover={reduceMotion ? undefined : { y: -2, backgroundColor: theme === 'dark' ? 'rgba(13,148,136,.15)' : '#ecfcf8', color: theme === 'dark' ? '#5cd5bd' : '#0a7a70' }}
+                  className={`px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-colors flex items-center gap-1.5 ${
+                    active
+                      ? 'text-white shadow-md'
+                      : theme === 'dark'
+                      ? 'text-[#a8ccc4]'
+                      : 'text-[#0a3a32]'
+                  }`}
+                  style={
+                    active
+                      ? {
+                          background:
+                            lvl.label === 'Thinker'
+                              ? 'linear-gradient(135deg, #ff6fa5, #ff97c2)'
+                              : 'linear-gradient(135deg, #0d9488, #075f58)',
+                          boxShadow: '0 6px 16px rgba(13,148,136,.4)',
+                        }
+                      : undefined
+                  }
+                >
+                  {lvl.label}
+                  <motion.span
+                    className="w-2 h-2 rounded-full"
+                    style={{
+                      background: lvl.dotColor,
+                      boxShadow: lvl.label === 'Thinker' ? '0 0 8px #ffc8df' : '0 0 8px #93e7d5',
+                    }}
+                    animate={
+                      reduceMotion ? undefined : { scale: [1, 1.5, 1], opacity: [1, 0.6, 1] }
+                    }
+                    transition={{ duration: 1.6, ease: 'easeInOut', repeat: Infinity }}
+                  />
+                </motion.button>
+              );
+            })}
           </div>
         </div>
 
         {/* Sign in */}
-        <button className="inline-flex items-center gap-1.5 px-4 sm:px-5 py-2.5 rounded-full bg-gradient-to-r from-teal-600 to-emerald-600 text-white text-sm font-bold shadow-md shadow-teal-200 hover:shadow-lg hover:scale-[1.03] transition-all">
+        <motion.button
+          whileHover={reduceMotion ? undefined : { y: -2 }}
+          whileTap={reduceMotion ? undefined : { scale: 0.97 }}
+          className="order-2 md:order-3 inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 rounded-2xl bg-gradient-to-br from-[#0d9488] to-[#075f58] text-white text-sm font-bold"
+          style={{ boxShadow: '0 4px 14px rgba(13,148,136,.4)' }}
+        >
           <Sparkles className="w-4 h-4" />
           <span className="hidden sm:inline">Sign In</span>
-        </button>
+        </motion.button>
       </header>
 
-      {/* ============ HERO ILLUSTRATED BANNER ============ */}
-      <section className="relative px-4 sm:px-8 pt-2 pb-6 max-w-6xl mx-auto">
+      {/* ============================================================
+         HERO
+         ============================================================ */}
+      <section className="relative z-10 px-4 sm:px-8 pt-2 pb-6 max-w-[1280px] mx-auto">
+        {/* Hero banner — REAL IMAGE */}
         <motion.div
-          initial={{ y: 30, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6 }}
-          className="relative rounded-[32px] sm:rounded-[40px] overflow-hidden shadow-2xl shadow-orange-200/60"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: 'easeOut' }}
+          className="w-full max-w-[1100px] mx-auto rounded-3xl sm:rounded-[28px] overflow-hidden"
+          style={{ boxShadow: '0 24px 60px rgba(13,148,136,.2)' }}
         >
-          {/* Hero illustration background — gradient sky + mosque silhouette + kids reading */}
-          <div className="relative h-[320px] sm:h-[420px] md:h-[480px] bg-gradient-to-b from-sky-300 via-sky-200 to-amber-100">
-            {/* Sun rays */}
-            <div className="absolute top-6 left-1/2 -translate-x-1/2 w-32 h-32 bg-yellow-200 rounded-full blur-2xl opacity-70" />
-
-            {/* Stars and moons decorations */}
-            <div className="absolute top-6 left-8 text-yellow-300 text-2xl">⭐</div>
-            <div className="absolute top-12 right-16 text-yellow-400 text-3xl">✨</div>
-            <div className="absolute top-4 right-1/3 text-rose-300 text-2xl">💗</div>
-            <div className="absolute top-20 left-1/4 text-rose-200 text-xl">💗</div>
-            <div className="absolute top-10 right-10 text-2xl">🌙</div>
-
-            {/* Mosque silhouette */}
-            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[55%] flex items-end justify-center gap-1">
-              <div className="w-12 sm:w-16 h-32 sm:h-44 bg-gradient-to-b from-emerald-600 to-emerald-800 rounded-t-full" />
-              <div className="w-20 sm:w-28 h-48 sm:h-64 bg-gradient-to-b from-emerald-500 to-emerald-700 rounded-t-full relative">
-                <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-6 h-6 bg-yellow-300 rounded-full" />
-                <div className="absolute -top-12 left-1/2 -translate-x-1/2 w-2 h-12 bg-emerald-700" />
-                <div className="absolute top-2 left-1/2 -translate-x-1/2 w-10 h-10 bg-emerald-700 rounded-full" />
-              </div>
-              <div className="w-12 sm:w-16 h-32 sm:h-44 bg-gradient-to-b from-emerald-600 to-emerald-800 rounded-t-full" />
-            </div>
-
-            {/* Carpet floor */}
-            <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-rose-300 via-rose-200 to-transparent" />
-
-            {/* Children reading placeholder cards (decorative) */}
-            <div className="absolute bottom-12 left-[6%] w-16 h-20 bg-gradient-to-br from-pink-300 to-rose-400 rounded-lg shadow-lg transform -rotate-6" />
-            <div className="absolute bottom-10 left-[20%] w-16 h-20 bg-gradient-to-br from-emerald-300 to-teal-400 rounded-lg shadow-lg transform rotate-3" />
-            <div className="absolute bottom-12 right-[20%] w-16 h-20 bg-gradient-to-br from-violet-300 to-purple-400 rounded-lg shadow-lg transform -rotate-3" />
-            <div className="absolute bottom-10 right-[6%] w-16 h-20 bg-gradient-to-br from-amber-300 to-orange-400 rounded-lg shadow-lg transform rotate-6" />
-
-            {/* Lanterns */}
-            <div className="absolute bottom-20 right-[8%] w-10 h-14 bg-gradient-to-b from-amber-400 to-amber-600 rounded-b-full shadow-lg" />
-            <div className="absolute bottom-20 left-[8%] w-10 h-14 bg-gradient-to-b from-amber-400 to-amber-600 rounded-b-full shadow-lg" />
-
-            {/* Hero title overlay */}
-            <div className="absolute inset-0 flex items-end justify-center pb-8 sm:pb-10">
-              <div className="bg-white/95 backdrop-blur-sm rounded-full px-6 sm:px-12 py-3 sm:py-4 shadow-xl border-2 border-dashed border-teal-300">
-                <h1 className="font-serif font-extrabold text-3xl sm:text-5xl md:text-6xl flex items-center gap-2 sm:gap-3 leading-none">
-                  <span className="text-teal-600">Islamic</span>
-                  <span className="text-amber-500">Basics</span>
-                  <span className="text-emerald-600">for</span>
-                  <span className="text-rose-500">Kids</span>
-                  <span className="text-3xl sm:text-5xl">⭐</span>
-                </h1>
-              </div>
-            </div>
-
-            {/* Floating sparkles */}
-            <div className="absolute top-1/3 left-12 text-3xl animate-pulse">✨</div>
-            <div className="absolute top-1/2 right-12 text-3xl animate-pulse" style={{ animationDelay: '0.5s' }}>✨</div>
-          </div>
+          <img
+            src="/images/hero-banner.jpg"
+            alt="ABC of Islam — children learning together"
+            className="w-full h-auto block"
+          />
         </motion.div>
+
+        {/* Title + tagline + lead */}
+        <div className="text-center mt-7 sm:mt-8 px-2 sm:px-6">
+          <div className="relative inline-block my-3">
+            <motion.span
+              className="absolute top-1/2 -translate-y-1/2 -left-12 text-3xl"
+              animate={reduceMotion ? undefined : { y: [-3, 3, -3] }}
+              transition={{ duration: 3, ease: 'easeInOut', repeat: Infinity }}
+            >
+              ✨
+            </motion.span>
+            <motion.span
+              className="absolute top-1/2 -translate-y-1/2 -right-12 text-3xl"
+              animate={reduceMotion ? undefined : { y: [3, -3, 3] }}
+              transition={{ duration: 3, ease: 'easeInOut', repeat: Infinity, delay: 1.5 }}
+            >
+              🌟
+            </motion.span>
+
+            <h1
+              className="font-black leading-[0.9] tracking-tight inline-flex items-center justify-center flex-wrap gap-0"
+              style={{
+                fontFamily: 'Poppins, sans-serif',
+                fontSize: 'clamp(52px, 8vw, 100px)',
+                fontWeight: 900,
+                textShadow: '0 2px 0 rgba(13,148,136,.1), 0 6px 30px rgba(13,148,136,.18)',
+              }}
+            >
+              <span className="inline-block whitespace-nowrap">
+                {['A', 'B', 'C'].map((ch, i) => (
+                  <motion.span
+                    key={ch}
+                    initial={{ opacity: 0, y: 20, scale: 0.6 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    transition={{
+                      delay: 0.05 + i * 0.07,
+                      type: 'spring',
+                      stiffness: 350,
+                      damping: 14,
+                    }}
+                    whileHover={reduceMotion ? undefined : { y: -10, scale: 1.12, rotate: -5 }}
+                    className="inline-block cursor-pointer"
+                    style={{
+                      color: i === 0 ? '#0d9488' : i === 1 ? '#f5b400' : '#ff7f5c',
+                      textShadow:
+                        i === 0
+                          ? '0 4px 20px rgba(13,148,136,.35)'
+                          : i === 1
+                          ? '0 4px 20px rgba(245,180,0,.35)'
+                          : '0 4px 20px rgba(255,127,92,.35)',
+                    }}
+                  >
+                    {ch}
+                  </motion.span>
+                ))}
+              </span>
+              <motion.span
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.28 }}
+                className="inline-block mx-4 font-extrabold"
+                style={{ color: '#ff7f5c' }}
+              >
+                of
+              </motion.span>
+              <span className="inline-block whitespace-nowrap ml-2 sm:ml-4">
+                {'Islam'.split('').map((ch, i) => (
+                  <motion.span
+                    key={`islam-${i}`}
+                    initial={{ opacity: 0, y: 60, scale: 0.3 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    transition={{
+                      delay: 0.38 + i * 0.06,
+                      type: 'spring',
+                      stiffness: 250,
+                      damping: 12,
+                    }}
+                    className="inline-block"
+                    style={{ color: '#065e54', textShadow: '0 4px 24px rgba(6,94,84,.4)' }}
+                  >
+                    {ch}
+                  </motion.span>
+                ))}
+              </span>
+            </h1>
+          </div>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.0 }}
+            className="text-3xl sm:text-4xl font-bold mt-1 mb-3"
+            style={{
+              fontFamily: 'Caveat, cursive',
+              color: '#ff7f5c',
+              transform: 'rotate(-2deg)',
+            }}
+          >
+            A Journey of Faith for Young Hearts
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.1 }}
+            className={`max-w-2xl mx-auto text-base sm:text-lg leading-relaxed font-medium ${
+              theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'
+            }`}
+          >
+            Discover the{' '}
+            <span className={`relative inline-block font-extrabold px-1 ${theme === 'dark' ? 'text-[#5cd5bd]' : 'text-[#075f58]'}`}>
+              beautiful world of Islam
+              <span
+                className="absolute bottom-0 left-0 right-0 -z-10 rounded"
+                style={{ height: 8, background: theme === 'dark' ? '#064a45' : '#fde08a', opacity: 0.55 }}
+              />
+            </span>{' '}
+            through{' '}
+            <span className="font-extrabold" style={{ color: '#ff7f5c' }}>
+              26 wonderful topics
+            </span>
+            . Learn through{' '}
+            <span className="font-extrabold" style={{ color: '#f5b400' }}>
+              play
+            </span>{' '}
+            &amp;{' '}
+            <span className="font-extrabold" style={{ color: '#0d9488' }}>
+              growth
+            </span>{' '}
+            with{' '}
+            <span className="font-extrabold" style={{ color: '#0d9488' }}>
+              stories crafted just for you
+            </span>
+            !
+          </motion.p>
+        </div>
       </section>
 
-      {/* ============ TITLE + TAGLINE ============ */}
-      <section className="relative px-4 sm:px-8 py-8 sm:py-12 max-w-4xl mx-auto text-center">
-        <motion.h2
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.1 }}
-          className="font-serif font-extrabold text-5xl sm:text-7xl md:text-8xl leading-none tracking-tight mb-5"
-        >
-          <span className="text-rose-500">A</span>
-          <span className="text-amber-500">B</span>
-          <span className="text-teal-600">C</span>
-          <span className="text-slate-700"> of </span>
-          <span className="text-emerald-700">Islam</span>
-          <span className="text-amber-400 ml-2 text-3xl sm:text-5xl">✦</span>
-          <span className="text-rose-400 ml-1 text-3xl sm:text-5xl">✦</span>
-        </motion.h2>
-
-        <motion.p
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.2 }}
-          className="font-serif italic text-xl sm:text-2xl text-rose-500 mb-5"
-        >
-          A Journey of Faith for Young Hearts
-        </motion.p>
-
-        <motion.p
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.3 }}
-          className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-2xl mx-auto"
-        >
-          Discover the <span className="font-bold text-emerald-700">beautiful world of Islam</span> through{' '}
-          <span className="font-bold text-rose-500">26 wonderful topics</span>. Learn through{' '}
-          <span className="font-bold text-amber-500">play</span> &amp; <span className="font-bold text-teal-600">growth</span> with{' '}
-          <span className="font-bold text-emerald-700">stories crafted just for you</span>!
-        </motion.p>
-      </section>
-
-      {/* ============ STATS CARD ============ */}
-      <section className="px-4 sm:px-8 max-w-5xl mx-auto pb-8">
+      {/* ============================================================
+         STATS BAR
+         ============================================================ */}
+      <section className="relative z-10 px-4 sm:px-8 pb-8 max-w-[1100px] mx-auto">
         <motion.div
-          initial={{ y: 30, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.4 }}
-          className="bg-white rounded-3xl shadow-xl shadow-orange-200/40 border border-orange-100 p-4 sm:p-6 grid grid-cols-2 sm:grid-cols-5 gap-4"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.2, duration: 0.6 }}
+          className={`flex flex-wrap items-stretch justify-center rounded-3xl overflow-hidden ${
+            theme === 'dark' ? 'bg-[#0e2522]' : 'bg-white'
+          }`}
+          style={{ boxShadow: theme === 'dark' ? undefined : '0 12px 30px rgba(13,148,136,.14)' }}
         >
           {[
-            { value: '26', label: 'Topics', color: 'text-rose-500', icon: '✦' },
-            { value: '16', label: 'Languages', color: 'text-sky-500', icon: '🌐' },
-            { value: '100%', label: 'Child Safe', color: 'text-emerald-600', icon: '🛡️' },
-            { value: '3', label: 'Age Levels', color: 'text-amber-500', icon: '🎂' },
-            { value: 'Free', label: 'Forever', color: 'text-rose-500', icon: '♥' },
-          ].map((stat) => (
-            <div key={stat.label} className="flex flex-col items-center text-center py-2">
-              <div className={`text-3xl sm:text-4xl font-serif font-extrabold ${stat.color}`}>{stat.value}</div>
-              <div className="text-xs sm:text-sm text-slate-500 mt-1">
-                <span className="mr-1">{stat.icon}</span>
-                {stat.label}
+            { num: '26', label: 'Topics', emoji: '✨' },
+            { num: '16', label: 'Languages', emoji: '🌐' },
+            { num: '100%', label: 'Child Safe', emoji: '🛡️' },
+            { num: '3', label: 'Age Levels', emoji: '👶' },
+            { num: 'Free', label: 'Forever', emoji: '♥' },
+          ].map((s, i) => (
+            <motion.div
+              key={s.label}
+              whileHover={reduceMotion ? undefined : { backgroundColor: theme === 'dark' ? '#12332f' : '#ecfcf8' }}
+              className={`flex-1 min-w-[140px] sm:min-w-[160px] py-7 px-5 text-center border-r last:border-r-0 ${
+                theme === 'dark' ? 'border-[#1a3d38]' : 'border-[#ecfcf8]'
+              }`}
+            >
+              <div
+                className="text-3xl sm:text-4xl font-black leading-none"
+                style={{ color: theme === 'dark' ? '#2bbfa1' : '#0a7a70', fontFamily: 'Poppins, sans-serif' }}
+              >
+                {s.num}
               </div>
-            </div>
+              <div
+                className={`text-xs sm:text-sm font-semibold mt-1 ${
+                  theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'
+                }`}
+              >
+                <span className="mr-1">{s.emoji}</span>
+                {s.label}
+              </div>
+            </motion.div>
           ))}
         </motion.div>
       </section>
 
-      {/* ============ SNEAK PEEK CAROUSEL ============ */}
-      <section className="px-4 sm:px-8 py-12 sm:py-16 max-w-6xl mx-auto">
-        <div className="text-center mb-10">
-          <span className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-rose-100 text-rose-600 text-xs font-bold uppercase tracking-wider rounded-full mb-4">
+      {/* ============================================================
+         SNEAK PEEK CAROUSEL
+         ============================================================ */}
+      <section className="relative z-10 py-8 sm:py-12">
+        <div className="text-center mb-7 px-4">
+          <motion.span
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.3 }}
+            className="inline-flex items-center gap-2 px-4 py-1.5 bg-gradient-to-br from-[#ff7f5c] to-[#e25c3a] text-white text-xs font-extrabold uppercase tracking-wider rounded-full mb-3"
+            style={{ boxShadow: '0 6px 18px rgba(255,127,92,.35)' }}
+          >
             <span>📖</span> Sneak Peek
-          </span>
-          <h3 className="font-serif font-extrabold text-3xl sm:text-5xl text-teal-900 mb-3">
-            Topics <span className="text-rose-500">♥</span> Waiting for You
-          </h3>
-          <p className="text-sm sm:text-base text-slate-500">Drag to explore the chapters of this beautiful journey</p>
+          </motion.span>
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.4 }}
+            className={`text-3xl sm:text-5xl font-black leading-tight ${
+              theme === 'dark' ? 'text-[#5cd5bd]' : 'text-[#075f58]'
+            }`}
+            style={{ fontFamily: 'Poppins, sans-serif' }}
+          >
+            Topics{' '}
+            <motion.span
+              animate={reduceMotion ? undefined : { scale: [1, 1.15, 1] }}
+              transition={{ duration: 1.4, ease: 'easeInOut', repeat: Infinity }}
+              className="inline-block"
+              style={{ color: '#ff7f5c' }}
+            >
+              ♥
+            </motion.span>{' '}
+            Waiting for You
+          </motion.h2>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5 }}
+            className={`text-base mt-1 ${theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'}`}
+          >
+            Drag to explore the chapters of this beautiful journey
+          </motion.p>
         </div>
 
-        <div className="relative" ref={carouselRef}>
-          <div className="flex items-center justify-center gap-4 sm:gap-6 overflow-hidden py-6">
+        <div className="relative mx-auto max-w-[1200px] px-4 sm:px-6 py-4 sm:py-6">
+          <div
+            ref={carouselRef}
+            onPointerDown={onPointerDown}
+            onPointerMove={onPointerMove}
+            onPointerUp={onPointerUp}
+            onPointerLeave={onPointerUp}
+            className="flex gap-7 overflow-x-auto snap-x snap-mandatory py-5 px-6"
+            style={{
+              scrollbarWidth: 'none',
+              cursor: 'grab',
+              scrollBehavior: 'smooth',
+              perspective: 1600,
+            }}
+          >
             {topicCards.map((card, idx) => {
-              const offset = idx - activeSlide;
-              const isCenter = offset === 0;
-              const isVisible = Math.abs(offset) <= 2;
-              if (!isVisible) return null;
+              const isActive = idx === activeSlide;
               return (
                 <motion.div
                   key={card.id}
-                  animate={{
-                    scale: isCenter ? 1.05 : 0.85,
-                    opacity: Math.abs(offset) > 1 ? 0.3 : isCenter ? 1 : 0.6,
-                    x: 0,
-                  }}
+                  animate={
+                    reduceMotion
+                      ? undefined
+                      : {
+                          scale: isActive ? 1 : 0.85,
+                          rotateY: isActive ? 0 : 8,
+                          opacity: isActive ? 1 : 0.6,
+                        }
+                  }
                   transition={{ type: 'spring', stiffness: 200, damping: 25 }}
-                  className={`flex-shrink-0 w-56 sm:w-64 cursor-pointer ${
-                    isCenter ? 'z-20' : 'z-10'
-                  }`}
+                  className="flex-shrink-0 w-64 sm:w-72 h-[420px] rounded-3xl overflow-hidden relative snap-center cursor-pointer border-4 border-white"
+                  style={{
+                    background: theme === 'dark' ? '#0e2522' : 'white',
+                    boxShadow: isActive
+                      ? '0 30px 80px rgba(13,148,136,.35)'
+                      : '0 20px 50px rgba(13,148,136,.18)',
+                    transformStyle: 'preserve-3d',
+                  }}
                   onClick={() => setActiveSlide(idx)}
+                  whileHover={reduceMotion ? undefined : { y: -8 }}
                 >
+                  <img
+                    src={card.img}
+                    alt={card.title}
+                    loading="lazy"
+                    className="w-full h-full object-cover block"
+                    style={{ transition: 'transform .6s' }}
+                  />
                   <div
-                    className={`relative bg-gradient-to-br ${card.accent} rounded-3xl p-4 shadow-xl border-2 border-white/60 overflow-hidden ${
-                      isCenter ? 'shadow-2xl ring-4 ring-white/40' : ''
-                    }`}
-                    style={{ minHeight: isCenter ? 360 : 300 }}
+                    className="absolute inset-0"
+                    style={{
+                      background:
+                        'linear-gradient(180deg, transparent 30%, rgba(6,36,31,.85) 100%)',
+                    }}
+                  />
+                  <div
+                    className="absolute inset-0 pointer-events-none"
+                    style={{
+                      background:
+                        'radial-gradient(ellipse at top, rgba(255,255,255,.15), transparent 60%)',
+                    }}
+                  />
+                  <div
+                    className="absolute top-3.5 right-3.5 w-9.5 h-9.5 rounded-full flex items-center justify-center font-black text-sm border-3 border-white"
+                    style={{
+                      width: 38,
+                      height: 38,
+                      background: 'linear-gradient(135deg, #fbcb4d, #f5b400)',
+                      color: '#6b4a00',
+                      boxShadow: '0 4px 12px rgba(0,0,0,.3)',
+                    }}
                   >
-                    {/* Card badge */}
-                    <div className="absolute top-3 left-3 px-2.5 py-0.5 bg-white/90 backdrop-blur-sm rounded-full text-[10px] font-bold uppercase tracking-wider text-slate-700">
-                      {card.badge}
-                    </div>
-                    {/* Card number */}
-                    <div className="absolute top-3 right-3 w-8 h-8 rounded-full bg-amber-300 text-amber-900 flex items-center justify-center font-bold text-sm">
-                      {idx + 1}
-                    </div>
-
-                    {/* Illustration placeholder */}
-                    <div className="mt-8 mb-3 h-32 rounded-2xl bg-white/40 backdrop-blur-sm flex items-center justify-center text-6xl shadow-inner">
-                      {card.icon}
-                    </div>
-
-                    {/* Card content */}
-                    <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-3 mt-2">
-                      <h4 className={`font-serif font-extrabold text-xl ${card.color}`}>{card.title}</h4>
-                      <p className="text-[11px] text-slate-500 mt-1 leading-snug">{card.subtitle}</p>
-                    </div>
+                    {idx + 1}
+                  </div>
+                  <div className="absolute bottom-0 left-0 right-0 p-5 text-white">
+                    <span
+                      className="inline-block text-[10px] font-extrabold tracking-wider px-2.5 py-1 rounded-md mb-2 uppercase"
+                      style={{
+                        background: card.tagColor,
+                        color: card.tagTextDark ? '#6b4a00' : 'white',
+                      }}
+                    >
+                      {card.tag}
+                    </span>
+                    <h3 className="text-xl sm:text-2xl font-extrabold leading-tight" style={{ textShadow: '0 2px 6px rgba(0,0,0,.5)' }}>
+                      {card.title}
+                    </h3>
+                    <p className="text-xs sm:text-[13px] opacity-90 font-medium mt-1">{card.subtitle}</p>
                   </div>
                 </motion.div>
               );
             })}
           </div>
 
-          {/* Carousel controls */}
+          {/* Carousel nav */}
           <div className="flex items-center justify-center gap-4 mt-6">
-            <button
-              onClick={slidePrev}
-              className="w-11 h-11 rounded-full bg-white border-2 border-teal-200 text-teal-700 flex items-center justify-center hover:bg-teal-50 transition-all shadow-sm"
-              aria-label="Previous"
+            <motion.button
+              whileHover={reduceMotion ? undefined : { scale: 1.1, rotate: 8 }}
+              onClick={() => setActiveSlide((p) => (p - 1 + topicCards.length) % topicCards.length)}
+              className={`w-12 h-12 rounded-full flex items-center justify-center text-xl ${
+                theme === 'dark' ? 'bg-[#0e2522] border border-[#1a3d38] text-[#5cd5bd]' : 'bg-white border-2 border-[#2bbfa1] text-[#0a7a70]'
+              }`}
+              style={{ boxShadow: '0 4px 12px rgba(13,148,136,.08)' }}
+              aria-label="Previous chapter"
             >
               <ArrowLeft className="w-5 h-5" />
-            </button>
-            <div className="flex items-center gap-1.5">
-              {topicCards.map((_, idx) => (
+            </motion.button>
+            <div className="flex gap-2">
+              {topicCards.map((_, i) => (
                 <button
-                  key={idx}
-                  onClick={() => setActiveSlide(idx)}
-                  className={`h-2 rounded-full transition-all ${
-                    idx === activeSlide ? 'w-8 bg-teal-600' : 'w-2 bg-teal-200'
-                  }`}
-                  aria-label={`Go to slide ${idx + 1}`}
+                  key={i}
+                  onClick={() => setActiveSlide(i)}
+                  className="h-2.5 rounded-full transition-all"
+                  style={{
+                    width: i === activeSlide ? 30 : 10,
+                    background: i === activeSlide ? '#0d9488' : theme === 'dark' ? '#1a3d38' : '#93e7d5',
+                  }}
+                  aria-label={`Go to slide ${i + 1}`}
                 />
               ))}
             </div>
-            <button
-              onClick={slideNext}
-              className="w-11 h-11 rounded-full bg-white border-2 border-teal-200 text-teal-700 flex items-center justify-center hover:bg-teal-50 transition-all shadow-sm"
-              aria-label="Next"
+            <motion.button
+              whileHover={reduceMotion ? undefined : { scale: 1.1, rotate: 8 }}
+              onClick={() => setActiveSlide((p) => (p + 1) % topicCards.length)}
+              className={`w-12 h-12 rounded-full flex items-center justify-center text-xl ${
+                theme === 'dark' ? 'bg-[#0e2522] border border-[#1a3d38] text-[#5cd5bd]' : 'bg-white border-2 border-[#2bbfa1] text-[#0a7a70]'
+              }`}
+              style={{ boxShadow: '0 4px 12px rgba(13,148,136,.08)' }}
+              aria-label="Next chapter"
             >
               <ArrowRight className="w-5 h-5" />
-            </button>
+            </motion.button>
           </div>
         </div>
       </section>
 
-      {/* ============ CHOOSE YOUR LEVEL ============ */}
-      <section className="px-4 sm:px-8 py-12 sm:py-16 max-w-5xl mx-auto">
-        <div className="text-center mb-10">
-          <h3 className="font-serif font-extrabold text-3xl sm:text-5xl text-teal-900 mb-3 flex items-center justify-center gap-3 flex-wrap">
+      {/* ============================================================
+         CHOOSE YOUR LEVEL
+         ============================================================ */}
+      <section className="relative z-10 py-12 sm:py-16 px-4 sm:px-8 max-w-[900px] mx-auto">
+        <div className="text-center mb-7">
+          <h2
+            className={`text-3xl sm:text-4xl font-black leading-tight inline-flex items-center gap-3 flex-wrap justify-center ${
+              theme === 'dark' ? 'text-[#5cd5bd]' : 'text-[#075f58]'
+            }`}
+            style={{ fontFamily: 'Poppins, sans-serif' }}
+          >
             <span className="text-3xl sm:text-4xl">👶</span>
             Choose Your Level
             <span className="text-3xl sm:text-4xl">👶</span>
-          </h3>
-          <p className="text-sm sm:text-base text-slate-500">The content adapts automatically to your age</p>
+          </h2>
+          <p className={`text-sm sm:text-base mt-1 ${theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'}`}>
+            The content adapts automatically to your age
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+        <div className="grid grid-cols-3 gap-3 sm:gap-6">
           {[
-            {
-              label: 'Beginner',
-              age: 'Ages 5–7',
-              color: 'from-rose-100 to-rose-200',
-              iconBg: 'bg-rose-200',
-              icon: <Sprout className="w-8 h-8 text-rose-600" />,
-              border: 'border-rose-200',
-              active: false,
-            },
-            {
-              label: 'Explorer',
-              age: 'Ages 8–11',
-              color: 'from-teal-100 to-teal-200',
-              iconBg: 'bg-teal-200',
-              icon: <Search className="w-8 h-8 text-teal-600" />,
-              border: 'border-teal-400',
-              active: true,
-            },
-            {
-              label: 'Thinker',
-              age: 'Ages 12–14',
-              color: 'from-amber-100 to-amber-200',
-              iconBg: 'bg-amber-200',
-              icon: <Brain className="w-8 h-8 text-amber-600" />,
-              border: 'border-amber-200',
-              active: false,
-            },
-          ].map((lvl) => (
+            { label: 'Beginner', range: 'Ages 5–7', emoji: '🌱', color: 'coral' as const, active: activeAge === 'Beginner' },
+            { label: 'Explorer', range: 'Ages 8–11', emoji: '🔍', color: 'teal' as const, active: activeAge === 'Explorer' },
+            { label: 'Thinker', range: 'Ages 12–14', emoji: '🧠', color: 'gold' as const, active: activeAge === 'Thinker' },
+          ].map((card, i) => (
             <motion.button
-              key={lvl.label}
-              whileHover={{ y: -4 }}
-              className={`relative text-left p-6 rounded-3xl bg-gradient-to-br ${lvl.color} border-2 ${
-                lvl.active ? lvl.border + ' shadow-xl' : 'border-transparent'
-              } transition-all`}
+              key={card.label}
+              initial={{ opacity: 0, y: 40, scale: 0.9 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ delay: 1.6 + i * 0.2, type: 'spring', stiffness: 200, damping: 16 }}
+              whileHover={reduceMotion ? undefined : { y: -12, scale: 1.05 }}
+              onClick={() => setActiveAge(card.label as any)}
+              className={`relative text-center p-4 sm:p-8 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer ${
+                card.active
+                  ? theme === 'dark'
+                    ? 'bg-[#0e2522] border-2 border-[#0d9488]'
+                    : 'bg-gradient-to-br from-[#ecfcf8] to-white border-2 border-[#0d9488]'
+                  : theme === 'dark'
+                  ? 'bg-[#0e2522] border-2 border-[#1a3d38]'
+                  : 'bg-white border-2 border-transparent'
+              }`}
+              style={{
+                boxShadow: card.active
+                  ? '0 0 0 6px rgba(13,148,136,.12), 0 12px 30px rgba(13,148,136,.14)'
+                  : '0 4px 12px rgba(13,148,136,.08)',
+              }}
             >
-              {lvl.active && (
-                <div className="absolute top-4 right-4 w-7 h-7 rounded-full bg-teal-600 text-white flex items-center justify-center">
-                  <Check className="w-4 h-4" strokeWidth={3} />
-                </div>
+              {/* Spinning ray on hover */}
+              <span className="absolute inset-0 pointer-events-none opacity-0 hover:opacity-100 transition-opacity" />
+
+              {card.active && (
+                <motion.div
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  transition={{ type: 'spring', stiffness: 400, damping: 14 }}
+                  className="absolute top-3 left-3 w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-[#0d9488] text-white flex items-center justify-center text-sm font-black"
+                >
+                  <Check className="w-3.5 h-3.5 sm:w-4 sm:h-4" strokeWidth={3} />
+                </motion.div>
               )}
-              <div className={`w-16 h-16 rounded-2xl ${lvl.iconBg} flex items-center justify-center mb-4 shadow-inner`}>
-                {lvl.icon}
+
+              <div
+                className="w-12 h-12 sm:w-20 sm:h-20 rounded-2xl sm:rounded-3xl mx-auto mb-2 sm:mb-4 flex items-center justify-center text-2xl sm:text-5xl"
+                style={{
+                  background:
+                    card.color === 'coral'
+                      ? 'linear-gradient(135deg, #ffc8b3, #ffd6c0)'
+                      : card.color === 'teal'
+                      ? 'linear-gradient(135deg, #c8f4ea, #93e7d5)'
+                      : 'linear-gradient(135deg, #fde08a, #ffe9a0)',
+                }}
+              >
+                {card.emoji}
               </div>
-              <h4 className="font-serif font-extrabold text-2xl text-slate-800">{lvl.label}</h4>
-              <p className="text-xs text-slate-600 mt-1">{lvl.age}</p>
+              <div
+                className={`text-base sm:text-xl font-extrabold ${theme === 'dark' ? 'text-[#d4e8e3]' : 'text-[#06241f]'}`}
+                style={{ fontFamily: 'Poppins, sans-serif' }}
+              >
+                {card.label}
+              </div>
+              <div className={`text-xs sm:text-sm font-semibold mt-0.5 sm:mt-1 ${theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'}`}>
+                {card.range}
+              </div>
             </motion.button>
           ))}
         </div>
       </section>
 
-      {/* ============ FEATURES (PDF, AUDIO, LANGUAGES) ============ */}
-      <section className="px-4 sm:px-8 py-8 sm:py-12 max-w-5xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
-          <div className="bg-white rounded-3xl p-6 shadow-md border border-teal-50 hover:shadow-xl hover:-translate-y-1 transition-all">
-            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-100 to-teal-200 flex items-center justify-center mb-4">
-              <BookOpen className="w-7 h-7 text-emerald-700" />
-            </div>
-            <h4 className="font-serif font-extrabold text-lg text-slate-800">PDF &amp; eBook</h4>
-            <p className="text-xs text-slate-500 mt-2 leading-relaxed">
-              Printable worksheets &amp; beautiful e-books available anytime
-            </p>
-          </div>
-          <div className="bg-white rounded-3xl p-6 shadow-md border border-teal-50 hover:shadow-xl hover:-translate-y-1 transition-all">
-            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-100 to-yellow-200 flex items-center justify-center mb-4">
-              <Volume2 className="w-7 h-7 text-amber-700" />
-            </div>
-            <h4 className="font-serif font-extrabold text-lg text-slate-800">Audio Narration</h4>
-            <p className="text-xs text-slate-500 mt-2 leading-relaxed">
-              Read aloud in a calm, engaging voice with text-to-speech
-            </p>
-          </div>
-          <div className="bg-rose-100 rounded-3xl p-6 shadow-md border border-rose-200 hover:shadow-xl hover:-translate-y-1 transition-all">
-            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-rose-200 to-pink-200 flex items-center justify-center mb-4">
-              <Globe className="w-7 h-7 text-rose-700" />
-            </div>
-            <h4 className="font-serif font-extrabold text-lg text-slate-800">16 Languages</h4>
-            <p className="text-xs text-slate-600 mt-2 leading-relaxed">
-              Full multilingual support for diaspora communities worldwide
-            </p>
-          </div>
+      {/* ============================================================
+         FEATURES
+         ============================================================ */}
+      <section className="relative z-10 py-4 sm:py-8 px-4 sm:px-8 max-w-[1080px] mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
+          {[
+            { title: 'PDF & eBook', desc: 'Printable worksheets & beautiful e-books available anytime', icon: '📚', color: 'teal' as const, corner: '⭐' },
+            { title: 'Audio Narration', desc: 'Read aloud in a calm, engaging voice with text-to-speech', icon: '🔊', color: 'gold' as const, corner: '🌟' },
+            { title: '16 Languages', desc: 'Full multilingual support for diaspora communities worldwide', icon: '🌐', color: 'coral' as const, corner: '✨' },
+          ].map((f, i) => (
+            <motion.div
+              key={f.title}
+              initial={{ opacity: 0, y: 40, scale: 0.9 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ delay: 1.8 + i * 0.2, type: 'spring', stiffness: 200, damping: 16 }}
+              whileHover={reduceMotion ? undefined : { y: -10, rotate: -1 }}
+              className={`relative text-center p-6 sm:p-10 rounded-2xl sm:rounded-3xl overflow-hidden cursor-pointer ${
+                theme === 'dark' ? 'bg-[#0e2522] border-2 border-[#1a3d38]' : 'bg-white border-2 border-[#ecfcf8]'
+              }`}
+              style={{ boxShadow: '0 4px 12px rgba(13,148,136,.08)' }}
+            >
+              <span className="absolute top-3 right-3.5 text-lg">
+                <motion.span
+                  animate={reduceMotion ? undefined : { opacity: [0.3, 1, 0.3], scale: [0.9, 1.2, 0.9] }}
+                  transition={{ duration: 2, ease: 'easeInOut', repeat: Infinity, delay: i * 0.5 }}
+                  className="inline-block"
+                >
+                  {f.corner}
+                </motion.span>
+              </span>
+              <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-2xl sm:rounded-3xl mx-auto mb-4 sm:mb-5 flex items-center justify-center text-3xl sm:text-5xl">
+                <span
+                  className="absolute inset-0 rounded-2xl sm:rounded-3xl"
+                  style={{
+                    background:
+                      f.color === 'teal'
+                        ? 'linear-gradient(135deg, #c8f4ea, #ecfcf8)'
+                        : f.color === 'gold'
+                        ? 'linear-gradient(135deg, #fde08a, #ffe9a0)'
+                        : 'linear-gradient(135deg, #ffc8b3, #ffd6c0)',
+                    color: f.color === 'teal' ? '#0a7a70' : f.color === 'gold' ? '#b88a00' : '#e25c3a',
+                  }}
+                />
+                <span
+                  className="absolute inset-0 rounded-2xl sm:rounded-3xl border-2"
+                  style={{ borderColor: f.color === 'teal' ? '#0d9488' : f.color === 'gold' ? '#b88a00' : '#e25c3a' }}
+                />
+                <motion.span
+                  className="absolute inset-0 rounded-2xl sm:rounded-3xl border-2"
+                  style={{ borderColor: f.color === 'teal' ? '#0d9488' : f.color === 'gold' ? '#b88a00' : '#e25c3a' }}
+                  animate={reduceMotion ? undefined : { scale: [1, 1.4], opacity: [0.5, 0] }}
+                  transition={{ duration: 2, ease: 'easeOut', repeat: Infinity }}
+                />
+                <span className="relative">{f.icon}</span>
+              </div>
+              <h3
+                className={`text-lg sm:text-xl font-extrabold ${theme === 'dark' ? 'text-[#d4e8e3]' : 'text-[#06241f]'}`}
+                style={{ fontFamily: 'Poppins, sans-serif' }}
+              >
+                {f.title}
+              </h3>
+              <p className={`text-xs sm:text-sm font-medium mt-1 ${theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'}`}>
+                {f.desc}
+              </p>
+            </motion.div>
+          ))}
         </div>
       </section>
 
-      {/* ============ TRUST BADGES PILLS ============ */}
-      <section className="px-4 sm:px-8 py-8 max-w-3xl mx-auto">
+      {/* ============================================================
+         TRUST PILLS
+         ============================================================ */}
+      <section className="relative z-10 py-10 sm:py-12 px-4 sm:px-8 max-w-[800px] mx-auto">
         <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3">
-          <span className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-sky-50 text-sky-800 rounded-full text-xs font-bold border border-sky-100">
-            <Shield className="w-3.5 h-3.5 text-sky-600" />
-            100% Safe &amp; Child Friendly
-          </span>
-          <span className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-emerald-50 text-emerald-800 rounded-full text-xs font-bold border border-emerald-100">
-            <BookOpen className="w-3.5 h-3.5 text-emerald-600" />
-            26 Beautiful Topics
-          </span>
-          <span className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-teal-50 text-teal-800 rounded-full text-xs font-bold border border-teal-100">
-            <Check className="w-3.5 h-3.5 text-teal-600" />
-            Sadaqah Jariyah Model
-          </span>
-          <span className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-rose-50 text-rose-800 rounded-full text-xs font-bold border border-rose-100">
-            <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
-            For Muslim Diaspora
-          </span>
+          {[
+            { ico: '🛡️', text: '100% Safe & Child Friendly' },
+            { ico: '📚', text: '26 Beautiful Topics' },
+            { check: true, text: 'Sadaqah Jariyah Model' },
+            { ico: '🌍', text: 'For Muslim Diaspora' },
+          ].map((p, i) => (
+            <motion.span
+              key={p.text}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 2.2 + i * 0.1 }}
+              whileHover={reduceMotion ? undefined : { y: -4, scale: 1.05 }}
+              className={`inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 sm:py-3 rounded-full text-xs sm:text-sm font-bold ${
+                theme === 'dark' ? 'bg-[#0e2522] border border-[#1a3d38] text-[#a8ccc4]' : 'bg-white border border-[#c8f4ea] text-[#0a3a32]'
+              }`}
+              style={{ boxShadow: '0 4px 12px rgba(13,148,136,.08)' }}
+            >
+              {p.check ? (
+                <span className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-[#0d9488] text-white flex items-center justify-center text-[10px] sm:text-xs font-black">
+                  ✓
+                </span>
+              ) : (
+                <span className="text-base sm:text-xl">{p.ico}</span>
+              )}
+              {p.text}
+            </motion.span>
+          ))}
         </div>
       </section>
 
-      {/* ============ PRIMARY CTA ============ */}
-      <section className="px-4 sm:px-8 py-8 sm:py-12 flex justify-center">
+      {/* ============================================================
+         CTA
+         ============================================================ */}
+      <section className="relative z-10 py-8 sm:py-12 px-4 sm:px-8 flex justify-center">
         <motion.button
-          whileHover={{ scale: 1.04 }}
-          whileTap={{ scale: 0.97 }}
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 2.5, type: 'spring', stiffness: 200, damping: 16 }}
+          whileHover={reduceMotion ? undefined : { y: -4, scale: 1.05 }}
+          whileTap={reduceMotion ? undefined : { scale: 0.97 }}
           onClick={onStart}
           id="landing-cta-start-v2"
-          className="group inline-flex items-center gap-3 px-10 sm:px-14 py-4 sm:py-5 bg-gradient-to-r from-teal-600 via-emerald-600 to-teal-700 text-white rounded-full font-extrabold text-base sm:text-lg shadow-2xl shadow-teal-300/60 hover:shadow-teal-400/80 transition-all"
+          className="relative inline-flex items-center gap-3.5 px-10 sm:px-14 py-4 sm:py-5 rounded-full text-white font-extrabold text-base sm:text-lg overflow-hidden bg-gradient-to-br from-[#0d9488] to-[#075f58]"
+          style={{ boxShadow: '0 16px 36px rgba(13,148,136,.45)' }}
         >
+          {/* Shine sweep */}
+          <span
+            className="absolute inset-0 -left-full"
+            style={{
+              background: 'linear-gradient(90deg, transparent, rgba(255,255,255,.4), transparent)',
+              transition: 'left .6s',
+            }}
+          />
           <Sparkles className="w-5 h-5 text-yellow-200" />
-          <span>Start the Islam Journey</span>
-          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          <span className="relative">Start the Islam Journey</span>
+          <motion.span
+            className="relative w-8.5 h-8.5 rounded-full flex items-center justify-center"
+            style={{ width: 34, height: 34, background: 'rgba(255,255,255,.25)' }}
+            whileHover={reduceMotion ? undefined : { x: 6 }}
+          >
+            <ArrowRight className="w-4 h-4" />
+          </motion.span>
+          {/* Floating sparks */}
+          {[
+            { pos: 'top-[10%] left-[10%]', delay: 0 },
+            { pos: 'top-[20%] right-[10%]', delay: 0.4 },
+            { pos: 'bottom-[10%] left-[30%]', delay: 0.8 },
+          ].map((s, i) => (
+            <motion.span
+              key={i}
+              className={`absolute text-xl pointer-events-none ${s.pos}`}
+              animate={
+                reduceMotion
+                  ? undefined
+                  : { opacity: [0, 1, 0], y: [0, -12, 0], scale: [0.5, 1, 0.5] }
+              }
+              transition={{ duration: 1.5, ease: 'easeOut', repeat: Infinity, delay: s.delay }}
+            >
+              {i === 0 ? '✨' : i === 1 ? '⭐' : '💖'}
+            </motion.span>
+          ))}
         </motion.button>
       </section>
 
-      {/* ============ FOOTER ============ */}
-      <footer className="px-4 sm:px-8 py-8 sm:py-10 max-w-4xl mx-auto text-center border-t border-orange-200/60 mt-4">
-        <p className="text-sm text-slate-700 mb-1">
-          ABC of Islam — Made with <span className="text-rose-500">♥</span> for Muslim children everywhere
+      {/* ============================================================
+         FOOTER
+         ============================================================ */}
+      <footer
+        className={`relative z-10 text-center py-8 sm:py-10 px-4 sm:px-8 text-sm font-semibold border-t ${
+          theme === 'dark' ? 'text-[#7fa89f] border-[#1a3d38]' : 'text-[#4a6b62] border-[#ecfcf8]'
+        }`}
+      >
+        <p>
+          ABC of Islam — Made with{' '}
+          <motion.span
+            animate={reduceMotion ? undefined : { scale: [1, 1.2, 1] }}
+            transition={{ duration: 1.4, ease: 'easeInOut', repeat: Infinity }}
+            className="inline-block"
+            style={{ color: '#ff7f5c' }}
+          >
+            ♥
+          </motion.span>{' '}
+          for Muslim children everywhere
         </p>
-        <p className="text-xs text-slate-400 mb-3">
+        <p className={`text-xs mt-1.5 opacity-70`}>
           Built on Next.js 14 · Supabase · TypeScript · Free Forever
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-4 text-xs font-bold text-teal-700">
-          <a href="#" className="hover:text-teal-900 inline-flex items-center gap-1">
-            <Lock className="w-3 h-3" /> Privacy Policy
-          </a>
-          <span className="text-slate-300">•</span>
-          <a href="#" className="hover:text-teal-900">Terms of Use</a>
-          <span className="text-slate-300">•</span>
-          <a href="#" className="hover:text-teal-900">Contact Us</a>
-          <span className="text-slate-300">•</span>
-          <a href="#" className="hover:text-teal-900">About</a>
-          <span className="text-slate-300">•</span>
-          <a href="#" className="hover:text-teal-900 inline-flex items-center gap-1">
-            Donate <Heart className="w-3 h-3 text-rose-500 fill-rose-500" />
-          </a>
+        <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mt-3 text-xs sm:text-sm font-bold">
+          {['Privacy Policy', 'Terms of Use', 'Contact Us', 'About', 'Donate'].map((link) => (
+            <a
+              key={link}
+              href="#"
+              className={`transition-colors ${
+                theme === 'dark' ? 'text-[#2bbfa1] hover:text-[#5cd5bd]' : 'text-[#0a7a70] hover:text-[#2bbfa1]'
+              }`}
+            >
+              {link}
+            </a>
+          ))}
         </div>
       </footer>
     </motion.div>
