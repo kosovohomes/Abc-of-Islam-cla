@@ -290,7 +290,7 @@ export default function TopicGrid({
                       >
                         <div className="relative aspect-[16/10] bg-[#FDFCFB] flex items-center justify-center overflow-hidden border-b border-black">
                           <img
-                            src={`/images/${topic.image}`}
+                            src={topic.image.startsWith('http') ? topic.image : `/images/${topic.image}`}
                             alt={getDefensiveTitle(topic, locale)}
                             onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
                             className="w-full h-full object-cover grayscale opacity-90 transition-all duration-500 group-hover:scale-105 group-hover:grayscale-0"
