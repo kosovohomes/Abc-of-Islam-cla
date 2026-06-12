@@ -1364,83 +1364,114 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6"
+            className="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-6"
             style={{ background: 'rgba(0,0,0,0.88)', backdropFilter: 'blur(8px)' }}
             onClick={() => setModalCard(null)}
           >
             <motion.div
               key="carousel-modal-card"
-              initial={{ opacity: 0, scale: 0.88, y: 30 }}
+              initial={{ opacity: 0, scale: 0.9, y: 24 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.88, y: 30 }}
+              exit={{ opacity: 0, scale: 0.9, y: 24 }}
               transition={{ type: 'spring', stiffness: 260, damping: 22 }}
-              className="relative w-full max-w-2xl rounded-3xl overflow-hidden flex flex-col"
+              className="relative flex flex-col sm:flex-row rounded-3xl overflow-hidden"
               style={{
-                background: theme === 'dark' ? '#0c1f1d' : '#071a17',
-                boxShadow: '0 40px 100px rgba(0,0,0,0.7)',
+                width: 'min(92vw, 960px)',
                 maxHeight: '90vh',
+                background: '#000',
+                boxShadow: '0 40px 100px rgba(0,0,0,0.75)',
               }}
               onClick={(e) => e.stopPropagation()}
             >
-              {/* Full image — contained so nothing is cropped */}
+              {/* ── LEFT: image (≈70% width) ── */}
               <div
-                className="w-full flex-shrink-0 flex items-center justify-center"
-                style={{ background: '#000', minHeight: 280, maxHeight: '60vh' }}
+                className="flex items-center justify-center"
+                style={{ flex: '0 0 68%', background: '#000', minHeight: 300 }}
               >
                 <img
                   src={modalCard.img}
                   alt={modalCard.title}
-                  className="w-full h-full block"
-                  style={{ maxHeight: '60vh', objectFit: 'contain' }}
+                  style={{
+                    display: 'block',
+                    width: '100%',
+                    height: '90vh',
+                    maxHeight: '90vh',
+                    objectFit: 'contain',
+                  }}
                 />
               </div>
 
-              {/* Close button */}
+              {/* ── RIGHT: info panel (≈30% width) ── */}
+              <div
+                className="flex flex-col justify-between p-6 sm:p-8 overflow-y-auto text-white"
+                style={{
+                  flex: '1 1 0',
+                  background: 'linear-gradient(160deg, #0e2522, #071510)',
+                  borderLeft: '1px solid rgba(255,255,255,0.07)',
+                  minWidth: 220,
+                }}
+              >
+                <div>
+                  <span
+                    className="inline-block text-[10px] font-extrabold tracking-wider px-3 py-1 rounded-lg mb-5 uppercase"
+                    style={{ background: modalCard.tagColor, color: modalCard.tagTextDark ? '#6b4a00' : 'white' }}
+                  >
+                    {modalCard.tag}
+                  </span>
+
+                  <h3
+                    className="text-2xl font-extrabold leading-snug mb-3"
+                    style={{ fontFamily: 'Poppins, sans-serif' }}
+                  >
+                    {modalCard.title}
+                  </h3>
+
+                  <p className="text-sm leading-relaxed mb-6" style={{ color: 'rgba(255,255,255,0.6)' }}>
+                    {modalCard.subtitle}
+                  </p>
+
+                  <div className="w-10 h-0.5 rounded-full mb-6" style={{ background: modalCard.tagColor }} />
+
+                  <p className="text-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.38)' }}>
+                    Tap below to open the full lesson — illustrations, explanations &amp; a quiz.
+                  </p>
+                </div>
+
+                <div className="flex flex-col gap-3 mt-8">
+                  <motion.button
+                    whileHover={reduceMotion ? undefined : { scale: 1.03 }}
+                    whileTap={reduceMotion ? undefined : { scale: 0.97 }}
+                    onClick={() => {
+                      setModalCard(null);
+                      if (onTopicSelect) onTopicSelect(modalCard.topicLink);
+                      else onStart();
+                    }}
+                    className="w-full flex items-center justify-center gap-2.5 py-3.5 rounded-xl font-bold text-sm text-white"
+                    style={{ background: 'linear-gradient(135deg,#0d9488,#075f58)', boxShadow: '0 8px 24px rgba(13,148,136,.45)' }}
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    Explore This Topic
+                  </motion.button>
+
+                  <button
+                    onClick={() => setModalCard(null)}
+                    className="w-full py-2.5 rounded-xl text-xs font-semibold"
+                    style={{ color: 'rgba(255,255,255,0.35)', background: 'rgba(255,255,255,0.05)' }}
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+
+              {/* ✕ close */}
               <button
                 onClick={() => setModalCard(null)}
-                className="absolute top-4 right-4 w-10 h-10 rounded-full flex items-center justify-center text-white"
-                style={{ background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.15)' }}
+                className="absolute top-4 right-4 w-9 h-9 rounded-full flex items-center justify-center text-white z-10"
+                style={{ background: 'rgba(0,0,0,0.55)', backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.15)' }}
                 aria-label="Close"
               >
-                <X className="w-5 h-5" />
+                <X className="w-4 h-4" />
               </button>
-
-              {/* Info panel below the image */}
-              <div className="p-6 sm:p-8 text-white flex-shrink-0">
-                <span
-                  className="inline-block text-[10px] font-extrabold tracking-wider px-2.5 py-1 rounded-md mb-3 uppercase"
-                  style={{
-                    background: modalCard.tagColor,
-                    color: modalCard.tagTextDark ? '#6b4a00' : 'white',
-                  }}
-                >
-                  {modalCard.tag}
-                </span>
-                <h3
-                  className="text-2xl sm:text-3xl font-extrabold leading-tight mb-1.5"
-                  style={{ fontFamily: 'Poppins, sans-serif' }}
-                >
-                  {modalCard.title}
-                </h3>
-                <p className="text-sm opacity-70 font-medium mb-6">{modalCard.subtitle}</p>
-
-                {/* CTA: go to topic */}
-                <button
-                  onClick={() => {
-                    setModalCard(null);
-                    if (onTopicSelect) {
-                      onTopicSelect(modalCard.topicLink);
-                    } else {
-                      onStart();
-                    }
-                  }}
-                  className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full text-white font-bold text-sm"
-                  style={{ background: 'linear-gradient(135deg, #0d9488, #075f58)', boxShadow: '0 8px 24px rgba(13,148,136,.5)' }}
-                >
-                  <ExternalLink className="w-4 h-4" />
-                  Explore This Topic
-                </button>
-              </div>
             </motion.div>
           </motion.div>
         )}
