@@ -857,7 +857,7 @@ export default function AdminDashboard({ onExit }: { onExit: () => void }) {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="h-screen bg-gray-50 flex flex-col overflow-hidden">
       {/* Top bar */}
       <header className="sticky top-0 z-40 bg-[#0a1628] text-white px-4 sm:px-6 h-14 flex items-center justify-between shadow-xl">
         <div className="flex items-center gap-3">
@@ -878,9 +878,9 @@ export default function AdminDashboard({ onExit }: { onExit: () => void }) {
         </div>
       </header>
 
-      <div className="flex flex-1">
+      <div className="flex flex-1 overflow-hidden">
         {/* Sidebar */}
-        <aside className="w-52 shrink-0 bg-white border-r border-gray-100 shadow-sm hidden md:flex flex-col pt-4 pb-6">
+        <aside className="w-52 shrink-0 bg-white border-r border-gray-100 shadow-sm hidden md:flex flex-col pt-4 pb-6 overflow-y-auto">
           {navItems.map(item => (
             <button key={item.id} onClick={() => setSection(item.id)}
               className={`flex items-center gap-3 px-4 py-3 text-sm font-semibold transition-all mx-2 rounded-xl my-0.5 text-left ${section === item.id ? 'bg-emerald-50 text-emerald-700' : 'text-gray-600 hover:bg-gray-50'}`}>
@@ -902,7 +902,7 @@ export default function AdminDashboard({ onExit }: { onExit: () => void }) {
         </div>
 
         {/* Main content */}
-        <main className="flex-1 p-4 sm:p-6 pb-24 md:pb-6 overflow-y-auto">
+        <main className="flex-1 h-full p-4 sm:p-6 pb-24 md:pb-6 overflow-y-auto">
           <div className="max-w-6xl mx-auto">
             <div className="mb-6">
               <h2 className="text-xl font-extrabold text-gray-900 capitalize">{section}</h2>
