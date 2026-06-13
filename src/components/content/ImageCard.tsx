@@ -38,10 +38,10 @@ export default function ImageCard({ src, alt, icon }: ImageCardProps) {
                    hover:shadow-xl hover:border-emerald-300 transition-all duration-300 bg-[#f8faf6] shadow-md"
         onClick={() => setZoomed(true)}
       >
-        {/* Fixed aspect-ratio container */}
-        <div className="aspect-[16/9] w-full relative overflow-hidden">
+        {/* Natural-height container — image shows fully without cropping */}
+        <div className="relative w-full">
           {isFailed ? (
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6 gap-2 bg-gradient-to-b from-emerald-50/40 to-amber-50/20">
+            <div className="flex flex-col items-center justify-center text-center p-10 gap-2 bg-gradient-to-b from-emerald-50/40 to-amber-50/20 min-h-[220px]">
               <span className="text-7xl select-none">{icon}</span>
               <span className="text-sm font-bold uppercase tracking-wider text-emerald-800 mt-3">{alt}</span>
             </div>
@@ -50,7 +50,7 @@ export default function ImageCard({ src, alt, icon }: ImageCardProps) {
               src={imagePath}
               alt={alt}
               onError={() => setHasError(true)}
-              className="absolute inset-0 w-full h-full object-contain transition-transform duration-500 group-hover:scale-[1.03]"
+              className="w-full h-auto block transition-transform duration-500 group-hover:scale-[1.02]"
               loading="lazy"
               referrerPolicy="no-referrer"
             />
