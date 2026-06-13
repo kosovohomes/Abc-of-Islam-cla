@@ -1,9 +1,9 @@
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import {
-  LayoutDashboard, BookOpen, Image, Users, Settings, LogOut,
-  Plus, Trash2, Edit3, Eye, EyeOff, Search, Filter, ChevronDown,
-  ChevronUp, Save, X, AlertTriangle, CheckCircle, BarChart2,
+  LayoutDashboard, BookOpen, Users, Settings, LogOut,
+  Plus, Trash2, Edit3, Eye, EyeOff, Search,
+  Save, X, AlertTriangle, CheckCircle, BarChart2,
   TrendingUp, Globe, Clock, Shield, Download, RefreshCw,
   ToggleLeft, ToggleRight, Star, Zap, BookMarked, PlusCircle,
 } from 'lucide-react';
