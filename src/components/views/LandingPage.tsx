@@ -115,6 +115,13 @@ const topicCards = [
 
 export default function LandingPageV2({ locale, onStart, onTopicSelect }: LandingPageV2Props) {
   const [activeSlide, setActiveSlide] = useState(0);
+  const [winW, setWinW] = useState(typeof window !== 'undefined' ? window.innerWidth : 1024);
+  useEffect(() => {
+    const onResize = () => setWinW(window.innerWidth);
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
+  }, []);
+  const isMobile = winW < 640;
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const { ageLevel, setAgeLevel } = useAppStore();
   // Map store ageLevel → display label
@@ -160,6 +167,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
 
   /* Drag-to-scroll on the carousel */
   const dragDistance = useRef(0);
+  const touchStartX = useRef(0);
   const onPointerDown = (e: React.PointerEvent) => {
     if (!carouselRef.current) return;
     isDragging.current = true;
@@ -464,185 +472,206 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
 
 
       {/* ============================================================
-         SNEAK PEEK CAROUSEL
+         SNEAK PEEK CAROUSEL — rebuilt mobile-first
          ============================================================ */}
-      <section className="relative z-10 py-8 sm:py-12 w-full overflow-hidden">
-        <div className="text-center mb-7 px-4">
-          <motion.span
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.3 }}
-            className="inline-flex items-center gap-2 px-4 py-1.5 bg-gradient-to-br from-[#ff7f5c] to-[#e25c3a] text-white text-xs font-extrabold uppercase tracking-wider rounded-full mb-3"
-            style={{ boxShadow: '0 6px 18px rgba(255,127,92,.35)' }}
-          >
-            <span>📖</span> Sneak Peek
-          </motion.span>
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.4 }}
-            className={`text-3xl sm:text-5xl font-black leading-tight ${
-              theme === 'dark' ? 'text-[#5cd5bd]' : 'text-[#075f58]'
-            }`}
-            style={{ fontFamily: 'Poppins, sans-serif' }}
-          >
-            Topics{' '}
-            <motion.span
-              animate={reduceMotion ? undefined : { scale: [1, 1.15, 1] }}
-              transition={{ duration: 1.4, ease: 'easeInOut', repeat: Infinity }}
-              className="inline-block"
-              style={{ color: '#ff7f5c' }}
-            >
-              ♥
-            </motion.span>{' '}
-            Waiting for You
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
-            className={`text-base mt-1 ${theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'}`}
-          >
-            Drag to explore the chapters of this beautiful journey
-          </motion.p>
+      <section style={{ position: 'relative', zIndex: 10, padding: '32px 0 40px', width: '100%' }}>
+
+        {/* Heading */}
+        <div style={{ textAlign: 'center', marginBottom: 28, padding: '0 16px' }}>
+          <span style={{
+            display: 'inline-flex', alignItems: 'center', gap: 8,
+            padding: '6px 16px', borderRadius: 999,
+            background: 'linear-gradient(135deg,#ff7f5c,#e25c3a)',
+            color: 'white', fontSize: 11, fontWeight: 800,
+            letterSpacing: '0.08em', textTransform: 'uppercase',
+            marginBottom: 12,
+            boxShadow: '0 6px 18px rgba(255,127,92,.35)',
+          }}>
+            📖 Sneak Peek
+          </span>
+          <h2 style={{
+            fontFamily: 'Poppins, sans-serif',
+            fontSize: winW < 400 ? 26 : winW < 640 ? 30 : 44,
+            fontWeight: 900, lineHeight: 1.2,
+            color: theme === 'dark' ? '#5cd5bd' : '#075f58',
+            margin: '0 0 8px',
+          }}>
+            Topics ♥ Waiting for You
+          </h2>
+          <p style={{ fontSize: 14, color: theme === 'dark' ? '#7fa89f' : '#4a6b62', margin: 0 }}>
+            {isMobile ? 'Swipe to explore • Tap to open' : 'Click any card to explore the full lesson'}
+          </p>
         </div>
 
-        <div className="relative w-full py-4 sm:py-6">
-          <div
-            ref={carouselRef}
-            onPointerDown={onPointerDown}
-            onPointerMove={onPointerMove}
-            onPointerUp={onPointerUp}
-            onPointerLeave={onPointerUp}
-            className="flex gap-4 sm:gap-7 overflow-x-auto snap-x snap-mandatory py-5"
-            style={{
-              scrollbarWidth: 'none', cursor: 'grab', scrollBehavior: 'smooth',
-              paddingLeft: '1rem', paddingRight: '1rem',
-            }}
-          >
-            {topicCards.map((card, idx) => {
-              const isActive = idx === activeSlide;
-              return (
-                <motion.div
-                  key={card.id}
-                  animate={
-                    reduceMotion
-                      ? undefined
-                      : {
-                          scale: isActive ? 1 : 0.88,
-                          rotateY: isActive ? 0 : 4,
-                          opacity: isActive ? 1 : 0.65,
-                        }
-                  }
-                  transition={{ type: 'spring', stiffness: 200, damping: 25 }}
-                  className="flex-shrink-0 w-[260px] sm:w-72 h-[380px] sm:h-[420px] rounded-3xl overflow-hidden relative snap-center cursor-pointer border-4 border-white"
-                  style={{
-                    background: theme === 'dark' ? '#0e2522' : 'white',
-                    boxShadow: isActive
-                      ? '0 30px 80px rgba(13,148,136,.35)'
-                      : '0 20px 50px rgba(13,148,136,.18)',
-                    transformStyle: 'preserve-3d',
-                  }}
-                  onClick={() => {
-                    if (dragDistance.current > 6) return; // was a drag, not a click
-                    setActiveSlide(idx);
-                    setModalCard(card);
-                  }}
-                  whileHover={reduceMotion ? undefined : { y: -8 }}
-                >
-                  <img
-                    src={card.img}
-                    alt={card.title}
-                    loading="lazy"
-                    className="w-full h-full object-cover block"
-                    style={{ transition: 'transform .6s' }}
-                  />
+        {/* Cards grid — mobile: 2-col grid | desktop: horizontal scroll row */}
+        {isMobile ? (
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(2, 1fr)',
+            gap: 12,
+            padding: '0 12px',
+          }}>
+            {topicCards.map((card, idx) => (
+              <div
+                key={card.id}
+                onClick={() => { setActiveSlide(idx); setModalCard(card); }}
+                style={{
+                  borderRadius: 16,
+                  overflow: 'hidden',
+                  position: 'relative',
+                  cursor: 'pointer',
+                  aspectRatio: '3/4',
+                  border: '3px solid white',
+                  boxShadow: '0 8px 24px rgba(13,148,136,.2)',
+                  background: '#000',
+                }}
+              >
+                <img
+                  src={card.img}
+                  alt={card.title}
+                  loading="lazy"
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                />
+                <div style={{
+                  position: 'absolute', inset: 0,
+                  background: 'linear-gradient(180deg, transparent 40%, rgba(5,28,24,.9) 100%)',
+                }} />
+                <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '10px 10px 12px' }}>
+                  <span style={{
+                    display: 'inline-block', fontSize: 9, fontWeight: 800,
+                    letterSpacing: '0.06em', textTransform: 'uppercase',
+                    padding: '2px 8px', borderRadius: 5, marginBottom: 4,
+                    background: card.tagColor,
+                    color: card.tagTextDark ? '#6b4a00' : 'white',
+                  }}>{card.tag}</span>
+                  <div style={{ fontSize: 12, fontWeight: 800, color: 'white', lineHeight: 1.25 }}>
+                    {card.title}
+                  </div>
+                </div>
+                <div style={{
+                  position: 'absolute', top: 8, right: 8,
+                  width: 28, height: 28, borderRadius: '50%',
+                  background: 'linear-gradient(135deg,#fbcb4d,#f5b400)',
+                  color: '#6b4a00', fontSize: 11, fontWeight: 900,
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  boxShadow: '0 2px 8px rgba(0,0,0,.3)',
+                }}>{idx + 1}</div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          /* Desktop horizontal scroll */
+          <div style={{ position: 'relative' }}>
+            <div
+              ref={carouselRef}
+              onPointerDown={onPointerDown}
+              onPointerMove={onPointerMove}
+              onPointerUp={onPointerUp}
+              onPointerLeave={onPointerUp}
+              style={{
+                display: 'flex',
+                gap: 24,
+                overflowX: 'auto',
+                scrollSnapType: 'x mandatory',
+                scrollbarWidth: 'none',
+                cursor: 'grab',
+                padding: '20px 40px',
+              }}
+            >
+              {topicCards.map((card, idx) => {
+                const isActive = idx === activeSlide;
+                return (
                   <div
-                    className="absolute inset-0"
+                    key={card.id}
+                    onClick={() => { if (dragDistance.current > 6) return; setActiveSlide(idx); setModalCard(card); }}
                     style={{
-                      background:
-                        'linear-gradient(180deg, transparent 30%, rgba(6,36,31,.85) 100%)',
-                    }}
-                  />
-                  <div
-                    className="absolute inset-0 pointer-events-none"
-                    style={{
-                      background:
-                        'radial-gradient(ellipse at top, rgba(255,255,255,.15), transparent 60%)',
-                    }}
-                  />
-                  <div
-                    className="absolute top-3.5 right-3.5 w-9.5 h-9.5 rounded-full flex items-center justify-center font-black text-sm border-3 border-white"
-                    style={{
-                      width: 38,
-                      height: 38,
-                      background: 'linear-gradient(135deg, #fbcb4d, #f5b400)',
-                      color: '#6b4a00',
-                      boxShadow: '0 4px 12px rgba(0,0,0,.3)',
+                      flexShrink: 0,
+                      width: 280,
+                      height: 420,
+                      borderRadius: 24,
+                      overflow: 'hidden',
+                      position: 'relative',
+                      cursor: 'pointer',
+                      scrollSnapAlign: 'center',
+                      border: '4px solid white',
+                      boxShadow: isActive ? '0 30px 80px rgba(13,148,136,.38)' : '0 12px 40px rgba(13,148,136,.15)',
+                      transform: isActive ? 'scale(1)' : 'scale(0.9)',
+                      opacity: isActive ? 1 : 0.7,
+                      transition: 'transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease',
+                      background: '#000',
                     }}
                   >
-                    {idx + 1}
-                  </div>
-                  <div className="absolute bottom-0 left-0 right-0 p-5 text-white">
-                    <span
-                      className="inline-block text-[10px] font-extrabold tracking-wider px-2.5 py-1 rounded-md mb-2 uppercase"
-                      style={{
+                    <img
+                      src={card.img}
+                      alt={card.title}
+                      loading="lazy"
+                      style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                    />
+                    <div style={{
+                      position: 'absolute', inset: 0,
+                      background: 'linear-gradient(180deg, transparent 30%, rgba(6,36,31,.88) 100%)',
+                    }} />
+                    <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '0 20px 20px' }}>
+                      <span style={{
+                        display: 'inline-block', fontSize: 10, fontWeight: 800,
+                        letterSpacing: '0.07em', textTransform: 'uppercase',
+                        padding: '3px 10px', borderRadius: 6, marginBottom: 6,
                         background: card.tagColor,
                         color: card.tagTextDark ? '#6b4a00' : 'white',
-                      }}
-                    >
-                      {card.tag}
-                    </span>
-                    <h3 className="text-xl sm:text-2xl font-extrabold leading-tight" style={{ textShadow: '0 2px 6px rgba(0,0,0,.5)' }}>
-                      {card.title}
-                    </h3>
-                    <p className="text-xs sm:text-[13px] opacity-90 font-medium mt-1">{card.subtitle}</p>
+                      }}>{card.tag}</span>
+                      <div style={{ fontSize: 20, fontWeight: 800, color: 'white', lineHeight: 1.25, marginBottom: 4 }}>
+                        {card.title}
+                      </div>
+                      <div style={{ fontSize: 13, color: 'rgba(255,255,255,.8)', fontWeight: 500 }}>
+                        {card.subtitle}
+                      </div>
+                    </div>
+                    <div style={{
+                      position: 'absolute', top: 14, right: 14,
+                      width: 36, height: 36, borderRadius: '50%',
+                      background: 'linear-gradient(135deg,#fbcb4d,#f5b400)',
+                      color: '#6b4a00', fontSize: 13, fontWeight: 900,
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      boxShadow: '0 4px 12px rgba(0,0,0,.3)',
+                    }}>{idx + 1}</div>
                   </div>
-                </motion.div>
-              );
-            })}
-          </div>
-
-          {/* Carousel nav */}
-          <div className="flex items-center justify-center gap-4 mt-6">
-            <motion.button
-              whileHover={reduceMotion ? undefined : { scale: 1.1, rotate: 8 }}
-              onClick={() => setActiveSlide((p) => (p - 1 + topicCards.length) % topicCards.length)}
-              className={`w-12 h-12 rounded-full flex items-center justify-center text-xl ${
-                theme === 'dark' ? 'bg-[#0e2522] border border-[#1a3d38] text-[#5cd5bd]' : 'bg-white border-2 border-[#2bbfa1] text-[#0a7a70]'
-              }`}
-              style={{ boxShadow: '0 4px 12px rgba(13,148,136,.08)' }}
-              aria-label="Previous chapter"
-            >
-              <ArrowLeft className="w-5 h-5" />
-            </motion.button>
-            <div className="flex gap-2">
-              {topicCards.map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => setActiveSlide(i)}
-                  className="h-2.5 rounded-full transition-all"
-                  style={{
-                    width: i === activeSlide ? 30 : 10,
-                    background: i === activeSlide ? '#0d9488' : theme === 'dark' ? '#1a3d38' : '#93e7d5',
-                  }}
-                  aria-label={`Go to slide ${i + 1}`}
-                />
-              ))}
+                );
+              })}
             </div>
-            <motion.button
-              whileHover={reduceMotion ? undefined : { scale: 1.1, rotate: 8 }}
-              onClick={() => setActiveSlide((p) => (p + 1) % topicCards.length)}
-              className={`w-12 h-12 rounded-full flex items-center justify-center text-xl ${
-                theme === 'dark' ? 'bg-[#0e2522] border border-[#1a3d38] text-[#5cd5bd]' : 'bg-white border-2 border-[#2bbfa1] text-[#0a7a70]'
-              }`}
-              style={{ boxShadow: '0 4px 12px rgba(13,148,136,.08)' }}
-              aria-label="Next chapter"
-            >
-              <ArrowRight className="w-5 h-5" />
-            </motion.button>
+
+            {/* Prev / dots / Next */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16, marginTop: 16 }}>
+              <button
+                onClick={() => setActiveSlide(p => (p - 1 + topicCards.length) % topicCards.length)}
+                style={{
+                  width: 44, height: 44, borderRadius: '50%', border: '2px solid #2bbfa1',
+                  background: 'white', color: '#0a7a70', cursor: 'pointer',
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  boxShadow: '0 4px 12px rgba(13,148,136,.1)',
+                }}
+              ><ArrowLeft className="w-5 h-5" /></button>
+              <div style={{ display: 'flex', gap: 8 }}>
+                {topicCards.map((_, i) => (
+                  <button key={i} onClick={() => setActiveSlide(i)} style={{
+                    height: 10, width: i === activeSlide ? 28 : 10,
+                    borderRadius: 99, border: 'none', cursor: 'pointer',
+                    background: i === activeSlide ? '#0d9488' : '#93e7d5',
+                    transition: 'width 0.25s ease, background 0.25s ease',
+                  }} />
+                ))}
+              </div>
+              <button
+                onClick={() => setActiveSlide(p => (p + 1) % topicCards.length)}
+                style={{
+                  width: 44, height: 44, borderRadius: '50%', border: '2px solid #2bbfa1',
+                  background: 'white', color: '#0a7a70', cursor: 'pointer',
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  boxShadow: '0 4px 12px rgba(13,148,136,.1)',
+                }}
+              ><ArrowRight className="w-5 h-5" /></button>
+            </div>
           </div>
-        </div>
+        )}
       </section>
 
       {/* ============================================================
@@ -1205,140 +1234,150 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
       </AnimatePresence>
 
       {/* ============================================================
-         IMAGE MODAL — opens when a carousel card is clicked
+         TOPIC MODAL — 100% inline styles, zero CSS classes, JS-driven layout
          ============================================================ */}
       <AnimatePresence>
         {modalCard && (
           <motion.div
-            key="carousel-modal-backdrop"
+            key="modal-backdrop"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-6"
-            style={{ background: 'rgba(0,0,0,0.88)', backdropFilter: 'blur(8px)' }}
+            transition={{ duration: 0.18 }}
             onClick={() => setModalCard(null)}
+            style={{
+              position: 'fixed', inset: 0, zIndex: 200,
+              background: 'rgba(0,0,0,0.87)',
+              backdropFilter: 'blur(6px)',
+              display: 'flex',
+              alignItems: isMobile ? 'flex-end' : 'center',
+              justifyContent: 'center',
+              padding: isMobile ? 0 : 24,
+            }}
           >
             <motion.div
-              key="carousel-modal-card"
-              initial={{ opacity: 0, scale: 0.9, y: 24 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.9, y: 24 }}
-              transition={{ type: 'spring', stiffness: 260, damping: 22 }}
-              className="modal-card-inner relative w-full rounded-3xl overflow-hidden"
-              style={{
-                maxWidth: 960,
-                maxHeight: '90vh',
-                display: 'flex',
-                flexDirection: 'row',
-                boxShadow: '0 40px 100px rgba(0,0,0,0.75)',
-              }}
+              key="modal-card"
+              initial={{ opacity: 0, y: isMobile ? 80 : 30, scale: isMobile ? 1 : 0.92 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: isMobile ? 80 : 30, scale: isMobile ? 1 : 0.92 }}
+              transition={{ type: 'spring', stiffness: 300, damping: 30 }}
               onClick={(e) => e.stopPropagation()}
+              style={{
+                width: '100%',
+                maxWidth: isMobile ? '100%' : 860,
+                borderRadius: isMobile ? '24px 24px 0 0' : 24,
+                overflow: 'hidden',
+                boxShadow: '0 -8px 60px rgba(0,0,0,0.5)',
+                display: 'flex',
+                flexDirection: isMobile ? 'column' : 'row',
+                maxHeight: isMobile ? '88vh' : '85vh',
+                overflowY: isMobile ? 'auto' : 'hidden',
+                background: '#000',
+              }}
             >
-              {/* ── On mobile: full-screen vertical layout via portal-style overlay ── */}
-              <style>{`
-                @media (max-width: 639px) {
-                  .modal-card-inner { flex-direction: column !important; max-height: 90vh !important; overflow-y: auto !important; }
-                  .modal-img-wrap { flex: none !important; width: 100% !important; height: 56vw !important; min-height: 200px !important; max-height: 260px !important; }
-                  .modal-img-wrap img { height: 100% !important; object-fit: cover !important; }
-                  .modal-panel { border-left: none !important; border-top: 1px solid rgba(255,255,255,0.08) !important; padding: 20px 18px !important; }
-                }
-                @media (min-width: 640px) {
-                  .modal-card-inner { height: min(86vh, 640px); }
-                  .modal-img-wrap { height: 100%; }
-                }
-              `}</style>
-
-              {/* ── LEFT: image ── */}
-              <div
-                className="modal-img-wrap flex items-stretch overflow-hidden"
-                style={{ flex: '0 0 68%', background: '#000' }}
-              >
+              {/* IMAGE */}
+              <div style={{
+                width: isMobile ? '100%' : '62%',
+                flexShrink: 0,
+                height: isMobile ? Math.round(winW * 0.75) : undefined,
+                minHeight: isMobile ? 220 : undefined,
+                maxHeight: isMobile ? 320 : undefined,
+                overflow: 'hidden',
+                background: '#111',
+              }}>
                 <img
                   src={modalCard.img}
                   alt={modalCard.title}
-                  style={{
-                    display: 'block',
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    objectPosition: 'center top',
-                  }}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top', display: 'block' }}
                 />
               </div>
 
-              {/* ── RIGHT: info panel ── */}
-              <div
-                className="modal-panel flex flex-col justify-between overflow-y-auto text-white"
-                style={{
-                  flex: '1 1 0',
-                  minWidth: 0,
-                  padding: '32px 28px',
-                  background: 'linear-gradient(160deg, #0a2520, #061610)',
-                  borderLeft: '1px solid rgba(255,255,255,0.07)',
-                }}
-              >
-                <div>
-                  <span
-                    className="inline-block text-[10px] font-extrabold tracking-wider px-3 py-1 rounded-lg mb-5 uppercase"
-                    style={{ background: modalCard.tagColor, color: modalCard.tagTextDark ? '#6b4a00' : 'white' }}
-                  >
-                    {modalCard.tag}
-                  </span>
-
-                  <h3
-                    className="text-2xl font-extrabold leading-snug mb-3"
-                    style={{ fontFamily: 'Poppins, sans-serif' }}
-                  >
-                    {modalCard.title}
-                  </h3>
-
-                  <p className="text-sm leading-relaxed mb-6" style={{ color: 'rgba(255,255,255,0.6)' }}>
-                    {modalCard.subtitle}
-                  </p>
-
-                  <div className="w-10 h-0.5 rounded-full mb-6" style={{ background: modalCard.tagColor }} />
-
-                  <p className="text-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.38)' }}>
-                    Tap below to open the full lesson — illustrations, explanations &amp; a quiz.
-                  </p>
+              {/* PANEL */}
+              <div style={{
+                flex: '1 1 0',
+                minWidth: 0,
+                overflowY: 'auto',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-between',
+                padding: isMobile ? '20px 20px 32px' : '36px 32px',
+                background: 'linear-gradient(160deg,#0a2520,#061610)',
+                borderTop: isMobile ? '1px solid rgba(255,255,255,0.1)' : 'none',
+                borderLeft: isMobile ? 'none' : '1px solid rgba(255,255,255,0.07)',
+                color: 'white',
+              }}>
+                {/* Top row: tag + close */}
+                <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 14 }}>
+                  <span style={{
+                    display: 'inline-block', fontSize: 10, fontWeight: 800,
+                    letterSpacing: '0.08em', textTransform: 'uppercase',
+                    padding: '4px 12px', borderRadius: 8,
+                    background: modalCard.tagColor,
+                    color: modalCard.tagTextDark ? '#6b4a00' : 'white',
+                  }}>{modalCard.tag}</span>
+                  <button
+                    onClick={() => setModalCard(null)}
+                    style={{
+                      width: 32, height: 32, borderRadius: '50%', border: 'none',
+                      background: 'rgba(255,255,255,0.12)', color: 'white',
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      cursor: 'pointer', flexShrink: 0,
+                    }}
+                    aria-label="Close"
+                  ><X style={{ width: 16, height: 16 }} /></button>
                 </div>
 
-                <div className="flex flex-col gap-3 mt-8">
-                  <motion.button
-                    whileHover={reduceMotion ? undefined : { scale: 1.03 }}
-                    whileTap={reduceMotion ? undefined : { scale: 0.97 }}
+                {/* Title */}
+                <div style={{ marginBottom: isMobile ? 10 : 16 }}>
+                  <div style={{
+                    fontFamily: 'Poppins, sans-serif',
+                    fontSize: isMobile ? 20 : 26,
+                    fontWeight: 800, lineHeight: 1.25,
+                    color: 'white', marginBottom: 8,
+                  }}>{modalCard.title}</div>
+                  <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.62)', lineHeight: 1.6 }}>
+                    {modalCard.subtitle}
+                  </div>
+                </div>
+
+                <div style={{ width: 36, height: 3, borderRadius: 99, background: modalCard.tagColor, marginBottom: isMobile ? 16 : 20 }} />
+
+                <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.35)', lineHeight: 1.6, marginBottom: isMobile ? 20 : 28 }}>
+                  Tap below to open the full lesson — illustrations, explanations &amp; a quiz.
+                </div>
+
+                {/* CTA */}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                  <button
                     onClick={() => {
                       setModalCard(null);
                       if (onTopicSelect) onTopicSelect(modalCard.topicLink);
                       else onStart();
                     }}
-                    className="w-full flex items-center justify-center gap-2.5 py-3.5 rounded-xl font-bold text-sm text-white"
-                    style={{ background: 'linear-gradient(135deg,#0d9488,#075f58)', boxShadow: '0 8px 24px rgba(13,148,136,.45)' }}
+                    style={{
+                      width: '100%', padding: '14px 0', borderRadius: 14,
+                      border: 'none', cursor: 'pointer',
+                      fontWeight: 700, fontSize: 15, color: 'white',
+                      background: 'linear-gradient(135deg,#0d9488,#075f58)',
+                      boxShadow: '0 8px 24px rgba(13,148,136,.4)',
+                      display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+                    }}
                   >
-                    <ExternalLink className="w-4 h-4" />
+                    <ExternalLink style={{ width: 16, height: 16 }} />
                     Explore This Topic
-                  </motion.button>
-
+                  </button>
                   <button
                     onClick={() => setModalCard(null)}
-                    className="w-full py-2.5 rounded-xl text-xs font-semibold"
-                    style={{ color: 'rgba(255,255,255,0.35)', background: 'rgba(255,255,255,0.05)' }}
-                  >
-                    Close
-                  </button>
+                    style={{
+                      width: '100%', padding: '11px 0', borderRadius: 14,
+                      border: '1px solid rgba(255,255,255,0.1)', cursor: 'pointer',
+                      fontWeight: 600, fontSize: 13,
+                      color: 'rgba(255,255,255,0.4)',
+                      background: 'rgba(255,255,255,0.05)',
+                    }}
+                  >Close</button>
                 </div>
               </div>
-
-              {/* ✕ close */}
-              <button
-                onClick={() => setModalCard(null)}
-                className="absolute top-4 right-4 w-9 h-9 rounded-full flex items-center justify-center text-white z-10"
-                style={{ background: 'rgba(0,0,0,0.55)', backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.15)' }}
-                aria-label="Close"
-              >
-                <X className="w-4 h-4" />
-              </button>
             </motion.div>
           </motion.div>
         )}
