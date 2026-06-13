@@ -646,51 +646,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
         </div>
       </section>
 
-      {/* ============================================================
-         STATS BAR
-         ============================================================ */}
-      <section className="relative z-10 px-4 sm:px-8 pb-8 max-w-[1100px] mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.2, duration: 0.6 }}
-          className={`flex flex-wrap items-stretch justify-center rounded-3xl overflow-hidden ${
-            theme === 'dark' ? 'bg-[#0e2522]' : 'bg-white'
-          }`}
-          style={{ boxShadow: theme === 'dark' ? undefined : '0 12px 30px rgba(13,148,136,.14)' }}
-        >
-          {[
-            { num: '26', label: 'Topics', emoji: '✨' },
-            { num: '16', label: 'Languages', emoji: '🌐' },
-            { num: '100%', label: 'Child Safe', emoji: '🛡️' },
-            { num: '3', label: 'Age Levels', emoji: '👶' },
-            { num: 'Free', label: 'Forever', emoji: '♥' },
-          ].map((s, i) => (
-            <motion.div
-              key={s.label}
-              whileHover={reduceMotion ? undefined : { backgroundColor: theme === 'dark' ? '#12332f' : '#ecfcf8' }}
-              className={`flex-1 min-w-[140px] sm:min-w-[160px] py-7 px-5 text-center border-r last:border-r-0 ${
-                theme === 'dark' ? 'border-[#1a3d38]' : 'border-[#ecfcf8]'
-              }`}
-            >
-              <div
-                className="text-3xl sm:text-4xl font-black leading-none"
-                style={{ color: theme === 'dark' ? '#2bbfa1' : '#0a7a70', fontFamily: 'Poppins, sans-serif' }}
-              >
-                {s.num}
-              </div>
-              <div
-                className={`text-xs sm:text-sm font-semibold mt-1 ${
-                  theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'
-                }`}
-              >
-                <span className="mr-1">{s.emoji}</span>
-                {s.label}
-              </div>
-            </motion.div>
-          ))}
-        </motion.div>
-      </section>
+
 
       {/* ============================================================
          SNEAK PEEK CAROUSEL
@@ -961,6 +917,90 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
           ))}
         </div>
       </section>
+
+
+      {/* ============================================================
+         VIDEO SECTION — Five Pillars of Islam
+         ============================================================ */}
+      <motion.section
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-80px' }}
+        transition={{ duration: 0.7, ease: 'easeOut' }}
+        className="relative z-10 px-4 sm:px-8 py-10 sm:py-16 max-w-[1000px] mx-auto"
+      >
+        {/* Section heading */}
+        <div className="text-center mb-8">
+          <span
+            className="inline-block text-xs font-extrabold tracking-widest uppercase px-4 py-1.5 rounded-full mb-4"
+            style={{ background: 'linear-gradient(135deg,#d4f5ee,#b9f0e3)', color: '#0a7a70' }}
+          >
+            🎬 Watch & Learn
+          </span>
+          <h2
+            className="text-2xl sm:text-3xl font-extrabold leading-tight"
+            style={{ color: theme === 'dark' ? '#e2f5f1' : '#0a2520', fontFamily: 'Poppins, sans-serif' }}
+          >
+            The Five Pillars of Islam
+          </h2>
+          <p
+            className="mt-2 text-sm sm:text-base max-w-lg mx-auto"
+            style={{ color: theme === 'dark' ? '#7fa89f' : '#4a6b62' }}
+          >
+            A beautiful visual journey through the foundations of our faith
+          </p>
+        </div>
+
+        {/* Video player */}
+        <div
+          className="relative rounded-3xl overflow-hidden mx-auto"
+          style={{
+            maxWidth: 820,
+            boxShadow: theme === 'dark'
+              ? '0 32px 80px rgba(0,0,0,0.6)'
+              : '0 24px 60px rgba(13,148,136,0.22)',
+            border: theme === 'dark' ? '2px solid rgba(43,191,161,0.15)' : '2px solid rgba(13,148,136,0.12)',
+          }}
+        >
+          {/* Decorative top bar */}
+          <div
+            className="h-1.5 w-full"
+            style={{ background: 'linear-gradient(90deg,#f59e0b,#10b981,#3b82f6,#8b5cf6,#ef4444)' }}
+          />
+          <video
+            src="https://ik.imagekit.io/4zbzbdytp/five%20piller%20mp4.mp4"
+            controls
+            playsInline
+            preload="metadata"
+            className="w-full block"
+            style={{
+              background: '#000',
+              aspectRatio: '16/9',
+              objectFit: 'cover',
+            }}
+            poster="https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446"
+          >
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        {/* Pill badges below video */}
+        <div className="flex flex-wrap justify-center gap-3 mt-7">
+          {['🕌 Shahada','🤲 Salah','💰 Zakat','🌙 Sawm','🕋 Hajj'].map(pill => (
+            <span
+              key={pill}
+              className="px-4 py-1.5 rounded-full text-xs font-bold"
+              style={{
+                background: theme === 'dark' ? 'rgba(43,191,161,0.12)' : 'rgba(13,148,136,0.08)',
+                color:      theme === 'dark' ? '#2bbfa1' : '#0a7a70',
+                border:     theme === 'dark' ? '1px solid rgba(43,191,161,0.2)' : '1px solid rgba(13,148,136,0.15)',
+              }}
+            >
+              {pill}
+            </span>
+          ))}
+        </div>
+      </motion.section>
 
       {/* ============================================================
          FEATURES
