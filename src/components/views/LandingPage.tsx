@@ -1225,57 +1225,43 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 24 }}
               transition={{ type: 'spring', stiffness: 260, damping: 22 }}
-              className="modal-card-inner relative w-full rounded-3xl overflow-hidden"
+              className="relative w-full flex flex-col sm:flex-row rounded-3xl overflow-hidden"
               style={{
-                maxWidth: 960,
+                maxWidth: 760,
                 maxHeight: '90vh',
-                display: 'flex',
-                flexDirection: 'row',
+                overflowY: 'auto',
                 boxShadow: '0 40px 100px rgba(0,0,0,0.75)',
               }}
               onClick={(e) => e.stopPropagation()}
             >
-              {/* ── On mobile: full-screen vertical layout via portal-style overlay ── */}
-              <style>{`
-                @media (max-width: 639px) {
-                  .modal-card-inner { flex-direction: column !important; max-height: 90vh !important; overflow-y: auto !important; }
-                  .modal-img-wrap { flex: none !important; width: 100% !important; height: 56vw !important; min-height: 200px !important; max-height: 260px !important; }
-                  .modal-img-wrap img { height: 100% !important; object-fit: cover !important; }
-                  .modal-panel { border-left: none !important; border-top: 1px solid rgba(255,255,255,0.08) !important; padding: 20px 18px !important; }
-                }
-                @media (min-width: 640px) {
-                  .modal-card-inner { height: min(86vh, 640px); }
-                  .modal-img-wrap { height: 100%; }
-                }
-              `}</style>
-
-              {/* ── LEFT: image ── */}
+              {/* ── IMAGE — full width on mobile, 60% on desktop ── */}
               <div
-                className="modal-img-wrap flex items-stretch overflow-hidden"
-                style={{ flex: '0 0 68%', background: '#000' }}
+                className="w-full sm:w-[60%] shrink-0 overflow-hidden"
+                style={{ background: '#000', minHeight: 220 }}
               >
                 <img
                   src={modalCard.img}
                   alt={modalCard.title}
+                  className="w-full h-full"
                   style={{
                     display: 'block',
-                    width: '100%',
-                    height: '100%',
                     objectFit: 'cover',
                     objectPosition: 'center top',
+                    maxHeight: '45vw',
+                    minHeight: 220,
                   }}
                 />
               </div>
 
-              {/* ── RIGHT: info panel ── */}
+              {/* ── INFO PANEL — full width below on mobile, right column on desktop ── */}
               <div
-                className="modal-panel flex flex-col justify-between overflow-y-auto text-white"
+                className="flex flex-col justify-between text-white overflow-y-auto"
                 style={{
                   flex: '1 1 0',
                   minWidth: 0,
-                  padding: '32px 28px',
+                  padding: '24px 22px',
                   background: 'linear-gradient(160deg, #0a2520, #061610)',
-                  borderLeft: '1px solid rgba(255,255,255,0.07)',
+                  borderTop: '1px solid rgba(255,255,255,0.07)',
                 }}
               >
                 <div>
