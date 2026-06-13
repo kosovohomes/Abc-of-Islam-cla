@@ -1,4 +1,5 @@
 import type { Category, Topic } from '@/types';
+import { readAdminStore } from '@/lib/adminStore';
 
 export const CATEGORIES: Category[] = [
   { id: 'pillars_of_islam', name: 'Pillars of Islam', emoji: '🕌' },
@@ -57,11 +58,39 @@ export const TOPICS: Omit<Topic, 'content' | 'funFact' | 'quiz'>[] = [
   { id: 'eid_al_adha', emoji: '🐑',  title: 'Eid al-Adha', image: 'https://ik.imagekit.io/4zbzbdytp/imgi_43_eid_adha_celebration-a8nckcQaGvn3CYJJy7ta5A.webp?updatedAt=1781117903366',    category: 'special_times' },
 ];
 
+/**
+ * Returns the live topic list with admin overrides applied:
+ * - Deleted topics removed
+ * - Suspended topics marked (app hides them from grid/nav)
+ * - Edited fields (title/emoji/image/category) overridden
+ */
+export function getTopics(): typeof TOPICS {
+  try {
+    const store = readAdminStore();
+    const deleted = new Set(store.deletedIds);
+    return TOPICS
+      .filter(t => !deleted.has(t.id))
+      .map(t => {
+        const ov = store.overrides[t.id];
+        if (!ov) return t;
+        return {
+          ...t,
+          ...(ov.title    !== undefined && { title:    ov.title }),
+          ...(ov.emoji    !== undefined && { emoji:    ov.emoji }),
+          ...(ov.image    !== undefined && { image:    ov.image }),
+          ...(ov.category !== undefined && { category: ov.category }),
+        };
+      });
+  } catch {
+    return TOPICS;
+  }
+}
+
 export function getTopicsByCategory(categoryId: string): typeof TOPICS {
-  return TOPICS.filter(t => t.category === categoryId);
+  return getTopics().filter(t => t.category === categoryId);
 }
 export function getTopicById(id: string): typeof TOPICS[number] | undefined {
-  return TOPICS.find(t => t.id === id);
+  return getTopics().find(t => t.id === id);
 }
 export function getCategoryById(id: string): Category | undefined {
   return CATEGORIES.find(c => c.id === id);
