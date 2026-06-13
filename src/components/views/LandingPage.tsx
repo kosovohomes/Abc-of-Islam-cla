@@ -928,7 +928,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-80px' }}
         transition={{ duration: 0.7, ease: 'easeOut' }}
-        className="relative z-10 px-4 sm:px-8 py-10 sm:py-16 max-w-[820px] mx-auto"
+        className="relative z-10 px-4 sm:px-8 py-10 sm:py-16 max-w-full sm:max-w-[512px] mx-auto"
       >
         {/* Section heading */}
         <div className="text-center mb-8">
@@ -974,8 +974,6 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
               background: '#000',
               display: 'block',
               width: '100%',
-              maxWidth: 720,
-              margin: '0 auto',
             }}
           >
             Your browser does not support the video tag.
