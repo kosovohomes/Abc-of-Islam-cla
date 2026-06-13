@@ -1,4 +1,5 @@
 import type { Locale, Topic } from '@/types';
+import { readAdminStore } from '@/lib/adminStore';
 
 import en from '@/content/en.json';
 import ar from '@/content/ar.json';
@@ -37,8 +38,26 @@ const CONTENT_MAP: Record<string, Topic[]> = {
 };
 
 export function getContent(locale: Locale): Topic[] {
-  if (CONTENT_MAP[locale]) return CONTENT_MAP[locale];
-  return CONTENT_MAP.en;
+  const base = CONTENT_MAP[locale] ?? CONTENT_MAP.en;
+  try {
+    const store = readAdminStore();
+    const deleted = new Set(store.deletedIds);
+    return base
+      .filter(t => !deleted.has(t.id) && !(store.overrides[t.id]?.suspended))
+      .map(t => {
+        const ov = store.overrides[t.id];
+        if (!ov) return t;
+        return {
+          ...t,
+          ...(ov.title    !== undefined && { title:    ov.title }),
+          ...(ov.emoji    !== undefined && { emoji:    ov.emoji }),
+          ...(ov.image    !== undefined && { image:    ov.image }),
+          ...(ov.category !== undefined && { category: ov.category }),
+        };
+      });
+  } catch {
+    return base;
+  }
 }
 
 export function getTopicById(locale: Locale, id: string): Topic | undefined {
