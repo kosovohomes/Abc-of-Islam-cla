@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, Fragment } from 'react';
 import confetti from 'canvas-confetti';
-import { AnimatePresence } from 'motion/react';
-import { Trophy, VolumeX, Volume2 } from 'lucide-react';
+import { AnimatePresence, motion } from 'motion/react';
+import { Trophy, VolumeX, Volume2, Menu, X, ChevronLeft } from 'lucide-react';
 
 import LanguagePicker, { isRTL } from '@/components/layout/LanguagePicker';
 import AgeSelector from '@/components/content/AgeSelector';
@@ -98,6 +98,7 @@ export default function App() {
 
   // ── Overlay state ─────────────────────────────────────────────────────────────
   const [showBadges, setShowBadges] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [unlockedBadgeName, setUnlockedBadgeName] = useState<string | null>(null);
   const [masteredCategory, setMasteredCategory] = useState<{ name: string; emoji: string } | null>(null);
 
@@ -389,46 +390,42 @@ export default function App() {
       dir={isRtlLayout ? 'rtl' : 'ltr'}
     >
       {/* ── Sticky navigation header ── */}
-      <header className="sticky top-0 z-40 bg-[#F8FAF5]/90 backdrop-blur-md border-b border-emerald-100/40 shadow-sm no-print shrink-0">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm no-print shrink-0">
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 h-14 sm:h-16 flex items-center justify-between gap-2">
 
-          {/* Left: logo / back button */}
-          <button
-            onClick={handleHeaderBack}
-            className="flex items-center gap-2 text-emerald-800 hover:scale-[1.03] transition-transform font-bold text-sm cursor-pointer uppercase tracking-wider"
-          >
-            {currentView !== 'landing' ? (
-              <div className="flex items-center gap-1.5 px-3 py-1.5 bg-emerald-50 text-emerald-800 rounded-full hover:bg-emerald-100 transition-colors">
-                <span className="text-base">←</span>
-                <span className="hidden sm:inline text-xs">
-                  {currentView === 'topic' ? 'Topic Index' : 'Home'}
-                </span>
-              </div>
-            ) : (
-              <div className="flex items-center gap-2">
-                <span className="text-xl leading-none">🕌</span>
-                <span className="font-serif tracking-tight text-sm normal-case whitespace-nowrap">
-                  ABC of Islam
-                </span>
-              </div>
-            )}
-          </button>
-
-          {/* Right: controls */}
-          <div className="flex items-center gap-2 sm:gap-3">
-            {/* Online/offline indicator */}
-            <div
-              className={`hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider border ${
-                isOnline
-                  ? 'bg-emerald-50 text-emerald-700 border-emerald-200'
-                  : 'bg-amber-50 text-amber-700 border-amber-200'
-              }`}
-            >
-              <span
-                className={`w-1.5 h-1.5 rounded-full ${
-                  isOnline ? 'bg-emerald-500' : 'bg-amber-500'
-                }`}
+          {/* LEFT: GIF logo on landing, back pill on inner views */}
+          {currentView === 'landing' ? (
+            <a href="#/" className="shrink-0 flex items-center">
+              <img
+                src="https://ik.imagekit.io/4zbzbdytp/ABC%20of%20ISLAM.gif"
+                alt="ABC of Islam"
+                className="h-9 sm:h-10 w-auto object-contain"
+                draggable={false}
               />
+            </a>
+          ) : (
+            <button
+              onClick={handleHeaderBack}
+              className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 rounded-full text-xs font-bold uppercase tracking-wider cursor-pointer transition-colors border border-emerald-100"
+            >
+              <ChevronLeft className="w-3.5 h-3.5 stroke-[2.5]" />
+              <span>{currentView === 'topic' ? 'Topic Index' : 'Home'}</span>
+            </button>
+          )}
+
+          {/* CENTRE: Age selector — desktop */}
+          <div className="hidden md:flex flex-1 justify-center">
+            <AgeSelector />
+          </div>
+
+          {/* RIGHT: controls */}
+          <div className="flex items-center gap-1 sm:gap-2 shrink-0">
+
+            {/* Online pill — sm+ */}
+            <div className={`hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider border ${
+              isOnline ? 'bg-emerald-50 text-emerald-700 border-emerald-200' : 'bg-amber-50 text-amber-700 border-amber-200'
+            }`}>
+              <span className={`w-1.5 h-1.5 rounded-full ${isOnline ? 'bg-emerald-500 animate-pulse' : 'bg-amber-500'}`} />
               {isOnline ? 'Online' : 'Offline'}
             </div>
 
@@ -436,39 +433,75 @@ export default function App() {
             <button
               id="header-audio-toggle"
               onClick={toggleAudio}
-              title={audioEnabled ? 'Disable audio' : 'Enable audio'}
-              className="p-2 rounded-full hover:bg-emerald-50 transition-colors text-emerald-700 cursor-pointer"
+              title={audioEnabled ? 'Mute' : 'Unmute'}
+              className="p-2 rounded-full hover:bg-gray-100 transition-colors cursor-pointer"
             >
-              {audioEnabled ? (
-                <Volume2 className="w-4 h-4" />
-              ) : (
-                <VolumeX className="w-4 h-4 text-gray-400" />
-              )}
+              {audioEnabled ? <Volume2 className="w-4 h-4 text-emerald-600" /> : <VolumeX className="w-4 h-4 text-gray-400" />}
             </button>
 
-            {/* Age selector (desktop) */}
-            <div className="hidden md:block">
+            {/* Age selector — tablet only (sm, hidden on md+) */}
+            <div className="hidden sm:block md:hidden">
               <AgeSelector />
             </div>
 
-            {/* Badge cabinet */}
+            {/* Badges */}
             <button
               id="header-badges-btn"
               onClick={() => setShowBadges(true)}
-              className="relative flex items-center gap-1.5 px-3 py-1.5 bg-amber-50 hover:bg-amber-100 text-amber-800 rounded-full border border-amber-200 text-xs font-bold uppercase tracking-wider cursor-pointer transition-colors"
+              className="relative flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 bg-amber-50 hover:bg-amber-100 text-amber-800 rounded-full border border-amber-200 text-[11px] font-bold uppercase tracking-wider cursor-pointer transition-colors"
             >
-              <Trophy className="w-3.5 h-3.5 text-amber-600" />
+              <Trophy className="w-3.5 h-3.5 text-amber-600 shrink-0" />
               <span className="hidden sm:inline">{t(locale, 'badges')}</span>
               {progress.badges.length > 0 && (
-                <span className="absolute -top-1.5 -right-1.5 w-4 h-4 flex items-center justify-center bg-rose-500 text-white text-[8px] font-bold rounded-full">
+                <span className="absolute -top-1.5 -right-1.5 w-4 h-4 flex items-center justify-center bg-rose-500 text-white text-[8px] font-extrabold rounded-full shadow-sm">
                   {progress.badges.length}
                 </span>
               )}
             </button>
 
-            <LanguagePicker />
+            {/* Language picker — sm+ */}
+            <div className="hidden sm:block">
+              <LanguagePicker />
+            </div>
+
+            {/* Hamburger — mobile only */}
+            <button
+              onClick={() => setMobileMenuOpen(v => !v)}
+              className="sm:hidden p-2 rounded-full hover:bg-gray-100 transition-colors text-gray-600 cursor-pointer"
+              aria-label="Menu"
+            >
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
           </div>
         </div>
+
+        {/* Mobile dropdown */}
+        <AnimatePresence>
+          {mobileMenuOpen && (
+            <motion.div
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: 'auto', opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.22, ease: 'easeInOut' }}
+              className="sm:hidden overflow-hidden border-t border-gray-100 bg-white"
+            >
+              <div className="px-4 py-4 space-y-4">
+                <div>
+                  <p className="text-[10px] font-extrabold uppercase tracking-widest text-gray-400 mb-2">Age Level</p>
+                  <AgeSelector />
+                </div>
+                <div>
+                  <p className="text-[10px] font-extrabold uppercase tracking-widest text-gray-400 mb-2">Language</p>
+                  <LanguagePicker />
+                </div>
+                <div className="flex items-center gap-2 pb-1">
+                  <span className={`w-2 h-2 rounded-full ${isOnline ? 'bg-emerald-500 animate-pulse' : 'bg-amber-500'}`} />
+                  <span className="text-xs font-semibold text-gray-500">{isOnline ? 'Online' : 'Offline'}</span>
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </header>
 
       {/* ── Main content area ── */}

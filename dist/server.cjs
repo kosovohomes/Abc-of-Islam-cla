@@ -31,6 +31,33 @@ var import_dotenv = __toESM(require("dotenv"), 1);
 var import_vite = require("vite");
 var import_genai = require("@google/genai");
 
+// src/lib/adminStore.ts
+var ADMIN_STORE_KEY = "abc_admin_v2";
+var DEFAULT_SETTINGS = {
+  maintenanceMode: false,
+  guestQuizAccess: true,
+  siteName: "ABC of Islam"
+};
+var DEFAULT_STORE = {
+  overrides: {},
+  deletedIds: [],
+  settings: DEFAULT_SETTINGS
+};
+function readAdminStore() {
+  try {
+    const raw = localStorage.getItem(ADMIN_STORE_KEY);
+    if (!raw) return { ...DEFAULT_STORE, settings: { ...DEFAULT_SETTINGS } };
+    const p = JSON.parse(raw);
+    return {
+      overrides: p.overrides ?? {},
+      deletedIds: p.deletedIds ?? [],
+      settings: { ...DEFAULT_SETTINGS, ...p.settings ?? {} }
+    };
+  } catch {
+    return { ...DEFAULT_STORE, settings: { ...DEFAULT_SETTINGS } };
+  }
+}
+
 // src/content/en.json
 var en_default = [
   {
@@ -21310,8 +21337,24 @@ var CONTENT_MAP = {
   ko: ko_default
 };
 function getContent(locale) {
-  if (CONTENT_MAP[locale]) return CONTENT_MAP[locale];
-  return CONTENT_MAP.en;
+  const base = CONTENT_MAP[locale] ?? CONTENT_MAP.en;
+  try {
+    const store = readAdminStore();
+    const deleted = new Set(store.deletedIds);
+    return base.filter((t) => !deleted.has(t.id) && !store.overrides[t.id]?.suspended).map((t) => {
+      const ov = store.overrides[t.id];
+      if (!ov) return t;
+      return {
+        ...t,
+        ...ov.title !== void 0 && { title: ov.title },
+        ...ov.emoji !== void 0 && { emoji: ov.emoji },
+        ...ov.image !== void 0 && { image: ov.image },
+        ...ov.category !== void 0 && { category: ov.category }
+      };
+    });
+  } catch {
+    return base;
+  }
 }
 
 // server.ts
