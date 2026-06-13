@@ -401,13 +401,14 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
           >
             {[
               { label: 'Beginner', dotColor: '#0d9488' },
-              { label: 'Explorer', dotColor: '#0d9488', active: true },
+              { label: 'Explorer', dotColor: '#0d9488' },
               { label: 'Thinker', dotColor: '#ff6fa5' },
             ].map((lvl) => {
-              const active = (lvl.label === 'Explorer' && theme === 'light') || (lvl.label === activeAge && theme === 'dark');
+              const active = lvl.label === activeAge;
               return (
                 <motion.button
                   key={lvl.label}
+                  onClick={() => setActiveAge(lvl.label as any)}
                   whileHover={reduceMotion ? undefined : { y: -2, backgroundColor: theme === 'dark' ? 'rgba(13,148,136,.15)' : '#ecfcf8', color: theme === 'dark' ? '#5cd5bd' : '#0a7a70' }}
                   className={`px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-colors flex items-center gap-1.5 ${
                     active
@@ -1422,19 +1423,33 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 24 }}
               transition={{ type: 'spring', stiffness: 260, damping: 22 }}
-              className="relative flex flex-col sm:flex-row rounded-3xl overflow-hidden"
+              className="modal-card-inner relative w-full rounded-3xl overflow-hidden"
               style={{
-                width: 'min(96vw, 960px)',
-                maxHeight: '92vh',
-                background: '#000',
+                maxWidth: 960,
+                maxHeight: '90vh',
+                display: 'flex',
+                flexDirection: 'row',
                 boxShadow: '0 40px 100px rgba(0,0,0,0.75)',
-                overflowY: 'auto',
               }}
               onClick={(e) => e.stopPropagation()}
             >
-              {/* ── LEFT: image (≈70% width) ── */}
+              {/* ── On mobile: full-screen vertical layout via portal-style overlay ── */}
+              <style>{`
+                @media (max-width: 639px) {
+                  .modal-card-inner { flex-direction: column !important; max-height: 90vh !important; overflow-y: auto !important; }
+                  .modal-img-wrap { flex: none !important; width: 100% !important; height: 56vw !important; min-height: 200px !important; max-height: 260px !important; }
+                  .modal-img-wrap img { height: 100% !important; object-fit: cover !important; }
+                  .modal-panel { border-left: none !important; border-top: 1px solid rgba(255,255,255,0.08) !important; padding: 20px 18px !important; }
+                }
+                @media (min-width: 640px) {
+                  .modal-card-inner { height: min(86vh, 640px); }
+                  .modal-img-wrap { height: 100%; }
+                }
+              `}</style>
+
+              {/* ── LEFT: image ── */}
               <div
-                className="flex items-center justify-center"
+                className="modal-img-wrap flex items-stretch overflow-hidden"
                 style={{ flex: '0 0 68%', background: '#000' }}
               >
                 <img
@@ -1443,21 +1458,22 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                   style={{
                     display: 'block',
                     width: '100%',
-                    height: 'clamp(200px, 40vw, 90vh)',
-                    maxHeight: '55vh',
-                    objectFit: 'contain',
+                    height: '100%',
+                    objectFit: 'cover',
+                    objectPosition: 'center top',
                   }}
                 />
               </div>
 
-              {/* ── RIGHT: info panel (≈30% width) ── */}
+              {/* ── RIGHT: info panel ── */}
               <div
-                className="flex flex-col justify-between p-6 sm:p-8 overflow-y-auto text-white"
+                className="modal-panel flex flex-col justify-between overflow-y-auto text-white"
                 style={{
                   flex: '1 1 0',
-                  background: 'linear-gradient(160deg, #0e2522, #071510)',
+                  minWidth: 0,
+                  padding: '32px 28px',
+                  background: 'linear-gradient(160deg, #0a2520, #061610)',
                   borderLeft: '1px solid rgba(255,255,255,0.07)',
-                  minWidth: 220,
                 }}
               >
                 <div>
