@@ -407,7 +407,7 @@ export default function App() {
             ) : (
               <div className="flex items-center gap-2">
                 <span className="text-xl leading-none">🕌</span>
-                <span className="font-serif tracking-tight text-sm">
+                <span className="font-serif tracking-tight text-sm normal-case whitespace-nowrap">
                   ABC of Islam
                 </span>
               </div>
