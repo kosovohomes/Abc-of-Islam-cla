@@ -651,7 +651,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
       {/* ============================================================
          SNEAK PEEK CAROUSEL
          ============================================================ */}
-      <section className="relative z-10 py-8 sm:py-12">
+      <section className="relative z-10 py-8 sm:py-12 w-full overflow-hidden">
         <div className="text-center mb-7 px-4">
           <motion.span
             initial={{ opacity: 0, y: 10 }}
@@ -692,7 +692,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
           </motion.p>
         </div>
 
-        <div className="relative mx-auto max-w-[1200px] py-4 sm:py-6">
+        <div className="relative w-full py-4 sm:py-6">
           <div
             ref={carouselRef}
             onPointerDown={onPointerDown}
@@ -701,7 +701,8 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             onPointerLeave={onPointerUp}
             className="flex gap-4 sm:gap-7 overflow-x-auto snap-x snap-mandatory py-5"
             style={{
-              scrollbarWidth: 'none', cursor: 'grab', scrollBehavior: 'smooth', perspective: 1600, paddingLeft: 'max(1rem, calc(50% - 130px))', paddingRight: 'max(1rem, calc(50% - 130px))',
+              scrollbarWidth: 'none', cursor: 'grab', scrollBehavior: 'smooth',
+              paddingLeft: '1rem', paddingRight: '1rem',
             }}
           >
             {topicCards.map((card, idx) => {
@@ -927,7 +928,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-80px' }}
         transition={{ duration: 0.7, ease: 'easeOut' }}
-        className="relative z-10 px-4 sm:px-8 py-10 sm:py-16 max-w-[1000px] mx-auto"
+        className="relative z-10 px-4 sm:px-8 py-10 sm:py-16 max-w-[820px] mx-auto"
       >
         {/* Section heading */}
         <div className="text-center mb-8">
@@ -962,11 +963,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             border: theme === 'dark' ? '2px solid rgba(43,191,161,0.15)' : '2px solid rgba(13,148,136,0.12)',
           }}
         >
-          {/* Decorative top bar */}
-          <div
-            className="h-1.5 w-full"
-            style={{ background: 'linear-gradient(90deg,#f59e0b,#10b981,#3b82f6,#8b5cf6,#ef4444)' }}
-          />
+
           <video
             src="https://ik.imagekit.io/4zbzbdytp/five%20piller%20mp4.mp4"
             controls
@@ -975,10 +972,11 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             className="w-full block"
             style={{
               background: '#000',
-              aspectRatio: '16/9',
-              objectFit: 'cover',
+              display: 'block',
+              width: '100%',
+              maxWidth: 720,
+              margin: '0 auto',
             }}
-            poster="https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446"
           >
             Your browser does not support the video tag.
           </video>
