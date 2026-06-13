@@ -7,7 +7,12 @@ import {
   TrendingUp, Globe, Clock, Shield, Download, RefreshCw,
   ToggleLeft, ToggleRight, Star, Zap, BookMarked, PlusCircle,
 } from 'lucide-react';
-import { TOPICS, CATEGORIES } from '@/lib/topics';
+import { TOPICS, CATEGORIES, getTopics } from '@/lib/topics';
+import {
+  readAdminStore, writeAdminStore, readAdminStats,
+  type AdminTopicOverride, type AdminStore, type AdminSettings,
+  DEFAULT_SETTINGS,
+} from '@/lib/adminStore';
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 interface AdminTopic {
@@ -46,18 +51,23 @@ type AdminSection = 'overview' | 'topics' | 'pages' | 'users' | 'settings';
 
 // ─── Seed helpers ─────────────────────────────────────────────────────────────
 function seedTopics(): AdminTopic[] {
-  return TOPICS.map((t, i) => ({
-    id: t.id,
-    title: typeof t.title === 'string' ? t.title : String(t.title),
-    emoji: t.emoji,
-    image: t.image,
-    category: t.category,
-    suspended: false,
-    featured: i < 3,
-    createdAt: '2025-01-01',
-    viewCount: Math.floor(Math.random() * 2000) + 100,
-    quizAttempts: Math.floor(Math.random() * 800) + 20,
-  }));
+  const store = readAdminStore();
+  const stats = readAdminStats();
+  return TOPICS.map((t, i) => {
+    const ov = store.overrides[t.id] ?? {};
+    return {
+      id: t.id,
+      title: ov.title ?? (typeof t.title === 'string' ? t.title : String(t.title)),
+      emoji: ov.emoji ?? t.emoji,
+      image: ov.image ?? t.image,
+      category: ov.category ?? t.category,
+      suspended: ov.suspended ?? false,
+      featured: ov.featured ?? i < 3,
+      createdAt: '2025-01-01',
+      viewCount: stats.views[t.id] ?? 0,
+      quizAttempts: stats.quizAttempts[t.id] ?? 0,
+    };
+  });
 }
 
 function seedPages(): AdminPage[] {
@@ -83,19 +93,9 @@ function seedUsers(): AdminUser[] {
 }
 
 // ─── Storage helpers ──────────────────────────────────────────────────────────
-const STORAGE_KEY = 'abc_admin_data_v1';
-
-function loadAdminData() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return JSON.parse(raw);
-  } catch {}
-  return null;
-}
-
-function saveAdminData(data: any) {
-  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(data)); } catch {}
-}
+// Real persistence via adminStore
+function loadAdminData() { return null; } // always seed fresh from adminStore
+function saveAdminData(_data: any) {}     // no-op; saves happen per-action below
 
 // ─── Sub-components ───────────────────────────────────────────────────────────
 
@@ -226,20 +226,39 @@ function TopicsSection({ topics, setTopics }: { topics: AdminTopic[]; setTopics:
   const toggle = (id: string, field: 'suspended' | 'featured') => {
     const updated = topics.map(t => t.id === id ? { ...t, [field]: !t[field] } : t);
     setTopics(updated);
-    showToast(`Topic ${field === 'suspended' ? (updated.find(t=>t.id===id)?.suspended ? 'suspended' : 'activated') : 'updated'}`);
+    // Persist to real adminStore
+    const store = readAdminStore();
+    const topic = updated.find(t => t.id === id)!;
+    store.overrides[id] = { ...(store.overrides[id] ?? {}), id, [field]: topic[field] };
+    writeAdminStore(store);
+    showToast(`Topic ${field === 'suspended' ? (topic.suspended ? 'suspended' : 'activated') : 'updated'}`);
   };
 
   const deleteTopic = (id: string) => {
-    if (!confirm('Delete this topic permanently?')) return;
+    if (!confirm('Delete this topic permanently? It will be removed from the site immediately.')) return;
     setTopics(topics.filter(t => t.id !== id));
-    showToast('Topic deleted');
+    const store = readAdminStore();
+    if (!store.deletedIds.includes(id)) store.deletedIds.push(id);
+    writeAdminStore(store);
+    showToast('Topic deleted — removed from site');
   };
 
   const saveEdit = () => {
     if (!editingTopic) return;
     setTopics(topics.map(t => t.id === editingTopic.id ? editingTopic : t));
+    // Persist edits to real adminStore
+    const store = readAdminStore();
+    store.overrides[editingTopic.id] = {
+      ...(store.overrides[editingTopic.id] ?? {}),
+      id: editingTopic.id,
+      title:    editingTopic.title,
+      emoji:    editingTopic.emoji,
+      image:    editingTopic.image,
+      category: editingTopic.category,
+    };
+    writeAdminStore(store);
     setEditingTopic(null);
-    showToast('Topic saved');
+    showToast('Topic saved — site updated instantly');
   };
 
   const addTopic = () => {
@@ -677,12 +696,19 @@ function UsersSection({ users, setUsers }: { users: AdminUser[]; setUsers: (u: A
 
 // ─── SETTINGS SECTION ─────────────────────────────────────────────────────────
 function SettingsSection({ onChangePassword }: { onChangePassword: (pw: string) => void }) {
-  const [siteName, setSiteName] = useState('ABC of Islam');
-  const [maintenanceMode, setMaintenanceMode] = useState(false);
-  const [guestQuiz, setGuestQuiz] = useState(true);
+  const liveSettings = readAdminStore().settings;
+  const [siteName, setSiteName] = useState(liveSettings.siteName);
+  const [maintenanceMode, setMaintenanceMode] = useState(liveSettings.maintenanceMode);
+  const [guestQuiz, setGuestQuiz] = useState(liveSettings.guestQuizAccess);
   const [newPw, setNewPw] = useState('');
   const [toast, setToast] = useState<string | null>(null);
   const showToast = (msg: string) => { setToast(msg); setTimeout(() => setToast(null), 2500); };
+
+  const persistSettings = (patch: Partial<{ siteName: string; maintenanceMode: boolean; guestQuizAccess: boolean }>) => {
+    const store = readAdminStore();
+    store.settings = { ...store.settings, ...patch };
+    writeAdminStore(store);
+  };
 
   return (
     <div className="space-y-6 max-w-2xl">
@@ -718,7 +744,10 @@ function SettingsSection({ onChangePassword }: { onChangePassword: (pw: string) 
             {guestQuiz ? <ToggleRight className="w-8 h-8 text-emerald-500" /> : <ToggleLeft className="w-8 h-8 text-gray-300" />}
           </button>
         </div>
-        <button onClick={() => showToast('Settings saved')}
+        <button onClick={() => {
+            persistSettings({ siteName, maintenanceMode, guestQuizAccess: guestQuiz });
+            showToast('Settings saved — site updated');
+          }}
           className="px-4 py-2 bg-emerald-600 text-white text-sm font-bold rounded-xl hover:bg-emerald-700 flex items-center gap-2">
           <Save className="w-4 h-4" /> Save Settings
         </button>
@@ -743,7 +772,7 @@ function SettingsSection({ onChangePassword }: { onChangePassword: (pw: string) 
         <h3 className="font-bold text-gray-800 flex items-center gap-2"><Download className="w-4 h-4 text-blue-500" /> Data Management</h3>
         <div className="flex flex-wrap gap-3">
           <button onClick={() => {
-            const data = localStorage.getItem('abc_admin_data_v1');
+            const data = localStorage.getItem('abc_admin_v2');
             const blob = new Blob([data || '{}'], { type: 'application/json' });
             const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'admin_backup.json'; a.click();
             showToast('Backup downloaded');
@@ -830,21 +859,14 @@ export default function AdminDashboard({ onExit }: { onExit: () => void }) {
 
   // Data
   const [section, setSection] = useState<AdminSection>('overview');
-  const [topics, setTopics] = useState<AdminTopic[]>(() => {
-    const saved = loadAdminData();
-    return saved?.topics ?? seedTopics();
-  });
-  const [pages, setPages] = useState<AdminPage[]>(() => {
-    const saved = loadAdminData();
-    return saved?.pages ?? seedPages();
-  });
-  const [users, setUsers] = useState<AdminUser[]>(() => {
-    const saved = loadAdminData();
-    return saved?.users ?? seedUsers();
-  });
+  const [topics, setTopics] = useState<AdminTopic[]>(() => seedTopics());
+  const [pages, setPages] = useState<AdminPage[]>(() => seedPages());
+  const [users, setUsers] = useState<AdminUser[]>(() => seedUsers());
 
-  // Auto-save
-  useEffect(() => { saveAdminData({ topics, pages, users }); }, [topics, pages, users]);
+  // Refresh stats every time admin opens or section changes
+  useEffect(() => {
+    setTopics(seedTopics());
+  }, [section]);
 
   if (!authed) return <AdminLogin onLogin={handleLogin} />;
 
