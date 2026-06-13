@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { useState, useRef, useEffect } from 'react';
 import AgeSelector from '@/components/content/AgeSelector';
+import { useAppStore } from '@/lib/store';
 import { t } from '@/lib/translations';
 import type { Locale } from '@/types';
 
@@ -115,7 +116,18 @@ const topicCards = [
 export default function LandingPageV2({ locale, onStart, onTopicSelect }: LandingPageV2Props) {
   const [activeSlide, setActiveSlide] = useState(0);
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
-  const [activeAge, setActiveAge] = useState<'Beginner' | 'Explorer' | 'Thinker'>('Explorer');
+  const { ageLevel, setAgeLevel } = useAppStore();
+  // Map store ageLevel → display label
+  const ageLabelMap: Record<string, 'Beginner' | 'Explorer' | 'Thinker'> = {
+    starter: 'Beginner', explorer: 'Explorer', thinker: 'Thinker',
+  };
+  const ageLevelMap: Record<string, string> = {
+    Beginner: 'starter', Explorer: 'explorer', Thinker: 'thinker',
+  };
+  const activeAge = ageLabelMap[ageLevel] ?? 'Explorer';
+  const setActiveAge = (label: 'Beginner' | 'Explorer' | 'Thinker') => {
+    setAgeLevel(ageLevelMap[label] as any);
+  };
   const [modalCard, setModalCard] = useState<typeof topicCards[number] | null>(null);
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [authTab, setAuthTab] = useState<'signin' | 'signup'>('signin');
@@ -968,7 +980,10 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             src="https://ik.imagekit.io/4zbzbdytp/five%20piller%20mp4.mp4"
             controls
             playsInline
-            preload="metadata"
+            autoPlay
+            muted
+            loop
+            preload="auto"
             className="w-full block"
             style={{
               background: '#000',
@@ -1409,17 +1424,18 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
               transition={{ type: 'spring', stiffness: 260, damping: 22 }}
               className="relative flex flex-col sm:flex-row rounded-3xl overflow-hidden"
               style={{
-                width: 'min(92vw, 960px)',
-                maxHeight: '90vh',
+                width: 'min(96vw, 960px)',
+                maxHeight: '92vh',
                 background: '#000',
                 boxShadow: '0 40px 100px rgba(0,0,0,0.75)',
+                overflowY: 'auto',
               }}
               onClick={(e) => e.stopPropagation()}
             >
               {/* ── LEFT: image (≈70% width) ── */}
               <div
                 className="flex items-center justify-center"
-                style={{ flex: '0 0 68%', background: '#000', minHeight: 300 }}
+                style={{ flex: '0 0 68%', background: '#000' }}
               >
                 <img
                   src={modalCard.img}
@@ -1427,8 +1443,8 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                   style={{
                     display: 'block',
                     width: '100%',
-                    height: '90vh',
-                    maxHeight: '90vh',
+                    height: 'clamp(200px, 40vw, 90vh)',
+                    maxHeight: '55vh',
                     objectFit: 'contain',
                   }}
                 />
