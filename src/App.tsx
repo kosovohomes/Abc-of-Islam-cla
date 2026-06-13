@@ -12,6 +12,7 @@ import LandingPage from '@/components/views/LandingPage';
 import TopicGrid from '@/components/views/TopicGrid';
 import TopicReader from '@/components/views/TopicReader';
 import CelebrationOverlays from '@/components/layout/CelebrationOverlays';
+import AdminDashboard from '@/components/admin/AdminDashboard';
 
 import { useAppStore } from '@/lib/store';
 import { t, getCategoryName } from '@/lib/translations';
@@ -40,6 +41,7 @@ export default function App() {
   const parseHashState = (): { view: 'landing' | 'grid' | 'topic'; topicId: string } => {
     if (typeof window === 'undefined') return { view: 'landing', topicId: 'shahada' };
     const hash = window.location.hash.replace(/^#\//, '');
+    if (hash === 'admin') return { view: 'admin' as any, topicId: 'shahada' };
     if (hash.startsWith('topic/')) {
       const id = hash.slice('topic/'.length) || 'shahada';
       return { view: 'topic', topicId: id };
@@ -48,14 +50,15 @@ export default function App() {
     return { view: 'landing', topicId: 'shahada' };
   };
 
-  const [currentView, setCurrentView] = useState<'landing' | 'grid' | 'topic'>(() => parseHashState().view);
+  const [currentView, setCurrentView] = useState<'landing' | 'grid' | 'topic' | 'admin'>(() => parseHashState().view as any);
   const [selectedTopicId, setSelectedTopicId] = useState<string>(() => parseHashState().topicId);
 
   // Keep URL hash in sync with view state
   const pushHash = (view: 'landing' | 'grid' | 'topic', topicId?: string) => {
     if (typeof window === 'undefined') return;
     let hash = '#/';
-    if (view === 'grid') hash = '#/topics';
+    if ((view as string) === 'admin') hash = '#/admin';
+    else if (view === 'grid') hash = '#/topics';
     else if (view === 'topic' && topicId) hash = `#/topic/${topicId}`;
     if (window.location.hash !== hash) {
       window.history.pushState(null, '', hash);
@@ -506,6 +509,13 @@ export default function App() {
           )}
         </AnimatePresence>
       </main>
+
+      {/* ── Admin Dashboard (full-page takeover via #/admin) ── */}
+      {currentView === 'admin' && (
+        <div className="fixed inset-0 z-[200]">
+          <AdminDashboard onExit={() => { setCurrentView('landing'); }} />
+        </div>
+      )}
 
       {/* ── All celebration + badge overlays ── */}
       <CelebrationOverlays
