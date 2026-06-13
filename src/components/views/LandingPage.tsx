@@ -1225,72 +1225,117 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 24 }}
               transition={{ type: 'spring', stiffness: 260, damping: 22 }}
-              className="relative w-full flex flex-col sm:flex-row rounded-3xl overflow-hidden"
-              style={{
-                maxWidth: 760,
-                maxHeight: '90vh',
-                overflowY: 'auto',
-                boxShadow: '0 40px 100px rgba(0,0,0,0.75)',
-              }}
               onClick={(e) => e.stopPropagation()}
+              style={{
+                position: 'relative',
+                width: '100%',
+                maxWidth: isMobile ? '96vw' : 860,
+                borderRadius: 24,
+                overflow: 'hidden',
+                boxShadow: '0 40px 100px rgba(0,0,0,0.75)',
+                display: 'flex',
+                flexDirection: isMobile ? 'column' : 'row',
+                maxHeight: '92vh',
+                overflowY: 'auto',
+              }}
             >
-              {/* ── IMAGE — full width on mobile, 60% on desktop ── */}
-              <div
-                className="w-full sm:w-[60%] shrink-0 overflow-hidden"
-                style={{ background: '#000', minHeight: 220 }}
-              >
+              {/* ── IMAGE ── */}
+              <div style={{
+                flexShrink: 0,
+                width: isMobile ? '100%' : '62%',
+                height: isMobile ? '52vw' : undefined,
+                minHeight: isMobile ? 180 : undefined,
+                maxHeight: isMobile ? 280 : undefined,
+                background: '#000',
+                overflow: 'hidden',
+              }}>
                 <img
                   src={modalCard.img}
                   alt={modalCard.title}
-                  className="w-full h-full"
                   style={{
                     display: 'block',
+                    width: '100%',
+                    height: '100%',
                     objectFit: 'cover',
                     objectPosition: 'center top',
-                    maxHeight: '45vw',
-                    minHeight: 220,
                   }}
                 />
               </div>
 
-              {/* ── INFO PANEL — full width below on mobile, right column on desktop ── */}
-              <div
-                className="flex flex-col justify-between text-white overflow-y-auto"
-                style={{
-                  flex: '1 1 0',
-                  minWidth: 0,
-                  padding: '24px 22px',
-                  background: 'linear-gradient(160deg, #0a2520, #061610)',
-                  borderTop: '1px solid rgba(255,255,255,0.07)',
-                }}
-              >
+              {/* ── INFO PANEL ── */}
+              <div style={{
+                flex: '1 1 0',
+                minWidth: 0,
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-between',
+                padding: isMobile ? '20px 18px 24px' : '32px 28px',
+                background: 'linear-gradient(160deg, #0a2520, #061610)',
+                borderTop: isMobile ? '1px solid rgba(255,255,255,0.08)' : 'none',
+                borderLeft: isMobile ? 'none' : '1px solid rgba(255,255,255,0.07)',
+                color: 'white',
+              }}>
+                {/* X button on mobile inside panel */}
+                {isMobile && (
+                  <button
+                    onClick={() => setModalCard(null)}
+                    style={{
+                      position: 'absolute', top: 12, right: 12,
+                      width: 32, height: 32, borderRadius: '50%',
+                      background: 'rgba(0,0,0,0.55)',
+                      border: '1px solid rgba(255,255,255,0.2)',
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      color: 'white', cursor: 'pointer',
+                    }}
+                    aria-label="Close"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                )}
+
                 <div>
                   <span
-                    className="inline-block text-[10px] font-extrabold tracking-wider px-3 py-1 rounded-lg mb-5 uppercase"
-                    style={{ background: modalCard.tagColor, color: modalCard.tagTextDark ? '#6b4a00' : 'white' }}
+                    style={{
+                      display: 'inline-block',
+                      fontSize: 10, fontWeight: 800,
+                      letterSpacing: '0.08em',
+                      padding: '4px 12px',
+                      borderRadius: 8,
+                      marginBottom: 12,
+                      textTransform: 'uppercase',
+                      background: modalCard.tagColor,
+                      color: modalCard.tagTextDark ? '#6b4a00' : 'white',
+                    }}
                   >
                     {modalCard.tag}
                   </span>
 
-                  <h3
-                    className="text-2xl font-extrabold leading-snug mb-3"
-                    style={{ fontFamily: 'Poppins, sans-serif' }}
-                  >
+                  <h3 style={{
+                    fontFamily: 'Poppins, sans-serif',
+                    fontSize: isMobile ? 18 : 24,
+                    fontWeight: 800,
+                    lineHeight: 1.3,
+                    marginBottom: 8,
+                    color: 'white',
+                  }}>
                     {modalCard.title}
                   </h3>
 
-                  <p className="text-sm leading-relaxed mb-6" style={{ color: 'rgba(255,255,255,0.6)' }}>
+                  <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', lineHeight: 1.6, marginBottom: isMobile ? 12 : 20 }}>
                     {modalCard.subtitle}
                   </p>
 
-                  <div className="w-10 h-0.5 rounded-full mb-6" style={{ background: modalCard.tagColor }} />
-
-                  <p className="text-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.38)' }}>
-                    Tap below to open the full lesson — illustrations, explanations &amp; a quiz.
-                  </p>
+                  {!isMobile && (
+                    <>
+                      <div style={{ width: 36, height: 3, borderRadius: 99, background: modalCard.tagColor, marginBottom: 16 }} />
+                      <p style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', lineHeight: 1.6 }}>
+                        Tap below to open the full lesson — illustrations, explanations &amp; a quiz.
+                      </p>
+                    </>
+                  )}
                 </div>
 
-                <div className="flex flex-col gap-3 mt-8">
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 10, marginTop: isMobile ? 16 : 28 }}>
                   <motion.button
                     whileHover={reduceMotion ? undefined : { scale: 1.03 }}
                     whileTap={reduceMotion ? undefined : { scale: 0.97 }}
@@ -1299,8 +1344,17 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                       if (onTopicSelect) onTopicSelect(modalCard.topicLink);
                       else onStart();
                     }}
-                    className="w-full flex items-center justify-center gap-2.5 py-3.5 rounded-xl font-bold text-sm text-white"
-                    style={{ background: 'linear-gradient(135deg,#0d9488,#075f58)', boxShadow: '0 8px 24px rgba(13,148,136,.45)' }}
+                    style={{
+                      width: '100%',
+                      display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+                      padding: '14px 0',
+                      borderRadius: 14,
+                      fontWeight: 700, fontSize: 14,
+                      color: 'white',
+                      background: 'linear-gradient(135deg,#0d9488,#075f58)',
+                      boxShadow: '0 8px 24px rgba(13,148,136,.45)',
+                      border: 'none', cursor: 'pointer',
+                    }}
                   >
                     <ExternalLink className="w-4 h-4" />
                     Explore This Topic
@@ -1308,23 +1362,31 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
 
                   <button
                     onClick={() => setModalCard(null)}
-                    className="w-full py-2.5 rounded-xl text-xs font-semibold"
-                    style={{ color: 'rgba(255,255,255,0.35)', background: 'rgba(255,255,255,0.05)' }}
+                    style={{
+                      width: '100%', padding: '10px 0',
+                      borderRadius: 14, fontSize: 12, fontWeight: 600,
+                      color: 'rgba(255,255,255,0.35)',
+                      background: 'rgba(255,255,255,0.05)',
+                      border: '1px solid rgba(255,255,255,0.08)',
+                      cursor: 'pointer',
+                    }}
                   >
                     Close
                   </button>
                 </div>
               </div>
 
-              {/* ✕ close */}
-              <button
-                onClick={() => setModalCard(null)}
-                className="absolute top-4 right-4 w-9 h-9 rounded-full flex items-center justify-center text-white z-10"
-                style={{ background: 'rgba(0,0,0,0.55)', backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.15)' }}
-                aria-label="Close"
-              >
-                <X className="w-4 h-4" />
-              </button>
+              {/* ✕ close — desktop only (top-right floating) */}
+              {!isMobile && (
+                <button
+                  onClick={() => setModalCard(null)}
+                  className="absolute top-4 right-4 w-9 h-9 rounded-full flex items-center justify-center text-white z-10"
+                  style={{ background: 'rgba(0,0,0,0.55)', backdropFilter: 'blur(4px)', border: '1px solid rgba(255,255,255,0.15)' }}
+                  aria-label="Close"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              )}
             </motion.div>
           </motion.div>
         )}
