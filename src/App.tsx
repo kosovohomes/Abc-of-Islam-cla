@@ -380,11 +380,13 @@ export default function App() {
                 </span>
               </div>
             ) : (
-              <div className="flex items-center gap-2">
-                <span className="text-xl leading-none">🕌</span>
-                <span className="hidden sm:inline font-serif tracking-tight">
-                  ABC of Islam
-                </span>
+              <div className="flex items-center">
+                <img
+                  src="https://ik.imagekit.io/4zbzbdytp/ABC%20of%20ISLAM.gif"
+                  alt="ABC of Islam"
+                  className="h-10 w-auto object-contain"
+                  draggable={false}
+                />
               </div>
             )}
           </button>

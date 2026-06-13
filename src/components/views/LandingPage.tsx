@@ -736,19 +736,16 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
           </motion.p>
         </div>
 
-        <div className="relative mx-auto max-w-[1200px] px-4 sm:px-6 py-4 sm:py-6">
+        <div className="relative mx-auto max-w-[1200px] py-4 sm:py-6">
           <div
             ref={carouselRef}
             onPointerDown={onPointerDown}
             onPointerMove={onPointerMove}
             onPointerUp={onPointerUp}
             onPointerLeave={onPointerUp}
-            className="flex gap-7 overflow-x-auto snap-x snap-mandatory py-5 px-6"
+            className="flex gap-4 sm:gap-7 overflow-x-auto snap-x snap-mandatory py-5"
             style={{
-              scrollbarWidth: 'none',
-              cursor: 'grab',
-              scrollBehavior: 'smooth',
-              perspective: 1600,
+              scrollbarWidth: 'none', cursor: 'grab', scrollBehavior: 'smooth', perspective: 1600, paddingLeft: 'max(1rem, calc(50% - 130px))', paddingRight: 'max(1rem, calc(50% - 130px))',
             }}
           >
             {topicCards.map((card, idx) => {
@@ -760,13 +757,13 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                     reduceMotion
                       ? undefined
                       : {
-                          scale: isActive ? 1 : 0.85,
-                          rotateY: isActive ? 0 : 8,
-                          opacity: isActive ? 1 : 0.6,
+                          scale: isActive ? 1 : 0.88,
+                          rotateY: isActive ? 0 : 4,
+                          opacity: isActive ? 1 : 0.65,
                         }
                   }
                   transition={{ type: 'spring', stiffness: 200, damping: 25 }}
-                  className="flex-shrink-0 w-64 sm:w-72 h-[420px] rounded-3xl overflow-hidden relative snap-center cursor-pointer border-4 border-white"
+                  className="flex-shrink-0 w-[260px] sm:w-72 h-[380px] sm:h-[420px] rounded-3xl overflow-hidden relative snap-center cursor-pointer border-4 border-white"
                   style={{
                     background: theme === 'dark' ? '#0e2522' : 'white',
                     boxShadow: isActive
