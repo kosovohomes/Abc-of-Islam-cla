@@ -16,7 +16,8 @@ import AdminDashboard from '@/components/admin/AdminDashboard';
 
 import { useAppStore } from '@/lib/store';
 import { t, getCategoryName } from '@/lib/translations';
-import { CATEGORIES, TOPICS } from '@/lib/topics';
+import { CATEGORIES, TOPICS, getTopics } from '@/lib/topics';
+import { trackTopicView, trackQuizAttempt, getAdminSettings, isSuspended } from '@/lib/adminStore';
 import { getContent } from '@/lib/content';
 import { LANGUAGE_NAMES } from '@/lib/locales';
 
@@ -73,7 +74,21 @@ export default function App() {
       setSelectedTopicId(topicId);
     };
     window.addEventListener('popstate', onPopState);
-    return () => window.removeEventListener('popstate', onPopState);
+    // ── Maintenance mode gate ───────────────────────────────────────────────────
+  const adminSettings = getAdminSettings();
+  if (adminSettings.maintenanceMode && currentView !== 'admin') {
+    return (
+      <div className="min-h-screen bg-[#0a1628] flex items-center justify-center p-8 text-center">
+        <div>
+          <div className="text-7xl mb-6">🔧</div>
+          <h1 className="text-3xl font-extrabold text-white mb-3">Under Maintenance</h1>
+          <p className="text-white/60 text-lg">{adminSettings.siteName} is being updated. Please check back soon.</p>
+        </div>
+      </div>
+    );
+  }
+
+  return () => window.removeEventListener('popstate', onPopState);
   }, []);
 
   // Sync state → hash whenever view or topic changes
@@ -96,7 +111,7 @@ export default function App() {
 
   useEffect(() => {
     const currentCompleted = CATEGORIES.filter(cat => {
-      const topicsInCat = TOPICS.filter(tp => tp.category === cat.id);
+      const topicsInCat = getTopics().filter(tp => tp.category === cat.id);
       return (
         topicsInCat.length > 0 &&
         topicsInCat.every(tp => progress.quizzesCompleted[tp.id] !== undefined)
@@ -210,7 +225,7 @@ export default function App() {
       ? translatedTopics[cacheKey]
       : baseActiveTopic;
   const topicsReadCount = progress.topicsRead.length;
-  const totalTopics = TOPICS.length;
+  const totalTopics = getTopics().filter(t => !isSuspended(t.id)).length;
   const currentIdx = content.findIndex(tp => tp.id === selectedTopicId);
 
   // ── On-demand translation effect ─────────────────────────────────────────────
@@ -281,12 +296,22 @@ export default function App() {
   // ── Mark topic read when entering topic view ──────────────────────────────────
   useEffect(() => {
     if (currentView === 'topic' && activeTopic) {
+      // Track real view count in adminStore
+      trackTopicView(activeTopic.id);
       if (!progress.topicsRead.includes(activeTopic.id)) {
         markTopicRead(activeTopic.id);
         checkBadgeTriggers();
       }
     }
   }, [currentView, selectedTopicId]);
+
+  // ── Live admin re-render on dashboard changes ────────────────────────────────
+  const [, forceUpdate] = useState(0);
+  useEffect(() => {
+    const handler = () => forceUpdate(n => n + 1);
+    window.addEventListener('abc_admin_updated', handler);
+    return () => window.removeEventListener('abc_admin_updated', handler);
+  }, []);
 
   // ── Badge checker ─────────────────────────────────────────────────────────────
   /**
@@ -380,13 +405,11 @@ export default function App() {
                 </span>
               </div>
             ) : (
-              <div className="flex items-center">
-                <img
-                  src="https://ik.imagekit.io/4zbzbdytp/ABC%20of%20ISLAM.gif"
-                  alt="ABC of Islam"
-                  className="h-10 w-auto object-contain"
-                  draggable={false}
-                />
+              <div className="flex items-center gap-2">
+                <span className="text-xl leading-none">🕌</span>
+                <span className="hidden sm:inline font-serif tracking-tight">
+                  ABC of Islam
+                </span>
               </div>
             )}
           </button>
@@ -504,6 +527,7 @@ export default function App() {
                 onBackToGrid={() => setCurrentView('grid')}
                 onSaveQuizScore={(topicId, score) => {
                   setQuizScore(topicId, score);
+                  trackQuizAttempt(topicId);
                 }}
                 onBadgeCheck={checkBadgeTriggers}
               />
