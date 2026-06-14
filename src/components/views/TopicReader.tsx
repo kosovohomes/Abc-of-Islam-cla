@@ -75,7 +75,7 @@ export default function TopicReader({
           <div className="w-7 h-7 bg-emerald-100 group-hover:bg-emerald-200 rounded-full flex items-center justify-center transition-colors">
             <ArrowLeft className="w-3.5 h-3.5 stroke-[2.5]" />
           </div>
-          <span>Explore Index</span>
+          <span>{t(locale, 'exploreIndex')}</span>
         </button>
 
         <div className="flex flex-wrap items-center gap-2">
@@ -89,9 +89,9 @@ export default function TopicReader({
                 ? 'bg-amber-400 text-amber-950 border-amber-300'
                 : 'bg-white text-gray-600 border-gray-200 hover:bg-black/5'
             }`}
-            title={isSaved ? 'Saved offline!' : 'Save chapter offline'}
+            title={isSaved ? t(locale, 'saved') + '!' : t(locale, 'saveOffline')}
           >
-            <span>★ {isSaved ? 'Saved' : 'Save Offline'}</span>
+            <span>★ {isSaved ? t(locale, 'saved') : t(locale, 'saveOffline')}</span>
           </button>
           <ExportModal content={content} currentTopicId={activeTopic.id} />
         </div>
@@ -111,10 +111,9 @@ export default function TopicReader({
             {translating && (
               <div className="absolute inset-0 bg-white/95 backdrop-blur-sm z-50 flex flex-col items-center justify-center p-8 text-center">
                 <div className="w-16 h-16 border-4 border-emerald-500 border-t-transparent rounded-full animate-spin mb-4" />
-                <h3 className="text-xl font-serif font-bold text-gray-800">Translating Chapter...</h3>
+                <h3 className="text-xl font-serif font-bold text-gray-800">{t(locale, 'translatingChapter')}</h3>
                 <p className="text-sm text-gray-500 max-w-sm mt-3 leading-relaxed">
-                  Gemini AI is crafting a natural, child-friendly translation in{' '}
-                  <span className="font-semibold text-emerald-600">{languageNames[locale] || locale}</span>. Just a second! 😊
+                  {t(locale, 'translatingDesc')}
                 </p>
               </div>
             )}
@@ -160,8 +159,8 @@ export default function TopicReader({
                   <Volume2 className="w-4 h-4" />
                 </div>
                 <div>
-                  <span className="font-bold text-xs text-emerald-800 uppercase tracking-wider block">Listen to Story 🎧</span>
-                  <span className="text-[10px] text-emerald-600">Cheerful young female voice</span>
+                  <span className="font-bold text-xs text-emerald-800 uppercase tracking-wider block">{t(locale, 'listenToStory')}</span>
+                  <span className="text-[10px] text-emerald-600">{t(locale, 'cheerfulVoice')}</span>
                 </div>
               </div>
               <AudioNarrator text={bodyText} />
@@ -172,16 +171,16 @@ export default function TopicReader({
               <div className="p-4 rounded-2xl bg-amber-50 border-2 border-amber-300/60 relative z-10 space-y-3 shadow-sm shrink-0">
                 <div className="flex items-center gap-2">
                   <span className="text-lg">⚠️</span>
-                  <h4 className="font-serif font-bold text-slate-900">Translation Temp Unavailable</h4>
+                  <h4 className="font-serif font-bold text-slate-900">{t(locale, 'translationUnavailable')}</h4>
                 </div>
                 <p className="text-xs text-slate-600 leading-relaxed">
-                  We are experiencing high demand on the Gemini translation engine. The text below is shown in English.
+                  {t(locale, 'translationHighDemand')}
                 </p>
                 <button
                   onClick={onRetryTranslation}
                   className="px-3.5 py-1.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 active:translate-y-px text-white font-extrabold text-[11px] uppercase tracking-wider rounded-xl shadow-sm transition-all cursor-pointer"
                 >
-                  Try Translating Again 🔄
+                  {t(locale, 'tryTranslatingAgain')}
                 </button>
               </div>
             )}

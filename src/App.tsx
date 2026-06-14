@@ -409,7 +409,7 @@ export default function App() {
               className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 rounded-full text-xs font-bold uppercase tracking-wider cursor-pointer transition-colors border border-emerald-100"
             >
               <ChevronLeft className="w-3.5 h-3.5 stroke-[2.5]" />
-              <span>{currentView === 'topic' ? 'Topic Index' : 'Home'}</span>
+              <span>{currentView === 'topic' ? t(locale, 'topicIndex') : t(locale, 'home')}</span>
             </button>
           )}
 
@@ -426,7 +426,7 @@ export default function App() {
               isOnline ? 'bg-emerald-50 text-emerald-700 border-emerald-200' : 'bg-amber-50 text-amber-700 border-amber-200'
             }`}>
               <span className={`w-1.5 h-1.5 rounded-full ${isOnline ? 'bg-emerald-500 animate-pulse' : 'bg-amber-500'}`} />
-              {isOnline ? 'Online' : 'Offline'}
+              {isOnline ? t(locale, 'online') : t(locale, 'offline')}
             </div>
 
             {/* Audio toggle */}
@@ -487,16 +487,16 @@ export default function App() {
             >
               <div className="px-4 py-4 space-y-4">
                 <div>
-                  <p className="text-[10px] font-extrabold uppercase tracking-widest text-gray-400 mb-2">Age Level</p>
+                  <p className="text-[10px] font-extrabold uppercase tracking-widest text-gray-400 mb-2">{t(locale, 'ageLevel')}</p>
                   <AgeSelector />
                 </div>
                 <div>
-                  <p className="text-[10px] font-extrabold uppercase tracking-widest text-gray-400 mb-2">Language</p>
+                  <p className="text-[10px] font-extrabold uppercase tracking-widest text-gray-400 mb-2">{t(locale, 'language')}</p>
                   <LanguagePicker />
                 </div>
                 <div className="flex items-center gap-2 pb-1">
                   <span className={`w-2 h-2 rounded-full ${isOnline ? 'bg-emerald-500 animate-pulse' : 'bg-amber-500'}`} />
-                  <span className="text-xs font-semibold text-gray-500">{isOnline ? 'Online' : 'Offline'}</span>
+                  <span className="text-xs font-semibold text-gray-500">{isOnline ? t(locale, 'online') : t(locale, 'offline')}</span>
                 </div>
               </div>
             </motion.div>

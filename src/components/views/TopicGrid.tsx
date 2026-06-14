@@ -146,7 +146,7 @@ function ImagePreviewModal({ topic, locale, theme, onClose, onReadFull }: {
               >
                 <span className="text-2xl shrink-0 select-none">🌟</span>
                 <div>
-                  <p className="text-[9px] font-extrabold uppercase tracking-[0.15em] text-amber-600 mb-1">Fun Fact</p>
+                  <p className="text-[9px] font-extrabold uppercase tracking-[0.15em] text-amber-600 mb-1">{t(locale, 'funFactLabel')}</p>
                   <p className="text-sm text-amber-900 leading-relaxed">{funFact}</p>
                 </div>
               </motion.div>
@@ -169,7 +169,7 @@ function ImagePreviewModal({ topic, locale, theme, onClose, onReadFull }: {
               className={`w-full flex items-center justify-center gap-2.5 px-5 py-4 bg-gradient-to-r ${theme.gradientFrom} ${theme.gradientTo} text-white rounded-2xl font-extrabold text-base cursor-pointer shadow-lg hover:shadow-xl transition-shadow`}
             >
               <BookOpen className="w-5 h-5" />
-              <span>Read Full Chapter</span>
+              <span>{t(locale, 'readFullChapter')}</span>
               <ChevronRight className="w-5 h-5 stroke-[2.5]" />
             </motion.button>
           </div>
@@ -274,10 +274,10 @@ function CategoryCard({ category, topics, theme, locale, progress, onExplore }: 
 
         <p className="text-xs text-white/75 font-semibold mb-4 px-2">
           {readInCat === 0
-            ? `${topics.length} lessons — start your journey! 🚀`
+            ? `${topics.length} ${t(locale, 'lessonsStart')}`
             : readInCat === topics.length
-            ? 'All lessons complete! 🎉'
-            : `${readInCat} of ${topics.length} lessons done — keep going!`}
+            ? t(locale, 'lessonsAllDone')
+            : `${readInCat} of ${topics.length} ${t(locale, 'lessonsDone')}`}
         </p>
 
         {/* Topic pills */}
@@ -300,10 +300,10 @@ function CategoryCard({ category, topics, theme, locale, progress, onExplore }: 
           className="w-full flex items-center justify-center gap-2 px-5 py-3 bg-white/25 backdrop-blur-sm hover:bg-white/35 rounded-2xl text-sm font-extrabold text-white border border-white/25 shadow-md transition-all"
         >
           {allDone
-            ? <><Trophy className="w-4 h-4 fill-yellow-300 text-yellow-300" /> Mastered!</>
+            ? <><Trophy className="w-4 h-4 fill-yellow-300 text-yellow-300" /> {t(locale, 'mastered')}</>
             : readInCat === topics.length
-            ? <><Check className="w-4 h-4" /> All Read</>
-            : <><Zap className="w-4 h-4 fill-yellow-300 text-yellow-300" /> Explore →</>
+            ? <><Check className="w-4 h-4" /> {t(locale, 'allRead')}</>
+            : <><Zap className="w-4 h-4 fill-yellow-300 text-yellow-300" /> {t(locale, 'explore')}</>
           }
         </motion.div>
       </div>
@@ -338,16 +338,16 @@ function CategoryDetailView({ category, topics, theme, locale, progress, onBack,
               {getCategoryName(category.id, locale)}
             </h2>
             <div className="flex items-center gap-3 mt-1 flex-wrap">
-              <span className="text-xs text-white/80 font-semibold">{readInCat}/{topics.length} read</span>
+              <span className="text-xs text-white/80 font-semibold">{readInCat}/{topics.length} {t(locale, 'read')}</span>
               <span className="text-white/30 text-xs">·</span>
-              <span className="text-xs text-white/80 font-semibold">{quizzedInCat} quizzes done</span>
-              {percent === 100 && <span className="text-xs font-bold text-yellow-300">🏆 Complete!</span>}
+              <span className="text-xs text-white/80 font-semibold">{quizzedInCat} {t(locale, 'quizzesDone')}</span>
+              {percent === 100 && <span className="text-xs font-bold text-yellow-300">🏆 {t(locale, 'complete')}</span>}
             </div>
           </div>
           {/* Progress pill */}
           <div className="shrink-0 bg-white/25 backdrop-blur-sm px-4 py-2 rounded-2xl border border-white/25 text-center">
             <div className="text-2xl font-extrabold text-white">{percent}%</div>
-            <div className="text-[9px] font-bold text-white/70 uppercase tracking-wider">progress</div>
+              <div className="text-[9px] font-bold text-white/70 uppercase tracking-wider">{t(locale, 'progress')}</div>
           </div>
         </div>
         {/* Progress bar */}
@@ -517,11 +517,11 @@ export default function TopicGrid({
             <div className="flex items-center gap-2 mb-1">
               <span className="text-3xl select-none">🗺️</span>
               <h2 className="text-3xl sm:text-4xl font-serif font-extrabold text-white leading-tight drop-shadow-sm">
-                My Learning Map
+                {t(locale, 'myLearningMap')}
               </h2>
             </div>
             <p className="text-white/80 text-sm font-semibold mt-1">
-              Choose a world to explore and grow your knowledge! ✨
+              {t(locale, 'learningMapSubtitle')}
             </p>
           </div>
 
@@ -541,7 +541,7 @@ export default function TopicGrid({
               </svg>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <span className="text-xl font-extrabold text-white leading-none">{overallPercent}%</span>
-                <span className="text-[9px] text-white/70 font-bold uppercase tracking-wide">done</span>
+                <span className="text-[9px] text-white/70 font-bold uppercase tracking-wide">{t(locale, 'done')}</span>
               </div>
             </div>
 
@@ -551,7 +551,7 @@ export default function TopicGrid({
                 <span className="text-white/50 mx-1 text-xl">/</span>
                 <span>{totalTopics}</span>
               </div>
-              <div className="text-xs text-white/70 font-bold uppercase tracking-wider mt-0.5">lessons unlocked</div>
+              <div className="text-xs text-white/70 font-bold uppercase tracking-wider mt-0.5">{t(locale, 'lessonsUnlocked')}</div>
               <div className="flex mt-1.5 gap-0.5">
                 {Array.from({ length: 5 }).map((_, i) => (
                   <Star key={i} className={`w-3.5 h-3.5 ${i < Math.ceil(overallPercent / 20) ? 'fill-yellow-300 text-yellow-300' : 'text-white/25'}`} />
@@ -569,7 +569,7 @@ export default function TopicGrid({
             <Search className="w-4.5 h-4.5 stroke-[2]" />
           </span>
           <input type="text" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder={locale === 'ar' ? 'ابحث في الفصول...' : '🔍  Search topics...'}
+            placeholder={t(locale, 'searchPlaceholder')}
             className={`w-full py-3.5 ${isRtlLayout ? 'pr-11 pl-9' : 'pl-11 pr-9'} border-2 border-gray-100 rounded-2xl outline-none focus:ring-2 focus:ring-emerald-200 focus:border-emerald-300 bg-white text-sm text-slate-800 shadow-sm transition-all font-medium`}
           />
           {searchQuery && (
@@ -600,7 +600,7 @@ export default function TopicGrid({
                 ? 'bg-amber-400 text-amber-950 border-amber-300 shadow-md shadow-amber-200'
                 : 'bg-white text-gray-500 border-gray-200 hover:bg-amber-50 hover:text-amber-600 hover:border-amber-200'
             }`}>
-            <span>★ Saved</span>
+            <span>{t(locale, 'savedFilter')}</span>
             {(progress.savedChapters || []).length > 0 && (
               <span className="bg-amber-500 text-white px-1.5 py-0.5 text-[8px] rounded-full font-bold">
                 {(progress.savedChapters || []).length}
@@ -623,7 +623,7 @@ export default function TopicGrid({
                   <div className={`w-1.5 h-7 rounded-full bg-gradient-to-b ${theme.gradientFrom} ${theme.gradientTo}`} />
                   <span className="text-2xl">{category.emoji}</span>
                   <h3 className="text-lg font-bold text-gray-900">{getCategoryName(category.id, locale)}</h3>
-                  <span className="text-xs text-gray-400 font-medium bg-gray-100 px-2 py-0.5 rounded-full">{topicsInCat.length} results</span>
+                  <span className="text-xs text-gray-400 font-medium bg-gray-100 px-2 py-0.5 rounded-full">{topicsInCat.length} {t(locale, 'results')}</span>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {topicsInCat.map(topic => {

@@ -38,7 +38,11 @@ const CONTENT_MAP: Record<string, Topic[]> = {
 };
 
 export function getContent(locale: Locale): Topic[] {
-  const base = CONTENT_MAP[locale] ?? CONTENT_MAP.en;
+  // All non-English locale JSON files are currently English copies.
+  // The actual translation is done on-demand via the /api/translate-topic endpoint
+  // and cached in localStorage (client) and translations_cache.json (server).
+  // We always use the English base content; translated overlays are applied in App.tsx.
+  const base = CONTENT_MAP.en;
   try {
     const store = readAdminStore();
     const deleted = new Set(store.deletedIds);
