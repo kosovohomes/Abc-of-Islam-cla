@@ -1,1306 +1,1621 @@
 [
   {
     "id": "shahada",
-    "title": "Shahada - Declaration of Faith",
+    "title": "Şehadet - İnanç Bildirimi",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☪️",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "The Shahada says: \"There is no god but Allah, and Muhammad is His messenger.\" This is the most important sentence in Islam! When we say it, we tell everyone we believe in Allah and love His Prophet. It makes our heart light and happy!",
-      "explorer": "The Shahada is the first pillar of Islam. It has two parts: first, believing that only Allah is God — no one else deserves worship. Second, believing that Prophet Muhammad ﷺ is Allah's final messenger. Saying the Shahada with sincerity makes you Muslim. It's not just words — it's a promise from your heart to follow Allah's guidance.",
-      "thinker": "The Shahada is far more than a declaration — it's a complete worldview. The first part, \"La ilaha illallah,\" negates all false gods and affirms monotheism (Tawheed). The second part, \"Muhammadun rasulullah,\" establishes the prophetic authority of Muhammad ﷺ. Together, they form the foundation upon which all other Islamic practices are built. Understanding the Shahada means understanding the essence of submission to Allah."
+      "starter": "Şehadet şöyle der: \"Allah'tan başka ilah yoktur ve Muhammed O'nun elçisidir.\" Bu İslam'ın en önemli cümlesidir! Bunu söylediğimizde, herkese Allah'a inandığımızı ve O'nun Peygamberini sevdiğimizi bildiririz. Kalbimizi hafif ve mutlu yapar!",
+      "explorer": "Şehadet, İslam'ın ilk temel taşıdır. İki bölümü vardır: birincisi, yalnızca Allah'ın Tanrı olduğuna inanmak — başka hiç kimse ibadete layık değildir. İkincisi, Peygamber Muhammed ﷺ'ın Allah'ın son elçisi olduğuna inanmak. Şehadeti samimiyetle söylemek sizi Müslüman yapar. Bu sadece söz değildir — Allah'ın yoluna uymaya kalbinizden verilmiş bir söz müjdeler.",
+      "thinker": "Şehadet bir bildirimin çok ötesinde — tam bir dünya görüşüdür. İlk bölüm, \"La ilahe illallah,\" tüm sahte tanrıları reddeder ve tevhidi (Allah'ın birliğini) onaylar. İkinci bölüm, \"Muhammedün resulullah,\" Muhammed ﷺ'ın peygamberlik otoritesini belirler. Birlikte, diğer tüm İslami uygulamaların üzerine inşa edildiği temeli oluştururlar. Şehadeti anlamak, Allah'a teslimiyetin özünü anlamak demektir."
     },
-    "funFact": "Did you know? The Shahada is whispered into a newborn baby's ear and is also the last words many Muslims hope to say before they pass away!",
+    "funFact": "Biliyor muydunuz? Şehadet, yeni doğan bir bebeğin kulağına fısıldanır ve ayrıca birçok Müslümanın vefat etmeden önce söylemeyi umduğu son sözlerdir!",
     "quiz": [
       {
-        "q": "What does Shahada mean?",
+        "q": "Şehadet ne demektir?",
         "options": [
-          "Declaration of Faith",
-          "Daily Prayer",
-          "Charity Giving"
+          "İnanç Bildirimi",
+          "Günlük Namaz",
+          "Sadaka Verme"
         ],
         "correct": 0,
-        "explanation": "Shahada means 'Declaration of Faith' — it's the statement that makes someone Muslim."
+        "explanation": "Şehadet, 'İnanç Bildirimi' demektir — bir kişiyi Müslüman yapan ifadedir."
       },
       {
-        "q": "How many parts does the Shahada have?",
+        "q": "Şehadet kaç bölümden oluşur?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "Bir bölüm",
+          "İki bölüm",
+          "Üç bölüm"
         ],
         "correct": 1,
-        "explanation": "The Shahada has two parts: believing in one God and believing Muhammad is His messenger."
+        "explanation": "Şehadet iki bölümden oluşur: tek bir Tanrı'ya inanmak ve Muhammed'in O'nun elçisi olduğuna inanmak."
       },
       {
-        "q": "Who is the last prophet mentioned in the Shahada?",
+        "q": "Şehadette adı geçen son peygamber kimdir?",
         "options": [
-          "Prophet Musa",
-          "Prophet Isa",
-          "Prophet Muhammad"
+          "Peygamber Musa",
+          "Peygamber İsa",
+          "Peygamber Muhammed"
         ],
         "correct": 2,
-        "explanation": "The Shahada mentions Prophet Muhammad ﷺ as Allah's final messenger."
+        "explanation": "Şehadet, Peygamber Muhammed ﷺ'ı Allah'ın son elçisi olarak zikreder."
       }
     ]
   },
   {
     "id": "salah",
-    "title": "Salah - Prayer",
+    "title": "Namaz - İbadet",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🤲",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Salah is talking to Allah! Five times a day, we stop what we're doing, wash our hands and face (that's called wudu), face Mecca, and pray. It's like a special phone call to Allah. He loves when we talk to Him!",
-      "explorer": "Salah is the second pillar of Islam. Muslims pray five times a day: Fajr (dawn), Dhuhr (noon), Asr (afternoon), Maghrib (sunset), and Isha (night). Each prayer involves standing, bowing, and prostrating while reciting verses from the Quran. Salah keeps us connected to Allah throughout the day and teaches us discipline and gratitude.",
-      "thinker": "The five daily prayers (Salawat) are a gift from Allah, prescribed during the Night Journey (Isra and Mi'raj). Each prayer corresponds to a spiritual state: Fajr purifies the soul before the day begins, Dhuhr provides a midday recharge, Asr encourages reflection, Maghrib marks gratitude for the day's blessings, and Isha offers peace before sleep. The physical movements — standing (qiyam), bowing (ruku), and prostration (sujud) — are acts of humility that remind us of our relationship with our Creator."
+      "starter": "Namaz, Allah ile konuşmaktır! Günde beş kez yaptığımız işi bırakırız, ellerimizi ve yüzümüzü yıkarız (buna abdest denir), Mekke'ye dönerek namaz kılarız. Bu, Allah ile yapılan özel bir telefon görüşmesi gibidir. O, kendisiyle konuştuğumuzda sevinir!",
+      "explorer": "Namaz, İslam'ın ikinci temel taşıdır. Müslümanlar günde beş kez namaz kılarlar: İmsak (tan yeri), Öğle (öğle vakti), İkindi (öğleden sonra), Akşam (gün batımı) ve Yatsı (gece). Her namaz, Kur'an'dan ayetler okuyarak ayakta durmayı, rükû yapmayı ve secde etmeyi içerir. Namaz, bizi gün boyunca Allah'a bağlı tutar ve bize disiplin ve şükür öğretir.",
+      "thinker": "Beş vakit namaz (Salavat), Allah'ın bir hediyesidir ve Miraç Gecesi'nde (İsra ve Mi'rac) farz kılınmıştır. Her namaz bir manevi hale karşılık gelir: İmsak, güne başlamadan önce ruhu arındırır; Öğle, gün ortasında yenilenme sağlar; İkindi, tefekkürü teşvik eder; Akşam, günün nimetleri için şükranı ifade eder; Yatsı, uykudan önce huzur sunar. Fiziksel hareketler — kıyam (ayakta durma), rükû (eğilme) ve secde (yere kapanma) — alçakgönüllülük eylemleridir ve bize Yaratıcımızla ilişkimizi hatırlatır."
     },
-    "funFact": "Did you know? Muslims face the Kaaba in Mecca when they pray, no matter where they are in the world! Even from space, astronauts pray toward Mecca!",
+    "funFact": "Biliyor muydunuz? Müslümanlar namaz kılarken, dünyada nerede olurlarsa olsunlar Mekke'deki Kâbe'ye dönerler! Uzaydan bile astronotlar Mekke'ye doğru namaz kılarlar!",
     "quiz": [
       {
-        "q": "How many times a day do Muslims pray?",
+        "q": "Müslümanlar günde kaç kez namaz kılarlar?",
         "options": [
-          "Three times",
-          "Five times",
-          "Seven times"
+          "Üç kez",
+          "Beş kez",
+          "Yedi kez"
         ],
         "correct": 1,
-        "explanation": "Muslims pray five times a day: Fajr, Dhuhr, Asr, Maghrib, and Isha."
+        "explanation": "Müslümanlar günde beş kez namaz kılarlar: İmsak, Öğle, İkindi, Akşam ve Yatsı."
       },
       {
-        "q": "What do we do before praying?",
+        "q": "Namaz kılmadan önce ne yaparız?",
         "options": [
-          "Eat food",
-          "Perform wudu (ablution)",
-          "Read a book"
+          "Yemek yeriz",
+          "Abdest alırız",
+          "Kitap okuruz"
         ],
         "clean": 1,
-        "explanation": "We perform wudu (ablution) to clean ourselves before praying."
+        "explanation": "Namaz kılmadan önce kendimizi temizlemek için abdest alırız."
       },
       {
-        "q": "Which direction do Muslims face when praying?",
+        "q": "Müslümanlar namaz kılarken hangi yöne dönerler?",
         "options": [
-          "North",
-          "The Kaaba in Mecca",
-          "East"
+          "Kuzey",
+          "Mekke'deki Kâbe",
+          "Doğu"
         ],
         "correct": 1,
-        "explanation": "Muslims face the Kaaba in Mecca, which is called the Qibla."
+        "explanation": "Müslümanlar, Kıble olarak adlandırılan Mekke'deki Kâbe'ye dönerler."
       }
     ]
   },
   {
     "id": "zakat",
-    "title": "Zakat - Charity",
+    "title": "Zekat - Sadaka",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_45_zakat_overview-iB69C239XxvYzdfsgqWaNR.webp?updatedAt=1781117902141",
     "emoji": "💰",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Zakat means sharing what we have with others! If we have extra money, we give a little bit to people who need it. It's like Allah is asking us to be kind and share. When we give, our hearts feel happy!",
-      "explorer": "Zakat is the third pillar of Islam. It means giving 2.5% of your savings each year to those in need. It's not optional — it's an obligation for Muslims who have wealth above a certain amount. Zakat purifies our money and reminds us that everything belongs to Allah. It helps the poor, pays off debts, and strengthens the community.",
-      "thinker": "Zakat is both a social and spiritual obligation. The word 'zakat' means 'purification' and 'growth' — by giving a portion of our wealth, we purify the remainder and grow spiritually. Allah says in the Quran that those who pay Zakat are helping to purify themselves (At-Tawbah 9:103). The fixed rate of 2.5% (one-fortieth) applies to savings held for one lunar year above the nisab threshold. This systematic approach to wealth redistribution was revolutionary and remains one of Islam's most powerful social justice mechanisms."
+      "starter": "Zekat, sahip olduklarımızı başkalarıyla paylaşmak demektir! Eğer fazla paramız varsa, ihtiyacı olanlara biraz veririz. Bu, Allah'ın bize nazik olmayı ve paylaşmayı istemesi gibidir. Verdiğimizde kalplerimiz mutlu olur!",
+      "explorer": "Zekat, İslam'ın üçüncü temel taşıdır. Her yıl birikiminizin %2,5'unu ihtiyaç sahiplerine vermek demektir. Bu isteğe bağlı değil — belirli bir miktarın üzerinde malı olan Müslümanlar için bir görevdir. Zekat, paramızı arındırır ve her şeyin Allah'a ait olduğunu bize hatırlatır. Fakirlere yardım eder, borçları öder ve toplumu güçlendirir.",
+      "thinker": "Zekat hem sosyal hem de manevi bir görevdir. 'Zekat' kelimesi 'arınma' ve 'artma' anlamına gelir — malımızın bir kısmını vererek, geri kalanı arındırırız ve manevi olarak büyürüz. Allah Kur'an'da zekat verenlerin kendilerini arındırmalarına yardım ettiğini söyler (Tevbe Suresi 9:103). Sabit %2,5 (kırkta bir) oranı, bir kameri yıl boyunca nisap eşiğinin üzerinde tutulan birikimlere uygulanır. Bu sistematik servet yeniden dağıtım yaklaşımı devrimciydi ve İslam'ın en güçlü sosyal adaat mekanizmalarından biri olmaya devam etmektedir."
     },
-    "funFact": "Did you know? The word 'Zakat' means 'purification' — when you give Zakat, your remaining money becomes blessed and pure!",
+    "funFact": "Biliyor muydunuz? 'Zekat' kelimesi 'arınma' anlamına gelir — zekat verdiğinizde, kalan paranız mübarek ve temiz olur!",
     "quiz": [
       {
-        "q": "What percentage of savings is given as Zakat?",
+        "q": "Birikimin yüzde kaçı zekat olarak verilir?",
         "options": [
-          "1%",
-          "2.5%",
-          "10%"
+          "%1",
+          "%2,5",
+          "%10"
         ],
         "correct": 1,
-        "explanation": "Muslims give 2.5% (one-fortieth) of their savings as Zakat each year."
+        "explanation": "Müslümanlar her yıl birikimlerinin %2,5'unu (kırkta birini) zekat olarak verirler."
       },
       {
-        "q": "What does the word 'Zakat' mean?",
+        "q": "'Zekat' kelimesi ne demektir?",
         "options": [
-          "Charity",
-          "Purification",
-          "Prayer"
+          "Sadaka",
+          "Arınma",
+          "Namaz"
         ],
         "correct": 1,
-        "explanation": "Zakat means 'purification' — it purifies our wealth and our hearts."
+        "explanation": "Zekat, 'arınma' demektir — malımızı ve kalbimizi arındırır."
       },
       {
-        "q": "Who receives Zakat?",
+        "q": "Zekatı kim alır?",
         "options": [
-          "Only family",
-          "People in need",
-          "Only the rich"
+          "Sadece aile",
+          "İhtiyaç sahipleri",
+          "Sadece zenginler"
         ],
         "correct": 1,
-        "explanation": "Zakat is given to people in need, including the poor, debtors, and travelers."
+        "explanation": "Zekat, fakirler, borçlular ve yolcular dahil ihtiyaç sahiplerine verilir."
       }
     ]
   },
   {
     "id": "sawm",
-    "title": "Sawm - Fasting in Ramadan",
+    "title": "Oruç - Ramazan'da Oruç Tutma",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_40_ramadan_fasting-SeQhGeRR5buiYbtryMhUKA.webp?updatedAt=1781117899738",
     "emoji": "🌙",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "During Ramadan, we don't eat or drink from sunrise to sunset. That's called fasting! It teaches us to be patient and think about people who don't have food. At night, we break our fast with family and pray together. It's very special!",
-      "explorer": "Sawm means fasting during the month of Ramadan, the fourth pillar of Islam. From dawn to sunset, Muslims abstain from food, drink, and other physical needs. But fasting is not just about staying hungry — it's about building patience, empathy for the poor, and getting closer to Allah. The fast is broken at sunset with a meal called Iftar, often shared with family and community.",
-      "thinker": "Sawm during Ramadan is a comprehensive act of worship that trains the body, mind, and soul. The Quran was first revealed during Ramadan (Surah Al-Baqarah 2:185), making this month especially sacred. Fasting develops taqwa (God-consciousness) by creating a physical reminder of Allah's presence. Beyond abstaining from food and drink, Muslims are encouraged to avoid negative speech, anger, and gossip. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a rhythm of gratitude and community that transforms the entire month."
+      "starter": "Ramazan boyunca, güneş doğumundan batımına kadar yemek ve içmek yemeyiz. Buna oruç tutmak denir! Bize sabırlı olmayı ve yemekleri olmayan insanları düşünmeyi öğretir. Gece, orucumuzu ailemizle birlikte açarız ve birlikte namaz kılarız. Bu çok özeldir!",
+      "explorer": "Oruç, İslam'ın dördüncü temel taşı olan Ramazan ayında oruç tutmak demektir. Tan yeriinden gün batımına kadar Müslümanlar yemekten, içmekten ve diğer fiziksel ihtiyaçlardan sakınırlar. Ancak oruç sadece aç kalmakla ilgili değildir — sabır, fakirlere şefkat ve Allah'a yaklaşmak hakkında değerler geliştirmektir. Oruç, genellikle aile ve toplulukla paylaşılan iftar yemeğiyle gün batımında açılır.",
+      "thinker": "Ramazan'da oruç tutmak, bedeni, zihni ve ruhu eğiten kapsamlı bir ibadet eylemidir. Kur'an ilk kez Ramazan'da indirilmiştir (Bakara Suresi 2:185), bu ayı özellikle kutsal kılar. Oruç, Allah'ın varlığının fiziksel bir hatırlatıcısını yaratarak takva (Allah bilinci) geliştirir. Yemek ve içmekten sakınmanın ötesinde, Müslümanlar olumsuz konuşmadan, öfkeden ve dedikodudan kaçınmaya teşvik edilirler. Sahur (tan yeriinden önceki yemek) ve iftar (gün batımındaki yemek), minnettarlık ve topluluk ritmi yaratır ve tüm ayı dönüştürür."
     },
-    "funFact": "Did you know? Muslims break their fast with dates, just like Prophet Muhammad ﷺ used to! The word 'Iftar' means 'breaking the fast'!",
+    "funFact": "Biliyor muydunuz? Müslümanlar oruçlarını, tıpkı Peygamber Muhammed ﷺ'ın yaptığı gibi hurma ile açarlar! 'İftar' kelimesi 'oruç açmak' demektir!",
     "quiz": [
       {
-        "q": "During which month do Muslims fast?",
+        "q": "Müslümanlar hangi ayda oruç tutarlar?",
         "options": [
-          "Muharram",
-          "Ramadan",
-          "Shawwal"
+          "Muharrem",
+          "Ramazan",
+          "Şevval"
         ],
         "correct": 1,
-        "explanation": "Muslims fast during the holy month of Ramadan."
+        "explanation": "Müslümanlar kutsal Ramazan ayında oruç tutarlar."
       },
       {
-        "q": "What is the meal called when we break our fast?",
+        "q": "Orucumuzu açtığımız yemek ne adla anılır?",
         "options": [
-          "Suhoor",
-          "Iftar",
-          "Dhuhr"
+          "Sahur",
+          "İftar",
+          "Öğle"
         ],
         "correct": 1,
-        "explanation": "The meal at sunset to break the fast is called Iftar."
+        "explanation": "Gün batımında orucu açan yemeğe iftar denir."
       },
       {
-        "q": "What food did Prophet Muhammad ﷺ use to break his fast?",
+        "q": "Peygamber Muhammed ﷺ orucunu ne ile açardı?",
         "options": [
-          "Bread",
-          "Dates",
-          "Rice"
+          "Ekmek",
+          "Hurma",
+          "Pirinç"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ would break his fast with dates and water."
+        "explanation": "Peygamber Muhammed ﷺ orucunu hurma ve su ile açardı."
       }
     ]
   },
   {
     "id": "hajj",
-    "title": "Hajj - Pilgrimage to Mecca",
+    "title": "Hac - Mekke'ye Ziyaret",
     "image": "https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446",
     "emoji": "🕋",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Hajj is a big trip to Mecca! Every Muslim who is able goes there to pray around the Kaaba — Allah's house. Millions of people go together, wearing simple white clothes. Everyone is equal there — rich or poor, it doesn't matter!",
-      "explorer": "Hajj is the fifth pillar of Islam — a pilgrimage to Mecca that every Muslim must make at least once in their lifetime if they are able. It happens during the Islamic month of Dhul Hijjah. Pilgrims wear simple white clothes called Ihram, circling the Kaaba, walking between hills, and standing in prayer at Arafat. Hajj teaches equality, patience, and devotion to Allah.",
-      "thinker": "Hajj is the world's largest annual gathering and represents the ultimate expression of Islamic unity. Following the footsteps of Prophet Ibrahim ﷺ and his family, pilgrims perform rituals that symbolize sacrifice, purification, and submission to Allah. The wearing of Ihram strips away all markers of wealth and status — everyone stands equal before Allah. The Prophet ﷺ said: 'Hajj is an obligation once in a lifetime for whoever has the ability.' It is a profound spiritual journey that cleanses sins and renews one's connection with the Creator."
+      "starter": "Hac, Mekke'ye yapılan büyük bir yolculuktur! Gücü yeten her Müslüman, Allah'ın evi olan Kâbe'nin etrafında namaz kılmaya gider. Milyonlarca insan birlikte gider, basit beyaz elbiseler giyer. Orada herkes eşittir — zengin veya fakir, fark etmez!",
+      "explorer": "Hac, İslam'ın beşinci temel taşıdır — gücü yeten her Müslümanın ömründe en az bir kez yapması gereken Mekke ziyaretidir. İslami Zilhicce ayında gerçekleşir. Hacılar, ihram adı verilen basit beyaz elbiseler giyer, Kâbe'yi tavaf eder, tepeler arasında yürür ve Arefe'de dua ederek dururlar. Hac, eşitlik, sabır ve Allah'a bağlılık öğretir.",
+      "thinker": "Hac, dünyanın en büyük yıllık toplantısıdır ve İslami birliğin nihai ifadesini temsil eder. Peygamber İbrahim ﷺ ve ailesinin izinden giderek, hacılar fedakarlık, arınma ve Allah'a teslimiyeti simgeleyen ritüelleri yerine getirirler. İhram giymek, tüm zenginlik ve statü işaretlerini ortadan kaldırır — herkes Allah'ın huzurunda eşit durur. Peygamber ﷺ şöyle demiştir: 'Hac, gücü yeten için ömürde bir kez farzdır.' Bu, günahları temizleyen ve kişinin Yaratıcı ile bağını yenileyen derin bir manevi yolculuktur."
     },
-    "funFact": "Did you know? Over 2 million people perform Hajj every year! When pilgrims throw stones at the pillars (Jamarat), they're following the example of Prophet Ibrahim!",
+    "funFact": "Biliyor muydunuz? Her yıl 2 milyondan fazla kişi Hac yapar! Hacılar taşlara (Cemarat) taş atarken, Peygamber İbrahim'in örneğini takip ederler!",
     "quiz": [
       {
-        "q": "How often must a Muslim perform Hajj?",
+        "q": "Bir Müslüman Hac'ı ne sıklıkla yapmalıdır?",
         "options": [
-          "Every year",
-          "Once in a lifetime",
-          "Every 5 years"
+          "Her yıl",
+          "Ömürde bir kez",
+          "Her 5 yılda bir"
         ],
         "correct": 1,
-        "explanation": "Every Muslim who is able must perform Hajj at least once in their lifetime."
+        "explanation": "Gücü yeten her Müslüman ömründe en az bir kez Hac yapmalıdır."
       },
       {
-        "q": "What do pilgrims wear during Hajj?",
+        "q": "Hac sırasında hacılar ne giyerler?",
         "options": [
-          "Regular clothes",
-          "Simple white clothes called Ihram",
-          "Black clothes"
+          "Normal kıyafetler",
+          "İhram denilen basit beyaz elbiseler",
+          "Siyah kıyafetler"
         ],
         "correct": 1,
-        "explanation": "Pilgrims wear simple white clothes called Ihram to show everyone is equal."
+        "explanation": "Hacılar, herkesin eşit olduğunu göstermek için ihram adı verilen basit beyaz elbiseler giyerler."
       },
       {
-        "q": "Which prophet's example do pilgrims follow at Hajj?",
+        "q": "Hac'da hacılar hangi peygamberin örneğini takip ederler?",
         "options": [
-          "Prophet Musa",
-          "Prophet Ibrahim",
-          "Prophet Isa"
+          "Peygamber Musa",
+          "Peygamber İbrahim",
+          "Peygamber İsa"
         ],
         "correct": 1,
-        "explanation": "Pilgrims follow the example of Prophet Ibrahim ﷺ and his family."
+        "explanation": "Hacılar, Peygamber İbrahim ﷺ ve ailesinin örneğini takip ederler."
       }
     ]
   },
   {
     "id": "tawheed",
-    "title": "Tawheed - Oneness of God",
+    "title": "Tevhit - Allah'ın Birliği",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☝️",
     "category": "core_beliefs",
     "content": {
-      "starter": "Tawheed means there is ONLY ONE God — Allah! He created everything: you, me, the stars, the animals, everything! We only pray to Allah, not to anyone else. Allah is the only one who deserves our love and worship!",
-      "explorer": "Tawheed is the most important belief in Islam — that there is only one God, Allah. He has no partners, no family, and no equals. He is the Creator of everything and the only one worthy of worship. Understanding Tawheed means we don't pray to statues, people, or anything else — only to Allah. This belief is the foundation of everything in Islam.",
-      "thinker": "Tawheed is the cornerstone of Islamic theology, encompassing three dimensions: Tawheed ar-Rububiyyah (Oneness of Lordship), Tawheed al-Uluhiyyah (Oneness of Worship), and Tawheed al-Asma wa'l-Sifat (Oneness of Names and Attributes). The first recognizes Allah as the sole Creator and Sustainer. The second directs all forms of worship exclusively to Him. The third affirms that Allah's attributes are unique and incomparable. The Quran states: 'Say, He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is begotten. And there is none comparable to Him' (Surah Al-Ikhlas 112:1-4)."
+      "starter": "Tevhit, TEK BİR Tanrı olduğu — Allah olduğu anlamına gelir! O her şeyi yarattı: seni, beni, yıldızları, hayvanları, her şeyi! Sadece Allah'a ibadet ederiz, başkasına değil. Allah, sevgimizi ve ibadetimizi hak eden tek varlıktır!",
+      "explorer": "Tevhit, İslam'ın en önemli inancıdır — tek bir Tanrı olan Allah'ın varlığı. O'nun ortağı, ailesi ve dengi yoktur. O, her şeyin Yaratıcısı ve ibadete layık olan tek varlıktır. Tevhidi anlamak, putlara, insanlara veya başka bir şeye değil, sadece Allah'a ibadet etmek demektir. Bu inanç, İslam'da her şeyin temelidir.",
+      "thinker": "Tevhit, İslami teolojinin köşe taşıdır ve üç boyutu kapsar: Tevhid-i Rububiyye (Rabliğin Birliği), Tevhid-i Uluhiyye (İbadetin Birliği) ve Tevhid-i Esma ve Sıfat (İsim ve Sıfatların Birliği). Birincisi, Allah'ı tek Yaratıcı ve Rızıklandırıcı olarak tanır. İkincisi, tüm ibadet biçimlerini yalnızca O'na yönlendirir. Üçüncüsü, Allah'ın sıfatlarının benzersiz ve kıyaslanamaz olduğunu onaylar. Kur'an şöyle der: 'De ki: O Allah'tır, Birdir. Allah, Samed'dir. Ne doğmuş, ne doğurmuştur. Ve O'na hiçbir şey denk değildir' (İhlas Suresi 112:1-4)."
     },
-    "funFact": "Did you know? The word 'Islam' comes from the root 'salaam' which means peace, and it means submission to Allah — the One God!",
+    "funFact": "Biliyor muydunuz? 'İslam' kelimesi, barış anlamına gelen 'selam' kökünden gelir ve Allah'a — tek Tanrı'ya — teslimiyet anlamına gelir!",
     "quiz": [
       {
-        "q": "What does Tawheed mean?",
+        "q": "Tevhit ne demektir?",
         "options": [
-          "Many gods",
-          "Oneness of God",
-          "Prayer"
+          "Çok tanrı",
+          "Allah'ın Birliği",
+          "Namaz"
         ],
         "correct": 1,
-        "explanation": "Tawheed means the Oneness of God — believing there is only one God, Allah."
+        "explanation": "Tevhit, Allah'ın Birliği demektir — tek bir Tanrı olan Allah'a inanmak."
       },
       {
-        "q": "How many gods does Islam teach us about?",
+        "q": "İslam bize kaç tanrı öğretir?",
         "options": [
-          "Many gods",
-          "Only one God",
-          "Two gods"
+          "Çok tanrı",
+          "Tek bir Tanrı",
+          "İki tanrı"
         ],
         "correct": 1,
-        "explanation": "Islam teaches us that there is only one God — Allah."
+        "explanation": "İslam, tek bir Tanrı olduğunu — Allah'ı — öğretir."
       },
       {
-        "q": "Which surah of the Quran talks about Tawheed?",
+        "q": "Kur'an'ın hangi suresi Tevhit'ten bahseder?",
         "options": [
-          "Al-Fatiha",
-          "Al-Ikhlas",
-          "Al-Baqarah"
+          "Fatiha",
+          "İhlas",
+          "Bakara"
         ],
         "correct": 1,
-        "explanation": "Surah Al-Ikhlas (112) talks about the Oneness of God."
+        "explanation": "İhlas Suresi (112), Allah'ın Birliği'nden bahseder."
       }
     ]
   },
   {
     "id": "angels",
-    "title": "Angels",
+    "title": "Melekler",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "👼",
     "category": "core_beliefs",
     "content": {
-      "starter": "Angels are special creatures made of light! Allah sends them to help us. Some angels write down our good and bad deeds. Some angels take our souls when it's time. Angels always obey Allah and never make mistakes!",
-      "explorer": "Angels are one of the six articles of faith in Islam. They are created from light and always obey Allah. The most famous angel is Jibril (Gabriel), who brought Allah's messages to the prophets. Other important angels include Mikail (Michael), Israfil (who will blow the trumpet on Judgment Day), and Azra'il (the angel of death). Angels record our deeds and protect us.",
-      "thinker": "Angels (Mala'ika) are a fundamental article of Islamic belief. Created from light, they exist in a different dimension and serve Allah in various capacities. Jibril (Gabriel) delivered the Quran to Prophet Muhammad ﷺ. The Kiraman Katibin are recording angels who document every deed. The angel Munkar and Nakir question the dead in their graves. Unlike humans, angels have no free will — they always obey Allah. Their existence reminds us that we are never truly alone and that our actions are always being witnessed."
+      "starter": "Melekler, nurdan yaratılmış özel varlıklardır! Allah onları bize yardım etmesi için gönderir. Bazı melekler iyi ve kötü amellerimizi yazar. Bazı melekler ise vakti geldiğinde ruhlarımızı alır. Melekler her zaman Allah'a itaat eder ve asla hata yapmazlar!",
+      "explorer": "Melekler, İslam'ın iman esaslarının altısından biridir. Nurdan yaratılmışlardır ve her zaman Allah'a itaat ederler. En meşhur melek, peygamberlere Allah'ın mesajlarını getiren Cebrail'dir (Cibril). Diğer önemli melekler arasında Mikail, İsrafil (Kıyamet Günü suru çalacak olan) ve Azrail (ölüm meleği) bulunur. Melekler amellerimizi kaydeder ve bizi korur.",
+      "thinker": "Melekler (Melaike), İslami inancın temel bir esasını oluşturur. Nurdan yaratılmış, farklı bir boyutta var olurlar ve Allah'a çeşitli görevlerde hizmet ederler. Cebrail (Cibril), Kur'an'ı Peygamber Muhammed ﷺ'a iletmiştir. Kiramen Katibin, her ameli kaydeden meleklerdir. Münker ve Nekir melekleri, kabirde ölüleri sorgular. İnsanlardan farklı olarak meleklerin iradesi yoktur — her zaman Allah'a itaat ederler. Varlıkları, hiçbir zaman gerçekten yalnız olmadığımızı ve amellerimizin her zaman görüldüğünü bize hatırlatır."
     },
-    "funFact": "Did you know? Angels have wings! Some have two, some have three, some have four — and Prophet Muhammad ﷺ saw the angel Jibril with 600 wings!",
+    "funFact": "Biliyor muydunuz? Meleklerin kanatları vardır! Bazısının iki, bazısının üç, bazısının dört kanadı vardır — ve Peygamber Muhammed ﷺ Cebrail'i 600 kanatla görmüştür!",
     "quiz": [
       {
-        "q": "What are angels made of?",
+        "q": "Melekler neyden yaratılmıştır?",
         "options": [
-          "Fire",
-          "Light",
-          "Water"
+          "Ateş",
+          "Nur",
+          "Su"
         ],
         "correct": 1,
-        "explanation": "Angels are created from light."
+        "explanation": "Melekler nurdan yaratılmıştır."
       },
       {
-        "q": "Which angel brought messages to the prophets?",
+        "q": "Hangi melek peygamberlere mesaj getirmiştir?",
         "options": [
           "Mikail",
-          "Jibril",
-          "Israfil"
+          "Cebrail",
+          "İsrafil"
         ],
         "correct": 1,
-        "explanation": "Jibril (Gabriel) brought Allah's messages to the prophets."
+        "explanation": "Cebrail (Cibril), peygamberlere Allah'ın mesajlarını getirmiştir."
       },
       {
-        "q": "Do angels have free will?",
+        "q": "Meleklerin iradesi var mıdır?",
         "options": [
-          "Yes, they can choose",
-          "No, they always obey Allah",
-          "Sometimes"
+          "Evet, seçebilirler",
+          "Hayır, her zaman Allah'a itaat ederler",
+          "Bazen"
         ],
         "correct": 1,
-        "explanation": "Angels always obey Allah — they don't have free will like humans."
+        "explanation": "Melekler her zaman Allah'a itaat ederler — insanlar gibi özgür iradeleri yoktur."
       }
     ]
   },
   {
     "id": "holy_books",
-    "title": "Holy Books",
+    "title": "Kutsal Kitaplar",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📕",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent holy books to guide people! The most important one for us is the Quran — Allah's final book, sent to Prophet Muhammad ﷺ. Before that, Allah sent the Torah to Musa, the Zabur to Dawud, and the Injil to Isa. The Quran is special because Allah promised to protect it!",
-      "explorer": "Muslims believe that Allah revealed several holy books to guide humanity. The Tawrat (Torah) was given to Prophet Musa, the Zabur (Psalms) to Prophet Dawud, and the Injil (Gospel) to Prophet Isa. The Quran is the final and most complete revelation, sent to Prophet Muhammad ﷺ. We believe the earlier books were changed over time, but the Quran has been preserved exactly as Allah revealed it.",
-      "thinker": "The belief in holy books (Kutub) is the third article of Islamic faith. Allah revealed guidance through various scriptures: the Sahifat to Ibrahim, the Tawrat to Musa, the Zabur to Dawud, the Injil to Isa, and the Quran to Muhammad ﷺ. While Muslims respect all these revelations, we believe the Quran is the final and preserved word of Allah. It was revealed over 23 years and has been memorized by millions of huffaz (memorizers) throughout history. The Quran is unique in that Allah Himself guaranteed its preservation: 'Indeed, it is We who sent down the Quran and indeed, We will be its guardian' (Surah Al-Hijr 15:9)."
+      "starter": "Allah, insanlara yol göstermek için kutsal kitaplar göndermiştir! Bizim için en önemlisi Kur'an'dır — Peygamber Muhammed ﷺ'a gönderilen Allah'ın son kitabı. Ondan önce Allah, Musa'ya Tevrat'ı, Davud'a Zebur'u ve İsa'ya İncil'i göndermiştir. Kur'an özeldir çünkü Allah onu korumaya söz vermiştir!",
+      "explorer": "Müslümanlar, Allah'ın insanlığa yol göstermek için birkaç kutsal kitap vahyettiğine inanırlar. Tevrat, Peygamber Musa'ya, Zebur Peygamber Davud'a ve İncil Peygamber İsa'ya verilmiştir. Kur'an, Peygamber Muhammed ﷺ'a gönderilen son ve en eksiksiz vahiydir. Önceki kitapların zamanla değiştirildiğine inanıyoruz, ancak Kur'an Allah'ın vahyettiği şekilde korunmuştur.",
+      "thinker": "Kutsal kitaplara (Kütüb) inanç, İslami inancın üçüncü esasıdır. Allah, çeşitli kutsal metinler aracılığıyla yol göstermiştir: İbrahim'e Sahifeler, Musa'ya Tevrat, Davud'a Zebur, İsa'ya İncil ve Muhammed ﷺ'a Kur'an. Müslümanlar tüm bu vahiyleri saygıyla karşılarken, Kur'an'ın Allah'ın son ve korunmuş kelamı olduğuna inanırız. Kur'an 23 yıl boyunca vahiy edilmiş ve tarih boyunca milyonlarca hafız tarafından ezberlenmiştir. Kur'an, Allah'ın kendisinin korunmasını garanti ettiği tek kitaptır: 'Şüphesiz, Kur'an'ı Biz indirdik ve şüphesiz Biz onu koruyacağız' (Hicr Suresi 15:9)."
     },
-    "funFact": "Did you know? The Quran has been completely memorized by millions of people around the world — and some children as young as 7 years old!",
+    "funFact": "Biliyor muydunuz? Kur'an, dünya çapında milyonlarca kişi tarafından tamamen ezberlenmiştir — ve bazı çocuklar sadece 7 yaşında hafız olurlar!",
     "quiz": [
       {
-        "q": "Which is the final holy book in Islam?",
+        "q": "İslam'daki son kutsal kitap hangisidir?",
         "options": [
-          "Torah",
-          "Bible",
-          "Quran"
+          "Tevrat",
+          "İncil",
+          "Kur'an"
         ],
         "correct": 2,
-        "explanation": "The Quran is the final and most complete holy book sent by Allah."
+        "explanation": "Kur'an, Allah'ın gönderdiği son ve en eksiksiz kutsal kitaptır."
       },
       {
-        "q": "Which prophet received the Torah?",
+        "q": "Tevrat hangi peygambere verilmiştir?",
         "options": [
-          "Prophet Ibrahim",
-          "Prophet Musa",
-          "Prophet Isa"
+          "Peygamber İbrahim",
+          "Peygamber Musa",
+          "Peygamber İsa"
         ],
         "correct": 1,
-        "explanation": "The Torah (Tawrat) was given to Prophet Musa (Moses)."
+        "explanation": "Tevrat, Peygamber Musa'ya (Musa aleyhisselam) verilmiştir."
       },
       {
-        "q": "What makes the Quran special?",
+        "q": "Kur'an'ı özel kılan nedir?",
         "options": [
-          "It's the oldest book",
-          "Allah promised to protect it",
-          "It has many pages"
+          "En eski kitap olması",
+          "Allah'ın onu korumaya söz vermesi",
+          "Çok sayfa olması"
         ],
         "correct": 1,
-        "explanation": "Allah promised to protect the Quran from being changed — it's preserved exactly as revealed."
+        "explanation": "Allah, Kur'an'ın değiştirilmeden korunacağına söz vermiştir — vahiy edildiği gibi korunmuştur."
       }
     ]
   },
   {
     "id": "prophets",
-    "title": "Prophets of Allah",
+    "title": "Allah'ın Peygamberleri",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_3_prophet_stories_feature-FtRej2zvGTyPa9u6r2MF85.webp?updatedAt=1781117901347",
     "emoji": "🧑‍🏫",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent many prophets to guide people! We believe in 25 prophets, like Adam, Ibrahim, Musa, Isa, and the last one, Muhammad ﷺ. They were all good people who taught us to worship Allah and be kind to others!",
-      "explorer": "Allah sent prophets to every nation throughout history to guide people to the right path. We know of 25 prophets mentioned in the Quran, including Adam, Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. All prophets taught the same message: worship Allah alone and be good to others. Prophet Muhammad ﷺ is the last and final prophet.",
-      "thinker": "The belief in prophets (Anbiya) is the fourth article of Islamic faith. Allah sent 124,000 prophets to guide humanity, with 25 specifically mentioned in the Quran. They include the five greatest prophets (Ulul-Azm): Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. Each prophet was sent to a specific nation but carried the same universal message of Tawheed and moral conduct. Prophet Muhammad ﷺ is the Seal of the Prophets (Khatam an-Nabiyyin), meaning no new prophet will come after him. His message is for all of humanity until the Day of Judgment."
+      "starter": "Allah, insanlara yol göstermek için birçok peygamber göndermiştir! Adem, İbrahim, Musa, İsa ve en son Muhammed ﷺ gibi 25 peygambere inanıyoruz. Hepsi iyi insanlardı ve bize Allah'a ibadet etmeyi ve başkalarına nazik olmayı öğrettiler!",
+      "explorer": "Allah, insanları doğru yola yönlendirmek için tarih boyunca her millete peygamberler göndermiştir. Kur'an'da adı geçen 25 peygamber biliyoruz, bunlar arasında Adem, Nuh, İbrahim, Musa, İsa ve Muhammed ﷺ bulunur. Tüm peygamberler aynı mesajı öğretmiştir: yalnızca Allah'a ibadet edin ve başkalarına iyilik yapın. Peygamber Muhammed ﷺ, son ve final peygamberdir.",
+      "thinker": "Peygamberlere (Enbiya) inanç, İslami inancın dördüncü esasıdır. Allah, insanlığa yol göstermek için 124.000 peygamber göndermiş, bunlardan 25'i Kur'an'da özellikle zikredilmiştir. Bunlar arasında en büyük beş peygamber (Ülü'l-Azm) bulunur: Nuh, İbrahim, Musa, İsa ve Muhammed ﷺ. Her peygamber belirli bir millete gönderilmiş, ancak Tevhid ve ahlaki davranışların aynı evrensel mesajını taşımıştır. Peygamber Muhammed ﷺ, Peygamberlerin Mührüdür (Hatemü'n-Nebiyyin), yani ondan sonra yeni bir peygamber gelmeyecektir. Onun mesajı kıyamet gününe kadar tüm insanlığınındır."
     },
-    "funFact": "Did you know? Muslims believe in 25 prophets mentioned in the Quran! Prophet Nuh (Noah) lived for 950 years and built the big ship!",
+    "funFact": "Biliyor muydunuz? Müslümanlar Kur'an'da adı geçen 25 peygambere inanırlar! Peygamber Nuh (Nuh aleyhisselam) 950 yıl yaşamış ve büyük gemiyi inşa etmiştir!",
     "quiz": [
       {
-        "q": "How many prophets are mentioned in the Quran?",
+        "q": "Kur'an'da kaç peygamberin adı geçmektedir?",
         "options": [
           "10",
           "25",
           "100"
         ],
         "correct": 1,
-        "explanation": "25 prophets are specifically mentioned in the Quran."
+        "explanation": "Kur'an'da 25 peygamber özellikle zikredilmiştir."
       },
       {
-        "q": "Who is the last prophet in Islam?",
+        "q": "İslam'daki son peygamber kimdir?",
         "options": [
-          "Prophet Isa",
-          "Prophet Musa",
-          "Prophet Muhammad"
+          "Peygamber İsa",
+          "Peygamber Musa",
+          "Peygamber Muhammed"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ is the last and final prophet sent by Allah."
+        "explanation": "Peygamber Muhammed ﷺ, Allah'ın gönderdiği son ve final peygamberdir."
       },
       {
-        "q": "What did all prophets teach?",
+        "q": "Tüm peygamberler ne öğretmiştir?",
         "options": [
-          "Different messages",
-          "Worship Allah alone and be kind",
-          "Only pray"
+          "Farklı mesajlar",
+          "Yalnızca Allah'a ibadet etmeyi ve iyilik yapmayı",
+          "Sadece namaz kılmayı"
         ],
         "correct": 1,
-        "explanation": "All prophets taught the same message: worship Allah alone and be good to others."
+        "explanation": "Tüm peygamberler aynı mesajı öğretmiştir: yalnızca Allah'a ibadet edin ve başkalarına iyilik yapın."
       }
     ]
   },
   {
     "id": "day_of_judgment",
-    "title": "Day of Judgment",
+    "title": "Mahşer Günü",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326",
     "emoji": "⚖️",
     "category": "core_beliefs",
     "content": {
-      "starter": "One day, everyone will come back to life and stand in front of Allah! He will check all our good and bad deeds. People who did good will go to Paradise — a beautiful place with everything nice. People who were bad and didn't sorry will go to Hell. That's why we should always try to do good!",
-      "explorer": "The Day of Judgment (Yawm al-Qiyamah) is when all people will be resurrected and brought before Allah to be judged for their deeds. Every action — even the smallest kindness — will be weighed on a scale. Those whose good deeds outweigh their bad will enter Paradise (Jannah), a place of eternal happiness. Those whose bad deeds are heavier will face punishment. This belief motivates Muslims to always do their best.",
-      "thinker": "The Day of Judgment (Qiyamah) is the fifth article of Islamic faith. It is the day when all of creation will be resurrected and judged by Allah with perfect justice. The Prophet ﷺ described signs that will precede it, including major earthquakes, the sun rising from the west, and the emergence of the Dajjal. On that day, every person will receive their book of deeds — in the right hand for the righteous, in the left for the wrongdoers. The scale (Mizan) will weigh every deed, no matter how small. This belief provides moral accountability and motivates Muslims to live righteously."
+      "starter": "Bir gün, herkes yeniden dirilecek ve Allah'ın huzurunda duracaktır! O, tüm iyi ve kötü amellerimizi kontrol edecek. İyi işler yapanlar Cennet'e — her şeyin güzel olduğu bir yere — gidecek. Kötü olan ve pişman olmayanlar Cehennem'e gidecek. Bu yüzden her zaman iyi yapmaya çalışmalıyız!",
+      "explorer": "Mahşer Günü (Kıyamet Günü), tüm insanların yeniden diriltileceği ve amelleri için Allah'ın huzuruna çıkarılacağı gündür. Her eylem — en küçük iyilik bile — bir terazide tartılacaktır. İyi amelleri kötü amellerinden ağır basanlar, sonsuz mutluluğun yeri olan Cennet'e (Cenne) girecektir. Kötü amelleri ağır basanlar cezayla karşılaşacaktır. Bu inanç, Müslümanları her zaman en iyi şekilde yapmaya motive eder.",
+      "thinker": "Mahşer Günü (Kıyamet), İslami inancın beşinci esasıdır. Tüm yaratığın yeniden diriltileceği ve Allah tarafından mükemmel adaletle yargılanacağı gündür. Peygamber ﷺ, onu öncelleyecek alametleri açıklamıştır: büyük depremler, güneşin batıdan doğması ve Deccal'in ortaya çıkması. O gün, her kişi amel defterini alacaktır — salihler için sağ elinde, zalimler için sol elinde. Terazi (Mizan), her ameli ne kadar küçük olursa olsun tartacaktır. Bu inanç, ahlaki sorumluluk sağlar ve Müslümanları erdemli yaşamaya motive eder."
     },
-    "funFact": "Did you know? On the Day of Judgment, even a small good deed — like removing a thorn from the road — will be rewarded!",
+    "funFact": "Biliyor muydunuz? Mahşer Günü'nde, yoldan bir dikeni kaldırmak gibi küçük bir iyi amel bile mükafatlandırılacaktır!",
     "quiz": [
       {
-        "q": "What happens on the Day of Judgment?",
+        "q": "Mahşer Günü'nde ne olur?",
         "options": [
-          "Everyone goes to Paradise",
-          "Everyone is judged for their deeds",
-          "Nothing happens"
+          "Herkes Cennet'e gider",
+          "Herkes amelleri için yargılanır",
+          "Hiçbir şey olmaz"
         ],
         "correct": 1,
-        "explanation": "On the Day of Judgment, everyone will be judged for their good and bad deeds."
+        "explanation": "Mahşer Günü'nde, herkes iyi ve kötü amelleri için yargılanacaktır."
       },
       {
-        "q": "What is the name of Paradise in Arabic?",
+        "q": "Arapça'da Cennet'in adı nedir?",
         "options": [
-          "Jannah",
-          "Jahannam",
-          "Dunya"
+          "Cenne",
+          "Cehennem",
+          "Dünya"
         ],
         "correct": 0,
-        "explanation": "Paradise is called Jannah in Arabic — it means 'garden'."
+        "explanation": "Cennet Arapça'da Cenne olarak adlandırılır — 'bahçe' demektir."
       },
       {
-        "q": "Will even small deeds be judged?",
+        "q": "Küçük ameller bile yargılanacak mı?",
         "options": [
-          "No, only big deeds",
-          "Yes, every single deed",
-          "Only bad deeds"
+          "Hayır, sadece büyük ameller",
+          "Evet, her tek amel",
+          "Sadece kötü ameller"
         ],
         "correct": 1,
-        "explanation": "Every deed, no matter how small, will be weighed on the Day of Judgment."
+        "explanation": "Mahşer Günü'nde her amel, ne kadar küçük olursa olsun tartılacaktır."
       }
     ]
   },
   {
     "id": "wudu",
-    "title": "Wudu - Ablution",
+    "title": "Abdest - Gusül",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🚿",
     "category": "daily_practices",
     "content": {
-      "starter": "Wudu is washing before prayer! We wash our hands, mouth, nose, face, arms, head, and feet with clean water. It makes us clean and ready to talk to Allah. Wudu also washes away our small sins — how cool is that!",
-      "explorer": "Wudu is the ritual ablution Muslims perform before praying. It involves washing specific body parts in order: hands, mouth, nose, face, arms to elbows, wiping the head, and washing feet to ankles. Wudu is not just about physical cleanliness — it's also spiritual purification. Each step has benefits: washing the hands removes germs, rinsing the mouth keeps it clean, and washing the feet removes dirt from the road.",
-      "thinker": "Wudu is a beautiful act that combines physical hygiene with spiritual purification. The Quran states: 'Indeed, Allah loves those who are constantly repenting and loves those who purify themselves' (Surah Al-Baqarah 2:222). The Prophet ﷺ said that when a Muslim performs wudu and washes their face, sins fall away with the water. When they wash their hands, sins fall from their hands. When they wash their feet, sins fall from their feet. Wudu is thus both a practical act of cleanliness and a spiritual ritual of renewal."
+      "starter": "Abdest, namazdan önce yıkanmaktır! Ellerimizi, ağzımızı, burnumuzu, yüzümüzü, kollarımızı, başımızı ve ayaklarımızı temiz suyla yıkarız. Bu bizi temizler ve Allah ile konuşmaya hazırlar. Abdest ayrıca küçük günahlarımızı da yıkar — ne kadar harika değil mi!",
+      "explorer": "Abdest, Müslümanların namaz kılmadan önce yaptığı ritüel abdesttir. Sırayla belirli vücut bölümlerini yıkamayı içerir: eller, ağız, burun, yüz, dirseklere kadar kollar, başı meshetmek ve ayak bileklerine kadar ayaklar. Abdest sadece fiziksel temizlik hakkında değildir — aynı zamanda manevi arınmadır. Her adımın faydaları vardır: elleri yıkamak mikropları uzaklaştırır, ağzı çalkalamak onu temiz tutar, ayakları yıkamak yoldaki kiri kaldırır.",
+      "thinker": "Abdest, fiziksel hijyen ile manevi arınmayı birleştiren güzel bir eylemdir. Kur'an şöyle der: 'Şüphesiz Allah, çok tevbe edenleri ve çok temizlenenleri sever' (Bakara Suresi 2:222). Peygamber ﷺ, bir Müslüman abdest aldığında ve yüzünü yıkadığında, günahların su ile birlikte düştüğünü söylemiştir. Ellerini yıkadığında, günahlar ellerinden düşer. Ayaklarını yıkadığında, günahlar ayaklarından düşer. Abdest bu nedenle hem temizliğin pratik bir eylemi hem de yenilenmenin manevi bir ritüelidir."
     },
-    "funFact": "Did you know? When you perform wudu and wash each body part, your sins fall away with the water — it's like getting a fresh start!",
+    "funFact": "Biliyor muydunuz? Abdest aldığınızda ve her vücut parçasını yıkadığınızda, günahlarınız su ile birlikte düşer — tıpkı yeni bir başlangıç yapmak gibi!",
     "quiz": [
       {
-        "q": "What do we perform before praying?",
+        "q": "Namaz kılmadan önce ne yaparız?",
         "options": [
-          "Ghusl",
-          "Wudu",
-          "Tayammum"
+          "Gusül",
+          "Abdest",
+          "Teyemmüm"
         ],
         "correct": 1,
-        "explanation": "We perform wudu (ablution) before praying to clean ourselves."
+        "explanation": "Namaz kılmadan önce kendimizi temizlemek için abdest alırız."
       },
       {
-        "q": "How many steps are in wudu?",
+        "q": "Abdestte kaç adım vardır?",
         "options": [
-          "3 steps",
-          "7 steps",
-          "10 steps"
+          "3 adım",
+          "7 adım",
+          "10 adım"
         ],
         "correct": 1,
-        "explanation": "There are 7 main steps in wudu: hands, mouth, nose, face, arms, head, and feet."
+        "explanation": "Abdestte 7 ana adım vardır: eller, ağız, burun, yüz, kollar, baş ve ayaklar."
       },
       {
-        "q": "What does wudu clean besides the body?",
+        "q": "Abdest bedenin dışında neyi temizler?",
         "options": [
-          "Our clothes",
-          "Our sins",
-          "Our room"
+          "Kıyafetlerimizi",
+          "Günahlarımızı",
+          "Odımızı"
         ],
         "correct": 1,
-        "explanation": "Wudu washes away our small sins — it's spiritual purification too!"
+        "explanation": "Abdest küçük günahlarımızı yıkar — aynı zamanda manevi arınmadır!"
       }
     ]
   },
   {
     "id": "islamic_dress",
-    "title": "Islamic Dress",
+    "title": "İslami Giyim",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_13_topic_islamic_dress-7whwzZgTnmsVkCdmrsGaFv.webp?updatedAt=1781117899286",
     "emoji": "👗",
     "category": "daily_practices",
     "content": {
-      "starter": "Allah asks us to dress nicely and modestly! Boys and girls should cover their bodies properly. It's about being respectful and showing that we love Allah. Modest dressing makes us feel confident and proud of being Muslim!",
-      "explorer": "Islamic dress is about modesty and respecting Allah's guidelines. For women, this generally means covering everything except the face, hands, and feet — many choose to wear hijab (headscarf). For men, clothing should cover from the navel to the knees. The key is modesty — not showing off or wearing inappropriate clothes. Islamic dress is an act of worship and identity.",
-      "thinker": "Islamic dress codes are rooted in the Quran and Sunnah. Allah says: 'O Children of Adam, take your adornment at every masjid' (Surah Al-A'raf 7:31). The hijab is more than a piece of cloth — it's a statement of identity, dignity, and devotion to Allah. For both men and women, modest dress is about self-respect and not reducing oneself to physical appearance. It's important to understand that modesty is a comprehensive concept that includes behavior, speech, and dress. The goal is to be recognized for one's character and intellect, not merely for appearance."
+      "starter": "Allah, güzel ve iffetli giyinmemizi ister! Erkekler ve kızlar vücutlarını uygun şekilde örtmelidir. Bu, saygılı olmak ve Allah'ı sevdiğimizi göstermekle ilgilidir. İffetli giyinmek, Müslüman olmaktan gurur duymamızı ve kendimize güvenmemizi sağlar!",
+      "explorer": "İslami giyim, iffet ve Allah'ın yönergelerine saygı ile ilgilidir. Kadınlar için bu genellikle yüz, eller ve ayaklar dışında her şeyi örtmek anlamına gelir — çoğu başörtüsü (hijab) giymeyi tercih eder. Erkekler için kıyafet, göbek altından diz altına kadar olan kısmı örtmelidir. Önemli olan iffettir — gösteriş yapmak veya uygun olmayan kıyafetler giymek değil. İslami giyim, ibadet ve kimlik eylemidir.",
+      "thinker": "İslami giyim kuralları, Kur'an ve Sünnet'e dayanır. Allah şöyle der: 'Ey Ademoğulları, her mescide gidişinizde süsleninizi' (A'raf Suresi 7:31). Hijab, bir kumaş parçasından daha fazlasıdır — kimlik, onur ve Allah'a bağlılık beyanıdır. Hem erkekler hem de kadınlar için iffetli giyinmek, kendine saygı ve fiziksel görünüme indirgenmemekle ilgilidir. İffetin, davranış, konuşma ve giyimi içeren kapsamlı bir kavram olduğunu anlamak önemlidir. Amaç, bir kişinin karakteri ve zekasıyla tanınması, sadece görünüşüyle değil."
     },
-    "funFact": "Did you know? The word 'hijab' comes from Arabic and means 'curtain' or 'screen' — it's about creating a space of dignity and privacy!",
+    "funFact": "Biliyor muydunuz? 'Hijab' kelimesi Arapça'dan gelir ve 'perde' veya 'örtü' anlamına gelir — haysiyet ve mahrem alan yaratmakla ilgilidir!",
     "quiz": [
       {
-        "q": "What is the main purpose of Islamic dress?",
+        "q": "İslami giyimin ana amacı nedir?",
         "options": [
-          "Fashion",
-          "Modesty",
-          "Uniform"
+          "Moda",
+          "İffet",
+          "Üniforma"
         ],
         "correct": 1,
-        "explanation": "Islamic dress is about modesty and respecting Allah's guidelines."
+        "explanation": "İslami giyim, iffet ve Allah'ın yönergelerine saygı ile ilgilidir."
       },
       {
-        "q": "What does 'hijab' mean?",
+        "q": "'Hijab' ne demektir?",
         "options": [
-          "Prayer",
-          "Curtain or screen",
-          "Charity"
+          "Namaz",
+          "Perde veya örtü",
+          "Sadaka"
         ],
         "correct": 1,
-        "explanation": "The word 'hijab' means 'curtain' or 'screen' in Arabic."
+        "explanation": "'Hijab' kelimesi Arapça'da 'perde' veya 'örtü' demektir."
       },
       {
-        "q": "For men, what part of the body must be covered?",
+        "q": "Erkekler için hangi vücut bölgesi örtülmelidir?",
         "options": [
-          "Only the head",
-          "From navel to knees",
-          "Entire body"
+          "Sadece baş",
+          "Göbek altından diz altına",
+          "Tüm vücut"
         ],
         "correct": 1,
-        "explanation": "Men must cover from the navel to the knees as a minimum."
+        "explanation": "Erkekler en azından göbek altından diz altına kadar olan kısmı örtmelidir."
       }
     ]
   },
   {
     "id": "halal_food",
-    "title": "Halal Food",
+    "title": "Helal Yiyecekler",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194",
     "emoji": "🍽️",
     "category": "daily_practices",
     "content": {
-      "starter": "Halal means 'okay to eat' in Arabic! Allah tells us what food is good for us. We can eat fruits, vegetables, chicken, and fish. We can't eat pork or drink alcohol. We always say 'Bismillah' before eating to thank Allah!",
-      "explorer": "Halal means permissible in Islam. Allah has told us which foods are halal (allowed) and haram (forbidden). Halal foods include fruits, vegetables, grains, and properly slaughtered meat. Haram foods include pork, blood, alcohol, and meat not slaughtered in Allah's name. Saying 'Bismillah' before eating is a Sunnah and reminds us that food is a blessing from Allah.",
-      "thinker": "The concept of halal and haram in food is rooted in the Quran and Sunnah. Allah says: 'Eat of what is lawful and good on the earth' (Surah Al-Baqarah 2:168). Halal is not just about what we eat but how food is obtained — it must be through ethical, humane, and clean methods. Pork is prohibited (haram) as stated in multiple Quranic verses. Alcohol is forbidden because it clouds the mind and leads to sin. Even when eating halal food, Islam teaches moderation: 'Eat and drink, but do not be excessive' (Surah Al-A'raf 31). The act of saying 'Bismillah' before eating transforms a routine meal into an act of worship."
+      "starter": "Helal, Arapça'da 'yenebilir' demektir! Allah bize hangi yiyeceklerin iyi olduğunu söyler. Meyve, sebze, tavuk ve balık yiyebiliriz. Domuz eti yiyemeyiz ve içki içemeyiz. Yemeden önce Allah'a teşekkür etmek için her zaman 'Bismillah' deriz!",
+      "explorer": "Helal, İslam'da izin verilen demektir. Allah, hangi yiyeceklerin helal (izin verilen) ve haram (yasak) olduğunu bize bildirmiştir. Helal yiyecekler arasında meyveler, sebzeler, tahıllar ve usulüne uygun kesilmiş et bulunur. Haram yiyecekler arasında domuz eti, kan, içki ve Allah'ın adı kesilmeden kesilen et bulunur. Yemeden önce 'Bismillah' demek bir sünnettir ve yiyeceğin Allah'tan bir nimet olduğunu bize hatırlatır.",
+      "thinker": "Yiyeceklerde helal ve haram kavramı, Kur'an ve Sünnet'e dayanır. Allah şöyle der: 'Yeryüzünde helal ve temiz olanlardan yiyin' (Bakara Suresi 2:168). Helal sadece ne yediğimizle ilgili değil, aynı zamanda yiyeceğin nasıl elde edildiğiyle de ilgilidir — etik, insani ve temiz yöntemlerle olmalıdır. Domuz eti, birçok Kur'an ayetinde belirtildiği gibi yasaktır (haram). İçki, aklı bulandırdığı ve günaha yol açtığı için yasaktır. Helal yemek yerken bile İslam ölçülü olmayı öğretir: 'Yiyin ve için, fakat israf etmeyin' (A'raf Suresi 31). Yemeden önce 'Bismillah' deme eylemi, rutin bir öğünü ibadet eylemine dönüştürür."
     },
-    "funFact": "Did you know? Muslims say 'Bismillah' (In the name of Allah) before eating — it's like saying grace and thanking Allah for the food!",
+    "funFact": "Biliyor muydunuz? Müslümanlar yemeden önce 'Bismillah' (Allah'ın adıyla) derler — bu, şükran dilemek ve Allah'a yiyecek için teşekkür etmek gibidir!",
     "quiz": [
       {
-        "q": "What does 'halal' mean?",
+        "q": "'Helal' ne demektir?",
         "options": [
-          "Forbidden",
-          "Permissible",
-          "Delicious"
+          "Yasak",
+          "İzin verilen",
+          "Lezzetli"
         ],
         "correct": 1,
-        "explanation": "Halal means 'permissible' — food that Allah allows us to eat."
+        "explanation": "Helal, 'izin verilen' demektir — Allah'ın yememize izin verdiği yiyecek."
       },
       {
-        "q": "Which of these is haram (forbidden) in Islam?",
+        "q": "Bunlardan hangisi İslam'da haram (yasak) dır?",
         "options": [
-          "Chicken",
-          "Fruits",
-          "Pork"
+          "Tavuk",
+          "Meyveler",
+          "Domuz eti"
         ],
         "correct": 2,
-        "explanation": "Pork is haram (forbidden) in Islam."
+        "explanation": "Domuz eti İslam'da haram (yasak) tır."
       },
       {
-        "q": "What do Muslims say before eating?",
+        "q": "Müslümanlar yemeden önce ne derler?",
         "options": [
-          "Alhamdulillah",
+          "Elhamdülillah",
           "Bismillah",
-          "Subhanallah"
+          "Sübhanallah"
         ],
         "correct": 1,
-        "explanation": "Muslims say 'Bismillah' (In the name of Allah) before eating."
+        "explanation": "Müslümanlar yemeden önce 'Bismillah' (Allah'ın adıyla) derler."
       }
     ]
   },
   {
     "id": "duas",
-    "title": "Duas - Supplications",
+    "title": "Dualar - Yakarışlar",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_10_pillar_duas-EqyXdQq6eb7Aov9Lmrvy3T.webp?updatedAt=1781117901995",
     "emoji": "🤲",
     "category": "daily_practices",
     "content": {
-      "starter": "Duas are prayers we say to Allah anytime! When we wake up, eat, go outside, or feel scared — we can talk to Allah. He always listens! There's a special dua for everything. It's like having a direct line to Allah!",
-      "explorer": "Duas are personal prayers to Allah — conversations where we ask for help, guidance, forgiveness, or express gratitude. Unlike formal salah, duas can be made anytime in any language. The Prophet ﷺ taught us specific duas for waking up, eating, traveling, and more. Making dua shows our dependence on Allah and our trust in His help.",
-      "thinker": "Duas (supplications) represent the direct relationship between a servant and Allah. The Prophet ﷺ said: 'Dua is the essence of worship.' Islam teaches duas for every occasion — from waking up ('Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin-nushur') to entering the mosque, before sleeping, and during times of distress. Allah says: 'Call upon Me; I will respond to you' (Surah Ghafir 40:60). This is a profound promise — the Creator of the universe invites us to speak with Him directly, without any intermediary."
+      "starter": "Dua, her zaman Allah'a söylediğimiz duadır! Uyandığımızda, yemek yediğimizde, dışarı çıktığımızda veya korktuğumuzda — Allah ile konuşabiliriz. O her zaman dinler! Her şey için özel bir dua vardır. Bu, Allah ile doğrudan bir hatta sahip olmak gibidir!",
+      "explorer": "Dua, Allah'a yapılan kişisel duadır — yardım, yol gösterme, bağışlanma istediğimiz veya şükran ifade ettiğimiz sohbetler. Resmi namazın aksine, dualar her zaman her dilde yapılabilir. Peygamber ﷺ, uyanırken, yerken, seyahat ederken ve daha fazlası için belirli duaları bize öğretmiştir. Dua yapmak, Allah'a bağımlılığımızı ve O'nun yardımına güvendimizi gösterir.",
+      "thinker": "Dualar (Yakarışlar), bir kul ile Allah arasındaki doğrudan ilişkiyi temsil eder. Peygamber ﷺ şöyle demiştir: 'Dua, ibadetin özüdür.' İslam, her durum için dua öğretir — uyanırken ('Elhamdülillahillezi ahyana ba'de ma amatana ve ileyhi'n-nuşur'), mescide girerken, uyumadan önce ve sıkıntı zamanlarında. Allah şöyle der: 'Bana dua edin, size karşılık vereyim' (Mü'min Suresi 40:60). Bu derin bir vaattir — evrenin Yaratıcısı bizi, hiçbir aracı olmadan doğrudan kendisiyle konuşmaya davet eder."
     },
-    "funFact": "Did you know? There's a dua for almost everything — even for when you enter your bathroom! Allah wants us to remember Him in every moment!",
+    "funFact": "Biliyor muydunuz? Neredeyse her şey için bir dua vardır — tuvalete girerken bile! Allah, her anımızda O'nu hatırlamamızı ister!",
     "quiz": [
       {
-        "q": "What is a dua?",
+        "q": "Dua nedir?",
         "options": [
-          "A type of food",
-          "A personal prayer to Allah",
-          "A holy book"
+          "Bir tür yiyecek",
+          "Allah'a kişisel bir dua",
+          "Kutsal bir kitap"
         ],
         "correct": 1,
-        "explanation": "A dua is a personal prayer — talking to Allah anytime, anywhere."
+        "explanation": "Dua, kişisel bir duadır — her zaman, her yerde Allah ile konuşmak."
       },
       {
-        "q": "Can duas be made in any language?",
+        "q": "Dualar her dilde yapılabilir mi?",
         "options": [
-          "Only in Arabic",
-          "Only in English",
-          "Yes, in any language"
+          "Sadece Arapça",
+          "Sadece İngilizce",
+          "Evet, her dilde"
         ],
         "correct": 2,
-        "explanation": "Duas can be made in any language — Allah understands all languages!"
+        "explanation": "Dualar her dilde yapılabilir — Allah tüm dilleri anlar!"
       },
       {
-        "q": "What did the Prophet ﷺ say about dua?",
+        "q": "Peygamber ﷺ dua hakkında ne demiştir?",
         "options": [
-          "Dua is useless",
-          "Dua is the essence of worship",
-          "Only pray at night"
+          "Dua faydasızdır",
+          "Dua ibadetin özüdür",
+          "Sadece gece dua edin"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said: 'Dua is the essence of worship.'"
+        "explanation": "Peygamber ﷺ şöyle demiştir: 'Dua, ibadetin özüdür.'"
       }
     ]
   },
   {
     "id": "reading_quran",
-    "title": "Reading Quran",
+    "title": "Kur'an Okumak",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📖",
     "category": "daily_practices",
     "content": {
-      "starter": "The Quran is Allah's special book! When we read it, Allah rewards us. Even reading one letter gives us 10 rewards! The Quran teaches us how to be good Muslims and how to live happily. Let's try to read a little bit every day!",
-      "explorer": "The Quran is the holy book of Islam, revealed to Prophet Muhammad ﷺ through the angel Jibril. Reading the Quran is one of the most rewarding acts a Muslim can do — each letter earns 10 rewards. Muslims try to read the Quran daily, especially during Ramadan. The Quran is in Arabic, but translations help us understand its meanings. Reading with understanding and reflection is the goal.",
-      "thinker": "The Quran is the literal word of Allah, revealed over 23 years through the angel Jibril to Prophet Muhammad ﷺ. It consists of 114 surahs (chapters) and over 6,000 ayahs (verses). The Prophet ﷺ said: 'Whoever reads a letter from the Book of Allah will have a reward, and the reward of each letter is multiplied by ten.' Beyond reading, the Quran invites contemplation (tadabbur) — understanding its messages and applying them to life. The Quran is unique in that it has been perfectly preserved in its original Arabic since its revelation, making it the only religious text with an unbroken chain of transmission."
+      "starter": "Kur'an, Allah'ın özel kitabıdır! Okuduğumuzda Allah bize mükafat verir. Tek bir harf okumak bile bize 10 mükafat kazandırır! Kur'an bize iyi Müslüman olmayı ve nasıl mutlu yaşayacağımızı öğretir. Hadi her gün biraz okumaya çalışalım!",
+      "explorer": "Kur'an, İslam'ın kutsal kitabıdır ve Cebrail meleği aracılığıyla Peygamber Muhammed ﷺ'a vahiy edilmiştir. Kur'an okumak, bir Müslümanın yapabileceği en mükafatlı eylemlerden biridir — her harf 10 mükafat kazandırır. Müslümanlar özellikle Ramazan'da her gün Kur'an okumaya çalışırlar. Kur'an Arapçadır, ancak çevirileri anlamamıza yardımcı olur. Anlayarak ve tefekkür ederek okumak amaçtır.",
+      "thinker": "Kur'an, 23 yıl boyunca Cebrail meleği aracılığıyla Peygamber Muhammed ﷺ'a vahiy edilmiş Allah'ın kelamıdır. 114 sure (bölüm) ve 6.000'den fazla ayetten (âyet) oluşur. Peygamber ﷺ şöyle demiştir: 'Kim Allah'ın Kitabından bir harf okursa, bir mükafat vardır ve her harfin mükafatı on katıyla çoğaltılır.' Okumanın ötesinde, Kur'an tefekkür (tadabbur) davet eder — mesajlarını anlamak ve hayata uygulamak. Kur'an, vahiy edildiğinden bu yana orijinal Arapçasında mükemmel şekilde korunmuş olması bakımından eşsizdir ve bu da onu kesintisiz nakil zinciri olan tek dini metin yapar."
     },
-    "funFact": "Did you know? Reading just ONE letter of the Quran earns you 10 rewards from Allah! So reading 'Al-Fatiha' gives you over 1,000 rewards!",
+    "funFact": "Biliyor muydunuz? Kur'an'ın TEK bir harfini okumak size Allah'tan 10 mükafat kazandırır! Yani 'Fatiha' okumak size 1.000'den fazla mükafat verir!",
     "quiz": [
       {
-        "q": "Who revealed the Quran to Prophet Muhammad ﷺ?",
+        "q": "Kur'an'ı Peygamber Muhammed ﷺ'a kim vahiy etmiştir?",
         "options": [
-          "Allah directly",
-          "Angel Jibril",
-          "Angel Mikail"
+          "Doğrudan Allah",
+          "Cebrail Meleği",
+          "Mikail Meleği"
         ],
         "correct": 1,
-        "explanation": "Angel Jibril (Gabriel) brought the Quran to Prophet Muhammad ﷺ."
+        "explanation": "Cebrail Meleği (Cibril), Kur'an'ı Peygamber Muhammed ﷺ'a getirmiştir."
       },
       {
-        "q": "How many rewards do you get for reading one letter of the Quran?",
+        "q": "Kur'an'ın bir harfini okumak için kaç mükafat alırsınız?",
         "options": [
-          "1 reward",
-          "10 rewards",
-          "100 rewards"
+          "1 mükafat",
+          "10 mükafat",
+          "100 mükafat"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said each letter of the Quran earns 10 rewards."
+        "explanation": "Peygamber ﷺ, Kur'an'ın her harfi için 10 mükafat olduğunu söylemiştir."
       },
       {
-        "q": "How many surahs (chapters) are in the Quran?",
+        "q": "Kur'an'da kaç sure (bölüm) vardır?",
         "options": [
           "100",
           "114",
           "200"
         ],
         "correct": 1,
-        "explanation": "The Quran has 114 surahs (chapters)."
+        "explanation": "Kur'an'da 114 sure (bölüm) vardır."
       }
     ]
   },
   {
     "id": "how_to_pray",
-    "title": "How to Pray: A Complete Guide",
+    "title": "Namaz Kılma: Kapsamlı Rehber",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🕌",
     "category": "daily_practices",
     "content": {
-      "starter": "How do Muslims pray? It starts with Wudu — washing your hands, face, arms, and feet to get clean for Allah. Then you face the Kaaba in Mecca and do special movements: standing, bowing, and putting your forehead on the ground. Each prayer has a name like Fajr (morning) and Maghrib (sunset). There are 5 prayers every day! It's like having 5 special meetings with Allah.\n\nWUDU — The 8 Steps:\n1) Niyyah — Make the intention in your heart to perform Wudu for the sake of Allah. 2) Wash Hands — Wash both hands up to the wrists three times, starting with the right hand. Make sure water reaches between your fingers! 3) Rinse Mouth — Take water into your mouth and rinse it thoroughly three times. 4) Rinse Nose — Breathe water in through your nose and blow it out three times. 5) Wash Face — Wash your entire face three times, from forehead to chin and ear to ear. 6) Wash Arms — Wash both arms up to the elbows three times, starting with the right arm. 7) Wipe Head — Wipe your entire head once with wet hands. 8) Wash Feet — Wash both feet up to the ankles three times, starting with the right foot. Make sure water reaches between your toes!\n\nRemember: Take your time with each step, use clean water, and avoid waste. Wudu brings purity to your body and light to your heart!\n\nSALAH — The 7 Main Positions:\n1) Niyyah — Intend in your heart to pray. 2) Takbir — Raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). 3) Qiyam — Stand upright with hands crossed at chest level, and recite Surah Al-Fatiha and another Surah. 4) Ruku — Bow forward with your hands on your knees, and say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah — Rise from bowing and say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud — Put your forehead, nose, hands, knees, and toes on the ground, and say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud — Sit and recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): 2 Fard + 2 Sunnah = 4 rak'ahs — strengthens your faith!\n- Dhuhr (Noon): 4 Fard + 6 Sunnah = 10 rak'ahs — find peace and clarity!\n- Asr (Afternoon): 4 Fard + 4 Sunnah = 8 rak'ahs — seek Allah's pleasure!\n- Maghrib (Sunset): 3 Fard + 2 Sunnah = 5 rak'ahs — build discipline and gratitude!\n- Isha (Night): 4 Fard + 2 Sunnah = 6 rak'ahs — connect with your Creator!\nTotal daily: 17 Fard + 12 Sunnah = 29 rak'ahs combined.",
-      "explorer": "How to Pray: A Complete Guide covers Wudu (ablution), Salah (prayer), the 5 daily prayers, and the rak'ah breakdown in full detail.\n\nWUDU — The 8 Steps of Ablution:\nWudu is the ritual purification performed before prayer. It is a physical and spiritual cleansing that prepares the body and mind for communication with Allah. Wudu is obligatory before performing Salah and is considered one of the most important prerequisites for prayer. The steps are: 1) Niyyah — make the intention in your heart to perform Wudu for prayer, 2) Wash both hands up to the wrists three times starting with the right hand, ensuring water reaches between fingers, 3) Rinse your mouth thoroughly three times — this cleanses the mouth for recitation, 4) Breathe water in through the nose and blow it out three times using your left hand to assist, 5) Wash your entire face three times from forehead to chin and ear to ear, including the beard if you have one, 6) Wash both arms up to and including the elbows three times starting with the right arm, 7) Wipe your head once with wet hands — you can wipe the entire head or just a portion, 8) Wash both feet up to and including the ankles three times starting with the right foot, ensuring water reaches between the toes.\n\nWhen is Wudu Required? Before every obligatory prayer (Fard), before voluntary prayers (Sunnah/Nafl), when touching the Quran, and after using the bathroom.\n\nSALAH — The 7 Main Positions of Prayer:\nSalah is the Islamic prayer performed five times daily at prescribed times. It is the second pillar of Islam and a direct connection between the believer and Allah. Each prayer consists of one or more rak'ahs (cycles). The seven positions are: 1) Niyyah (Intention) — intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha). The intention must be clear and sincere. 2) Takbir (Opening) — raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). This marks the beginning of your prayer. 3) Qiyam (Standing) — stand upright with your hands crossed at chest level. Recite Surah Al-Fatiha and another Surah from the Quran. 4) Ruku (Bowing) — bow forward with your hands on your knees, keeping your back parallel to the ground. Say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah (Rising) — rise from bowing to the standing position. Say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud (Prostration) — prostrate with your forehead, nose, hands, knees, and toes touching the ground. Say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud (Testimony) — sit between prostrations or at the end of prayer. Recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nImportant Notes About Salah: Always face the Qibla (direction of the Kaaba in Mecca), maintain proper body covering (Satr): men from navel to below knees, women entire body except hands and face, perform Wudu before every prayer, pray at the prescribed times, and concentrate and be present during prayer (Khushu) for spiritual benefit.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): Before sunrise. 2 Fard + 2 Sunnah = 4 total rak'ahs. The dawn prayer marks the beginning of the Islamic day and strengthens your faith.\n- Dhuhr (Noon): After the sun passes its zenith. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 10 total rak'ahs. The longest prayer of the day helps find peace and clarity.\n- Asr (Afternoon): Late afternoon before sunset. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Seek Allah's pleasure in the late afternoon.\n- Maghrib (Sunset): Just after the sun sets. 3 Fard + 2 Sunnah Ghair Muakkadah = 5 total rak'ahs. Unique among the five prayers with 3 Fard rak'ahs. Builds discipline and gratitude.\n- Isha (Night): After nightfall. 4 Fard + 2 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Connect with your Creator before sleep.\n\nTotal Daily: 17 Fard rak'ahs + 12 Sunnah Muakkadah = 29 combined total.",
-      "thinker": "How to Pray: A Complete Guide provides comprehensive instruction on Wudu (ablution), Salah (prayer), the five daily prayers, and the complete rak'ah breakdown.\n\nWUDU (Ablution):\nWudu is the ritual purification that serves as both a physical cleansing and spiritual preparation for Salah. It is obligatory before every Fard (obligatory) prayer, Sunnah/Nafl (voluntary) prayers, and before touching the Quran. The eight steps follow a specific sequence established by the Sunnah of Prophet Muhammad ﷺ: 1) Niyyah — the internal intention, 2) Washing hands up to the wrists three times, 3) Rinsing the mouth thoroughly three times, 4) Inhaling water through the nose and expelling it three times, 5) Washing the entire face three times (from hairline to chin and ear to ear, including the beard for men), 6) Washing both arms up to and including the elbows three times, 7) Wiping the head once with wet hands, 8) Washing both feet up to and including the ankles three times. Each step has precise requirements: water must reach between fingers and toes, and all parts must be washed in the correct order. Wudu is invalidated by natural discharges, deep sleep, loss of consciousness, and touching one's private parts.\n\nSALAH (Prayer) — The Seven Positions:\n1) Niyyah (النية): The internal intention specifying which prayer is being performed. It must be clear and sincere. 2) Takbir (التكبير): The opening 'Allahu Akbar' when raising hands to the ears, marking the sacred boundary of prayer. 3) Qiyam (القيام): Standing position with hands folded at chest level (right hand over left), reciting Al-Fatiha followed by a second Surah. 4) Ruku (الركوع): Bowing with hands on knees, back parallel to ground, reciting 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest) three times. 5) Qawmah (القومة): Rising from Ruku to standing with 'Sami'a Allahu liman hamidah, Rabbana lakal hamd' (Allah hears those who praise Him, our Lord, all praise is for You). 6) Sujud (السجود): Prostration with seven points of contact — forehead, nose, both hands, both knees, and toes — reciting 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High) three times. Performed twice in each rak'ah. 7) Tashahhud (التشهد): Sitting position for the testimony of faith (At-Tahiyyatu lillahi was-salawatu wat-tayyibat), the Salawat (Allahumma salli 'ala Muhammad), and the Du'a.\n\nTHE FIVE DAILY PRAYERS — Complete Breakdown:\n- Fajr: 2 Fard + 2 Sunnah Muakkadah (before Fard) = 4 rak'ahs (before sunrise, approximately 4:30-5:30 AM)\n- Dhuhr: 4 Sunnah Muakkadah (before Fard) + 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 10-12 rak'ahs (midday, approximately 12:00-1:00 PM)\n- Asr: 4 Sunnah Ghair Muakkadah (before Fard) + 4 Fard = 4-8 rak'ahs (late afternoon, approximately 3:30-4:30 PM)\n- Maghrib: 3 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 5-7 rak'ahs (after sunset, approximately 6:45-7:15 PM)\n- Isha: 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 6-8 rak'ahs (after nightfall, approximately 8:15-9:30 PM)\n\nRAK'AH BREAKDOWN TABLE:\n| Prayer | Fard | Sunnah Muakkadah | Sunnah Ghair Muakkadah | Total |\n| Fajr | 2 | 2 | 0 | 4 |\n| Dhuhr | 4 | 4 | 2 | 10 |\n| Asr | 4 | 0 | 2 | 6 |\n| Maghrib | 3 | 0 | 2 | 5 |\n| Isha | 4 | 2 | 2 | 8 |\n| TOTAL | 17 | 8 | 8 | 33 |\n\nTypes of Prayers: Fard (Obligatory) — compulsory, missing them is a grave sin. Sunnah Muakkadah (Strongly Recommended) — highly emphasized, the Prophet ﷺ regularly performed them. Sunnah Ghair Muakkadah (Optional) — the Prophet ﷺ occasionally performed them, bringing extra reward.\n\nPrayer is not merely physical movement — it demands Khushu (concentration and humility) and sincere connection with Allah. As Allah says: 'Indeed, prayer prohibits immorality and wrongdoing' (Quran 29:45)."
+      "starter": "Müslümanlar nasıl namaz kılar? Namaz, Abdest ile başlar — Allah için temizlenmek amacıyla ellerinizi, yüzünüzü, kollarınızı ve ayaklarınızı yıkamak. Sonra Mekke'deki Kâbe'ye dönersiniz ve özel hareketler yaparsınız: ayakta durma, rükû yapma ve alnınızı yere koyma. Her namazın İmsak (sabah) ve Akşam gibi bir adı vardır. Her gün 5 namaz vardır! Bu, Allah ile 5 özel buluşmaya sahip olmak gibidir.\n\nABDEST — 8 Adım:\n1) Niyet — Kalbinizde Allah rızası için abdest alma niyetini edin. 2) Elleri Yıkama — Her iki eli bileklere kadar üç kez yıkayın, sağ elden başlayın. Parmaklarınızın arasına suyun ulaşmasını sağlayın! 3) Ağız Çalkalama — Ağzınıza su alın ve üç kez iyice çalkalayın. 4) Burun Temizleme — Burnunuza su çekin ve üç kez dışarı üfleyin. 5) Yüzü Yıkama — Tüm yüzünüzü üç kez yıkayın, alın ile çene ve kulaktan kulağa kadar. 6) Kolları Yıkama — Her iki kolu dirseklere kadar üç kez yıkayın, sağ koldan başlayın. 7) Başı Meshetme — Islak ellerinizle tüm başınızı bir kez meshedin. 8) Ayakları Yıkama — Her iki ayağı ayak bileklerine kadar üç kez yıkayın, sağ ayaktan başlayın. Parmaklarınızın arasına suyun ulaşmasını sağlayın!\n\nUnutmayın: Her adımda acele etmeyin, temiz su kullanın ve israftan kaçının. Abdest bedeninize temizlik, kalbinize nur getirir!\n\nNAMAZ — 7 Ana Pozisyon:\n1) Niyet — Kalbinizde namaz kılma niyetini edin. 2) Tekbir — Ellerinizi kulaklarınıza kaldırın ve 'Allahu Ekber' (Allah En Büyüktür) deyin. 3) Kıyam — Ellerinizi göğüs hizasında bağlayarak dik durun ve Fatiha Suresi ile başka bir Sure okuyun. 4) Rükû — Ellerinizi dizlerinize koyarak öne eğilin ve 'Sübhane Rabbiyel Azim' (Rabbim En Büyük olanı tenzih ederim) deyin. 5) Kavme — Rükûdan kalkın ve 'Semi'allahu limen hamideh' (Allah, hamd edenleri işitir) deyin. 6) Secde — Alnınızı, burnunuzu, ellerinizi, dizlerinizi ve parmaklarınızı yere koyun ve 'Sübhane Rabbiyel A'la' (Rabbim En Yüce olanı tenzih ederim) deyin. 7) Tahiyyat — Oturun ve iman şehadetini okuyun ve Peygamber Muhammed'e salavat gönderin.\n\n5 GÜNLÜK NAMAZ:\n- İmsak (Tan Yeri): 2 Farz + 2 Sünnet = 4 rekat — imanınızı güçlendirir!\n- Öğle (Öğle): 4 Farz + 6 Sünnet = 10 rekat — huzur ve berraklık bulun!\n- İkindi (Öğleden Sonra): 4 Farz + 4 Sünnet = 8 rekat — Allah'ın rızasını arayın!\n- Akşam (Gün Batımı): 3 Farz + 2 Sünnet = 5 rekat — disiplin ve şükür inşa edin!\n- Yatsı (Gece): 4 Farz + 2 Sünnet = 6 rekat — Yaratıcınızla bağlantı kurun!\nGünlük toplam: 17 Farz + 12 Sünnet = 29 rekat toplam.",
+      "explorer": "Namaz Kılma: Kapsamlı Rehber, abdest (abdest), namaz (ibadet), 5 günlük namazları ve rekat dağılımını tam detaylı olarak kapsar.\n\nABDEST — Abdestin 8 Adımı:\nAbdest, namazdan önce yapılan ritüel arınmadır. Hem fiziksel hem de manevi bir temizliktir ve bedeni ve zihni Allah ile iletişime hazırlar. Abdest, namaz kılmadan önce farzdır ve namazın en önemli ön koşullarından biri olarak kabul edilir. Adımlar şunlardır: 1) Niyet — kalbinizde namaz için abdest alma niyetini edin, 2) Her iki eli bileklere kadar üç kez yıkayın, sağ elden başlayarak, parmaklar arasına suyun ulaşmasını sağlayın, 3) Ağzınızı üç kez iyice çalkalayın — bu, okuma için ağzı temizler, 4) Burnunuza su çekin ve sol elinizle yardımcı olarak üç kez dışarı üfleyin, 5) Tüm yüzünüzü üç kez yıkayın, alın ile çene ve kulaktan kulağa kadar, sakalınız varsa onu da dahil edin, 6) Her iki kolu dirsekler dahil üç kez yıkayın, sağ koldan başlayın, 7) Başınızı ıslak ellerinizle bir kez meshedin — tüm başı veya bir kısmını meshedebilirsiniz, 8) Her iki ayağı ayak bilekleri dahil üç kez yıkayın, sağ ayaktan başlayın, parmaklar arasına suyun ulaşmasını sağlayın.\n\nAbdest Ne Zaman Gereklidir? Her farz namazdan önce, nafile/nâfil namazlardan önce, Kur'an'a dokunmadan önce ve tuvaleti kullandıktan sonra.\n\nNAMAZ — Namazın 7 Ana Pozisyonu:\nNamaz, günde beş kez belirlenmiş vakitlerde kılınan İslami duadır. İslam'ın ikinci temel taşıdır ve inanan ile Allah arasında doğrudan bağlantıdır. Her namaz, bir veya daha fazla rekattan (döngü) oluşur. Yedi pozisyon şunlardır: 1) Niyet — kalbinizde belirli namazı (İmsak, Öğle, İkindi, Akşam veya Yatsı) kılmak niyetini edin. Niyet açık ve samimi olmalıdır. 2) Tekbir (Açılış) — ellerinizi kulaklarınıza kaldırın ve 'Allahu Ekber' (Allah En Büyüktür) deyin. Bu, namazınızın başlangıcını işaret eder. 3) Kıyam (Ayakta Durma) — ellerinizi göğüs hizasında bağlayarak dik durun. Fatiha Suresi ve Kur'an'dan başka bir Sure okuyun. 4) Rükû (Eğilme) — ellerinizi dizlerinize koyarak öne eğilin, sırtınızı yere paralel tutun. 'Sübhane Rabbiyel Azim' (Rabbim En Büyük olanı tenzih ederim) deyin. 5) Kavme (Kalkma) — rükûdan ayakta durma pozisyonuna kalkın. 'Semi'allahu limen hamideh' (Allah, hamd edenleri işitir) deyin. 6) Secde (Yere Kapanma) — alnınız, burnunuz, elleriniz, dizleriniz ve ayak parmaklarınız yere değecek şekilde secdeye kapanın. 'Sübhane Rabbiyel A'la' (Rabbim En Yüce olanı tenzih ederim) deyin. 7) Tahiyyat (Şehadet) — secdeler arasında veya namazın sonunda oturun. İman şehadetini okuyun ve Peygamber Muhammed'e salavat gönderin.\n\nNamaz Hakkında Önemli Notlar: Her zaman Kıble'ye (Mekke'deki Kâbe'nin yönüne) dönün, uygun vücut örtüsünü (Setr) koruyun: erkekler göbek altından diz altına, kadınlar eller ve yüz dışında tüm vücut, her namazdan önce abdest alın, belirlenmiş vakitlerde namaz kılın ve manevi fayda için namazda huşu (odaklanma ve alçakgönüllülük) koruyun.\n\n5 GÜNLÜK NAMAZLAR:\n- İmsak (Tan Yeri): Güneş doğmadan önce. 2 Farz + 2 Sünnet = 4 toplam rekat. Tan yeri namazı, İslami günün başlangıcını işaret eder ve imanınızı güçlendirir.\n- Öğle (Öğle): Güneş tepe noktasını geçtikten sonra. 4 Farz + 4 Sünnet-i Müekkede + 2 Sünnet-i Gayri Müekkede = 10 toplam rekat. Günün en uzun namazı, huzur ve berraklık bulmaya yardımcı olur.\n- İkindi (Öğleden Sonra): Gün batımından önce geç öğleden sonra. 4 Farz + 4 Sünnet-i Müekkede + 2 Sünnet-i Gayri Müekkede = 8 toplam rekat. Geç öğleden sonra Allah'ın rızasını arayın.\n- Akşam (Gün Batımı): Güneş battıktan hemen sonra. 3 Farz + 2 Sünnet-i Gayri Müekkede = 5 toplam rekat. 3 Farz rekatı ile beş namaz arasında benzersizdir. Disiplin ve şükür inşa eder.\n- Yatsı (Gece): Gece olduktan sonra. 4 Farz + 2 Sünnet-i Müekkede + 2 Sünnet-i Gayri Müekkede = 8 toplam rekat. Uyumadan önce Yaratıcınızla bağlantı kurun.\n\nGünlük Toplam: 17 Farz rekat + 12 Sünnet-i Müekkede = 29 toplam.",
+      "thinker": "Namaz Kılma: Kapsamlı Rehber, abdest (abdest), namaz (ibadet), beş günlük namazlar ve tam rekat dağılımı hakkında kapsamlı talimat sağlar.\n\nABDEST (Arınma):\nAbdest, hem fiziksel temizlik hem de namaz için manevi hazırlık olarak hizmet eden ritüel arınmadır. Her farz (zorunlu) namazdan, sünnet/nâfil (nafile) namazlardan önce ve Kur'an'a dokunmadan önce farzdır. Sekiz adım, Peygamber Muhammed ﷺ'ın Sünneti ile belirlenmiş belirli bir sırayı takip eder: 1) Niyet — iç niyet, 2) Elleri bileklere kadar üç kez yıkama, 3) Ağzı üç kez iyice çalkalama, 4) Burna su çekme ve üç kez dışarı üfleme, 5) Tüm yüzü üç kez yıkama (saç çizgisinden çeneye ve kulaktan kulağa, erkekler için sakalı da dahil), 6) Her iki kolu dirsekler dahil üç kez yıkama, 7) Başın ıslak ellerle bir kez meshedilmesi, 8) Her iki ayağı ayak bilekleri dahil üç kez yıkama. Her adımın kesin gereksinimleri vardır: parmaklar ve parmak aralarına suyun ulaşması gerekir ve tüm bölümler doğru sırayla yıkanmalıdır. Abdesti, doğal boşaltım, derin uyku, bilinç kaybı ve avret mahalline dokunmak bozar.\n\nNAMAZ (İbadet) — Yedi Pozisyon:\n1) Niyet (النية): Hangi namazın kılındığını belirten iç niyet. Açık ve samimi olmalıdır. 2) Tekbir (التكبير): Eller kulaklara kaldırıldığında açılış 'Allahu Ekber'i, namazın kutsal sınırını işaret eder. 3) Kıyam (القيام): Eller göğüs hizasında bağlanmış (sağ el sol elin üzerinde) dik duruş, Fatiha ve ardından ikinci bir Sure okuma. 4) Rükû (الركوع): Eller dizlerde, sırt yere paralel, üç kez 'Sübhane Rabbiyel Azim' (Rabbim En Büyük olanı tenzih ederim) okuyarak eğilme. 5) Kavme (القومة): 'Semi'allahu limen hamideh, Rabbena lekel hamd' (Allah, hamd edenleri işitir, Rabbimiz, hamd sanadır) ile rükûdan ayakta durmaya kalkma. 6) Secde (السجود): Yedi temas noktası ile secde — alın, burun, her iki el, her iki diz ve ayak parmakları — üç kez 'Sübhane Rabbiyel A'la' (Rabbim En Yüce olanı tenzih ederim) okuyarak. Her rekatta iki kez yapılır. 7) Tahiyyat (التشهد): İman şehadeti (Et-tehiyyatü lillahi ves-salavatü vet-tayyibat), Salavat (Allahümme salli ala Muhammed) ve Dua için oturuş pozisyonu.\n\nBEŞ GÜNLÜK NAMAZLAR — Tam Dağılım:\n- İmsak: 2 Farz + 2 Sünnet-i Müekkede (Farzdan önce) = 4 rekat (güneş doğmadan önce, yaklaşık 04:30-05:30)\n- Öğle: 4 Sünnet-i Müekkede (Farzdan önce) + 4 Farz + 2 Sünnet-i Müekkede (Farzdan sonra) + 2 Sünnet-i Gayri Müekkede (sonra) = 10-12 rekat (öğle, yaklaşık 12:00-13:00)\n- İkindi: 4 Sünnet-i Gayri Müekkede (Farzdan önce) + 4 Farz = 4-8 rekat (geç öğleden sonra, yaklaşık 15:30-16:30)\n- Akşam: 3 Farz + 2 Sünnet-i Müekkede (Farzdan sonra) + 2 Sünnet-i Gayri Müekkede (sonra) = 5-7 rekat (gün batımından sonra, yaklaşık 18:45-19:15)\n- Yatsı: 4 Farz + 2 Sünnet-i Müekkede (Farzdan sonra) + 2 Sünnet-i Gayri Müekkede (sonra) = 6-8 rekat (gece olduktan sonra, yaklaşık 20:15-21:30)\n\nREKAT DAĞILIM TABLOSU:\n| Namaz | Farz | Sünnet-i Müekkede | Sünnet-i Gayri Müekkede | Toplam |\n| İmsak | 2 | 2 | 0 | 4 |\n| Öğle | 4 | 4 | 2 | 10 |\n| İkindi | 4 | 0 | 2 | 6 |\n| Akşam | 3 | 0 | 2 | 5 |\n| Yatsı | 4 | 2 | 2 | 8 |\n| TOPLAM | 17 | 8 | 8 | 33 |\n\nNamaz Türleri: Farz (Zorunlu) — kaçınması büyük günah olan zorunlu namazlar. Sünnet-i Müekkede (Güçlü Tavsiye Edilen) — yüksek vurgu yapılan, Peygamber ﷺ'ın düzenli olarak kıldığı namazlar. Sünnet-i Gayri Müekkede (İsteğe Bağlı) — Peygamber ﷺ'ın ara sıra kıldığı, ek mükafat getiren namazlar.\n\nNamaz sadece fiziksel bir hareket değildir — huşu (odaklanma ve alçakgönüllülük) ve Allah ile samimi bağlantı gerektirir. Allah şöyle der: 'Şüphesiz namaz, kötülüklerden ve çirkinliklerden alıkoyar' (Kur'an 29:45)."
     },
-    "funFact": "Did you know? The five daily prayers were prescribed during Prophet Muhammad's Night Journey (Isra and Mi'raj) to heaven. Originally, Allah commanded 50 prayers per day, but after several reductions through Prophet Musa's advice, it became 5 — yet the reward remains equal to 50!",
+    "funFact": "Biliyor muydunuz? Beş günlük namaz, Peygamber Muhammed'in Miraç Gecesi'nde (İsra ve Mi'rac) göğe çıkarılması sırasında farz kılınmıştır. Başlangıçta Allah günde 50 namaz emretmiş, ancak Peygamber Musa'nın tavsiyesiyle birkaç kez azaltılarak 5 olmuş — ancak mükafat 50 namaz gibi kalmıştır!",
     "quiz": [
       {
-        "q": "How many steps are there in Wudu?",
+        "q": "Abdestte kaç adım vardır?",
         "options": [
-          "6 steps",
-          "8 steps",
-          "10 steps"
+          "6 adım",
+          "8 adım",
+          "10 adım"
         ],
         "correct": 1,
-        "explanation": "Wudu consists of 8 main steps: Niyyah (intention), washing hands, rinsing mouth, rinsing nose, washing face, washing arms, wiping head, and washing feet."
+        "explanation": "Abdest 8 ana adımdan oluşur: Niyet, elleri yıkama, ağzı çalkalama, burnu temizleme, yüzü yıkama, kolları yıkama, başı meshetme ve ayakları yıkama."
       },
       {
-        "q": "What is the first step of Wudu?",
+        "q": "Abdestin ilk adımı nedir?",
         "options": [
-          "Wash hands",
-          "Niyyah (Intention)",
-          "Rinse mouth"
+          "Elleri yıkamak",
+          "Niyet (İç niyet)",
+          "Ağzı çalkalamak"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Wudu. You make the intention in your heart to perform Wudu for prayer."
+        "explanation": "Niyet (iç niyet), abdestin ilk adımıdır. Kalbinizde namaz için abdest alma niyetini edinirsiniz."
       },
       {
-        "q": "How many times should you wash your hands in Wudu?",
+        "q": "Abdestte ellerinizi kaç kez yıkamalısınız?",
         "options": [
-          "Once",
-          "Twice",
-          "Three times"
+          "Bir kez",
+          "İki kez",
+          "Üç kez"
         ],
         "correct": 2,
-        "explanation": "In Wudu, you should wash your hands three times, starting with the right hand. This ensures thorough cleansing."
+        "explanation": "Abdestte ellerinizi üç kez, sağ elden başlayarak yıkamalısınız. Bu, kapsamlı temizliği sağlar."
       },
       {
-        "q": "Which body part is wiped (not washed) in Wudu?",
+        "q": "Abdestte hangi vücut bölümü meshedilir (yıkanmaz)?",
         "options": [
-          "Face",
-          "Head",
-          "Arms"
+          "Yüz",
+          "Baş",
+          "Kollar"
         ],
         "correct": 1,
-        "explanation": "The head is wiped once with wet hands during Wudu. This is different from washing, which is done for other body parts."
+        "explanation": "Abdestte baş, ıslak ellerle bir kez meshedilir. Bu, diğer vücut bölümlerinin yıkanmasından farklıdır."
       },
       {
-        "q": "When performing Wudu, which hand should you start with?",
+        "q": "Abdest alırken hangi elden başlamalısınız?",
         "options": [
-          "Left hand",
-          "Right hand",
-          "Either hand"
+          "Sol el",
+          "Sağ el",
+          "Herhangi biri"
         ],
         "correct": 1,
-        "explanation": "In Wudu, you should start with the right hand for washing hands, arms, and feet. This is part of the Sunnah (practice of the Prophet ﷺ)."
+        "explanation": "Abdestte, elleri, kolları ve ayakları yıkarken sağ elden başlamalısınız. Bu, Peygamber ﷺ'ın Sünnetinin bir parçasıdır."
       },
       {
-        "q": "What is the first position in Salah prayer?",
+        "q": "Namazda ilk pozisyon nedir?",
         "options": [
-          "Ruku (Bowing)",
-          "Niyyah (Intention)",
-          "Qiyam (Standing)"
+          "Rükû (Eğilme)",
+          "Niyet (İç niyet)",
+          "Kıyam (Ayakta durma)"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Salah. You intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha)."
+        "explanation": "Niyet (iç niyet), namazın ilk adımıdır. Kalbinizde belirli namazı (İmsak, Öğle, İkindi, Akşam veya Yatsı) kılmak niyetini edinirsiniz."
       },
       {
-        "q": "What do you say when starting Salah?",
+        "q": "Namaza başlarken ne dersiniz?",
         "options": [
           "Bismillah",
-          "Allahu Akbar",
-          "SubhanAllah"
+          "Allahu Ekber",
+          "Sübhanallah"
         ],
         "correct": 1,
-        "explanation": "You say 'Allahu Akbar' (Allah is the Greatest) while raising your hands to your ears to begin Salah. This marks the beginning of your prayer."
+        "explanation": "Namaza başlarken ellerinizi kulaklarınıza kaldırarak 'Allahu Ekber' (Allah En Büyüktür) dersiniz. Bu, namazınızın başlangıcını işaret eder."
       },
       {
-        "q": "How many main positions are there in Salah?",
+        "q": "Namazda kaç ana pozisyon vardır?",
         "options": [
-          "5 positions",
-          "7 positions",
-          "9 positions"
+          "5 pozisyon",
+          "7 pozisyon",
+          "9 pozisyon"
         ],
         "correct": 1,
-        "explanation": "There are 7 main positions in Salah: Niyyah, Takbir, Qiyam, Ruku, Qawmah, Sujud, and Tashahhud."
+        "explanation": "Namazda 7 ana pozisyon vardır: Niyet, Tekbir, Kıyam, Rükû, Kavme, Secde ve Tahiyyat."
       },
       {
-        "q": "What is Ruku in Salah?",
+        "q": "Namazda rükû nedir?",
         "options": [
-          "Bowing position",
-          "Prostration position",
-          "Standing position"
+          "Eğilme pozisyonu",
+          "Secde pozisyonu",
+          "Ayakta durma pozisyonu"
         ],
         "correct": 0,
-        "explanation": "Ruku is the bowing position in Salah where you bend forward with your hands on your knees and your back parallel to the ground, saying 'Subhana Rabbiyal Azeem.'"
+        "explanation": "Rükû, namazda ellerinizi dizlerinize koyup sırtınızı yere paralel tutarak öne eğildiğiniz pozisyondur ve 'Sübhane Rabbiyel Azim' dersiniz."
       },
       {
-        "q": "How many Fard rak'ahs are there in total across all 5 daily prayers?",
+        "q": "5 günlük namazın tümünde toplam kaç Farz rekat vardır?",
         "options": [
           "15",
           "17",
           "20"
         ],
         "correct": 1,
-        "explanation": "There are 17 Fard rak'ahs in total: Fajr (2), Dhuhr (4), Asr (4), Maghrib (3), and Isha (4)."
+        "explanation": "Toplam 17 Farz rekat vardır: İmsak (2), Öğle (4), İkindi (4), Akşam (3) ve Yatsı (4)."
       },
       {
-        "q": "Which prayer has 3 Fard rak'ahs?",
+        "q": "Hangi namazda 3 Farz rekat vardır?",
         "options": [
-          "Fajr",
-          "Maghrib",
-          "Isha"
+          "İmsak",
+          "Akşam",
+          "Yatsı"
         ],
         "correct": 1,
-        "explanation": "Maghrib (sunset prayer) is unique as it has 3 Fard rak'ahs, while all other prayers have either 2 or 4 Fard rak'ahs."
+        "explanation": "Akşam (gün batımı namazı), 3 Farz rekata sahip olması bakımından benzersizdir; diğer tüm namazlar 2 veya 4 Farz rekata sahiptir."
       },
       {
-        "q": "What is Sujud in Salah?",
+        "q": "Namazda secde nedir?",
         "options": [
-          "Standing upright",
-          "Bowing forward",
-          "Prostration on the ground"
+          "Ayakta dik durma",
+          "Öne eğilme",
+          "Yere kapanarak secde etme"
         ],
         "correct": 2,
-        "explanation": "Sujud is the prostration position where your forehead, nose, hands, knees, and toes touch the ground. It is performed twice in each rak'ah, and you say 'Subhana Rabbiyal A'la.'"
+        "explanation": "Secde, alnınızın, burnunuzun, ellerinizin, dizlerinizin ve ayak parmaklarınızın yere değdiği secde pozisyonudur. Her rekatta iki kez yapılır ve 'Sübhane Rabbiyel A'la' dersiniz."
       }
     ]
   },
   {
     "id": "honesty",
-    "title": "Honesty",
+    "title": "Dürüstlük",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🤝",
     "category": "islamic_values",
     "content": {
-      "starter": "Honesty means always telling the truth! Allah loves people who are honest. Even if telling the truth is hard, it's always the right thing to do. When we're honest, people trust us and Allah is pleased with us!",
-      "explorer": "Honesty (Sidq) is one of the most important values in Islam. The Prophet ﷺ was known as 'Al-Amin' — the Trustworthy — because he always told the truth. Islam teaches us to be honest in our words, actions, and intentions. Lying is a major sin that can damage relationships and break trust. Being honest, even when it's difficult, earns Allah's love and the respect of others.",
-      "thinker": "Honesty (Sidq) and trustworthiness (Amanah) are foundational Islamic virtues. The Prophet ﷺ said: 'Truthfulness leads to righteousness, and righteousness leads to Paradise.' Honesty is not merely about not lying — it encompasses sincerity in intentions, accuracy in reporting, and integrity in all dealings. Allah says in the Quran: 'O you who believe, fear Allah and be among the truthful' (Surah At-Tawbah 9:119). The concept extends to being honest with oneself, honest in worship, and honest in business dealings."
+      "starter": "Dürüstlük, her zaman doğruyu söylemek demektir! Allah, dürüst insanları sever. Doğruyu söylemek zor olsa bile, her zaman doğru olan şeydir. Dürüst olduğumuzda, insanlar bize güvenir ve Allah bizden razı olur!",
+      "explorer": "Dürüstlük (Sıdk), İslam'daki en önemli değerlerden biridir. Peygamber ﷺ, her zaman doğruyu söylediği için 'El-Emîn' — Güvenilir — olarak bilinirdi. İslam, sözlerimizde, eylemlerimizde ve niyetlerimizde dürüst olmayı öğretir. Yalan söylemek, ilişkileri zedeleyebilen ve güveni kırabilen büyük bir günahtır. Dürüst olmak, Allah'ın rızasını kazanır.",
+      "thinker": "Dürüstlük (Sıdk) ve güvenilirlik (Emanet), temel İslami erdemlerdir. Peygamber ﷺ şöyle demiştir: 'Doğruluk iyiliğe, iyilik ise Cennet'e götürür.' Dürüstlük sadece yalan söylememekle ilgili değildir — niyetlerde samimiyeti, bildirmede doğruluğu ve tüm işlerde bütünlüğü kapsar. Allah şöyle der: 'Ey iman edenler, Allah'tan korkun ve doğru söyleyin' (Ahzab Suresi 33:70)."
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was called 'Al-Amin' (The Trustworthy) even before he became a prophet — because he NEVER told a lie!",
+    "funFact": "Biliyor muydunuz? Peygamber Muhammed ﷺ, peygamberlikten önce bile 'El-Emîn' (Güvenilir) olarak çağrılırdı — çünkü HİÇBİR ZAMAN yalan söylememişti!",
     "quiz": [
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "Peygamberlikten önce Peygamber Muhammed ﷺ'ın lakabı neydi?",
         "options": [
-          "Al-Hakim",
-          "Al-Amin",
-          "Al-Karim"
+          "El-Hakîm",
+          "El-Emîn",
+          "El-Kerîm"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "Her zaman doğruyu söylediği için 'El-Emîn' (Güvenilir) olarak çağrılırdı."
       },
       {
-        "q": "Is honesty only about not lying?",
+        "q": "Dürüstlük sadece yalan söylememekle ilgili midir?",
         "options": [
-          "Yes",
-          "No, it includes sincerity and integrity too",
-          "Sometimes"
+          "Evet",
+          "Hayır, samimiyeti ve bütünlüğü de içerir",
+          "Bazen"
         ],
         "correct": 1,
-        "explanation": "Honesty includes being truthful, sincere, and having integrity in everything."
+        "explanation": "Dürüstlük, her şeyde doğru söylemeyi, samimiyeti ve bütünlüğü içerir."
       },
       {
-        "q": "What does Allah say about truthful people?",
+        "q": "Allah, doğru söyleyen insanlar hakkında ne der?",
         "options": [
-          "They are punished",
-          "He loves them",
-          "They are ignored"
+          "Cezalandırılır",
+          "Onları sever",
+          "Görmezden gelir"
         ],
         "correct": 1,
-        "explanation": "Allah loves truthful people and promises them Paradise."
+        "explanation": "Allah, doğru söyleyen insanları sever ve onlara Cennet vaat eder."
       }
     ]
   },
   {
     "id": "kindness",
-    "title": "Kindness",
+    "title": "Merhamet",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_46_sadaqah_voluntary-metCJkjaZZWHwc3n86346d.webp?updatedAt=1781117902191",
     "emoji": "💕",
     "category": "islamic_values",
     "content": {
-      "starter": "Kindness means being nice to everyone! Help your friends, smile at people, share your toys, and be gentle. The Prophet ﷺ was the kindest person ever! When we're kind, Allah rewards us and everyone loves us!",
-      "explorer": "Kindness (Ihsan) is at the heart of Islamic teaching. The Prophet ﷺ said: 'The most beloved of people to Allah are those who are most beneficial to people.' Being kind means helping others, smiling, sharing, and treating everyone with respect — whether they're Muslim or not. Islam teaches that even a smile is charity (sadaqah).",
-      "thinker": "Kindness (Ihsan and Rahmah) is a comprehensive Islamic virtue. The Prophet ﷺ embodied mercy — the Quran describes him as 'a mercy to all the worlds' (Surah Al-Anbiya 21:107). Kindness extends to all creation: family, neighbors, strangers, animals, and even the environment. The Prophet ﷺ said: 'Charity does not decrease wealth. No one forgives another except that Allah increases his honor. And no one humbles himself for the sake of Allah except that Allah raises his status.' True kindness in Islam is not performative but stems from genuine love for Allah and His creation."
+      "starter": "Merhamet, herkese nazik olmak demektir! Arkadaşlarınıza yardım edin, insanlara gülümseyin, oyuncaklarınızı paylaşın ve şefkatli olun. Peygamber ﷺ, en merhametli insandı! Merhametli olduğumuzda, Allah bizi mükafatlandırır ve herkes bizi sever!",
+      "explorer": "Merhamet (İhsan), İslami öğretinin kalbindedir. Peygamber ﷺ şöyle demiştir: 'Allah'a en sevgili olanlar, insanlara en faydalı olanlardır.' Merhametli olmak, başkalarına yardım etmek, gülümsemek, paylaşmak ve herkese — Müslüman olsun veya olmasın — saygı ile davranmak demektir. İslam, gülümsemenin bile sadaka olduğunu öğretir.",
+      "thinker": "Merhamet (İhsan ve Rahme), kapsamlı bir İslami erdemdir. Peygamber ﷺ merhametin timsaliydi — Kur'an onu 'alemlere rahmet' olarak tanımlar (Enbiya Suresi 21:107). Merhamet, tüm yaratılışı kapsar: aile, komşular, yabancılar, hayvanlar ve hatta çevre. Peygamber ﷺ şöyle demiştir: 'Merhamet edenlere, Rahman olan Allah merhamet eder. Yeryüzündekilere merhamet edin ki, gökyüzündeki size merhamet etsin.'"
     },
-    "funFact": "Did you know? The Prophet ﷺ said that even smiling at someone is a form of charity! You can earn rewards just by being friendly!",
+    "funFact": "Biliyor muydunuz? Peygamber ﷺ, birine gülümsemenin bile sadaka olduğunu söylemiştir! Sadece nazik olmakla mükafat kazanabilirsiniz!",
     "quiz": [
       {
-        "q": "What did the Prophet ﷺ say about smiling?",
+        "q": "Peygamber ﷺ gülümseme hakkında ne demiştir?",
         "options": [
-          "It's sinful",
-          "It's a form of charity",
-          "It's meaningless"
+          "Günahtır",
+          "Sadakadır",
+          "Anlamsızdır"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said even a smile is charity (sadaqah)."
+        "explanation": "Peygamber ﷺ, bir gülümsemenin bile sadaka (sadaqa) olduğunu söylemiştir."
       },
       {
-        "q": "Who should we be kind to?",
+        "q": "Kime merhametli olmalıyız?",
         "options": [
-          "Only Muslims",
-          "Only family",
-          "Everyone"
+          "Sadece Müslümanlara",
+          "Sadece aileye",
+          "Herkes"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to be kind to everyone — Muslim or not."
+        "explanation": "İslam, herkese — Müslüman olsun veya olmasın — merhametli olmayı öğretir."
       },
       {
-        "q": "What is the most beloved person to Allah?",
+        "q": "Allah'a en sevgili olan kimdir?",
         "options": [
-          "The richest",
-          "The most beautiful",
-          "The most beneficial to others"
+          "En zengin olan",
+          "En güzel olan",
+          "Başkalarına en faydalı olan"
         ],
         "correct": 2,
-        "explanation": "The Prophet ﷺ said the most beloved to Allah are those most beneficial to people."
+        "explanation": "Peygamber ﷺ, Allah'a en sevgili olanların insanlara en faydalı olanlar olduğunu söylemiştir."
       }
     ]
   },
   {
     "id": "respect",
-    "title": "Respect",
+    "title": "Saygı",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_17_topic_respect_elders-6wUPfPgJRqgzEPbLKEPMkD.webp?updatedAt=1781117900196",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Respect means treating people nicely and politely! We respect our parents, teachers, and elders. We say 'please' and 'thank you.' We listen when others talk. Allah loves people who are respectful!",
-      "explorer": "Respect (Adab) is a key Islamic value. The Quran commands us to honor our parents, be kind to neighbors, and treat elders with dignity. The Prophet ﷺ taught that respect is not just about words but actions — standing up for elders, listening attentively, and honoring others' feelings. Respect also extends to respecting differences of opinion.",
-      "thinker": "Respect (Adab) in Islam is a comprehensive concept that encompasses how we relate to Allah, His creation, and ourselves. The Quran says: 'And your Lord has decreed that you worship none but Him, and that you be dutiful to your parents' (Surah Al-Isra 17:23). Respect for parents is given such high status that it appears immediately after the command to worship Allah alone. Beyond parents, Islam teaches respect for scholars, neighbors, the elderly, and even strangers. The Prophet ﷺ demonstrated this by standing when a funeral passed, greeting children, and honoring the rights of neighbors regardless of their faith."
+      "starter": "Saygı, insanlara güzel ve nazik davranmak demektir! Anne babamıza, öğretmenlerimize ve büyüklerimize saygı gösteririz. 'Lütfen' ve 'teşekkür ederim' deriz. Başkaları konuşurken dinleriz. Allah, saygılı insanları sever!",
+      "explorer": "Saygı (Edeb), temel bir İslami değerdir. Kur'an, anne babamıza saygı göstermemizi, komşularımıza nazik olmamızı ve büyüklerimize haysiyetle davranmamızı emreder. Peygamber ﷺ, saygının sadece sözlerle değil, eylemlerle ilgili olduğunu öğretmiştir — büyükler için ayağa kalkmak, dikkatle dinlemek ve başkalarının duygularına saygı göstermek.",
+      "thinker": "İslam'da saygı (Edeb), Allah'a, O'nun yaratılışına ve kendimize nasıl ilişki kurduğumuzu kapsayan kapsamlı bir kavramdır. Kur'an şöyle der: 'Rabbin, yalnızca O'na ibadet etmenizi ve anne babaya iyilik yapmanızı kesin buyurdu' (İsra Suresi 17:23). Anne babaya saygı, yalnızca Allah'a ibadetten hemen sonra gelir."
     },
-    "funFact": "Did you know? In Islam, respecting your parents is considered the SECOND most important duty after worshipping Allah alone!",
+    "funFact": "Biliyor muydunuz? İslam'da, anne babaya saygı göstermek, yalnızca Allah'a ibadet etmekten sonra İKİNCİ en önemli görev olarak kabul edilir!",
     "quiz": [
       {
-        "q": "What comes right after worshipping Allah in importance?",
+        "q": "Allah'a ibadet etmeden hemen sonra önem sırası ne gelir?",
         "options": [
-          "Being rich",
-          "Respecting parents",
-          "Going to Hajj"
+          "Zengin olmak",
+          "Anne babaya saygı göstermek",
+          "Hac'ca gitmek"
         ],
         "correct": 1,
-        "explanation": "The Quran commands us to worship Allah alone, then to honor our parents."
+        "explanation": "Kur'an, yalnızca Allah'a ibadet etmemizi, ardından anne babamıza saygı göstermemizi emreder."
       },
       {
-        "q": "How should we treat elders?",
+        "q": "Büyüklerimize nasıl davranmalıyız?",
         "options": [
-          "Ignore them",
-          "With disrespect",
-          "With honor and dignity"
+          "Görmezden gelmeliyiz",
+          "Saygısızlık etmeliyiz",
+          "Haysiyet ve onurla"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to treat elders with honor and dignity."
+        "explanation": "İslam, büyüklerimize haysiyet ve onurla davranmamızı öğretir."
       },
       {
-        "q": "What does 'Adab' mean?",
+        "q": "'Edeb' ne demektir?",
         "options": [
-          "Prayer",
-          "Respect and good manners",
-          "Food"
+          "Namaz",
+          "Saygı ve iyi terbiye",
+          "Yiyecek"
         ],
         "correct": 1,
-        "explanation": "Adab means respect, good manners, and proper etiquette in Islam."
+        "explanation": "Edeb, İslam'da saygı, iyi terbiye ve uygun görgü demektir."
       }
     ]
   },
   {
     "id": "patience",
-    "title": "Patience",
+    "title": "Sabır",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🧘",
     "category": "islamic_values",
     "content": {
-      "starter": "Patience means waiting calmly and not getting upset when things are hard! When you're sick, or something goes wrong, or you have to wait — be patient! Allah loves patient people and will reward them!",
-      "explorer": "Patience (Sabr) is one of the greatest virtues in Islam. The Quran says: 'Indeed, the patient will be given their reward without account' (Surah Az-Zumar 39:10). Sabr means staying calm during difficulties, resisting temptation, and being content with Allah's plan. The Prophet ﷺ compared patience to a precious gem — it's hard to find but incredibly valuable.",
-      "thinker": "Patience (Sabr) is one of the most emphasized virtues in Islam. The Quran mentions it over 70 times. Sabr has three dimensions: patience in obeying Allah (perseverance), patience in avoiding sin (restraint), and patience during hardship (endurance). Allah says: 'And be patient, for indeed, Allah does not allow to be lost the reward of those who do good' (Surah Hud 11:115). The Prophet ﷺ said: 'How wonderful is the affair of the believer, for all his affairs are good, and this does not apply to anyone except the believer. If something good happens to him, he is grateful, and that is good for him. If something bad happens to him, he bears it with patience, and that is good for him.'"
+      "starter": "Sabır, sakince beklemek ve işler zor olduğunda üzülmemek demektir! Hastayken, bir şeyler ters gittiğinde veya beklemeniz gerektiğinde — sabırlı olun! Allah, sabırlı insanları sever ve onları mükafatlandıracaktır!",
+      "explorer": "Sabır, İslam'daki en büyük erdemlerden biridir. Kur'an şöyle der: 'Şüphesiz sabredenlere mükafatları hesapsız verilir' (Zümer Suresi 39:10). Sabır, zorluklar sırasında sakin kalmak, ayartmaya direnmek ve Allah'ın planından memnun olmak demektir. Peygamber ﷺ, sabrı bir ışığa benzetmiştir.",
+      "thinker": "Sabır, İslam'da en çok vurgulanan erdemlerden biridir. Kur'an onu 70'ten fazla kez zikreder. Sabrın üç boyutu vardır: Allah'a itaatte sabır (sebat), günahtan kaçınmada sabır (kontrol) ve zorluk sırasında sabır (dayanma). Allah şöyle der: 'Ve sabret, şüphesiz Allah sabredenlerle beraberdir' (Enfal Suresi 8:46)."
     },
-    "funFact": "Did you know? Allah mentions patience (Sabr) over 70 times in the Quran — it's one of the most important qualities a Muslim can have!",
+    "funFact": "Biliyor muydunuz? Allah, Kur'an'da sabrı (Sabr) 70'ten fazla kez zikreder — bu, bir Müslümanın sahip olabileceği en önemli niteliklerden biridir!",
     "quiz": [
       {
-        "q": "What is 'Sabr'?",
+        "q": "'Sabır' ne demektir?",
         "options": [
-          "Prayer",
-          "Patience",
-          "Charity"
+          "Namaz",
+          "Sabır",
+          "Sadaka"
         ],
         "correct": 1,
-        "explanation": "Sabr means patience — staying calm during difficulties and trusting Allah."
+        "explanation": "Sabır, zorluklarda sakin kalmak ve Allah'a güvenmek demektir."
       },
       {
-        "q": "How many times does Allah mention patience in the Quran?",
+        "q": "Allah Kur'an'da sabrı kaç kez zikreder?",
         "options": [
-          "5 times",
-          "Over 70 times",
-          "100 times"
+          "5 kez",
+          "70'ten fazla kez",
+          "100 kez"
         ],
         "correct": 1,
-        "explanation": "Allah mentions patience (Sabr) over 70 times in the Quran."
+        "explanation": "Allah, Kur'an'da sabrı (Sabr) 70'ten fazla kez zikreder."
       },
       {
-        "q": "What happens to patient people?",
+        "q": "Sabırlı insanlara ne olur?",
         "options": [
-          "Nothing",
-          "They are rewarded without limit",
-          "They are punished"
+          "Hiçbir şey",
+          "Sınırsız mükafat verilir",
+          "Cezalandırılır"
         ],
         "correct": 1,
-        "explanation": "Allah says the patient will be given their reward without account."
+        "explanation": "Allah, sabredenlere mükafatlarının hesapsız verileceğini söyler."
       }
     ]
   },
   {
     "id": "gratitude",
-    "title": "Gratitude",
+    "title": "Şükür",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_50_hiba_gifts-6i3784QxV2uUz9RuU6ni4m.webp?updatedAt=1781117899322",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Gratitude means saying 'thank you' to Allah for everything! For food, family, friends, health — everything! When we're thankful, Allah gives us more blessings. A grateful heart is a happy heart!",
-      "explorer": "Gratitude (Shukr) means recognizing and appreciating Allah's blessings. The Quran says: 'If you are grateful, I will surely increase you' (Surah Ibrahim 14:7). Gratitude isn't just saying 'Alhamdulillah' — it's using Allah's blessings in ways that please Him. When we're grateful for health, we use it to do good. When we're grateful for wealth, we share it with others.",
-      "thinker": "Gratitude (Shukr) is a comprehensive Islamic concept that goes beyond simple thankfulness. It has three dimensions: gratitude of the heart (recognizing blessings), gratitude of the tongue (verbal thanks and praise), and gratitude of the limbs (using blessings in obedience to Allah). The Quran warns against ingratitude: 'If you are ungrateful, indeed, my punishment is severe' (Surah Ibrahim 14:7). The Prophet ﷺ would pray at night until his feet would swell, and when asked why, he would say: 'Should I not be a grateful servant?' Gratitude transforms our perspective — even in hardship, a grateful person finds blessings to thank Allah for."
+      "starter": "Şükür, her şey için Allah'a 'teşekkür ederim' demek demektir! Yiyecek, aile, arkadaşlar, sağlık — her şey için! Şükrettiğimizde, Allah bize daha fazla nimet verir. Şükreden bir kalp, mutlu bir kalptir!",
+      "explorer": "Şükür (Şükr), Allah'ın nimetlerini fark etmek ve takdir etmek demektir. Kur'an şöyle der: 'Eğer şükrederseniz, elbette size artırırım' (İbrahim Suresi 14:7). Şükür sadece 'Elhamdülillah' demek değildir — Allah'ın nimetlerini O'nu memnun edecek şekilde kullanmaktır. Sağlığımıza şükrettiğimizde, onu iyi işlerde kullanırız.",
+      "thinker": "Şükür (Şükr), basit teşekkürün ötesine geçen kapsamlı bir İslami kavramdır. Üç boyutu vardır: kalbin şükrü (nimetleri fark etmek), dilin şükrü (sözlü teşekkür ve övgü) ve organların şükrü (nimetleri Allah'a itaatte kullanmak). Kur'an, nankörlüğün nimetleri kaldırabileceği konusunda uyarır: 'Andolsun ki, şükrederseniz, elbette size artırırım. Eğer nankörlük ederseniz, şüphesiz azabım çok çetindir' (İbrahim Suresi 14:7)."
     },
-    "funFact": "Did you know? The Prophet ﷺ would pray at night until his feet swelled — and when asked why, he said: 'Should I not be a grateful servant?'",
+    "funFact": "Biliyor muydunuz? Peygamber ﷺ, ayakları şişene kadar gece namaz kılardı — ve neden sorduklarında, 'Şükreden bir kul olmayayım mı?' demiştir!",
     "quiz": [
       {
-        "q": "What does 'Shukr' mean?",
+        "q": "'Şükr' ne demektir?",
         "options": [
-          "Prayer",
-          "Gratitude",
-          "Fasting"
+          "Namaz",
+          "Şükür",
+          "Oruç"
         ],
         "correct": 1,
-        "explanation": "Shukr means gratitude — being thankful to Allah for His blessings."
+        "explanation": "Şükr, şükür demektir — Allah'ın nimetlerine teşekkür etmek."
       },
       {
-        "q": "What does Allah promise to grateful people?",
+        "q": "Allah, şükreden insanlara ne vaat eder?",
         "options": [
-          "Nothing",
-          "He will increase their blessings",
-          "He will punish them"
+          "Hiçbir şey",
+          "Nimetlerini artıracaktır",
+          "Onları cezalandıracaktır"
         ],
         "correct": 1,
-        "explanation": "Allah says: 'If you are grateful, I will surely increase you.'"
+        "explanation": "Allah şöyle der: 'Eğer şükrederseniz, elbette size artırırım.'"
       },
       {
-        "q": "What are the three dimensions of gratitude?",
+        "q": "Şükrün üç boyutu nedir?",
         "options": [
-          "Heart, tongue, and limbs",
-          "Mind, body, soul",
-          "Morning, afternoon, night"
+          "Kalp, dil ve organlar",
+          "Zihin, beden, ruh",
+          "Sabah, öğleden sonra, gece"
         ],
         "correct": 0,
-        "explanation": "Gratitude is expressed through the heart (recognizing), tongue (thanking), and limbs (using blessings to do good)."
+        "explanation": "Şükür, kalp (fark etmek), dil (teşekkür etmek) ve organlar (nimetleri iyi işlerde kullanmak) ile ifade edilir."
       }
     ]
   },
   {
     "id": "prophet_muhammad",
-    "title": "Prophet Muhammad ﷺ",
+    "title": "Peygamber Muhammed ﷺ",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "☪️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Muhammad ﷺ was the best person ever! He was kind, honest, and brave. He taught us about Allah and how to be good Muslims. He loved children and animals. We follow his example every day!",
-      "explorer": "Prophet Muhammad ﷺ was born in Mecca in 570 CE. He was known as 'Al-Amin' (The Trustworthy) even before prophethood. At age 40, Angel Jibril brought him the first revelation in the cave of Hira. He spent 23 years teaching Islam, facing persecution, and building a just community. He passed away in Medina in 632 CE, leaving behind a message for all of humanity.",
-      "thinker": "Prophet Muhammad ﷺ is the final messenger of Allah and the most influential person in history. Born an orphan, raised by his grandfather Abdul Muttalib and then his uncle Abu Talib, he grew up to be known for his truthfulness and integrity. The Quran describes him as 'a mercy to all the worlds' (21:107). His life (Seerah) is a comprehensive guide — from the early persecution in Mecca to the establishment of the first Islamic state in Medina, from the Treaty of Hudaybiyyah to the conquest of Mecca. He taught through example: he prayed until his feet swelled, gave charity until he had nothing left, and treated everyone with dignity regardless of their status."
+      "starter": "Peygamber Muhammed ﷺ, en iyi insandı! O, nazik, dürüst ve cesurdu. Bize Allah'ı ve nasıl iyi Müslüman olacağımızı öğretti. Çocukları ve hayvanları severdi. Her gün onun örneğini takip ederiz!",
+      "explorer": "Peygamber Muhammed ﷺ, 570 yılında Mekke'de doğdu. Peygamberlikten önce bile 'El-Emîn' (Güvenilir) olarak bilinirdi. 40 yaşında, Cebrail Meleği ona Hira Mağarası'nda ilk vahyi getirdi. 23 yıl boyunca İslam'ı öğretti, zulümle karşılaştı ve adil bir topluluk inşa etti. 632 yılında Medine'de vefat etti.",
+      "thinker": "Peygamber Muhammed ﷺ, Allah'ın son elçisi ve tarihin en etkili kişisidir. Bir yetim olarak doğmuş, dedesi Abdülmuttalip ve ardından amcası Ebu Talib tarafından büyütülmüş, doğruluğu ve bütünlüğü ile tanınmıştır. Kur'an onu 'alemlere rahmet' olarak tanımlar (21:107). Hayatı (Siret), her yönüyle Müslümanlar için modeldir — bir koca, baba, lider ve öğretmen olarak."
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was an orphan — his father died before he was born and his mother when he was only 6 years old. Despite this, he became the greatest person in history!",
+    "funFact": "Biliyor muydunuz? Peygamber Muhammed ﷺ bir yetimdi — babası doğmadan önce ölmüş, annesi ise o sadece 6 yaşındayken vefat etmişti. Buna rağmen, tarihin en büyük insanı oldu!",
     "quiz": [
       {
-        "q": "In which city was Prophet Muhammad ﷺ born?",
+        "q": "Peygamber Muhammed ﷺ hangi şehirde doğdu?",
         "options": [
-          "Medina",
-          "Mecca",
-          "Jerusalem"
+          "Medine",
+          "Mekke",
+          "Kudüs"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ was born in Mecca in 570 CE."
+        "explanation": "Peygamber Muhammed ﷺ 570 yılında Mekke'de doğdu."
       },
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "Peygamberlikten önce Peygamber Muhammed ﷺ'ın lakabı neydi?",
         "options": [
-          "Al-Hakim",
-          "Al-Amin",
-          "Al-Karim"
+          "El-Hakîm",
+          "El-Emîn",
+          "El-Kerîm"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "Her zaman doğruyu söylediği için 'El-Emîn' (Güvenilir) olarak çağrılırdı."
       },
       {
-        "q": "How old was Prophet Muhammad ﷺ when he received the first revelation?",
+        "q": "Peygamber Muhammed ﷺ ilk vahyi aldığında kaç yaşındaydı?",
         "options": [
           "25",
           "30",
           "40"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ was 40 years old when Angel Jibril brought the first revelation."
+        "explanation": "Peygamber Muhammed ﷺ, Cebrail Meleği ilk vahyi getirdiğinde 40 yaşındaydı."
       }
     ]
   },
   {
     "id": "prophet_ibrahim",
-    "title": "Prophet Ibrahim",
+    "title": "Peygamber İbrahim",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "🏗️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Ibrahim loved Allah more than anything! He looked at the stars and knew they couldn't be God. He broke the idols people worshipped and told them only Allah deserves worship. Allah made him a great leader!",
-      "explorer": "Prophet Ibrahim (Abraham) is one of the greatest prophets. He realized at a young age that idols couldn't be God — they couldn't create or help anyone. He broke the idols and called people to worship Allah alone. Allah tested him greatly — He asked Ibrahim to leave his homeland, sacrifice his son, and build the Kaaba. Ibrahim obeyed every command, showing incredible faith.",
-      "thinker": "Prophet Ibrahim (Abraham) is known as 'Khalilullah' — the Friend of Allah. His story is one of absolute submission to divine will. He questioned his father's idol worship, challenged King Namrud, and was thrown into fire for his faith — yet Allah saved him. The sacrifice of his son Ismail (Ismail) is commemorated every year during Eid al-Adha. Ibrahim's willingness to leave his wife Hajar and infant son Ismail in the desert of Mecca — trusting completely in Allah's plan — led to the establishment of the Kaaba and the Zamzam well. He is the patriarch of the Abrahamic faiths and an enduring example of total trust in Allah."
+      "starter": "Peygamber İbrahim, Allah'tan başka her şeyden çok severdi! Yıldızlara baktı ve onların Tanrı olamayacağını anladı. İnsanların taptığı putları kırdı ve sadece Allah'ın ibadete layık olduğunu söyledi. Allah onu büyük bir lider yaptı!",
+      "explorer": "Peygamber İbrahim (İbrahim aleyhisselam), en büyük peygamberlerden biridir. Genç yaşta putların Tanrı olamayacağını — yaratamayacaklarını veya kimseye yardım edemeyeceklerini fark etti. Putları kırdı ve insanları yalnızca Allah'a ibadet etmeye çağırdı. Allah onu çok sınamış — yurdundan ayrılmasını, oğlunu kurban etmesini ve emirlerine itaat etmesini istemiştir.",
+      "thinker": "Peygamber İbrahim (İbrahim aleyhisselam), 'Halilullah' — Allah'ın Dostu olarak bilinir. Onun hikayesi, ilahi iradeye mutlak teslimiyetin bir öyküsüdür. Babasının put tapınacını sorguladı, Kral Nemrut'a meydan okudu ve inancı için ateşe atıldı — ancak Allah onu kurtardı. Oğlu İsmail'in kurban edilmesi, itaatin doruk noktasıdır ve Allah, İsmail'in yerine bir koç gönderdi. Bu eylem, yıllık Kurban Bayramı'nda (Eid al-Adha) dünya çapında milyonlarca Müslüman tarafından anılmaktadır."
     },
-    "funFact": "Did you know? When Ibrahim was thrown into a giant fire, Allah said 'O fire, be cool and peaceful!' — and the fire didn't even burn him!",
+    "funFact": "Biliyor muydunuz? İbrahim devasa bir ateşe atıldığında, Allah 'Ey ateş, İbrahim için serin ve selamet ol!' demiştir — ve ateş onu yakmamıştır!",
     "quiz": [
       {
-        "q": "What was Prophet Ibrahim known as?",
+        "q": "Peygamber İbrahim hangi unvanla bilinir?",
         "options": [
-          "Prophet of Thunder",
-          "Friend of Allah",
-          "King of Nations"
+          "Şimşek Peygamberi",
+          "Allah'ın Dostu",
+          "Milletlerin Kralı"
         ],
         "correct": 1,
-        "explanation": "Ibrahim is called 'Khalilullah' — the Friend of Allah."
+        "explanation": "İbrahim, 'Halilullah' — Allah'ın Dostu olarak çağrılır."
       },
       {
-        "q": "What did Ibrahim break?",
+        "q": "İbrahim neyi kırmıştır?",
         "options": [
-          "The Kaaba",
-          "Idols people worshipped",
-          "A window"
+          "Kâbe'yi",
+          "İnsanların taptığı putları",
+          "Bir pencereyi"
         ],
         "correct": 1,
-        "explanation": "Ibrahim broke the idols people were worshipping to show only Allah deserves worship."
+        "explanation": "İbrahim, sadece Allah'ın ibadete layık olduğunu göstermek için insanların taptığı putları kırmıştır."
       },
       {
-        "q": "What did Allah ask Ibrahim to build?",
+        "q": "Allah, İbrahim'den ne inşa etmesini istemiştir?",
         "options": [
-          "A house",
-          "The Kaaba",
-          "A school"
+          "Bir ev",
+          "Kâbe'yi",
+          "Bir okul"
         ],
         "correct": 1,
-        "explanation": "Allah asked Ibrahim to build the Kaaba in Mecca."
+        "explanation": "Allah, İbrahim'den Mekke'de Kâbe'yi inşa etmesini istemiştir."
       }
     ]
   },
   {
     "id": "islamic_civilization",
-    "title": "Islamic Civilization",
+    "title": "İslam Medeniyeti",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_20_topic_islamic_civilization-gNpeURs5zuRnR3dMvEndDR.webp?updatedAt=1781117902871",
     "emoji": "🏛️",
     "category": "stories_history",
     "content": {
-      "starter": "Muslims built amazing things long ago! They made beautiful mosques, hospitals, schools, and libraries. They studied science, math, and medicine. Muslims invented things we still use today — like cameras, universities, and coffee!",
-      "explorer": "Islamic civilization made incredible contributions to the world. Muslim scholars invented algebra, developed modern medicine, built the first universities, and preserved ancient Greek knowledge. Cities like Baghdad, Cordoba, and Cairo were centers of learning. Inventions include the camera (camera obscura), surgical instruments, and windmills. Muslims also built beautiful architecture like the Alhambra and the Dome of the Rock.",
-      "thinker": "The Islamic Golden Age (8th-14th centuries) was one of the most productive periods of scholarship in human history. Scholars like Al-Khwarizmi (algebra), Ibn Sina (medicine), Al-Kindi (philosophy), and Fatima al-Fihri (first university) transformed human knowledge. The House of Wisdom in Baghdad translated and preserved Greek, Persian, and Indian texts that would have been lost. Islamic civilization pioneered hospitals (bimaristans), observatories, and public libraries. The concept of the university was literally invented by Muslims — the University of al-Qarawiyyin in Fez, Morocco, founded by Fatima al-Fihri in 859 CE, is recognized by UNESCO as the oldest existing university."
+      "starter": "Müslümanlar çok uzun zaman önce harika şeyler inşa ettiler! Güzel camiler, hastaneler, okullar ve kütüphaneler yaptılar. Bilim, matematik ve tıp incelediler. Müslümanlar, bugün hala kullandığımız şeyleri icat ettiler — fotoğraf makineleri, üniversiteler ve kahve gibi!",
+      "explorer": "İslam medeniyeti, dünyaya inanılmaz katkılarda bulunmuştur. Müslüman âlimler cebri icat etmiş, modern tıbın temellerini geliştirmiş, ilk üniversiteleri kurmuş ve antik Yunan bilgisini korumuştur. Bağdat, Kurtuba ve Kahire gibi şehirler öğrenim merkezleriydi. İcatlar arasında fotoğraf makinesi (camera obscura), üniversiteler ve kahve bulunur.",
+      "thinker": "İslam Altın Çağı (8.-14. yüzyıllar), insanlık tarihindeki en verimli bilim dönemlerinden biriydi. Harezmî (cebir), İbn Sina (tıp), Kindî (felsefe) ve Fatıma el-Fihri (ilk üniversite) gibi âlimler insan bilgisini dönüştürmüşlerdir. Bağdat'taki Beytü'l-Hikme (Bilgelik Evi), Yunanca, Farsça ve Hintçe eserleri Arapçaya çevirmiş ve korumuştur. Müslüman bilim insanları, Avrupa Rönesansının temellerini atmıştır."
     },
-    "funFact": "Did you know? The first university in the world was built by a Muslim woman — Fatima al-Fihri — in Morocco in the year 859 CE!",
+    "funFact": "Biliyor muydunuz? Dünyadaki ilk üniversite, Fas'ta 859 yılında bir Müslüman kadın — Fatıma el-Fihri — tarafından inşa edilmiştir!",
     "quiz": [
       {
-        "q": "What did Al-Khwarizmi invent?",
+        "q": "Harezmî ne icat etmiştir?",
         "options": [
-          "Medicine",
-          "Algebra",
-          "Astronomy"
+          "Tıb",
+          "Cebir",
+          "Astronomi"
         ],
         "correct": 1,
-        "explanation": "Al-Khwarizmi invented algebra — the word 'algorithm' comes from his name!"
+        "explanation": "Harezmî, cebri icat etmiştir — 'algoritma' kelimesi onun adından gelir!"
       },
       {
-        "q": "Who built the first university in the world?",
+        "q": "Dünyadaki ilk üniversiteyi kim inşa etmiştir?",
         "options": [
-          "A Muslim man",
-          "Fatima al-Fihri",
-          "A Greek scholar"
+          "Bir Müslüman erkek",
+          "Fatıma el-Fihri",
+          "Bir Yunanlı âlim"
         ],
         "correct": 1,
-        "explanation": "Fatima al-Fihri, a Muslim woman, built the first university in Morocco in 859 CE."
+        "explanation": "Fatıma el-Fihri adında bir Müslüman kadın, 859 yılında Fas'ta ilk üniversiteyi inşa etmiştir."
       },
       {
-        "q": "What was the Islamic Golden Age known for?",
+        "q": "İslam Altın Çağı ne ile tanınır?",
         "options": [
-          "Only art",
-          "Advances in science, math, and medicine",
-          "Only farming"
+          "Sadece sanat",
+          "Bilim, matematik ve tıpta ilerlemeler",
+          "Sadece tarım"
         ],
         "correct": 1,
-        "explanation": "Muslims made incredible advances in science, math, medicine, and many other fields."
+        "explanation": "Müslümanlar, bilim, matematik, tıp ve birçok alanda inanılmaz ilerlemeler kaydetmişlerdir."
       }
     ]
   },
   {
     "id": "ramadan",
-    "title": "Ramadan",
+    "title": "Ramazan",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_39_ramadan_overview-KSNdX85Mzos8r2Xf3JL6rh.webp?updatedAt=1781117901328",
     "emoji": "🌙",
     "category": "special_times",
     "content": {
-      "starter": "Ramadan is the best month! It's when Allah sent the Quran. We fast from sunrise to sunset — no eating or drinking! At night, we pray, read Quran, and have iftar with family. Everyone is happy and kind during Ramadan!",
-      "explorer": "Ramadan is the ninth month of the Islamic calendar and the holiest month for Muslims. The Quran was first revealed during Ramadan. Muslims fast from dawn to sunset, refraining from food, drink, and other physical needs. It's a time of increased prayer, charity, and Quran reading. Ramadan teaches self-discipline, empathy for the poor, and brings families and communities together.",
-      "thinker": "Ramadan is the month in which the Quran was revealed as guidance for humanity (Surah Al-Baqarah 2:185). Fasting (Sawm) during Ramadan is the fourth pillar of Islam and serves multiple purposes: developing taqwa (God-consciousness), purifying the soul, building empathy for the less fortunate, and strengthening community bonds. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a spiritual rhythm throughout the month. The last 10 nights are especially sacred, as Laylat al-Qadr (the Night of Power) — described as 'better than a thousand months' — falls within them. Ramadan transforms communities: charity increases, tempers cool, and hearts soften."
+      "starter": "Ramazan en güzel aydır! Allah'ın Kur'an'ı gönderdiği aydır. Güneş doğumundan batımına kadar oruç tutarız — yemek ve içmek yok! Gece, namaz kılarız, Kur'an okuruz ve ailemizle iftar yaparız. Ramazan'da herkes mutlu ve naziktir!",
+      "explorer": "Ramazan, İslami takvimin dokuzuncu ayı ve Müslümanlar için en kutsal aydır. Kur'an ilk kez Ramazan'da vahiy edilmiştir. Müslümanlar, tan yeriinden gün batımına kadar oruç tutar, yemekten, içmekten ve diğer fiziksel ihtiyaçlardan sakınırlar. Bu, artırılmış namaz, sadaka ve Kur'an okuma zamanıdır. Ramazan, öz-disiplin, manevi büyüme ve topluluk bağını öğretir.",
+      "thinker": "Ramazan, Kur'an'ın insanlık için yol gösterici olarak vahiy edildiği aydır (Bakara Suresi 2:185). Ramazan'da oruç tutmak (Savm), İslam'ın dördüncü temel taşıdır ve birden fazla amaca hizmet eder: takva (Allah bilinci) geliştirmek, ruhu arındırmak, daha az şanslı olanlara empati kurmak ve topluluk bağını güçlendirmek. Kur'an, orucun farz kılındığını ve bunun, oruç tutanların takva sahibi olmaları için bir araç olduğunu açıkça belirtir."
     },
-    "funFact": "Did you know? Laylat al-Qadr (the Night of Power) in Ramadan is better than 1,000 months — that's over 83 years of blessings in just one night!",
+    "funFact": "Biliyor muydunuz? Ramazan'daki Kadir Gecesi (Laylatü'l-Kadr), 1.000 aydan daha hayırlıdır — bu, sadece bir gecede 83 yıldan fazla mükafat demektir!",
     "quiz": [
       {
-        "q": "During which month was the Quran revealed?",
+        "q": "Kur'an hangi ayda vahiy edilmiştir?",
         "options": [
-          "Muharram",
-          "Ramadan",
-          "Shawwal"
+          "Muharrem",
+          "Ramazan",
+          "Şevval"
         ],
         "correct": 1,
-        "explanation": "The Quran was first revealed during the month of Ramadan."
+        "explanation": "Kur'an ilk kez Ramazan ayında vahiy edilmiştir."
       },
       {
-        "q": "What is Laylat al-Qadr?",
+        "q": "Kadir Gecesi nedir?",
         "options": [
-          "A regular night",
-          "The Night of Power, better than 1,000 months",
-          "The first day of Ramadan"
+          "Sıradan bir gece",
+          "1.000 aydan daha hayırlı Kadir Gecesi",
+          "Ramazan'ın ilk günü"
         ],
         "correct": 1,
-        "explanation": "Laylat al-Qadr (Night of Power) is better than 1,000 months of worship."
+        "explanation": "Kadir Gecesi (Laylatü'l-Kadr), 1.000 ay ibadetten daha hayırlıdır."
       },
       {
-        "q": "What is the pre-dawn meal called?",
+        "q": "Tan yeriinden önceki yemeğe ne denir?",
         "options": [
-          "Iftar",
-          "Suhoor",
-          "Dhuhr"
+          "İftar",
+          "Sahur",
+          "Öğle"
         ],
         "correct": 1,
-        "explanation": "The pre-dawn meal before fasting is called Suhoor."
+        "explanation": "Oruç tutmadan önce tan yeriinde yenen yemeğe sahur denir."
       }
     ]
   },
   {
     "id": "eid_al_fitr",
-    "title": "Eid al-Fitr",
+    "title": "Ramazan Bayramı",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_42_eid_fitr_celebration-WoRzqkwEMUXtjWTsNNttWJ.webp?updatedAt=1781117904296",
     "emoji": "🎉",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Fitr is the happy day after Ramadan! We wear new clothes, eat yummy food, give gifts, and say 'Eid Mubarak!' to everyone. We give money to poor people called Zakat al-Fitr. It's like a big party for Allah!",
-      "explorer": "Eid al-Fitr marks the end of Ramadan and is one of the two major Islamic holidays. Muslims gather for a special prayer, give Zakat al-Fitr (charity to the poor), wear their best clothes, and celebrate with family and friends. Children receive gifts and money (Eidi). It's a day of joy, gratitude, and community after a month of fasting and worship.",
-      "thinker": "Eid al-Fitr ('Festival of Breaking the Fast') is celebrated on the first day of Shawwal, the month following Ramadan. It begins with a special congregational prayer and sermon, followed by Zakat al-Fitr — a mandatory charity given before the Eid prayer to ensure even the poorest can celebrate. The Prophet ﷺ would wear his best clothes on Eid and apply perfume. Eid is a day of celebration, but also of reflection — thanking Allah for the strength to complete Ramadan and asking for acceptance of our worship. It strengthens community bonds as Muslims visit relatives, share meals, and reconcile differences."
+      "starter": "Ramazan Bayramı, Ramazan'dan sonraki mutlu gündür! Yeni kıyafetler giyeriz, lezzetli yemekler yeriz, hediyeler veririz ve herkese 'Bayramınız Mübarek Olsun!' deriz. Fakirlere Fitre Sadakası adı verilen para veririz. Bu, Allah için büyük bir bayram gibidir!",
+      "explorer": "Ramazan Bayramı, Ramazan'ın sonunu işaret eder ve iki büyük İslami bayramdan biridir. Müslümanlar özel bir namaz için toplanır, Fitre Sadakası (fakirlere sadaka) verir, en güzel kıyafetlerini giyer ve aile ve arkadaşlarıyla kutlar. Çocuklar hediye ve para (Bayramlık) alır. Bu, sevinç, şükran ve topluluk günüdür.",
+      "thinker": "Ramazan Bayramı ('Oruç Açma Festivali'), Ramazan'ı takip eden Şevval ayının ilk gününde kutlanır. Özel bir cemaat namazı ve hutbe ile başlar, ardından Fitre Sadakası — en fakirlerin bile kutlama yapabilmesi için bayram namazından önce verilen zorunlu bir sadaka — gelir. Peygamber ﷺ, bayram gününü yemek, içmek ve Allah'ı anmakla geçirmeyi teşvik etmiştir."
     },
-    "funFact": "Did you know? On Eid, you must give charity (Zakat al-Fitr) BEFORE the Eid prayer — so even poor people can celebrate!",
+    "funFact": "Biliyor muydunuz? Bayramda, bayram namazından ÖNCE sadaka (Fitre Sadakası) vermelisiniz — böylece fakirler bile kutlama yapabilir!",
     "quiz": [
       {
-        "q": "When is Eid al-Fitr celebrated?",
+        "q": "Ramazan Bayramı ne zaman kutlanır?",
         "options": [
-          "Beginning of Ramadan",
-          "End of Ramadan",
-          "Middle of Ramadan"
+          "Ramazan'ın başında",
+          "Ramazan'ın sonunda",
+          "Ramazan'ın ortasında"
         ],
         "correct": 1,
-        "explanation": "Eid al-Fitr is celebrated at the end of Ramadan."
+        "explanation": "Ramazan Bayramı, Ramazan'ın sonunda kutlanır."
       },
       {
-        "q": "What must Muslims give before Eid prayer?",
+        "q": "Bayram namazından önce Müslümanlar ne vermeleri gerekir?",
         "options": [
-          "More fasting",
-          "Zakat al-Fitr (charity)",
-          "A new car"
+          "Daha fazla oruç",
+          "Fitre Sadakası (sadaka)",
+          "Yeni bir araba"
         ],
         "correct": 1,
-        "explanation": "Zakat al-Fitr is charity given before Eid prayer so the poor can celebrate too."
+        "explanation": "Fitre Sadakası, fakirlerin de bayram kutlaması için bayram namazından önce verilen sadakadır."
       },
       {
-        "q": "What do we say to others on Eid?",
+        "q": "Bayramda başkalarına ne deriz?",
         "options": [
-          "Happy Birthday",
-          "Eid Mubarak",
-          "Good Morning"
+          "Mutlu Yıllar",
+          "Bayramınız Mübarek Olsun",
+          "Günaydın"
         ],
         "correct": 1,
-        "explanation": "We say 'Eid Mubarak' — meaning 'Blessed Eid!'"
+        "explanation": "'Bayramınız Mübarek Olsun' deriz — 'Mübarek Bayramınız' anlamına gelir!"
       }
     ]
   },
   {
     "id": "eid_al_adha",
-    "title": "Eid al-Adha",
+    "title": "Kurban Bayramı",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_43_eid_adha_celebration-a8nckcQaGvn3CYJJy7ta5A.webp?updatedAt=1781117903366",
     "emoji": "🐑",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Adha is the big Eid! It remembers when Prophet Ibrahim was ready to sacrifice his son for Allah. Allah was so happy with his faith that He sent a sheep instead! We sacrifice an animal and share the meat with family and poor people!",
-      "explorer": "Eid al-Adha ('Festival of Sacrifice') honors Prophet Ibrahim's willingness to sacrifice his son Ismail for Allah. Before Eid, Muslims who can afford it sacrifice an animal (sheep, goat, cow, or camel) and divide the meat into three parts: one for family, one for friends and neighbors, one for the poor. It coincides with the Hajj pilgrimage and is one of the two major Islamic holidays.",
-      "thinker": "Eid al-Adha commemorates one of the most profound acts of faith in Islamic history — Prophet Ibrahim's willingness to sacrifice his son Ismail in complete obedience to Allah. Just as Ibrahim was about to carry out the sacrifice, Allah replaced Ismail with a ram, and the sacrifice was accepted symbolically. This event is commemorated by millions of Muslims worldwide who sacrifice an animal during the days of Eid. The meat is divided into thirds: family, friends/neighbors, and the poor. Eid al-Adha coincides with the Hajj pilgrimage — while pilgrims are at Arafat, Muslims worldwide celebrate this festival of sacrifice, gratitude, and community."
+      "starter": "Kurban Bayramı, büyük bayramdır! Peygamber İbrahim'in oğlunu Allah için kurban etmeye hazır olduğunu anar. Allah, onun imanından o kadar memnun kaldı ki, onun yerine bir koyun gönderdi! Bir hayvan kurban ederiz ve eti aile ve fakirlerle paylaşırız!",
+      "explorer": "Kurban Bayramı ('Kurban Festivali'), Peygamber İbrahim'in oğlu İsmail'i Allah için kurban etmeye istekli olmasını onurlandırır. Bayramdan önce, gücü yeten Müslümanlar bir hayvan (koyun, keçi, sığır veya deve) kurban eder ve eti üç parçaya böler: biri aile için, biri arkadaşlar ve komşular için, biri fakirler için. Bu, Hac ziyareti ile çakışır ve iki büyük İslami bayramdan biridir.",
+      "thinker": "Kurban Bayramı, İslam tarihindeki en derin iman eylemlerinden birini anar — Peygamber İbrahim'in oğlu İsmail'i Allah'a tam itaat ile kurban etmeye istekli olması. İbrahim kurbanı gerçekleştirmek üzereyken, Allah İsmail'in yerine bir koç gönderdi ve kurban sembolik olarak kabul edildi. Bu olay, tam teslimiyetin ve Allah'ın merhametinin simgesi olarak dünya çapında milyonlarca Müslüman tarafından anılmaktadır."
     },
-    "funFact": "Did you know? Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah — but Allah sent a ram instead as a test of faith!",
+    "funFact": "Biliyor muydunuz? Kurban Bayramı, Peygamber İbrahim'in oğlunu Allah için kurban etmeye hazır olduğunu anar — ancak Allah bir iman sınavı olarak onun yerine bir koç göndermiştir!",
     "quiz": [
       {
-        "q": "What does Eid al-Adha remember?",
+        "q": "Kurban Bayramı neyi anar?",
         "options": [
-          "Ramadan ending",
-          "Ibrahim's willingness to sacrifice his son",
-          "The Quran being revealed"
+          "Ramazan'ın bitişini",
+          "İbrahim'in oğlunu kurban etmeye istekli olmasını",
+          "Kur'an'ın vahyedilmesini"
         ],
         "correct": 1,
-        "explanation": "Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah."
+        "explanation": "Kurban Bayramı, Peygamber İbrahim'in oğlunu Allah için kurban etmeye hazır olduğunu anar."
       },
       {
-        "q": "How many parts is the sacrificial meat divided into?",
+        "q": "Kurban eti kaç parçaya bölünür?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "Bir parça",
+          "İki parça",
+          "Üç parça"
         ],
         "correct": 2,
-        "explanation": "The meat is divided into three: family, friends/neighbors, and the poor."
+        "explanation": "Et üçe bölünür: aile, arkadaşlar/komşular ve fakirler."
       },
       {
-        "q": "What did Allah send instead of Ibrahim's son?",
+        "q": "Allah, İbrahim'in oğlu yerine ne gönderdi?",
         "options": [
-          "Nothing",
-          "A ram (sheep)",
-          "An angel"
+          "Hiçbir şey",
+          "Bir koç (koyun)",
+          "Bir melek"
         ],
         "correct": 1,
-        "explanation": "Allah sent a ram to be sacrificed instead, accepting Ibrahim's willingness."
+        "explanation": "Allah, İbrahim'in istekliliğini kabul ederek onun yerine bir koç gönderdi."
+      }
+    ]
+  },
+  {
+    "id": "al_khwarizmi",
+    "title": "Harezmî - Cebirin Babası",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_25_scholar_al_khwarizmi-YyTnbwqk77BcABwPTm7CYw.webp?updatedAt=1781117901745",
+    "emoji": "📐",
+    "category": "stories_history",
+    "content": {
+      "starter": "Harezmî, çok uzun zaman önce yaşamış büyük bir Müslüman matematik dehasıydı. Harfler ve sayılar kullanarak matematik problemlerini çözmeye yardımcı olan Cebri icat etti! Ayrıca tüm dünyaya sıfır sayısını kullanmayı gösterdi ve bugün hala kullandığımız 1'den 9'a kadar olan sayıları tanıttı!",
+      "explorer": "Muhammed bin Musa el-Harezmî (yak. 780–850), Bağdat'taki Beytü'l-Hikme'de çalışan efsanevi bir matematikçi, astronom ve coğrafyacıydı. 'Cebir' kelimesini aldığımız 'Kitabü'l-Cebr' adlı devrimci bir kitap yazdı. Ayrıca, İslam dünyasında ve Avrupa'da ondalık nokta ve sıfır rakamı da dahil olmak üzere Hint-Arap rakam sistemini yaygınlaştırdı ve modern matematiğin temelini kurdu.",
+      "thinker": "Muhammed bin Musa el-Harezmî (yak. 780–850), geniş çapta Cebirin Babası olarak kabul edilir. İslam Altın Çağı'nda Bağdat'taki Beytü'l-Hikme'de çalışan âlimin başyapıtı, 'Tamamlama ve Dengeleme ile Hesaplama Üzerine Özet Kitap' ('El-Kitabü'l-muhtasar fi hisabü'l-cebr ve'l-mukabele'), doğrusal ve ikinci dereceden denklemleri çözmek için sistematik bir yol resmileştirmiştir. Arap rakamlarını Avrupa'ya tanıtmış ve 'algoritma' kelimesi onun adının Latince çevirisinden türemiştir."
+    },
+    "funFact": "Biliyor muydunuz? 'Cebir' kelimesi, kitabının başlığı 'El-Cebr'den (tamamlama/geri getirme anlamında) gelir ve 'algoritma' kelimesi onun adı olan Harezmî'nin çevirisidir!",
+    "quiz": [
+      {
+        "q": "Harezmî, matematiğin hangi dalını icat etmiştir?",
+        "options": [
+          "Kalkülüs",
+          "Geometri",
+          "Cebir"
+        ],
+        "correct": 2,
+        "explanation": "Harezmî, denklemleri çözmek için yapılandırılmış bir sistem olan cebri oluşturan 'El-Cebr'i yazmıştır."
+      },
+      {
+        "q": "Harezmî bilimsel araştırmalarını nerede yapmıştır?",
+        "options": [
+          "Piramitler",
+          "Bağdat'taki Beytü'l-Hikme",
+          "İskenderiye Kütüphanesi"
+        ],
+        "correct": 1,
+        "explanation": "Bağdat'taki Beytü'l-Hikme, İslam Altın Çağı'nın en önemli entelektüel merkeziydi."
+      },
+      {
+        "q": "Hangi modern bilgisayar bilimi terimi Harezmî'nin adından türetilmiştir?",
+        "options": [
+          "Donanım",
+          "Algoritma",
+          "İnternet"
+        ],
+        "correct": 1,
+        "explanation": "'Algoritma' kelimesi, onun adının Latince çevirisi olan 'Algoritmi'den gelir."
+      }
+    ]
+  },
+  {
+    "id": "ibn_sina",
+    "title": "İbn Sina - Tıbbın Babası",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_26_scholar_ibn_sina-96S5bSYcoRZXXh4aq6Jx7q.webp?updatedAt=1781117902508",
+    "emoji": "🩺",
+    "category": "stories_history",
+    "content": {
+      "starter": "İbn Sina, ayrıca İbni Sina olarak da bilinen, süper zeki bir doktor ve filozoftu! 'El-Kânûn fi't-Tıb' adında devasa bir tıp ansiklopedisi yazdı. Bu kitap o kadar kapsamlıydı ki, Avrupa'daki üniversiteler yüzlerce yıl boyunca insanlara doktor olmayı öğretmek için kullandılar!",
+      "explorer": "İbn Sina (İbni Sina, 980–1037), İslam Altın Çağı'nın en önemli düşünürlerinden biri olarak kutlanan olağanüstü bir Fars âlimdi. 10 yaşında tüm Kur'an'ı ezberledi ve 18 yaşında uygulayan bir doktordu. Dünyaca ünlü kitabı 'El-Kânûn fi't-Tıb' ('Tıbbın Kanunu'), 600 yılı aşkın süre boyunca Avrupa ve Asya'da standart tıp ders kitabı oldu.",
+      "thinker": "İbn Sina (İbni Sina, 980–1037), erken tıp bilimini ve ortaçağ felsefesini şekillendiren efsanevi bir âlimdi. Devasa derlemesi 'El-Kânûn fi't-Tıb', bulaşıcı hastalıkları kontrol etmek için karantina, klinik deneyler ve farmakoloji dahil devrimci fikirler sundu. Tıbbın yanı sıra, 'Kitabü'ş-Şifa' ('Şifa Kitabı') adlı ansiklopedisi mantık, doğa bilimleri ve metafiziği kapsıyordu. İbn Sina'nın tıbbi sınıflandırması yüzyıllar boyunca rakipsiz kaldı."
+    },
+    "funFact": "Biliyor muydunuz? İbn Sina o kadar zekiydi ki, 10 yaşında tüm Kur'an'ı ezberledi ve sadece 18 yaşında saygın, uygulayan bir hekim oldu!",
+    "quiz": [
+      {
+        "q": "İbn Sina'nın ünlü tıp ders kitabının adı nedir?",
+        "options": [
+          "Hikmet Kitabı",
+          "El-Kânûn fi't-Tıb",
+          "Doğa Kanunları"
+        ],
+        "correct": 1,
+        "explanation": "İbn Sina, yüzyıllar boyunca standart metin olarak kalan 'El-Kânûn fi't-Tıb'ı yazmıştır."
+      },
+      {
+        "q": "İbn Sina, tüm Kur'an'ı kaç yaşında ezberlemiştir?",
+        "options": [
+          "10 yaşında",
+          "18 yaşında",
+          "25 yaşında"
+        ],
+        "correct": 0,
+        "explanation": "İbn Sina, Kur'an'ı 10 yaşında ezberleyerek çok küçük yaşta dahi zekasını göstermiştir."
+      },
+      {
+        "q": "İbn Sina, bulaşıcı hastalıkların yayılmasını kontrol altına almak için hangi tıbbi uygulamayı öncülük etmiştir?",
+        "options": [
+          "Akupunktur",
+          "Karantina",
+          "Alçı atıklar"
+        ],
+        "correct": 1,
+        "explanation": "İbn Sina, hastalıkların mikroskobik parçacıklar aracılığıyla yayıldığını varsaymış ve karantina yöntemlerini öncülük etmiştir."
+      }
+    ]
+  },
+  {
+    "id": "al_razi",
+    "title": "Er-Razi - Kimyanın Öncüsü",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_27_scholar_al_razi-734zXvqhUQPULCRdzdCjA9.webp?updatedAt=1781117901576",
+    "emoji": "🧪",
+    "category": "stories_history",
+    "content": {
+      "starter": "Er-Razi, kalbi sıcak bir doktor ve harika bir kimyagerdi. Temiz hastane odalarının hastaların daha hızlı iyileşmesine yardımcı olduğunu ilk fark eden oydu ve kimyasalları incelemek için gelişmiş laboratuvar araçları tasarladı!",
+      "explorer": "Er-Razi (Razes, 854–925), olağanüstü bir klinik doktoru ve kimyagerdi. Çiçek hastalığı ile kızamığı ilk ayıran oydu ve onlar hakkında bir tıp risalesi yazdı. Kimyada, kimyasal maddeleri ilk kez sınıflandırdı ve kimyagerlerin deneyler yapmak için hala kullandığı retort ve cam şişeler dahil laboratuvar ekipmanları tasarladı.",
+      "thinker": "Ebu Bekir er-Razi (Razes, 854–925), klinik tıbbın, deneysel bilimin ve kimyanın dev isimlerindendi. Bağdat'taki ana hastanenin başı olarak, çeşitli yerlerde çiğ et asarak en temiz havaya sahip yeri bulmak suretiyle bina yerini seçti. Başyapıtı 'Kitabü'l-Havî'de (Kapsamlı Kitap), klinik vaka çalışmaları kaydetti. Kimyada, minerallerin sınıflandırması ve laboratuvar yöntemleri modern kimyanın temellerini atmıştır."
+    },
+    "funFact": "Biliyor muydunuz? Er-Razi, kimya laboratuvarında gazyağı lambalarını icat etmiş ve kimyasal elementleri sınıflandırmıştır. Tıpta, Bağdat'ta çiğ et asarak en temiz havayı bulduğu yeri hastane yeri olarak seçmiştir!",
+    "quiz": [
+      {
+        "q": "Er-Razi, Bağdat'ın hastanesini inşa etmek için en temiz yeri nasıl seçmiştir?",
+        "options": [
+          "Krala sorarak",
+          "Çiğ et asarak en yavaş çürüdüğü yeri bularak",
+          "Su sıcaklığını ölçerek"
+        ],
+        "correct": 1,
+        "explanation": "Şehirde et parçaları asmış; etin en uzun süre taze kaldığı yerin en temiz havaya sahip olduğunu bulmuştur."
+      },
+      {
+        "q": "Er-Razi, tıp tarihinde hangi iki hastalığı ilk ayırt etmiştir?",
+        "options": [
+          "Çiçek hastalığı ve kızamık",
+          "Grip ve sıtma",
+          "Soğuk algınlığı ve ateş"
+        ],
+        "correct": 0,
+        "explanation": "Çiçek hastalığı ve kızamık üzerine risalesi uluslararası alkış kazanmış ve birçok dile çevrilmiştir."
+      },
+      {
+        "q": "Er-Razi, kimya çalışmalarında neyi sınıflandırmıştır?",
+        "options": [
+          "Yıldızlar ve gezegenler",
+          "Mineraller ve maddeler",
+          "Hayvanlar ve bitkiler"
+        ],
+        "correct": 1,
+        "explanation": "Mineraller ve organik maddeler için erken bir sınıflandırma sistemi oluşturmuş, kimyanın temellerini atmıştır."
+      }
+    ]
+  },
+  {
+    "id": "al_biruni",
+    "title": "El-Biruni - Bilimlerin Ustası",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_28_scholar_al_biruni-3CxEZkDDXSfMvzUgmWWyDk.webp?updatedAt=1781117901825",
+    "emoji": "🌍",
+    "category": "stories_history",
+    "content": {
+      "starter": "El-Biruni, dünyayı dolaşan bir bilim dedektifiydi. Dünyayı haritalamayı ve yıldızlara bakmayı severdi! Bir dağ ve basit matematik kullanarak dünyanın ne kadar büyük olduğunu hesapladı ve neredeyse mükemmel doğru buldu!",
+      "explorer": "El-Biruni (973–1048), doğa bilimcisi ve coğrafyacıydı. Sanskritçe, Farsça, Arapça ve Yunanca dahil birçok dile hakimdi. Jeodezi alanında öncülük etti ve Dünyanın yarıçapını ve çevresini %1'den daha az hata ile hesaplamak için trigonometrik matematik kullandı. Ayrıca mücevherlerin mineral bileşimi hakkında yazdı ve antik takvim sistemlerini belgeledi.",
+      "thinker": "Ebu'l-Rayhan el-Biruni (973–1048), tüm zamanların en büyük bilim insanlarından biri olarak kutlanır. Astronomi, jeodezi, sosyoloji ve mineroloji alanlarında üstün başarı göstermiştir. Modern Pakistan'daki bir dağın yüksekliğini kullanarak Dünyanın yarıçapını hesaplamak için benzersiz matematiksel denklemler tasarlamış, bu hesap uydusal gözlemlerden yüzyıllar öncesine dayanır. Hindistan üzerine çalışması ('Kitabü'l-Hind'), nesnel kültürel antropolojinin ilk örneği olarak kabul edilir."
+    },
+    "funFact": "Biliyor muydunuz? El-Biruni, trigonometri ve tek bir dağ kullanarak dünyanın büyüklüğünü %99,6 doğrulukla hesaplamıştır — bu hesap, modern uydularınkiyle neredeyse aynıdır!",
+    "quiz": [
+      {
+        "q": "El-Biruni hangi coğrafi ölçümü inanılmaz hassasiyetle hesaplamıştır?",
+        "options": [
+          "Okyanusların derinliğini",
+          "Ay'a olan mesafeyi",
+          "Dünyanın büyüklüğünü (çevresini)"
+        ],
+        "correct": 2,
+        "explanation": "Bir dağ ve trigonometrik formüller kullanarak, El-Biruni Dünyanın yarıçapını %1'in altında hata ile hesaplamıştır."
+      },
+      {
+        "q": "El-Biruni, hangi bölgenin kültürünü ve bilimlerini inceleyerek 'Kitabü'l-Hind'i yazmıştır?",
+        "options": [
+          "Çin",
+          "Hindistan",
+          "Yunanistan"
+        ],
+        "correct": 1,
+        "explanation": "Hindistan'da kapsamlı seyahat etmiş, Sanskritçe öğrenmiş ve kapsamlı bir kültürel analiz yazmıştır."
+      },
+      {
+        "q": "El-Biruni, navigasyon için hangi astronomik aleti daha da geliştirmiştir?",
+        "options": [
+          "Usturlap",
+          "Pusula",
+          "Mikroskop"
+        ],
+        "correct": 0,
+        "explanation": "El-Biruni, astronomik haritalar tasarlamış ve güneş pozisyonlarını ve namaz yönlerini hesaplamak için usturlapları geliştirmiştir."
+      }
+    ]
+  },
+  {
+    "id": "al_ghazali",
+    "title": "Gazzâlî - İslam Felsefesi",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_29_scholar_al_ghazali-hXQACXYZ4iArCEGuBdVNNd.webp?updatedAt=1781117901160",
+    "emoji": "💡",
+    "category": "stories_history",
+    "content": {
+      "starter": "Gazzâlî, insanların nasıl düşündüğünü inceleyen bilge bir öğretmendi. Temiz, nazik bir kalbe sahip olmanın, süper zeki olmaktan da önemli olduğunu öğretti ve insanlara huzur bulmalarına yardımcı oldu!",
+      "explorer": "Gazzâlî (1058–1111), en etkili İslami teologlardan ve filozoflardan biriydi. 'Hüccetü'l-İslam' (İslam'ın Kanıtı) olarak bilinen Gazzâlî, zamanının en büyük akademisi olan Nizamiye'de öğretim yaptı. Entelektüel çalışmayı manevi tefekkür ile birleştiren güzel kitaplar yazdı ve insanların rasyonel bilimi olumlu manevi ahlak ile dengelemesine yardımcı oldu.",
+      "thinker": "Ebu Hamid el-Gazzâlî (1058–1111), İslam felsefesini, teolojisini ve tasavvufunu derinden şekillendirmiştir. Önemli eseri 'Tehafütü'l-Felasife'de ('Filozofların Çelişkisi') Yunan metafiziğini tartışmıştır. Ancak başyapıtı 'İhyau Ulumi'd-Din' (Dini Bilimlerin İhyası), fıkıh, entelektüel teoloji ve manevi mistisizmi birleştirmiş, karakter odaklı bir ahlak sistemi kurmuştur. Onun düşünce mirası, İslami entelektüel geleneğin yönünü belirlemiştir."
+    },
+    "funFact": "Biliyor muydunuz? Gazzâlî'nin unvanı, inanılmaz bilgi derinliğinden dolayı 'Hüccetü'l-İslam' (İslam'ın Kanıtı)'dır. O, öğrenmenin nihai amacının asil karakter ve iç huzur inşa etmek olduğuna inanıyordu!",
+    "quiz": [
+      {
+        "q": "Gazzâlî, hangi unvanla ünlüdür?",
+        "options": [
+          "Fiziğin Babası",
+          "Hüccetü'l-İslam (İslam'ın Kanıtı)",
+          "Doğu ve Batı'nın Öğretmeni"
+        ],
+        "correct": 1,
+        "explanation": "Teolojik felsefe üzerindeki ustalığı nedeniyle 'Hüccetü'l-İslam' olarak ünlüdür."
+      },
+      {
+        "q": "Gazzâlî, başyapıtı 'İhyau Ulumi'd-Din'de dini bilimlerin ihyasını nasıl tanımlamıştır?",
+        "options": [
+          "Ahlak, maneviyat ve kalp bilgisi",
+          "Daha hızlı gemiler inşa etmek",
+          "Kalkülüs öğrenmek"
+        ],
+        "correct": 0,
+        "explanation": "'İhyau Ulumi'd-Din', imanı, ahlaki karakteri ve manevi bilinci canlandırmaya odaklanır."
+      },
+      {
+        "q": "Gazzâlî'ye göre bilgi edinmenin amacı nedir?",
+        "options": [
+          "Tartışmaları kazanmak",
+          "Asil karakter inşa etmek ve Allah'a yaklaşmak",
+          "Bununla övünmek"
+        ],
+        "correct": 1,
+        "explanation": "Entelektüel bilginin, manevi alçakgönüllülük ve yüksek etik standartlar eşliğinde olmadıkça değersiz olduğunu öğretmiştir."
+      }
+    ]
+  },
+  {
+    "id": "fatima_al_fihri",
+    "title": "Fatıma el-Fihri - İlk Üniversite",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_30_scholar_fatima_al_fihri-oUUmqToz9ELRTCtWCXgCQn.webp?updatedAt=1781117901536",
+    "emoji": "🎓",
+    "category": "stories_history",
+    "content": {
+      "starter": "Fatıma el-Fihri, Fas'a taşınan zengin ve cömert bir Müslüman kadındı. Okumayı, bilimi ve eğitimi o kadar çok seviyordu ki, tüm mirasını dünyanın en eski üniversitesi olan Kairaouine Üniversitesi'ni inşa etmek için kullandı!",
+      "explorer": "Fatıma el-Fihri (800–880), ilham verici bir eğitimci ve hayırseverdi. 859 yılında Fas'ın Fez şehrinde Kairaouine Üniversitesi ve Camii'ni kurdu. UNESCO ve Guinness Rekorlar Kitabı, onu dünyanın sürekli faaliyet gösteren en eski derece veren eğitim kurumu olarak tanımaktadır.",
+      "thinker": "Fatıma el-Fihri (800–880), küresel yüksek öğretimin öncüsüdür. Fez'e göç ettikten ve büyük bir servet miras aldıktan sonra, servetini topluluğuna hizmet için harcamaya yemin etmiştir. Kairaouine camii ve üniversite kompleksinin karmaşık mimarisini ve inşasını denetlemiş, yıllar süren inşaat sırasında her gün oruç tutmuştur. Üniversite, dünya eğitiminin merkezi haline gelmiş, Hristiyan ve Müslüman âlimleri ağırlamıştır."
+    },
+    "funFact": "Biliyor muydunuz? Fatıma el-Fihri, 859 yılında Kairaouine Üniversitesi'ni inşa etmiştir. Bu, UNESCO tarafından insanlık tarihindeki en eski sürekli faaliyette olan üniversite olarak resmi olarak sertifikalandırılmıştır!",
+    "quiz": [
+      {
+        "q": "Fatıma el-Fihri en eski üniversiteyi hangi şehir ve ülkede kurmuştur?",
+        "options": [
+          "Kahire, Mısır",
+          "Fez, Fas",
+          "Bağdat, Irak"
+        ],
+        "correct": 1,
+        "explanation": "Fas'ın Fez şehrinde Kairaouine Üniversitesi'ni kurmuştur."
+      },
+      {
+        "q": "Fatıma, Kairaouine'nin inşası sırasında ne yapmıştır?",
+        "options": [
+          "Uzun bir tatile çıkmıştır",
+          "Tamamlanana kadar her gün oruç tutmuştur",
+          "Yelkenli gezisine çıkmıştır"
+        ],
+        "correct": 1,
+        "explanation": "Bir dindarlık eylemi olarak Fatıma el-Fihri, inşaatın yıllar sürdüğü süre boyunca her gün oruç tutmaya yemin etmiştir."
+      },
+      {
+        "q": "UNESCO'ya göre, Kairaouine Üniversitesi hangi ayrılığı taşımaktadır?",
+        "options": [
+          "Sadece en eski kütüphane",
+          "Dünyanın sürekli faaliyet gösteren en eski derece veren üniversitesi",
+          "Avrupa'daki ilk tıp fakültesi"
+        ],
+        "correct": 1,
+        "explanation": "Kairaouine, 859 yılından bu yana kesintisiz faaliyet göstermekte ve üniversite dereceleri vermektedir."
+      }
+    ]
+  },
+  {
+    "id": "ibn_khaldun",
+    "title": "İbn Haldun - Sosyolojinin Babası",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_31_scholar_ibn_khaldun-22Tqw9TsmYYVf9NDTfPHYp.webp?updatedAt=1781117901557",
+    "emoji": "📜",
+    "category": "stories_history",
+    "content": {
+      "starter": "İbn Haldun, uzman bir hikaye anlatıcı ve tarihçiydi. *İnsan gruplarını* ve toplumların nasıl büyüdüğünü incelemenin özel bir bilim olduğunu ilk fark eden âlimdir — buna şimdi sosyoloji diyoruz!",
+      "explorer": "İbn Haldun (1332–1406), efsanevi bir Arap tarihçisi, sosyolog ve filozoftu. Harika kitabı 'Mukaddime'de (Giriş), büyük imparatorlukların nasıl yükseldiğini, geliştiğini, yaşlandığını ve sonunda çözüldüğünü açıklayan 'Asabiyye' (toplumsal uyum) kavramını tanıttı.",
+      "thinker": "İbn Haldun (1332–1406), geniş çapta sosyolojinin, ekonominin, tarihin ve demografinin kurucu babası olarak kabul edilir. Anıtsal kitabı 'Mukaddime', bir tarih felsefesi formüle etmiştir. Göçebe kültürlerin medeniyetler kurduğunu ve üç nesil sonra çürüdüğünü açıklayarak tarihsel döngüleri analiz eden 'Asabiyye' — toplumsal uyum veya grup dayanışması — kavramını tanıtmıştır."
+    },
+    "funFact": "Biliyor muydunuz? İbn Haldun, dünyayı değiştiren kitabı 'Mukaddime'nin tamamını (erken sosyoloji ve ekonomiyi temsil eden), Batılı âlimler sosyolojiyi bir alan olarak kurmadan yıllar önce yazmıştır!",
+    "quiz": [
+      {
+        "q": "İbn Haldun'un dünya çapında ünlü tarihsel giriş kitabının adı nedir?",
+        "options": [
+          "Mukaddime (Giriş)",
+          "Tarih Kitabı",
+          "Altın Çağ"
+        ],
+        "correct": 0,
+        "explanation": "Toplumların sosyopolitik büyümesini analiz eden 'Mukaddime'yi yazmıştır."
+      },
+      {
+        "q": "İbn Haldun, Batılı âlimlerden yüzyıllar önce hangi büyük bilimsel disiplini öncülük etmiştir?",
+        "options": [
+          "Sosyoloji ve Tarihçilik",
+          "Nükleer Fizik",
+          "Deniz Biyolojisi"
+        ],
+        "correct": 0,
+        "explanation": "Sosyal kalıpların ve tarihsel döngülerin sistematik analizi onu sosyolojinin babası yapmaktadır."
+      },
+      {
+        "q": "İbn Haldun'un öne sürdüğü temel kavram olan 'Asabiyye' nedir?",
+        "options": [
+          "Yelken becerileri",
+          "Toplumsal dayanışma ve uyum",
+          "Astronomi hesaplamaları"
+        ],
+        "correct": 1,
+        "explanation": "'Asabiyye', toplumların istikrarlı uluslar inşa etmesini sağlayan topluluk bağı veya sosyal grup dayanışmasıdır."
       }
     ]
   }

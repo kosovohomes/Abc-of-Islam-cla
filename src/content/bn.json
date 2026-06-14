@@ -1,1306 +1,1621 @@
 [
   {
     "id": "shahada",
-    "title": "Shahada - Declaration of Faith",
+    "title": "শাহাদা - বিশ্বাসের ঘোষণা",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☪️",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "The Shahada says: \"There is no god but Allah, and Muhammad is His messenger.\" This is the most important sentence in Islam! When we say it, we tell everyone we believe in Allah and love His Prophet. It makes our heart light and happy!",
-      "explorer": "The Shahada is the first pillar of Islam. It has two parts: first, believing that only Allah is God — no one else deserves worship. Second, believing that Prophet Muhammad ﷺ is Allah's final messenger. Saying the Shahada with sincerity makes you Muslim. It's not just words — it's a promise from your heart to follow Allah's guidance.",
-      "thinker": "The Shahada is far more than a declaration — it's a complete worldview. The first part, \"La ilaha illallah,\" negates all false gods and affirms monotheism (Tawheed). The second part, \"Muhammadun rasulullah,\" establishes the prophetic authority of Muhammad ﷺ. Together, they form the foundation upon which all other Islamic practices are built. Understanding the Shahada means understanding the essence of submission to Allah."
+      "starter": "শাহাদা বলে: \"আল্লাহ ছাড়া কোনো ইলাহ নেই এবং মুহাম্মাদ তাঁর রাসূল।\" এটি ইসলামের সবচেয়ে গুরুত্বপূর্ণ বাক্য! আমরা যখন এটি বলি, তখন সবাইকে জানাই যে আমরা আল্লাহতে বিশ্বাস করি এবং তাঁর নবীকে ভালোবাসি। এটি আমাদের হৃদয়কে হালকা ও খুশি করে!",
+      "explorer": "শাহাদা হলো ইসলামের প্রথম স্তম্ভ। এর দুটি অংশ আছে: প্রথমত, বিশ্বাস করা যে কেবল আল্লাহই ইলাহ — অন্য কেউ ইবাদতের যোগ্য নয়। দ্বিতীয়ত, বিশ্বাস করা যে নবী মুহাম্মাদ ﷺ আল্লাহর সর্বশেষ রাসূল। আন্তরিকতার সাথে শাহাদা পড়লে মানুষ মুসলিম হয়ে যায়। এটি শুধু কথা নয় — এটি আপনার হৃদয় থেকে আল্লাহর নির্দেশনা অনুসরণ করার একটি প্রতিশ্রুতি।",
+      "thinker": "শাহাদা কেবল একটি ঘোষণার চেয়ে অনেক বেশি — এটি একটি সম্পূর্ণ জীবনদর্শন। প্রথম অংশ, \"লা ইলাহা ইল্লাল্লাহ,\" সমস্ত মিথ্যা ইলাহকে অস্বীকার করে এবং তাওহীদ (একত্ববাদ)-কে প্রতিষ্ঠিত করে। দ্বিতীয় অংশ, \"মুহাম্মাদুর রাসূলুল্লাহ,\" মুহাম্মাদ ﷺ-এর নবুয়ত কর্তৃত্ব প্রতিষ্ঠা করে। একসাথে, এগুলো এমন ভিত্তি গঠন করে যার ওপর অন্যান্য সকল ইসলামি আমল নির্মিত। শাহাদা বোঝা মানে আল্লাহর কাছে আত্মসমর্পণের সার বোঝা।"
     },
-    "funFact": "Did you know? The Shahada is whispered into a newborn baby's ear and is also the last words many Muslims hope to say before they pass away!",
+    "funFact": "তুমি কি জানো? শাহাদা একজন নবজাতক শিশুর কানে ফিসফিস করে বলা হয় এবং অনেক মুসলিম মৃত্যুর আগে এটিকে তাদের শেষ কথা হিসেবে বলতে চান!",
     "quiz": [
       {
-        "q": "What does Shahada mean?",
+        "q": "শাহাদা কী অর্থ?",
         "options": [
-          "Declaration of Faith",
-          "Daily Prayer",
-          "Charity Giving"
+          "বিশ্বাসের ঘোষণা",
+          "দৈনিক নামাজ",
+          "দান-খয়রাত"
         ],
         "correct": 0,
-        "explanation": "Shahada means 'Declaration of Faith' — it's the statement that makes someone Muslim."
+        "explanation": "শাহাদা অর্থ 'বিশ্বাসের ঘোষণা' — এটি এমন একটি বাক্য যা মানুষকে মুসলিম বানায়।"
       },
       {
-        "q": "How many parts does the Shahada have?",
+        "q": "শাহাদায় কয়টি অংশ আছে?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "একটি অংশ",
+          "দুটি অংশ",
+          "তিনটি অংশ"
         ],
         "correct": 1,
-        "explanation": "The Shahada has two parts: believing in one God and believing Muhammad is His messenger."
+        "explanation": "শাহাদায় দুটি অংশ আছে: এক আল্লাহতে বিশ্বাস এবং মুহাম্মাদ তাঁর রাসূল এই বিশ্বাস।"
       },
       {
-        "q": "Who is the last prophet mentioned in the Shahada?",
+        "q": "শাহাদায় কোন সর্বশেষ নবীর কথা বলা হয়েছে?",
         "options": [
-          "Prophet Musa",
-          "Prophet Isa",
-          "Prophet Muhammad"
+          "নবী মূসা",
+          "নবী ঈসা",
+          "নবী মুহাম্মাদ"
         ],
         "correct": 2,
-        "explanation": "The Shahada mentions Prophet Muhammad ﷺ as Allah's final messenger."
+        "explanation": "শাহাদায় নবী মুহাম্মাদ ﷺ-কে আল্লাহর সর্বশেষ রাসূল হিসেবে উল্লেখ করা হয়েছে।"
       }
     ]
   },
   {
     "id": "salah",
-    "title": "Salah - Prayer",
+    "title": "সালাহ - নামাজ",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🤲",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Salah is talking to Allah! Five times a day, we stop what we're doing, wash our hands and face (that's called wudu), face Mecca, and pray. It's like a special phone call to Allah. He loves when we talk to Him!",
-      "explorer": "Salah is the second pillar of Islam. Muslims pray five times a day: Fajr (dawn), Dhuhr (noon), Asr (afternoon), Maghrib (sunset), and Isha (night). Each prayer involves standing, bowing, and prostrating while reciting verses from the Quran. Salah keeps us connected to Allah throughout the day and teaches us discipline and gratitude.",
-      "thinker": "The five daily prayers (Salawat) are a gift from Allah, prescribed during the Night Journey (Isra and Mi'raj). Each prayer corresponds to a spiritual state: Fajr purifies the soul before the day begins, Dhuhr provides a midday recharge, Asr encourages reflection, Maghrib marks gratitude for the day's blessings, and Isha offers peace before sleep. The physical movements — standing (qiyam), bowing (ruku), and prostration (sujud) — are acts of humility that remind us of our relationship with our Creator."
+      "starter": "সালাহ হলো আল্লাহর সাথে কথা বলা! দিনে পাঁচবার আমরা যা করছিলাম তা থামিয়ে, হাত ও মুখ ধুয়ে (একে বলে উযু), মক্কার দিকে মুখ করে নামাজ পড়ি। এটা যেন আল্লাহকে একটা বিশেষ ফোন কল! আমরা যখন তাঁর সাথে কথা বলি তখন তিনি খুব খুশি হন!",
+      "explorer": "সালাহ হলো ইসলামের দ্বিতীয় স্তম্ভ। মুসলিমরা দিনে পাঁচবার নামাজ পড়ে: ফজর (ভোর), যোহর (দুপুর), আসর (বিকাল), মাগরিব (সন্ধ্যা) এবং ইশা (রাত)। প্রতিটি নামাজে দাঁড়িয়ে, রুকু এবং সিজদা করা হয় এবং কুরআনের আয়াত পাঠ করা হয়। সালাহ আমাদের সারাদিন আল্লাহর সাথে যুক্ত রাখে এবং আমাদের শৃঙ্খলা ও কৃতজ্ঞতা শেখায়।",
+      "thinker": "পাঁচ ওয়াক্ত নামাজ (সালাওয়াত) আল্লাহর একটি উপহার, যা মেরাজের রাতে (ইসরা ও মেরাজ) নির্ধারিত হয়েছিল। প্রতিটি নামাজ একটি আধ্যাত্মিক অবস্থার সাথে সম্পর্কিত: ফজর দিন শুরুর আগে আত্মাকে পবিত্র করে, যোহর মধ্যাহ্নে পুনরুজ্জীবন দেয়, আসর চিন্তাকে উৎসাহিত করে, মাগরিব দিনের নিয়ামতের জন্য কৃতজ্ঞতা চিহ্নিত করে এবং ইশা ঘুমানোর আগে শান্তি প্রদান করে। শারীরিক আন্দোলনগুলো — দাঁড়ানো (কিয়াম), রুকু এবং সিজদা — বিনয়ের কাজ যা আমাদের স্রষ্টার সাথে সম্পর্কের কথা মনে করিয়ে দেয়।"
     },
-    "funFact": "Did you know? Muslims face the Kaaba in Mecca when they pray, no matter where they are in the world! Even from space, astronauts pray toward Mecca!",
+    "funFact": "তুমি কি জানো? মুসলিমরা নামাজ পড়ার সময় মক্কার কাবার দিকে মুখ করে, পৃথিবীতে তারা যেখানেই থাকুক না কেন! এমনকি মহাকাশ থেকেও মহাকাশচারীরা মক্কার দিকে নামাজ পড়েন!",
     "quiz": [
       {
-        "q": "How many times a day do Muslims pray?",
+        "q": "মুসলিমরা দিনে কতবার নামাজ পড়ে?",
         "options": [
-          "Three times",
-          "Five times",
-          "Seven times"
+          "তিনবার",
+          "পাঁচবার",
+          "সাতবার"
         ],
         "correct": 1,
-        "explanation": "Muslims pray five times a day: Fajr, Dhuhr, Asr, Maghrib, and Isha."
+        "explanation": "মুসলিমরা দিনে পাঁচবার নামাজ পড়ে: ফজর, যোহর, আসর, মাগরিব ও ইশা।"
       },
       {
-        "q": "What do we do before praying?",
+        "q": "নামাজ পড়ার আগে আমরা কী করি?",
         "options": [
-          "Eat food",
-          "Perform wudu (ablution)",
-          "Read a book"
+          "খাবার খাই",
+          "উযু (অজু) করি",
+          "বই পড়ি"
         ],
         "clean": 1,
-        "explanation": "We perform wudu (ablution) to clean ourselves before praying."
+        "explanation": "নামাজ পড়ার আগে আমরা উযু (অজু) করি নিজেদের পরিষ্কার করতে।"
       },
       {
-        "q": "Which direction do Muslims face when praying?",
+        "q": "নামাজ পড়ার সময় মুসলিমরা কোন দিকে মুখ করে?",
         "options": [
-          "North",
-          "The Kaaba in Mecca",
-          "East"
+          "উত্তর দিকে",
+          "মক্কার কাবার দিকে",
+          "পূর্ব দিকে"
         ],
         "correct": 1,
-        "explanation": "Muslims face the Kaaba in Mecca, which is called the Qibla."
+        "explanation": "মুসলিমরা মক্কার কাবার দিকে মুখ করে, যাকে কিবলা বলা হয়।"
       }
     ]
   },
   {
     "id": "zakat",
-    "title": "Zakat - Charity",
+    "title": "যাকাত - দান",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_45_zakat_overview-iB69C239XxvYzdfsgqWaNR.webp?updatedAt=1781117902141",
     "emoji": "💰",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Zakat means sharing what we have with others! If we have extra money, we give a little bit to people who need it. It's like Allah is asking us to be kind and share. When we give, our hearts feel happy!",
-      "explorer": "Zakat is the third pillar of Islam. It means giving 2.5% of your savings each year to those in need. It's not optional — it's an obligation for Muslims who have wealth above a certain amount. Zakat purifies our money and reminds us that everything belongs to Allah. It helps the poor, pays off debts, and strengthens the community.",
-      "thinker": "Zakat is both a social and spiritual obligation. The word 'zakat' means 'purification' and 'growth' — by giving a portion of our wealth, we purify the remainder and grow spiritually. Allah says in the Quran that those who pay Zakat are helping to purify themselves (At-Tawbah 9:103). The fixed rate of 2.5% (one-fortieth) applies to savings held for one lunar year above the nisab threshold. This systematic approach to wealth redistribution was revolutionary and remains one of Islam's most powerful social justice mechanisms."
+      "starter": "যাকাত মানে আমাদের কাছে যা আছে তা অন্যদের সাথে ভাগ করে নেওয়া! আমাদের কাছে অতিরিক্ত টাকা থাকলে আমরা যাদের প্রয়োজন তাদের একটু দিই। এটা যেন আল্লাহ আমাদের দয়ালু হতে এবং ভাগ করতে বলছেন। আমরা যখন দান করি, আমাদের হৃদয় খুশিতে ভরে যায়!",
+      "explorer": "যাকাত হলো ইসলামের তৃতীয় স্তম্ভ। এর অর্থ হলো প্রতি বছর সঞ্চয়ের ২.৫% অভাবীদের দেওয়া। এটি ঐচ্ছিক নয় — এটি এমন সব মুসলিমের জন্য ফরজ যাদের নির্দিষ্ট পরিমাণের ওপরে সম্পদ আছে। যাকাত আমাদের অর্থকে পবিত্র করে এবং আমাদের মনে করিয়ে দেয় যে সবকিছু আল্লাহর। এটি গরিবদের সাহায্য করে, ঋণ পরিশোধ করতে সহায়তা করে এবং সমাজকে শক্তিশালী করে।",
+      "thinker": "যাকাত একইসাথে একটি সামাজিক ও আধ্যাত্মিক দায়িত্ব। 'যাকাত' শব্দের অর্থ 'পবিত্রতা' এবং 'বৃদ্ধি' — আমাদের সম্পদের একটি অংশ দান করার মাধ্যমে আমরা অবশিষ্ট সম্পদকে পবিত্র করি এবং আধ্যাত্মিকভাবে বৃদ্ধি পাই। আল্লাহ কুরআনে বলেছেন যে যারা যাকাত দেয় তারা নিজেদেরকে পবিত্র করতে সাহায্য করছে (সূরা আত-তাওবা ৯:১০৩)। নির্দিষ্ট হার ২.৫% (এক-চল্লিশ ভাগের এক ভাগ) এক চন্দ্র বছর ধরে নিসাব সীমার ওপরে সঞ্চিত সম্পদের ক্ষেত্রে প্রযোজ্য। সম্পদ পুনর্বণ্টনের এই পদ্ধতিগত পদ্ধতি বিপ্লবাত্মক ছিল এবং ইসলামের সবচেয়ে শক্তিশালী সামাজিক ন্যায়বিচার ব্যবস্থাগুলোর একটি হিসেবে আজও রয়ে গেছে।"
     },
-    "funFact": "Did you know? The word 'Zakat' means 'purification' — when you give Zakat, your remaining money becomes blessed and pure!",
+    "funFact": "তুমি কি জানো? 'যাকাত' শব্দের অর্থ 'পবিত্রতা' — তুমি যখন যাকাত দাও, তোমার অবশিষ্ট অর্থ বরকতময় ও পবিত্র হয়ে যায়!",
     "quiz": [
       {
-        "q": "What percentage of savings is given as Zakat?",
+        "q": "সঞ্চয়ের কত শতাংশ যাকাত হিসেবে দেওয়া হয়?",
         "options": [
-          "1%",
-          "2.5%",
-          "10%"
+          "১%",
+          "২.৫%",
+          "১০%"
         ],
         "correct": 1,
-        "explanation": "Muslims give 2.5% (one-fortieth) of their savings as Zakat each year."
+        "explanation": "মুসলিমরা প্রতি বছর সঞ্চয়ের ২.৫% (এক-চল্লিশ ভাগের এক ভাগ) যাকাত হিসেবে দেয়।"
       },
       {
-        "q": "What does the word 'Zakat' mean?",
+        "q": "'যাকাত' শব্দের অর্থ কী?",
         "options": [
-          "Charity",
-          "Purification",
-          "Prayer"
+          "দানখয়রাত",
+          "পবিত্রতা",
+          "নামাজ"
         ],
         "correct": 1,
-        "explanation": "Zakat means 'purification' — it purifies our wealth and our hearts."
+        "explanation": "যাকাত অর্থ 'পবিত্রতা' — এটি আমাদের সম্পদ ও হৃদয়কে পবিত্র করে।"
       },
       {
-        "q": "Who receives Zakat?",
+        "q": "কারা যাকাত পায়?",
         "options": [
-          "Only family",
-          "People in need",
-          "Only the rich"
+          "শুধু পরিবার",
+          "অভাবী মানুষ",
+          "শুধু ধনীরা"
         ],
         "correct": 1,
-        "explanation": "Zakat is given to people in need, including the poor, debtors, and travelers."
+        "explanation": "যাকাত অভাবী মানুষদের দেওয়া হয়, যার মধ্যে গরিব, ঋণগ্রস্ত এবং মুসাফিররা অন্তর্ভুক্ত।"
       }
     ]
   },
   {
     "id": "sawm",
-    "title": "Sawm - Fasting in Ramadan",
+    "title": "সাওম - রমজানে রোজা",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_40_ramadan_fasting-SeQhGeRR5buiYbtryMhUKA.webp?updatedAt=1781117899738",
     "emoji": "🌙",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "During Ramadan, we don't eat or drink from sunrise to sunset. That's called fasting! It teaches us to be patient and think about people who don't have food. At night, we break our fast with family and pray together. It's very special!",
-      "explorer": "Sawm means fasting during the month of Ramadan, the fourth pillar of Islam. From dawn to sunset, Muslims abstain from food, drink, and other physical needs. But fasting is not just about staying hungry — it's about building patience, empathy for the poor, and getting closer to Allah. The fast is broken at sunset with a meal called Iftar, often shared with family and community.",
-      "thinker": "Sawm during Ramadan is a comprehensive act of worship that trains the body, mind, and soul. The Quran was first revealed during Ramadan (Surah Al-Baqarah 2:185), making this month especially sacred. Fasting develops taqwa (God-consciousness) by creating a physical reminder of Allah's presence. Beyond abstaining from food and drink, Muslims are encouraged to avoid negative speech, anger, and gossip. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a rhythm of gratitude and community that transforms the entire month."
+      "starter": "রমজান মাসে আমরা সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত খাবার বা পানি পান করি না। একে বলে রোজা! এটি আমাদের ধৈর্য শেখায় এবং যাদের খাবার নেই তাদের কথা ভাবতে সাহায্য করে। রাতে আমরা পরিবারের সাথে ইফতার করি এবং একসাথে নামাজ পড়ি। এটা খুবই বিশেষ!",
+      "explorer": "সাওম মানে রমজান মাসে রোজা রাখা, ইসলামের চতুর্থ স্তম্ভ। ভোর থেকে সূর্যাস্ত পর্যন্ত মুসলিমরা খাবার, পানি এবং অন্যান্য শারীরিক প্রয়োজন থেকে বিরত থাকে। কিন্তু রোজা শুধু না খেয়ে থাকা নয় — এটি ধৈর্য অর্জন, গরিবদের প্রতি সহানুভূতি তৈরি এবং আল্লাহর কাছাকাছি যাওয়ার বিষয়। রোজা সূর্যাস্তে ইফতারের মাধ্যমে ভাঙা হয়, যা প্রায়ই পরিবার ও সমাজের সাথে ভাগ করা হয়।",
+      "thinker": "রমজানে সাওম হলো একটি ব্যাপক ইবাদত যা শরীর, মন ও আত্মাকে প্রশিক্ষণ দেয়। কুরআন প্রথম রমজানে নাজিল হয়েছিল (সূরা আল-বাকারা ২:১৮৫), যা এই মাসকে বিশেষভাবে পবিত্র করে তোলে। রোজা তাকওয়া (আল্লাহভীতি) তৈরি করে আল্লাহর উপস্থিতির শারীরিক স্মরণ সৃষ্টির মাধ্যমে। খাবার ও পানি থেকে বিরত থাকার পাশাপাশি মুসলিমদের নেতিবাচক কথাবার্তা, রাগ এবং গিবত থেকে বিরত থাকতে উৎসাহিত করা হয়। সেহরি ও ইফতারের মাধ্যমে কৃতজ্ঞতা ও সম্প্রদায়ের একটি ছন্দ তৈরি হয় যা পুরো মাসকে রূপান্তরিত করে।"
     },
-    "funFact": "Did you know? Muslims break their fast with dates, just like Prophet Muhammad ﷺ used to! The word 'Iftar' means 'breaking the fast'!",
+    "funFact": "তুমি কি জানো? মুসলিমরা খেজুর দিয়ে রোজা ভাঙে, ঠিক যেমনটি নবী মুহাম্মাদ ﷺ করতেন! 'ইফতার' শব্দের অর্থ 'রোজা ভাঙা'!",
     "quiz": [
       {
-        "q": "During which month do Muslims fast?",
+        "q": "মুসলিমরা কোন মাসে রোজা রাখে?",
         "options": [
-          "Muharram",
-          "Ramadan",
-          "Shawwal"
+          "মহররম",
+          "রমজান",
+          "শাওয়াল"
         ],
         "correct": 1,
-        "explanation": "Muslims fast during the holy month of Ramadan."
+        "explanation": "মুসলিমরা পবিত্র রমজান মাসে রোজা রাখে।"
       },
       {
-        "q": "What is the meal called when we break our fast?",
+        "q": "রোজা ভাঙার খাবারকে কী বলা হয়?",
         "options": [
-          "Suhoor",
-          "Iftar",
-          "Dhuhr"
+          "সেহরি",
+          "ইফতার",
+          "যোহর"
         ],
         "correct": 1,
-        "explanation": "The meal at sunset to break the fast is called Iftar."
+        "explanation": "সূর্যাস্তে রোজা ভাঙার খাবারকে ইফতার বলা হয়।"
       },
       {
-        "q": "What food did Prophet Muhammad ﷺ use to break his fast?",
+        "q": "নবী মুহাম্মাদ ﷺ কোন খাবার দিয়ে রোজা ভাঙতেন?",
         "options": [
-          "Bread",
-          "Dates",
-          "Rice"
+          "রুটি",
+          "খেজুর",
+          "ভাত"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ would break his fast with dates and water."
+        "explanation": "নবী মুহাম্মাদ ﷺ খেজুর ও পানি দিয়ে রোজা ভাঙতেন।"
       }
     ]
   },
   {
     "id": "hajj",
-    "title": "Hajj - Pilgrimage to Mecca",
+    "title": "হজ - মক্কায় তীর্থযাত্রা",
     "image": "https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446",
     "emoji": "🕋",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Hajj is a big trip to Mecca! Every Muslim who is able goes there to pray around the Kaaba — Allah's house. Millions of people go together, wearing simple white clothes. Everyone is equal there — rich or poor, it doesn't matter!",
-      "explorer": "Hajj is the fifth pillar of Islam — a pilgrimage to Mecca that every Muslim must make at least once in their lifetime if they are able. It happens during the Islamic month of Dhul Hijjah. Pilgrims wear simple white clothes called Ihram, circling the Kaaba, walking between hills, and standing in prayer at Arafat. Hajj teaches equality, patience, and devotion to Allah.",
-      "thinker": "Hajj is the world's largest annual gathering and represents the ultimate expression of Islamic unity. Following the footsteps of Prophet Ibrahim ﷺ and his family, pilgrims perform rituals that symbolize sacrifice, purification, and submission to Allah. The wearing of Ihram strips away all markers of wealth and status — everyone stands equal before Allah. The Prophet ﷺ said: 'Hajj is an obligation once in a lifetime for whoever has the ability.' It is a profound spiritual journey that cleanses sins and renews one's connection with the Creator."
+      "starter": "হজ হলো মক্কায় একটি বড় ভ্রমণ! প্রত্যেক সক্ষম মুসলিম সেখানে গিয়ে কাবা — আল্লাহর ঘরের চারপাশে তাওয়াফ করে। লক্ষ লক্ষ মানুষ একসাথে যান, সবাই সাদা সাধারণ কাপড় পরেন। সেখানে সবাই সমান — ধনী বা গরিব, কোনো ব্যাপার নয়!",
+      "explorer": "হজ হলো ইসলামের পঞ্চম স্তম্ভ — মক্কায় তীর্থযাত্রা যা প্রত্যেক সক্ষম মুসলিমকে জীবনে অন্তত একবার করতে হবে। এটি ইসলামি মাস জিলহজ্জে অনুষ্ঠিত হয়। হজযাত্রীরা সাদা সাধারণ পোশাক ইহরাম পরেন, কাবা প্রদক্ষিণ করেন, পাহাড়দুটির মাঝে সাঈ করেন এবং আরাফাতে দাঁড়িয়ে দোয়া করেন। হজ সমতা, ধৈর্য এবং আল্লাহর প্রতি ভক্তি শেখায়।",
+      "thinker": "হজ হলো বিশ্বের বৃহত্তম বার্ষিক সমাবেশ এবং ইসলামি ঐক্যের চূড়ান্ত প্রকাশ। নবী ইবরাহিম ﷺ এবং তাঁর পরিবারের পদচিহ্ন অনুসরণ করে হজযাত্রীরা এমন আনুষ্ঠানিকতা পালন করেন যা ত্যাগ, পবিত্রতা এবং আল্লাহর কাছে আত্মসমর্পণকে প্রতীকী করে। ইহরাম পরা সম্পদ ও মর্যাদার সমস্ত চিহ্ন মুছে দেয় — সবাই আল্লাহর সামনে সমান হয়ে দাঁড়ায়। নবী ﷺ বলেছেন: 'যার সামর্থ্য আছে তার জন্য জীবনে একবার হজ করা ফরজ।' এটি একটি গভীর আধ্যাত্মিক যাত্রা যা গুনাহ মুছে দেয় এবং স্রষ্টার সাথে সম্পর্ক নবায়ন করে।"
     },
-    "funFact": "Did you know? Over 2 million people perform Hajj every year! When pilgrims throw stones at the pillars (Jamarat), they're following the example of Prophet Ibrahim!",
+    "funFact": "তুমি কি জানো? প্রতি বছর ২০ লক্ষেরও বেশি মানুষ হজ করেন! হজযাত্রীরা যখন জামারাতে পাথর নিক্ষেপ করেন, তখন তারা নবী ইবরাহিমের আদর্শ অনুসরণ করেন!",
     "quiz": [
       {
-        "q": "How often must a Muslim perform Hajj?",
+        "q": "একজন মুসলিমকে কতবার হজ করতে হয়?",
         "options": [
-          "Every year",
-          "Once in a lifetime",
-          "Every 5 years"
+          "প্রতি বছর",
+          "জীবনে একবার",
+          "প্রতি ৫ বছরে"
         ],
         "correct": 1,
-        "explanation": "Every Muslim who is able must perform Hajj at least once in their lifetime."
+        "explanation": "প্রত্যেক সক্ষম মুসলিমকে জীবনে অন্তত একবার হজ করতে হবে।"
       },
       {
-        "q": "What do pilgrims wear during Hajj?",
+        "q": "হজযাত্রীরা হজের সময় কী পরেন?",
         "options": [
-          "Regular clothes",
-          "Simple white clothes called Ihram",
-          "Black clothes"
+          "সাধারণ পোশাক",
+          "ইহরাম নামক সাদা সাধারণ কাপড়",
+          "কালো কাপড়"
         ],
         "correct": 1,
-        "explanation": "Pilgrims wear simple white clothes called Ihram to show everyone is equal."
+        "explanation": "হজযাত্রীরা ইহরাম নামক সাদা সাধারণ কাপড় পরেন যা সবাই সমান তা দেখায়।"
       },
       {
-        "q": "Which prophet's example do pilgrims follow at Hajj?",
+        "q": "হজে কোন নবীর আদর্শ অনুসরণ করা হয়?",
         "options": [
-          "Prophet Musa",
-          "Prophet Ibrahim",
-          "Prophet Isa"
+          "নবী মূসা",
+          "নবী ইবরাহিম",
+          "নবী ঈসা"
         ],
         "correct": 1,
-        "explanation": "Pilgrims follow the example of Prophet Ibrahim ﷺ and his family."
+        "explanation": "হজযাত্রীরা নবী ইবরাহিম ﷺ এবং তাঁর পরিবারের আদর্শ অনুসরণ করেন।"
       }
     ]
   },
   {
     "id": "tawheed",
-    "title": "Tawheed - Oneness of God",
+    "title": "তাওহীদ - আল্লাহর একত্ব",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☝️",
     "category": "core_beliefs",
     "content": {
-      "starter": "Tawheed means there is ONLY ONE God — Allah! He created everything: you, me, the stars, the animals, everything! We only pray to Allah, not to anyone else. Allah is the only one who deserves our love and worship!",
-      "explorer": "Tawheed is the most important belief in Islam — that there is only one God, Allah. He has no partners, no family, and no equals. He is the Creator of everything and the only one worthy of worship. Understanding Tawheed means we don't pray to statues, people, or anything else — only to Allah. This belief is the foundation of everything in Islam.",
-      "thinker": "Tawheed is the cornerstone of Islamic theology, encompassing three dimensions: Tawheed ar-Rububiyyah (Oneness of Lordship), Tawheed al-Uluhiyyah (Oneness of Worship), and Tawheed al-Asma wa'l-Sifat (Oneness of Names and Attributes). The first recognizes Allah as the sole Creator and Sustainer. The second directs all forms of worship exclusively to Him. The third affirms that Allah's attributes are unique and incomparable. The Quran states: 'Say, He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is begotten. And there is none comparable to Him' (Surah Al-Ikhlas 112:1-4)."
+      "starter": "তাওহীদ মানে কেবল একজন ইলাহ আছেন — আল্লাহ! তিনি সবকিছু সৃষ্টি করেছেন: তোমাকে, আমাকে, তারাদের, পশুদের, সবকিছু! আমরা কেবল আল্লাহকেই ইবাদত করি, অন্য কাউকে নয়। আল্লাহই একমাত্র যিনি আমাদের ভালোবাসা ও ইবাদতের যোগ্য!",
+      "explorer": "তাওহীদ হলো ইসলামের সবচেয়ে গুরুত্বপূর্ণ বিশ্বাস — যে কেবল একজন ইলাহ আছেন, আল্লাহ। তাঁর কোনো অংশীদার নেই, কোনো পরিবার নেই, এবং কেউ তাঁর সমকক্ষ নয়। তিনি সবকিছুর স্রষ্টা এবং কেবল তিনিই ইবাদতের যোগ্য। তাওহীদ বোঝা মানে আমরা মূর্তি, মানুষ বা অন্য কোনো কিছুর ইবাদত করি না — কেবল আল্লাহরই ইবাদত করি। এই বিশ্বাস ইসলামের সবকিছুর ভিত্তি।",
+      "thinker": "তাওহীদ হলো ইসলামি ধর্মতত্ত্বের ভিত্তি, যা তিনটি মাত্রাকে অন্তর্ভুক্ত করে: তাওহীদুর রুবুবিয়্যাহ (প্রভুত্বের একত্ব), তাওহীদুল উলুহিয়্যাহ (ইবাদতের একত্ব), এবং তাওহীদুল আসমা ওয়াস সিফাত (নাম ও গুণাবলীর একত্ব)। প্রথমটি আল্লাহকে একমাত্র স্রষ্টা ও পালনকর্তা হিসেবে স্বীকার করে। দ্বিতীয়টি সমস্ত ইবাদত কেবল তাঁর দিকে নির্দেশ করে। তৃতীয়টি প্রতিষ্ঠিত করে যে আল্লাহর গুণাবলী অদ্বিতীয় ও তুলনাহীন। কুরআনে বলা হয়েছে: 'বলো, তিনি আল্লাহ, এক-অদ্বিতীয়। আল্লাহ, কারো মুখাপেক্ষী নন, সকলেই তাঁর মুখাপেক্ষী। তিনি কাউকে জন্ম দেননি এবং তাঁকে কেউ জন্ম দেয়নি। আর তাঁর সমকক্ষ কেউ নেই' (সূরা আল-ইখলাস ১১২:১-৪)।"
     },
-    "funFact": "Did you know? The word 'Islam' comes from the root 'salaam' which means peace, and it means submission to Allah — the One God!",
+    "funFact": "তুমি কি জানো? 'ইসলাম' শব্দটি 'সালাম' মূল থেকে এসেছে যার অর্থ শান্তি, এবং এর অর্থ আল্লাহর — এক ইলাহের — কাছে আত্মসমর্পণ করা!",
     "quiz": [
       {
-        "q": "What does Tawheed mean?",
+        "q": "তাওহীদ কী অর্থ?",
         "options": [
-          "Many gods",
-          "Oneness of God",
-          "Prayer"
+          "অনেক ইলাহ",
+          "আল্লাহর একত্ব",
+          "নামাজ"
         ],
         "correct": 1,
-        "explanation": "Tawheed means the Oneness of God — believing there is only one God, Allah."
+        "explanation": "তাওহীদ অর্থ আল্লাহর একত্ব — বিশ্বাস করা যে কেবল একজন ইলাহ আছেন, আল্লাহ।"
       },
       {
-        "q": "How many gods does Islam teach us about?",
+        "q": "ইসলাম কতজন ইলাহের কথা শেখায়?",
         "options": [
-          "Many gods",
-          "Only one God",
-          "Two gods"
+          "অনেক ইলাহ",
+          "কেবল একজন ইলাহ",
+          "দুইজন ইলাহ"
         ],
         "correct": 1,
-        "explanation": "Islam teaches us that there is only one God — Allah."
+        "explanation": "ইসলাম শেখায় যে কেবল একজন ইলাহ আছেন — আল্লাহ।"
       },
       {
-        "q": "Which surah of the Quran talks about Tawheed?",
+        "q": "কুরআনের কোন সূরায় তাওহীদের কথা আলোচনা করা হয়েছে?",
         "options": [
-          "Al-Fatiha",
-          "Al-Ikhlas",
-          "Al-Baqarah"
+          "আল-ফাতিহা",
+          "আল-ইখলাস",
+          "আল-বাকারা"
         ],
         "correct": 1,
-        "explanation": "Surah Al-Ikhlas (112) talks about the Oneness of God."
+        "explanation": "সূরা আল-ইখলাস (১১২) আল্লাহর একত্ব সম্পর্কে আলোচনা করে।"
       }
     ]
   },
   {
     "id": "angels",
-    "title": "Angels",
+    "title": "ফেরেশতা",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "👼",
     "category": "core_beliefs",
     "content": {
-      "starter": "Angels are special creatures made of light! Allah sends them to help us. Some angels write down our good and bad deeds. Some angels take our souls when it's time. Angels always obey Allah and never make mistakes!",
-      "explorer": "Angels are one of the six articles of faith in Islam. They are created from light and always obey Allah. The most famous angel is Jibril (Gabriel), who brought Allah's messages to the prophets. Other important angels include Mikail (Michael), Israfil (who will blow the trumpet on Judgment Day), and Azra'il (the angel of death). Angels record our deeds and protect us.",
-      "thinker": "Angels (Mala'ika) are a fundamental article of Islamic belief. Created from light, they exist in a different dimension and serve Allah in various capacities. Jibril (Gabriel) delivered the Quran to Prophet Muhammad ﷺ. The Kiraman Katibin are recording angels who document every deed. The angel Munkar and Nakir question the dead in their graves. Unlike humans, angels have no free will — they always obey Allah. Their existence reminds us that we are never truly alone and that our actions are always being witnessed."
+      "starter": "ফেরেশতারা হলো নূর থেকে সৃষ্ট বিশেষ সত্তা! আল্লাহ তাদের আমাদের সাহায্য করতে পাঠান। কিছু ফেরেশতা আমাদের ভালো ও মন্দ কাজ লিখে রাখেন। কিছু ফেরেশতা সময় হলে আমাদের আত্মা নিয়ে যান। ফেরেশতারা সবসময় আল্লাহর আদেশ মানেন এবং কখনো ভুল করেন না!",
+      "explorer": "ফেরেশতারা ইসলামের ঈমানের ছয়টি অঙ্গের একটি। তারা নূর থেকে সৃষ্ট এবং সবসময় আল্লাহর আদেশ মানেন। সবচেয়ে বিখ্যাত ফেরেশতা হলেন জিবরাঈল (গ্যাব্রিয়েল), যিনি নবীদের কাছে আল্লাহর বার্তা নিয়ে আসতেন। অন্যান্য গুরুত্বপূর্ণ ফেরেশতাদের মধ্যে মিকাঈল (মাইকেল), ইসরাফিল (যিনি কিয়ামতের দিন শিঙ্গা ফুঁকবেন) এবং আযরাঈল (মৃত্যুর ফেরেশতা) অন্তর্ভুক্ত। ফেরেশতারা আমাদের আমল লিখেন এবং আমাদের রক্ষা করেন।",
+      "thinker": "ফেরেশতা (মালায়িকা) ইসলামি বিশ্বাসের একটি মৌলিক অঙ্গ। নূর থেকে সৃষ্ট, তারা ভিন্ন মাত্রায় বিদ্যমান এবং বিভিন্ন দায়িত্বে আল্লাহর সেবা করেন। জিবরাঈল (গ্যাব্রিয়েল) নবী মুহাম্মাদ ﷺ-এর কাছে কুরআন নিয়ে এসেছিলেন। কিরামান কাতিবীন হলেন লেখক ফেরেশতা যারা প্রতিটি কাজ লিখে রাখেন। মুনকার ও নাকীর ফেরেশতা কবরে মৃতদের প্রশ্ন করেন। মানুষের মতো নয়, ফেরেশতাদের কোনো স্বাধীন ইচ্ছা নেই — তারা সবসময় আল্লাহর আদেশ মানেন। তাদের অস্তিত্ব আমাদের মনে করিয়ে দেয় যে আমরা কখনোই সত্যিই একা নই এবং আমাদের কাজ সবসময় প্রত্যক্ষ হচ্ছে।"
     },
-    "funFact": "Did you know? Angels have wings! Some have two, some have three, some have four — and Prophet Muhammad ﷺ saw the angel Jibril with 600 wings!",
+    "funFact": "তুমি কি জানো? ফেরেশতাদের ডানা আছে! কারো দুটি, কারো তিনটি, কারো চারটি — আর নবী মুহাম্মাদ ﷺ জিবরাঈলকে ৬০০টি ডানা সহ দেখেছিলেন!",
     "quiz": [
       {
-        "q": "What are angels made of?",
+        "q": "ফেরেশতাদের কী থেকে সৃষ্টি করা হয়েছে?",
         "options": [
-          "Fire",
-          "Light",
-          "Water"
+          "আগুন",
+          "নূর",
+          "পানি"
         ],
         "correct": 1,
-        "explanation": "Angels are created from light."
+        "explanation": "ফেরেশতাদের নূর থেকে সৃষ্টি করা হয়েছে।"
       },
       {
-        "q": "Which angel brought messages to the prophets?",
+        "q": "কোন ফেরেশতা নবীদের কাছে বার্তা নিয়ে আসতেন?",
         "options": [
-          "Mikail",
-          "Jibril",
-          "Israfil"
+          "মিকাঈল",
+          "জিবরাঈল",
+          "ইসরাফিল"
         ],
         "correct": 1,
-        "explanation": "Jibril (Gabriel) brought Allah's messages to the prophets."
+        "explanation": "জিবরাঈল (গ্যাব্রিয়েল) নবীদের কাছে আল্লাহর বার্তা নিয়ে আসতেন।"
       },
       {
-        "q": "Do angels have free will?",
+        "q": "ফেরেশতাদের কি স্বাধীন ইচ্ছা আছে?",
         "options": [
-          "Yes, they can choose",
-          "No, they always obey Allah",
-          "Sometimes"
+          "হ্যাঁ, তারা বেছে নিতে পারেন",
+          "না, তারা সবসময় আল্লাহর আদেশ মানেন",
+          "মাঝে মাঝে"
         ],
         "correct": 1,
-        "explanation": "Angels always obey Allah — they don't have free will like humans."
+        "explanation": "ফেরেশতারা সবসময় আল্লাহর আদেশ মানেন — মানুষের মতো তাদের স্বাধীন ইচ্ছা নেই।"
       }
     ]
   },
   {
     "id": "holy_books",
-    "title": "Holy Books",
+    "title": "আসমানি কিতাব",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📕",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent holy books to guide people! The most important one for us is the Quran — Allah's final book, sent to Prophet Muhammad ﷺ. Before that, Allah sent the Torah to Musa, the Zabur to Dawud, and the Injil to Isa. The Quran is special because Allah promised to protect it!",
-      "explorer": "Muslims believe that Allah revealed several holy books to guide humanity. The Tawrat (Torah) was given to Prophet Musa, the Zabur (Psalms) to Prophet Dawud, and the Injil (Gospel) to Prophet Isa. The Quran is the final and most complete revelation, sent to Prophet Muhammad ﷺ. We believe the earlier books were changed over time, but the Quran has been preserved exactly as Allah revealed it.",
-      "thinker": "The belief in holy books (Kutub) is the third article of Islamic faith. Allah revealed guidance through various scriptures: the Sahifat to Ibrahim, the Tawrat to Musa, the Zabur to Dawud, the Injil to Isa, and the Quran to Muhammad ﷺ. While Muslims respect all these revelations, we believe the Quran is the final and preserved word of Allah. It was revealed over 23 years and has been memorized by millions of huffaz (memorizers) throughout history. The Quran is unique in that Allah Himself guaranteed its preservation: 'Indeed, it is We who sent down the Quran and indeed, We will be its guardian' (Surah Al-Hijr 15:9)."
+      "starter": "আল্লাহ মানুষকে পথ দেখানোর জন্য আসমানি কিতাব পাঠিয়েছেন! আমাদের জন্য সবচেয়ে গুরুত্বপূর্ণ হলো কুরআন — আল্লাহর সর্বশেষ কিতাব, যা নবী মুহাম্মাদ ﷺ-এর কাছে পাঠানো হয়েছে। এর আগে আল্লাহ মূসাকে তাওরাত, দাউদকে যাবুর এবং ঈসাকে ইঞ্জিল পাঠিয়েছিলেন। কুরআন বিশেষ কারণ আল্লাহ এটি সুরক্ষিত রাখার প্রতিশ্রুতি দিয়েছেন!",
+      "explorer": "মুসলিমরা বিশ্বাস করে যে আল্লাহ মানবজাতিকে পথ দেখানোর জন্য বেশ কিছু আসমানি কিতাব নাজিল করেছেন। তাওরাত নবী মূসাকে, যাবুর নবী দাউদকে এবং ইঞ্জিল নবী ঈসাকে দেওয়া হয়েছিল। কুরআন হলো সর্বশেষ ও সবচেয়ে পূর্ণাঙ্গ ওহী, যা নবী মুহাম্মাদ ﷺ-এর কাছে পাঠানো হয়েছে। আমরা বিশ্বাস করি পূর্ববর্তী কিতাবগুলো সময়ের সাথে পরিবর্তিত হয়েছে, কিন্তু কুরআন ঠিক সেভাবেই সংরক্ষিত আছে যেভাবে আল্লাহ নাজিল করেছিলেন।",
+      "thinker": "আসমানি কিতাবে (কুতুব) বিশ্বাস ইসলামি ঈমানের তৃতীয় অঙ্গ। আল্লাহ বিভিন্ন ধর্মগ্রন্থের মাধ্যমে পথনির্দেশনা দিয়েছেন: ইবরাহিমকে সহিফা, মূসাকে তাওরাত, দাউদকে যাবুর, ঈসাকে ইঞ্জিল এবং মুহাম্মাদ ﷺ-কে কুরআন। মুসলিমরা সকল ওহীকে সম্মান করলেও বিশ্বাস করে যে কুরআন হলো আল্লাহর সর্বশেষ ও সুরক্ষিত কালাম। এটি ২৩ বছর ধরে নাজিল হয়েছে এবং ইতিহাস জুড়ে লক্ষ লক্ষ হাফিজ (মুখস্থকারী) দ্বারা মুখস্থ করা হয়েছে। কুরআন অনন্য এই অর্থে যে আল্লাহ নিজেই এর সংরক্ষণের গ্যারান্টি দিয়েছেন: 'নিশ্চয়ই আমরাই কুরআন নাজিল করেছি এবং নিশ্চয়ই আমরাই এর রক্ষক' (সূরা আল-হিজর ১৫:৯)।"
     },
-    "funFact": "Did you know? The Quran has been completely memorized by millions of people around the world — and some children as young as 7 years old!",
+    "funFact": "তুমি কি জানো? কুরআন বিশ্বজুড়ে লক্ষ লক্ষ মানুষ সম্পূর্ণ মুখস্থ করেছে — এবং কিছু শিশু মাত্র ৭ বছর বয়সেই মুখস্থ করে!",
     "quiz": [
       {
-        "q": "Which is the final holy book in Islam?",
+        "q": "ইসলামে সর্বশেষ আসমানি কিতাব কোনটি?",
         "options": [
-          "Torah",
-          "Bible",
-          "Quran"
+          "তাওরাত",
+          "বাইবেল",
+          "কুরআন"
         ],
         "correct": 2,
-        "explanation": "The Quran is the final and most complete holy book sent by Allah."
+        "explanation": "কুরআন হলো আল্লাহর পাঠানো সর্বশেষ ও সবচেয়ে পূর্ণাঙ্গ আসমানি কিতাব।"
       },
       {
-        "q": "Which prophet received the Torah?",
+        "q": "কোন নবী তাওরাত পেয়েছিলেন?",
         "options": [
-          "Prophet Ibrahim",
-          "Prophet Musa",
-          "Prophet Isa"
+          "নবী ইবরাহিম",
+          "নবী মূসা",
+          "নবী ঈসা"
         ],
         "correct": 1,
-        "explanation": "The Torah (Tawrat) was given to Prophet Musa (Moses)."
+        "explanation": "তাওরাত নবী মূসা (মোজেস)-কে দেওয়া হয়েছিল।"
       },
       {
-        "q": "What makes the Quran special?",
+        "q": "কুরআনকে কী বিশেষ করে?",
         "options": [
-          "It's the oldest book",
-          "Allah promised to protect it",
-          "It has many pages"
+          "এটি সবচেয়ে পুরনো কিতাব",
+          "আল্লাহ এটি সুরক্ষিত রাখার প্রতিশ্রুতি দিয়েছেন",
+          "এতে অনেক পৃষ্ঠা আছে"
         ],
         "correct": 1,
-        "explanation": "Allah promised to protect the Quran from being changed — it's preserved exactly as revealed."
+        "explanation": "আল্লাহ কুরআনকে পরিবর্তন থেকে সুরক্ষিত রাখার প্রতিশ্রুতি দিয়েছেন — এটি ঠিক সেভাবেই সংরক্ষিত আছে যেভাবে নাজিল হয়েছিল।"
       }
     ]
   },
   {
     "id": "prophets",
-    "title": "Prophets of Allah",
+    "title": "আল্লাহর নবীগণ",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_3_prophet_stories_feature-FtRej2zvGTyPa9u6r2MF85.webp?updatedAt=1781117901347",
     "emoji": "🧑‍🏫",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent many prophets to guide people! We believe in 25 prophets, like Adam, Ibrahim, Musa, Isa, and the last one, Muhammad ﷺ. They were all good people who taught us to worship Allah and be kind to others!",
-      "explorer": "Allah sent prophets to every nation throughout history to guide people to the right path. We know of 25 prophets mentioned in the Quran, including Adam, Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. All prophets taught the same message: worship Allah alone and be good to others. Prophet Muhammad ﷺ is the last and final prophet.",
-      "thinker": "The belief in prophets (Anbiya) is the fourth article of Islamic faith. Allah sent 124,000 prophets to guide humanity, with 25 specifically mentioned in the Quran. They include the five greatest prophets (Ulul-Azm): Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. Each prophet was sent to a specific nation but carried the same universal message of Tawheed and moral conduct. Prophet Muhammad ﷺ is the Seal of the Prophets (Khatam an-Nabiyyin), meaning no new prophet will come after him. His message is for all of humanity until the Day of Judgment."
+      "starter": "আল্লাহ মানুষকে পথ দেখানোর জন্য অনেক নবী পাঠিয়েছেন! আমরা ২৫ জন নবীতে বিশ্বাস করি, যেমন আদম, ইবরাহিম, মূসা, ঈসা এবং সর্বশেষ মুহাম্মাদ ﷺ। তারা সবাই ভালো মানুষ ছিলেন যারা আমাদের আল্লাহর ইবাদত করতে এবং অন্যদের সাথে ভালো ব্যবহার করতে শিখিয়েছিলেন!",
+      "explorer": "আল্লাহ ইতিহাস জুড়ে প্রতিটি জাতির কাছে মানুষকে সঠিক পথে পরিচালিত করার জন্য নবী পাঠিয়েছেন। কুরআনে ২৫ জন নবীর কথা উল্লেখ আছে, যাদের মধ্যে আদম, নূহ, ইবরাহিম, মূসা, ঈসা এবং মুহাম্মাদ ﷺ অন্তর্ভুক্ত। সকল নবী একই বার্তা দিয়েছেন: কেবল আল্লাহর ইবাদত করো এবং অন্যদের সাথে ভালো ব্যবহার করো। নবী মুহাম্মাদ ﷺ হলেন সর্বশেষ ও চূড়ান্ত নবী।",
+      "thinker": "নবীগণে (আম্বিয়া) বিশ্বাস ইসলামি ঈমানের চতুর্থ অঙ্গ। আল্লাহ মানবজাতিকে পথনির্দেশনা দেওয়ার জন্য ১,২৪,০০০ নবী পাঠিয়েছেন, যাদের মধ্যে ২৫ জন কুরআনে বিশেষভাবে উল্লেখিত। তাদের মধ্যে পাঁচজন সর্বশ্রেষ্ঠ নবী (উলুল আজম): নূহ, ইবরাহিম, মূসা, ঈসা এবং মুহাম্মাদ ﷺ। প্রত্যেক নবী একটি নির্দিষ্ট জাতির কাছে পাঠানো হলেও তারা তাওহীদ ও নৈতিক আচরণের একই সার্বজনীন বার্তা বহন করেছেন। নবী মুহাম্মাদ ﷺ হলেন নবীগণের সীলমোহর (খাতামুন নাবিয়্যিন), অর্থাৎ তাঁর পরে আর কোনো নবী আসবেন না। তাঁর বার্তা কিয়ামত পর্যন্ত সমস্ত মানবজাতির জন্য।"
     },
-    "funFact": "Did you know? Muslims believe in 25 prophets mentioned in the Quran! Prophet Nuh (Noah) lived for 950 years and built the big ship!",
+    "funFact": "তুমি কি জানো? মুসলিমরা কুরআনে উল্লেখিত ২৫ জন নবীতে বিশ্বাস করে! নবী নূহ (নোয়া) ৯৫০ বছর বেঁচে ছিলেন এবং তিনি বিশাল নৌকা তৈরি করেছিলেন!",
     "quiz": [
       {
-        "q": "How many prophets are mentioned in the Quran?",
+        "q": "কুরআনে কতজন নবীর কথা উল্লেখ আছে?",
         "options": [
-          "10",
-          "25",
-          "100"
+          "১০ জন",
+          "২৫ জন",
+          "১০০ জন"
         ],
         "correct": 1,
-        "explanation": "25 prophets are specifically mentioned in the Quran."
+        "explanation": "কুরআনে ২৫ জন নবীর কথা বিশেষভাবে উল্লেখ আছে।"
       },
       {
-        "q": "Who is the last prophet in Islam?",
+        "q": "ইসলামে সর্বশেষ নবী কে?",
         "options": [
-          "Prophet Isa",
-          "Prophet Musa",
-          "Prophet Muhammad"
+          "নবী ঈসা",
+          "নবী মূসা",
+          "নবী মুহাম্মাদ"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ is the last and final prophet sent by Allah."
+        "explanation": "নবী মুহাম্মাদ ﷺ হলেন আল্লাহর পাঠানো সর্বশেষ ও চূড়ান্ত নবী।"
       },
       {
-        "q": "What did all prophets teach?",
+        "q": "সকল নবী কী শিখিয়েছিলেন?",
         "options": [
-          "Different messages",
-          "Worship Allah alone and be kind",
-          "Only pray"
+          "ভিন্ন ভিন্ন বার্তা",
+          "কেবল আল্লাহর ইবাদত করতে এবং ভালো হতে",
+          "শুধু নামাজ পড়তে"
         ],
         "correct": 1,
-        "explanation": "All prophets taught the same message: worship Allah alone and be good to others."
+        "explanation": "সকল নবী একই বার্তা দিয়েছেন: কেবল আল্লাহর ইবাদত করো এবং অন্যদের সাথে ভালো ব্যবহার করো।"
       }
     ]
   },
   {
     "id": "day_of_judgment",
-    "title": "Day of Judgment",
+    "title": "কিয়ামতের দিন",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326",
     "emoji": "⚖️",
     "category": "core_beliefs",
     "content": {
-      "starter": "One day, everyone will come back to life and stand in front of Allah! He will check all our good and bad deeds. People who did good will go to Paradise — a beautiful place with everything nice. People who were bad and didn't sorry will go to Hell. That's why we should always try to do good!",
-      "explorer": "The Day of Judgment (Yawm al-Qiyamah) is when all people will be resurrected and brought before Allah to be judged for their deeds. Every action — even the smallest kindness — will be weighed on a scale. Those whose good deeds outweigh their bad will enter Paradise (Jannah), a place of eternal happiness. Those whose bad deeds are heavier will face punishment. This belief motivates Muslims to always do their best.",
-      "thinker": "The Day of Judgment (Qiyamah) is the fifth article of Islamic faith. It is the day when all of creation will be resurrected and judged by Allah with perfect justice. The Prophet ﷺ described signs that will precede it, including major earthquakes, the sun rising from the west, and the emergence of the Dajjal. On that day, every person will receive their book of deeds — in the right hand for the righteous, in the left for the wrongdoers. The scale (Mizan) will weigh every deed, no matter how small. This belief provides moral accountability and motivates Muslims to live righteously."
+      "starter": "একদিন সবাই আবার জীবিত হবে এবং আল্লাহর সামনে দাঁড়াবে! তিনি আমাদের সব ভালো ও মন্দ কাজ পরীক্ষা করবেন। যারা ভালো কাজ করেছে তারা জান্নাতে যাবে — যেখানে সবকিছু সুন্দর। যারা খারাপ ছিল এবং তওবা করেনি তারা জাহান্নামে যাবে। তাই আমাদের সবসময় ভালো কাজ করার চেষ্টা করা উচিত!",
+      "explorer": "কিয়ামতের দিন (ইয়াওমুল কিয়ামাহ) হলো যখন সব মানুষকে পুনরুত্থিত করা হবে এবং আল্লাহর সামনে তাদের কাজের বিচারের জন্য আনা হবে। প্রতিটি কাজ — এমনকি সবচেয়ে ছোট ভালো কাজও — একটি তারাজুতে পরিমাপ করা হবে। যাদের ভালো কাজ মন্দ কাজের চেয়ে বেশি হবে তারা জান্নাতে (বেহেশত) প্রবেশ করবে, যা চিরস্থায়ী সুখের স্থান। যাদের মন্দ কাজ বেশি হবে তারা শাস্তির সম্মুখীন হবে। এই বিশ্বাস মুসলিমদের সবসময় সেরাটা করতে উৎসাহিত করে।",
+      "thinker": "কিয়ামত (কিয়ামাহ) ইসলামি ঈমানের পঞ্চম অঙ্গ। এটি সেই দিন যখন সমস্ত সৃষ্টিকে পুনরুত্থিত করা হবে এবং আল্লাহ পরিপূর্ণ ন্যায়বিচারে বিচার করবেন। নবী ﷺ এমন কিছু লক্ষণের বর্ণনা দিয়েছেন যা এর পূর্বে ঘটবে, যার মধ্যে বড় ভূমিকম্প, পশ্চিম থেকে সূর্যোদয় এবং দাজ্জালের আবির্ভাব অন্তর্ভুক্ত। সেই দিন, প্রত্যেক ব্যক্তি তাদের আমলনামা পাবে — নেককারদের ডান হাতে, পাপীদের বাম হাতে। তারাজু (মিজান) প্রতিটি কাজ পরিমাপ করবে, তা যতই ছোট হোক না কেন। এই বিশ্বাস নৈতিক জবাবদিহিতা প্রদান করে এবং মুসলিমদের ন্যায়সঙ্গত জীবনযাপন করতে উৎসাহিত করে।"
     },
-    "funFact": "Did you know? On the Day of Judgment, even a small good deed — like removing a thorn from the road — will be rewarded!",
+    "funFact": "তুমি কি জানো? কিয়ামতের দিন, এমনকি রাস্তা থেকে একটা কাঁটা সরিয়ে দেওয়ার মতো ছোট ভালো কাজেরও পুরস্কার দেওয়া হবে!",
     "quiz": [
       {
-        "q": "What happens on the Day of Judgment?",
+        "q": "কিয়ামতের দিন কী হবে?",
         "options": [
-          "Everyone goes to Paradise",
-          "Everyone is judged for their deeds",
-          "Nothing happens"
+          "সবাই জান্নাতে যাবে",
+          "সবার কাজের বিচার হবে",
+          "কিছুই হবে না"
         ],
         "correct": 1,
-        "explanation": "On the Day of Judgment, everyone will be judged for their good and bad deeds."
+        "explanation": "কিয়ামতের দিন সবার ভালো ও মন্দ কাজের বিচার হবে।"
       },
       {
-        "q": "What is the name of Paradise in Arabic?",
+        "q": "আরবিতে জান্নাতকে কী বলা হয়?",
         "options": [
-          "Jannah",
-          "Jahannam",
-          "Dunya"
+          "জান্নাত",
+          "জাহান্নাম",
+          "দুনিয়া"
         ],
         "correct": 0,
-        "explanation": "Paradise is called Jannah in Arabic — it means 'garden'."
+        "explanation": "আরবিতে জান্নাতকে 'জান্নাহ' বলা হয় — এর অর্থ 'বাগান'।"
       },
       {
-        "q": "Will even small deeds be judged?",
+        "q": "কি ছোট কাজেরও বিচার হবে?",
         "options": [
-          "No, only big deeds",
-          "Yes, every single deed",
-          "Only bad deeds"
+          "না, শুধু বড় কাজের",
+          "হ্যাঁ, প্রতিটি কাজের",
+          "শুধু মন্দ কাজের"
         ],
         "correct": 1,
-        "explanation": "Every deed, no matter how small, will be weighed on the Day of Judgment."
+        "explanation": "কিয়ামতের দিন প্রতিটি কাজ, তা যতই ছোট হোক, পরিমাপ করা হবে।"
       }
     ]
   },
   {
     "id": "wudu",
-    "title": "Wudu - Ablution",
+    "title": "উযু - অজু",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🚿",
     "category": "daily_practices",
     "content": {
-      "starter": "Wudu is washing before prayer! We wash our hands, mouth, nose, face, arms, head, and feet with clean water. It makes us clean and ready to talk to Allah. Wudu also washes away our small sins — how cool is that!",
-      "explorer": "Wudu is the ritual ablution Muslims perform before praying. It involves washing specific body parts in order: hands, mouth, nose, face, arms to elbows, wiping the head, and washing feet to ankles. Wudu is not just about physical cleanliness — it's also spiritual purification. Each step has benefits: washing the hands removes germs, rinsing the mouth keeps it clean, and washing the feet removes dirt from the road.",
-      "thinker": "Wudu is a beautiful act that combines physical hygiene with spiritual purification. The Quran states: 'Indeed, Allah loves those who are constantly repenting and loves those who purify themselves' (Surah Al-Baqarah 2:222). The Prophet ﷺ said that when a Muslim performs wudu and washes their face, sins fall away with the water. When they wash their hands, sins fall from their hands. When they wash their feet, sins fall from their feet. Wudu is thus both a practical act of cleanliness and a spiritual ritual of renewal."
+      "starter": "উযু হলো নামাজের আগে ধোয়া! আমরা পরিষ্কার পানি দিয়ে হাত, মুখ, নাক, চেহারা, বাহু, মাথা এবং পা ধুই। এটি আমাদের পরিষ্কার করে এবং আল্লাহর সাথে কথা বলার জন্য প্রস্তুত করে। উযু আমাদের ছোট গুনাহগুলোও ধুয়ে দেয় — কতই না আশ্চর্য!",
+      "explorer": "উযু হলো নামাজের আগে মুসলিমদের করা আনুষ্ঠানিক অজু। এতে নির্দিষ্ট ক্রমে শরীরের অংশ ধোয়া হয়: হাত, মুখ, নাক, চেহারা, কনুই পর্যন্ত বাহু, মাথা মুছা এবং গোড়ালি পর্যন্ত পা ধোয়া। উযু শুধু শারীরিক পরিষ্কার নয় — এটি আধ্যাত্মিক পবিত্রতাও। প্রতিটি ধাপের ফায়দা আছে: হাত ধোয়া জীবাণু দূর করে, মুখ কুলকাচলি মুখকে পরিষ্কার রাখে এবং পা ধোয়া রাস্তার ময়লা দূর করে।",
+      "thinker": "উযু একটি সুন্দর আমল যা শারীরিক স্বাস্থ্যবিধি ও আধ্যাত্মিক পবিত্রতাকে একত্রিত করে। কুরআনে বলা হয়েছে: 'নিশ্চয়ই আল্লাহ তাদের ভালোবাসেন যারা অনুতপ্ত হয় এবং যারা পবিত্রতা অবলম্বন করে' (সূরা আল-বাকারা ২:২২২)। নবী ﷺ বলেছেন যে একজন মুসলিম যখন উযু করে এবং চেহারা ধোয়, তখন পানির সাথে গুনাহ ঝরে পড়ে। যখন হাত ধোয়, হাত থেকে গুনাহ পড়ে। যখন পা ধোয়, পা থেকে গুনাহ পড়ে। উযু তাই পরিষ্কারের একটি ব্যবহারিক কাজ এবং নবায়নের একটি আধ্যাত্মিক আনুষ্ঠানিকতা।"
     },
-    "funFact": "Did you know? When you perform wudu and wash each body part, your sins fall away with the water — it's like getting a fresh start!",
+    "funFact": "তুমি কি জানো? তুমি যখন উযু করো এবং প্রতিটি অঙ্গ ধুও, তখন তোমার গুনাহ পানির সাথে ঝরে পড়ে — এটা যেন নতুন করে শুরু করার মতো!",
     "quiz": [
       {
-        "q": "What do we perform before praying?",
+        "q": "নামাজের আগে আমরা কী করি?",
         "options": [
-          "Ghusl",
-          "Wudu",
-          "Tayammum"
+          "গোসল",
+          "উযু",
+          "তায়াম্মুম"
         ],
         "correct": 1,
-        "explanation": "We perform wudu (ablution) before praying to clean ourselves."
+        "explanation": "নামাজের আগে আমরা উযু (অজু) করি নিজেদের পরিষ্কার করতে।"
       },
       {
-        "q": "How many steps are in wudu?",
+        "q": "উযুতে কয়টি ধাপ আছে?",
         "options": [
-          "3 steps",
-          "7 steps",
-          "10 steps"
+          "৩টি ধাপ",
+          "৭টি ধাপ",
+          "১০টি ধাপ"
         ],
         "correct": 1,
-        "explanation": "There are 7 main steps in wudu: hands, mouth, nose, face, arms, head, and feet."
+        "explanation": "উযুতে ৭টি প্রধান ধাপ আছে: হাত, মুখ, নাক, চেহারা, বাহু, মাথা এবং পা।"
       },
       {
-        "q": "What does wudu clean besides the body?",
+        "q": "উযু শরীর ছাড়া আর কী পরিষ্কার করে?",
         "options": [
-          "Our clothes",
-          "Our sins",
-          "Our room"
+          "আমাদের কাপড়",
+          "আমাদের গুনাহ",
+          "আমাদের ঘর"
         ],
         "correct": 1,
-        "explanation": "Wudu washes away our small sins — it's spiritual purification too!"
+        "explanation": "উযু আমাদের ছোট গুনাহ ধুয়ে দেয় — এটি আধ্যাত্মিক পবিত্রতাও!"
       }
     ]
   },
   {
     "id": "islamic_dress",
-    "title": "Islamic Dress",
+    "title": "ইসলামি পোশাক",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_13_topic_islamic_dress-7whwzZgTnmsVkCdmrsGaFv.webp?updatedAt=1781117899286",
     "emoji": "👗",
     "category": "daily_practices",
     "content": {
-      "starter": "Allah asks us to dress nicely and modestly! Boys and girls should cover their bodies properly. It's about being respectful and showing that we love Allah. Modest dressing makes us feel confident and proud of being Muslim!",
-      "explorer": "Islamic dress is about modesty and respecting Allah's guidelines. For women, this generally means covering everything except the face, hands, and feet — many choose to wear hijab (headscarf). For men, clothing should cover from the navel to the knees. The key is modesty — not showing off or wearing inappropriate clothes. Islamic dress is an act of worship and identity.",
-      "thinker": "Islamic dress codes are rooted in the Quran and Sunnah. Allah says: 'O Children of Adam, take your adornment at every masjid' (Surah Al-A'raf 7:31). The hijab is more than a piece of cloth — it's a statement of identity, dignity, and devotion to Allah. For both men and women, modest dress is about self-respect and not reducing oneself to physical appearance. It's important to understand that modesty is a comprehensive concept that includes behavior, speech, and dress. The goal is to be recognized for one's character and intellect, not merely for appearance."
+      "starter": "আল্লাহ আমাদের সুন্দর ও পরিমিত পোশাক পরতে বলেন! ছেলে ও মেয়েদের উচিত তাদের শরীর সঠিকভাবে ঢেকে রাখা। এটি সম্মান দেখানো এবং আল্লাহকে ভালোবাসার প্রমাণ। পরিমিত পোশাক আমাদের মুসলিম হিসেবে আত্মবিশ্বাসী ও গর্বিত মনে করায়!",
+      "explorer": "ইসলামি পোশাক হলো পরিমিতি ও আল্লাহর নির্দেশনা সম্মান করার বিষয়। নারীদের জন্য এর অর্থ সাধারণত চেহারা, হাত ও পা ছাড়া সবকিছু ঢেকে রাখা — অনেকে হিজাব (মাথার স্কার্ফ) পরেন। পুরুষদের জন্য পোশাক নাভি থেকে হাঁটু পর্যন্ত ঢেকে রাখতে হবে। মূল বিষয় হলো পরিমিতি — দেখানো বা অনুপযুক্ত পোশাক না পরা। ইসলামি পোশাক হলো ইবাদত ও পরিচয়ের বিষয়।",
+      "thinker": "ইসলামি পোশাক বিধান কুরআন ও সুন্নাহর ওপর ভিত্তি করে প্রতিষ্ঠিত। আল্লাহ বলেছেন: 'হে আদম সন্তানেরা, প্রতিটি মসজিদে তোমাদের সাজসজ্জা পরো' (সূরা আল-আরাফ ৭:৩১)। হিজাব কেবল একটি কাপড়ের টুকরো নয় — এটি পরিচয়, মর্যাদা এবং আল্লাহর প্রতি ভক্তির একটি বিবৃতি। পুরুষ ও নারী উভয়ের জন্যই পরিমিত পোশাক হলো আত্মসম্মান এবং নিজেকে কেবল শারীরিক রূপে পরিণত না করার বিষয়। এটি বোঝা গুরুত্বপূর্ণ যে পরিমিতি একটি ব্যাপক ধারণা যা আচরণ, কথাবার্তা এবং পোশাক অন্তর্ভুক্ত করে। লক্ষ্য হলো কেবল রূপের জন্য নয়, বরং চরিত্র ও বুদ্ধির জন্য স্বীকৃত হওয়া।"
     },
-    "funFact": "Did you know? The word 'hijab' comes from Arabic and means 'curtain' or 'screen' — it's about creating a space of dignity and privacy!",
+    "funFact": "তুমি কি জানো? 'হিজাব' শব্দটি আরবি থেকে এসেছে এবং এর অর্থ 'পর্দা' বা 'আবরণ' — এটি মর্যাদা ও গোপনীয়তার একটি স্থান তৈরি করার বিষয়!",
     "quiz": [
       {
-        "q": "What is the main purpose of Islamic dress?",
+        "q": "ইসলামি পোশাকের মূল উদ্দেশ্য কী?",
         "options": [
-          "Fashion",
-          "Modesty",
-          "Uniform"
+          "ফ্যাশন",
+          "পরিমিতি",
+          "ইউনিফর্ম"
         ],
         "correct": 1,
-        "explanation": "Islamic dress is about modesty and respecting Allah's guidelines."
+        "explanation": "ইসলামি পোশাক হলো পরিমিতি এবং আল্লাহর নির্দেশনা সম্মান করার বিষয়।"
       },
       {
-        "q": "What does 'hijab' mean?",
+        "q": "'হিজাব' শব্দের অর্থ কী?",
         "options": [
-          "Prayer",
-          "Curtain or screen",
-          "Charity"
+          "নামাজ",
+          "পর্দা বা আবরণ",
+          "দান"
         ],
         "correct": 1,
-        "explanation": "The word 'hijab' means 'curtain' or 'screen' in Arabic."
+        "explanation": "'হিজাব' শব্দের আরবিতে অর্থ 'পর্দা' বা 'আবরণ'।"
       },
       {
-        "q": "For men, what part of the body must be covered?",
+        "q": "পুরুষদের শরীরের কোন অংশ ঢেকে রাখতে হবে?",
         "options": [
-          "Only the head",
-          "From navel to knees",
-          "Entire body"
+          "শুধু মাথা",
+          "নাভি থেকে হাঁটু পর্যন্ত",
+          "পুরো শরীর"
         ],
         "correct": 1,
-        "explanation": "Men must cover from the navel to the knees as a minimum."
+        "explanation": "পুরুষদের নাভি থেকে হাঁটু পর্যন্ত ঢেকে রাখতে হবে সর্বনিম্ন হিসেবে।"
       }
     ]
   },
   {
     "id": "halal_food",
-    "title": "Halal Food",
+    "title": "হালাল খাবার",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194",
     "emoji": "🍽️",
     "category": "daily_practices",
     "content": {
-      "starter": "Halal means 'okay to eat' in Arabic! Allah tells us what food is good for us. We can eat fruits, vegetables, chicken, and fish. We can't eat pork or drink alcohol. We always say 'Bismillah' before eating to thank Allah!",
-      "explorer": "Halal means permissible in Islam. Allah has told us which foods are halal (allowed) and haram (forbidden). Halal foods include fruits, vegetables, grains, and properly slaughtered meat. Haram foods include pork, blood, alcohol, and meat not slaughtered in Allah's name. Saying 'Bismillah' before eating is a Sunnah and reminds us that food is a blessing from Allah.",
-      "thinker": "The concept of halal and haram in food is rooted in the Quran and Sunnah. Allah says: 'Eat of what is lawful and good on the earth' (Surah Al-Baqarah 2:168). Halal is not just about what we eat but how food is obtained — it must be through ethical, humane, and clean methods. Pork is prohibited (haram) as stated in multiple Quranic verses. Alcohol is forbidden because it clouds the mind and leads to sin. Even when eating halal food, Islam teaches moderation: 'Eat and drink, but do not be excessive' (Surah Al-A'raf 31). The act of saying 'Bismillah' before eating transforms a routine meal into an act of worship."
+      "starter": "হালাল মানে 'খাওয়ার জন্য ঠিক আছে'! আল্লাহ আমাদের বলেন কোন খাবার আমাদের জন্য ভালো। আমরা ফল, সবজি, মুরগি এবং মাছ খেতে পারি। আমরা শুকরের মাংস বা মদ খেতে পারি না। আমরা সবসময় খাওয়ার আগে 'বিসমিল্লাহ' বলি আল্লাহকে ধন্যবাদ দিতে!",
+      "explorer": "হালাল মানে ইসলামে বৈধ। আল্লাহ আমাদের জানিয়েছেন কোন খাবার হালাল (বৈধ) এবং কোনটি হারাম (নিষিদ্ধ)। হালাল খাবারের মধ্যে ফল, সবজি, শস্য এবং সঠিকভাবে জবাই করা মাংস অন্তর্ভুক্ত। হারাম খাবারের মধ্যে শুকরের মাংস, রক্ত, মদ এবং আল্লাহর নামে জবাই না করা মাংস অন্তর্ভুক্ত। খাওয়ার আগে 'বিসমিল্লাহ' বলা সুন্নত এবং এটি আমাদের মনে করিয়ে দেয় যে খাবার আল্লাহর একটি নিয়ামত।",
+      "thinker": "খাবারে হালাল ও হারামের ধারণা কুরআন ও সুন্নাহর ওপর ভিত্তি করে প্রতিষ্ঠিত। আল্লাহ বলেছেন: 'পৃথিবীতে যা বৈধ ও ভালো তা খাও' (সূরা আল-বাকারা ২:১৬৮)। হালাল কেবল আমরা কী খাই তা নয় বরং খাবার কীভাবে প্রাপ্ত হয়েছে তাও — এটি অবশ্যই নৈতিক, মানবিক ও পরিষ্কার পদ্ধতির মাধ্যমে হতে হবে। শুকরের মাংস নিষিদ্ধ (হারাম) যেমনটি একাধিক কুরআনি আয়াতে বলা হয়েছে। মদ নিষিদ্ধ কারণ এটি মনকে আচ্ছন্ন করে এবং গুনাহের দিকে নিয়ে যায়। হালাল খাবার খেলেও ইসলাম পরিমিতি শেখায়: 'খাও ও পান করো, কিন্তু অতিরিক্ত করো না' (সূরা আল-আরাফ ৩১)। খাওয়ার আগে 'বিসমিল্লাহ' বলা একটি সাধারণ খাবারকে ইবাদতে পরিণত করে।"
     },
-    "funFact": "Did you know? Muslims say 'Bismillah' (In the name of Allah) before eating — it's like saying grace and thanking Allah for the food!",
+    "funFact": "তুমি কি জানো? মুসলিমরা খাওয়ার আগে 'বিসমিল্লাহ' (আল্লাহর নামে) বলে — এটা যেন আল্লাহকে ধন্যবাদ দেওয়া এবং খাবারের জন্য কৃতজ্ঞতা প্রকাশ করা!",
     "quiz": [
       {
-        "q": "What does 'halal' mean?",
+        "q": "'হালাল' মানে কী?",
         "options": [
-          "Forbidden",
-          "Permissible",
-          "Delicious"
+          "নিষিদ্ধ",
+          "বৈধ",
+          "সুস্বাদু"
         ],
         "correct": 1,
-        "explanation": "Halal means 'permissible' — food that Allah allows us to eat."
+        "explanation": "হালাল অর্থ 'বৈধ' — এমন খাবার যা আল্লাহ আমাদের খেতে দিয়েছেন।"
       },
       {
-        "q": "Which of these is haram (forbidden) in Islam?",
+        "q": "এগুলোর মধ্যে কোনটি হারাম (নিষিদ্ধ)?",
         "options": [
-          "Chicken",
-          "Fruits",
-          "Pork"
+          "মুরগি",
+          "ফল",
+          "শুকরের মাংস"
         ],
         "correct": 2,
-        "explanation": "Pork is haram (forbidden) in Islam."
+        "explanation": "শুকরের মাংস ইসলামে হারাম (নিষিদ্ধ)।"
       },
       {
-        "q": "What do Muslims say before eating?",
+        "q": "মুসলিমরা খাওয়ার আগে কী বলে?",
         "options": [
-          "Alhamdulillah",
-          "Bismillah",
-          "Subhanallah"
+          "আলহামদুলিল্লাহ",
+          "বিসমিল্লাহ",
+          "সুবহানাল্লাহ"
         ],
         "correct": 1,
-        "explanation": "Muslims say 'Bismillah' (In the name of Allah) before eating."
+        "explanation": "মুসলিমরা খাওয়ার আগে 'বিসমিল্লাহ' (আল্লাহর নামে) বলে।"
       }
     ]
   },
   {
     "id": "duas",
-    "title": "Duas - Supplications",
+    "title": "দোয়া - প্রার্থনা",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_10_pillar_duas-EqyXdQq6eb7Aov9Lmrvy3T.webp?updatedAt=1781117901995",
     "emoji": "🤲",
     "category": "daily_practices",
     "content": {
-      "starter": "Duas are prayers we say to Allah anytime! When we wake up, eat, go outside, or feel scared — we can talk to Allah. He always listens! There's a special dua for everything. It's like having a direct line to Allah!",
-      "explorer": "Duas are personal prayers to Allah — conversations where we ask for help, guidance, forgiveness, or express gratitude. Unlike formal salah, duas can be made anytime in any language. The Prophet ﷺ taught us specific duas for waking up, eating, traveling, and more. Making dua shows our dependence on Allah and our trust in His help.",
-      "thinker": "Duas (supplications) represent the direct relationship between a servant and Allah. The Prophet ﷺ said: 'Dua is the essence of worship.' Islam teaches duas for every occasion — from waking up ('Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin-nushur') to entering the mosque, before sleeping, and during times of distress. Allah says: 'Call upon Me; I will respond to you' (Surah Ghafir 40:60). This is a profound promise — the Creator of the universe invites us to speak with Him directly, without any intermediary."
+      "starter": "দোয়া হলো যেকোনো সময় আল্লাহকে বলা প্রার্থনা! আমরা যখন ঘুম থেকে উঠি, খাই, বাইরে যাই বা ভয় পাই — আমরা আল্লাহর সাথে কথা বলতে পারি। তিনি সবসময় শোনেন! সবকিছুর জন্য একটি বিশেষ দোয়া আছে। এটা যেন আল্লাহর সাথে সরাসরি যোগাযোগ!",
+      "explorer": "দোয়া হলো আল্লাহর কাছে ব্যক্তিগত প্রার্থনা — কথোপকথন যেখানে আমরা সাহায্য, পথনির্দেশনা, ক্ষমা চাই বা কৃতজ্ঞতা প্রকাশ করি। আনুষ্ঠানিক সালাহর মতো নয়, দোয়া যেকোনো সময় যেকোনো ভাষায় করা যায়। নবী ﷺ ঘুম থেকে ওঠা, খাওয়া, ভ্রমণ ইত্যাদির জন্য নির্দিষ্ট দোয়া শিখিয়েছেন। দোয়া করা আমাদের আল্লাহর ওপর নির্ভরশীলতা এবং তাঁর সাহায্যে বিশ্বাস দেখায়।",
+      "thinker": "দোয়া (প্রার্থনা) একজন বান্দা ও আল্লাহর মধ্যে সরাসরি সম্পর্কের প্রতিনিধিত্ব করে। নবী ﷺ বলেছেন: 'দোয়া হলো ইবাদতের সার।' ইসলাম প্রতিটি অনুষ্ঠানের জন্য দোয়া শেখায় — ঘুম থেকে ওঠা থেকে ('আলহামদুলিল্লাহিল্লাযি আহইয়ানা বা'দা মা আমাতানা ওয়া ইলাইহিন নুশুর') মসজিদে প্রবেশ, ঘুমানোর আগে এবং বিপদের সময় পর্যন্ত। আল্লাহ বলেছেন: 'আমাকে ডাকো; আমি তোমাদের ডাকে সাড়া দেব' (সূরা গাফির ৪০:৬০)। এটি একটি গভীর প্রতিশ্রুতি — মহাবিশ্বের স্রষ্টা আমাদের সরাসরি তাঁর সাথে কথা বলতে আমন্ত্রণ জানান, কোনো মধ্যস্থতাকারী ছাড়াই।"
     },
-    "funFact": "Did you know? There's a dua for almost everything — even for when you enter your bathroom! Allah wants us to remember Him in every moment!",
+    "funFact": "তুমি কি জানো? প্রায় সবকিছুর জন্য একটি দোয়া আছে — এমনকি বাথরুমে ঢোকার সময়ও! আল্লাহ চান আমরা প্রতিটি মুহূর্তে তাঁকে স্মরণ করি!",
     "quiz": [
       {
-        "q": "What is a dua?",
+        "q": "দোয়া কী?",
         "options": [
-          "A type of food",
-          "A personal prayer to Allah",
-          "A holy book"
+          "এক ধরনের খাবার",
+          "আল্লাহর কাছে ব্যক্তিগত প্রার্থনা",
+          "একটি আসমানি কিতাব"
         ],
         "correct": 1,
-        "explanation": "A dua is a personal prayer — talking to Allah anytime, anywhere."
+        "explanation": "দোয়া হলো ব্যক্তিগত প্রার্থনা — যেকোনো সময়, যেকোনো জায়গায় আল্লাহর সাথে কথা বলা।"
       },
       {
-        "q": "Can duas be made in any language?",
+        "q": "দোয়া কি যেকোনো ভাষায় করা যায়?",
         "options": [
-          "Only in Arabic",
-          "Only in English",
-          "Yes, in any language"
+          "শুধু আরবিতে",
+          "শুধু ইংরেজিতে",
+          "হ্যাঁ, যেকোনো ভাষায়"
         ],
         "correct": 2,
-        "explanation": "Duas can be made in any language — Allah understands all languages!"
+        "explanation": "দোয়া যেকোনো ভাষায় করা যায় — আল্লাহ সব ভাষা বোঝেন!"
       },
       {
-        "q": "What did the Prophet ﷺ say about dua?",
+        "q": "নবী ﷺ দোয়া সম্পর্কে কী বলেছেন?",
         "options": [
-          "Dua is useless",
-          "Dua is the essence of worship",
-          "Only pray at night"
+          "দোয়া অর্থহীন",
+          "দোয়া হলো ইবাদতের সার",
+          "শুধু রাতে প্রার্থনা করো"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said: 'Dua is the essence of worship.'"
+        "explanation": "নবী ﷺ বলেছেন: 'দোয়া হলো ইবাদতের সার।'"
       }
     ]
   },
   {
     "id": "reading_quran",
-    "title": "Reading Quran",
+    "title": "কুরআন পাঠ",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📖",
     "category": "daily_practices",
     "content": {
-      "starter": "The Quran is Allah's special book! When we read it, Allah rewards us. Even reading one letter gives us 10 rewards! The Quran teaches us how to be good Muslims and how to live happily. Let's try to read a little bit every day!",
-      "explorer": "The Quran is the holy book of Islam, revealed to Prophet Muhammad ﷺ through the angel Jibril. Reading the Quran is one of the most rewarding acts a Muslim can do — each letter earns 10 rewards. Muslims try to read the Quran daily, especially during Ramadan. The Quran is in Arabic, but translations help us understand its meanings. Reading with understanding and reflection is the goal.",
-      "thinker": "The Quran is the literal word of Allah, revealed over 23 years through the angel Jibril to Prophet Muhammad ﷺ. It consists of 114 surahs (chapters) and over 6,000 ayahs (verses). The Prophet ﷺ said: 'Whoever reads a letter from the Book of Allah will have a reward, and the reward of each letter is multiplied by ten.' Beyond reading, the Quran invites contemplation (tadabbur) — understanding its messages and applying them to life. The Quran is unique in that it has been perfectly preserved in its original Arabic since its revelation, making it the only religious text with an unbroken chain of transmission."
+      "starter": "কুরআন হলো আল্লাহর বিশেষ কিতাব! আমরা যখন এটি পড়ি, আল্লাহ আমাদের পুরস্কৃত করেন। একটি অক্ষর পড়লেও ১০টি পুরস্কার পাই! কুরআন আমাদের কীভাবে ভালো মুসলিম হতে হয় এবং কীভাবে সুখে বাঁচতে হয় তা শেখায়। চলো প্রতিদিন একটু করে পড়ার চেষ্টা করি!",
+      "explorer": "কুরআন হলো ইসলামের পবিত্র গ্রন্থ, যা ফেরেশতা জিবরাঈলের মাধ্যমে নবী মুহাম্মাদ ﷺ-এর কাছে নাজিল হয়েছে। কুরআন পড়া একজন মুসলিমের সবচেয়ে পুরস্কারজনক আমলগুলোর একটি — প্রতিটি অক্ষরে ১০টি পুরস্কার অর্জিত হয়। মুসলিমরা প্রতিদিন কুরআন পড়ার চেষ্টা করে, বিশেষত রমজানে। কুরআন আরবিতে, কিন্তু অনুবাদ আমাদের এর অর্থ বুঝতে সাহায্য করে। বোঝাপড়া এবং চিন্তাভাবনার সাথে পড়াই লক্ষ্য।",
+      "thinker": "কুরআন হলো আল্লাহর আক্ষরিক কালাম, যা ২৩ বছর ধরে ফেরেশতা জিবরাঈলের মাধ্যমে নবী মুহাম্মাদ ﷺ-এর কাছে নাজিল হয়েছে। এতে ১১৪টি সূরা (অধ্যায়) এবং ৬,০০০-এরও বেশি আয়াত (শ্লোক) রয়েছে। নবী ﷺ বলেছেন: 'যে ব্যক্তি আল্লাহর কিতাব থেকে একটি অক্ষর পড়বে তার জন্য একটি পুরস্কার আছে, এবং প্রতিটি অক্ষরের পুরস্কার দশগুণ বৃদ্ধি পায়।' পড়ার পাশাপাশি, কুরআন চিন্তাভাবনা (তাদাব্বুর) আমন্ত্রণ জানায় — এর বার্তাগুলো বোঝা এবং জীবনে প্রয়োগ করা। কুরআন অনন্য এই অর্থে যে এটি নাজিলের পর থেকে তার মূল আরবিতে পুরোপুরি সংরক্ষিত আছে, যা এটিকে একমাত্র ধর্মগ্রন্থ বানায় যার সংক্রমণের অবিচ্ছিন্ন শৃঙ্খল রয়েছে।"
     },
-    "funFact": "Did you know? Reading just ONE letter of the Quran earns you 10 rewards from Allah! So reading 'Al-Fatiha' gives you over 1,000 rewards!",
+    "funFact": "তুমি কি জানো? কুরআনের মাত্র একটি অক্ষর পড়লে আল্লাহর কাছ থেকে ১০টি পুরস্কার পাও! তাহলে 'আল-ফাতিহা' পড়লে ১,০০০-এরও বেশি পুরস্কার পাও!",
     "quiz": [
       {
-        "q": "Who revealed the Quran to Prophet Muhammad ﷺ?",
+        "q": "কুরআন নবী মুহাম্মাদ ﷺ-এর কাছে কে নিয়ে এসেছিলেন?",
         "options": [
-          "Allah directly",
-          "Angel Jibril",
-          "Angel Mikail"
+          "আল্লাহ সরাসরি",
+          "ফেরেশতা জিবরাঈল",
+          "ফেরেশতা মিকাঈল"
         ],
         "correct": 1,
-        "explanation": "Angel Jibril (Gabriel) brought the Quran to Prophet Muhammad ﷺ."
+        "explanation": "ফেরেশতা জিবরাঈল (গ্যাব্রিয়েল) নবী মুহাম্মাদ ﷺ-এর কাছে কুরআন নিয়ে এসেছিলেন।"
       },
       {
-        "q": "How many rewards do you get for reading one letter of the Quran?",
+        "q": "কুরআনের একটি অক্ষর পড়লে কতটি পুরস্কার পাওয়া যায়?",
         "options": [
-          "1 reward",
-          "10 rewards",
-          "100 rewards"
+          "১টি পুরস্কার",
+          "১০টি পুরস্কার",
+          "১০০টি পুরস্কার"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said each letter of the Quran earns 10 rewards."
+        "explanation": "নবী ﷺ বলেছেন কুরআনের প্রতিটি অক্ষর ১০টি পুরস্কার অর্জন করে।"
       },
       {
-        "q": "How many surahs (chapters) are in the Quran?",
+        "q": "কুরআনে কতটি সূরা (অধ্যায়) আছে?",
         "options": [
-          "100",
-          "114",
-          "200"
+          "১০০",
+          "১১৪",
+          "২০০"
         ],
         "correct": 1,
-        "explanation": "The Quran has 114 surahs (chapters)."
+        "explanation": "কুরআনে ১১৪টি সূরা (অধ্যায়) আছে।"
       }
     ]
   },
   {
     "id": "how_to_pray",
-    "title": "How to Pray: A Complete Guide",
+    "title": "নামাজ কীভাবে পড়তে হয়: একটি সম্পূর্ণ নির্দেশিকা",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🕌",
     "category": "daily_practices",
     "content": {
-      "starter": "How do Muslims pray? It starts with Wudu — washing your hands, face, arms, and feet to get clean for Allah. Then you face the Kaaba in Mecca and do special movements: standing, bowing, and putting your forehead on the ground. Each prayer has a name like Fajr (morning) and Maghrib (sunset). There are 5 prayers every day! It's like having 5 special meetings with Allah.\n\nWUDU — The 8 Steps:\n1) Niyyah — Make the intention in your heart to perform Wudu for the sake of Allah. 2) Wash Hands — Wash both hands up to the wrists three times, starting with the right hand. Make sure water reaches between your fingers! 3) Rinse Mouth — Take water into your mouth and rinse it thoroughly three times. 4) Rinse Nose — Breathe water in through your nose and blow it out three times. 5) Wash Face — Wash your entire face three times, from forehead to chin and ear to ear. 6) Wash Arms — Wash both arms up to the elbows three times, starting with the right arm. 7) Wipe Head — Wipe your entire head once with wet hands. 8) Wash Feet — Wash both feet up to the ankles three times, starting with the right foot. Make sure water reaches between your toes!\n\nRemember: Take your time with each step, use clean water, and avoid waste. Wudu brings purity to your body and light to your heart!\n\nSALAH — The 7 Main Positions:\n1) Niyyah — Intend in your heart to pray. 2) Takbir — Raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). 3) Qiyam — Stand upright with hands crossed at chest level, and recite Surah Al-Fatiha and another Surah. 4) Ruku — Bow forward with your hands on your knees, and say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah — Rise from bowing and say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud — Put your forehead, nose, hands, knees, and toes on the ground, and say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud — Sit and recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): 2 Fard + 2 Sunnah = 4 rak'ahs — strengthens your faith!\n- Dhuhr (Noon): 4 Fard + 6 Sunnah = 10 rak'ahs — find peace and clarity!\n- Asr (Afternoon): 4 Fard + 4 Sunnah = 8 rak'ahs — seek Allah's pleasure!\n- Maghrib (Sunset): 3 Fard + 2 Sunnah = 5 rak'ahs — build discipline and gratitude!\n- Isha (Night): 4 Fard + 2 Sunnah = 6 rak'ahs — connect with your Creator!\nTotal daily: 17 Fard + 12 Sunnah = 29 rak'ahs combined.",
-      "explorer": "How to Pray: A Complete Guide covers Wudu (ablution), Salah (prayer), the 5 daily prayers, and the rak'ah breakdown in full detail.\n\nWUDU — The 8 Steps of Ablution:\nWudu is the ritual purification performed before prayer. It is a physical and spiritual cleansing that prepares the body and mind for communication with Allah. Wudu is obligatory before performing Salah and is considered one of the most important prerequisites for prayer. The steps are: 1) Niyyah — make the intention in your heart to perform Wudu for prayer, 2) Wash both hands up to the wrists three times starting with the right hand, ensuring water reaches between fingers, 3) Rinse your mouth thoroughly three times — this cleanses the mouth for recitation, 4) Breathe water in through the nose and blow it out three times using your left hand to assist, 5) Wash your entire face three times from forehead to chin and ear to ear, including the beard if you have one, 6) Wash both arms up to and including the elbows three times starting with the right arm, 7) Wipe your head once with wet hands — you can wipe the entire head or just a portion, 8) Wash both feet up to and including the ankles three times starting with the right foot, ensuring water reaches between the toes.\n\nWhen is Wudu Required? Before every obligatory prayer (Fard), before voluntary prayers (Sunnah/Nafl), when touching the Quran, and after using the bathroom.\n\nSALAH — The 7 Main Positions of Prayer:\nSalah is the Islamic prayer performed five times daily at prescribed times. It is the second pillar of Islam and a direct connection between the believer and Allah. Each prayer consists of one or more rak'ahs (cycles). The seven positions are: 1) Niyyah (Intention) — intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha). The intention must be clear and sincere. 2) Takbir (Opening) — raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). This marks the beginning of your prayer. 3) Qiyam (Standing) — stand upright with your hands crossed at chest level. Recite Surah Al-Fatiha and another Surah from the Quran. 4) Ruku (Bowing) — bow forward with your hands on your knees, keeping your back parallel to the ground. Say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah (Rising) — rise from bowing to the standing position. Say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud (Prostration) — prostrate with your forehead, nose, hands, knees, and toes touching the ground. Say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud (Testimony) — sit between prostrations or at the end of prayer. Recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nImportant Notes About Salah: Always face the Qibla (direction of the Kaaba in Mecca), maintain proper body covering (Satr): men from navel to below knees, women entire body except hands and face, perform Wudu before every prayer, pray at the prescribed times, and concentrate and be present during prayer (Khushu) for spiritual benefit.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): Before sunrise. 2 Fard + 2 Sunnah = 4 total rak'ahs. The dawn prayer marks the beginning of the Islamic day and strengthens your faith.\n- Dhuhr (Noon): After the sun passes its zenith. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 10 total rak'ahs. The longest prayer of the day helps find peace and clarity.\n- Asr (Afternoon): Late afternoon before sunset. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Seek Allah's pleasure in the late afternoon.\n- Maghrib (Sunset): Just after the sun sets. 3 Fard + 2 Sunnah Ghair Muakkadah = 5 total rak'ahs. Unique among the five prayers with 3 Fard rak'ahs. Builds discipline and gratitude.\n- Isha (Night): After nightfall. 4 Fard + 2 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Connect with your Creator before sleep.\n\nTotal Daily: 17 Fard rak'ahs + 12 Sunnah Muakkadah = 29 combined total.",
-      "thinker": "How to Pray: A Complete Guide provides comprehensive instruction on Wudu (ablution), Salah (prayer), the five daily prayers, and the complete rak'ah breakdown.\n\nWUDU (Ablution):\nWudu is the ritual purification that serves as both a physical cleansing and spiritual preparation for Salah. It is obligatory before every Fard (obligatory) prayer, Sunnah/Nafl (voluntary) prayers, and before touching the Quran. The eight steps follow a specific sequence established by the Sunnah of Prophet Muhammad ﷺ: 1) Niyyah — the internal intention, 2) Washing hands up to the wrists three times, 3) Rinsing the mouth thoroughly three times, 4) Inhaling water through the nose and expelling it three times, 5) Washing the entire face three times (from hairline to chin and ear to ear, including the beard for men), 6) Washing both arms up to and including the elbows three times, 7) Wiping the head once with wet hands, 8) Washing both feet up to and including the ankles three times. Each step has precise requirements: water must reach between fingers and toes, and all parts must be washed in the correct order. Wudu is invalidated by natural discharges, deep sleep, loss of consciousness, and touching one's private parts.\n\nSALAH (Prayer) — The Seven Positions:\n1) Niyyah (النية): The internal intention specifying which prayer is being performed. It must be clear and sincere. 2) Takbir (التكبير): The opening 'Allahu Akbar' when raising hands to the ears, marking the sacred boundary of prayer. 3) Qiyam (القيام): Standing position with hands folded at chest level (right hand over left), reciting Al-Fatiha followed by a second Surah. 4) Ruku (الركوع): Bowing with hands on knees, back parallel to ground, reciting 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest) three times. 5) Qawmah (القومة): Rising from Ruku to standing with 'Sami'a Allahu liman hamidah, Rabbana lakal hamd' (Allah hears those who praise Him, our Lord, all praise is for You). 6) Sujud (السجود): Prostration with seven points of contact — forehead, nose, both hands, both knees, and toes — reciting 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High) three times. Performed twice in each rak'ah. 7) Tashahhud (التشهد): Sitting position for the testimony of faith (At-Tahiyyatu lillahi was-salawatu wat-tayyibat), the Salawat (Allahumma salli 'ala Muhammad), and the Du'a.\n\nTHE FIVE DAILY PRAYERS — Complete Breakdown:\n- Fajr: 2 Fard + 2 Sunnah Muakkadah (before Fard) = 4 rak'ahs (before sunrise, approximately 4:30-5:30 AM)\n- Dhuhr: 4 Sunnah Muakkadah (before Fard) + 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 10-12 rak'ahs (midday, approximately 12:00-1:00 PM)\n- Asr: 4 Sunnah Ghair Muakkadah (before Fard) + 4 Fard = 4-8 rak'ahs (late afternoon, approximately 3:30-4:30 PM)\n- Maghrib: 3 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 5-7 rak'ahs (after sunset, approximately 6:45-7:15 PM)\n- Isha: 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 6-8 rak'ahs (after nightfall, approximately 8:15-9:30 PM)\n\nRAK'AH BREAKDOWN TABLE:\n| Prayer | Fard | Sunnah Muakkadah | Sunnah Ghair Muakkadah | Total |\n| Fajr | 2 | 2 | 0 | 4 |\n| Dhuhr | 4 | 4 | 2 | 10 |\n| Asr | 4 | 0 | 2 | 6 |\n| Maghrib | 3 | 0 | 2 | 5 |\n| Isha | 4 | 2 | 2 | 8 |\n| TOTAL | 17 | 8 | 8 | 33 |\n\nTypes of Prayers: Fard (Obligatory) — compulsory, missing them is a grave sin. Sunnah Muakkadah (Strongly Recommended) — highly emphasized, the Prophet ﷺ regularly performed them. Sunnah Ghair Muakkadah (Optional) — the Prophet ﷺ occasionally performed them, bringing extra reward.\n\nPrayer is not merely physical movement — it demands Khushu (concentration and humility) and sincere connection with Allah. As Allah says: 'Indeed, prayer prohibits immorality and wrongdoing' (Quran 29:45)."
+      "starter": "মুসলিমরা কীভাবে নামাজ পড়ে? এটি শুরু হয় উযু দিয়ে — আল্লাহর জন্য পবিত্র হতে হাত, মুখ, বাহু ও পা ধোয়া। তারপর মক্কার কাবার দিকে মুখ করে বিশেষ আন্দোলন করো: দাঁড়ানো, রুকু এবং কপাল মাটিতে রাখা। প্রতিটি নামাজের একটি নাম আছে যেমন ফজর (সকাল) এবং মাগরিব (সন্ধ্যা)। প্রতিদিন ৫টি নামাজ আছে! এটা যেন আল্লাহর সাথে ৫টি বিশেষ সাক্ষাৎ!\n\nউযু — ৮টি ধাপ:\n১) নিয়্যাত — আল্লাহর সন্তুষ্টির জন্য উযু করার নিয়ত করো। ২) হাত ধোয়া — ডান হাত দিয়ে শুরু করে কবজি পর্যন্ত তিনবার ধুও। আঙুলের মাঝখানে পানি পৌঁছানোর ব্যবস্থা করো! ৩) মুখ কুলকাচলি — মুখে পানি নিয়ে তিনবার ভালোভাবে কুলকাচলি করো। ৪) নাক পরিষ্কার — নাকে পানি টেনে তিনবার ছেড়ে দাও। ৫) চেহারা ধোয়া — কপাল থেকে চিবুক এবং কান থেকে কান পর্যন্ত পুরো চেহারা তিনবার ধুও। ৬) বাহু ধোয়া — ডান বাহু দিয়ে শুরু করে কনুই পর্যন্ত তিনবার ধুও। ৭) মাথা মুছা — ভেজা হাতে একবার পুরো মাথা মুছো। ৮) পা ধোয়া — ডান পা দিয়ে শুরু করে গোড়ালি পর্যন্ত তিনবার ধুও। আঙুলের মাঝখানে পানি পৌঁছানোর ব্যবস্থা করো!\n\nমনে রাখবে: প্রতিটি ধাপে সময় নাও, পরিষ্কার পানি ব্যবহার করো এবং অপচয় এড়াও। উযু তোমার শরীরে পবিত্রতা এবং হৃদয়ে আলো আনে!\n\nসালাহ — ৭টি প্রধান অবস্থান:\n১) নিয়্যাত — হৃদয়ে নামাজ পড়ার নিয়ত করো। ২) তাকবীর — হাত কান পর্যন্ত তুলে 'আল্লাহু আকবার' (আল্লাহ সবচেয়ে বড়) বলো। ৩) কিয়াম — সোজা হয়ে দাঁড়িয়ে বুকে হাত বাঁধো এবং সূরা আল-ফাতিহা ও অন্য একটি সূরা পড়ো। ৪) রুকু — হাঁটুতে হাত রেখে সামনে ঝুঁকো এবং 'সুবহানা রাব্বিয়াল আজিম' (আমার প্রভু, মহানের পবিত্রতা) বলো। ৫) কাওমাহ — রুকু থেকে উঠে 'সামি'আল্লাহু লিমান হামিদাহ' (আল্লাহ তাকে শোনেন যে তাঁর প্রশংসা করে) বলো। ৬) সিজদা — কপাল, নাক, হাত, হাঁটু এবং পায়ের আঙুল মাটিতে রেখে 'সুবহানা রাব্বিয়াল আ'লা' (আমার প্রভু, সর্বোচ্চের পবিত্রতা) বলো। ৭) তাশাহহুদ — বসে ঈমানের সাক্ষ্য পড়ো এবং নবী মুহাম্মাদের প্রতি দরূদ পাঠ করো।\n\n৫টি দৈনিক নামাজ:\n- ফজর (ভোর): ২ ফরজ + ২ সুন্নত = ৪ রাকাআত — তোমার ঈমান মজবুত করে!\n- যোহর (দুপুর): ৪ ফরজ + ৬ সুন্নত = ১০ রাকাআত — শান্তি ও স্পষ্টতা খুঁজে নাও!\n- আসর (বিকাল): ৪ ফরজ + ৪ সুন্নত = ৮ রাকাআত — আল্লাহর সন্তুষ্টি চাও!\n- মাগরিব (সন্ধ্যা): ৩ ফরজ + ২ সুন্নত = ৫ রাকাআত — শৃঙ্খলা ও কৃতজ্ঞতা গড়ে তোলো!\n- ইশা (রাত): ৪ ফরজ + ২ সুন্নত = ৬ রাকাআত — তোমার স্রষ্টার সাথে সংযোগ করো!\nমোট দৈনিক: ১৭ ফরজ + ১২ সুন্নত = ২৯ রাকাআত সম্মিলিত।",
+      "explorer": "নামাজ কীভাবে পড়তে হয়: একটি সম্পূর্ণ নির্দেশিকায় উযু (অজু), সালাহ (নামাজ), ৫টি দৈনিক নামাজ এবং রাকাআত বিবরণ সম্পূর্ণভাবে আলোচনা করা হয়েছে।\n\nউযু — অজুর ৮টি ধাপ:\nউযু হলো নামাজের আগে করা আনুষ্ঠানিক পবিত্রতা। এটি শারীরিক ও আধ্যাত্মিক পরিষ্কার যা আল্লাহর সাথে যোগাযোগের জন্য শরীর ও মনকে প্রস্তুত করে। সালাহর আগে উযু করা ফরজ এবং এটি নামাজের সবচেয়ে গুরুত্বপূর্ণ পূর্বশর্তগুলোর একটি। ধাপগুলো হলো: ১) নিয়্যাত — নামাজের জন্য উযু করার নিয়ত করো, ২) ডান হাত দিয়ে শুরু করে কবজি পর্যন্ত তিনবার ধুও, আঙুলের মাঝে পানি নিশ্চিত করো, ৩) তিনবার ভালোভাবে মুখ কুলকাচলি করো — এটি তিলাওয়াতের জন্য মুখ পরিষ্কার করে, ৪) বাম হাতে সাহায্য নিয়ে নাকে পানি টেনে তিনবার ছেড়ে দাও, ৫) কপাক থেকে চিবুক এবং কান থেকে কান পর্যন্ত পুরো চেহারা তিনবার ধুও, দাড়ি থাকলে তাও, ৬) ডান বাহু দিয়ে শুরু করে কনুই সহ তিনবার ধুও, ৭) ভেজা হাতে একবার মাথা মুছো — পুরো মাথা বা অংশ মুছতে পারো, ৮) ডান পা দিয়ে শুরু করে গোড়ালি সহ তিনবার ধুও, আঙুলের মাঝে পানি নিশ্চিত করো।\n\nকখন উযু আবশ্যক? প্রতিটি ফরজ নামাজের আগে, সুন্নত/নফল নামাজের আগে, কুরআন স্পর্শ করার আগে এবং বাথরুম ব্যবহারের পর।\n\nসালাহ — নামাজের ৭টি প্রধান অবস্থান:\nসালাহ হলো ইসলামি নামাজ যা নির্ধারিত সময়ে দিনে পাঁচবার পড়া হয়। এটি ইসলামের দ্বিতীয় স্তম্ভ এবং বিশ্বাসী ও আল্লাহর মধ্যে সরাসরি সংযোগ। প্রতিটি নামাজ এক বা একাধিক রাকাআত (চক্র) নিয়ে গঠিত। সাতটি অবস্থান হলো: ১) নিয়্যাত (নিয়ত) — নির্দিষ্ট নামাজ (ফজর, যোহর, আসর, মাগরিব, বা ইশা) পড়ার নিয়ত করো। নিয়ত স্পষ্ট ও আন্তরিক হতে হবে। ২) তাকবীর (শুরু) — হাত কান পর্যন্ত তুলে 'আল্লাহু আকবার' (আল্লাহ সবচেয়ে বড়) বলো। এটি নামাজের শুরু চিহ্নিত করে। ৩) কিয়াম (দাঁড়ানো) — বুকে হাত বাঁধা অবস্থায় সোজা হয়ে দাঁড়াও। সূরা আল-ফাতিহা এবং কুরআনের অন্য একটি সূরা পড়ো। ৪) রুকু (ঝুঁকা) — হাঁটুতে হাত রেখে সামনে ঝুঁকো, পিঠ মাটির সমান্তরাল রাখো। 'সুবহানা রাব্বিয়াল আজিম' (আমার প্রভু, মহানের পবিত্রতা) বলো। ৫) কাওমাহ (উঠা) — রুকু থেকে দাঁড়ানোর অবস্থানে উঠো। 'সামি'আল্লাহু লিমান হামিদাহ' (আল্লাহ তাকে শোনেন যে তাঁর প্রশংসা করে) বলো। ৬) সিজদা (প্রণাম) — কপাল, নাক, হাত, হাঁটু এবং পায়ের আঙুল মাটিতে স্পর্শ করে সিজদা করো। 'সুবহানা রাব্বিয়াল আ'লা' (আমার প্রভু, সর্বোচ্চের পবিত্রতা) বলো। ৭) তাশাহহুদ (সাক্ষ্য) — সিজদার মাঝে বা নামাজের শেষে বসো। ঈমানের সাক্ষ্য পড়ো এবং নবী মুহাম্মাদের প্রতি দরূদ পাঠ করো।\n\nসালাহ সম্পর্কে গুরুত্বপূর্ণ নোট: সবসময় কিবলার (মক্কার কাবার দিক) দিকে মুখ করো, সঠিক শরীর ঢাকা (সতর) নিশ্চিত করো: পুরুষদের নাভি থেকে হাঁটুর নিচে, নারীদের হাত ও চেহারা ছাড়া পুরো শরীর, প্রতিটি নামাজের আগে উযু করো, নির্ধারিত সময়ে নামাজ পড়ো, এবং আধ্যাত্মিক ফায়দার জন্য নামাজে মনোযোগ ও উপস্থিতি (খুশু) রাখো।\n\n৫টি দৈনিক নামাজ:\n- ফজর (ভোর): সূর্যোদয়ের আগে। ২ ফরজ + ২ সুন্নত = মোট ৪ রাকাআত। ভোরের নামাজ ইসলামি দিনের শুরু চিহ্নিত করে এবং তোমার ঈমান মজবুত করে।\n- যোহর (দুপুর): সূর্য মধ্যগগন অতিক্রম করার পর। ৪ ফরজ + ৪ সুন্নতে মুয়াক্কাদা + ২ সুন্নতে গায়রে মুয়াক্কাদা = মোট ১০ রাকাআত। দিনের সবচেয়ে দীর্ঘ নামাজ শান্তি ও স্পষ্টতা খুঁজে পেতে সাহায্য করে।\n- আসর (বিকাল): সূর্যাস্তের আগে গোধূলি। ৪ ফরজ + ৪ সুন্নতে মুয়াক্কাদা + ২ সুন্নতে গায়রে মুয়াক্কাদা = মোট ৮ রাকাআত। গোধূলিতে আল্লাহর সন্তুষ্টি চাও।\n- মাগরিব (সন্ধ্যা): সূর্যাস্তের ঠিক পরে। ৩ ফরজ + ২ সুন্নতে গায়রে মুয়াক্কাদা = মোট ৫ রাকাআত। পাঁচটি নামাজের মধ্যে ৩ ফরজ রাকাআত সহ অনন্য। শৃঙ্খলা ও কৃতজ্ঞতা গড়ে তোলে।\n- ইশা (রাত): রাতের পর। ৪ ফরজ + ২ সুন্নতে মুয়াক্কাদা + ২ সুন্নতে গায়রে মুয়াক্কাদা = মোট ৮ রাকাআত। ঘুমানোর আগে তোমার স্রষ্টার সাথে সংযোগ করো।\n\nমোট দৈনিক: ১৭ ফরজ রাকাআত + ১২ সুন্নতে মুয়াক্কাদা = ২৯ সম্মিলিত মোট।",
+      "thinker": "নামাজ কীভাবে পড়তে হয়: একটি সম্পূর্ণ নির্দেশিকায় উযু (অজু), সালাহ (নামাজ), পাঁচটি দৈনিক নামাজ এবং সম্পূর্ণ রাকাআত বিবরণ সম্পূর্ণ নির্দেশনা প্রদান করে।\n\nউযু (অজু):\nউযু হলো আনুষ্ঠানিক পবিত্রতা যা সালাহর জন্য শারীরিক পরিষ্কার এবং আধ্যাত্মিক প্রস্তুতি উভয় হিসেবে কাজ করে। এটি প্রতিটি ফরজ (ফরজ) নামাজ, সুন্নত/নফল (স্বেচ্ছাসেবী) নামাজ এবং কুরআন স্পর্শের আগে আবশ্যক। আটটি ধাপ নবী মুহাম্মাদ ﷺ-এর সুন্নত দ্বারা প্রতিষ্ঠিত একটি নির্দিষ্ট ক্রম অনুসরণ করে: ১) নিয়্যাত — অভ্যন্তরীণ নিয়ত, ২) তিনবার কবজি পর্যন্ত হাত ধোয়া, ৩) তিনবার ভালোভাবে মুখ কুলকাচলি করা, ৪) নাকে পানি টেনে তিনবার ছাড়া, ৫) তিনবার পুরো চেহারা ধোয়া (চুলের সীমা থেকে চিবুক এবং কান থেকে কান, পুরুষদের জন্য দাড়ি সহ), ৬) কনুই সহ তিনবার উভয় বাহু ধোয়া, ৭) ভেজা হাতে একবার মাথা মুছা, ৮) গোড়ালি সহ তিনবার উভয় পা ধোয়া। প্রতিটি ধাপের সুনির্দিষ্ট প্রয়োজনীয়তা আছে: আঙুল ও পায়ের আঙুলের মাঝে পানি পৌঁছাতে হবে এবং সব অংশ সঠিক ক্রমে ধুতে হবে। উযু প্রাকৃতিক নির্গমন, গভীর ঘুম, জ্ঞান হারানো এবং নিজের গোপনাঙ্গ স্পর্শ করার মাধ্যমে ভেঙে যায়।\n\nসালাহ (নামাজ) — সাতটি অবস্থান:\n১) নিয়্যাহ (النية): অভ্যন্তরীণ নিয়ত যে কোন নামাজ পড়া হচ্ছে তা নির্দিষ্ট করে। এটি স্পষ্ট ও আন্তরিক হতে হবে। ২) তাকবীর (التكبير): শুরুর 'আল্লাহু আকবার' যখন হাত কান পর্যন্ত তোলা হয়, নামাজের পবিত্র সীমানা চিহ্নিত করে। ৩) কিয়াম (القيام): বুকে হাত বাঁধা অবস্থায় দাঁড়ানো (ডান হাত বামের ওপর), আল-ফাতিহা এবং দ্বিতীয় সূরা পাঠ করা। ৪) রুকু (الركوع): হাঁটুতে হাত রেখে ঝুঁকা, পিঠ মাটির সমান্তরাল, 'সুবহানা রাব্বিয়াল আজিম' (আমার প্রভু, মহানের পবিত্রতা) তিনবার পাঠ করা। ৫) কাওমাহ (القومة): রুকু থেকে দাঁড়ানো 'সামি'আল্লাহু লিমান হামিদাহ, রাব্বানা লাকাল হামদ' (আল্লাহ তাকে শোনেন যে তাঁর প্রশংসা করে, আমাদের প্রভু, সকল প্রশংসা তোমার জন্য)। ৬) সিজদা (السجود): সাতটি স্পর্শবিন্দু সহ প্রণাম — কপাল, নাক, উভয় হাত, উভয় হাঁটু এবং পায়ের আঙুল — 'সুবহানা রাব্বিয়াল আ'লা' (আমার প্রভু, সর্বোচ্চের পবিত্রতা) তিনবার পাঠ করা। প্রতিটি রাকাআতে দুইবার করা হয়। ৭) তাশাহহুদ (التشهد): ঈমানের সাক্ষ্য (আত-তাহিয়্যাতু লিল্লাহি ওয়াস সালাওয়াতু ওয়াত তাইয়িবাত), সালাওয়াত (আল্লাহুম্মা সাল্লি 'আলা মুহাম্মাদ) এবং দোয়ার জন্য বসার অবস্থান।\n\nপাঁচটি দৈনিক নামাজ — সম্পূর্ণ বিবরণ:\n- ফজর: ২ ফরজ + ২ সুন্নতে মুয়াক্কাদা (ফরজের আগে) = ৪ রাকাআত (সূর্যোদয়ের আগে, আনুমানিক ভোর ৪:৩০-৫:৩০)\n- যোহর: ৪ সুন্নতে মুয়াক্কাদা (ফরজের আগে) + ৪ ফরজ + ২ সুন্নতে মুয়াক্কাদা (ফরজের পর) + ২ সুন্নতে গায়রে মুয়াক্কাদা (পরে) = ১০-১২ রাকাআত (মধ্যাহ্ন, আনুমানিক দুপুর ১২:০০-১:০০)\n- আসর: ৪ সুন্নতে গায়রে মুয়াক্কাদা (ফরজের আগে) + ৪ ফরজ = ৪-৮ রাকাআত (গোধূলি, আনুমানিক বিকাল ৩:৩০-৪:৩০)\n- মাগরিব: ৩ ফরজ + ২ সুন্নতে মুয়াক্কাদা (ফরজের পর) + ২ সুন্নতে গায়রে মুয়াক্কাদা (পরে) = ৫-৭ রাকাআত (সূর্যাস্তের পর, আনুমানিক সন্ধ্যা ৬:৪৫-৭:১৫)\n- ইশা: ৪ ফরজ + ২ সুন্নতে মুয়াক্কাদা (ফরজের পর) + ২ সুন্নতে গায়রে মুয়াক্কাদা (পরে) = ৬-৮ রাকাআত (রাতের পর, আনুমানিক রাত ৮:১৫-৯:৩০)\n\nরাকাআত বিবরণ সারণি:\n| নামাজ | ফরজ | সুন্নতে মুয়াক্কাদা | সুন্নতে গায়রে মুয়াক্কাদা | মোট |\n| ফজর | ২ | ২ | ০ | ৪ |\n| যোহর | ৪ | ৪ | ২ | ১০ |\n| আসর | ৪ | ০ | ২ | ৬ |\n| মাগরিব | ৩ | ০ | ২ | ৫ |\n| ইশা | ৪ | ২ | ২ | ৮ |\n| মোট | ১৭ | ৮ | ৮ | ৩৩ |\n\nনামাজের প্রকারভেদ: ফরজ (ফরজ) — বাধ্যতামূলক, ছাড়লে কবিরা গুনাহ। সুন্নতে মুয়াক্কাদা (অত্যন্ত সুপারিশকৃত) — অত্যন্ত জোরালো, নবী ﷺ নিয়মিত পড়তেন। সুন্নতে গায়রে মুয়াক্কাদা (ঐচ্ছিক) — নবী ﷺ মাঝে মাঝে পড়তেন, অতিরিক্ত পুরস্কার আনে।\n\nনামাজ কেবল শারীরিক আন্দোলন নয় — এটি খুশু (মনোযোগ ও বিনয়) এবং আল্লাহর সাথে আন্তরিক সংযোগ দাবি করে। আল্লাহ বলেছেন: 'নিশ্চয়ই নামাজ অশ্লীলতা ও খারাপ কাজ থেকে বারণ করে' (কুরআন ২৯:৪৫)।"
     },
-    "funFact": "Did you know? The five daily prayers were prescribed during Prophet Muhammad's Night Journey (Isra and Mi'raj) to heaven. Originally, Allah commanded 50 prayers per day, but after several reductions through Prophet Musa's advice, it became 5 — yet the reward remains equal to 50!",
+    "funFact": "তুমি কি জানো? পাঁচটি দৈনিক নামাজ নবী মুহাম্মাদের মেরাজের রাতে (ইসরা ও মেরাজ) নির্ধারিত হয়েছিল। মূলত, আল্লাহ দিনে ৫০টি নামাজের নির্দেশ দিয়েছিলেন, কিন্তু নবী মূসার পরামর্শে বেশ কয়েকবার হ্রাসের পর এটি ৫টি হয়েছিল — তবে পুরস্কার ৫০টির সমান থেকে যায়!",
     "quiz": [
       {
-        "q": "How many steps are there in Wudu?",
+        "q": "উযুতে কয়টি ধাপ আছে?",
         "options": [
-          "6 steps",
-          "8 steps",
-          "10 steps"
+          "৬টি ধাপ",
+          "৮টি ধাপ",
+          "১০টি ধাপ"
         ],
         "correct": 1,
-        "explanation": "Wudu consists of 8 main steps: Niyyah (intention), washing hands, rinsing mouth, rinsing nose, washing face, washing arms, wiping head, and washing feet."
+        "explanation": "উযুতে ৮টি প্রধান ধাপ আছে: নিয়ত, হাত ধোয়া, মুখ কুলকাচলি, নাক পরিষ্কার, চেহারা ধোয়া, বাহু ধোয়া, মাথা মুছা এবং পা ধোয়া।"
       },
       {
-        "q": "What is the first step of Wudu?",
+        "q": "উযুর প্রথম ধাপ কী?",
         "options": [
-          "Wash hands",
-          "Niyyah (Intention)",
-          "Rinse mouth"
+          "হাত ধোয়া",
+          "নিয়্যাত (নিয়ত)",
+          "মুখ কুলকাচলি"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Wudu. You make the intention in your heart to perform Wudu for prayer."
+        "explanation": "নিয়্যাত (নিয়ত) হলো উযুর প্রথম ধাপ। তুমি হৃদয়ে নামাজের জন্য উযু করার নিয়ত করো।"
       },
       {
-        "q": "How many times should you wash your hands in Wudu?",
+        "q": "উযুতে হাত কতবার ধুতে হয়?",
         "options": [
-          "Once",
-          "Twice",
-          "Three times"
+          "একবার",
+          "দুইবার",
+          "তিনবার"
         ],
         "correct": 2,
-        "explanation": "In Wudu, you should wash your hands three times, starting with the right hand. This ensures thorough cleansing."
+        "explanation": "উযুতে তিনবার হাত ধুতে হয়, ডান হাত দিয়ে শুরু করতে হয়। এটি পুঙ্খানুপুঙ্খ পরিষ্কার নিশ্চিত করে।"
       },
       {
-        "q": "Which body part is wiped (not washed) in Wudu?",
+        "q": "উযুতে কোন অংশ মুছা হয় (ধোয়া নয়)?",
         "options": [
-          "Face",
-          "Head",
-          "Arms"
+          "চেহারা",
+          "মাথা",
+          "বাহু"
         ],
         "correct": 1,
-        "explanation": "The head is wiped once with wet hands during Wudu. This is different from washing, which is done for other body parts."
+        "explanation": "উযুতে ভেজা হাতে একবার মাথা মুছতে হয়। এটি অন্যান্য অংশের ধোয়ার চেয়ে ভিন্ন।"
       },
       {
-        "q": "When performing Wudu, which hand should you start with?",
+        "q": "উযু করার সময় কোন হাত দিয়ে শুরু করতে হয়?",
         "options": [
-          "Left hand",
-          "Right hand",
-          "Either hand"
+          "বাম হাত",
+          "ডান হাত",
+          "যেকোনো হাত"
         ],
         "correct": 1,
-        "explanation": "In Wudu, you should start with the right hand for washing hands, arms, and feet. This is part of the Sunnah (practice of the Prophet ﷺ)."
+        "explanation": "উযুতে হাত, বাহু ও পা ধোয়ার সময় ডান হাত দিয়ে শুরু করতে হয়। এটি নবী ﷺ-এর সুন্নতের অংশ।"
       },
       {
-        "q": "What is the first position in Salah prayer?",
+        "q": "সালাহ নামাজের প্রথম অবস্থান কী?",
         "options": [
-          "Ruku (Bowing)",
-          "Niyyah (Intention)",
-          "Qiyam (Standing)"
+          "রুকু (ঝুঁকা)",
+          "নিয়্যাত (নিয়ত)",
+          "কিয়াম (দাঁড়ানো)"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Salah. You intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha)."
+        "explanation": "নিয়্যাত (নিয়ত) হলো সালাহর প্রথম ধাপ। তুমি হৃদয়ে নির্দিষ্ট নামাজ (ফজর, যোহর, আসর, মাগরিব বা ইশা) পড়ার নিয়ত করো।"
       },
       {
-        "q": "What do you say when starting Salah?",
+        "q": "সালাহ শুরু করার সময় কী বলতে হয়?",
         "options": [
-          "Bismillah",
-          "Allahu Akbar",
-          "SubhanAllah"
+          "বিসমিল্লাহ",
+          "আল্লাহু আকবার",
+          "সুবহানাল্লাহ"
         ],
         "correct": 1,
-        "explanation": "You say 'Allahu Akbar' (Allah is the Greatest) while raising your hands to your ears to begin Salah. This marks the beginning of your prayer."
+        "explanation": "সালাহ শুরু করতে হাত কান পর্যন্ত তুলে 'আল্লাহু আকবার' (আল্লাহ সবচেয়ে বড়) বলতে হয়। এটি তোমার নামাজের শুরু চিহ্নিত করে।"
       },
       {
-        "q": "How many main positions are there in Salah?",
+        "q": "সালাহতে কয়টি প্রধান অবস্থান আছে?",
         "options": [
-          "5 positions",
-          "7 positions",
-          "9 positions"
+          "৫টি অবস্থান",
+          "৭টি অবস্থান",
+          "৯টি অবস্থান"
         ],
         "correct": 1,
-        "explanation": "There are 7 main positions in Salah: Niyyah, Takbir, Qiyam, Ruku, Qawmah, Sujud, and Tashahhud."
+        "explanation": "সালাহতে ৭টি প্রধান অবস্থান আছে: নিয়্যাত, তাকবীর, কিয়াম, রুকু, কাওমাহ, সিজদা এবং তাশাহহুদ।"
       },
       {
-        "q": "What is Ruku in Salah?",
+        "q": "সালাহতে রুকু কী?",
         "options": [
-          "Bowing position",
-          "Prostration position",
-          "Standing position"
+          "ঝুঁকার অবস্থান",
+          "প্রণামের অবস্থান",
+          "দাঁড়ানোর অবস্থান"
         ],
         "correct": 0,
-        "explanation": "Ruku is the bowing position in Salah where you bend forward with your hands on your knees and your back parallel to the ground, saying 'Subhana Rabbiyal Azeem.'"
+        "explanation": "রুকু হলো সালাহর ঝুঁকার অবস্থান যেখানে তুমি হাঁটুতে হাত রেখে পিঠ মাটির সমান্তরাল রেখে 'সুবহানা রাব্বিয়াল আজিম' বলো।"
       },
       {
-        "q": "How many Fard rak'ahs are there in total across all 5 daily prayers?",
+        "q": "৫টি দৈনিক নামাজে মোট কতটি ফরজ রাকাআত আছে?",
         "options": [
-          "15",
-          "17",
-          "20"
+          "১৫",
+          "১৭",
+          "২০"
         ],
         "correct": 1,
-        "explanation": "There are 17 Fard rak'ahs in total: Fajr (2), Dhuhr (4), Asr (4), Maghrib (3), and Isha (4)."
+        "explanation": "মোট ১৭টি ফরজ রাকাআত আছে: ফজর (২), যোহর (৪), আসর (৪), মাগরিব (৩) এবং ইশা (৪)।"
       },
       {
-        "q": "Which prayer has 3 Fard rak'ahs?",
+        "q": "কোন নামাজে ৩ ফরজ রাকাআত আছে?",
         "options": [
-          "Fajr",
-          "Maghrib",
-          "Isha"
+          "ফজর",
+          "মাগরিব",
+          "ইশা"
         ],
         "correct": 1,
-        "explanation": "Maghrib (sunset prayer) is unique as it has 3 Fard rak'ahs, while all other prayers have either 2 or 4 Fard rak'ahs."
+        "explanation": "মাগরিব (সন্ধ্যার নামাজ) অনন্য কারণ এতে ৩ ফরজ রাকাআত আছে, অন্যান্য নামাজে ২ বা ৪ ফরজ রাকাআত আছে।"
       },
       {
-        "q": "What is Sujud in Salah?",
+        "q": "সালাহতে সিজদা কী?",
         "options": [
-          "Standing upright",
-          "Bowing forward",
-          "Prostration on the ground"
+          "সোজা দাঁড়ানো",
+          "সামনে ঝুঁকা",
+          "মাটিতে প্রণাম"
         ],
         "correct": 2,
-        "explanation": "Sujud is the prostration position where your forehead, nose, hands, knees, and toes touch the ground. It is performed twice in each rak'ah, and you say 'Subhana Rabbiyal A'la.'"
+        "explanation": "সিজদা হলো প্রণামের অবস্থান যেখানে তোমার কপাল, নাক, হাত, হাঁটু এবং পায়ের আঙুল মাটিতে স্পর্শ করে। এটি প্রতি রাকাআতে দুইবার করা হয় এবং 'সুবহানা রাব্বিয়াল আ'লা' বলতে হয়।"
       }
     ]
   },
   {
     "id": "honesty",
-    "title": "Honesty",
+    "title": "সততা",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🤝",
     "category": "islamic_values",
     "content": {
-      "starter": "Honesty means always telling the truth! Allah loves people who are honest. Even if telling the truth is hard, it's always the right thing to do. When we're honest, people trust us and Allah is pleased with us!",
-      "explorer": "Honesty (Sidq) is one of the most important values in Islam. The Prophet ﷺ was known as 'Al-Amin' — the Trustworthy — because he always told the truth. Islam teaches us to be honest in our words, actions, and intentions. Lying is a major sin that can damage relationships and break trust. Being honest, even when it's difficult, earns Allah's love and the respect of others.",
-      "thinker": "Honesty (Sidq) and trustworthiness (Amanah) are foundational Islamic virtues. The Prophet ﷺ said: 'Truthfulness leads to righteousness, and righteousness leads to Paradise.' Honesty is not merely about not lying — it encompasses sincerity in intentions, accuracy in reporting, and integrity in all dealings. Allah says in the Quran: 'O you who believe, fear Allah and be among the truthful' (Surah At-Tawbah 9:119). The concept extends to being honest with oneself, honest in worship, and honest in business dealings."
+      "starter": "সততা মানে সবসময় সত্য কথা বলা! আল্লাহ সৎ মানুষদের ভালোবাসেন। সত্য বলা কঠিন হলেও, এটি সবসময় সঠিক কাজ। আমরা যখন সৎ হই, মানুষ আমাদের বিশ্বাস করে এবং আল্লাহ আমাদের নিয়ে সন্তুষ্ট হন!",
+      "explorer": "সততা (সিদক) ইসলামের অন্যতম গুরুত্বপূর্ণ মূল্যবোধ। নবী ﷺ 'আল-আমিন' — বিশ্বস্ত — নামে পরিচিত ছিলেন কারণ তিনি সবসময় সত্য কথা বলতেন। ইসলাম আমাদের শেখায় কথায়, কাজে এবং নিয়তে সৎ হতে। মিথ্যা বলা একটি বড় গুনাহ যা সম্পর্ক নষ্ট করতে পারে এবং বিশ্বাস ভেঙে দিতে পারে। কঠিন হলেও সৎ হওয়া আল্লাহর ভালোবাসা এবং অন্যদের সম্মান অর্জন করে।",
+      "thinker": "সততা (সিদক) এবং বিশ্বস্ততা (আমানাহ) ইসলামি মূল্যবোধের ভিত্তি। নবী ﷺ বলেছেন: 'সততা নেককারের দিকে নিয়ে যায়, এবং নেককার জান্নাতে নিয়ে যায়।' সততা কেবল মিথ্যা না বলার বিষয় নয় — এটি নিয়তে আন্তরিকতা, রিপোর্টিংয়ে সঠিকতা এবং সমস্ত লেনদেনে সততা অন্তর্ভুক্ত করে। আল্লাহ কুরআনে বলেছেন: 'হে বিশ্বাসীগণ, আল্লাহকে ভয় করো এবং সত্যবাদীদের সাথে থাকো' (সূরা আত-তাওবা ৯:১১৯)। এই ধারণা নিজের সাথে সৎ হওয়া, ইবাদতে সৎ হওয়া এবং ব্যবসায়িক লেনদেনে সৎ হওয়া পর্যন্ত বিস্তৃত।"
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was called 'Al-Amin' (The Trustworthy) even before he became a prophet — because he NEVER told a lie!",
+    "funFact": "তুমি কি জানো? নবী মুহাম্মাদ ﷺ-কে নবুয়তের আগেও 'আল-আমিন' (বিশ্বস্ত) বলা হতো — কারণ তিনি কখনোই মিথ্যা বলেননি!",
     "quiz": [
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "নবী মুহাম্মাদ ﷺ-এর নবুয়তের আগের ডাকনাম কী ছিল?",
         "options": [
-          "Al-Hakim",
-          "Al-Amin",
-          "Al-Karim"
+          "আল-হাকিম",
+          "আল-আমিন",
+          "আল-কারিম"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "তাঁকে 'আল-আমিন' (বিশ্বস্ত) বলা হতো কারণ তিনি সবসময় সত্য কথা বলতেন।"
       },
       {
-        "q": "Is honesty only about not lying?",
+        "q": "সততা কি কেবল মিথ্যা না বলার বিষয়?",
         "options": [
-          "Yes",
-          "No, it includes sincerity and integrity too",
-          "Sometimes"
+          "হ্যাঁ",
+          "না, এতে আন্তরিকতা ও সততাও অন্তর্ভুক্ত",
+          "মাঝে মাঝে"
         ],
         "correct": 1,
-        "explanation": "Honesty includes being truthful, sincere, and having integrity in everything."
+        "explanation": "সততায় সত্যবাদিতা, আন্তরিকতা এবং সবকিছুতে সততা অন্তর্ভুক্ত।"
       },
       {
-        "q": "What does Allah say about truthful people?",
+        "q": "আল্লাহ সত্যবাদীদের সম্পর্কে কী বলেছেন?",
         "options": [
-          "They are punished",
-          "He loves them",
-          "They are ignored"
+          "তাদের শাস্তি দেওয়া হবে",
+          "তিনি তাদের ভালোবাসেন",
+          "তাদের উপেক্ষা করা হবে"
         ],
         "correct": 1,
-        "explanation": "Allah loves truthful people and promises them Paradise."
+        "explanation": "আল্লাহ সত্যবাদীদের ভালোবাসেন এবং তাদের জান্নাতের প্রতিশ্রুতি দেন।"
       }
     ]
   },
   {
     "id": "kindness",
-    "title": "Kindness",
+    "title": "দয়া",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_46_sadaqah_voluntary-metCJkjaZZWHwc3n86346d.webp?updatedAt=1781117902191",
     "emoji": "💕",
     "category": "islamic_values",
     "content": {
-      "starter": "Kindness means being nice to everyone! Help your friends, smile at people, share your toys, and be gentle. The Prophet ﷺ was the kindest person ever! When we're kind, Allah rewards us and everyone loves us!",
-      "explorer": "Kindness (Ihsan) is at the heart of Islamic teaching. The Prophet ﷺ said: 'The most beloved of people to Allah are those who are most beneficial to people.' Being kind means helping others, smiling, sharing, and treating everyone with respect — whether they're Muslim or not. Islam teaches that even a smile is charity (sadaqah).",
-      "thinker": "Kindness (Ihsan and Rahmah) is a comprehensive Islamic virtue. The Prophet ﷺ embodied mercy — the Quran describes him as 'a mercy to all the worlds' (Surah Al-Anbiya 21:107). Kindness extends to all creation: family, neighbors, strangers, animals, and even the environment. The Prophet ﷺ said: 'Charity does not decrease wealth. No one forgives another except that Allah increases his honor. And no one humbles himself for the sake of Allah except that Allah raises his status.' True kindness in Islam is not performative but stems from genuine love for Allah and His creation."
+      "starter": "দয়া মানে সবার প্রতি ভালো ব্যবহার করা! বন্ধুদের সাহায্য করো, মানুষের দিকে হাসো, খেলনা ভাগ করো এবং নরম হও। নবী ﷺ ছিলেন সবচেয়ে দয়ালু মানুষ! আমরা যখন দয়ালু হই, আল্লাহ আমাদের পুরস্কৃত করেন এবং সবাই আমাদের ভালোবাসে!",
+      "explorer": "দয়া (ইহসান) ইসলামি শিক্ষার কেন্দ্রবিন্দু। নবী ﷺ বলেছেন: 'আল্লাহর কাছে সবচেয়ে প্রিয় তারা যারা মানুষের সবচেয়ে বেশি উপকারী।' দয়ালু হওয়া মানে অন্যদের সাহায্য করা, হাসো, ভাগ করা এবং সবার সাথে সম্মানের সাথে আচরণ করা — তারা মুসলিম হোক বা না হোক। ইসলাম শেখায় যে এমনকি হাসাটাও দান (সাদাকাহ)।",
+      "thinker": "দয়া (ইহসান ও রহমত) একটি ব্যাপক ইসলামি গুণ। নবী ﷺ রহমতের মূর্তি — কুরআন তাঁকে 'সমস্ত সৃষ্টির জন্য রহমত' হিসেবে বর্ণনা করেছে (সূরা আল-আম্বিয়া ২১:১০৭)। দয়া সমস্ত সৃষ্টিতে বিস্তৃত: পরিবার, প্রতিবেশী, অপরিচিত, পশু এবং এমনকি পরিবেশ। নবী ﷺ বলেছেন: 'দান সম্পদ কমায় না। কেউ অন্যকে ক্ষমা করলে আল্লাহ তার সম্মান বৃদ্ধি করেন। আর কেউ আল্লাহর জন্য নিজেকে বিনয়ী করলে আল্লাহ তার মর্যাদা বৃদ্ধি করেন।' ইসলামে প্রকৃত দয়া প্রদর্শনমূলক নয় বরং আল্লাহ ও তাঁর সৃষ্টির প্রতি আন্তরিক ভালোবাসা থেকে উদ্ভূত।"
     },
-    "funFact": "Did you know? The Prophet ﷺ said that even smiling at someone is a form of charity! You can earn rewards just by being friendly!",
+    "funFact": "তুমি কি জানো? নবী ﷺ বলেছেন যে কাউকে হাসি দেখানোও দানের একটি রূপ! তুমি শুধু বন্ধুত্বপূর্ণ হয়েও পুরস্কার অর্জন করতে পারো!",
     "quiz": [
       {
-        "q": "What did the Prophet ﷺ say about smiling?",
+        "q": "নবী ﷺ হাসি সম্পর্কে কী বলেছেন?",
         "options": [
-          "It's sinful",
-          "It's a form of charity",
-          "It's meaningless"
+          "এটা গুনাহ",
+          "এটা দানের একটি রূপ",
+          "এটা অর্থহীন"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said even a smile is charity (sadaqah)."
+        "explanation": "নবী ﷺ বলেছেন এমনকি হাসিও সাদাকাহ (দান)।"
       },
       {
-        "q": "Who should we be kind to?",
+        "q": "কাদের প্রতি দয়া করতে হবে?",
         "options": [
-          "Only Muslims",
-          "Only family",
-          "Everyone"
+          "শুধু মুসলিমদের",
+          "শুধু পরিবারকে",
+          "সবাইকে"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to be kind to everyone — Muslim or not."
+        "explanation": "ইসলাম শেখায় সবার প্রতি দয়া করতে — মুসলিম হোক বা না হোক।"
       },
       {
-        "q": "What is the most beloved person to Allah?",
+        "q": "আল্লাহর কাছে সবচেয়ে প্রিয় ব্যক্তি কে?",
         "options": [
-          "The richest",
-          "The most beautiful",
-          "The most beneficial to others"
+          "সবচেয়ে ধনী",
+          "সবচেয়ে সুন্দর",
+          "অন্যদের সবচেয়ে বেশি উপকারী"
         ],
         "correct": 2,
-        "explanation": "The Prophet ﷺ said the most beloved to Allah are those most beneficial to people."
+        "explanation": "নবী ﷺ বলেছেন আল্লাহর কাছে সবচেয়ে প্রিয় তারা যারা মানুষের সবচেয়ে বেশি উপকারী।"
       }
     ]
   },
   {
     "id": "respect",
-    "title": "Respect",
+    "title": "সম্মান",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_17_topic_respect_elders-6wUPfPgJRqgzEPbLKEPMkD.webp?updatedAt=1781117900196",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Respect means treating people nicely and politely! We respect our parents, teachers, and elders. We say 'please' and 'thank you.' We listen when others talk. Allah loves people who are respectful!",
-      "explorer": "Respect (Adab) is a key Islamic value. The Quran commands us to honor our parents, be kind to neighbors, and treat elders with dignity. The Prophet ﷺ taught that respect is not just about words but actions — standing up for elders, listening attentively, and honoring others' feelings. Respect also extends to respecting differences of opinion.",
-      "thinker": "Respect (Adab) in Islam is a comprehensive concept that encompasses how we relate to Allah, His creation, and ourselves. The Quran says: 'And your Lord has decreed that you worship none but Him, and that you be dutiful to your parents' (Surah Al-Isra 17:23). Respect for parents is given such high status that it appears immediately after the command to worship Allah alone. Beyond parents, Islam teaches respect for scholars, neighbors, the elderly, and even strangers. The Prophet ﷺ demonstrated this by standing when a funeral passed, greeting children, and honoring the rights of neighbors regardless of their faith."
+      "starter": "সম্মান মানে মানুষের সাথে ভালো ও ভদ্রভাবে আচরণ করা! আমরা আমাদের বাবা-মা, শিক্ষক এবং বয়োজ্যেষ্ঠদের সম্মান করি। আমরা 'দয়া করে' এবং 'ধন্যবাদ' বলি। অন্যরা যখন কথা বলে তখন আমরা শুনি। আল্লাহ সম্মানীয় মানুষদের ভালোবাসেন!",
+      "explorer": "সম্মান (আদব) একটি গুরুত্বপূর্ণ ইসলামি মূল্যবোধ। কুরআন আমাদের পিতামাতাকে সম্মান করতে, প্রতিবেশীদের সাথে ভালো ব্যবহার করতে এবং বয়োজ্যেষ্ঠদের সম্মান দিতে আদেশ করে। নবী ﷺ শিখিয়েছেন যে সম্মান কেবল কথার নয় বরং কাজের — বয়োজ্যেষ্ঠদের জন্য দাঁড়ানো, মনোযোগ দিয়ে শোনা এবং অন্যদের অনুভূতিকে সম্মান করা। সম্মান মতপার্থক্যকেও সম্মান করার পর্যন্ত বিস্তৃত।",
+      "thinker": "ইসলামে সম্মান (আদব) একটি ব্যাপক ধারণা যা আমরা কীভাবে আল্লাহ, তাঁর সৃষ্টি এবং নিজেদের সাথে সম্পর্কিত তা অন্তর্ভুক্ত করে। কুরআন বলেছেন: 'তোমার প্রভু নির্দেশ দিয়েছেন যে তুমি কেবল তাঁরই ইবাদত করবে এবং পিতামাতার প্রতি সদয় হবে' (সূরা আল-ইসরা ১৭:২৩)। পিতামাতার সম্মান এতই উচ্চ মর্যাদার যে এটি কেবল আল্লাহর ইবাদতের নির্দেশের পরই আসে। পিতামাতার বাইরেও, ইসলাম আলেমদের, প্রতিবেশীদের, বয়োজ্যেষ্ঠদের এবং এমনকি অপরিচিতদেরও সম্মান করতে শেখায়। নবী ﷺ এটি প্রদর্শন করেছিলেন জানাজা পার হলে দাঁড়ানো, শিশুদের সালাম দেওয়া এবং ধর্ম নির্বিশেষে প্রতিবেশীদের অধিকার সম্মান করার মাধ্যমে।"
     },
-    "funFact": "Did you know? In Islam, respecting your parents is considered the SECOND most important duty after worshipping Allah alone!",
+    "funFact": "তুমি কি জানো? ইসলামে, পিতামাতাকে সম্মান করা কেবল আল্লাহর ইবাদতের পরেই দ্বিতীয় সবচেয়ে গুরুত্বপূর্ণ কর্তব্য হিসেবে বিবেচিত!",
     "quiz": [
       {
-        "q": "What comes right after worshipping Allah in importance?",
+        "q": "আল্লাহর ইবাদতের পরে কী সবচেয়ে গুরুত্বপূর্ণ?",
         "options": [
-          "Being rich",
-          "Respecting parents",
-          "Going to Hajj"
+          "ধনী হওয়া",
+          "পিতামাতাকে সম্মান করা",
+          "হজ করা"
         ],
         "correct": 1,
-        "explanation": "The Quran commands us to worship Allah alone, then to honor our parents."
+        "explanation": "কুরআন আল্লাহর ইবাদতের পরে পিতামাতাকে সম্মান করার নির্দেশ দিয়েছে।"
       },
       {
-        "q": "How should we treat elders?",
+        "q": "বয়োজ্যেষ্ঠদের সাথে কীভাবে আচরণ করতে হবে?",
         "options": [
-          "Ignore them",
-          "With disrespect",
-          "With honor and dignity"
+          "তাদের উপেক্ষা করো",
+          "অসম্মানের সাথে",
+          "সম্মান ও মর্যাদার সাথে"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to treat elders with honor and dignity."
+        "explanation": "ইসলাম শেখায় বয়োজ্যেষ্ঠদের সম্মান ও মর্যাদার সাথে আচরণ করতে।"
       },
       {
-        "q": "What does 'Adab' mean?",
+        "q": "'আদব' মানে কী?",
         "options": [
-          "Prayer",
-          "Respect and good manners",
-          "Food"
+          "নামাজ",
+          "সম্মান ও ভালো আচরণ",
+          "খাবার"
         ],
         "correct": 1,
-        "explanation": "Adab means respect, good manners, and proper etiquette in Islam."
+        "explanation": "আদব মানে সম্মান, ভালো আচরণ এবং ইসলামে সঠিক শিষ্টাচার।"
       }
     ]
   },
   {
     "id": "patience",
-    "title": "Patience",
+    "title": "ধৈর্য",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🧘",
     "category": "islamic_values",
     "content": {
-      "starter": "Patience means waiting calmly and not getting upset when things are hard! When you're sick, or something goes wrong, or you have to wait — be patient! Allah loves patient people and will reward them!",
-      "explorer": "Patience (Sabr) is one of the greatest virtues in Islam. The Quran says: 'Indeed, the patient will be given their reward without account' (Surah Az-Zumar 39:10). Sabr means staying calm during difficulties, resisting temptation, and being content with Allah's plan. The Prophet ﷺ compared patience to a precious gem — it's hard to find but incredibly valuable.",
-      "thinker": "Patience (Sabr) is one of the most emphasized virtues in Islam. The Quran mentions it over 70 times. Sabr has three dimensions: patience in obeying Allah (perseverance), patience in avoiding sin (restraint), and patience during hardship (endurance). Allah says: 'And be patient, for indeed, Allah does not allow to be lost the reward of those who do good' (Surah Hud 11:115). The Prophet ﷺ said: 'How wonderful is the affair of the believer, for all his affairs are good, and this does not apply to anyone except the believer. If something good happens to him, he is grateful, and that is good for him. If something bad happens to him, he bears it with patience, and that is good for him.'"
+      "starter": "ধৈর্য মানে শান্ত থেকে অপেক্ষা করা এবং কঠিন সময়ে বিরক্ত না হওয়া! যখন তুমি অসুস্থ, বা কিছু ভুল হয়ে যায়, বা অপেক্ষা করতে হয় — ধৈর্য ধরো! আল্লাহ ধৈর্যশীল মানুষদের ভালোবাসেন এবং তাদের পুরস্কৃত করবেন!",
+      "explorer": "ধৈর্য (সবর) ইসলামের অন্যতম শ্রেষ্ঠ গুণ। কুরআন বলেছেন: 'নিশ্চয়ই ধৈর্যশীলদের তাদের পুরস্কার হিসাব ছাড়াই দেওয়া হবে' (সূরা আয-যুমার ৩৯:১০)। সবর মানে কঠিন সময়ে শান্ত থাকা, প্রলোভন প্রতিহত করা এবং আল্লাহর পরিকল্পনায় সন্তুষ্ট থাকা। নবী ﷺ ধৈর্যের তুলনা একটি মূল্যবান রত্নের সাথে করেছিলেন — এটি খুঁজে পাওয়া কঠিন কিন্তু অবিশ্বাস্যভাবে মূল্যবান।",
+      "thinker": "ধৈর্য (সবর) ইসলামে সবচেয়ে গুরুত্বপূর্ণ গুণগুলোর একটি। কুরআন এটি ৭০ বারেরও বেশি উল্লেখ করেছে। সবরের তিনটি মাত্রা আছে: আল্লাহর আনুগত্যে ধৈর্য (অধ্যবসায়), গুনাহ থেকে বিরত থাকায় ধৈর্য (সংযম), এবং কষ্টের সময় ধৈর্য (সহ্য)। আল্লাহ বলেছেন: 'ধৈর্য ধরো, কারণ নিশ্চয়ই আল্লাহ সৎকর্মশীলদের পুরস্কার নষ্ট করেন না' (সূরা হুদ ১১:১১৫)। নবী ﷺ বলেছেন: 'মুমিনের ব্যাপার কতই না আশ্চর্যজনক, তার সব ব্যাপারই ভালো, এটি কেবল মুমিনের ক্ষেত্রেই প্রযোজ্য। তার কোনো ভালো কিছু ঘটলে সে কৃতজ্ঞ হয়, আর তা তার জন্য ভালো। তার কোনো খারাপ কিছু ঘটলে সে ধৈর্য ধরে, আর তা তার জন্য ভালো।'"
     },
-    "funFact": "Did you know? Allah mentions patience (Sabr) over 70 times in the Quran — it's one of the most important qualities a Muslim can have!",
+    "funFact": "তুমি কি জানো? আল্লাহ কুরআনে ধৈর্য (সবর) এর কথা ৭০ বারেরও বেশি উল্লেখ করেছেন — এটি একজন মুসলিমের সবচেয়ে গুরুত্বপূর্ণ গুণগুলোর একটি!",
     "quiz": [
       {
-        "q": "What is 'Sabr'?",
+        "q": "'সবর' কী অর্থ?",
         "options": [
-          "Prayer",
-          "Patience",
-          "Charity"
+          "নামাজ",
+          "ধৈর্য",
+          "দান"
         ],
         "correct": 1,
-        "explanation": "Sabr means patience — staying calm during difficulties and trusting Allah."
+        "explanation": "সবর অর্থ ধৈর্য — কঠিন সময়ে শান্ত থাকা এবং আল্লাহর ওপর ভরসা করা।"
       },
       {
-        "q": "How many times does Allah mention patience in the Quran?",
+        "q": "আল্লাহ কুরআনে কতবার ধৈর্যের কথা উল্লেখ করেছেন?",
         "options": [
-          "5 times",
-          "Over 70 times",
-          "100 times"
+          "৫ বার",
+          "৭০ বারের বেশি",
+          "১০০ বার"
         ],
         "correct": 1,
-        "explanation": "Allah mentions patience (Sabr) over 70 times in the Quran."
+        "explanation": "আল্লাহ কুরআনে ধৈর্য (সবর) এর কথা ৭০ বারেরও বেশি উল্লেখ করেছেন।"
       },
       {
-        "q": "What happens to patient people?",
+        "q": "ধৈর্যশীলদের কী হবে?",
         "options": [
-          "Nothing",
-          "They are rewarded without limit",
-          "They are punished"
+          "কিছুই না",
+          "তারা সীমাহীন পুরস্কার পাবে",
+          "তাদের শাস্তি দেওয়া হবে"
         ],
         "correct": 1,
-        "explanation": "Allah says the patient will be given their reward without account."
+        "explanation": "আল্লাহ বলেছেন ধৈর্যশীলদের তাদের পুরস্কার হিসাব ছাড়াই দেওয়া হবে।"
       }
     ]
   },
   {
     "id": "gratitude",
-    "title": "Gratitude",
+    "title": "কৃতজ্ঞতা",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_50_hiba_gifts-6i3784QxV2uUz9RuU6ni4m.webp?updatedAt=1781117899322",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Gratitude means saying 'thank you' to Allah for everything! For food, family, friends, health — everything! When we're thankful, Allah gives us more blessings. A grateful heart is a happy heart!",
-      "explorer": "Gratitude (Shukr) means recognizing and appreciating Allah's blessings. The Quran says: 'If you are grateful, I will surely increase you' (Surah Ibrahim 14:7). Gratitude isn't just saying 'Alhamdulillah' — it's using Allah's blessings in ways that please Him. When we're grateful for health, we use it to do good. When we're grateful for wealth, we share it with others.",
-      "thinker": "Gratitude (Shukr) is a comprehensive Islamic concept that goes beyond simple thankfulness. It has three dimensions: gratitude of the heart (recognizing blessings), gratitude of the tongue (verbal thanks and praise), and gratitude of the limbs (using blessings in obedience to Allah). The Quran warns against ingratitude: 'If you are ungrateful, indeed, my punishment is severe' (Surah Ibrahim 14:7). The Prophet ﷺ would pray at night until his feet would swell, and when asked why, he would say: 'Should I not be a grateful servant?' Gratitude transforms our perspective — even in hardship, a grateful person finds blessings to thank Allah for."
+      "starter": "কৃতজ্ঞতা মানে সবকিছুর জন্য আল্লাহকে 'ধন্যবাদ' বলা! খাবার, পরিবার, বন্ধু, স্বাস্থ্য — সবকিছুর জন্য! আমরা যখন কৃতজ্ঞ হই, আল্লাহ আমাদের আরও বেশি নিয়ামত দেন। একটি কৃতজ্ঞ হৃদয় একটি খুশির হৃদয়!",
+      "explorer": "কৃতজ্ঞতা (শুকর) মানে আল্লাহর নিয়ামত চিনতে পারা এবং সেগুলোকে সম্মান করা। কুরআন বলেছেন: 'যদি তোমরা কৃতজ্ঞ হও, আমি অবশ্যই তোমাদের বৃদ্ধি করব' (সূরা ইবরাহিম ১৪:৭)। কৃতজ্ঞতা শুধু 'আলহামদুলিল্লাহ' বলা নয় — এটি আল্লাহর নিয়ামত এমনভাবে ব্যবহার করা যা তাঁকে খুশি করে। যখন আমরা স্বাস্থ্যের জন্য কৃতজ্ঞ, আমরা তা ভালো কাজে ব্যবহার করি। যখন আমরা সম্পদের জন্য কৃতজ্ঞ, আমরা তা অন্যদের সাথে ভাগ করি।",
+      "thinker": "কৃতজ্ঞতা (শুকর) একটি ব্যাপক ইসলামি ধারণা যা সাধারণ ধন্যবাদের চেয়ে অনেক বেশি। এর তিনটি মাত্রা আছে: হৃদয়ের কৃতজ্ঞতা (নিয়ামত চেনা), জিহ্বার কৃতজ্ঞতা (মৌখিক ধন্যবাদ ও প্রশংসা), এবং অঙ্গের কৃতজ্ঞতা (আল্লাহর আনুগত্যে নিয়ামত ব্যবহার করা)। কুরআন অকৃতজ্ঞতার বিরুদ্ধে সতর্ক করেছে: 'যদি তোমরা অকৃতজ্ঞ হও, নিশ্চয়ই আমার শাস্তি কঠোর' (সূরা ইবরাহিম ১৪:৭)। নবী ﷺ রাতে এমনভাবে নামাজ পড়তেন যে তাঁর পা ফুলে যেত, এবং যখন জিজ্ঞাসা করা হতো কেন, তিনি বলতেন: 'আমি কি কৃতজ্ঞ বান্দা হবো না?' কৃতজ্ঞতা আমাদের দৃষ্টিভঙ্গি পরিবর্তন করে — এমনকি কষ্টেও, একজন কৃতজ্ঞ ব্যক্তি আল্লাহর শুকরিয়া আদায়ের জন্য নিয়ামত খুঁজে পায়।"
     },
-    "funFact": "Did you know? The Prophet ﷺ would pray at night until his feet swelled — and when asked why, he said: 'Should I not be a grateful servant?'",
+    "funFact": "তুমি কি জানো? নবী ﷺ রাতে এমনভাবে নামাজ পড়তেন যে তাঁর পা ফুলে যেত — এবং যখন জিজ্ঞাসা করা হতো কেন, তিনি বলতেন: 'আমি কি কৃতজ্ঞ বান্দা হবো না?'",
     "quiz": [
       {
-        "q": "What does 'Shukr' mean?",
+        "q": "'শুকর' মানে কী?",
         "options": [
-          "Prayer",
-          "Gratitude",
-          "Fasting"
+          "নামাজ",
+          "কৃতজ্ঞতা",
+          "রোজা"
         ],
         "correct": 1,
-        "explanation": "Shukr means gratitude — being thankful to Allah for His blessings."
+        "explanation": "শুকর অর্থ কৃতজ্ঞতা — আল্লাহর নিয়ামতের জন্য শুকরিয়া আদায় করা।"
       },
       {
-        "q": "What does Allah promise to grateful people?",
+        "q": "আল্লাহ কৃতজ্ঞ মানুষদের কী প্রতিশ্রুতি দিয়েছেন?",
         "options": [
-          "Nothing",
-          "He will increase their blessings",
-          "He will punish them"
+          "কিছুই না",
+          "তিনি তাদের নিয়ামত বৃদ্ধি করবেন",
+          "তিনি তাদের শাস্তি দেবেন"
         ],
         "correct": 1,
-        "explanation": "Allah says: 'If you are grateful, I will surely increase you.'"
+        "explanation": "আল্লাহ বলেছেন: 'যদি তোমরা কৃতজ্ঞ হও, আমি অবশ্যই তোমাদের বৃদ্ধি করব।'"
       },
       {
-        "q": "What are the three dimensions of gratitude?",
+        "q": "কৃতজ্ঞতার তিনটি মাত্রা কী?",
         "options": [
-          "Heart, tongue, and limbs",
-          "Mind, body, soul",
-          "Morning, afternoon, night"
+          "হৃদয়, জিহ্বা ও অঙ্গ",
+          "মন, শরীর, আত্মা",
+          "সকাল, দুপুর, রাত"
         ],
         "correct": 0,
-        "explanation": "Gratitude is expressed through the heart (recognizing), tongue (thanking), and limbs (using blessings to do good)."
+        "explanation": "কৃতজ্ঞতা হৃদয় (চেনা), জিহ্বা (ধন্যবাদ দেওয়া) এবং অঙ্গ (নিয়ামত ভালো কাজে ব্যবহার) দিয়ে প্রকাশ করা হয়।"
       }
     ]
   },
   {
     "id": "prophet_muhammad",
-    "title": "Prophet Muhammad ﷺ",
+    "title": "নবী মুহাম্মাদ ﷺ",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "☪️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Muhammad ﷺ was the best person ever! He was kind, honest, and brave. He taught us about Allah and how to be good Muslims. He loved children and animals. We follow his example every day!",
-      "explorer": "Prophet Muhammad ﷺ was born in Mecca in 570 CE. He was known as 'Al-Amin' (The Trustworthy) even before prophethood. At age 40, Angel Jibril brought him the first revelation in the cave of Hira. He spent 23 years teaching Islam, facing persecution, and building a just community. He passed away in Medina in 632 CE, leaving behind a message for all of humanity.",
-      "thinker": "Prophet Muhammad ﷺ is the final messenger of Allah and the most influential person in history. Born an orphan, raised by his grandfather Abdul Muttalib and then his uncle Abu Talib, he grew up to be known for his truthfulness and integrity. The Quran describes him as 'a mercy to all the worlds' (21:107). His life (Seerah) is a comprehensive guide — from the early persecution in Mecca to the establishment of the first Islamic state in Medina, from the Treaty of Hudaybiyyah to the conquest of Mecca. He taught through example: he prayed until his feet swelled, gave charity until he had nothing left, and treated everyone with dignity regardless of their status."
+      "starter": "নবী মুহাম্মাদ ﷺ ছিলেন সবচেয়ে মহান মানুষ! তিনি ছিলেন দয়ালু, সৎ এবং সাহসী। তিনি আমাদের আল্লাহর কথা এবং কীভাবে ভালো মুসলিম হতে হয় তা শিখিয়েছিলেন। তিনি শিশু ও পশুদের ভালোবাসতেন। আমরা প্রতিদিন তাঁর আদর্শ অনুসরণ করি!",
+      "explorer": "নবী মুহাম্মাদ ﷺ ৫৭০ খ্রিস্টাব্দে মক্কায় জন্মগ্রহণ করেন। তিনি নবুয়তের আগেও 'আল-আমিন' (বিশ্বস্ত) নামে পরিচিত ছিলেন। ৪০ বছর বয়সে ফেরেশতা জিবরাঈল হেরা গুহায় তাঁকে প্রথম ওহী নিয়ে আসেন। তিনি ২৩ বছর ধরে ইসলাম শিক্ষা দেন, নিপীড়নের সম্মুখীন হন এবং একটি ন্যায্য সমাজ গড়ে তোলেন। তিনি ৬৩২ খ্রিস্টাব্দে মদিনায় ইন্তেকাল করেন, সমস্ত মানবজাতির জন্য একটি বার্তা রেখে যান।",
+      "thinker": "নবী মুহাম্মাদ ﷺ হলেন আল্লাহর সর্বশেষ রাসূল এবং ইতিহাসের সবচেয়ে প্রভাবশালী ব্যক্তি। এতিম হিসেবে জন্মগ্রহণ, দাদা আব্দুল মুত্তালিব এবং তারপর চাচা আবু তালিবের প্রতিপালনে বড় হয়ে তিনি সততা ও সততার জন্য পরিচিত হন। কুরআন তাঁকে 'সমস্ত সৃষ্টির জন্য রহমত' (২১:১০৭) হিসেবে বর্ণনা করেছে। তাঁর জীবন (সীরাহ) একটি ব্যাপক নির্দেশিকা — মক্কায় প্রাথমিক নিপীড়ন থেকে মদিনায় প্রথম ইসলামি রাষ্ট্র প্রতিষ্ঠা, হুদায়বিয়ার সন্ধি থেকে মক্কা বিজয় পর্যন্ত। তিনি উদাহরণের মাধ্যমে শিখিয়েছেন: তিনি পা ফুলে যাওয়া পর্যন্ত নামাজ পড়তেন, কিছুই না থাকা পর্যন্ত দান করতেন এবং মর্যাদা নির্বিশেষে সবার সাথে সম্মানের সাথে আচরণ করতেন।"
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was an orphan — his father died before he was born and his mother when he was only 6 years old. Despite this, he became the greatest person in history!",
+    "funFact": "তুমি কি জানো? নবী মুহাম্মাদ ﷺ এতিম ছিলেন — তাঁর বাবা তাঁর জন্মের আগেই মারা যান এবং মা যখন তিনি মাত্র ৬ বছরের ছিলেন তখন ইন্তেকাল করেন। এরপরও তিনি ইতিহাসের সবচেয়ে মহান ব্যক্তি হয়েছিলেন!",
     "quiz": [
       {
-        "q": "In which city was Prophet Muhammad ﷺ born?",
+        "q": "নবী মুহাম্মাদ ﷺ কোন শহরে জন্মগ্রহণ করেন?",
         "options": [
-          "Medina",
-          "Mecca",
-          "Jerusalem"
+          "মদিনা",
+          "মক্কা",
+          "জেরুজালেম"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ was born in Mecca in 570 CE."
+        "explanation": "নবী মুহাম্মাদ ﷺ ৫৭০ খ্রিস্টাব্দে মক্কায় জন্মগ্রহণ করেন।"
       },
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "নবী মুহাম্মাদ ﷺ-এর নবুয়তের আগের ডাকনাম কী ছিল?",
         "options": [
-          "Al-Hakim",
-          "Al-Amin",
-          "Al-Karim"
+          "আল-হাকিম",
+          "আল-আমিন",
+          "আল-কারিম"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "তাঁকে 'আল-আমিন' (বিশ্বস্ত) বলা হতো কারণ তিনি সবসময় সত্য কথা বলতেন।"
       },
       {
-        "q": "How old was Prophet Muhammad ﷺ when he received the first revelation?",
+        "q": "নবী মুহাম্মাদ ﷺ কত বছর বয়সে প্রথম ওহী পান?",
         "options": [
-          "25",
-          "30",
-          "40"
+          "২৫",
+          "৩০",
+          "৪০"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ was 40 years old when Angel Jibril brought the first revelation."
+        "explanation": "নবী মুহাম্মাদ ﷺ ৪০ বছর বয়সে ফেরেশতা জিবরাঈলের মাধ্যমে প্রথম ওহী পান।"
       }
     ]
   },
   {
     "id": "prophet_ibrahim",
-    "title": "Prophet Ibrahim",
+    "title": "নবী ইবরাহিম",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "🏗️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Ibrahim loved Allah more than anything! He looked at the stars and knew they couldn't be God. He broke the idols people worshipped and told them only Allah deserves worship. Allah made him a great leader!",
-      "explorer": "Prophet Ibrahim (Abraham) is one of the greatest prophets. He realized at a young age that idols couldn't be God — they couldn't create or help anyone. He broke the idols and called people to worship Allah alone. Allah tested him greatly — He asked Ibrahim to leave his homeland, sacrifice his son, and build the Kaaba. Ibrahim obeyed every command, showing incredible faith.",
-      "thinker": "Prophet Ibrahim (Abraham) is known as 'Khalilullah' — the Friend of Allah. His story is one of absolute submission to divine will. He questioned his father's idol worship, challenged King Namrud, and was thrown into fire for his faith — yet Allah saved him. The sacrifice of his son Ismail (Ismail) is commemorated every year during Eid al-Adha. Ibrahim's willingness to leave his wife Hajar and infant son Ismail in the desert of Mecca — trusting completely in Allah's plan — led to the establishment of the Kaaba and the Zamzam well. He is the patriarch of the Abrahamic faiths and an enduring example of total trust in Allah."
+      "starter": "নবী ইবরাহিম আল্লাহকে সবকিছুর চেয়ে বেশি ভালোবাসতেন! তিনি তারার দিকে তাকিয়ে বুঝতে পেরেছিলেন যে এগুলো ইলাহ হতে পারে না। তিনি মানুষের পূজা করা মূর্তি ভেঙেছিলেন এবং তাদের বলেছিলেন কেবল আল্লাহই ইবাদতের যোগ্য। আল্লাহ তাঁকে একজন মহান নেতা বানিয়েছিলেন!",
+      "explorer": "নবী ইবরাহিম (আব্রাহাম) সর্বশ্রেষ্ঠ নবীদের একজন। তিনি অল্প বয়সেই বুঝতে পেরেছিলেন যে মূর্তি ইলাহ হতে পারে না — এগুলো কিছু সৃষ্টি বা সাহায্য করতে পারে না। তিনি মূর্তি ভেঙেছিলেন এবং মানুষকে কেবল আল্লাহর ইবাদত করতে ডেকেছিলেন। আল্লাহ তাঁকে অনেক পরীক্ষা করেছিলেন — তিনি ইবরাহিমকে তাঁর জন্মভূমি ছেড়ে যেতে, তাঁর ছেলেকে কুরবানি করতে এবং কাবা নির্মাণ করতে বলেছিলেন। ইবরাহিম প্রতিটি আদেশ মেনে নিয়েছিলেন, অবিশ্বাস্য ঈমান দেখিয়েছিলেন।",
+      "thinker": "নবী ইবরাহিম (আব্রাহাম) 'খলিলুল্লাহ' — আল্লাহর বন্ধু — নামে পরিচিত। তাঁর গল্প হলো ঐশ্বরিক ইচ্ছার প্রতি সম্পূর্ণ আত্মসমর্পণের। তিনি তাঁর বাবার মূর্তিপূজার প্রশ্ন তুলেছিলেন, রাজা নমরুদকে চ্যালেঞ্জ করেছিলেন এবং তাঁর ঈমানের জন্য আগুনে নিক্ষেপ করা হয়েছিল — কিন্তু আল্লাহ তাঁকে রক্ষা করেছিলেন। তাঁর ছেলে ইসমাঈলের কুরবানি প্রতি বছর ঈদুল আযহায় স্মরণ করা হয়। ইবরাহিমের স্ত্রী হাজেরা এবং শিশুপুত্র ইসমাঈলকে মক্কার মরুভূমিতে রেখে যাওয়া — আল্লাহর পরিকল্পনায় সম্পূর্ণ ভরসা করে — কাবা এবং জমজম কূপের প্রতিষ্ঠার দিকে পরিচালিত করেছিল। তিনি ইবরাহিমি ধর্মের পিতৃপুরুষ এবং আল্লাহর প্রতি সম্পূর্ণ ভরসার একটি চিরস্থায়ী উদাহরণ।"
     },
-    "funFact": "Did you know? When Ibrahim was thrown into a giant fire, Allah said 'O fire, be cool and peaceful!' — and the fire didn't even burn him!",
+    "funFact": "তুমি কি জানো? ইবরাহিমকে যখন একটি বিশাল আগুনে নিক্ষেপ করা হয়েছিল, আল্লাহ বলেছিলেন 'হে আগুন, শীতল ও শান্ত হও!' — এবং আগুন তাঁকে পোড়ায়নি!",
     "quiz": [
       {
-        "q": "What was Prophet Ibrahim known as?",
+        "q": "নবী ইবরাহিম কী নামে পরিচিত ছিলেন?",
         "options": [
-          "Prophet of Thunder",
-          "Friend of Allah",
-          "King of Nations"
+          "বজ্রের নবী",
+          "আল্লাহর বন্ধু",
+          "জাতির রাজা"
         ],
         "correct": 1,
-        "explanation": "Ibrahim is called 'Khalilullah' — the Friend of Allah."
+        "explanation": "ইবরাহিমকে 'খলিলুল্লাহ' — আল্লাহর বন্ধু — বলা হয়।"
       },
       {
-        "q": "What did Ibrahim break?",
+        "q": "ইবরাহিম কী ভেঙেছিলেন?",
         "options": [
-          "The Kaaba",
-          "Idols people worshipped",
-          "A window"
+          "কাবা",
+          "মানুষের পূজা করা মূর্তি",
+          "একটি জানালা"
         ],
         "correct": 1,
-        "explanation": "Ibrahim broke the idols people were worshipping to show only Allah deserves worship."
+        "explanation": "ইবরাহিম মানুষের পূজা করা মূর্তি ভেঙেছিলেন কেবল আল্লাহই ইবাদতের যোগ্য তা দেখাতে।"
       },
       {
-        "q": "What did Allah ask Ibrahim to build?",
+        "q": "আল্লাহ ইবরাহিমকে কী নির্মাণ করতে বলেছিলেন?",
         "options": [
-          "A house",
-          "The Kaaba",
-          "A school"
+          "একটি ঘর",
+          "কাবা",
+          "একটি স্কুল"
         ],
         "correct": 1,
-        "explanation": "Allah asked Ibrahim to build the Kaaba in Mecca."
+        "explanation": "আল্লাহ ইবরাহিমকে মক্কায় কাবা নির্মাণ করতে বলেছিলেন।"
       }
     ]
   },
   {
     "id": "islamic_civilization",
-    "title": "Islamic Civilization",
+    "title": "ইসলামি সভ্যতা",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_20_topic_islamic_civilization-gNpeURs5zuRnR3dMvEndDR.webp?updatedAt=1781117902871",
     "emoji": "🏛️",
     "category": "stories_history",
     "content": {
-      "starter": "Muslims built amazing things long ago! They made beautiful mosques, hospitals, schools, and libraries. They studied science, math, and medicine. Muslims invented things we still use today — like cameras, universities, and coffee!",
-      "explorer": "Islamic civilization made incredible contributions to the world. Muslim scholars invented algebra, developed modern medicine, built the first universities, and preserved ancient Greek knowledge. Cities like Baghdad, Cordoba, and Cairo were centers of learning. Inventions include the camera (camera obscura), surgical instruments, and windmills. Muslims also built beautiful architecture like the Alhambra and the Dome of the Rock.",
-      "thinker": "The Islamic Golden Age (8th-14th centuries) was one of the most productive periods of scholarship in human history. Scholars like Al-Khwarizmi (algebra), Ibn Sina (medicine), Al-Kindi (philosophy), and Fatima al-Fihri (first university) transformed human knowledge. The House of Wisdom in Baghdad translated and preserved Greek, Persian, and Indian texts that would have been lost. Islamic civilization pioneered hospitals (bimaristans), observatories, and public libraries. The concept of the university was literally invented by Muslims — the University of al-Qarawiyyin in Fez, Morocco, founded by Fatima al-Fihri in 859 CE, is recognized by UNESCO as the oldest existing university."
+      "starter": "মুসলিমরা অনেক আগে আশ্চর্যজনক জিনিস তৈরি করেছিল! তারা সুন্দর মসজিদ, হাসপাতাল, স্কুল এবং লাইব্রেরি তৈরি করেছিল। তারা বিজ্ঞান, গণিত এবং চিকিৎসা অধ্যয়ন করত। মুসলিমরা এমন জিনিস আবিষ্কার করেছিল যা আমরা আজও ব্যবহার করি — যেমন ক্যামেরা, বিশ্ববিদ্যালয় এবং কফি!",
+      "explorer": "ইসলামি সভ্যতা বিশ্বকে অবিশ্বাস্য অবদান দিয়েছে। মুসলিম পণ্ডিতরা বীজগণিত আবিষ্কার করেছেন, আধুনিক চিকিৎসা বিকশিত করেছেন, প্রথম বিশ্ববিদ্যালয় নির্মাণ করেছেন এবং প্রাচীন গ্রিক জ্ঞান সংরক্ষণ করেছেন। বাগদাদ, কর্ডোবা এবং কায়রোর মতো শহরগুলো ছিল শিক্ষার কেন্দ্র। আবিষ্কারের মধ্যে ক্যামেরা (ক্যামেরা অবস্কিউরা), অস্ত্রোপচার যন্ত্র এবং বায়ুকল অন্তর্ভুক্ত। মুসলিমরা আলহামব্রা এবং কুব্বাতুস সাখরার মতো সুন্দর স্থাপত্যও নির্মাণ করেছিল।",
+      "thinker": "ইসলামি স্বর্ণযুগ (৮ম-১৪শ শতাব্দী) মানব ইতিহাসের সবচেয়ে উৎপাদনশীল পণ্ডিতি সময়কালগুলোর একটি ছিল। আল-খোয়ারিজমি (বীজগণিত), ইবনে সিনা (চিকিৎসা), আল-কিন্দি (দর্শন) এবং ফাতিমা আল-ফিহরি (প্রথম বিশ্ববিদ্যালয়) এর মতো পণ্ডিতরা মানব জ্ঞানকে রূপান্তরিত করেছিলেন। বাগদাদের বাইতুল হিকমত গ্রিক, ফারসি এবং ভারতীয় গ্রন্থ অনুবাদ ও সংরক্ষণ করেছিল যা হারিয়ে যেত। ইসলামি সভ্যতা হাসপাতাল (বিমারিস্তান), মানমন্দির এবং পাবলিক লাইব্রেরির পথিকৃৎ। বিশ্ববিদ্যালয়ের ধারণা আক্ষরিকভাবে মুসলিমরা আবিষ্কার করেছিল — মরক্কোর ফেসে ফাতিমা আল-ফিহরি কর্তৃক ৮৫৯ খ্রিস্টাব্দে প্রতিষ্ঠিত আল-কারাউইয়িন বিশ্ববিদ্যালয় UNESCO দ্বারা প্রাচীনতম বিদ্যমান বিশ্ববিদ্যালয় হিসেবে স্বীকৃত।"
     },
-    "funFact": "Did you know? The first university in the world was built by a Muslim woman — Fatima al-Fihri — in Morocco in the year 859 CE!",
+    "funFact": "তুমি কি জানো? বিশ্বের প্রথম বিশ্ববিদ্যালয় একজন মুসলিম নারী — ফাতিমা আল-ফিহরি — মরক্কোতে ৮৫৯ খ্রিস্টাব্দে নির্মাণ করেছিলেন!",
     "quiz": [
       {
-        "q": "What did Al-Khwarizmi invent?",
+        "q": "আল-খোয়ারিজমি কী আবিষ্কার করেছিলেন?",
         "options": [
-          "Medicine",
-          "Algebra",
-          "Astronomy"
+          "চিকিৎসা",
+          "বীজগণিত",
+          "জ্যোতির্বিদ্যা"
         ],
         "correct": 1,
-        "explanation": "Al-Khwarizmi invented algebra — the word 'algorithm' comes from his name!"
+        "explanation": "আল-খোয়ারিজমি বীজগণিত আবিষ্কার করেছিলেন — 'অ্যালগরিদম' শব্দটি তাঁর নাম থেকে এসেছে!"
       },
       {
-        "q": "Who built the first university in the world?",
+        "q": "বিশ্বের প্রথম বিশ্ববিদ্যালয় কে নির্মাণ করেছিলেন?",
         "options": [
-          "A Muslim man",
-          "Fatima al-Fihri",
-          "A Greek scholar"
+          "একজন মুসলিম পুরুষ",
+          "ফাতিমা আল-ফিহরি",
+          "একজন গ্রিক পণ্ডিত"
         ],
         "correct": 1,
-        "explanation": "Fatima al-Fihri, a Muslim woman, built the first university in Morocco in 859 CE."
+        "explanation": "ফাতিমা আল-ফিহরি, একজন মুসলিম নারী, ৮৫৯ খ্রিস্টাব্দে মরক্কোতে প্রথম বিশ্ববিদ্যালয় নির্মাণ করেছিলেন।"
       },
       {
-        "q": "What was the Islamic Golden Age known for?",
+        "q": "ইসলামি স্বর্ণযুগ কী জন্য পরিচিত ছিল?",
         "options": [
-          "Only art",
-          "Advances in science, math, and medicine",
-          "Only farming"
+          "শুধু শিল্প",
+          "বিজ্ঞান, গণিত ও চিকিৎসায় অগ্রগতি",
+          "শুধু কৃষি"
         ],
         "correct": 1,
-        "explanation": "Muslims made incredible advances in science, math, medicine, and many other fields."
+        "explanation": "মুসলিমরা বিজ্ঞান, গণিত, চিকিৎসা এবং আরও অনেক ক্ষেত্রে অবিশ্বাস্য অগ্রগতি করেছিল।"
       }
     ]
   },
   {
     "id": "ramadan",
-    "title": "Ramadan",
+    "title": "রমজান",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_39_ramadan_overview-KSNdX85Mzos8r2Xf3JL6rh.webp?updatedAt=1781117901328",
     "emoji": "🌙",
     "category": "special_times",
     "content": {
-      "starter": "Ramadan is the best month! It's when Allah sent the Quran. We fast from sunrise to sunset — no eating or drinking! At night, we pray, read Quran, and have iftar with family. Everyone is happy and kind during Ramadan!",
-      "explorer": "Ramadan is the ninth month of the Islamic calendar and the holiest month for Muslims. The Quran was first revealed during Ramadan. Muslims fast from dawn to sunset, refraining from food, drink, and other physical needs. It's a time of increased prayer, charity, and Quran reading. Ramadan teaches self-discipline, empathy for the poor, and brings families and communities together.",
-      "thinker": "Ramadan is the month in which the Quran was revealed as guidance for humanity (Surah Al-Baqarah 2:185). Fasting (Sawm) during Ramadan is the fourth pillar of Islam and serves multiple purposes: developing taqwa (God-consciousness), purifying the soul, building empathy for the less fortunate, and strengthening community bonds. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a spiritual rhythm throughout the month. The last 10 nights are especially sacred, as Laylat al-Qadr (the Night of Power) — described as 'better than a thousand months' — falls within them. Ramadan transforms communities: charity increases, tempers cool, and hearts soften."
+      "starter": "রমজান হলো সেরা মাস! এটি যখন আল্লাহ কুরআন পাঠিয়েছিলেন। আমরা সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত রোজা রাখি — কোনো খাবার বা পানি নয়! রাতে আমরা নামাজ পড়ি, কুরআন পড়ি এবং পরিবারের সাথে ইফতার করি। রমজানে সবাই খুশি এবং দয়ালু থাকে!",
+      "explorer": "রমজান হলো ইসলামি ক্যালেন্ডারের নবম মাস এবং মুসলিমদের জন্য সবচেয়ে পবিত্র মাস। কুরআন প্রথম রমজানে নাজিল হয়েছিল। মুসলিমরা ভোর থেকে সূর্যাস্ত পর্যন্ত রোজা রাখে, খাবার, পানি এবং অন্যান্য শারীরিক প্রয়োজন থেকে বিরত থাকে। এটি বর্ধিত নামাজ, দান এবং কুরআন পাঠের সময়। রমজান আত্মসংযম, গরিবদের প্রতি সহানুভূতি শেখায় এবং পরিবার ও সমাজকে একত্রিত করে।",
+      "thinker": "রমজান হলো সেই মাস যেখানে কুরআন মানবজাতির পথনির্দেশনা হিসেবে নাজিল হয়েছিল (সূরা আল-বাকারা ২:১৮৫)। রমজানে রোজা (সাওম) ইসলামের চতুর্থ স্তম্ভ এবং এটি বহু উদ্দেশ্য পূরণ করে: তাকওয়া (আল্লাহভীতি) তৈরি, আত্মাকে পবিত্র করা, অভাবীদের প্রতি সহানুভূতি গড়ে তোলা এবং সম্প্রদায়ের বন্ধন শক্তিশালী করা। সেহরি ও ইফতারের মাধ্যমে পুরো মাস জুড়ে একটি আধ্যাত্মিক ছন্দ তৈরি হয়। শেষ ১০টি রাত বিশেষভাবে পবিত্র, কারণ লাইলাতুল কদর (শক্তির রাত) — যাকে 'হাজার মাসের চেয়েও উত্তম' হিসেবে বর্ণনা করা হয়েছে — এর মধ্যে পড়ে। রমজান সম্প্রদায়কে রূপান্তরিত করে: দান বৃদ্ধি পায়, রাগ কমে এবং হৃদয় নরম হয়।"
     },
-    "funFact": "Did you know? Laylat al-Qadr (the Night of Power) in Ramadan is better than 1,000 months — that's over 83 years of blessings in just one night!",
+    "funFact": "তুমি কি জানো? রমজানে লাইলাতুল কদর (শক্তির রাত) ১,০০০ মাসের চেয়েও উত্তম — এটা মাত্র এক রাতে ৮৩ বছরেরও বেশি বরকত!",
     "quiz": [
       {
-        "q": "During which month was the Quran revealed?",
+        "q": "কুরআন কোন মাসে নাজিল হয়েছিল?",
         "options": [
-          "Muharram",
-          "Ramadan",
-          "Shawwal"
+          "মহররম",
+          "রমজান",
+          "শাওয়াল"
         ],
         "correct": 1,
-        "explanation": "The Quran was first revealed during the month of Ramadan."
+        "explanation": "কুরআন প্রথম রমজান মাসে নাজিল হয়েছিল।"
       },
       {
-        "q": "What is Laylat al-Qadr?",
+        "q": "লাইলাতুল কদর কী?",
         "options": [
-          "A regular night",
-          "The Night of Power, better than 1,000 months",
-          "The first day of Ramadan"
+          "একটি সাধারণ রাত",
+          "শক্তির রাত, ১,০০০ মাসের চেয়ে উত্তম",
+          "রমজানের প্রথম দিন"
         ],
         "correct": 1,
-        "explanation": "Laylat al-Qadr (Night of Power) is better than 1,000 months of worship."
+        "explanation": "লাইলাতুল কদর (শক্তির রাত) ১,০০০ মাসের ইবাদতের চেয়েও উত্তম।"
       },
       {
-        "q": "What is the pre-dawn meal called?",
+        "q": "ভোরের খাবারকে কী বলা হয়?",
         "options": [
-          "Iftar",
-          "Suhoor",
-          "Dhuhr"
+          "ইফতার",
+          "সেহরি",
+          "যোহর"
         ],
         "correct": 1,
-        "explanation": "The pre-dawn meal before fasting is called Suhoor."
+        "explanation": "রোজা রাখার আগে ভোরের খাবারকে সেহরি বলা হয়।"
       }
     ]
   },
   {
     "id": "eid_al_fitr",
-    "title": "Eid al-Fitr",
+    "title": "ঈদুল ফিতর",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_42_eid_fitr_celebration-WoRzqkwEMUXtjWTsNNttWJ.webp?updatedAt=1781117904296",
     "emoji": "🎉",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Fitr is the happy day after Ramadan! We wear new clothes, eat yummy food, give gifts, and say 'Eid Mubarak!' to everyone. We give money to poor people called Zakat al-Fitr. It's like a big party for Allah!",
-      "explorer": "Eid al-Fitr marks the end of Ramadan and is one of the two major Islamic holidays. Muslims gather for a special prayer, give Zakat al-Fitr (charity to the poor), wear their best clothes, and celebrate with family and friends. Children receive gifts and money (Eidi). It's a day of joy, gratitude, and community after a month of fasting and worship.",
-      "thinker": "Eid al-Fitr ('Festival of Breaking the Fast') is celebrated on the first day of Shawwal, the month following Ramadan. It begins with a special congregational prayer and sermon, followed by Zakat al-Fitr — a mandatory charity given before the Eid prayer to ensure even the poorest can celebrate. The Prophet ﷺ would wear his best clothes on Eid and apply perfume. Eid is a day of celebration, but also of reflection — thanking Allah for the strength to complete Ramadan and asking for acceptance of our worship. It strengthens community bonds as Muslims visit relatives, share meals, and reconcile differences."
+      "starter": "ঈদুল ফিতর হলো রমজানের পরের খুশির দিন! আমরা নতুন কাপড় পরি, সুস্বাদু খাবার খাই, উপহার দিই এবং সবাইকে 'ঈদ মোবারক!' বলি। আমরা গরিবদের ফিতরা দান করি। এটা যেন আল্লাহর জন্য একটি বড় পার্টি!",
+      "explorer": "ঈদুল ফিতর রমজানের সমাপ্তি চিহ্নিত করে এবং এটি দুটি প্রধান ইসলামি ছুটির একটি। মুসলিমরা বিশেষ নামাজের জন্য একত্রিত হয়, ফিতরা (গরিবদের দান) দেয়, সেরা পোশাক পরে এবং পরিবার ও বন্ধুদের সাথে উদযাপন করে। শিশুরা উপহার ও টাকা (ঈদি) পায়। এটি একমাস রোজা ও ইবাদতের পর আনন্দ, কৃতজ্ঞতা এবং সম্প্রদায়ের দিন।",
+      "thinker": "ঈদুল ফিতর ('রোজা ভাঙার উৎসব') শাওয়াল মাসের প্রথম দিনে উদযাপিত হয়, যা রমজানের পরের মাস। এটি একটি বিশেষ জামাতের নামাজ ও খুতবা দিয়ে শুরু হয়, তারপর ফিতরা — ঈদের নামাজের আগে দেওয়া একটি বাধ্যতামূলক দান যাতে এমনকি সবচেয়ে গরিওরাও উদযাপন করতে পারে। নবী ﷺ ঈদে সেরা কাপড় পরতেন এবং আতর লাগাতেন। ঈদ উদযাপনের দিন, কিন্তু আত্মসমালোচনারও দিন — রমজান পূর্ণ করার শক্তির জন্য আল্লাহর শুকরিয়া আদায় এবং আমাদের ইবাদত কবুলের জন্য দোয়া। এটি সম্প্রদায়ের বন্ধন শক্তিশালী করে কারণ মুসলিমরা আত্মীয়দের দেখতে যায়, খাবার ভাগ করে এবং পার্থক্য মিটায়।"
     },
-    "funFact": "Did you know? On Eid, you must give charity (Zakat al-Fitr) BEFORE the Eid prayer — so even poor people can celebrate!",
+    "funFact": "তুমি কি জানো? ঈদে তোমাকে অবশ্যই ঈদের নামাজের আগে দান (ফিতরা) দিতে হবে — যাতে এমনকি গরিওরাও উদযাপন করতে পারে!",
     "quiz": [
       {
-        "q": "When is Eid al-Fitr celebrated?",
+        "q": "ঈদুল ফিতর কখন উদযাপিত হয়?",
         "options": [
-          "Beginning of Ramadan",
-          "End of Ramadan",
-          "Middle of Ramadan"
+          "রমজানের শুরুতে",
+          "রমজানের শেষে",
+          "রমজানের মাঝখানে"
         ],
         "correct": 1,
-        "explanation": "Eid al-Fitr is celebrated at the end of Ramadan."
+        "explanation": "ঈদুল ফিতর রমজানের শেষে উদযাপিত হয়।"
       },
       {
-        "q": "What must Muslims give before Eid prayer?",
+        "q": "ঈদের নামাজের আগে মুসলিমদের কী দিতে হয়?",
         "options": [
-          "More fasting",
-          "Zakat al-Fitr (charity)",
-          "A new car"
+          "আরও রোজা",
+          "ফিতরা (দান)",
+          "একটি নতুন গাড়ি"
         ],
         "correct": 1,
-        "explanation": "Zakat al-Fitr is charity given before Eid prayer so the poor can celebrate too."
+        "explanation": "ফিতরা হলো ঈদের নামাজের আগে দেওয়া দান যাতে গরিওরাও উদযাপন করতে পারে।"
       },
       {
-        "q": "What do we say to others on Eid?",
+        "q": "ঈদে আমরা অন্যদের কী বলি?",
         "options": [
-          "Happy Birthday",
-          "Eid Mubarak",
-          "Good Morning"
+          "হ্যাপি বার্থডে",
+          "ঈদ মোবারক",
+          "গুড মর্নিং"
         ],
         "correct": 1,
-        "explanation": "We say 'Eid Mubarak' — meaning 'Blessed Eid!'"
+        "explanation": "আমরা 'ঈদ মোবারক' বলি — যার অর্থ 'মোবারক ঈদ!'"
       }
     ]
   },
   {
     "id": "eid_al_adha",
-    "title": "Eid al-Adha",
+    "title": "ঈদুল আযহা",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_43_eid_adha_celebration-a8nckcQaGvn3CYJJy7ta5A.webp?updatedAt=1781117903366",
     "emoji": "🐑",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Adha is the big Eid! It remembers when Prophet Ibrahim was ready to sacrifice his son for Allah. Allah was so happy with his faith that He sent a sheep instead! We sacrifice an animal and share the meat with family and poor people!",
-      "explorer": "Eid al-Adha ('Festival of Sacrifice') honors Prophet Ibrahim's willingness to sacrifice his son Ismail for Allah. Before Eid, Muslims who can afford it sacrifice an animal (sheep, goat, cow, or camel) and divide the meat into three parts: one for family, one for friends and neighbors, one for the poor. It coincides with the Hajj pilgrimage and is one of the two major Islamic holidays.",
-      "thinker": "Eid al-Adha commemorates one of the most profound acts of faith in Islamic history — Prophet Ibrahim's willingness to sacrifice his son Ismail in complete obedience to Allah. Just as Ibrahim was about to carry out the sacrifice, Allah replaced Ismail with a ram, and the sacrifice was accepted symbolically. This event is commemorated by millions of Muslims worldwide who sacrifice an animal during the days of Eid. The meat is divided into thirds: family, friends/neighbors, and the poor. Eid al-Adha coincides with the Hajj pilgrimage — while pilgrims are at Arafat, Muslims worldwide celebrate this festival of sacrifice, gratitude, and community."
+      "starter": "ঈদুল আযহা হলো বড় ঈদ! এটি স্মরণ করে যখন নবী ইবরাহিম আল্লাহর জন্য তাঁর ছেলেকে কুরবানি দিতে প্রস্তুত ছিলেন। আল্লাহ তাঁর ঈমানে এতই খুশি হয়েছিলেন যে তিনি একটি ভেড়া পাঠিয়েছিলেন! আমরা একটি পশু কুরবানি দিই এবং মাংস পরিবার ও গরিবদের সাথে ভাগ করি!",
+      "explorer": "ঈদুল আযহা ('কুরবানির উৎসব') নবী ইবরাহিমের আল্লাহর জন্য তাঁর ছেলে ইসমাঈলকে কুরবানি দেওয়ার ইচ্ছাকে সম্মান করে। ঈদের আগে, যারা সামর্থ্য আছে তারা একটি পশু (ভেড়া, ছাগল, গরু বা উট) কুরবানি দেয় এবং মাংস তিন ভাগে ভাগ করে: এক ভাগ পরিবারের জন্য, এক ভাগ বন্ধু ও প্রতিবেশীদের জন্য, এক ভাগ গরিবদের জন্য। এটি হজ তীর্থযাত্রার সাথে মিলে যায় এবং দুটি প্রধান ইসলামি ছুটির একটি।",
+      "thinker": "ঈদুল আযহা ইসলামি ইতিহাসের অন্যতম গভীর ঈমানের কাজ — নবী ইবরাহিমের আল্লাহর প্রতি সম্পূর্ণ আনুগত্যে তাঁর ছেলে ইসমাঈলকে কুরবানি দেওয়ার ইচ্ছা — কে স্মরণ করে। ইবরাহিম যখন কুরবানি করতে যাচ্ছিলেন, আল্লাহ ইসমাঈলের পরিবর্তে একটি ভেড়া পাঠিয়েছিলেন এবং কুরবানি প্রতীকীভাবে কবুল হয়েছিল। এই ঘটনাটি বিশ্বব্যাপী লক্ষ লক্ষ মুসলিম স্মরণ করে যারা ঈদের দিনগুলোতে পশু কুরবানি দেয়। মাংস তিন ভাগে ভাগ করা হয়: পরিবার, বন্ধু/প্রতিবেশী এবং গরিব। ঈদুল আযহা হজ তীর্থযাত্রার সাথে মিলে যায় — হজযাত্রীরা যখন আরাফাতে থাকেন, তখন বিশ্বব্যাপী মুসলিমরা এই কুরবানি, কৃতজ্ঞতা ও সম্প্রদায়ের উৎসব উদযাপন করে।"
     },
-    "funFact": "Did you know? Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah — but Allah sent a ram instead as a test of faith!",
+    "funFact": "তুমি কি জানো? ঈদুল আযহা স্মরণ করে যখন নবী ইবরাহিম আল্লাহর জন্য তাঁর ছেলেকে কুরবানি দিতে প্রস্তুত ছিলেন — কিন্তু আল্লাহ ঈমানের পরীক্ষা হিসেবে একটি ভেড়া পাঠিয়েছিলেন!",
     "quiz": [
       {
-        "q": "What does Eid al-Adha remember?",
+        "q": "ঈদুল আযহা কী স্মরণ করে?",
         "options": [
-          "Ramadan ending",
-          "Ibrahim's willingness to sacrifice his son",
-          "The Quran being revealed"
+          "রমজান শেষ",
+          "ইবরাহিমের ছেলেকে কুরবানি দেওয়ার ইচ্ছা",
+          "কুরআন নাজিল"
         ],
         "correct": 1,
-        "explanation": "Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah."
+        "explanation": "ঈদুল আযহা স্মরণ করে যখন নবী ইবরাহিম আল্লাহর জন্য তাঁর ছেলেকে কুরবানি দিতে প্রস্তুত ছিলেন।"
       },
       {
-        "q": "How many parts is the sacrificial meat divided into?",
+        "q": "কুরবানির মাংস কত ভাগে ভাগ করা হয়?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "এক ভাগ",
+          "দুই ভাগ",
+          "তিন ভাগ"
         ],
         "correct": 2,
-        "explanation": "The meat is divided into three: family, friends/neighbors, and the poor."
+        "explanation": "মাংস তিন ভাগে ভাগ করা হয়: পরিবার, বন্ধু/প্রতিবেশী এবং গরিব।"
       },
       {
-        "q": "What did Allah send instead of Ibrahim's son?",
+        "q": "আল্লাহ ইবরাহিমের ছেলের পরিবর্তে কী পাঠিয়েছিলেন?",
         "options": [
-          "Nothing",
-          "A ram (sheep)",
-          "An angel"
+          "কিছুই না",
+          "একটি ভেড়া",
+          "একজন ফেরেশতা"
         ],
         "correct": 1,
-        "explanation": "Allah sent a ram to be sacrificed instead, accepting Ibrahim's willingness."
+        "explanation": "আল্লাহ একটি ভেড়া পাঠিয়েছিলেন কুরবানির জন্য, ইবরাহিমের ইচ্ছা কবুল করে।"
+      }
+    ]
+  },
+  {
+    "id": "al_khwarizmi",
+    "title": "আল-খোয়ারিজমি - বীজগণিতের জনক",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_25_scholar_al_khwarizmi-YyTnbwqk77BcABwPTm7CYw.webp?updatedAt=1781117901745",
+    "emoji": "📐",
+    "category": "stories_history",
+    "content": {
+      "starter": "আল-খোয়ারিজমি ছিলেন একজন মহান মুসলিম গণিত প্রতিভা যিনি অনেক আগে বাস করতেন। তিনি বীজগণিত আবিষ্কার করেছিলেন, যা অক্ষর ও সংখ্যা ব্যবহার করে গণিতের সমস্যা সমাধানে সাহায্য করে! তিনি সারা বিশ্বকে শূন্যের ব্যবহার দেখিয়েছিলেন এবং ১ থেকে ৯ পর্যন্ত সংখ্যা পরিচয় করিয়েছিলেন, যা আমরা আজও ব্যবহার করি!",
+      "explorer": "মুহাম্মাদ ইবনে মূসা আল-খোয়ারিজমি (আনুমানিক ৭৮০-৮৫০ খ্রি.) ছিলেন একজন কিংবদন্তি গণিতবিদ, জ্যোতির্বিজ্ঞানী ও ভূগোলবিদ যিনি বাগদাদের বাইতুল হিকমতে কাজ করতেন। তিনি 'কিতাবুল জাবর' নামে একটি বিপ্লবাত্মক বই লিখেছিলেন যা থেকে আমরা 'বীজগণিত' শব্দটি পেয়েছি। তিনি ইসলামি বিশ্ব ও ইউরোপে হিন্দু-আরবি সংখ্যা পদ্ধতি, দশমিক বিন্দু এবং শূন্য জনপ্রিয় করেছিলেন, আধুনিক গণিতের ভিত্তি স্থাপন করেছিলেন।",
+      "thinker": "মুহাম্মাদ ইবনে মূসা আল-খোয়ারিজমি (আনুমানিক ৭৮০-৮৫০ খ্রি.)-কে ব্যাপকভাবে বীজগণিতের জনক হিসেবে বিবেচনা করা হয়। ইসলামি স্বর্ণযুগে বাগদাদের বাইতুল হিকমতে কাজ করার সময়, তাঁর মাস্টারপিস, 'পূর্ণতা ও সমতুলনের মাধ্যমে গণনার সংক্ষিপ্ত বই' ('আল-কিতাবুল মুখতাসার ফি হিসাবুল জাবরি ওয়াল মুকাবালা'), রৈখিক ও দ্বিঘাত সমীকরণ সমাধানের একটি পদ্ধতিগত পদ্ধতি প্রতিষ্ঠিত করেছিল। তিনি পশ্চিমে আরবি সংখ্যা পদ্ধতি পরিচয় করিয়েছিলেন এবং তাঁর লাতিনাইজড নাম শেষ পর্যন্ত 'অ্যালগরিদম' শব্দটির সৃষ্টি করেছিল, গণিত ও কম্পিউটার বিজ্ঞানের অগ্রগামী হিসেবে তাঁর স্থায়ী উত্তরাধিকার উদযাপন করে।"
+    },
+    "funFact": "তুমি কি জানো? 'বীজগণিত' শব্দটি তাঁর বই 'আল-জাবর' (অর্থ পুনরুদ্ধার/সম্পূর্ণতা)-এর শিরোনাম থেকে এসেছে, এবং 'অ্যালগরিদম' শব্দটি তাঁর নাম আল-খোয়ারিজমির অনুবাদ!",
+    "quiz": [
+      {
+        "q": "আল-খোয়ারিজমি গণিতের কোন শাখা আবিষ্কার করেছিলেন?",
+        "options": [
+          "ক্যালকুলাস",
+          "জ্যামিতি",
+          "বীজগণিত"
+        ],
+        "correct": 2,
+        "explanation": "আল-খোয়ারিজমি 'আল-জাবর' লিখেছিলেন, সমীকরণ সমাধানের একটি কাঠামোবদ্ধ ব্যবস্থা তৈরি করেছিলেন যাকে বীজগণিত বলা হয়।"
+      },
+      {
+        "q": "আল-খোয়ারিজমি কোথায় তাঁর বৈজ্ঞানিক গবেষণা করতেন?",
+        "options": [
+          "পিরামিড",
+          "বাগদাদের বাইতুল হিকমত",
+          "আলেকজান্দ্রিয়ার লাইব্রেরি"
+        ],
+        "correct": 1,
+        "explanation": "বাগদাদের বাইতুল হিকমত ছিল ইসলামি স্বর্ণযুগের প্রধান বুদ্ধিবৃত্তিক কেন্দ্র।"
+      },
+      {
+        "q": "কম্পিউটার বিজ্ঞানের কোন আধুনিক শব্দটি আল-খোয়ারিজমির নাম থেকে এসেছে?",
+        "options": [
+          "হার্ডওয়্যার",
+          "অ্যালগরিদম",
+          "ইন্টারনেট"
+        ],
+        "correct": 1,
+        "explanation": "'অ্যালগরিদম' শব্দটি তাঁর নামের লাতিন অনুবাদ 'অ্যালগরিতমি' থেকে এসেছে।"
+      }
+    ]
+  },
+  {
+    "id": "ibn_sina",
+    "title": "ইবনে সিনা - চিকিৎসা বিজ্ঞানের জনক",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_26_scholar_ibn_sina-96S5bSYcoRZXXh4aq6Jx7q.webp?updatedAt=1781117902508",
+    "emoji": "🩺",
+    "category": "stories_history",
+    "content": {
+      "starter": "ইবনে সিনা, যিনি আভিসেনা নামেও পরিচিত, ছিলেন একজন অত্যন্ত বুদ্ধিমান ডাক্তার ও দার্শনিক! তিনি 'আল-কানুন ফিত তিব' (চিকিৎসার নিয়ম) নামে একটি বিশাল চিকিৎসা বিশ্বকোষ লিখেছিলেন। এটি এতই পুঙ্খানুপুঙ্খ ছিল যে ইউরোপের বিশ্ববিদ্যালয়গুলো শত শত বছর ধরে মানুষকে ডাক্তার হতে শেখাতে এটি ব্যবহার করেছিল!",
+      "explorer": "ইবনে সিনা (আভিসেনা, ৯৮০-১০৩৭ খ্রি.) ছিলেন একজন অসাধারণ ফারসি বহুবিদ্যাবিদ যিনি ইসলামি স্বর্ণযুগের অন্যতম গুরুত্বপূর্ণ চিন্তাবিদ হিসেবে পরিচিত। তিনি ১০ বছর বয়সে পুরো কুরআন মুখস্থ করেছিলেন এবং ১৮ বছর বয়সে একজন অনুশীলনকারী ডাক্তার ছিলেন। তাঁর বিশ্ববিখ্যাত বই, 'আল-কানুন ফিত তিব' ('চিকিৎসার নিয়ম'), ইউরোপ ও এশিয়ায় ৬০০ বছরেরও বেশি সময় ধরে মানক চিকিৎসা পাঠ্যপুস্তক হয়েছিল।",
+      "thinker": "ইবনে সিনা (আভিসেনা, ৯৮০-১০৩৭ খ্রি.) ছিলেন একজন কিংবদন্তি পণ্ডিত যাঁর অবদান প্রাথমিক চিকিৎসা বিজ্ঞান ও মধ্যযুগীয় দর্শনকে রূপান্তরিত করেছিল। তাঁর বিশাল সংকলন 'আল-কানুন ফিত তিব' বিপ্লবাত্মক ধারণা পরিচয় করিয়েছিল, যার মধ্যে সংক্রামক রোগ নিয়ন্ত্রণে কোয়ারেন্টাইন, ক্লিনিক্যাল ট্রায়াল এবং ফার্মাকোলজি অন্তর্ভুক্ত। চিকিৎসার পাশাপাশি, তাঁর বিশ্বকোষ 'কিতাবুশ শিফা' ('আরোগ্যের বই') যুক্তি, প্রাকৃতিক বিজ্ঞান এবং অধিবিদ্যা আবৃত করেছিল, ইসলামি ধর্মতত্ত্বকে যৌক্তিক দর্শনের সাথে মিশ্রিত করেছিল।"
+    },
+    "funFact": "তুমি কি জানো? ইবনে সিনা এতই মেধাবী ছিলেন যে তিনি মাত্র ১০ বছর বয়সে পুরো কুরআন মুখস্থ করেছিলেন এবং মাত্র ১৮ বছর বয়সে একজন সম্মানিত, অনুশীলনকারী চিকিৎসক হয়েছিলেন!",
+    "quiz": [
+      {
+        "q": "ইবনে সিনার বিখ্যাত চিকিৎসা পাঠ্যপুস্তকের নাম কী?",
+        "options": [
+          "জ্ঞানের বই",
+          "আল-কানুন ফিত তিব",
+          "প্রকৃতির নিয়ম"
+        ],
+        "correct": 1,
+        "explanation": "ইবনে সিনা 'আল-কানুন ফিত তিব' লিখেছিলেন, যা শতাব্দী ধরে মানক পাঠ্য হিসেবে ছিল।"
+      },
+      {
+        "q": "ইবনে সিনা কত বছর বয়সে পুরো কুরআন মুখস্থ করেছিলেন?",
+        "options": [
+          "১০ বছর",
+          "১৮ বছর",
+          "২৫ বছর"
+        ],
+        "correct": 0,
+        "explanation": "ইবনে সিনা ১০ বছর বয়সে কুরআন মুখস্থ করেছিলেন, অল্প বয়স থেকেই প্রতিভার প্রমাণ দিয়েছিলেন।"
+      },
+      {
+        "q": "ইবনে সিনা সংক্রামক রোগ ছড়ানো নিয়ন্ত্রণে কোন চিকিৎসা পদ্ধতির পথিকৃৎ ছিলেন?",
+        "options": [
+          "অ্যাকিউপাংচার",
+          "কোয়ারেন্টাইন",
+          "প্লাস্টার কাস্ট"
+        ],
+        "correct": 1,
+        "explanation": "ইবনে সিনা অনুমান করেছিলেন যে রোগ অণুজীবের মাধ্যমে ছড়ায় এবং কোয়ারেন্টাইন পদ্ধতির পথিকৃৎ ছিলেন।"
+      }
+    ]
+  },
+  {
+    "id": "al_razi",
+    "title": "আল-রাযি - রসায়নের অগ্রগামী",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_27_scholar_al_razi-734zXvqhUQPULCRdzdCjA9.webp?updatedAt=1781117901576",
+    "emoji": "🧪",
+    "category": "stories_history",
+    "content": {
+      "starter": "আল-রাযি ছিলেন একজন দয়ালু ডাক্তার এবং আশ্চর্যজনক রসায়নবিদ। তিনি প্রথম বুঝতে পেরেছিলেন যে পরিষ্কার হাসপাতালের রুম অসুস্থ মানুষদের দ্রুত সুস্থ হতে সাহায্য করে এবং তিনি রাসায়নিক পদার্থ অধ্যয়ন করতে উন্নত ল্যাবরেটরি সরঞ্জাম ডিজাইন করেছিলেন!",
+      "explorer": "আল-রাযি (রাজেস, ৮৫৪-৯২৫ খ্রি.) ছিলেন একজন অসাধারণ ক্লিনিক্যাল ডাক্তার ও রসায়নবিদ। তিনি প্রথম গুটিবসন্ত ও হামের মধ্যে পার্থক্য করেছিলেন এবং এগুলোর ওপর একটি চিকিৎসা গ্রন্থ লিখেছিলেন। রসায়নে, তিনি প্রথমবারের মতো রাসায়নিক পদার্থ শ্রেণীবদ্ধ করেছিলেন এবং রেটর্ট ও কাঁচের ফ্লাস্কের মতো ল্যাব সরঞ্জাম ডিজাইন করেছিলেন যা রসায়নবিদরা আজও পরীক্ষা চালানোর জন্য ব্যবহার করেন।",
+      "thinker": "আবু বকর আল-রাযি (রাজেস, ৮৫৪-৯২৫ খ্রি.) ক্লিনিক্যাল চিকিৎসা, পরীক্ষামূলক বিজ্ঞান এবং রসায়নের একজন টাইটান ছিলেন। বাগদাদের প্রধান হাসপাতালের প্রধান হিসেবে তিনি বিভিন্ন স্থানে কাঁচা মাংস ঝুলিয়ে তার ভবনের স্থান নির্বাচন করেছিলেন যেখানে সবচেয়ে পরিষ্কার বাতাস ছিল। তাঁর মাস্টারওয়ার্ক 'কিতাবুল হাওয়ী' (ব্যাপক বই)-তে তিনি ক্লিনিক্যাল কেস স্টাডি রেকর্ড করেছিলেন। রসায়নে, খনিজ ও রাসায়নিক যৌগের তাঁর শ্রেণীবিন্যাস সমসাময়িক রসায়নের কাঠামো স্থাপন করেছিল।"
+    },
+    "funFact": "তুমি কি জানো? তাঁর রসায়ন ল্যাবে, আল-রাযি কেরোসিন ল্যাম্প আবিষ্কার করেছিলেন এবং রাসায়নিক মৌল শ্রেণীবদ্ধ করেছিলেন। চিকিৎসায়, তিনি বাগদাদের চারপাশে কাঁচা মাংস ঝুলিয়ে যেখানে বাতাস সবচেয়ে পরিষ্কার সেখানে হাসপাতালের অবস্থান বেছে নিয়েছিলেন!",
+    "quiz": [
+      {
+        "q": "আল-রাযি কীভাবে বাগদাদের হাসপাতাল নির্মাণের জন্য সবচেয়ে পরিষ্কার জায়গা বেছে নিয়েছিলেন?",
+        "options": [
+          "রাজাকে জিজ্ঞাসা করে",
+          "কাঁচা মাংস ঝুলিয়ে যেখানে সবচেয়ে ধীরে পচেছিল তা দেখে",
+          "পানির তাপমাত্রা পরিমাপ করে"
+        ],
+        "correct": 1,
+        "explanation": "তিনি শহরের চারপাশে মাংস ঝুলিয়েছিলেন; যেখানে মাংস সবচেয়ে দীর্ঘ সময় সতেজ ছিল সেখানে সবচেয়ে পরিষ্কার বাতাস ছিল।"
+      },
+      {
+        "q": "আল-রাযি ইতিহাসে প্রথম কোন দুটি রোগের মধ্যে পার্থক্য করেছিলেন?",
+        "options": [
+          "গুটিবসন্ত ও হাম",
+          "ফ্লু ও ম্যালেরিয়া",
+          "সর্দি ও জ্বর"
+        ],
+        "correct": 0,
+        "explanation": "গুটিবসন্ত ও হামের ওপর তাঁর গ্রন্থ আন্তর্জাতিকভাবে প্রশংসিত হয়েছিল এবং বহু ভাষায় অনূদিত হয়েছিল।"
+      },
+      {
+        "q": "আল-রাযি তাঁর রাসায়নিক অধ্যয়নে কী শ্রেণীবদ্ধ করেছিলেন?",
+        "options": [
+          "তারা ও গ্রহ",
+          "খনিজ ও পদার্থ",
+          "প্রাণী ও উদ্ভিদ"
+        ],
+        "correct": 1,
+        "explanation": "তিনি খনিজ ও জৈব পদার্থের একটি প্রাথমিক শ্রেণীবিন্যাস ব্যবস্থা তৈরি করেছিলেন, রসায়নের ভিত্তি স্থাপন করেছিলেন।"
+      }
+    ]
+  },
+  {
+    "id": "al_biruni",
+    "title": "আল-বিরুনি - বিজ্ঞানের মাস্টার",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_28_scholar_al_biruni-3CxEZkDDXSfMvzUgmWWyDk.webp?updatedAt=1781117901825",
+    "emoji": "🌍",
+    "category": "stories_history",
+    "content": {
+      "starter": "আল-বিরুনি ছিলেন একজন ভ্রমণকারী বিজ্ঞান গোয়েন্দা। তিনি পৃথিবী ম্যাপিং এবং তারার দিকে তাকাতে ভালোবাসতেন! একটি পাহাড় এবং সহজ গণিত ব্যবহার করে তিনি পৃথিবী কত বড় তা হিসাব করেছিলেন এবং প্রায় নিখুঁতভাবে সঠিক পেয়েছিলেন!",
+      "explorer": "আল-বিরুনি (৯৭৩-১০৪৮ খ্রি.) ছিলেন একজন প্রাকৃতিক বিজ্ঞানী ও ভূগোলবিদ। তিনি সংস্কৃত, ফারসি, আরবি ও গ্রিক সহ একাধিক ভাষায় সাবলীল ছিলেন। তিনি ভূগণিতের পথিকৃৎ, ত্রিকোণমিতি গণিত ব্যবহার করে ১%-এর কম ত্রুটি সহ পৃথিবীর ব্যাসার্ধ ও পরিধি হিসাব করেছিলেন। তিনি রত্নপাথরের খনিজ গঠন সম্পর্কেও লিখেছিলেন এবং প্রাচীন ক্যালেন্ডার পদ্ধতি নথিভুক্ত করেছিলেন।",
+      "thinker": "আবুল রায়হান আল-বিরুনি (৯৭৩-১০৪৮ খ্রি.)-কে সর্বকালের অন্যতম শ্রেষ্ঠ বিজ্ঞানী হিসেবে উদযাপন করা হয়। তিনি জ্যোতির্বিদ্যা, ভূগণিত, সমাজবিজ্ঞান এবং খনিজবিজ্ঞানে উৎকৃষ্ট ছিলেন। তিনি আধুনিক পাকিস্তানের একটি পাহাড়ের উচ্চতা ব্যবহার করে অনন্য গাণিতিক সমীকরণ ডিজাইন করেছিলেন পৃথিবীর ব্যাসার্ধ হিসাব করতে, উপগ্রহ পর্যবেক্ষণের শত শত বছর আগে। ভারত সম্পর্কে তাঁর পণ্ডিতি ('কিতাবুল হিন্দ') প্রথম বস্তুনিষ্ঠ নৃতত্ত্ব ও তুলনামূলক ধর্ম অধ্যয়ন হিসেবে বিবেচিত।"
+    },
+    "funFact": "তুমি কি জানো? ত্রিকোণমিতি এবং একটি মাত্র পাহাড় ব্যবহার করে আল-বিরুনি ৯৯.৬% নির্ভুলতার সাথে পৃথিবীর আকার হিসাব করেছিলেন, একটি হিসাব যা আধুনিক উপগ্রহের সাথে প্রায় অভিন্ন!",
+    "quiz": [
+      {
+        "q": "আল-বিরুনি কোন ভৌগোলিক পরিমাপ অবিশ্বাস্য নির্ভুলতায় হিসাব করেছিলেন?",
+        "options": [
+          "মহাসাগরের গভীরতা",
+          "চাঁদের দূরত্ব",
+          "পৃথিবীর আকার (পরিধি)"
+        ],
+        "correct": 2,
+        "explanation": "একটি পাহাড় এবং ত্রিকোণমিতিক সূত্র ব্যবহার করে আল-বিরুনি ১%-এর কম ত্রুটি সহ পৃথিবীর ব্যাসার্ধ হিসাব করেছিলেন।"
+      },
+      {
+        "q": "আল-বিরুনি কোন অঞ্চলের সংস্কৃতি ও বিজ্ঞান অধ্যয়ন করার পর 'কিতাবুল হিন্দ' লিখেছিলেন?",
+        "options": [
+          "চীন",
+          "ভারত",
+          "গ্রিস"
+        ],
+        "correct": 1,
+        "explanation": "তিনি ভারতে ব্যাপকভাবে ভ্রমণ করেছিলেন, সংস্কৃত শিখেছিলেন এবং একটি ব্যাপক সাংস্কৃতিক বিশ্লেষণ লিখেছিলেন।"
+      },
+      {
+        "q": "আল-বিরুনি নৌচালনার জন্য কোন জ্যোতির্বিদ্যা যন্ত্র আরও উন্নত করেছিলেন?",
+        "options": [
+          "অ্যাস্ট্রোল্যাব",
+          "কম্পাস",
+          "মাইক্রোস্কোপ"
+        ],
+        "correct": 0,
+        "explanation": "আল-বিরুনি জ্যোতির্বিদ্যা মানচিত্র ডিজাইন করেছিলেন এবং সৌর অবস্থান ও নামাজের দিক হিসাব করতে অ্যাস্ট্রোল্যাব উন্নত করেছিলেন।"
+      }
+    ]
+  },
+  {
+    "id": "al_ghazali",
+    "title": "আল-গাজ্জালি - ইসলামি দর্শন",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_29_scholar_al_ghazali-hXQACXYZ4iArCEGuBdVNNd.webp?updatedAt=1781117901160",
+    "emoji": "💡",
+    "category": "stories_history",
+    "content": {
+      "starter": "আল-গাজ্জালি ছিলেন একজন জ্ঞানী শিক্ষক যিনি মানুষ কীভাবে চিন্তা করে তা অধ্যয়ন করেছিলেন। তিনি শিখিয়েছিলেন যে পরিষ্কার, দয়ালু হৃদয় থাকা ঠিক ততটাই গুরুত্বপূর্ণ যতটা অত্যন্ত বুদ্ধিমান হওয়া এবং তিনি মানুষকে মানসিক শান্তি খুঁজে পেতে সাহায্য করেছিলেন!",
+      "explorer": "আল-গাজ্জালি (১০৫৮-১১১১ খ্রি.) ছিলেন অন্যতম প্রভাবশালী ইসলামি ধর্মতত্ত্ববিদ ও দার্শনিক। 'হুজ্জাতুল ইসলাম' (ইসলামের প্রমাণ) নামে পরিচিত, তিনি তাঁর সময়ের সবচেয়ে বড় একাডেমি নিজামিয়্যায় শিক্ষকতা করেছিলেন। তিনি সুন্দর বই লিখেছিলেন যা বুদ্ধিবৃত্তিক অধ্যয়নকে ইতিবাচক আধ্যাত্মিক নৈতিকতার সাথে মিলিয়ে মানুষকে সাহায্য করেছিল।",
+      "thinker": "আবু হামিদ আল-গাজ্জালি (১০৫৮-১১১১ খ্রি.) ইসলামি দর্শন, ধর্মতত্ত্ব এবং সুফিবাদকে গভীরভাবে প্রভাবিত করেছিলেন। তাঁর প্রধান রচনায়, 'তাহাফুতুল ফালাসিফা' ('দার্শনিকদের অসঙ্গতি'), তিনি গ্রিক অধিবিদ্যার সাথে বিতর্ক করেছিলেন। কিন্তু তাঁর মাস্টারপিস 'ইহইয়া উলুমিদ্দিন' (ধর্মীয় বিজ্ঞানের পুনরুজ্জীবন)-এ তিনি ফিকহ, বুদ্ধিবৃত্তিক ধর্মতত্ত্ব এবং আধ্যাত্মিক রহস্যবাদকে সংশ্লেষিত করেছিলেন, চরিত্র গঠন ও নৈতিকতাকে বৈজ্ঞানিক ও ব্যক্তিগত প্রচেষ্টার কেন্দ্র হিসেবে প্রতিষ্ঠিত করেছিলেন।"
+    },
+    "funFact": "তুমি কি জানো? আল-গাজ্জালির উপাধি 'হুজ্জাতুল ইসলাম' (ইসলামের প্রমাণ) তাঁর অবিশ্বাস্য জ্ঞানের গভীরতার কারণে। তিনি বিশ্বাস করতেন যে শেখার চূড়ান্ত লক্ষ্য হলো উন্নত চরিত্র ও অন্তরের শান্তি গড়ে তোলা!",
+    "quiz": [
+      {
+        "q": "আল-গাজ্জালি কী উপাধিতে বিখ্যাত?",
+        "options": [
+          "পদার্থবিদ্যার জনক",
+          "হুজ্জাতুল ইসলাম (ইসলামের প্রমাণ)",
+          "পূর্ব ও পশ্চিমের শিক্ষক"
+        ],
+        "correct": 1,
+        "explanation": "তিনি ধর্মতাত্ত্বিক দর্শনে তাঁর আয়ত্তের জন্য 'হুজ্জাতুল ইসলাম' হিসেবে খ্যাত।"
+      },
+      {
+        "q": "আল-গাজ্জালি তাঁর মাস্টারপিসে ধর্মীয় বিজ্ঞানের পুনরুজ্জীবন কী হিসেবে বর্ণনা করেছেন?",
+        "options": [
+          "নৈতিকতা, আধ্যাত্মিকতা ও হৃদয়ের জ্ঞান",
+          "দ্রুত নৌকা নির্মাণ",
+          "ক্যালকুলাস শেখা"
+        ],
+        "correct": 0,
+        "explanation": "'ইহইয়া উলুমিদ্দিন' ঈমান, নৈতিক চরিত্র ও আধ্যাত্মিক চেতনা পুনরুজ্জীবিত করার ওপর কেন্দ্র করে।"
+      },
+      {
+        "q": "আল-গাজ্জালির মতে জ্ঞান অর্জনের উদ্দেশ্য কী:",
+        "options": [
+          "বিতর্কে জেতা",
+          "উন্নত চরিত্র গড়ে তোলা এবং আল্লাহর কাছাকাছি যাওয়া",
+          "এটি নিয়ে গর্ব করা"
+        ],
+        "correct": 1,
+        "explanation": "তিনি শিখিয়েছিলেন যে বুদ্ধিবৃত্তিক জ্ঞান আধ্যাত্মিক বিনয় ও উচ্চ নৈতিক মানের সাথে না থাকলে অর্থহীন।"
+      }
+    ]
+  },
+  {
+    "id": "fatima_al_fihri",
+    "title": "ফাতিমা আল-ফিহরি - প্রথম বিশ্ববিদ্যালয়",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_30_scholar_fatima_al_fihri-oUUmqToz9ELRTCtWCXgCQn.webp?updatedAt=1781117901536",
+    "emoji": "🎓",
+    "category": "stories_history",
+    "content": {
+      "starter": "ফাতিমা আল-ফিহরি ছিলেন একজন ধনী ও উদার মুসলিম নারী যিনি মরক্কোতে চলে গিয়েছিলেন। তিনি পড়াশোনা, বিজ্ঞান এবং শিক্ষাকে এতই ভালোবাসতেন যে তিনি তাঁর সম্পূর্ণ উত্তরাধিকার ব্যবহার করে আল-কারাউইয়িন বিশ্ববিদ্যালয় নির্মাণ করেছিলেন, যা বিশ্বের প্রাচীনতম বিশ্ববিদ্যালয়!",
+      "explorer": "ফাতিমা আল-ফিহরি (৮০০-৮৮০ খ্রি.) ছিলেন একজন অনুপ্রেরণামূলক শিক্ষাবিদ ও জনহিতৈষী। ৮৫৯ খ্রিস্টাব্দে তিনি মরক্কোর ফেসে আল-কারাউইয়িন বিশ্ববিদ্যালয় ও মসজিদ প্রতিষ্ঠা করেছিলেন। UNESCO এবং গিনেস ওয়ার্ল্ড রেকর্ডস এটিকে বিশ্বের প্রাচীনতম ক্রমাগত পরিচালিত, ডিগ্রি প্রদানকারী শিক্ষা প্রতিষ্ঠান হিসেবে স্বীকৃতি দেয়।",
+      "thinker": "ফাতিমা আল-ফিহরি (৮০০-৮৮০ খ্রি.) বিশ্ব উচ্চশিক্ষায় একজন অগ্রগামী। ফেসে স্থানান্তরিত হয়ে এবং একটি বিশাল সম্পদের উত্তরাধিকারী হয়ে তিনি তাঁর সম্পদ তাঁর সম্প্রদায়ের সেবায় ব্যয় করার শপথ নিয়েছিলেন। তিনি আল-কারাউইয়িন মসজিদ ও বিশ্ববিদ্যালয় কমপ্লেক্সের জটিল স্থাপত্য ও নির্মাণ তত্ত্বাবধান করেছিলেন, এর বহু বছরের নির্মাণের সময় প্রতিদিন রোজা রেখেছিলেন। বিশ্ববিদ্যালয়টি বিশ্ব শিক্ষার কেন্দ্র হয়েছিল, পোপ সিলভেস্টার দ্বিতীয়ের মতো খ্রিষ্টান, ইহুদি ও মুসলিম পণ্ডিতদের আয়োজন করেছিল।"
+    },
+    "funFact": "তুমি কি জানো? ফাতিমা আল-ফিহরি ৮৫৯ খ্রিস্টাব্দে আল-কারাউইয়িন বিশ্ববিদ্যালয় নির্মাণ করেছিলেন। এটি UNESCO দ্বারা মানব ইতিহাসের প্রাচীনতম পরিচালিত বিশ্ববিদ্যালয় হিসেবে আনুষ্ঠানিকভাবে স্বীকৃত!",
+    "quiz": [
+      {
+        "q": "ফাতিমা আল-ফিহরি কোন শহর ও দেশে প্রাচীনতম বিশ্ববিদ্যালয় প্রতিষ্ঠা করেছিলেন?",
+        "options": [
+          "কায়রো, মিসর",
+          "ফেস, মরক্কো",
+          "বাগদাদ, ইরাক"
+        ],
+        "correct": 1,
+        "explanation": "তিনি মরক্কোর ফেস শহরে আল-কারাউইয়িন বিশ্ববিদ্যালয় প্রতিষ্ঠা করেছিলেন।"
+      },
+      {
+        "q": "আল-কারাউইয়িনের নির্মাণের সময় ফাতিমা কী করেছিলেন?",
+        "options": [
+          "তিনি একটি দীর্ঘ ছুটিতে গিয়েছিলেন",
+          "তিনি এর সম্পূর্ণ হওয়া পর্যন্ত প্রতিদিন রোজা রেখেছিলেন",
+          "তিনি একটি নৌকা ভ্রমণে গিয়েছিলেন"
+        ],
+        "correct": 1,
+        "explanation": "ধার্মিকতার কাজ হিসেবে ফাতিমা আল-ফিহরি নির্মাণের বছরগুলোতে প্রতিদিন রোজা রাখার শপথ নিয়েছিলেন।"
+      },
+      {
+        "q": "UNESCO অনুযায়ী আল-কারাউইয়িন বিশ্ববিদ্যালয় কী স্বাতন্ত্র্য ধারণ করে?",
+        "options": [
+          "শুধু প্রাচীনতম লাইব্রেরি",
+          "বিশ্বের প্রাচীনতম ক্রমাগত পরিচালিত, ডিগ্রি প্রদানকারী বিশ্ববিদ্যালয়",
+          "ইউরোপের প্রথম মেডিকেল স্কুল"
+        ],
+        "correct": 1,
+        "explanation": "আল-কারাউইয়িন ৮৫৯ খ্রি. থেকে ক্রমাগত পরিচালিত এবং কলেজ ডিগ্রি প্রদান করছে।"
+      }
+    ]
+  },
+  {
+    "id": "ibn_khaldun",
+    "title": "ইবনে খালদুন - সমাজবিজ্ঞানের জনক",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_31_scholar_ibn_khaldun-22Tqw9TsmYYVf9NDTfPHYp.webp?updatedAt=1781117901557",
+    "emoji": "📜",
+    "category": "stories_history",
+    "content": {
+      "starter": "ইবনে খালদুন ছিলেন একজন বিশেষজ্ঞ গল্পকার ও ঐতিহাসিক। তিনি প্রথম পণ্ডিত যিনি বুঝতে পেরেছিলেন যে *মানুষের গোষ্ঠী* এবং সমাজ কীভাবে বৃদ্ধি পায় তা অধ্যয়ন করা একটি বিশেষ বিজ্ঞান, যাকে আমরা এখন সমাজবিজ্ঞান বলি!",
+      "explorer": "ইবনে খালদুন (১৩৩২-১৪০৬ খ্রি.) ছিলেন একজন কিংবদন্তি আরব ঐতিহাসিক, সমাজবিজ্ঞানী ও দার্শনিক। তাঁর আশ্চর্যজনক বই, 'আল-মুকাদ্দিমা' (ভূমিকা)-তে তিনি 'আসাবিয়্যাহ' (সামাজিক সংহতি) পরিচয় করিয়েছিলেন, ব্যাখ্যা করেছিলেন কীভাবে মহান সাম্রাজ্য উত্থান, বিকাশ, বার্ধক্য এবং শেষ পর্যন্ত বিলীন হয়।",
+      "thinker": "ইবনে খালদুন (১৩৩২-১৪০৬ খ্রি.)-কে ব্যাপকভাবে সমাজবিজ্ঞান, অর্থনীতি, ইতিহাস এবং জনসংখ্যার প্রতিষ্ঠাতা পিতা হিসেবে বিবেচনা করা হয়। তাঁর স্মৃতিস্তম্ভ বই 'আল-মুকাদ্দিমা' ইতিহাসের একটি দর্শন প্রণয়ন করেছিল। তিনি 'আসাবিয়্যাহ' — সামাজিক সংহতি বা গোষ্ঠী সংহতি — ধারণাটি পরিচয় করিয়েছিলেন ঐতিহাসিক চক্র ব্যাখ্যা করতে, বিশ্লেষণ করেছিলেন কীভাবে যাযাবর সংস্কৃতি সভ্যতা প্রতিষ্ঠা করে যা উত্থান করে, তিন প্রজন্ম পরে ক্ষয় হয় এবং নতুন গতিশীল সামাজিক জোটের কাছে স্থান দেয়।"
+    },
+    "funFact": "তুমি কি জানো? ইবনে খালদুন তাঁর সম্পূর্ণ বিশ্ব-পরিবর্তনকারী বই 'আল-মুকাদ্দিমা' (প্রাথমিক সমাজবিজ্ঞান ও অর্থনীতির প্রতিনিধিত্ব করে) পশ্চিমা পণ্ডিতরা সমাজবিজ্ঞানকে একটি ক্ষেত্র হিসেবে প্রতিষ্ঠার বছর আগেই লিখেছিলেন!",
+    "quiz": [
+      {
+        "q": "ইবনে খালদুনের বিশ্ববিখ্যাত ঐতিহাসিক ভূমিকা বইয়ের শিরোনাম কী?",
+        "options": [
+          "আল-মুকাদ্দিমা (ভূমিকা)",
+          "ইতিহাসের বই",
+          "স্বর্ণযুগ"
+        ],
+        "correct": 0,
+        "explanation": "তিনি 'আল-মুকাদ্দিমা' লিখেছিলেন যা সমাজের সামাজিক-রাজনৈতিক বৃদ্ধি বিশ্লেষণ করেছিল।"
+      },
+      {
+        "q": "ইবনে খালদুন পশ্চিমা পণ্ডিতদের কয়েক শতাব্দী আগে কোন প্রধান বৈজ্ঞানিক শৃঙ্খলার পথিকৃৎ করেছিলেন?",
+        "options": [
+          "সমাজবিজ্ঞান ও ইতিহাসচর্চা",
+          "নিউক্লিয়ার পদার্থবিদ্যা",
+          "সামুদ্রিক জীববিজ্ঞান"
+        ],
+        "correct": 0,
+        "explanation": "সামাজিক প্যাটার্ন ও ঐতিহাসিক চক্রের তাঁর পদ্ধতিগত বিশ্লেষণ তাঁকে সমাজবিজ্ঞানের জনক বানিয়েছে।"
+      },
+      {
+        "q": "ইবনে খালদুন প্রস্তাবিত মূল ধারণা 'আসাবিয়্যাহ' কী?",
+        "options": [
+          "নৌচালনা দক্ষতা",
+          "সামাজিক সংহতি ও ঐক্য",
+          "জ্যোতির্বিদ্যা হিসাব"
+        ],
+        "correct": 1,
+        "explanation": "'আসাবিয়্যাহ' হলো সম্প্রদায় বন্ধন বা সামাজিক গোষ্ঠী সংহতি যা সমাজকে স্থিতিশীল জাতি গঠন করতে সক্ষম করে।"
       }
     ]
   }

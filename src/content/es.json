@@ -1,1306 +1,1621 @@
 [
   {
     "id": "shahada",
-    "title": "Shahada - Declaration of Faith",
+    "title": "Shahada - Declaración de Fe",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☪️",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "The Shahada says: \"There is no god but Allah, and Muhammad is His messenger.\" This is the most important sentence in Islam! When we say it, we tell everyone we believe in Allah and love His Prophet. It makes our heart light and happy!",
-      "explorer": "The Shahada is the first pillar of Islam. It has two parts: first, believing that only Allah is God — no one else deserves worship. Second, believing that Prophet Muhammad ﷺ is Allah's final messenger. Saying the Shahada with sincerity makes you Muslim. It's not just words — it's a promise from your heart to follow Allah's guidance.",
-      "thinker": "The Shahada is far more than a declaration — it's a complete worldview. The first part, \"La ilaha illallah,\" negates all false gods and affirms monotheism (Tawheed). The second part, \"Muhammadun rasulullah,\" establishes the prophetic authority of Muhammad ﷺ. Together, they form the foundation upon which all other Islamic practices are built. Understanding the Shahada means understanding the essence of submission to Allah."
+      "starter": "La Shahada dice: \"No hay más dios que Allah, y Muhammad es Su mensajero.\" ¡Esta es la frase más importante del Islam! Cuando la decimos, le decimos a todos que creemos en Allah y amamos a Su Profeta. ¡Hace que nuestro corazón se sienta ligero y feliz!",
+      "explorer": "La Shahada es el primer pilar del Islam. Tiene dos partes: primero, creer que solo Allah es Dios — nadie más merece ser adorado. Segundo, creer que el Profeta Muhammad ﷺ es el mensajero final de Allah. Decir la Shahada con sinceridad te hace musulmán. No son solo palabras — es una promesa de tu corazón de seguir la guía de Allah.",
+      "thinker": "La Shahada es mucho más que una declaración — es una cosmovisión completa. La primera parte, \"La ilaha illallah,\" niega todos los falsos dioses y afirma el monoteísmo (Tawhid). La segunda parte, \"Muhammadun rasulullah,\" establece la autoridad profética de Muhammad ﷺ. Juntas, forman la base sobre la cual se construyen todas las demás prácticas islámicas. Comprender la Shahada significa comprender la esencia de la sumisión a Allah."
     },
-    "funFact": "Did you know? The Shahada is whispered into a newborn baby's ear and is also the last words many Muslims hope to say before they pass away!",
+    "funFact": "¿Sabías? La Shahada se susurra al oído de un recién nacido y también son las últimas palabras que muchos musulmanes esperan decir antes de fallecer.",
     "quiz": [
       {
-        "q": "What does Shahada mean?",
+        "q": "¿Qué significa Shahada?",
         "options": [
-          "Declaration of Faith",
-          "Daily Prayer",
-          "Charity Giving"
+          "Declaración de Fe",
+          "Oración Diaria",
+          "Dar Caridad"
         ],
         "correct": 0,
-        "explanation": "Shahada means 'Declaration of Faith' — it's the statement that makes someone Muslim."
+        "explanation": "Shahada significa 'Declaración de Fe' — es la afirmación que hace a alguien musulmán."
       },
       {
-        "q": "How many parts does the Shahada have?",
+        "q": "¿Cuántas partes tiene la Shahada?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "Una parte",
+          "Dos partes",
+          "Tres partes"
         ],
         "correct": 1,
-        "explanation": "The Shahada has two parts: believing in one God and believing Muhammad is His messenger."
+        "explanation": "La Shahada tiene dos partes: creer en un solo Dios y creer que Muhammad es Su mensajero."
       },
       {
-        "q": "Who is the last prophet mentioned in the Shahada?",
+        "q": "¿Quién es el último profeta mencionado en la Shahada?",
         "options": [
-          "Prophet Musa",
-          "Prophet Isa",
-          "Prophet Muhammad"
+          "El Profeta Musa",
+          "El Profeta Isa",
+          "El Profeta Muhammad"
         ],
         "correct": 2,
-        "explanation": "The Shahada mentions Prophet Muhammad ﷺ as Allah's final messenger."
+        "explanation": "La Shahada menciona al Profeta Muhammad ﷺ como el mensajero final de Allah."
       }
     ]
   },
   {
     "id": "salah",
-    "title": "Salah - Prayer",
+    "title": "Salah - Oración",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🤲",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Salah is talking to Allah! Five times a day, we stop what we're doing, wash our hands and face (that's called wudu), face Mecca, and pray. It's like a special phone call to Allah. He loves when we talk to Him!",
-      "explorer": "Salah is the second pillar of Islam. Muslims pray five times a day: Fajr (dawn), Dhuhr (noon), Asr (afternoon), Maghrib (sunset), and Isha (night). Each prayer involves standing, bowing, and prostrating while reciting verses from the Quran. Salah keeps us connected to Allah throughout the day and teaches us discipline and gratitude.",
-      "thinker": "The five daily prayers (Salawat) are a gift from Allah, prescribed during the Night Journey (Isra and Mi'raj). Each prayer corresponds to a spiritual state: Fajr purifies the soul before the day begins, Dhuhr provides a midday recharge, Asr encourages reflection, Maghrib marks gratitude for the day's blessings, and Isha offers peace before sleep. The physical movements — standing (qiyam), bowing (ruku), and prostration (sujud) — are acts of humility that remind us of our relationship with our Creator."
+      "starter": "¡Salah es hablar con Allah! Cinco veces al día, dejamos de hacer lo que estamos haciendo, nos lavamos las manos y la cara (eso se llama wudu), miramos hacia La Meca y oramos. Es como una llamada especial a Allah. ¡Él ama cuando le hablamos!",
+      "explorer": "Salah es el segundo pilar del Islam. Los musulmanes oran cinco veces al día: Fayr (amanecer), Duhur (mediodía), Asr (tarde), Magrib (puesta de sol) e Isha (noche). Cada oración incluye estar de pie, inclinarse y postrarse mientras se recitan versículos del Corán. Salah nos mantiene conectados con Allah a lo largo del día y nos enseña disciplina y gratitud.",
+      "thinker": "Las cinco oraciones diarias (Salawat) son un regalo de Allah, prescritas durante el Viaje Nocturno (Isra y Mi'ray). Cada oración corresponde a un estado espiritual: el Fayr purifica el alma antes de que comience el día, el Duhur proporciona una recarga al mediodía, el Asr fomenta la reflexión, el Magrib marca la gratitud por las bendiciones del día, y el Isha ofrece paz antes de dormir. Los movimientos físicos — de pie (qiyam), inclinación (ruku) y postración (suyud) — son actos de humildad que nos recuerdan nuestra relación con nuestro Creador."
     },
-    "funFact": "Did you know? Muslims face the Kaaba in Mecca when they pray, no matter where they are in the world! Even from space, astronauts pray toward Mecca!",
+    "funFact": "¿Sabías? Los musulmanes miran hacia la Kaaba en La Meca cuando oran, ¡sin importar dónde estén en el mundo! ¡Incluso desde el espacio, los astronautas oran hacia La Meca!",
     "quiz": [
       {
-        "q": "How many times a day do Muslims pray?",
+        "q": "¿Cuántas veces al día oran los musulmanes?",
         "options": [
-          "Three times",
-          "Five times",
-          "Seven times"
+          "Tres veces",
+          "Cinco veces",
+          "Siete veces"
         ],
         "correct": 1,
-        "explanation": "Muslims pray five times a day: Fajr, Dhuhr, Asr, Maghrib, and Isha."
+        "explanation": "Los musulmanes oran cinco veces al día: Fayr, Duhur, Asr, Magrib e Isha."
       },
       {
-        "q": "What do we do before praying?",
+        "q": "¿Qué hacemos antes de orar?",
         "options": [
-          "Eat food",
-          "Perform wudu (ablution)",
-          "Read a book"
+          "Comer comida",
+          "Realizar wudu (ablución)",
+          "Leer un libro"
         ],
-        "clean": 1,
-        "explanation": "We perform wudu (ablution) to clean ourselves before praying."
+        "explanation": "Realizamos wudu (ablución) para limpiarnos antes de orar.",
+        "clean": 1
       },
       {
-        "q": "Which direction do Muslims face when praying?",
+        "q": "¿En qué dirección miran los musulmanes al orar?",
         "options": [
-          "North",
-          "The Kaaba in Mecca",
-          "East"
+          "Norte",
+          "La Kaaba en La Meca",
+          "Este"
         ],
         "correct": 1,
-        "explanation": "Muslims face the Kaaba in Mecca, which is called the Qibla."
+        "explanation": "Los musulmanes miran hacia la Kaaba en La Meca, lo cual se llama la Qibla."
       }
     ]
   },
   {
     "id": "zakat",
-    "title": "Zakat - Charity",
+    "title": "Zakat - Caridad",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_45_zakat_overview-iB69C239XxvYzdfsgqWaNR.webp?updatedAt=1781117902141",
     "emoji": "💰",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Zakat means sharing what we have with others! If we have extra money, we give a little bit to people who need it. It's like Allah is asking us to be kind and share. When we give, our hearts feel happy!",
-      "explorer": "Zakat is the third pillar of Islam. It means giving 2.5% of your savings each year to those in need. It's not optional — it's an obligation for Muslims who have wealth above a certain amount. Zakat purifies our money and reminds us that everything belongs to Allah. It helps the poor, pays off debts, and strengthens the community.",
-      "thinker": "Zakat is both a social and spiritual obligation. The word 'zakat' means 'purification' and 'growth' — by giving a portion of our wealth, we purify the remainder and grow spiritually. Allah says in the Quran that those who pay Zakat are helping to purify themselves (At-Tawbah 9:103). The fixed rate of 2.5% (one-fortieth) applies to savings held for one lunar year above the nisab threshold. This systematic approach to wealth redistribution was revolutionary and remains one of Islam's most powerful social justice mechanisms."
+      "starter": "Zakat significa compartir lo que tenemos con los demás. Si tenemos dinero de más, damos un poquito a las personas que lo necesitan. Es como si Allah nos pidiera ser amables y compartir. ¡Cuando damos, nuestros corazones se sienten felices!",
+      "explorer": "Zakat es el tercer pilar del Islam. Significa dar el 2.5% de tus ahorros cada año a quienes lo necesitan. No es opcional — es una obligación para los musulmanes que tienen riqueza por encima de cierta cantidad. Zakat purifica nuestro dinero y nos recuerda que todo pertenece a Allah. Ayuda a los pobres, paga deudas y fortalece la comunidad.",
+      "thinker": "Zakat es tanto una obligación social como espiritual. La palabra 'zakat' significa 'purificación' y 'crecimiento' — al dar una porción de nuestra riqueza, purificamos el resto y crecemos espiritualmente. Allah dice en el Corán que quienes pagan el Zakat se ayudan a purificarse (At-Tawbah 9:103). La tasa fija del 2.5% (una cuadragésima parte) se aplica a los ahorros mantenidos durante un año lunar por encima del umbral del nisab. Este enfoque sistemático de redistribución de la riqueza fue revolucionario y sigue siendo uno de los mecanismos de justicia social más poderosos del Islam."
     },
-    "funFact": "Did you know? The word 'Zakat' means 'purification' — when you give Zakat, your remaining money becomes blessed and pure!",
+    "funFact": "¿Sabías? La palabra 'Zakat' significa 'purificación' — ¡cuando das Zakat, tu dinero restante se vuelve bendito y puro!",
     "quiz": [
       {
-        "q": "What percentage of savings is given as Zakat?",
+        "q": "¿Qué porcentaje de los ahorros se da como Zakat?",
         "options": [
           "1%",
           "2.5%",
           "10%"
         ],
         "correct": 1,
-        "explanation": "Muslims give 2.5% (one-fortieth) of their savings as Zakat each year."
+        "explanation": "Los musulmanes dan el 2.5% (una cuadragésima parte) de sus ahorros como Zakat cada año."
       },
       {
-        "q": "What does the word 'Zakat' mean?",
+        "q": "¿Qué significa la palabra 'Zakat'?",
         "options": [
-          "Charity",
-          "Purification",
-          "Prayer"
+          "Caridad",
+          "Purificación",
+          "Oración"
         ],
         "correct": 1,
-        "explanation": "Zakat means 'purification' — it purifies our wealth and our hearts."
+        "explanation": "Zakat significa 'purificación' — purifica nuestra riqueza y nuestros corazones."
       },
       {
-        "q": "Who receives Zakat?",
+        "q": "¿Quién recibe el Zakat?",
         "options": [
-          "Only family",
-          "People in need",
-          "Only the rich"
+          "Solo la familia",
+          "Las personas necesitadas",
+          "Solo los ricos"
         ],
         "correct": 1,
-        "explanation": "Zakat is given to people in need, including the poor, debtors, and travelers."
+        "explanation": "El Zakat se da a las personas necesitadas, incluyendo los pobres, deudores y viajeros."
       }
     ]
   },
   {
     "id": "sawm",
-    "title": "Sawm - Fasting in Ramadan",
+    "title": "Sawm - Ayuno en Ramadán",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_40_ramadan_fasting-SeQhGeRR5buiYbtryMhUKA.webp?updatedAt=1781117899738",
     "emoji": "🌙",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "During Ramadan, we don't eat or drink from sunrise to sunset. That's called fasting! It teaches us to be patient and think about people who don't have food. At night, we break our fast with family and pray together. It's very special!",
-      "explorer": "Sawm means fasting during the month of Ramadan, the fourth pillar of Islam. From dawn to sunset, Muslims abstain from food, drink, and other physical needs. But fasting is not just about staying hungry — it's about building patience, empathy for the poor, and getting closer to Allah. The fast is broken at sunset with a meal called Iftar, often shared with family and community.",
-      "thinker": "Sawm during Ramadan is a comprehensive act of worship that trains the body, mind, and soul. The Quran was first revealed during Ramadan (Surah Al-Baqarah 2:185), making this month especially sacred. Fasting develops taqwa (God-consciousness) by creating a physical reminder of Allah's presence. Beyond abstaining from food and drink, Muslims are encouraged to avoid negative speech, anger, and gossip. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a rhythm of gratitude and community that transforms the entire month."
+      "starter": "Durante el Ramadán, no comemos ni bebemos desde que sale el sol hasta que se pone. ¡Eso se llama ayuno! Nos enseña a ser pacientes y a pensar en las personas que no tienen comida. Por la noche, rompemos el ayuno con la familia y oramos juntos. ¡Es muy especial!",
+      "explorer": "Sawm significa ayunar durante el mes de Ramadán, el cuarto pilar del Islam. Desde el amanecer hasta el atardecer, los musulmanes se abstienen de comida, bebida y otras necesidades físicas. Pero ayunar no es solo sobre pasar hambre — se trata de construir paciencia, empatía por los pobres y acercarse a Allah. El ayuno se rompe al atardecer con una comida llamada Iftar, a menudo compartida con la familia y la comunidad.",
+      "thinker": "El Sawm durante el Ramadán es un acto integral de adoración que entrena el cuerpo, la mente y el alma. El Corán fue revelado por primera vez durante el Ramadán (Sura Al-Baqarah 2:185), haciendo este mes especialmente sagrado. El ayuno desarrolla taqwa (conciencia de Dios) creando un recordatorio físico de la presencia de Allah. Más allá de abstenerse de comida y bebida, se anima a los musulmanes a evitar el habla negativa, la ira y los chismes. La comida del amanecer (Suhur) y la comida del atardecer (Iftar) crean un ritmo de gratitud y comunidad que transforma todo el mes."
     },
-    "funFact": "Did you know? Muslims break their fast with dates, just like Prophet Muhammad ﷺ used to! The word 'Iftar' means 'breaking the fast'!",
+    "funFact": "¿Sabías? Los musulmanes rompen su ayuno con dátiles, ¡tal como solía hacer el Profeta Muhammad ﷺ! La palabra 'Iftar' significa 'romper el ayuno'.",
     "quiz": [
       {
-        "q": "During which month do Muslims fast?",
+        "q": "¿Durante qué mes ayunan los musulmanes?",
         "options": [
           "Muharram",
-          "Ramadan",
+          "Ramadán",
           "Shawwal"
         ],
         "correct": 1,
-        "explanation": "Muslims fast during the holy month of Ramadan."
+        "explanation": "Los musulmanes ayunan durante el sagrado mes de Ramadán."
       },
       {
-        "q": "What is the meal called when we break our fast?",
+        "q": "¿Cómo se llama la comida cuando rompemos el ayuno?",
         "options": [
-          "Suhoor",
+          "Suhur",
           "Iftar",
-          "Dhuhr"
+          "Duhur"
         ],
         "correct": 1,
-        "explanation": "The meal at sunset to break the fast is called Iftar."
+        "explanation": "La comida al atardecer para romper el ayuno se llama Iftar."
       },
       {
-        "q": "What food did Prophet Muhammad ﷺ use to break his fast?",
+        "q": "¿Qué comida usaba el Profeta Muhammad ﷺ para romper su ayuno?",
         "options": [
-          "Bread",
-          "Dates",
-          "Rice"
+          "Pan",
+          "Dátiles",
+          "Arroz"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ would break his fast with dates and water."
+        "explanation": "El Profeta Muhammad ﷺ rompía su ayuno con dátiles y agua."
       }
     ]
   },
   {
     "id": "hajj",
-    "title": "Hajj - Pilgrimage to Mecca",
+    "title": "Hajj - Peregrinación a La Meca",
     "image": "https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446",
     "emoji": "🕋",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Hajj is a big trip to Mecca! Every Muslim who is able goes there to pray around the Kaaba — Allah's house. Millions of people go together, wearing simple white clothes. Everyone is equal there — rich or poor, it doesn't matter!",
-      "explorer": "Hajj is the fifth pillar of Islam — a pilgrimage to Mecca that every Muslim must make at least once in their lifetime if they are able. It happens during the Islamic month of Dhul Hijjah. Pilgrims wear simple white clothes called Ihram, circling the Kaaba, walking between hills, and standing in prayer at Arafat. Hajj teaches equality, patience, and devotion to Allah.",
-      "thinker": "Hajj is the world's largest annual gathering and represents the ultimate expression of Islamic unity. Following the footsteps of Prophet Ibrahim ﷺ and his family, pilgrims perform rituals that symbolize sacrifice, purification, and submission to Allah. The wearing of Ihram strips away all markers of wealth and status — everyone stands equal before Allah. The Prophet ﷺ said: 'Hajj is an obligation once in a lifetime for whoever has the ability.' It is a profound spiritual journey that cleanses sins and renews one's connection with the Creator."
+      "starter": "¡Hajj es un gran viaje a La Meca! Todo musulmán que pueda va allí a orar alrededor de la Kaaba — la casa de Allah. Millones de personas van juntas, usando ropa blanca sencilla. Todos son iguales allí — rico o pobre, ¡no importa!",
+      "explorer": "Hajj es el quinto pilar del Islam — una peregrinación a La Meca que todo musulmán debe realizar al menos una vez en su vida si puede. Ocurre durante el mes islámico de Dhu al-Hiyah. Los peregrinos usan ropa blanca sencilla llamada Ihram, circundan la Kaaba, caminan entre colinas y permanecen en oración en Arafat. Hajj enseña igualdad, paciencia y devoción a Allah.",
+      "thinker": "Hajj es la reunión anual más grande del mundo y representa la máxima expresión de unidad islámica. Siguiendo los pasos del Profeta Ibrahim ﷺ y su familia, los peregrinos realizan rituales que simbolizan sacrificio, purificación y sumisión a Allah. El uso del Ihram elimina todos los marcadores de riqueza y estatus — todos son iguales ante Allah. El Profeta ﷺ dijo: 'Hajj es una obligación una vez en la vida para quien tenga la capacidad.' Es un viaje espiritual profundo que limpia los pecados y renueva la conexión con el Creador."
     },
-    "funFact": "Did you know? Over 2 million people perform Hajj every year! When pilgrims throw stones at the pillars (Jamarat), they're following the example of Prophet Ibrahim!",
+    "funFact": "¿Sabías? ¡Más de 2 millones de personas realizan el Hajj cada año! Cuando los peregrinos lanzan piedras a los pilares (Yamarat), ¡están siguiendo el ejemplo del Profeta Ibrahim!",
     "quiz": [
       {
-        "q": "How often must a Muslim perform Hajj?",
+        "q": "¿Con qué frecuencia debe un musulmán realizar el Hajj?",
         "options": [
-          "Every year",
-          "Once in a lifetime",
-          "Every 5 years"
+          "Cada año",
+          "Una vez en la vida",
+          "Cada 5 años"
         ],
         "correct": 1,
-        "explanation": "Every Muslim who is able must perform Hajj at least once in their lifetime."
+        "explanation": "Todo musulmán que pueda debe realizar el Hajj al menos una vez en su vida."
       },
       {
-        "q": "What do pilgrims wear during Hajj?",
+        "q": "¿Qué usan los peregrinos durante el Hajj?",
         "options": [
-          "Regular clothes",
-          "Simple white clothes called Ihram",
-          "Black clothes"
+          "Ropa normal",
+          "Ropa blanca sencilla llamada Ihram",
+          "Ropa negra"
         ],
         "correct": 1,
-        "explanation": "Pilgrims wear simple white clothes called Ihram to show everyone is equal."
+        "explanation": "Los peregrinos usan ropa blanca sencilla llamada Ihram para mostrar que todos son iguales."
       },
       {
-        "q": "Which prophet's example do pilgrims follow at Hajj?",
+        "q": "¿El ejemplo de qué profeta siguen los peregrinos en el Hajj?",
         "options": [
-          "Prophet Musa",
-          "Prophet Ibrahim",
-          "Prophet Isa"
+          "El Profeta Musa",
+          "El Profeta Ibrahim",
+          "El Profeta Isa"
         ],
         "correct": 1,
-        "explanation": "Pilgrims follow the example of Prophet Ibrahim ﷺ and his family."
+        "explanation": "Los peregrinos siguen el ejemplo del Profeta Ibrahim ﷺ y su familia."
       }
     ]
   },
   {
     "id": "tawheed",
-    "title": "Tawheed - Oneness of God",
+    "title": "Tawhid - Unicidad de Dios",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☝️",
     "category": "core_beliefs",
     "content": {
-      "starter": "Tawheed means there is ONLY ONE God — Allah! He created everything: you, me, the stars, the animals, everything! We only pray to Allah, not to anyone else. Allah is the only one who deserves our love and worship!",
-      "explorer": "Tawheed is the most important belief in Islam — that there is only one God, Allah. He has no partners, no family, and no equals. He is the Creator of everything and the only one worthy of worship. Understanding Tawheed means we don't pray to statues, people, or anything else — only to Allah. This belief is the foundation of everything in Islam.",
-      "thinker": "Tawheed is the cornerstone of Islamic theology, encompassing three dimensions: Tawheed ar-Rububiyyah (Oneness of Lordship), Tawheed al-Uluhiyyah (Oneness of Worship), and Tawheed al-Asma wa'l-Sifat (Oneness of Names and Attributes). The first recognizes Allah as the sole Creator and Sustainer. The second directs all forms of worship exclusively to Him. The third affirms that Allah's attributes are unique and incomparable. The Quran states: 'Say, He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is begotten. And there is none comparable to Him' (Surah Al-Ikhlas 112:1-4)."
+      "starter": "Tawhid significa que hay SOLO UN Dios — ¡Allah! Él creó todo: a ti, a mí, las estrellas, los animales, ¡todo! Solo oramos a Allah, no a nadie más. ¡Allah es el único que merece nuestro amor y adoración!",
+      "explorer": "Tawhid es la creencia más importante del Islam — que hay un solo Dios, Allah. Él no tiene socios, ni familia, ni iguales. Él es el Creador de todo y el único digno de adoración. Comprender el Tawhid significa que no oramos a estatuas, personas o cualquier otra cosa — solo a Allah. Esta creencia es la base de todo en el Islam.",
+      "thinker": "Tawhid es la piedra angular de la teología islámica, que abarca tres dimensiones: Tawhid ar-Rububiyyah (Unicidad del Señorío), Tawhid al-Uluhiyyah (Unicidad de la Adoración) y Tawhid al-Asma wa'l-Sifat (Unicidad de los Nombres y Atributos). La primera reconoce a Allah como el único Creador y Sustentador. La segunda dirige todas las formas de adoración exclusivamente a Él. La tercera afirma que los atributos de Allah son únicos e incomparables. El Corán dice: 'Di, Él es Allah, el Uno. Allah, el Refugio Eterno. No engendra ni es engendrado. Y no hay nadie comparable a Él' (Sura Al-Ijlas 112:1-4)."
     },
-    "funFact": "Did you know? The word 'Islam' comes from the root 'salaam' which means peace, and it means submission to Allah — the One God!",
+    "funFact": "¿Sabías? La palabra 'Islam' viene de la raíz 'salaam' que significa paz, y significa sumisión a Allah — ¡el Dios Único!",
     "quiz": [
       {
-        "q": "What does Tawheed mean?",
+        "q": "¿Qué significa Tawhid?",
         "options": [
-          "Many gods",
-          "Oneness of God",
-          "Prayer"
+          "Muchos dioses",
+          "Unicidad de Dios",
+          "Oración"
         ],
         "correct": 1,
-        "explanation": "Tawheed means the Oneness of God — believing there is only one God, Allah."
+        "explanation": "Tawhid significa la Unicidad de Dios — creer que hay un solo Dios, Allah."
       },
       {
-        "q": "How many gods does Islam teach us about?",
+        "q": "¿Cuántos dioses nos enseña el Islam?",
         "options": [
-          "Many gods",
-          "Only one God",
-          "Two gods"
+          "Muchos dioses",
+          "Solo un Dios",
+          "Dos dioses"
         ],
         "correct": 1,
-        "explanation": "Islam teaches us that there is only one God — Allah."
+        "explanation": "El Islam nos enseña que hay un solo Dios — Allah."
       },
       {
-        "q": "Which surah of the Quran talks about Tawheed?",
+        "q": "¿Qué sura del Corán habla sobre el Tawhid?",
         "options": [
           "Al-Fatiha",
-          "Al-Ikhlas",
+          "Al-Ijlas",
           "Al-Baqarah"
         ],
         "correct": 1,
-        "explanation": "Surah Al-Ikhlas (112) talks about the Oneness of God."
+        "explanation": "La Sura Al-Ijlas (112) habla sobre la Unicidad de Dios."
       }
     ]
   },
   {
     "id": "angels",
-    "title": "Angels",
+    "title": "Ángeles",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "👼",
     "category": "core_beliefs",
     "content": {
-      "starter": "Angels are special creatures made of light! Allah sends them to help us. Some angels write down our good and bad deeds. Some angels take our souls when it's time. Angels always obey Allah and never make mistakes!",
-      "explorer": "Angels are one of the six articles of faith in Islam. They are created from light and always obey Allah. The most famous angel is Jibril (Gabriel), who brought Allah's messages to the prophets. Other important angels include Mikail (Michael), Israfil (who will blow the trumpet on Judgment Day), and Azra'il (the angel of death). Angels record our deeds and protect us.",
-      "thinker": "Angels (Mala'ika) are a fundamental article of Islamic belief. Created from light, they exist in a different dimension and serve Allah in various capacities. Jibril (Gabriel) delivered the Quran to Prophet Muhammad ﷺ. The Kiraman Katibin are recording angels who document every deed. The angel Munkar and Nakir question the dead in their graves. Unlike humans, angels have no free will — they always obey Allah. Their existence reminds us that we are never truly alone and that our actions are always being witnessed."
+      "starter": "¡Los ángeles son criaturas especiales hechas de luz! Allah los envía para ayudarnos. Algunos ángeles escriben nuestras buenas y malas acciones. Algunos ángeles toman nuestras almas cuando es el momento. ¡Los ángeles siempre obedecen a Allah y nunca cometen errores!",
+      "explorer": "Los ángeles son uno de los seis artículos de fe en el Islam. Son creados de luz y siempre obedecen a Allah. El ángel más famoso es Yibril (Gabriel), quien trajo los mensajes de Allah a los profetas. Otros ángeles importantes incluyen a Mika'il (Miguel), Israfil (quien soplará la trompeta el Día del Juicio) y Azra'il (el ángel de la muerte). Los ángeles registran nuestras acciones y nos protegen.",
+      "thinker": "Los ángeles (Mala'ika) son un artículo fundamental de la creencia islámica. Creados de luz, existen en una dimensión diferente y sirven a Allah de diversas maneras. Yibril (Gabriel) entregó el Corán al Profeta Muhammad ﷺ. Los Kiraman Katibin son ángeles que documentan cada acción. Los ángeles Munkar y Nakir interrogan a los muertos en sus tumbas. A diferencia de los humanos, los ángeles no tienen libre albedrío — siempre obedecen a Allah. Su existencia nos recuerda que nunca estamos verdaderamente solos y que nuestras acciones siempre están siendo testificadas."
     },
-    "funFact": "Did you know? Angels have wings! Some have two, some have three, some have four — and Prophet Muhammad ﷺ saw the angel Jibril with 600 wings!",
+    "funFact": "¿Sabías? ¡Los ángeles tienen alas! Algunos tienen dos, algunos tres, algunos cuatro — ¡y el Profeta Muhammad ﷺ vio al ángel Yibril con 600 alas!",
     "quiz": [
       {
-        "q": "What are angels made of?",
+        "q": "¿De qué están hechos los ángeles?",
         "options": [
-          "Fire",
-          "Light",
-          "Water"
+          "Fuego",
+          "Luz",
+          "Agua"
         ],
         "correct": 1,
-        "explanation": "Angels are created from light."
+        "explanation": "Los ángeles son creados de luz."
       },
       {
-        "q": "Which angel brought messages to the prophets?",
+        "q": "¿Qué ángel trajo los mensajes a los profetas?",
         "options": [
-          "Mikail",
-          "Jibril",
+          "Mika'il",
+          "Yibril",
           "Israfil"
         ],
         "correct": 1,
-        "explanation": "Jibril (Gabriel) brought Allah's messages to the prophets."
+        "explanation": "Yibril (Gabriel) trajo los mensajes de Allah a los profetas."
       },
       {
-        "q": "Do angels have free will?",
+        "q": "¿Tienen libre albedrío los ángeles?",
         "options": [
-          "Yes, they can choose",
-          "No, they always obey Allah",
-          "Sometimes"
+          "Sí, pueden elegir",
+          "No, siempre obedecen a Allah",
+          "A veces"
         ],
         "correct": 1,
-        "explanation": "Angels always obey Allah — they don't have free will like humans."
+        "explanation": "Los ángeles siempre obedecen a Allah — no tienen libre albedrío como los humanos."
       }
     ]
   },
   {
     "id": "holy_books",
-    "title": "Holy Books",
+    "title": "Libros Sagrados",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📕",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent holy books to guide people! The most important one for us is the Quran — Allah's final book, sent to Prophet Muhammad ﷺ. Before that, Allah sent the Torah to Musa, the Zabur to Dawud, and the Injil to Isa. The Quran is special because Allah promised to protect it!",
-      "explorer": "Muslims believe that Allah revealed several holy books to guide humanity. The Tawrat (Torah) was given to Prophet Musa, the Zabur (Psalms) to Prophet Dawud, and the Injil (Gospel) to Prophet Isa. The Quran is the final and most complete revelation, sent to Prophet Muhammad ﷺ. We believe the earlier books were changed over time, but the Quran has been preserved exactly as Allah revealed it.",
-      "thinker": "The belief in holy books (Kutub) is the third article of Islamic faith. Allah revealed guidance through various scriptures: the Sahifat to Ibrahim, the Tawrat to Musa, the Zabur to Dawud, the Injil to Isa, and the Quran to Muhammad ﷺ. While Muslims respect all these revelations, we believe the Quran is the final and preserved word of Allah. It was revealed over 23 years and has been memorized by millions of huffaz (memorizers) throughout history. The Quran is unique in that Allah Himself guaranteed its preservation: 'Indeed, it is We who sent down the Quran and indeed, We will be its guardian' (Surah Al-Hijr 15:9)."
+      "starter": "¡Allah envió libros sagrados para guiar a las personas! El más importante para nosotros es el Corán — el libro final de Allah, enviado al Profeta Muhammad ﷺ. Antes de eso, Allah envió la Tora a Musa, los Salmos a Dawud y el Inyil a Isa. ¡El Corán es especial porque Allah prometió protegerlo!",
+      "explorer": "Los musulmanes creen que Allah reveló varios libros sagrados para guiar a la humanidad. La Tawrat (Tora) fue dada al Profeta Musa, el Zabur (Salmos) al Profeta Dawud, y el Inyil (Evangelio) al Profeta Isa. El Corán es la revelación final y más completa, enviada al Profeta Muhammad ﷺ. Creemos que los libros anteriores fueron cambiados con el tiempo, pero el Corán ha sido preservado exactamente como Allah lo reveló.",
+      "thinker": "La creencia en los libros sagrados (Kutub) es el tercer artículo de la fe islámica. Allah reveló guía a través de varias escrituras: las Suhuf a Ibrahim, la Tawrat a Musa, el Zabur a Dawud, el Inyil a Isa, y el Corán a Muhammad ﷺ. Si bien los musulmanes respetan todas estas revelaciones, creemos que el Corán es la palabra final y preservada de Allah. Fue revelado durante 23 años y ha sido memorizado por millones de huffaz (memorizadores) a lo largo de la historia. El Corán es único en que Allah mismo garantizó su preservación: 'Ciertamente, Nosotros hemos revelado el Corán y ciertamente Nosotros seremos sus guardianes' (Sura Al-Hiyr 15:9)."
     },
-    "funFact": "Did you know? The Quran has been completely memorized by millions of people around the world — and some children as young as 7 years old!",
+    "funFact": "¿Sabías? ¡El Corán ha sido completamente memorizado por millones de personas en todo el mundo — y algunos niños de tan solo 7 años!",
     "quiz": [
       {
-        "q": "Which is the final holy book in Islam?",
+        "q": "¿Cuál es el libro sagrado final en el Islam?",
         "options": [
-          "Torah",
-          "Bible",
-          "Quran"
+          "La Tora",
+          "La Biblia",
+          "El Corán"
         ],
         "correct": 2,
-        "explanation": "The Quran is the final and most complete holy book sent by Allah."
+        "explanation": "El Corán es el libro sagrado final y más completo enviado por Allah."
       },
       {
-        "q": "Which prophet received the Torah?",
+        "q": "¿Qué profeta recibió la Tora?",
         "options": [
-          "Prophet Ibrahim",
-          "Prophet Musa",
-          "Prophet Isa"
+          "El Profeta Ibrahim",
+          "El Profeta Musa",
+          "El Profeta Isa"
         ],
         "correct": 1,
-        "explanation": "The Torah (Tawrat) was given to Prophet Musa (Moses)."
+        "explanation": "La Tora (Tawrat) fue dada al Profeta Musa (Moisés)."
       },
       {
-        "q": "What makes the Quran special?",
+        "q": "¿Qué hace especial al Corán?",
         "options": [
-          "It's the oldest book",
-          "Allah promised to protect it",
-          "It has many pages"
+          "Es el libro más antiguo",
+          "Allah prometió protegerlo",
+          "Tiene muchas páginas"
         ],
         "correct": 1,
-        "explanation": "Allah promised to protect the Quran from being changed — it's preserved exactly as revealed."
+        "explanation": "Allah prometió proteger el Corán de ser cambiado — está preservado exactamente como fue revelado."
       }
     ]
   },
   {
     "id": "prophets",
-    "title": "Prophets of Allah",
+    "title": "Profetas de Allah",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_3_prophet_stories_feature-FtRej2zvGTyPa9u6r2MF85.webp?updatedAt=1781117901347",
     "emoji": "🧑‍🏫",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent many prophets to guide people! We believe in 25 prophets, like Adam, Ibrahim, Musa, Isa, and the last one, Muhammad ﷺ. They were all good people who taught us to worship Allah and be kind to others!",
-      "explorer": "Allah sent prophets to every nation throughout history to guide people to the right path. We know of 25 prophets mentioned in the Quran, including Adam, Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. All prophets taught the same message: worship Allah alone and be good to others. Prophet Muhammad ﷺ is the last and final prophet.",
-      "thinker": "The belief in prophets (Anbiya) is the fourth article of Islamic faith. Allah sent 124,000 prophets to guide humanity, with 25 specifically mentioned in the Quran. They include the five greatest prophets (Ulul-Azm): Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. Each prophet was sent to a specific nation but carried the same universal message of Tawheed and moral conduct. Prophet Muhammad ﷺ is the Seal of the Prophets (Khatam an-Nabiyyin), meaning no new prophet will come after him. His message is for all of humanity until the Day of Judgment."
+      "starter": "¡Allah envió muchos profetas para guiar a las personas! Creemos en 25 profetas, como Adam, Ibrahim, Musa, Isa, y el último, Muhammad ﷺ. ¡Todos eran personas buenas que nos enseñaron a adorar a Allah y ser amables con los demás!",
+      "explorer": "Allah envió profetas a cada nación a lo largo de la historia para guiar a las personas por el camino correcto. Conocemos 25 profetas mencionados en el Corán, incluyendo a Adam, Nuh, Ibrahim, Musa, Isa y Muhammad ﷺ. Todos los profetas enseñaron el mismo mensaje: adorar solo a Allah y ser buenos con los demás. El Profeta Muhammad ﷺ es el último y definitivo profeta.",
+      "thinker": "La creencia en los profetas (Anbiya) es el cuarto artículo de la fe islámica. Allah envió 124.000 profetas para guiar a la humanidad, con 25 mencionados específicamente en el Corán. Incluyen a los cinco profetas más grandes (Ulul-Azm): Nuh, Ibrahim, Musa, Isa y Muhammad ﷺ. Cada profeta fue enviado a una nación específica pero llevó el mismo mensaje universal de Tawhid y conducta moral. El Profeta Muhammad ﷺ es el Sello de los Profetas (Jatam an-Nabiyyin), lo que significa que ningún nuevo profeta vendrá después de él. Su mensaje es para toda la humanidad hasta el Día del Juicio."
     },
-    "funFact": "Did you know? Muslims believe in 25 prophets mentioned in the Quran! Prophet Nuh (Noah) lived for 950 years and built the big ship!",
+    "funFact": "¿Sabías? ¡Los musulmanes creen en 25 profetas mencionados en el Corán! ¡El Profeta Nuh (Noé) vivió 950 años y construyó el gran barco!",
     "quiz": [
       {
-        "q": "How many prophets are mentioned in the Quran?",
+        "q": "¿Cuántos profetas se mencionan en el Corán?",
         "options": [
           "10",
           "25",
           "100"
         ],
         "correct": 1,
-        "explanation": "25 prophets are specifically mentioned in the Quran."
+        "explanation": "25 profetas se mencionan específicamente en el Corán."
       },
       {
-        "q": "Who is the last prophet in Islam?",
+        "q": "¿Quién es el último profeta en el Islam?",
         "options": [
-          "Prophet Isa",
-          "Prophet Musa",
-          "Prophet Muhammad"
+          "El Profeta Isa",
+          "El Profeta Musa",
+          "El Profeta Muhammad"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ is the last and final prophet sent by Allah."
+        "explanation": "El Profeta Muhammad ﷺ es el último y definitivo profeta enviado por Allah."
       },
       {
-        "q": "What did all prophets teach?",
+        "q": "¿Qué enseñaron todos los profetas?",
         "options": [
-          "Different messages",
-          "Worship Allah alone and be kind",
-          "Only pray"
+          "Mensajes diferentes",
+          "Adorar solo a Allah y ser amables",
+          "Solo orar"
         ],
         "correct": 1,
-        "explanation": "All prophets taught the same message: worship Allah alone and be good to others."
+        "explanation": "Todos los profetas enseñaron el mismo mensaje: adorar solo a Allah y ser buenos con los demás."
       }
     ]
   },
   {
     "id": "day_of_judgment",
-    "title": "Day of Judgment",
+    "title": "Día del Juicio",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326",
     "emoji": "⚖️",
     "category": "core_beliefs",
     "content": {
-      "starter": "One day, everyone will come back to life and stand in front of Allah! He will check all our good and bad deeds. People who did good will go to Paradise — a beautiful place with everything nice. People who were bad and didn't sorry will go to Hell. That's why we should always try to do good!",
-      "explorer": "The Day of Judgment (Yawm al-Qiyamah) is when all people will be resurrected and brought before Allah to be judged for their deeds. Every action — even the smallest kindness — will be weighed on a scale. Those whose good deeds outweigh their bad will enter Paradise (Jannah), a place of eternal happiness. Those whose bad deeds are heavier will face punishment. This belief motivates Muslims to always do their best.",
-      "thinker": "The Day of Judgment (Qiyamah) is the fifth article of Islamic faith. It is the day when all of creation will be resurrected and judged by Allah with perfect justice. The Prophet ﷺ described signs that will precede it, including major earthquakes, the sun rising from the west, and the emergence of the Dajjal. On that day, every person will receive their book of deeds — in the right hand for the righteous, in the left for the wrongdoers. The scale (Mizan) will weigh every deed, no matter how small. This belief provides moral accountability and motivates Muslims to live righteously."
+      "starter": "Un día, todos volverán a la vida y estarán frente a Allah. Él revisará todas nuestras buenas y malas acciones. Las personas que hicieron el bien irán al Paraíso — un lugar hermoso con todo lo bueno. Las personas que fueron malas y no se arrepintieron irán al Infierno. ¡Por eso siempre debemos tratar de hacer el bien!",
+      "explorer": "El Día del Juicio (Yawm al-Qiyamah) es cuando todas las personas serán resucitadas y llevadas ante Allah para ser juzgadas por sus acciones. Cada acción — incluso la más pequeña bondad — será pesada en una balanza. Aquellos cuyas buenas acciones superen las malas entrarán al Paraíso (Yannah), un lugar de felicidad eterna. Aquellos cuyas malas acciones sean más pesadas enfrentarán el castigo. Esta creencia motiva a los musulmanes a siempre dar lo mejor de sí.",
+      "thinker": "El Día del Juicio (Qiyamah) es el quinto artículo de la fe islámica. Es el día en que toda la creación será resucitada y juzgada por Allah con perfecta justicia. El Profeta ﷺ describió señales que lo precederán, incluyendo grandes terremotos, el sol saliendo por el oeste, y la aparición del Dayyal. Ese día, cada persona recibirá su libro de acciones — en la mano derecha para los justos, en la izquierda para los malhechores. La balanza (Mizan) pesará cada acción, por pequeña que sea. Esta creencia proporciona responsabilidad moral y motiva a los musulmanes a vivir rectamente."
     },
-    "funFact": "Did you know? On the Day of Judgment, even a small good deed — like removing a thorn from the road — will be rewarded!",
+    "funFact": "¿Sabías? En el Día del Juicio, ¡incluso una pequeña buena acción — como quitar una espina del camino — será recompensada!",
     "quiz": [
       {
-        "q": "What happens on the Day of Judgment?",
+        "q": "¿Qué sucede en el Día del Juicio?",
         "options": [
-          "Everyone goes to Paradise",
-          "Everyone is judged for their deeds",
-          "Nothing happens"
+          "Todos van al Paraíso",
+          "Todos son juzgados por sus acciones",
+          "Nada sucede"
         ],
         "correct": 1,
-        "explanation": "On the Day of Judgment, everyone will be judged for their good and bad deeds."
+        "explanation": "En el Día del Juicio, todos serán juzgados por sus buenas y malas acciones."
       },
       {
-        "q": "What is the name of Paradise in Arabic?",
+        "q": "¿Cuál es el nombre del Paraíso en árabe?",
         "options": [
-          "Jannah",
-          "Jahannam",
+          "Yannah",
+          "Yahannam",
           "Dunya"
         ],
         "correct": 0,
-        "explanation": "Paradise is called Jannah in Arabic — it means 'garden'."
+        "explanation": "El Paraíso se llama Yannah en árabe — significa 'jardín'."
       },
       {
-        "q": "Will even small deeds be judged?",
+        "q": "¿Se juzgarán incluso las acciones pequeñas?",
         "options": [
-          "No, only big deeds",
-          "Yes, every single deed",
-          "Only bad deeds"
+          "No, solo las grandes",
+          "Sí, cada sola acción",
+          "Solo las malas acciones"
         ],
         "correct": 1,
-        "explanation": "Every deed, no matter how small, will be weighed on the Day of Judgment."
+        "explanation": "Cada acción, por pequeña que sea, será pesada en el Día del Juicio."
       }
     ]
   },
   {
     "id": "wudu",
-    "title": "Wudu - Ablution",
+    "title": "Wudu - Ablución",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🚿",
     "category": "daily_practices",
     "content": {
-      "starter": "Wudu is washing before prayer! We wash our hands, mouth, nose, face, arms, head, and feet with clean water. It makes us clean and ready to talk to Allah. Wudu also washes away our small sins — how cool is that!",
-      "explorer": "Wudu is the ritual ablution Muslims perform before praying. It involves washing specific body parts in order: hands, mouth, nose, face, arms to elbows, wiping the head, and washing feet to ankles. Wudu is not just about physical cleanliness — it's also spiritual purification. Each step has benefits: washing the hands removes germs, rinsing the mouth keeps it clean, and washing the feet removes dirt from the road.",
-      "thinker": "Wudu is a beautiful act that combines physical hygiene with spiritual purification. The Quran states: 'Indeed, Allah loves those who are constantly repenting and loves those who purify themselves' (Surah Al-Baqarah 2:222). The Prophet ﷺ said that when a Muslim performs wudu and washes their face, sins fall away with the water. When they wash their hands, sins fall from their hands. When they wash their feet, sins fall from their feet. Wudu is thus both a practical act of cleanliness and a spiritual ritual of renewal."
+      "starter": "¡Wudu es lavarse antes de la oración! Nos lavamos las manos, la boca, la nariz, la cara, los brazos, la cabeza y los pies con agua limpia. Nos deja limpios y listos para hablar con Allah. ¡Wudu también limpia nuestros pequeños pecados — qué increíble!",
+      "explorer": "Wudu es la ablución ritual que los musulmanes realizan antes de orar. Implica lavar partes específicas del cuerpo en orden: manos, boca, nariz, cara, brazos hasta los codos, pasar las manos por la cabeza y lavar los pies hasta los tobillos. Wudu no es solo sobre limpieza física — también es purificación espiritual. Cada paso tiene beneficios: lavarse las manos elimina gérmenes, enjuagarse la boca la mantiene limpia, y lavarse los pies elimina la suciedad del camino.",
+      "thinker": "Wudu es un hermoso acto que combina higiene física con purificación espiritual. El Corán dice: 'Ciertamente, Allah ama a quienes se arrepienten constantemente y ama a quienes se purifican' (Sura Al-Baqarah 2:222). El Profeta ﷺ dijo que cuando un musulmán realiza wudu y se lava la cara, los pecados caen con el agua. Cuando se lava las manos, los pecados caen de sus manos. Cuando se lava los pies, los pecados caen de sus pies. Wudu es así tanto un acto práctico de limpieza como un ritual espiritual de renovación."
     },
-    "funFact": "Did you know? When you perform wudu and wash each body part, your sins fall away with the water — it's like getting a fresh start!",
+    "funFact": "¿Sabías? Cuando realizas wudu y lavas cada parte del cuerpo, tus pecados caen con el agua — ¡es como tener un nuevo comienzo!",
     "quiz": [
       {
-        "q": "What do we perform before praying?",
+        "q": "¿Qué realizamos antes de orar?",
         "options": [
           "Ghusl",
           "Wudu",
           "Tayammum"
         ],
         "correct": 1,
-        "explanation": "We perform wudu (ablution) before praying to clean ourselves."
+        "explanation": "Realizamos wudu (ablución) antes de orar para limpiarnos."
       },
       {
-        "q": "How many steps are in wudu?",
+        "q": "¿Cuántos pasos tiene el wudu?",
         "options": [
-          "3 steps",
-          "7 steps",
-          "10 steps"
+          "3 pasos",
+          "7 pasos",
+          "10 pasos"
         ],
         "correct": 1,
-        "explanation": "There are 7 main steps in wudu: hands, mouth, nose, face, arms, head, and feet."
+        "explanation": "Hay 7 pasos principales en el wudu: manos, boca, nariz, cara, brazos, cabeza y pies."
       },
       {
-        "q": "What does wudu clean besides the body?",
+        "q": "¿Qué limpia el wudu además del cuerpo?",
         "options": [
-          "Our clothes",
-          "Our sins",
-          "Our room"
+          "Nuestra ropa",
+          "Nuestros pecados",
+          "Nuestra habitación"
         ],
         "correct": 1,
-        "explanation": "Wudu washes away our small sins — it's spiritual purification too!"
+        "explanation": "¡El wudu limpia nuestros pequeños pecados — también es purificación espiritual!"
       }
     ]
   },
   {
     "id": "islamic_dress",
-    "title": "Islamic Dress",
+    "title": "Vestimenta Islámica",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_13_topic_islamic_dress-7whwzZgTnmsVkCdmrsGaFv.webp?updatedAt=1781117899286",
     "emoji": "👗",
     "category": "daily_practices",
     "content": {
-      "starter": "Allah asks us to dress nicely and modestly! Boys and girls should cover their bodies properly. It's about being respectful and showing that we love Allah. Modest dressing makes us feel confident and proud of being Muslim!",
-      "explorer": "Islamic dress is about modesty and respecting Allah's guidelines. For women, this generally means covering everything except the face, hands, and feet — many choose to wear hijab (headscarf). For men, clothing should cover from the navel to the knees. The key is modesty — not showing off or wearing inappropriate clothes. Islamic dress is an act of worship and identity.",
-      "thinker": "Islamic dress codes are rooted in the Quran and Sunnah. Allah says: 'O Children of Adam, take your adornment at every masjid' (Surah Al-A'raf 7:31). The hijab is more than a piece of cloth — it's a statement of identity, dignity, and devotion to Allah. For both men and women, modest dress is about self-respect and not reducing oneself to physical appearance. It's important to understand that modesty is a comprehensive concept that includes behavior, speech, and dress. The goal is to be recognized for one's character and intellect, not merely for appearance."
+      "starter": "¡Allah nos pide vestirnos de forma bonita y modesta! Los niños y niñas deben cubrir sus cuerpos apropiadamente. Se trata de ser respetuosos y mostrar que amamos a Allah. ¡Vestir con modestia nos hace sentir seguros y orgullosos de ser musulmanes!",
+      "explorer": "La vestimenta islámica se trata de modestia y respeto por las directrices de Allah. Para las mujeres, esto generalmente significa cubrir todo excepto la cara, las manos y los pies — muchas eligen usar hiyab (pañuelo). Para los hombres, la ropa debe cubrir desde el ombligo hasta las rodillas. La clave es la modestia — no presumir ni usar ropa inapropiada. La vestimenta islámica es un acto de adoración e identidad.",
+      "thinker": "Los códigos de vestimenta islámicos están arraigados en el Corán y la Sunnah. Allah dice: '¡Oh, hijos de Adán, tomen su adorno en cada mezquita' (Sura Al-A'raf 7:31). El hiyab es más que un trozo de tela — es una declaración de identidad, dignidad y devoción a Allah. Para hombres y mujeres, la vestimenta modesta se trata de autorrespeto y no reducirse a la apariencia física. Es importante entender que la modestia es un concepto integral que incluye comportamiento, habla y vestimenta. El objetivo es ser reconocido por el carácter y el intelecto, no meramente por la apariencia."
     },
-    "funFact": "Did you know? The word 'hijab' comes from Arabic and means 'curtain' or 'screen' — it's about creating a space of dignity and privacy!",
+    "funFact": "¿Sabías? La palabra 'hiyab' viene del árabe y significa 'cortina' o 'pantalla' — ¡se trata de crear un espacio de dignidad y privacidad!",
     "quiz": [
       {
-        "q": "What is the main purpose of Islamic dress?",
+        "q": "¿Cuál es el propósito principal de la vestimenta islámica?",
         "options": [
-          "Fashion",
-          "Modesty",
-          "Uniform"
+          "Moda",
+          "Modestia",
+          "Uniforme"
         ],
         "correct": 1,
-        "explanation": "Islamic dress is about modesty and respecting Allah's guidelines."
+        "explanation": "La vestimenta islámica se trata de modestia y respeto por las directrices de Allah."
       },
       {
-        "q": "What does 'hijab' mean?",
+        "q": "¿Qué significa 'hiyab'?",
         "options": [
-          "Prayer",
-          "Curtain or screen",
-          "Charity"
+          "Oración",
+          "Cortina o pantalla",
+          "Caridad"
         ],
         "correct": 1,
-        "explanation": "The word 'hijab' means 'curtain' or 'screen' in Arabic."
+        "explanation": "La palabra 'hiyab' significa 'cortina' o 'pantalla' en árabe."
       },
       {
-        "q": "For men, what part of the body must be covered?",
+        "q": "Para los hombres, ¿qué parte del cuerpo debe estar cubierta?",
         "options": [
-          "Only the head",
-          "From navel to knees",
-          "Entire body"
+          "Solo la cabeza",
+          "Del ombligo a las rodillas",
+          "Todo el cuerpo"
         ],
         "correct": 1,
-        "explanation": "Men must cover from the navel to the knees as a minimum."
+        "explanation": "Los hombres deben cubrir desde el ombligo hasta las rodillas como mínimo."
       }
     ]
   },
   {
     "id": "halal_food",
-    "title": "Halal Food",
+    "title": "Comida Halal",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194",
     "emoji": "🍽️",
     "category": "daily_practices",
     "content": {
-      "starter": "Halal means 'okay to eat' in Arabic! Allah tells us what food is good for us. We can eat fruits, vegetables, chicken, and fish. We can't eat pork or drink alcohol. We always say 'Bismillah' before eating to thank Allah!",
-      "explorer": "Halal means permissible in Islam. Allah has told us which foods are halal (allowed) and haram (forbidden). Halal foods include fruits, vegetables, grains, and properly slaughtered meat. Haram foods include pork, blood, alcohol, and meat not slaughtered in Allah's name. Saying 'Bismillah' before eating is a Sunnah and reminds us that food is a blessing from Allah.",
-      "thinker": "The concept of halal and haram in food is rooted in the Quran and Sunnah. Allah says: 'Eat of what is lawful and good on the earth' (Surah Al-Baqarah 2:168). Halal is not just about what we eat but how food is obtained — it must be through ethical, humane, and clean methods. Pork is prohibited (haram) as stated in multiple Quranic verses. Alcohol is forbidden because it clouds the mind and leads to sin. Even when eating halal food, Islam teaches moderation: 'Eat and drink, but do not be excessive' (Surah Al-A'raf 31). The act of saying 'Bismillah' before eating transforms a routine meal into an act of worship."
+      "starter": "¡Halal significa 'permitido para comer' en árabe! Allah nos dice qué comida es buena para nosotros. Podemos comer frutas, verduras, pollo y pescado. No podemos comer cerdo ni beber alcohol. ¡Siempre decimos 'Bismillah' antes de comer para agradecer a Allah!",
+      "explorer": "Halal significa permisible en el Islam. Allah nos ha dicho qué alimentos son halal (permitidos) y haram (prohibidos). Los alimentos halal incluyen frutas, verduras, granos y carne sacrificada apropiadamente. Los alimentos haram incluyen cerdo, sangre, alcohol y carne no sacrificada en el nombre de Allah. Decir 'Bismillah' antes de comer es una Sunnah y nos recuerda que la comida es una bendición de Allah.",
+      "thinker": "El concepto de halal y haram en la alimentación está arraigado en el Corán y la Sunnah. Allah dice: 'Coman de lo lícito y bueno que hay en la tierra' (Sura Al-Baqarah 2:168). Halal no es solo sobre qué comemos sino cómo se obtiene la comida — debe ser a través de métodos éticos, humanitarios y limpios. El cerdo está prohibido (haram) como se establece en múltiples versículos coránicos. El alcohol está prohibido porque nubla la mente y lleva al pecado. Incluso al comer comida halal, el Islam enseña moderación: 'Coman y beban, pero no se excedan' (Sura Al-A'raf 31). El acto de decir 'Bismillah' antes de comer transforma una comida rutinaria en un acto de adoración."
     },
-    "funFact": "Did you know? Muslims say 'Bismillah' (In the name of Allah) before eating — it's like saying grace and thanking Allah for the food!",
+    "funFact": "¿Sabías? Los musulmanes dicen 'Bismillah' (En el nombre de Allah) antes de comer — ¡es como dar gracias y agradecer a Allah por la comida!",
     "quiz": [
       {
-        "q": "What does 'halal' mean?",
+        "q": "¿Qué significa 'halal'?",
         "options": [
-          "Forbidden",
-          "Permissible",
-          "Delicious"
+          "Prohibido",
+          "Permisible",
+          "Delicioso"
         ],
         "correct": 1,
-        "explanation": "Halal means 'permissible' — food that Allah allows us to eat."
+        "explanation": "Halal significa 'permisible' — comida que Allah nos permite comer."
       },
       {
-        "q": "Which of these is haram (forbidden) in Islam?",
+        "q": "¿Cuál de estos es haram (prohibido) en el Islam?",
         "options": [
-          "Chicken",
-          "Fruits",
-          "Pork"
+          "Pollo",
+          "Frutas",
+          "Cerdo"
         ],
         "correct": 2,
-        "explanation": "Pork is haram (forbidden) in Islam."
+        "explanation": "El cerdo es haram (prohibido) en el Islam."
       },
       {
-        "q": "What do Muslims say before eating?",
+        "q": "¿Qué dicen los musulmanes antes de comer?",
         "options": [
           "Alhamdulillah",
           "Bismillah",
           "Subhanallah"
         ],
         "correct": 1,
-        "explanation": "Muslims say 'Bismillah' (In the name of Allah) before eating."
+        "explanation": "Los musulmanes dicen 'Bismillah' (En el nombre de Allah) antes de comer."
       }
     ]
   },
   {
     "id": "duas",
-    "title": "Duas - Supplications",
+    "title": "Duas - Súplicas",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_10_pillar_duas-EqyXdQq6eb7Aov9Lmrvy3T.webp?updatedAt=1781117901995",
     "emoji": "🤲",
     "category": "daily_practices",
     "content": {
-      "starter": "Duas are prayers we say to Allah anytime! When we wake up, eat, go outside, or feel scared — we can talk to Allah. He always listens! There's a special dua for everything. It's like having a direct line to Allah!",
-      "explorer": "Duas are personal prayers to Allah — conversations where we ask for help, guidance, forgiveness, or express gratitude. Unlike formal salah, duas can be made anytime in any language. The Prophet ﷺ taught us specific duas for waking up, eating, traveling, and more. Making dua shows our dependence on Allah and our trust in His help.",
-      "thinker": "Duas (supplications) represent the direct relationship between a servant and Allah. The Prophet ﷺ said: 'Dua is the essence of worship.' Islam teaches duas for every occasion — from waking up ('Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin-nushur') to entering the mosque, before sleeping, and during times of distress. Allah says: 'Call upon Me; I will respond to you' (Surah Ghafir 40:60). This is a profound promise — the Creator of the universe invites us to speak with Him directly, without any intermediary."
+      "starter": "¡Las duas son oraciones que decimos a Allah en cualquier momento! Cuando nos despertamos, comemos, salimos o nos sentimos asustados — podemos hablar con Allah. ¡Él siempre escucha! Hay una dua especial para todo. ¡Es como tener una línea directa con Allah!",
+      "explorer": "Las duas son oraciones personales a Allah — conversaciones donde pedimos ayuda, guía, perdón o expresamos gratitud. A diferencia de la salah formal, las duas se pueden hacer en cualquier momento y en cualquier idioma. El Profeta ﷺ nos enseñó duas específicas para despertarnos, comer, viajar y más. Hacer dua muestra nuestra dependencia de Allah y nuestra confianza en Su ayuda.",
+      "thinker": "Las duas (súplicas) representan la relación directa entre un siervo y Allah. El Profeta ﷺ dijo: 'La dua es la esencia de la adoración.' El Islam enseña duas para cada ocasión — desde despertarse ('Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin-nushur') hasta entrar a la mezquita, antes de dormir y durante momentos de angustia. Allah dice: 'Invóquenme; les responderé' (Sura Ghafir 40:60). Esta es una promesa profunda — el Creador del universo nos invita a hablar con Él directamente, sin intermediario."
     },
-    "funFact": "Did you know? There's a dua for almost everything — even for when you enter your bathroom! Allah wants us to remember Him in every moment!",
+    "funFact": "¿Sabías? ¡Hay una dua para casi todo — incluso para cuando entras al baño! ¡Allah quiere que lo recordemos en cada momento!",
     "quiz": [
       {
-        "q": "What is a dua?",
+        "q": "¿Qué es una dua?",
         "options": [
-          "A type of food",
-          "A personal prayer to Allah",
-          "A holy book"
+          "Un tipo de comida",
+          "Una oración personal a Allah",
+          "Un libro sagrado"
         ],
         "correct": 1,
-        "explanation": "A dua is a personal prayer — talking to Allah anytime, anywhere."
+        "explanation": "Una dua es una oración personal — hablar con Allah en cualquier momento y lugar."
       },
       {
-        "q": "Can duas be made in any language?",
+        "q": "¿Se pueden hacer duas en cualquier idioma?",
         "options": [
-          "Only in Arabic",
-          "Only in English",
-          "Yes, in any language"
+          "Solo en árabe",
+          "Solo en inglés",
+          "Sí, en cualquier idioma"
         ],
         "correct": 2,
-        "explanation": "Duas can be made in any language — Allah understands all languages!"
+        "explanation": "¡Las duas se pueden hacer en cualquier idioma — Allah entiende todos los idiomas!"
       },
       {
-        "q": "What did the Prophet ﷺ say about dua?",
+        "q": "¿Qué dijo el Profeta ﷺ sobre la dua?",
         "options": [
-          "Dua is useless",
-          "Dua is the essence of worship",
-          "Only pray at night"
+          "La dua es inútil",
+          "La dua es la esencia de la adoración",
+          "Solo ora de noche"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said: 'Dua is the essence of worship.'"
+        "explanation": "El Profeta ﷺ dijo: 'La dua es la esencia de la adoración.'"
       }
     ]
   },
   {
     "id": "reading_quran",
-    "title": "Reading Quran",
+    "title": "Lectura del Corán",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📖",
     "category": "daily_practices",
     "content": {
-      "starter": "The Quran is Allah's special book! When we read it, Allah rewards us. Even reading one letter gives us 10 rewards! The Quran teaches us how to be good Muslims and how to live happily. Let's try to read a little bit every day!",
-      "explorer": "The Quran is the holy book of Islam, revealed to Prophet Muhammad ﷺ through the angel Jibril. Reading the Quran is one of the most rewarding acts a Muslim can do — each letter earns 10 rewards. Muslims try to read the Quran daily, especially during Ramadan. The Quran is in Arabic, but translations help us understand its meanings. Reading with understanding and reflection is the goal.",
-      "thinker": "The Quran is the literal word of Allah, revealed over 23 years through the angel Jibril to Prophet Muhammad ﷺ. It consists of 114 surahs (chapters) and over 6,000 ayahs (verses). The Prophet ﷺ said: 'Whoever reads a letter from the Book of Allah will have a reward, and the reward of each letter is multiplied by ten.' Beyond reading, the Quran invites contemplation (tadabbur) — understanding its messages and applying them to life. The Quran is unique in that it has been perfectly preserved in its original Arabic since its revelation, making it the only religious text with an unbroken chain of transmission."
+      "starter": "¡El Corán es el libro especial de Allah! Cuando lo leemos, Allah nos recompensa. ¡Incluso leer una sola letra nos da 10 recompensas! El Corán nos enseña cómo ser buenos musulmanes y cómo vivir felices. ¡Intentemos leer un poquito cada día!",
+      "explorer": "El Corán es el libro sagrado del Islam, revelado al Profeta Muhammad ﷺ a través del ángel Yibril. Leer el Corán es uno de los actos más recompensados que puede hacer un musulmán — cada letra gana 10 recompensas. Los musulmanes intentan leer el Corán diariamente, especialmente durante el Ramadán. El Corán está en árabe, pero las traducciones nos ayudan a entender sus significados. Leer con comprensión y reflexión es el objetivo.",
+      "thinker": "El Corán es la palabra literal de Allah, revelada durante 23 años a través del ángel Yibril al Profeta Muhammad ﷺ. Consta de 114 suras (capítulos) y más de 6.000 ayats (versículos). El Profeta ﷺ dijo: 'Quien lea una letra del Libro de Allah tendrá una recompensa, y la recompensa de cada letra se multiplica por diez.' Más allá de la lectura, el Corán invita a la contemplación (tadabbur) — comprender sus mensajes y aplicarlos a la vida. El Corán es único en que ha sido perfectamente preservado en su árabe original desde su revelación, siendo el único texto religioso con una cadena ininterrumpida de transmisión."
     },
-    "funFact": "Did you know? Reading just ONE letter of the Quran earns you 10 rewards from Allah! So reading 'Al-Fatiha' gives you over 1,000 rewards!",
+    "funFact": "¿Sabías? ¡Leer solo UNA letra del Corán te da 10 recompensas de Allah! ¡Así que leer 'Al-Fatiha' te da más de 1.000 recompensas!",
     "quiz": [
       {
-        "q": "Who revealed the Quran to Prophet Muhammad ﷺ?",
+        "q": "¿Quién reveló el Corán al Profeta Muhammad ﷺ?",
         "options": [
-          "Allah directly",
-          "Angel Jibril",
-          "Angel Mikail"
+          "Allah directamente",
+          "El ángel Yibril",
+          "El ángel Mika'il"
         ],
         "correct": 1,
-        "explanation": "Angel Jibril (Gabriel) brought the Quran to Prophet Muhammad ﷺ."
+        "explanation": "El ángel Yibril (Gabriel) trajo el Corán al Profeta Muhammad ﷺ."
       },
       {
-        "q": "How many rewards do you get for reading one letter of the Quran?",
+        "q": "¿Cuántas recompensas obtienes por leer una letra del Corán?",
         "options": [
-          "1 reward",
-          "10 rewards",
-          "100 rewards"
+          "1 recompensa",
+          "10 recompensas",
+          "100 recompensas"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said each letter of the Quran earns 10 rewards."
+        "explanation": "El Profeta ﷺ dijo que cada letra del Corán gana 10 recompensas."
       },
       {
-        "q": "How many surahs (chapters) are in the Quran?",
+        "q": "¿Cuántas suras (capítulos) tiene el Corán?",
         "options": [
           "100",
           "114",
           "200"
         ],
         "correct": 1,
-        "explanation": "The Quran has 114 surahs (chapters)."
+        "explanation": "El Corán tiene 114 suras (capítulos)."
       }
     ]
   },
   {
     "id": "how_to_pray",
-    "title": "How to Pray: A Complete Guide",
+    "title": "Cómo Orar: Una Guía Completa",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🕌",
     "category": "daily_practices",
     "content": {
-      "starter": "How do Muslims pray? It starts with Wudu — washing your hands, face, arms, and feet to get clean for Allah. Then you face the Kaaba in Mecca and do special movements: standing, bowing, and putting your forehead on the ground. Each prayer has a name like Fajr (morning) and Maghrib (sunset). There are 5 prayers every day! It's like having 5 special meetings with Allah.\n\nWUDU — The 8 Steps:\n1) Niyyah — Make the intention in your heart to perform Wudu for the sake of Allah. 2) Wash Hands — Wash both hands up to the wrists three times, starting with the right hand. Make sure water reaches between your fingers! 3) Rinse Mouth — Take water into your mouth and rinse it thoroughly three times. 4) Rinse Nose — Breathe water in through your nose and blow it out three times. 5) Wash Face — Wash your entire face three times, from forehead to chin and ear to ear. 6) Wash Arms — Wash both arms up to the elbows three times, starting with the right arm. 7) Wipe Head — Wipe your entire head once with wet hands. 8) Wash Feet — Wash both feet up to the ankles three times, starting with the right foot. Make sure water reaches between your toes!\n\nRemember: Take your time with each step, use clean water, and avoid waste. Wudu brings purity to your body and light to your heart!\n\nSALAH — The 7 Main Positions:\n1) Niyyah — Intend in your heart to pray. 2) Takbir — Raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). 3) Qiyam — Stand upright with hands crossed at chest level, and recite Surah Al-Fatiha and another Surah. 4) Ruku — Bow forward with your hands on your knees, and say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah — Rise from bowing and say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud — Put your forehead, nose, hands, knees, and toes on the ground, and say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud — Sit and recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): 2 Fard + 2 Sunnah = 4 rak'ahs — strengthens your faith!\n- Dhuhr (Noon): 4 Fard + 6 Sunnah = 10 rak'ahs — find peace and clarity!\n- Asr (Afternoon): 4 Fard + 4 Sunnah = 8 rak'ahs — seek Allah's pleasure!\n- Maghrib (Sunset): 3 Fard + 2 Sunnah = 5 rak'ahs — build discipline and gratitude!\n- Isha (Night): 4 Fard + 2 Sunnah = 6 rak'ahs — connect with your Creator!\nTotal daily: 17 Fard + 12 Sunnah = 29 rak'ahs combined.",
-      "explorer": "How to Pray: A Complete Guide covers Wudu (ablution), Salah (prayer), the 5 daily prayers, and the rak'ah breakdown in full detail.\n\nWUDU — The 8 Steps of Ablution:\nWudu is the ritual purification performed before prayer. It is a physical and spiritual cleansing that prepares the body and mind for communication with Allah. Wudu is obligatory before performing Salah and is considered one of the most important prerequisites for prayer. The steps are: 1) Niyyah — make the intention in your heart to perform Wudu for prayer, 2) Wash both hands up to the wrists three times starting with the right hand, ensuring water reaches between fingers, 3) Rinse your mouth thoroughly three times — this cleanses the mouth for recitation, 4) Breathe water in through the nose and blow it out three times using your left hand to assist, 5) Wash your entire face three times from forehead to chin and ear to ear, including the beard if you have one, 6) Wash both arms up to and including the elbows three times starting with the right arm, 7) Wipe your head once with wet hands — you can wipe the entire head or just a portion, 8) Wash both feet up to and including the ankles three times starting with the right foot, ensuring water reaches between the toes.\n\nWhen is Wudu Required? Before every obligatory prayer (Fard), before voluntary prayers (Sunnah/Nafl), when touching the Quran, and after using the bathroom.\n\nSALAH — The 7 Main Positions of Prayer:\nSalah is the Islamic prayer performed five times daily at prescribed times. It is the second pillar of Islam and a direct connection between the believer and Allah. Each prayer consists of one or more rak'ahs (cycles). The seven positions are: 1) Niyyah (Intention) — intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha). The intention must be clear and sincere. 2) Takbir (Opening) — raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). This marks the beginning of your prayer. 3) Qiyam (Standing) — stand upright with your hands crossed at chest level. Recite Surah Al-Fatiha and another Surah from the Quran. 4) Ruku (Bowing) — bow forward with your hands on your knees, keeping your back parallel to the ground. Say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah (Rising) — rise from bowing to the standing position. Say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud (Prostration) — prostrate with your forehead, nose, hands, knees, and toes touching the ground. Say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud (Testimony) — sit between prostrations or at the end of prayer. Recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nImportant Notes About Salah: Always face the Qibla (direction of the Kaaba in Mecca), maintain proper body covering (Satr): men from navel to below knees, women entire body except hands and face, perform Wudu before every prayer, pray at the prescribed times, and concentrate and be present during prayer (Khushu) for spiritual benefit.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): Before sunrise. 2 Fard + 2 Sunnah = 4 total rak'ahs. The dawn prayer marks the beginning of the Islamic day and strengthens your faith.\n- Dhuhr (Noon): After the sun passes its zenith. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 10 total rak'ahs. The longest prayer of the day helps find peace and clarity.\n- Asr (Afternoon): Late afternoon before sunset. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Seek Allah's pleasure in the late afternoon.\n- Maghrib (Sunset): Just after the sun sets. 3 Fard + 2 Sunnah Ghair Muakkadah = 5 total rak'ahs. Unique among the five prayers with 3 Fard rak'ahs. Builds discipline and gratitude.\n- Isha (Night): After nightfall. 4 Fard + 2 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Connect with your Creator before sleep.\n\nTotal Daily: 17 Fard rak'ahs + 12 Sunnah Muakkadah = 29 combined total.",
-      "thinker": "How to Pray: A Complete Guide provides comprehensive instruction on Wudu (ablution), Salah (prayer), the five daily prayers, and the complete rak'ah breakdown.\n\nWUDU (Ablution):\nWudu is the ritual purification that serves as both a physical cleansing and spiritual preparation for Salah. It is obligatory before every Fard (obligatory) prayer, Sunnah/Nafl (voluntary) prayers, and before touching the Quran. The eight steps follow a specific sequence established by the Sunnah of Prophet Muhammad ﷺ: 1) Niyyah — the internal intention, 2) Washing hands up to the wrists three times, 3) Rinsing the mouth thoroughly three times, 4) Inhaling water through the nose and expelling it three times, 5) Washing the entire face three times (from hairline to chin and ear to ear, including the beard for men), 6) Washing both arms up to and including the elbows three times, 7) Wiping the head once with wet hands, 8) Washing both feet up to and including the ankles three times. Each step has precise requirements: water must reach between fingers and toes, and all parts must be washed in the correct order. Wudu is invalidated by natural discharges, deep sleep, loss of consciousness, and touching one's private parts.\n\nSALAH (Prayer) — The Seven Positions:\n1) Niyyah (النية): The internal intention specifying which prayer is being performed. It must be clear and sincere. 2) Takbir (التكبير): The opening 'Allahu Akbar' when raising hands to the ears, marking the sacred boundary of prayer. 3) Qiyam (القيام): Standing position with hands folded at chest level (right hand over left), reciting Al-Fatiha followed by a second Surah. 4) Ruku (الركوع): Bowing with hands on knees, back parallel to ground, reciting 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest) three times. 5) Qawmah (القومة): Rising from Ruku to standing with 'Sami'a Allahu liman hamidah, Rabbana lakal hamd' (Allah hears those who praise Him, our Lord, all praise is for You). 6) Sujud (السجود): Prostration with seven points of contact — forehead, nose, both hands, both knees, and toes — reciting 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High) three times. Performed twice in each rak'ah. 7) Tashahhud (التشهد): Sitting position for the testimony of faith (At-Tahiyyatu lillahi was-salawatu wat-tayyibat), the Salawat (Allahumma salli 'ala Muhammad), and the Du'a.\n\nTHE FIVE DAILY PRAYERS — Complete Breakdown:\n- Fajr: 2 Fard + 2 Sunnah Muakkadah (before Fard) = 4 rak'ahs (before sunrise, approximately 4:30-5:30 AM)\n- Dhuhr: 4 Sunnah Muakkadah (before Fard) + 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 10-12 rak'ahs (midday, approximately 12:00-1:00 PM)\n- Asr: 4 Sunnah Ghair Muakkadah (before Fard) + 4 Fard = 4-8 rak'ahs (late afternoon, approximately 3:30-4:30 PM)\n- Maghrib: 3 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 5-7 rak'ahs (after sunset, approximately 6:45-7:15 PM)\n- Isha: 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 6-8 rak'ahs (after nightfall, approximately 8:15-9:30 PM)\n\nRAK'AH BREAKDOWN TABLE:\n| Prayer | Fard | Sunnah Muakkadah | Sunnah Ghair Muakkadah | Total |\n| Fajr | 2 | 2 | 0 | 4 |\n| Dhuhr | 4 | 4 | 2 | 10 |\n| Asr | 4 | 0 | 2 | 6 |\n| Maghrib | 3 | 0 | 2 | 5 |\n| Isha | 4 | 2 | 2 | 8 |\n| TOTAL | 17 | 8 | 8 | 33 |\n\nTypes of Prayers: Fard (Obligatory) — compulsory, missing them is a grave sin. Sunnah Muakkadah (Strongly Recommended) — highly emphasized, the Prophet ﷺ regularly performed them. Sunnah Ghair Muakkadah (Optional) — the Prophet ﷺ occasionally performed them, bringing extra reward.\n\nPrayer is not merely physical movement — it demands Khushu (concentration and humility) and sincere connection with Allah. As Allah says: 'Indeed, prayer prohibits immorality and wrongdoing' (Quran 29:45)."
+      "starter": "¿Cómo oran los musulmanes? Comienza con Wudu — lavarte las manos, la cara, los brazos y los pies para estar limpio para Allah. Luego miras hacia la Kaaba en La Meca y haces movimientos especiales: de pie, inclinándote y poniendo tu frente en el suelo. Cada oración tiene un nombre como Fayr (mañana) y Magrib (puesta de sol). ¡Hay 5 oraciones cada día! Es como tener 5 reuniones especiales con Allah.\n\nWUDU — Los 8 Pasos:\n1) Niyyah — Haz la intención en tu corazón de realizar Wudu por Allah. 2) Lavar las Manos — Lava ambas manos hasta las muñecas tres veces, comenzando con la mano derecha. ¡Asegúrate de que el agua llegue entre tus dedos! 3) Enjuagar la Boca — Toma agua en tu boca y enjuágala bien tres veces. 4) Enjuagar la Nariz — Aspira agua por la nariz y sopla tres veces. 5) Lavar la Cara — Lava toda tu cara tres veces, desde la frente hasta la barbilla y de oreja a oreja. 6) Lavar los Brazos — Lava ambos brazos hasta los codos tres veces, comenzando con el brazo derecho. 7) Pasar las Manos por la Cabeza — Pasa las manos mojadas por toda tu cabeza una vez. 8) Lavar los Pies — Lava ambos pies hasta los tobillos tres veces, comenzando con el pie derecho. ¡Asegúrate de que el agua llegue entre tus dedos!\n\nRecuerda: Tómate tu tiempo con cada paso, usa agua limpia y evita el desperdicio. ¡Wudu trae pureza a tu cuerpo y luz a tu corazón!\n\nSALAH — Las 7 Posiciones Principales:\n1) Niyyah — Intiende en tu corazón orar. 2) Takbir — Levanta las manos hacia las orejas y di 'Allahu Akbar' (Allah es el Más Grande). 3) Qiyam — Mantente de pie con las manos cruzadas a la altura del pecho, y recita la Sura Al-Fatiha y otra Sura. 4) Ruku — Inclínate hacia adelante con las manos en las rodillas, y di 'Subhana Rabbiyal Azeem' (Gloria a mi Señor, el Más Grande). 5) Qawmah — Levántate de la inclinación y di 'Sami'a Allahu liman hamidah' (Allah escucha a quienes Lo alaban). 6) Suyud — Pon tu frente, nariz, manos, rodillas y dedos de los pies en el suelo, y di 'Subhana Rabbiyal A'la' (Gloria a mi Señor, el Altísimo). 7) Tashahhud — Siéntate y recita el testimonio de fe y envía bendiciones al Profeta Muhammad.\n\nLAS 5 ORACIONES DIARIAS:\n- Fayr (Amanecer): 2 Fard + 2 Sunnah = 4 rak'ahs — ¡fortalece tu fe!\n- Duhur (Mediodía): 4 Fard + 6 Sunnah = 10 rak'ahs — ¡encuentra paz y claridad!\n- Asr (Tarde): 4 Fard + 4 Sunnah = 8 rak'ahs — ¡busca el placer de Allah!\n- Magrib (Puesta de sol): 3 Fard + 2 Sunnah = 5 rak'ahs — ¡construye disciplina y gratitud!\n- Isha (Noche): 4 Fard + 2 Sunnah = 6 rak'ahs — ¡conéctate con tu Creador!\nTotal diario: 17 Fard + 12 Sunnah = 29 rak'ahs combinadas.",
+      "explorer": "Cómo Orar: Una Guía Completa cubre Wudu (ablución), Salah (oración), las 5 oraciones diarias y el desglose de rak'ahs en detalle completo.\n\nWUDU — Los 8 Pasos de la Ablución:\nWudu es la purificación ritual que se realiza antes de la oración. Es una limpieza física y espiritual que prepara el cuerpo y la mente para la comunicación con Allah. Wudu es obligatorio antes de realizar Salah y se considera uno de los requisitos más importantes para la oración. Los pasos son: 1) Niyyah — hacer la intención en tu corazón de realizar Wudu para la oración, 2) Lavar ambas manos hasta las muñecas tres veces comenzando con la mano derecha, asegurando que el agua llegue entre los dedos, 3) Enjuagar la boca bien tres veces — esto limpia la boca para la recitación, 4) Aspirar agua por la nariz y soplarla tres veces usando la mano izquierda para ayudar, 5) Lavar toda la cara tres veces desde la frente hasta la barbilla y de oreja a oreja, incluyendo la barba si se tiene, 6) Lavar ambos brazos hasta e incluyendo los codos tres veces comenzando con el brazo derecho, 7) Pasar las manos mojadas por la cabeza una vez — se puede pasar por toda la cabeza o solo una porción, 8) Lavar ambos pies hasta e incluyendo los tobillos tres veces comenzando con el pie derecho, asegurando que el agua llegue entre los dedos.\n\n¿Cuándo es necesario el Wudu? Antes de cada oración obligatoria (Fard), antes de oraciones voluntarias (Sunnah/Nafl), al tocar el Corán y después de usar el baño.\n\nSALAH — Las 7 Posiciones Principales de la Oración:\nSalah es la oración islámica que se realiza cinco veces al día en momentos prescritos. Es el segundo pilar del Islam y una conexión directa entre el creyente y Allah. Cada oración consiste en una o más rak'ahs (ciclos). Las siete posiciones son: 1) Niyyah (Intención) — intendes en tu corazón orar la oración específica (Fayr, Duhur, Asr, Magrib o Isha). La intención debe ser clara y sincera. 2) Takbir (Apertura) — levantas las manos hacia las orejas y dices 'Allahu Akbar' (Allah es el Más Grande). Esto marca el comienzo de tu oración. 3) Qiyam (De pie) — te mantienes de pie con las manos cruzadas a la altura del pecho. Recitas la Sura Al-Fatiha y otra Sura del Corán. 4) Ruku (Inclinación) — te inclinas hacia adelante con las manos en las rodillas, manteniendo la espalda paralela al suelo. Dices 'Subhana Rabbiyal Azeem' (Gloria a mi Señor, el Más Grande). 5) Qawmah (Levantarse) — te levantas de la inclinación a la posición de pie. Dices 'Sami'a Allahu liman hamidah' (Allah escucha a quienes Lo alaban). 6) Suyud (Postración) — te postras con tu frente, nariz, manos, rodillas y dedos de los pies tocando el suelo. Dices 'Subhana Rabbiyal A'la' (Gloria a mi Señor, el Altísimo). 7) Tashahhud (Testimonio) — te sientas entre las postraciones o al final de la oración. Recitas el testimonio de fe y envías bendiciones al Profeta Muhammad.\n\nNotas Importantes Sobre Salah: Siempre mira hacia la Qibla (dirección de la Kaaba en La Meca), mantén el cuerpo adecuadamente cubierto (Satr): hombres del ombligo a debajo de las rodillas, mujeres todo el cuerpo excepto manos y cara, realiza Wudu antes de cada oración, ora en los momentos prescritos y concéntrate y esté presente durante la oración (Jushu) para beneficio espiritual.\n\nLAS 5 ORACIONES DIARIAS:\n- Fayr (Amanecer): Antes del amanecer. 2 Fard + 2 Sunnah = 4 rak'ahs totales. La oración del amanecer marca el comienzo del día islámico y fortalece tu fe.\n- Duhur (Mediodía): Después de que el sol pasa su cenit. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 10 rak'ahs totales. La oración más larga del día ayuda a encontrar paz y claridad.\n- Asr (Tarde): Tarde antes del atardecer. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 rak'ahs totales. Busca el placer de Allah en la tarde.\n- Magrib (Puesta de sol): Justo después de que el sol se pone. 3 Fard + 2 Sunnah Ghair Muakkadah = 5 rak'ahs totales. Única entre las cinco oraciones con 3 rak'ahs Fard. Construye disciplina y gratitud.\n- Isha (Noche): Después del anochecer. 4 Fard + 2 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 rak'ahs totales. Conéctate con tu Creador antes de dormir.\n\nTotal Diario: 17 rak'ahs Fard + 12 Sunnah Muakkadah = 29 total combinado.",
+      "thinker": "Cómo Orar: Una Guía Completa proporciona instrucción integral sobre Wudu (ablución), Salah (oración), las cinco oraciones diarias y el desglose completo de rak'ahs.\n\nWUDU (Ablución):\nWudu es la purificación ritual que sirve tanto como limpieza física como preparación espiritual para Salah. Es obligatorio antes de cada oración Fard (obligatoria), oraciones Sunnah/Nafl (voluntarias) y antes de tocar el Corán. Los ocho pasos siguen una secuencia específica establecida por la Sunnah del Profeta Muhammad ﷺ: 1) Niyyah — la intención interna, 2) Lavar las manos hasta las muñecas tres veces, 3) Enjuagar la boca bien tres veces, 4) Inhalar agua por la nariz y expulsarla tres veces, 5) Lavar toda la cara tres veces (desde la línea del cabello hasta la barbilla y de oreja a oreja, incluyendo la barba para los hombres), 6) Lavar ambos brazos hasta e incluyendo los codos tres veces, 7) Pasar las manos mojadas por la cabeza una vez, 8) Lavar ambos pies hasta e incluyendo los tobillos tres veces. Cada paso tiene requisitos precisos: el agua debe llegar entre los dedos de las manos y los pies, y todas las partes deben lavarse en el orden correcto. Wudu se invalida por secreciones naturales, sueño profundo, pérdida de consciencia y tocarse las partes privadas.\n\nSALAH (Oración) — Las Siete Posiciones:\n1) Niyyah (النية): La intención interna especificando qué oración se está realizando. Debe ser clara y sincera. 2) Takbir (التكبير): El 'Allahu Akbar' de apertura al levantar las manos hacia las orejas, marcando el límite sagrado de la oración. 3) Qiyam (القيام): Posición de pie con las manos dobladas a la altura del pecho (mano derecha sobre la izquierda), recitando Al-Fatiha seguida de una segunda Sura. 4) Ruku (الركوع): Inclinación con las manos en las rodillas, espalda paralela al suelo, recitando 'Subhana Rabbiyal Azeem' (Gloria a mi Señor, el Más Grande) tres veces. 5) Qawmah (القومة): Levantarse del Ruku a posición de pie con 'Sami'a Allahu liman hamidah, Rabbana lakal hamd' (Allah escucha a quienes Lo alaban, Señor nuestro, toda alabanza es para Ti). 6) Suyud (السجود): Postración con siete puntos de contacto — frente, nariz, ambas manos, ambas rodillas y dedos de los pies — recitando 'Subhana Rabbiyal A'la' (Gloria a mi Señor, el Altísimo) tres veces. Se realiza dos veces en cada rak'ah. 7) Tashahhud (التشهد): Posición sentada para el testimonio de fe (At-Tahiyyatu lillahi was-salawatu wat-tayyibat), las Salawat (Allahumma salli 'ala Muhammad), y la Du'a.\n\nLAS CINCO ORACIONES DIARIAS — Desglose Completo:\n- Fayr: 2 Fard + 2 Sunnah Muakkadah (antes de Fard) = 4 rak'ahs (antes del amanecer, aproximadamente 4:30-5:30 AM)\n- Duhur: 4 Sunnah Muakkadah (antes de Fard) + 4 Fard + 2 Sunnah Muakkadah (después de Fard) + 2 Sunnah Ghair Muakkadah (después) = 10-12 rak'ahs (mediodía, aproximadamente 12:00-1:00 PM)\n- Asr: 4 Sunnah Ghair Muakkadah (antes de Fard) + 4 Fard = 4-8 rak'ahs (tarde, aproximadamente 3:30-4:30 PM)\n- Magrib: 3 Fard + 2 Sunnah Muakkadah (después de Fard) + 2 Sunnah Ghair Muakkadah (después) = 5-7 rak'ahs (después del atardecer, aproximadamente 6:45-7:15 PM)\n- Isha: 4 Fard + 2 Sunnah Muakkadah (después de Fard) + 2 Sunnah Ghair Muakkadah (después) = 6-8 rak'ahs (después del anochecer, aproximadamente 8:15-9:30 PM)\n\nTABLA DE DESGLOSE DE RAK'AHS:\n| Oración | Fard | Sunnah Muakkadah | Sunnah Ghair Muakkadah | Total |\n| Fayr | 2 | 2 | 0 | 4 |\n| Duhur | 4 | 4 | 2 | 10 |\n| Asr | 4 | 0 | 2 | 6 |\n| Magrib | 3 | 0 | 2 | 5 |\n| Isha | 4 | 2 | 2 | 8 |\n| TOTAL | 17 | 8 | 8 | 33 |\n\nTipos de Oraciones: Fard (Obligatoria) — compulsiva, no realizarlas es un pecado grave. Sunnah Muakkadah (Fuertemente Recomendada) — muy enfatizada, el Profeta ﷺ las realizaba regularmente. Sunnah Ghair Muakkadah (Opcional) — el Profeta ﷺ las realizaba ocasionalmente, trayendo recompensa extra.\n\nLa oración no es meramente movimiento físico — exige Jushu (concentración y humildad) y conexión sincera con Allah. Como Allah dice: 'Ciertamente, la oración prohíbe la inmoralidad y lo reprobable' (Corán 29:45)."
     },
-    "funFact": "Did you know? The five daily prayers were prescribed during Prophet Muhammad's Night Journey (Isra and Mi'raj) to heaven. Originally, Allah commanded 50 prayers per day, but after several reductions through Prophet Musa's advice, it became 5 — yet the reward remains equal to 50!",
+    "funFact": "¿Sabías? Las cinco oraciones diarias fueron prescritas durante el Viaje Nocturno del Profeta Muhammad (Isra y Mi'ray) al cielo. Originalmente, Allah ordenó 50 oraciones al día, pero después de varias reducciones por el consejo del Profeta Musa, se convirtieron en 5 — ¡sin embargo, la recompensa sigue siendo igual a 50!",
     "quiz": [
       {
-        "q": "How many steps are there in Wudu?",
+        "q": "¿Cuántos pasos hay en el Wudu?",
         "options": [
-          "6 steps",
-          "8 steps",
-          "10 steps"
+          "6 pasos",
+          "8 pasos",
+          "10 pasos"
         ],
         "correct": 1,
-        "explanation": "Wudu consists of 8 main steps: Niyyah (intention), washing hands, rinsing mouth, rinsing nose, washing face, washing arms, wiping head, and washing feet."
+        "explanation": "Wudu consiste en 8 pasos principales: Niyyah (intención), lavar manos, enjuagar boca, enjuagar nariz, lavar cara, lavar brazos, pasar manos por la cabeza y lavar pies."
       },
       {
-        "q": "What is the first step of Wudu?",
+        "q": "¿Cuál es el primer paso del Wudu?",
         "options": [
-          "Wash hands",
-          "Niyyah (Intention)",
-          "Rinse mouth"
+          "Lavar las manos",
+          "Niyyah (Intención)",
+          "Enjuagar la boca"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Wudu. You make the intention in your heart to perform Wudu for prayer."
+        "explanation": "Niyyah (intención) es el primer paso del Wudu. Haces la intención en tu corazón de realizar Wudu para la oración."
       },
       {
-        "q": "How many times should you wash your hands in Wudu?",
+        "q": "¿Cuántas veces debes lavar tus manos en el Wudu?",
         "options": [
-          "Once",
-          "Twice",
-          "Three times"
+          "Una vez",
+          "Dos veces",
+          "Tres veces"
         ],
         "correct": 2,
-        "explanation": "In Wudu, you should wash your hands three times, starting with the right hand. This ensures thorough cleansing."
+        "explanation": "En el Wudu, debes lavar tus manos tres veces, comenzando con la mano derecha. Esto asegura una limpieza completa."
       },
       {
-        "q": "Which body part is wiped (not washed) in Wudu?",
+        "q": "¿Qué parte del cuerpo se pasa (no se lava) en el Wudu?",
         "options": [
-          "Face",
-          "Head",
-          "Arms"
+          "La cara",
+          "La cabeza",
+          "Los brazos"
         ],
         "correct": 1,
-        "explanation": "The head is wiped once with wet hands during Wudu. This is different from washing, which is done for other body parts."
+        "explanation": "La cabeza se pasa una vez con las manos mojadas durante el Wudu. Esto es diferente de lavar, que se hace para otras partes del cuerpo."
       },
       {
-        "q": "When performing Wudu, which hand should you start with?",
+        "q": "Al realizar Wudu, ¿con qué mano debes comenzar?",
         "options": [
-          "Left hand",
-          "Right hand",
-          "Either hand"
+          "La mano izquierda",
+          "La mano derecha",
+          "Cualquier mano"
         ],
         "correct": 1,
-        "explanation": "In Wudu, you should start with the right hand for washing hands, arms, and feet. This is part of the Sunnah (practice of the Prophet ﷺ)."
+        "explanation": "En el Wudu, debes comenzar con la mano derecha para lavar manos, brazos y pies. Esto es parte de la Sunnah (práctica del Profeta ﷺ)."
       },
       {
-        "q": "What is the first position in Salah prayer?",
+        "q": "¿Cuál es la primera posición en la oración Salah?",
         "options": [
-          "Ruku (Bowing)",
-          "Niyyah (Intention)",
-          "Qiyam (Standing)"
+          "Ruku (Inclinación)",
+          "Niyyah (Intención)",
+          "Qiyam (De pie)"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Salah. You intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha)."
+        "explanation": "Niyyah (intención) es el primer paso de Salah. Intiendes en tu corazón orar la oración específica (Fayr, Duhur, Asr, Magrib o Isha)."
       },
       {
-        "q": "What do you say when starting Salah?",
+        "q": "¿Qué dices al comenzar Salah?",
         "options": [
           "Bismillah",
           "Allahu Akbar",
           "SubhanAllah"
         ],
         "correct": 1,
-        "explanation": "You say 'Allahu Akbar' (Allah is the Greatest) while raising your hands to your ears to begin Salah. This marks the beginning of your prayer."
+        "explanation": "Dices 'Allahu Akbar' (Allah es el Más Grande) mientras levantas las manos hacia las orejas para comenzar Salah. Esto marca el inicio de tu oración."
       },
       {
-        "q": "How many main positions are there in Salah?",
+        "q": "¿Cuántas posiciones principales hay en Salah?",
         "options": [
-          "5 positions",
-          "7 positions",
-          "9 positions"
+          "5 posiciones",
+          "7 posiciones",
+          "9 posiciones"
         ],
         "correct": 1,
-        "explanation": "There are 7 main positions in Salah: Niyyah, Takbir, Qiyam, Ruku, Qawmah, Sujud, and Tashahhud."
+        "explanation": "Hay 7 posiciones principales en Salah: Niyyah, Takbir, Qiyam, Ruku, Qawmah, Suyud y Tashahhud."
       },
       {
-        "q": "What is Ruku in Salah?",
+        "q": "¿Qué es el Ruku en Salah?",
         "options": [
-          "Bowing position",
-          "Prostration position",
-          "Standing position"
+          "Posición de inclinación",
+          "Posición de postración",
+          "Posición de pie"
         ],
         "correct": 0,
-        "explanation": "Ruku is the bowing position in Salah where you bend forward with your hands on your knees and your back parallel to the ground, saying 'Subhana Rabbiyal Azeem.'"
+        "explanation": "Ruku es la posición de inclinación en Salah donde te inclinas hacia adelante con las manos en las rodillas y la espalda paralela al suelo, diciendo 'Subhana Rabbiyal Azeem.'"
       },
       {
-        "q": "How many Fard rak'ahs are there in total across all 5 daily prayers?",
+        "q": "¿Cuántas rak'ahs Fard hay en total en las 5 oraciones diarias?",
         "options": [
           "15",
           "17",
           "20"
         ],
         "correct": 1,
-        "explanation": "There are 17 Fard rak'ahs in total: Fajr (2), Dhuhr (4), Asr (4), Maghrib (3), and Isha (4)."
+        "explanation": "Hay 17 rak'ahs Fard en total: Fayr (2), Duhur (4), Asr (4), Magrib (3) e Isha (4)."
       },
       {
-        "q": "Which prayer has 3 Fard rak'ahs?",
+        "q": "¿Qué oración tiene 3 rak'ahs Fard?",
         "options": [
-          "Fajr",
-          "Maghrib",
+          "Fayr",
+          "Magrib",
           "Isha"
         ],
         "correct": 1,
-        "explanation": "Maghrib (sunset prayer) is unique as it has 3 Fard rak'ahs, while all other prayers have either 2 or 4 Fard rak'ahs."
+        "explanation": "Magrib (oración del atardecer) es única ya que tiene 3 rak'ahs Fard, mientras que las demás oraciones tienen 2 o 4 rak'ahs Fard."
       },
       {
-        "q": "What is Sujud in Salah?",
+        "q": "¿Qué es el Suyud en Salah?",
         "options": [
-          "Standing upright",
-          "Bowing forward",
-          "Prostration on the ground"
+          "Estar de pie",
+          "Inclinarse hacia adelante",
+          "Postración en el suelo"
         ],
         "correct": 2,
-        "explanation": "Sujud is the prostration position where your forehead, nose, hands, knees, and toes touch the ground. It is performed twice in each rak'ah, and you say 'Subhana Rabbiyal A'la.'"
+        "explanation": "Suyud es la posición de postración donde tu frente, nariz, manos, rodillas y dedos de los pies tocan el suelo. Se realiza dos veces en cada rak'ah, y dices 'Subhana Rabbiyal A'la.'"
       }
     ]
   },
   {
     "id": "honesty",
-    "title": "Honesty",
+    "title": "Honestidad",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🤝",
     "category": "islamic_values",
     "content": {
-      "starter": "Honesty means always telling the truth! Allah loves people who are honest. Even if telling the truth is hard, it's always the right thing to do. When we're honest, people trust us and Allah is pleased with us!",
-      "explorer": "Honesty (Sidq) is one of the most important values in Islam. The Prophet ﷺ was known as 'Al-Amin' — the Trustworthy — because he always told the truth. Islam teaches us to be honest in our words, actions, and intentions. Lying is a major sin that can damage relationships and break trust. Being honest, even when it's difficult, earns Allah's love and the respect of others.",
-      "thinker": "Honesty (Sidq) and trustworthiness (Amanah) are foundational Islamic virtues. The Prophet ﷺ said: 'Truthfulness leads to righteousness, and righteousness leads to Paradise.' Honesty is not merely about not lying — it encompasses sincerity in intentions, accuracy in reporting, and integrity in all dealings. Allah says in the Quran: 'O you who believe, fear Allah and be among the truthful' (Surah At-Tawbah 9:119). The concept extends to being honest with oneself, honest in worship, and honest in business dealings."
+      "starter": "¡La honestidad significa decir siempre la verdad! Allah ama a las personas honestas. Incluso si decir la verdad es difícil, siempre es lo correcto. ¡Cuando somos honestos, la gente confía en nosotros y Allah está complacido con nosotros!",
+      "explorer": "La honestidad (Sidq) es uno de los valores más importantes en el Islam. El Profeta ﷺ era conocido como 'Al-Amin' — el Confiable — porque siempre decía la verdad. El Islam nos enseña a ser honestos en nuestras palabras, acciones e intenciones. Mentir es un pecado mayor que puede dañar relaciones y romper la confianza. Ser honesto, incluso cuando es difícil, gana el amor de Allah y el respeto de los demás.",
+      "thinker": "La honestidad (Sidq) y la confiabilidad (Amanah) son virtudes islámicas fundamentales. El Profeta ﷺ dijo: 'La veracidad lleva a la rectitud, y la rectitud lleva al Paraíso.' La honestidad no es meramente sobre no mentir — abarca sinceridad en las intenciones, precisión en los informes e integridad en todos los tratos. Allah dice en el Corán: '¡Oh, creyentes, teman a Allah y estén entre los veraces' (Sura At-Tawbah 9:119). El concepto se extiende a ser honesto con uno mismo, honesto en la adoración y honesto en los negocios."
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was called 'Al-Amin' (The Trustworthy) even before he became a prophet — because he NEVER told a lie!",
+    "funFact": "¿Sabías? El Profeta Muhammad ﷺ era llamado 'Al-Amin' (El Confiable) incluso antes de convertirse en profeta — ¡porque NUNCA mintió!",
     "quiz": [
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "¿Cuál era el apodo del Profeta Muhammad ﷺ antes de la profecía?",
         "options": [
           "Al-Hakim",
           "Al-Amin",
           "Al-Karim"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "Era llamado 'Al-Amin' (El Confiable) porque siempre decía la verdad."
       },
       {
-        "q": "Is honesty only about not lying?",
+        "q": "¿Es la honestidad solo sobre no mentir?",
         "options": [
-          "Yes",
-          "No, it includes sincerity and integrity too",
-          "Sometimes"
+          "Sí",
+          "No, incluye sinceridad e integridad también",
+          "A veces"
         ],
         "correct": 1,
-        "explanation": "Honesty includes being truthful, sincere, and having integrity in everything."
+        "explanation": "La honestidad incluye ser veraz, sincero y tener integridad en todo."
       },
       {
-        "q": "What does Allah say about truthful people?",
+        "q": "¿Qué dice Allah sobre las personas veraces?",
         "options": [
-          "They are punished",
-          "He loves them",
-          "They are ignored"
+          "Son castigadas",
+          "Las ama",
+          "Son ignoradas"
         ],
         "correct": 1,
-        "explanation": "Allah loves truthful people and promises them Paradise."
+        "explanation": "Allah ama a las personas veraces y les promete el Paraíso."
       }
     ]
   },
   {
     "id": "kindness",
-    "title": "Kindness",
+    "title": "Bondad",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_46_sadaqah_voluntary-metCJkjaZZWHwc3n86346d.webp?updatedAt=1781117902191",
     "emoji": "💕",
     "category": "islamic_values",
     "content": {
-      "starter": "Kindness means being nice to everyone! Help your friends, smile at people, share your toys, and be gentle. The Prophet ﷺ was the kindest person ever! When we're kind, Allah rewards us and everyone loves us!",
-      "explorer": "Kindness (Ihsan) is at the heart of Islamic teaching. The Prophet ﷺ said: 'The most beloved of people to Allah are those who are most beneficial to people.' Being kind means helping others, smiling, sharing, and treating everyone with respect — whether they're Muslim or not. Islam teaches that even a smile is charity (sadaqah).",
-      "thinker": "Kindness (Ihsan and Rahmah) is a comprehensive Islamic virtue. The Prophet ﷺ embodied mercy — the Quran describes him as 'a mercy to all the worlds' (Surah Al-Anbiya 21:107). Kindness extends to all creation: family, neighbors, strangers, animals, and even the environment. The Prophet ﷺ said: 'Charity does not decrease wealth. No one forgives another except that Allah increases his honor. And no one humbles himself for the sake of Allah except that Allah raises his status.' True kindness in Islam is not performative but stems from genuine love for Allah and His creation."
+      "starter": "¡La bondad significa ser amable con todos! Ayuda a tus amigos, sonríe a las personas, comparte tus juguetes y sé gentil. ¡El Profeta ﷺ fue la persona más bondadosa que existió! Cuando somos amables, Allah nos recompensa y todos nos aman!",
+      "explorer": "La bondad (Ihsan) está en el corazón de la enseñanza islámica. El Profeta ﷺ dijo: 'Las personas más amadas por Allah son aquellas que son más beneficiosas para las personas.' Ser amable significa ayudar a otros, sonreír, compartir y tratar a todos con respeto — sean musulmanes o no. El Islam enseña que incluso una sonrisa es caridad (sadaqah).",
+      "thinker": "La bondad (Ihsan y Rahmah) es una virtud islámica integral. El Profeta ﷺ encarnó la misericordia — el Corán lo describe como 'una misericordia para todos los mundos' (Sura Al-Anbiya 21:107). La bondad se extiende a toda la creación: familia, vecinos, extraños, animales e incluso el medio ambiente. El Profeta ﷺ dijo: 'La caridad no disminuye la riqueza. Nadie perdona a otro sino que Allah aumenta su honor. Y nadie se humilla por Allah sino que Allah eleva su estatus.' La verdadera bondad en el Islam no es performativa sino que proviene del amor genuino por Allah y Su creación."
     },
-    "funFact": "Did you know? The Prophet ﷺ said that even smiling at someone is a form of charity! You can earn rewards just by being friendly!",
+    "funFact": "¿Sabías? ¡El Profeta ﷺ dijo que incluso sonreírle a alguien es una forma de caridad! ¡Puedes ganar recompensas solo siendo amable!",
     "quiz": [
       {
-        "q": "What did the Prophet ﷺ say about smiling?",
+        "q": "¿Qué dijo el Profeta ﷺ sobre sonreír?",
         "options": [
-          "It's sinful",
-          "It's a form of charity",
-          "It's meaningless"
+          "Es pecado",
+          "Es una forma de caridad",
+          "No tiene sentido"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said even a smile is charity (sadaqah)."
+        "explanation": "El Profeta ﷺ dijo que incluso una sonrisa es caridad (sadaqah)."
       },
       {
-        "q": "Who should we be kind to?",
+        "q": "¿Con quién debemos ser amables?",
         "options": [
-          "Only Muslims",
-          "Only family",
-          "Everyone"
+          "Solo con musulmanes",
+          "Solo con la familia",
+          "Con todos"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to be kind to everyone — Muslim or not."
+        "explanation": "El Islam nos enseña a ser amables con todos — musulmanes o no."
       },
       {
-        "q": "What is the most beloved person to Allah?",
+        "q": "¿Quién es la persona más amada por Allah?",
         "options": [
-          "The richest",
-          "The most beautiful",
-          "The most beneficial to others"
+          "La más rica",
+          "La más bella",
+          "La más beneficiosa para los demás"
         ],
         "correct": 2,
-        "explanation": "The Prophet ﷺ said the most beloved to Allah are those most beneficial to people."
+        "explanation": "El Profeta ﷺ dijo que los más amados por Allah son los más beneficiosos para las personas."
       }
     ]
   },
   {
     "id": "respect",
-    "title": "Respect",
+    "title": "Respeto",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_17_topic_respect_elders-6wUPfPgJRqgzEPbLKEPMkD.webp?updatedAt=1781117900196",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Respect means treating people nicely and politely! We respect our parents, teachers, and elders. We say 'please' and 'thank you.' We listen when others talk. Allah loves people who are respectful!",
-      "explorer": "Respect (Adab) is a key Islamic value. The Quran commands us to honor our parents, be kind to neighbors, and treat elders with dignity. The Prophet ﷺ taught that respect is not just about words but actions — standing up for elders, listening attentively, and honoring others' feelings. Respect also extends to respecting differences of opinion.",
-      "thinker": "Respect (Adab) in Islam is a comprehensive concept that encompasses how we relate to Allah, His creation, and ourselves. The Quran says: 'And your Lord has decreed that you worship none but Him, and that you be dutiful to your parents' (Surah Al-Isra 17:23). Respect for parents is given such high status that it appears immediately after the command to worship Allah alone. Beyond parents, Islam teaches respect for scholars, neighbors, the elderly, and even strangers. The Prophet ﷺ demonstrated this by standing when a funeral passed, greeting children, and honoring the rights of neighbors regardless of their faith."
+      "starter": "¡El respeto significa tratar a las personas con amabilidad y cortesía! Respetamos a nuestros padres, maestros y ancianos. Decimos 'por favor' y 'gracias'. Escuchamos cuando otros hablan. ¡Allah ama a las personas respetuosas!",
+      "explorer": "El respeto (Adab) es un valor islámico clave. El Corán nos ordena honrar a nuestros padres, ser amables con los vecinos y tratar a los ancianos con dignidad. El Profeta ﷺ enseñó que el respeto no es solo sobre palabras sino acciones — levantarse para los ancianos, escuchar atentamente y respetar los sentimientos ajenos. El respeto también se extiende a respetar las diferencias de opinión.",
+      "thinker": "El respeto (Adab) en el Islam es un concepto integral que abarca cómo nos relacionamos con Allah, Su creación y nosotros mismos. El Corán dice: 'Y tu Señor ha decretado que no adoréis a nadie sino a Él, y que seáis bondadosos con vuestros padres' (Sura Al-Isra 17:23). El respeto a los padres tiene un estatus tan alto que aparece inmediatamente después del mandato de adorar solo a Allah. Más allá de los padres, el Islam enseña respeto por los eruditos, vecinos, ancianos e incluso extraños. El Profeta ﷺ lo demostró poniéndose de pie cuando pasaba un funeral, saludando a los niños y honrando los derechos de los vecinos independientemente de su fe."
     },
-    "funFact": "Did you know? In Islam, respecting your parents is considered the SECOND most important duty after worshipping Allah alone!",
+    "funFact": "¿Sabías? En el Islam, respetar a tus padres se considera el SEGUNDO deber más importante después de adorar solo a Allah!",
     "quiz": [
       {
-        "q": "What comes right after worshipping Allah in importance?",
+        "q": "¿Qué viene justo después de adorar a Allah en importancia?",
         "options": [
-          "Being rich",
-          "Respecting parents",
-          "Going to Hajj"
+          "Ser rico",
+          "Respetar a los padres",
+          "Ir al Hajj"
         ],
         "correct": 1,
-        "explanation": "The Quran commands us to worship Allah alone, then to honor our parents."
+        "explanation": "El Corán nos ordena adorar solo a Allah, luego honrar a nuestros padres."
       },
       {
-        "q": "How should we treat elders?",
+        "q": "¿Cómo debemos tratar a los ancianos?",
         "options": [
-          "Ignore them",
-          "With disrespect",
-          "With honor and dignity"
+          "Ignorarlos",
+          "Con falta de respeto",
+          "Con honor y dignidad"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to treat elders with honor and dignity."
+        "explanation": "El Islam nos enseña a tratar a los ancianos con honor y dignidad."
       },
       {
-        "q": "What does 'Adab' mean?",
+        "q": "¿Qué significa 'Adab'?",
         "options": [
-          "Prayer",
-          "Respect and good manners",
-          "Food"
+          "Oración",
+          "Respeto y buenos modales",
+          "Comida"
         ],
         "correct": 1,
-        "explanation": "Adab means respect, good manners, and proper etiquette in Islam."
+        "explanation": "Adab significa respeto, buenos modales y etiqueta apropiada en el Islam."
       }
     ]
   },
   {
     "id": "patience",
-    "title": "Patience",
+    "title": "Paciencia",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🧘",
     "category": "islamic_values",
     "content": {
-      "starter": "Patience means waiting calmly and not getting upset when things are hard! When you're sick, or something goes wrong, or you have to wait — be patient! Allah loves patient people and will reward them!",
-      "explorer": "Patience (Sabr) is one of the greatest virtues in Islam. The Quran says: 'Indeed, the patient will be given their reward without account' (Surah Az-Zumar 39:10). Sabr means staying calm during difficulties, resisting temptation, and being content with Allah's plan. The Prophet ﷺ compared patience to a precious gem — it's hard to find but incredibly valuable.",
-      "thinker": "Patience (Sabr) is one of the most emphasized virtues in Islam. The Quran mentions it over 70 times. Sabr has three dimensions: patience in obeying Allah (perseverance), patience in avoiding sin (restraint), and patience during hardship (endurance). Allah says: 'And be patient, for indeed, Allah does not allow to be lost the reward of those who do good' (Surah Hud 11:115). The Prophet ﷺ said: 'How wonderful is the affair of the believer, for all his affairs are good, and this does not apply to anyone except the believer. If something good happens to him, he is grateful, and that is good for him. If something bad happens to him, he bears it with patience, and that is good for him.'"
+      "starter": "¡La paciencia significa esperar tranquilamente y no enojarse cuando las cosas son difíciles! Cuando estás enfermo, o algo sale mal, o tienes que esperar — ¡ten paciencia! Allah ama a las personas pacientes y las recompensará!",
+      "explorer": "La paciencia (Sabr) es una de las mayores virtudes en el Islam. El Corán dice: 'Ciertamente, los pacientes recibirán su recompensa sin cuenta' (Sura Az-Zumar 39:10). Sabr significa mantener la calma durante las dificultades, resistir la tentación y estar contento con el plan de Allah. El Profeta ﷺ comparó la paciencia con una joya preciosa — es difícil de encontrar pero increíblemente valiosa.",
+      "thinker": "La paciencia (Sabr) es una de las virtudes más enfatizadas en el Islam. El Corán la menciona más de 70 veces. Sabr tiene tres dimensiones: paciencia en obedecer a Allah (perseverancia), paciencia en evitar el pecado (restricción) y paciencia durante las dificultades (resistencia). Allah dice: 'Y ten paciencia, pues ciertamente Allah no deja que se pierda la recompensa de quienes hacen el bien' (Sura Hud 11:115). El Profeta ﷺ dijo: 'Qué maravilloso es el asunto del creyente, pues todos sus asuntos son buenos, y esto no aplica a nadie excepto al creyente. Si algo bueno le sucede, es agradecido, y eso es bueno para él. Si algo malo le sucede, lo soporta con paciencia, y eso es bueno para él.'"
     },
-    "funFact": "Did you know? Allah mentions patience (Sabr) over 70 times in the Quran — it's one of the most important qualities a Muslim can have!",
+    "funFact": "¿Sabías? Allah menciona la paciencia (Sabr) más de 70 veces en el Corán — ¡es una de las cualidades más importantes que puede tener un musulmán!",
     "quiz": [
       {
-        "q": "What is 'Sabr'?",
+        "q": "¿Qué es 'Sabr'?",
         "options": [
-          "Prayer",
-          "Patience",
-          "Charity"
+          "Oración",
+          "Paciencia",
+          "Caridad"
         ],
         "correct": 1,
-        "explanation": "Sabr means patience — staying calm during difficulties and trusting Allah."
+        "explanation": "Sabr significa paciencia — mantener la calma durante las dificultades y confiar en Allah."
       },
       {
-        "q": "How many times does Allah mention patience in the Quran?",
+        "q": "¿Cuántas veces menciona Allah la paciencia en el Corán?",
         "options": [
-          "5 times",
-          "Over 70 times",
-          "100 times"
+          "5 veces",
+          "Más de 70 veces",
+          "100 veces"
         ],
         "correct": 1,
-        "explanation": "Allah mentions patience (Sabr) over 70 times in the Quran."
+        "explanation": "Allah menciona la paciencia (Sabr) más de 70 veces en el Corán."
       },
       {
-        "q": "What happens to patient people?",
+        "q": "¿Qué sucede con las personas pacientes?",
         "options": [
-          "Nothing",
-          "They are rewarded without limit",
-          "They are punished"
+          "Nada",
+          "Son recompensadas sin límite",
+          "Son castigadas"
         ],
         "correct": 1,
-        "explanation": "Allah says the patient will be given their reward without account."
+        "explanation": "Allah dice que los pacientes recibirán su recompensa sin cuenta."
       }
     ]
   },
   {
     "id": "gratitude",
-    "title": "Gratitude",
+    "title": "Gratitud",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_50_hiba_gifts-6i3784QxV2uUz9RuU6ni4m.webp?updatedAt=1781117899322",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Gratitude means saying 'thank you' to Allah for everything! For food, family, friends, health — everything! When we're thankful, Allah gives us more blessings. A grateful heart is a happy heart!",
-      "explorer": "Gratitude (Shukr) means recognizing and appreciating Allah's blessings. The Quran says: 'If you are grateful, I will surely increase you' (Surah Ibrahim 14:7). Gratitude isn't just saying 'Alhamdulillah' — it's using Allah's blessings in ways that please Him. When we're grateful for health, we use it to do good. When we're grateful for wealth, we share it with others.",
-      "thinker": "Gratitude (Shukr) is a comprehensive Islamic concept that goes beyond simple thankfulness. It has three dimensions: gratitude of the heart (recognizing blessings), gratitude of the tongue (verbal thanks and praise), and gratitude of the limbs (using blessings in obedience to Allah). The Quran warns against ingratitude: 'If you are ungrateful, indeed, my punishment is severe' (Surah Ibrahim 14:7). The Prophet ﷺ would pray at night until his feet would swell, and when asked why, he would say: 'Should I not be a grateful servant?' Gratitude transforms our perspective — even in hardship, a grateful person finds blessings to thank Allah for."
+      "starter": "¡La gratitud significa decir 'gracias' a Allah por todo! Por la comida, la familia, los amigos, la salud — ¡todo! Cuando somos agradecidos, Allah nos da más bendiciones. ¡Un corazón agradecido es un corazón feliz!",
+      "explorer": "La gratitud (Shukr) significa reconocer y apreciar las bendiciones de Allah. El Corán dice: 'Si sois agradecidos, ciertamente os aumentaré' (Sura Ibrahim 14:7). La gratitud no es solo decir 'Alhamdulillah' — es usar las bendiciones de Allah de formas que Lo complazcan. Cuando somos agradecidos por la salud, la usamos para hacer el bien. Cuando somos agradecidos por la riqueza, la compartimos con los demás.",
+      "thinker": "La gratitud (Shukr) es un concepto islámico integral que va más allá de la simple gratitud. Tiene tres dimensiones: gratitud del corazón (reconocer las bendiciones), gratitud de la lengua (agradecimiento verbal y alabanza) y gratitud de las extremidades (usar las bendiciones en obediencia a Allah). El Corán advierte contra la ingratitud: 'Si sois ingratos, ciertamente mi castigo es severo' (Sura Ibrahim 14:7). El Profeta ﷺ oraba por la noche hasta que sus pies se hinchaban, y cuando le preguntaban por qué, decía: '¿Acaso no debería ser un siervo agradecido?' La gratitud transforma nuestra perspectiva — incluso en la dificultad, una persona agradecida encuentra bendiciones por las que agradecer a Allah."
     },
-    "funFact": "Did you know? The Prophet ﷺ would pray at night until his feet swelled — and when asked why, he said: 'Should I not be a grateful servant?'",
+    "funFact": "¿Sabías? El Profeta ﷺ oraba por la noche hasta que sus pies se hinchaban — y cuando le preguntaban por qué, decía: '¿Acaso no debería ser un siervo agradecido?'",
     "quiz": [
       {
-        "q": "What does 'Shukr' mean?",
+        "q": "¿Qué significa 'Shukr'?",
         "options": [
-          "Prayer",
-          "Gratitude",
-          "Fasting"
+          "Oración",
+          "Gratitud",
+          "Ayuno"
         ],
         "correct": 1,
-        "explanation": "Shukr means gratitude — being thankful to Allah for His blessings."
+        "explanation": "Shukr significa gratitud — ser agradecido a Allah por Sus bendiciones."
       },
       {
-        "q": "What does Allah promise to grateful people?",
+        "q": "¿Qué promete Allah a las personas agradecidas?",
         "options": [
-          "Nothing",
-          "He will increase their blessings",
-          "He will punish them"
+          "Nada",
+          "Aumentará sus bendiciones",
+          "Las castigará"
         ],
         "correct": 1,
-        "explanation": "Allah says: 'If you are grateful, I will surely increase you.'"
+        "explanation": "Allah dice: 'Si sois agradecidos, ciertamente os aumentaré.'"
       },
       {
-        "q": "What are the three dimensions of gratitude?",
+        "q": "¿Cuáles son las tres dimensiones de la gratitud?",
         "options": [
-          "Heart, tongue, and limbs",
-          "Mind, body, soul",
-          "Morning, afternoon, night"
+          "Corazón, lengua y extremidades",
+          "Mente, cuerpo, alma",
+          "Mañana, tarde, noche"
         ],
         "correct": 0,
-        "explanation": "Gratitude is expressed through the heart (recognizing), tongue (thanking), and limbs (using blessings to do good)."
+        "explanation": "La gratitud se expresa a través del corazón (reconociendo), la lengua (agradeciendo) y las extremidades (usando las bendiciones para hacer el bien)."
       }
     ]
   },
   {
     "id": "prophet_muhammad",
-    "title": "Prophet Muhammad ﷺ",
+    "title": "Profeta Muhammad ﷺ",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "☪️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Muhammad ﷺ was the best person ever! He was kind, honest, and brave. He taught us about Allah and how to be good Muslims. He loved children and animals. We follow his example every day!",
-      "explorer": "Prophet Muhammad ﷺ was born in Mecca in 570 CE. He was known as 'Al-Amin' (The Trustworthy) even before prophethood. At age 40, Angel Jibril brought him the first revelation in the cave of Hira. He spent 23 years teaching Islam, facing persecution, and building a just community. He passed away in Medina in 632 CE, leaving behind a message for all of humanity.",
-      "thinker": "Prophet Muhammad ﷺ is the final messenger of Allah and the most influential person in history. Born an orphan, raised by his grandfather Abdul Muttalib and then his uncle Abu Talib, he grew up to be known for his truthfulness and integrity. The Quran describes him as 'a mercy to all the worlds' (21:107). His life (Seerah) is a comprehensive guide — from the early persecution in Mecca to the establishment of the first Islamic state in Medina, from the Treaty of Hudaybiyyah to the conquest of Mecca. He taught through example: he prayed until his feet swelled, gave charity until he had nothing left, and treated everyone with dignity regardless of their status."
+      "starter": "¡El Profeta Muhammad ﷺ fue la mejor persona que existió! Era amable, honesto y valiente. Nos enseñó sobre Allah y cómo ser buenos musulmanes. Amaba a los niños y a los animales. ¡Seguimos su ejemplo cada día!",
+      "explorer": "El Profeta Muhammad ﷺ nació en La Meca en el año 570 d.C. Era conocido como 'Al-Amin' (El Confiable) incluso antes de la profecía. A los 40 años, el ángel Yibril le trajo la primera revelación en la cueva de Hira. Pasó 23 años enseñando el Islam, enfrentando persecución y construyendo una comunidad justa. Falleció en Medina en el año 632 d.C., dejando un mensaje para toda la humanidad.",
+      "thinker": "El Profeta Muhammad ﷺ es el mensajero final de Allah y la persona más influyente de la historia. Nacido huérfano, criado por su abuelo Abdul Muttalib y luego por su tío Abu Talib, creció siendo conocido por su veracidad e integridad. El Corán lo describe como 'una misericordia para todos los mundos' (21:107). Su vida (Sira) es una guía integral — desde la persecución temprana en La Meca hasta el establecimiento del primer estado islámico en Medina, desde el Tratado de Hudaybiyyah hasta la conquista de La Meca. Enseñó con el ejemplo: oraba hasta que sus pies se hinchaban, daba caridad hasta no tener nada y trataba a todos con dignidad sin importar su estatus."
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was an orphan — his father died before he was born and his mother when he was only 6 years old. Despite this, he became the greatest person in history!",
+    "funFact": "¿Sabías? El Profeta Muhammad ﷺ fue huérfano — su padre murió antes de que él naciera y su madre cuando tenía solo 6 años. ¡A pesar de esto, se convirtió en la persona más grande de la historia!",
     "quiz": [
       {
-        "q": "In which city was Prophet Muhammad ﷺ born?",
+        "q": "¿En qué ciudad nació el Profeta Muhammad ﷺ?",
         "options": [
           "Medina",
-          "Mecca",
-          "Jerusalem"
+          "La Meca",
+          "Jerusalén"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ was born in Mecca in 570 CE."
+        "explanation": "El Profeta Muhammad ﷺ nació en La Meca en el año 570 d.C."
       },
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "¿Cuál era el apodo del Profeta Muhammad ﷺ antes de la profecía?",
         "options": [
           "Al-Hakim",
           "Al-Amin",
           "Al-Karim"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "Era llamado 'Al-Amin' (El Confiable) porque siempre decía la verdad."
       },
       {
-        "q": "How old was Prophet Muhammad ﷺ when he received the first revelation?",
+        "q": "¿Cuántos años tenía el Profeta Muhammad ﷺ cuando recibió la primera revelación?",
         "options": [
           "25",
           "30",
           "40"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ was 40 years old when Angel Jibril brought the first revelation."
+        "explanation": "El Profeta Muhammad ﷺ tenía 40 años cuando el ángel Yibril le trajo la primera revelación."
       }
     ]
   },
   {
     "id": "prophet_ibrahim",
-    "title": "Prophet Ibrahim",
+    "title": "Profeta Ibrahim",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "🏗️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Ibrahim loved Allah more than anything! He looked at the stars and knew they couldn't be God. He broke the idols people worshipped and told them only Allah deserves worship. Allah made him a great leader!",
-      "explorer": "Prophet Ibrahim (Abraham) is one of the greatest prophets. He realized at a young age that idols couldn't be God — they couldn't create or help anyone. He broke the idols and called people to worship Allah alone. Allah tested him greatly — He asked Ibrahim to leave his homeland, sacrifice his son, and build the Kaaba. Ibrahim obeyed every command, showing incredible faith.",
-      "thinker": "Prophet Ibrahim (Abraham) is known as 'Khalilullah' — the Friend of Allah. His story is one of absolute submission to divine will. He questioned his father's idol worship, challenged King Namrud, and was thrown into fire for his faith — yet Allah saved him. The sacrifice of his son Ismail (Ismail) is commemorated every year during Eid al-Adha. Ibrahim's willingness to leave his wife Hajar and infant son Ismail in the desert of Mecca — trusting completely in Allah's plan — led to the establishment of the Kaaba and the Zamzam well. He is the patriarch of the Abrahamic faiths and an enduring example of total trust in Allah."
+      "starter": "¡El Profeta Ibrahim amaba a Allah más que a nada! Miró las estrellas y supo que no podían ser Dios. Rompió los ídolos que la gente adoraba y les dijo que solo Allah merece adoración. ¡Allah lo hizo un gran líder!",
+      "explorer": "El Profeta Ibrahim (Abraham) es uno de los profetas más grandes. Se dio cuenta a temprana edad de que los ídolos no podían ser Dios — no podían crear ni ayudar a nadie. Rompió los ídolos y llamó a las personas a adorar solo a Allah. Allah lo probó grandemente — Le pidió a Ibrahim que dejara su tierra, sacrificara a su hijo y construyera la Kaaba. Ibrahim obedeció cada mandato, mostrando una fe increíble.",
+      "thinker": "El Profeta Ibrahim (Abraham) es conocido como 'Jalilullah' — el Amigo de Allah. Su historia es de sumisión absoluta a la voluntad divina. Cuestionó la adoración de ídolos de su padre, desafió al rey Namrud y fue arrojado al fuego por su fe — sin embargo, Allah lo salvó. El sacrificio de su hijo Ismael (Ismail) se conmemora cada año durante el Eid al-Adha. La disposición de Ibrahim para dejar a su esposa Hayar y a su hijo pequeño Ismail en el desierto de La Meca — confiando completamente en el plan de Allah — llevó al establecimiento de la Kaaba y el pozo de Zamzam. Es el patriarca de las fes abrahámicas y un ejemplo perdurable de total confianza en Allah."
     },
-    "funFact": "Did you know? When Ibrahim was thrown into a giant fire, Allah said 'O fire, be cool and peaceful!' — and the fire didn't even burn him!",
+    "funFact": "¿Sabías? Cuando Ibrahim fue arrojado a un fuego gigante, Allah dijo '¡Oh fuego, sé fresco y pacífico!' — ¡y el fuego ni siquiera lo quemó!",
     "quiz": [
       {
-        "q": "What was Prophet Ibrahim known as?",
+        "q": "¿Por qué era conocido el Profeta Ibrahim?",
         "options": [
-          "Prophet of Thunder",
-          "Friend of Allah",
-          "King of Nations"
+          "Profeta del Trueno",
+          "Amigo de Allah",
+          "Rey de las Naciones"
         ],
         "correct": 1,
-        "explanation": "Ibrahim is called 'Khalilullah' — the Friend of Allah."
+        "explanation": "Ibrahim es llamado 'Jalilullah' — el Amigo de Allah."
       },
       {
-        "q": "What did Ibrahim break?",
+        "q": "¿Qué rompió Ibrahim?",
         "options": [
-          "The Kaaba",
-          "Idols people worshipped",
-          "A window"
+          "La Kaaba",
+          "Los ídolos que la gente adoraba",
+          "Una ventana"
         ],
         "correct": 1,
-        "explanation": "Ibrahim broke the idols people were worshipping to show only Allah deserves worship."
+        "explanation": "Ibrahim rompió los ídolos que la gente adoraba para mostrar que solo Allah merece adoración."
       },
       {
-        "q": "What did Allah ask Ibrahim to build?",
+        "q": "¿Qué le pidió Allah a Ibrahim que construyera?",
         "options": [
-          "A house",
-          "The Kaaba",
-          "A school"
+          "Una casa",
+          "La Kaaba",
+          "Una escuela"
         ],
         "correct": 1,
-        "explanation": "Allah asked Ibrahim to build the Kaaba in Mecca."
+        "explanation": "Allah le pidió a Ibrahim que construyera la Kaaba en La Meca."
       }
     ]
   },
   {
     "id": "islamic_civilization",
-    "title": "Islamic Civilization",
+    "title": "Civilización Islámica",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_20_topic_islamic_civilization-gNpeURs5zuRnR3dMvEndDR.webp?updatedAt=1781117902871",
     "emoji": "🏛️",
     "category": "stories_history",
     "content": {
-      "starter": "Muslims built amazing things long ago! They made beautiful mosques, hospitals, schools, and libraries. They studied science, math, and medicine. Muslims invented things we still use today — like cameras, universities, and coffee!",
-      "explorer": "Islamic civilization made incredible contributions to the world. Muslim scholars invented algebra, developed modern medicine, built the first universities, and preserved ancient Greek knowledge. Cities like Baghdad, Cordoba, and Cairo were centers of learning. Inventions include the camera (camera obscura), surgical instruments, and windmills. Muslims also built beautiful architecture like the Alhambra and the Dome of the Rock.",
-      "thinker": "The Islamic Golden Age (8th-14th centuries) was one of the most productive periods of scholarship in human history. Scholars like Al-Khwarizmi (algebra), Ibn Sina (medicine), Al-Kindi (philosophy), and Fatima al-Fihri (first university) transformed human knowledge. The House of Wisdom in Baghdad translated and preserved Greek, Persian, and Indian texts that would have been lost. Islamic civilization pioneered hospitals (bimaristans), observatories, and public libraries. The concept of the university was literally invented by Muslims — the University of al-Qarawiyyin in Fez, Morocco, founded by Fatima al-Fihri in 859 CE, is recognized by UNESCO as the oldest existing university."
+      "starter": "¡Los musulmanes construyeron cosas asombrosas hace mucho tiempo! Hicieron hermosas mezquitas, hospitales, escuelas y bibliotecas. Estudiaron ciencia, matemáticas y medicina. ¡Los musulmanes inventaron cosas que todavía usamos hoy — como cámaras, universidades y café!",
+      "explorer": "La civilización islámica hizo contribuciones increíbles al mundo. Los eruditos musulmanes inventaron el álgebra, desarrollaron la medicina moderna, construyeron las primeras universidades y preservaron el conocimiento griego antiguo. Ciudades como Bagdad, Córdoba y El Cairo eran centros de aprendizaje. Los inventos incluyen la cámara (cámara oscura), instrumentos quirúrgicos y molinos de viento. Los musulmanes también construyeron hermosa arquitectura como la Alhambra y la Cúpula de la Roca.",
+      "thinker": "La Edad de Oro Islámica (siglos VIII-XIV) fue uno de los períodos más productivos de erudición en la historia humana. Eruditos como Al-Jwarizmi (álgebra), Ibn Sina (medicina), Al-Kindi (filosofía) y Fátima al-Fihri (primera universidad) transformaron el conocimiento humano. La Casa de la Sabiduría en Bagdad tradujo y preservó textos griegos, persas e indios que se habrían perdido. La civilización islámica fue pionera en hospitales (bimaristanes), observatorios y bibliotecas públicas. El concepto de universidad fue literalmente inventado por los musulmanes — la Universidad de al-Qarawiyyin en Fez, Marruecos, fundada por Fátima al-Fihri en 859 d.C., es reconocida por la UNESCO como la universidad existente más antigua."
     },
-    "funFact": "Did you know? The first university in the world was built by a Muslim woman — Fatima al-Fihri — in Morocco in the year 859 CE!",
+    "funFact": "¿Sabías? ¡La primera universidad del mundo fue construida por una mujer musulmana — Fátima al-Fihri — en Marruecos en el año 859 d.C.!",
     "quiz": [
       {
-        "q": "What did Al-Khwarizmi invent?",
+        "q": "¿Qué inventó Al-Jwarizmi?",
         "options": [
-          "Medicine",
-          "Algebra",
-          "Astronomy"
+          "Medicina",
+          "Álgebra",
+          "Astronomía"
         ],
         "correct": 1,
-        "explanation": "Al-Khwarizmi invented algebra — the word 'algorithm' comes from his name!"
+        "explanation": "Al-Jwarizmi inventó el álgebra — ¡la palabra 'algoritmo' viene de su nombre!"
       },
       {
-        "q": "Who built the first university in the world?",
+        "q": "¿Quién construyó la primera universidad del mundo?",
         "options": [
-          "A Muslim man",
-          "Fatima al-Fihri",
-          "A Greek scholar"
+          "Un hombre musulmán",
+          "Fátima al-Fihri",
+          "Un erudito griego"
         ],
         "correct": 1,
-        "explanation": "Fatima al-Fihri, a Muslim woman, built the first university in Morocco in 859 CE."
+        "explanation": "Fátima al-Fihri, una mujer musulmana, construyó la primera universidad en Marruecos en 859 d.C."
       },
       {
-        "q": "What was the Islamic Golden Age known for?",
+        "q": "¿Por qué era conocida la Edad de Oro Islámica?",
         "options": [
-          "Only art",
-          "Advances in science, math, and medicine",
-          "Only farming"
+          "Solo arte",
+          "Avances en ciencia, matemáticas y medicina",
+          "Solo agricultura"
         ],
         "correct": 1,
-        "explanation": "Muslims made incredible advances in science, math, medicine, and many other fields."
+        "explanation": "Los musulmanes hicieron avances increíbles en ciencia, matemáticas, medicina y muchos otros campos."
       }
     ]
   },
   {
     "id": "ramadan",
-    "title": "Ramadan",
+    "title": "Ramadán",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_39_ramadan_overview-KSNdX85Mzos8r2Xf3JL6rh.webp?updatedAt=1781117901328",
     "emoji": "🌙",
     "category": "special_times",
     "content": {
-      "starter": "Ramadan is the best month! It's when Allah sent the Quran. We fast from sunrise to sunset — no eating or drinking! At night, we pray, read Quran, and have iftar with family. Everyone is happy and kind during Ramadan!",
-      "explorer": "Ramadan is the ninth month of the Islamic calendar and the holiest month for Muslims. The Quran was first revealed during Ramadan. Muslims fast from dawn to sunset, refraining from food, drink, and other physical needs. It's a time of increased prayer, charity, and Quran reading. Ramadan teaches self-discipline, empathy for the poor, and brings families and communities together.",
-      "thinker": "Ramadan is the month in which the Quran was revealed as guidance for humanity (Surah Al-Baqarah 2:185). Fasting (Sawm) during Ramadan is the fourth pillar of Islam and serves multiple purposes: developing taqwa (God-consciousness), purifying the soul, building empathy for the less fortunate, and strengthening community bonds. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a spiritual rhythm throughout the month. The last 10 nights are especially sacred, as Laylat al-Qadr (the Night of Power) — described as 'better than a thousand months' — falls within them. Ramadan transforms communities: charity increases, tempers cool, and hearts soften."
+      "starter": "¡El Ramadán es el mejor mes! Es cuando Allah envió el Corán. Ayunamos desde que sale el sol hasta que se pone — ¡sin comer ni beber! Por la noche, oramos, leemos el Corán y tenemos iftar con la familia. ¡Todos están felices y amables durante el Ramadán!",
+      "explorer": "El Ramadán es el noveno mes del calendario islámico y el mes más sagrado para los musulmanes. El Corán fue revelado por primera vez durante el Ramadán. Los musulmanes ayunan desde el amanecer hasta el atardecer, absteniéndose de comida, bebida y otras necesidades físicas. Es un tiempo de mayor oración, caridad y lectura del Corán. El Ramadán enseña autodisciplina, empatía por los pobres y une a las familias y comunidades.",
+      "thinker": "El Ramadán es el mes en que fue revelado el Corán como guía para la humanidad (Sura Al-Baqarah 2:185). El ayuno (Sawm) durante el Ramadán es el cuarto pilar del Islam y sirve múltiples propósitos: desarrollar taqwa (conciencia de Dios), purificar el alma, construir empatía por los menos afortunados y fortalecer los lazos comunitarios. La comida del amanecer (Suhur) y la comida del atardecer (Iftar) crean un ritmo espiritual durante todo el mes. Las últimas 10 noches son especialmente sagradas, ya que Laylat al-Qadr (la Noche del Destino) — descrita como 'mejor que mil meses' — cae dentro de ellas. El Ramadán transforma las comunidades: la caridad aumenta, los ánimos se calman y los corazones se ablandan."
     },
-    "funFact": "Did you know? Laylat al-Qadr (the Night of Power) in Ramadan is better than 1,000 months — that's over 83 years of blessings in just one night!",
+    "funFact": "¿Sabías? Laylat al-Qadr (la Noche del Destino) en el Ramadán es mejor que 1.000 meses — ¡eso es más de 83 años de bendiciones en una sola noche!",
     "quiz": [
       {
-        "q": "During which month was the Quran revealed?",
+        "q": "¿Durante qué mes fue revelado el Corán?",
         "options": [
           "Muharram",
-          "Ramadan",
+          "Ramadán",
           "Shawwal"
         ],
         "correct": 1,
-        "explanation": "The Quran was first revealed during the month of Ramadan."
+        "explanation": "El Corán fue revelado por primera vez durante el mes de Ramadán."
       },
       {
-        "q": "What is Laylat al-Qadr?",
+        "q": "¿Qué es Laylat al-Qadr?",
         "options": [
-          "A regular night",
-          "The Night of Power, better than 1,000 months",
-          "The first day of Ramadan"
+          "Una noche normal",
+          "La Noche del Destino, mejor que 1.000 meses",
+          "El primer día del Ramadán"
         ],
         "correct": 1,
-        "explanation": "Laylat al-Qadr (Night of Power) is better than 1,000 months of worship."
+        "explanation": "Laylat al-Qadr (Noche del Destino) es mejor que 1.000 meses de adoración."
       },
       {
-        "q": "What is the pre-dawn meal called?",
+        "q": "¿Cómo se llama la comida del amanecer?",
         "options": [
           "Iftar",
-          "Suhoor",
-          "Dhuhr"
+          "Suhur",
+          "Duhur"
         ],
         "correct": 1,
-        "explanation": "The pre-dawn meal before fasting is called Suhoor."
+        "explanation": "La comida del amanecer antes del ayuno se llama Suhur."
       }
     ]
   },
   {
     "id": "eid_al_fitr",
-    "title": "Eid al-Fitr",
+    "title": "Eid al-Fitr - Fiesta del Fin del Ayuno",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_42_eid_fitr_celebration-WoRzqkwEMUXtjWTsNNttWJ.webp?updatedAt=1781117904296",
     "emoji": "🎉",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Fitr is the happy day after Ramadan! We wear new clothes, eat yummy food, give gifts, and say 'Eid Mubarak!' to everyone. We give money to poor people called Zakat al-Fitr. It's like a big party for Allah!",
-      "explorer": "Eid al-Fitr marks the end of Ramadan and is one of the two major Islamic holidays. Muslims gather for a special prayer, give Zakat al-Fitr (charity to the poor), wear their best clothes, and celebrate with family and friends. Children receive gifts and money (Eidi). It's a day of joy, gratitude, and community after a month of fasting and worship.",
-      "thinker": "Eid al-Fitr ('Festival of Breaking the Fast') is celebrated on the first day of Shawwal, the month following Ramadan. It begins with a special congregational prayer and sermon, followed by Zakat al-Fitr — a mandatory charity given before the Eid prayer to ensure even the poorest can celebrate. The Prophet ﷺ would wear his best clothes on Eid and apply perfume. Eid is a day of celebration, but also of reflection — thanking Allah for the strength to complete Ramadan and asking for acceptance of our worship. It strengthens community bonds as Muslims visit relatives, share meals, and reconcile differences."
+      "starter": "¡Eid al-Fitr es el día feliz después del Ramadán! Usamos ropa nueva, comemos comida deliciosa, damos regalos y decimos '¡Eid Mubarak!' a todos. Damos dinero a las personas pobres llamado Zakat al-Fitr. ¡Es como una gran fiesta para Allah!",
+      "explorer": "Eid al-Fitr marca el final del Ramadán y es una de las dos fiestas islámicas principales. Los musulmanes se reúnen para una oración especial, dan Zakat al-Fitr (caridad a los pobres), usan sus mejores ropas y celebran con familia y amigos. Los niños reciben regalos y dinero (Eidi). Es un día de alegría, gratitud y comunidad después de un mes de ayuno y adoración.",
+      "thinker": "Eid al-Fitr ('Festival de la Ruptura del Ayuno') se celebra el primer día de Shawwal, el mes que sigue al Ramadán. Comienza con una oración congregacional especial y sermón, seguido de Zakat al-Fitr — una caridad obligatoria dada antes de la oración del Eid para asegurar que incluso los más pobres puedan celebrar. El Profeta ﷺ usaba sus mejores ropas en el Eid y se aplicaba perfume. Eid es un día de celebración, pero también de reflexión — agradeciendo a Allah por la fuerza para completar el Ramadán y pidiendo la aceptación de nuestra adoración. Fortalece los lazos comunitarios cuando los musulmanes visitan parientes, comparten comidas y reconcilian diferencias."
     },
-    "funFact": "Did you know? On Eid, you must give charity (Zakat al-Fitr) BEFORE the Eid prayer — so even poor people can celebrate!",
+    "funFact": "¿Sabías? En el Eid, debes dar caridad (Zakat al-Fitr) ANTES de la oración del Eid — ¡para que incluso las personas pobres puedan celebrar!",
     "quiz": [
       {
-        "q": "When is Eid al-Fitr celebrated?",
+        "q": "¿Cuándo se celebra Eid al-Fitr?",
         "options": [
-          "Beginning of Ramadan",
-          "End of Ramadan",
-          "Middle of Ramadan"
+          "Inicio del Ramadán",
+          "Fin del Ramadán",
+          "Medio del Ramadán"
         ],
         "correct": 1,
-        "explanation": "Eid al-Fitr is celebrated at the end of Ramadan."
+        "explanation": "Eid al-Fitr se celebra al final del Ramadán."
       },
       {
-        "q": "What must Muslims give before Eid prayer?",
+        "q": "¿Qué deben dar los musulmanes antes de la oración del Eid?",
         "options": [
-          "More fasting",
-          "Zakat al-Fitr (charity)",
-          "A new car"
+          "Más ayuno",
+          "Zakat al-Fitr (caridad)",
+          "Un coche nuevo"
         ],
         "correct": 1,
-        "explanation": "Zakat al-Fitr is charity given before Eid prayer so the poor can celebrate too."
+        "explanation": "Zakat al-Fitr es caridad dada antes de la oración del Eid para que los pobres también puedan celebrar."
       },
       {
-        "q": "What do we say to others on Eid?",
+        "q": "¿Qué decimos a los demás en el Eid?",
         "options": [
-          "Happy Birthday",
+          "Feliz Cumpleaños",
           "Eid Mubarak",
-          "Good Morning"
+          "Buenos Días"
         ],
         "correct": 1,
-        "explanation": "We say 'Eid Mubarak' — meaning 'Blessed Eid!'"
+        "explanation": "Decimos 'Eid Mubarak' — que significa '¡Eid Bendito!'"
       }
     ]
   },
   {
     "id": "eid_al_adha",
-    "title": "Eid al-Adha",
+    "title": "Eid al-Adha - Fiesta del Sacrificio",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_43_eid_adha_celebration-a8nckcQaGvn3CYJJy7ta5A.webp?updatedAt=1781117903366",
     "emoji": "🐑",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Adha is the big Eid! It remembers when Prophet Ibrahim was ready to sacrifice his son for Allah. Allah was so happy with his faith that He sent a sheep instead! We sacrifice an animal and share the meat with family and poor people!",
-      "explorer": "Eid al-Adha ('Festival of Sacrifice') honors Prophet Ibrahim's willingness to sacrifice his son Ismail for Allah. Before Eid, Muslims who can afford it sacrifice an animal (sheep, goat, cow, or camel) and divide the meat into three parts: one for family, one for friends and neighbors, one for the poor. It coincides with the Hajj pilgrimage and is one of the two major Islamic holidays.",
-      "thinker": "Eid al-Adha commemorates one of the most profound acts of faith in Islamic history — Prophet Ibrahim's willingness to sacrifice his son Ismail in complete obedience to Allah. Just as Ibrahim was about to carry out the sacrifice, Allah replaced Ismail with a ram, and the sacrifice was accepted symbolically. This event is commemorated by millions of Muslims worldwide who sacrifice an animal during the days of Eid. The meat is divided into thirds: family, friends/neighbors, and the poor. Eid al-Adha coincides with the Hajj pilgrimage — while pilgrims are at Arafat, Muslims worldwide celebrate this festival of sacrifice, gratitude, and community."
+      "starter": "¡Eid al-Adha es el Eid grande! Recuerda cuando el Profeta Ibrahim estaba dispuesto a sacrificar a su hijo por Allah. ¡Allah estaba tan feliz con su fe que envió una oveja en su lugar! Sacrificamos un animal y compartimos la carne con la familia y las personas pobres!",
+      "explorer": "Eid al-Adha ('Festival del Sacrificio') honra la disposición del Profeta Ibrahim de sacrificar a su hijo Ismail por Allah. Antes del Eid, los musulmanes que pueden permitírselo sacrifican un animal (oveja, cabra, vaca o camello) y dividen la carne en tres partes: una para la familia, una para amigos y vecinos, una para los pobres. Coincide con la peregrinación del Hajj y es una de las dos fiestas islámicas principales.",
+      "thinker": "Eid al-Adha conmemora uno de los actos de fe más profundos de la historia islámica — la disposición del Profeta Ibrahim de sacrificar a su hijo Ismail en completa obediencia a Allah. Justo cuando Ibrahim estaba a punto de realizar el sacrificio, Allah reemplazó a Ismail con un carnero, y el sacrificio fue aceptado simbólicamente. Este evento es conmemorado por millones de musulmanes en todo el mundo que sacrifican un animal durante los días del Eid. La carne se divide en tercios: familia, amigos/vecinos y los pobres. Eid al-Adha coincide con la peregrinación del Hajj — mientras los peregrinos están en Arafat, los musulmanes de todo el mundo celebran este festival de sacrificio, gratitud y comunidad."
     },
-    "funFact": "Did you know? Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah — but Allah sent a ram instead as a test of faith!",
+    "funFact": "¿Sabías? Eid al-Adha recuerda cuando el Profeta Ibrahim estaba dispuesto a sacrificar a su hijo por Allah — ¡pero Allah envió un carnero en su lugar como prueba de fe!",
     "quiz": [
       {
-        "q": "What does Eid al-Adha remember?",
+        "q": "¿Qué recuerda Eid al-Adha?",
         "options": [
-          "Ramadan ending",
-          "Ibrahim's willingness to sacrifice his son",
-          "The Quran being revealed"
+          "El fin del Ramadán",
+          "La disposición de Ibrahim de sacrificar a su hijo",
+          "La revelación del Corán"
         ],
         "correct": 1,
-        "explanation": "Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah."
+        "explanation": "Eid al-Adha recuerda cuando el Profeta Ibrahim estuvo dispuesto a sacrificar a su hijo por Allah."
       },
       {
-        "q": "How many parts is the sacrificial meat divided into?",
+        "q": "¿En cuántas partes se divide la carne del sacrificio?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "Una parte",
+          "Dos partes",
+          "Tres partes"
         ],
         "correct": 2,
-        "explanation": "The meat is divided into three: family, friends/neighbors, and the poor."
+        "explanation": "La carne se divide en tres: familia, amigos/vecinos y los pobres."
       },
       {
-        "q": "What did Allah send instead of Ibrahim's son?",
+        "q": "¿Qué envió Allah en lugar del hijo de Ibrahim?",
         "options": [
-          "Nothing",
-          "A ram (sheep)",
-          "An angel"
+          "Nada",
+          "Un carnero (oveja)",
+          "Un ángel"
         ],
         "correct": 1,
-        "explanation": "Allah sent a ram to be sacrificed instead, accepting Ibrahim's willingness."
+        "explanation": "Allah envió un carnero para ser sacrificado en su lugar, aceptando la disposición de Ibrahim."
+      }
+    ]
+  },
+  {
+    "id": "al_khwarizmi",
+    "title": "Al-Jwarizmi - Padre del Álgebra",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_25_scholar_al_khwarizmi-YyTnbwqk77BcABwPTm7CYw.webp?updatedAt=1781117901745",
+    "emoji": "📐",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Jwarizmi fue un gran genio matemático musulmán que vivió hace mucho tiempo. ¡Inventó el Álgebra, que nos ayuda a resolver problemas matemáticos usando letras y números! También mostró al mundo entero cómo usar el número cero e introdujo los números del 1 al 9, ¡que todavía usamos hoy!",
+      "explorer": "Muhammad ibn Musa al-Jwarizmi (c. 780–850 d.C.) fue un legendario matemático, astrónomo y geógrafo que trabajó en la Casa de la Sabiduría de Bagdad. Escribió un libro revolucionario llamado 'Kitab al-Yabr' del cual obtenemos la palabra 'Álgebra'. También popularizó el sistema numérico hindú-árabe, incluyendo el punto decimal y el número cero, en el mundo islámico y Europa, estableciendo la base de las matemáticas modernas.",
+      "thinker": "Muhammad ibn Musa al-Jwarizmi (c. 780–850 d.C.) es ampliamente considerado el Padre del Álgebra. Trabajando en la Casa de la Sabiduría de Bagdad durante la Edad de Oro Islámica, su obra maestra, 'El Libro Compendioso sobre el Cálculo por Completación y Equilibrio' ('Al-Kitab al-mujtasar fi hisab al-yabr wal-muqabala'), formalizó una forma sistemática de resolver ecuaciones lineales y cuadráticas. Introdujo el sistema numérico árabe en Occidente, y su nombre latinizado eventualmente dio origen al término 'algoritmo', celebrando su legado duradero como pionero de las matemáticas y la informática."
+    },
+    "funFact": "¿Sabías? La palabra 'álgebra' viene del título de su libro 'Al-Yabr' (que significa restauración/completación), ¡y la palabra 'algoritmo' es una traducción de su propio nombre, Al-Jwarizmi!",
+    "quiz": [
+      {
+        "q": "¿Qué rama de las matemáticas inventó Al-Jwarizmi?",
+        "options": [
+          "Cálculo",
+          "Geometría",
+          "Álgebra"
+        ],
+        "correct": 2,
+        "explanation": "Al-Jwarizmi escribió 'Al-Yabr', creando un sistema estructurado para resolver ecuaciones llamado álgebra."
+      },
+      {
+        "q": "¿Dónde realizó Al-Jwarizmi su investigación científica?",
+        "options": [
+          "Las Pirámides",
+          "La Casa de la Sabiduría en Bagdad",
+          "La Biblioteca de Alejandría"
+        ],
+        "correct": 1,
+        "explanation": "La Casa de la Sabiduría en Bagdad fue el principal centro intelectual de la Edad de Oro Islámica."
+      },
+      {
+        "q": "¿Qué término moderno de informática deriva del nombre de Al-Jwarizmi?",
+        "options": [
+          "Hardware",
+          "Algoritmo",
+          "Internet"
+        ],
+        "correct": 1,
+        "explanation": "La palabra 'algoritmo' viene de la traducción al latín de su nombre, 'Algoritmi'."
+      }
+    ]
+  },
+  {
+    "id": "ibn_sina",
+    "title": "Ibn Sina - Padre de la Medicina",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_26_scholar_ibn_sina-96S5bSYcoRZXXh4aq6Jx7q.webp?updatedAt=1781117902508",
+    "emoji": "🩺",
+    "category": "stories_history",
+    "content": {
+      "starter": "Ibn Sina, también conocido como Avicena, ¡fue un médico y filósofo súper inteligente! Escribió una enorme enciclopedia médica llamada 'El Canon de la Medicina'. ¡Era tan completa que las universidades en Europa la usaron durante cientos de años para enseñar a la gente a convertirse en médicos!",
+      "explorer": "Ibn Sina (Avicena, 980–1037 d.C.) fue un extraordinario polímata persa celebrado como uno de los pensadores más significativos de la Edad de Oro Islámica. Memorizó todo el Corán a los 10 años y era médico practicante a los 18. Su libro mundialmente famoso, 'El Canon de la Medicina' ('Al-Qanun fi al-Tibb'), se convirtió en el libro de texto médico estándar en toda Europa y Asia durante más de 600 años.",
+      "thinker": "Ibn Sina (Avicena, 980–1037 d.C.) fue un erudito legendario cuyas contribuciones moldearon la ciencia médica temprana y la filosofía medieval. Su enorme compilación 'El Canon de la Medicina' introdujo ideas revolucionarias, incluyendo la cuarentena para contener enfermedades infecciosas, ensayos clínicos y farmacología. Además de la medicina, su enciclopedia 'El Libro de la Curación' ('Kitab al-Shifa') cubría lógica, ciencias naturales y metafísica, fusionando teología islámica con filosofía racional."
+    },
+    "funFact": "¿Sabías? Ibn Sina era tan brillante que memorizó todo el Corán a los 10 años y se convirtió en médico practicante respetado a solo 18 años!",
+    "quiz": [
+      {
+        "q": "¿Cuál es el nombre del famoso libro de texto médico de Ibn Sina?",
+        "options": [
+          "El Libro de la Sabiduría",
+          "El Canon de la Medicina",
+          "Las Leyes de la Naturaleza"
+        ],
+        "correct": 1,
+        "explanation": "Ibn Sina escribió 'El Canon de la Medicina', que siguió siendo el texto estándar durante siglos."
+      },
+      {
+        "q": "¿A qué edad memorizó Ibn Sina todo el Corán?",
+        "options": [
+          "10 años",
+          "18 años",
+          "25 años"
+        ],
+        "correct": 0,
+        "explanation": "Ibn Sina memorizó el Corán a los 10 años, mostrando un intelecto genial desde muy joven."
+      },
+      {
+        "q": "¿Qué práctica médica fue pionera Ibn Sina para controlar la propagación de enfermedades contagiosas?",
+        "options": [
+          "Acupuntura",
+          "Cuarentena",
+          "Escayolas"
+        ],
+        "correct": 1,
+        "explanation": "Ibn Sina hipotetizó que las enfermedades se propagaban a través de partículas microscópicas y fue pionero en métodos de cuarentena."
+      }
+    ]
+  },
+  {
+    "id": "al_razi",
+    "title": "Al-Razi - Pionero de la Química",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_27_scholar_al_razi-734zXvqhUQPULCRdzdCjA9.webp?updatedAt=1781117901576",
+    "emoji": "🧪",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Razi fue un médico de buen corazón y un increíble químico. ¡Fue el primero en darse cuenta de que las habitaciones de hospital limpias ayudan a los enfermos a sanar más rápido, y diseñó herramientas de laboratorio avanzadas para estudiar productos químicos!",
+      "explorer": "Al-Razi (Razes, 854–925 d.C.) fue un destacado médico clínico y químico. Fue el primero en diferenciar entre la viruela y el sarampión, escribiendo un tratado médico sobre ellos. En química, categorizó sustancias químicas por primera vez y diseñó equipo de laboratorio, incluyendo retortas y matraces de vidrio, que los químicos todavía usan para realizar experimentos.",
+      "thinker": "Abu Bakr al-Razi (Razes, 854–925 d.C.) fue un titán de la medicina clínica, la ciencia experimental y la química. Como jefe del hospital principal de Bagdad, seleccionó su ubicación colgando carne cruda en varios lugares para encontrar el lugar con el aire más limpio. En su obra maestra 'Kitab al-Hawi' (El Libro Comprensivo), registró casos clínicos. En química, su taxonomía de minerales y compuestos químicos sentó las bases para la química contemporánea."
+    },
+    "funFact": "¿Sabías? En su laboratorio de química, Al-Razi inventó lámparas de queroseno y categorizó elementos químicos. ¡En medicina, eligió ubicaciones para hospitales colgando carne cruda por Bagdad para encontrar dónde el aire era más limpio!",
+    "quiz": [
+      {
+        "q": "¿Cómo eligió Al-Razi el lugar más limpio para construir el hospital de Bagdad?",
+        "options": [
+          "Preguntando al rey",
+          "Colgando carne cruda para ver dónde se descomponía más lento",
+          "Midiendo la temperatura del agua"
+        ],
+        "correct": 1,
+        "explanation": "Colgó carne por la ciudad; el lugar donde la carne se mantuvo fresca más tiempo tenía el aire más limpio."
+      },
+      {
+        "q": "Al-Razi fue el primer médico de la historia en distinguir entre qué dos enfermedades?",
+        "options": [
+          "Viruela y sarampión",
+          "Gripe y malaria",
+          "Resfriados y fiebres"
+        ],
+        "correct": 0,
+        "explanation": "Su tratado sobre la viruela y el sarampión fue aclamado internacionalmente y traducido a múltiples idiomas."
+      },
+      {
+        "q": "¿Qué clasificó Al-Razi en sus estudios químicos?",
+        "options": [
+          "Estrellas y planetas",
+          "Minerales y sustancias",
+          "Animales y plantas"
+        ],
+        "correct": 1,
+        "explanation": "Creó un sistema de clasificación temprano para minerales y sustancias orgánicas, sentando las bases de la química."
+      }
+    ]
+  },
+  {
+    "id": "al_biruni",
+    "title": "Al-Biruni - Maestro de las Ciencias",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_28_scholar_al_biruni-3CxEZkDDXSfMvzUgmWWyDk.webp?updatedAt=1781117901825",
+    "emoji": "🌍",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Biruni fue un detective científico viajero. ¡Le encantaba hacer mapas de la Tierra y mirar las estrellas! Usando una montaña y matemáticas simples, calculó qué tan grande es la Tierra, ¡y lo hizo casi perfectamente correcto!",
+      "explorer": "Al-Biruni (973–1048 d.C.) fue un científico natural y geógrafo. Dominaba múltiples idiomas, incluyendo sánscrito, persa, árabe y griego. Fue pionero en geodesia, usando matemáticas trigonométricas para calcular el radio y la circunferencia de la Tierra con menos del 1% de error. También escribió sobre la composición mineral de las gemas y documentó sistemas de calendario antiguos.",
+      "thinker": "Abu al-Rayhan al-Biruni (973–1048 d.C.) es celebrado como uno de los más grandes científicos de todos los tiempos. Sobresalió en astronomía, geodesia, sociología y mineralogía. Diseñó ecuaciones matemáticas únicas usando la altura de una montaña en el actual Pakistán para calcular el radio de la Tierra, siglos antes de las observaciones satelitales. Su erudición sobre la India ('Kitab al-Hind') es considerada la primera etnografía objetiva y estudio de religión comparada."
+    },
+    "funFact": "¿Sabías? Usando trigonometría y una sola montaña, Al-Biruni calculó el tamaño de la Tierra con un 99.6% de precisión, ¡un cálculo que es casi idéntico al de los satélites modernos!",
+    "quiz": [
+      {
+        "q": "¿Qué medición geográfica calculó Al-Biruni con increíble precisión?",
+        "options": [
+          "La profundidad de los océanos",
+          "La distancia a la Luna",
+          "El tamaño (circunferencia) de la Tierra"
+        ],
+        "correct": 2,
+        "explanation": "Usando una montaña y fórmulas trigonométricas, Al-Biruni calculó el radio de la Tierra con menos del 1% de error."
+      },
+      {
+        "q": "Al-Biruni escribió 'Kitab al-Hind' después de estudiar la cultura y ciencias de qué región?",
+        "options": [
+          "China",
+          "India",
+          "Grecia"
+        ],
+        "correct": 1,
+        "explanation": "Viajó extensamente por la India, aprendiendo sánscrito y escribiendo un análisis cultural completo."
+      },
+      {
+        "q": "¿Qué instrumento astronómico desarrolló aún más Al-Biruni para la navegación?",
+        "options": [
+          "Astrolabio",
+          "Brújula",
+          "Microscopio"
+        ],
+        "correct": 0,
+        "explanation": "Al-Biruni diseñó mapas astronómicos y mejoró los astrolabios para calcular posiciones solares y direcciones de oración."
+      }
+    ]
+  },
+  {
+    "id": "al_ghazali",
+    "title": "Al-Ghazali - Filosofía Islámica",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_29_scholar_al_ghazali-hXQACXYZ4iArCEGuBdVNNd.webp?updatedAt=1781117901160",
+    "emoji": "💡",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Ghazali fue un sabio maestro que estudió cómo piensa la gente. ¡Enseñó que tener un corazón limpio y amable es tan importante como ser súper inteligente, y ayudó a las personas a encontrar la paz mental!",
+      "explorer": "Al-Ghazali (1058–1111 d.C.) fue uno de los teólogos y filósofos islámicos más influyentes. Conocido como 'Huyyat al-Islam' (Prueba del Islam), enseñó en Nizamiyya, la academia más grande de su tiempo. Escribió hermosos libros que combinaban estudio intelectual con reflexión espiritual, ayudando a las personas a equilibrar la ciencia racional con la moral espiritual positiva.",
+      "thinker": "Abu Hamid al-Ghazali (1058–1111 d.C.) moldeó profundamente la filosofía, teología y sufismo islámicos. En su obra principal, 'La Incoherencia de los Filósofos' ('Tahafut al-Falasifah'), debatió la metafísica griega. Sin embargo, en su obra maestra 'Ihya Ulum al-Din' (La Revivificación de las Ciencias de la Religión), sintetizó jurisprudencia, teología intelectual y misticismo espiritual, estableciendo la construcción del carácter y la ética como el corazón de las búsquedas científicas y personales."
+    },
+    "funFact": "¿Sabías? El título de Al-Ghazali es 'Huyyat al-Islam' (Prueba del Islam) debido a su increíble profundidad de conocimiento. ¡Creía que el objetivo final del aprendizaje es construir un carácter noble y la paz interior!",
+    "quiz": [
+      {
+        "q": "¿Qué título es conocido Al-Ghazali famosamente?",
+        "options": [
+          "Padre de la Física",
+          "Huyyat al-Islam (Prueba del Islam)",
+          "Maestro de Oriente y Occidente"
+        ],
+        "correct": 1,
+        "explanation": "Es reconocido como 'Huyjat al-Islam' debido a su dominio de la filosofía teológica."
+      },
+      {
+        "q": "¿Qué ha descrito Al-Ghazali como la revivificación de las ciencias religiosas en su obra maestra?",
+        "options": [
+          "Ética, espiritualidad y conocimiento del corazón",
+          "Construir barcos más rápidos",
+          "Aprender cálculo"
+        ],
+        "correct": 0,
+        "explanation": "'Ihya Ulum al-Din' se enfoca en rejuvenecer la fe, el carácter moral y la conciencia espiritual."
+      },
+      {
+        "q": "Según Al-Ghazali, el objetivo de obtener conocimiento es:",
+        "options": [
+          "Ganar debates",
+          "Construir carácter noble y acercarse a Allah",
+          "Presumir de ello"
+        ],
+        "correct": 1,
+        "explanation": "Enseñó que el conocimiento intelectual no vale nada a menos que esté acompañado de humildad espiritual y altos estándares éticos."
+      }
+    ]
+  },
+  {
+    "id": "fatima_al_fihri",
+    "title": "Fátima al-Fihri - Primera Universidad",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_30_scholar_fatima_al_fihri-oUUmqToz9ELRTCtWCXgCQn.webp?updatedAt=1781117901536",
+    "emoji": "🎓",
+    "category": "stories_history",
+    "content": {
+      "starter": "Fátima al-Fihri fue una mujer musulmana rica y generosa que se mudó a Marruecos. ¡Amaba tanto la lectura, la ciencia y la educación que usó toda su herencia para construir la Universidad de al-Qarawiyyin, la universidad más antigua del mundo!",
+      "explorer": "Fátima al-Fihri (800–880 d.C.) fue una educadora y filántropa inspiradora. En 859 d.C., fundó la Universidad y Mezquita de al-Qarawiyyin en Fez, Marruecos. La UNESCO y el Libro Guinness de los Récords la reconocen como la institución educativa otorgante de títulos más antigua en funcionamiento continuo del mundo.",
+      "thinker": "Fátima al-Fihri (800–880 d.C.) es una pionera en la educación superior global. Después de emigrar a Fez y heredar una vasta fortuna, hizo el voto de gastar su riqueza al servicio de su comunidad. Supervisó la compleja arquitectura y construcción del complejo de la mezquita y universidad de Al-Qarawiyyin, ayunando diariamente durante su construcción de varios años. La universidad se convirtió en un centro de educación mundial, recibiendo a eruditos cristianos, judíos y musulmanes como el Papa Silvestre II."
+    },
+    "funFact": "¿Sabías? Fátima al-Fihri construyó la Universidad de al-Qarawiyyin en 859 d.C. ¡Está oficialmente certificada por la UNESCO como la universidad en funcionamiento más antigua de la historia humana!",
+    "quiz": [
+      {
+        "q": "¿En qué ciudad y país fundó Fátima al-Fihri la universidad más antigua?",
+        "options": [
+          "El Cairo, Egipto",
+          "Fez, Marruecos",
+          "Bagdad, Irak"
+        ],
+        "correct": 1,
+        "explanation": "Fundó la Universidad de al-Qarawiyyin en la ciudad de Fez, Marruecos."
+      },
+      {
+        "q": "¿Qué hizo Fátima durante la construcción de Al-Qarawiyyin?",
+        "options": [
+          "Se fue de vacaciones",
+          "Ayunó diariamente hasta su finalización",
+          "Se fue de viaje en velero"
+        ],
+        "correct": 1,
+        "explanation": "Como acto de piedad, Fátima al-Fihri hizo el voto de ayunar todos los días durante los años que tomó construirla."
+      },
+      {
+        "q": "Según la UNESCO, ¿qué distinción tiene la Universidad de al-Qarawiyyin?",
+        "options": [
+          "Solo la biblioteca más antigua en funcionamiento",
+          "La universidad otorgante de títulos en funcionamiento continuo más antigua del mundo",
+          "La primera escuela de medicina en Europa"
+        ],
+        "correct": 1,
+        "explanation": "Al-Qarawiyyin ha estado funcionando completamente y otorgando títulos universitarios continuamente desde 859 d.C."
+      }
+    ]
+  },
+  {
+    "id": "ibn_khaldun",
+    "title": "Ibn Jaldún - Padre de la Sociología",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_31_scholar_ibn_khaldun-22Tqw9TsmYYVf9NDTfPHYp.webp?updatedAt=1781117901557",
+    "emoji": "📜",
+    "category": "stories_history",
+    "content": {
+      "starter": "Ibn Jaldún fue un experto narrador de historias e historiador. ¡Fue el primer erudito en darse cuenta de que estudiar *grupos de personas* y cómo crecen las sociedades es una ciencia especial, que ahora llamamos sociología!",
+      "explorer": "Ibn Jaldún (1332–1406 d.C.) fue un legendario historiador árabe, sociólogo y filósofo. En su asombroso libro, 'Al-Muqaddimah' (La Introducción), introdujo la 'Asabiyyah' (cohesión social), explicando cómo los grandes imperios se elevan, prosperan, envejecen y eventualmente se disuelven.",
+      "thinker": "Ibn Jaldún (1332–1406 d.C.) es ampliamente considerado un padre fundador de la sociología, la economía, la historia y la demografía. Su monumental libro 'Al-Muqaddimah' formuló una filosofía de la historia. Introdujo el concepto de 'Asabiyyah' — cohesión social o solidaridad grupal — para explicar los ciclos históricos, analizando cómo las culturas nómadas establecen civilizaciones que se elevan, decaen después de tres generaciones y ceden a nuevas alianzas sociales dinámicas."
+    },
+    "funFact": "¿Sabías? Ibn Jaldún escribió todo su libro que cambió el mundo 'Al-Muqaddimah' (que representa la sociología y economía tempranas) ¡años antes de que los eruditos occidentales establecieran la sociología como campo!",
+    "quiz": [
+      {
+        "q": "¿Cuál es el título del libro de introducción histórica mundialmente famoso de Ibn Jaldún?",
+        "options": [
+          "Al-Muqaddimah (La Introducción)",
+          "El Libro de la Historia",
+          "La Edad de Oro"
+        ],
+        "correct": 0,
+        "explanation": "Escribió 'Al-Muqaddimah', que analizó el crecimiento sociopolítico de las sociedades."
+      },
+      {
+        "q": "¿Qué disciplina científica importante fue pionera Ibn Jaldún siglos antes que los eruditos occidentales?",
+        "options": [
+          "Sociología e Historiografía",
+          "Física Nuclear",
+          "Biología Marina"
+        ],
+        "correct": 0,
+        "explanation": "Su análisis sistemático de patrones sociales y ciclos históricos lo hace el padre de la sociología."
+      },
+      {
+        "q": "¿Qué es la 'Asabiyyah', el concepto central propuesto por Ibn Jaldún?",
+        "options": [
+          "Habilidades de navegación",
+          "Solidaridad y cohesión social",
+          "Cálculos astronómicos"
+        ],
+        "correct": 1,
+        "explanation": "'Asabiyyah' es el vínculo comunitario o solidaridad grupal social que permite a las sociedades construir naciones estables."
       }
     ]
   }

@@ -1,1306 +1,1621 @@
 [
   {
     "id": "shahada",
-    "title": "Shahada - Declaration of Faith",
+    "title": "Shahada - 信仰宣言",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☪️",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "The Shahada says: \"There is no god but Allah, and Muhammad is His messenger.\" This is the most important sentence in Islam! When we say it, we tell everyone we believe in Allah and love His Prophet. It makes our heart light and happy!",
-      "explorer": "The Shahada is the first pillar of Islam. It has two parts: first, believing that only Allah is God — no one else deserves worship. Second, believing that Prophet Muhammad ﷺ is Allah's final messenger. Saying the Shahada with sincerity makes you Muslim. It's not just words — it's a promise from your heart to follow Allah's guidance.",
-      "thinker": "The Shahada is far more than a declaration — it's a complete worldview. The first part, \"La ilaha illallah,\" negates all false gods and affirms monotheism (Tawheed). The second part, \"Muhammadun rasulullah,\" establishes the prophetic authority of Muhammad ﷺ. Together, they form the foundation upon which all other Islamic practices are built. Understanding the Shahada means understanding the essence of submission to Allah."
+      "starter": "Shahada（作证词）说的是：“万物非主，唯有真主，穆罕默德是真主的使者。”这是伊斯兰中最重要的句子！当我们念诵它时，就是在告诉所有人我们信仰真主，敬爱他的先知。它让我们的心变得轻松快乐！",
+      "explorer": "Shahada（作证词）是伊斯兰的第一大支柱。它包含两部分：第一，相信只有真主是唯一的神——没有任何人值得崇拜；第二，相信先知穆罕默德ﷺ是真主的最后一位使者。真诚地念诵Shahada，你就成为了穆斯林。这不仅仅是语言——更是发自内心遵循真主指引的承诺。",
+      "thinker": "Shahada（作证词）远不止是一种宣言——它是一种完整的世界观。第一部分“La ilaha illallah”（万物非主，唯有真主）否定了一切虚假的神灵，确认了一神论（Tawheed，认主独一）。第二部分“Muhammadun rasulullah”（穆罕默德是真主的使者）确立了穆罕默德ﷺ的先知权威。这两部分共同构成了伊斯兰所有其他实践的基础。理解Shahada就意味着理解了顺从真主的本质。"
     },
-    "funFact": "Did you know? The Shahada is whispered into a newborn baby's ear and is also the last words many Muslims hope to say before they pass away!",
+    "funFact": "你知道吗？Shahada会被轻轻念给新生儿听，也是许多穆斯林在临终前希望说的最后一句话！",
     "quiz": [
       {
-        "q": "What does Shahada mean?",
+        "q": "Shahada是什么意思？",
         "options": [
-          "Declaration of Faith",
-          "Daily Prayer",
-          "Charity Giving"
+          "信仰宣言",
+          "每日礼拜",
+          "施舍济贫"
         ],
         "correct": 0,
-        "explanation": "Shahada means 'Declaration of Faith' — it's the statement that makes someone Muslim."
+        "explanation": "Shahada的意思是“信仰宣言”——它是使人成为穆斯林的宣言。"
       },
       {
-        "q": "How many parts does the Shahada have?",
+        "q": "Shahada包含几个部分？",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "一个部分",
+          "两个部分",
+          "三个部分"
         ],
         "correct": 1,
-        "explanation": "The Shahada has two parts: believing in one God and believing Muhammad is His messenger."
+        "explanation": "Shahada包含两个部分：信仰唯一的真主，以及信仰穆罕默德是他的使者。"
       },
       {
-        "q": "Who is the last prophet mentioned in the Shahada?",
+        "q": "Shahada中提到的最后一位先知是谁？",
         "options": [
-          "Prophet Musa",
-          "Prophet Isa",
-          "Prophet Muhammad"
+          "穆萨圣人",
+          "尔萨圣人",
+          "穆罕默德圣人"
         ],
         "correct": 2,
-        "explanation": "The Shahada mentions Prophet Muhammad ﷺ as Allah's final messenger."
+        "explanation": "Shahada提到先知穆罕默德ﷺ是真主的最后一位使者。"
       }
     ]
   },
   {
     "id": "salah",
-    "title": "Salah - Prayer",
+    "title": "Salah - 礼拜",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🤲",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Salah is talking to Allah! Five times a day, we stop what we're doing, wash our hands and face (that's called wudu), face Mecca, and pray. It's like a special phone call to Allah. He loves when we talk to Him!",
-      "explorer": "Salah is the second pillar of Islam. Muslims pray five times a day: Fajr (dawn), Dhuhr (noon), Asr (afternoon), Maghrib (sunset), and Isha (night). Each prayer involves standing, bowing, and prostrating while reciting verses from the Quran. Salah keeps us connected to Allah throughout the day and teaches us discipline and gratitude.",
-      "thinker": "The five daily prayers (Salawat) are a gift from Allah, prescribed during the Night Journey (Isra and Mi'raj). Each prayer corresponds to a spiritual state: Fajr purifies the soul before the day begins, Dhuhr provides a midday recharge, Asr encourages reflection, Maghrib marks gratitude for the day's blessings, and Isha offers peace before sleep. The physical movements — standing (qiyam), bowing (ruku), and prostration (sujud) — are acts of humility that remind us of our relationship with our Creator."
+      "starter": "Salah（礼拜）就是和真主对话！每天五次，我们停下手头的事情，洗净手和脸（这叫做小净），面向麦加，然后礼拜。这就像给真主打一个特别的电话。他喜欢我们和他交谈！",
+      "explorer": "Salah（礼拜）是伊斯兰的第二大支柱。穆斯林每天礼拜五次：晨礼（Fajr，黎明）、晌礼（Dhuhr，正午）、晡礼（Asr，下午）、昏礼（Maghrib，日落）和宵礼（Isha，夜晚）。每次礼拜包括站立、鞠躬和叩头，同时诵读古兰经文。礼拜让我们一天中都保持与真主的联系，教会我们自律和感恩。",
+      "thinker": "五番礼拜（Salawat）是真主赐予的礼物，在夜行登霄（Isra and Mi'raj）中被规定。每番礼拜对应一种精神状态：晨礼在一天开始前净化灵魂，晌礼提供午间的充能，晡礼鼓励反思，昏礼感恩一天的恩典，宵礼在入睡前带来安宁。身体的动作——站立（qiyam）、鞠躬（ruku）和叩头（sujud）——都是谦卑的表现，提醒我们与造物主之间的关系。"
     },
-    "funFact": "Did you know? Muslims face the Kaaba in Mecca when they pray, no matter where they are in the world! Even from space, astronauts pray toward Mecca!",
+    "funFact": "你知道吗？穆斯林礼拜时面向麦加的天房，无论他们在世界上的哪个角落！即使是在太空中的宇航员也朝向麦加礼拜！",
     "quiz": [
       {
-        "q": "How many times a day do Muslims pray?",
+        "q": "穆斯林每天礼拜几次？",
         "options": [
-          "Three times",
-          "Five times",
-          "Seven times"
+          "三次",
+          "五次",
+          "七次"
         ],
         "correct": 1,
-        "explanation": "Muslims pray five times a day: Fajr, Dhuhr, Asr, Maghrib, and Isha."
+        "explanation": "穆斯林每天礼拜五次：晨礼、晌礼、晡礼、昏礼和宵礼。"
       },
       {
-        "q": "What do we do before praying?",
+        "q": "礼拜之前我们要做什么？",
         "options": [
-          "Eat food",
-          "Perform wudu (ablution)",
-          "Read a book"
+          "吃东西",
+          "做小净（Wudu）",
+          "读书"
         ],
         "clean": 1,
-        "explanation": "We perform wudu (ablution) to clean ourselves before praying."
+        "explanation": "我们在礼拜之前做小净（Wudu）来清洁自己。"
       },
       {
-        "q": "Which direction do Muslims face when praying?",
+        "q": "穆斯林礼拜时面向哪个方向？",
         "options": [
-          "North",
-          "The Kaaba in Mecca",
-          "East"
+          "北方",
+          "麦加的天房",
+          "东方"
         ],
         "correct": 1,
-        "explanation": "Muslims face the Kaaba in Mecca, which is called the Qibla."
+        "explanation": "穆斯林面向麦加的天房礼拜，这个方向叫做朝向（Qibla）。"
       }
     ]
   },
   {
     "id": "zakat",
-    "title": "Zakat - Charity",
+    "title": "Zakat - 天课",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_45_zakat_overview-iB69C239XxvYzdfsgqWaNR.webp?updatedAt=1781117902141",
     "emoji": "💰",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Zakat means sharing what we have with others! If we have extra money, we give a little bit to people who need it. It's like Allah is asking us to be kind and share. When we give, our hearts feel happy!",
-      "explorer": "Zakat is the third pillar of Islam. It means giving 2.5% of your savings each year to those in need. It's not optional — it's an obligation for Muslims who have wealth above a certain amount. Zakat purifies our money and reminds us that everything belongs to Allah. It helps the poor, pays off debts, and strengthens the community.",
-      "thinker": "Zakat is both a social and spiritual obligation. The word 'zakat' means 'purification' and 'growth' — by giving a portion of our wealth, we purify the remainder and grow spiritually. Allah says in the Quran that those who pay Zakat are helping to purify themselves (At-Tawbah 9:103). The fixed rate of 2.5% (one-fortieth) applies to savings held for one lunar year above the nisab threshold. This systematic approach to wealth redistribution was revolutionary and remains one of Islam's most powerful social justice mechanisms."
+      "starter": "Zakat（天课）就是和别人分享我们拥有的东西！如果我们有多余的钱，就拿出一小部分给需要的人。这就像真主要求我们善良和分享。当我们施舍的时候，心里会感到快乐！",
+      "explorer": "Zakat（天课）是伊斯兰的第三大支柱。它意味着每年将储蓄的2.5%给予有需要的人。这不是可选的——对于财富超过一定数额的穆斯林来说，这是一项义务。天课净化我们的财产，提醒我们一切属于真主。它帮助穷人、偿还债务，并增强社区力量。",
+      "thinker": "天课既是一项社会义务，也是精神义务。“Zakat”一词意味着“净化”和“增长”——通过捐出部分财富，我们净化剩余的部分，并在精神上获得成长。真主在古兰经中说，缴纳天课的人是在帮助净化自己（《忏悔章》9:103）。2.5%（四十分之一）的固定税率适用于超过起征额（nisab）且持有一整个阴历年的储蓄。这种系统性的财富再分配方式在当时是革命性的，至今仍是伊斯兰最强大的社会正义机制之一。"
     },
-    "funFact": "Did you know? The word 'Zakat' means 'purification' — when you give Zakat, your remaining money becomes blessed and pure!",
+    "funFact": "你知道吗？“Zakat”这个词的意思是“净化”——当你缴纳天课时，你剩余的钱会变得蒙受吉庆和纯洁！",
     "quiz": [
       {
-        "q": "What percentage of savings is given as Zakat?",
+        "q": "天课的缴纳比例是多少？",
         "options": [
           "1%",
           "2.5%",
           "10%"
         ],
         "correct": 1,
-        "explanation": "Muslims give 2.5% (one-fortieth) of their savings as Zakat each year."
+        "explanation": "穆斯林每年缴纳储蓄的2.5%（四十分之一）作为天课。"
       },
       {
-        "q": "What does the word 'Zakat' mean?",
+        "q": "Zakat这个词是什么意思？",
         "options": [
-          "Charity",
-          "Purification",
-          "Prayer"
+          "慈善",
+          "净化",
+          "礼拜"
         ],
         "correct": 1,
-        "explanation": "Zakat means 'purification' — it purifies our wealth and our hearts."
+        "explanation": "Zakat的意思是“净化”——它净化我们的财富和心灵。"
       },
       {
-        "q": "Who receives Zakat?",
+        "q": "谁接受天课？",
         "options": [
-          "Only family",
-          "People in need",
-          "Only the rich"
+          "只有家人",
+          "有需要的人",
+          "只有富人"
         ],
         "correct": 1,
-        "explanation": "Zakat is given to people in need, including the poor, debtors, and travelers."
+        "explanation": "天课给予有需要的人，包括穷人、负债者和旅行者。"
       }
     ]
   },
   {
     "id": "sawm",
-    "title": "Sawm - Fasting in Ramadan",
+    "title": "Sawm - 斋戒",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_40_ramadan_fasting-SeQhGeRR5buiYbtryMhUKA.webp?updatedAt=1781117899738",
     "emoji": "🌙",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "During Ramadan, we don't eat or drink from sunrise to sunset. That's called fasting! It teaches us to be patient and think about people who don't have food. At night, we break our fast with family and pray together. It's very special!",
-      "explorer": "Sawm means fasting during the month of Ramadan, the fourth pillar of Islam. From dawn to sunset, Muslims abstain from food, drink, and other physical needs. But fasting is not just about staying hungry — it's about building patience, empathy for the poor, and getting closer to Allah. The fast is broken at sunset with a meal called Iftar, often shared with family and community.",
-      "thinker": "Sawm during Ramadan is a comprehensive act of worship that trains the body, mind, and soul. The Quran was first revealed during Ramadan (Surah Al-Baqarah 2:185), making this month especially sacred. Fasting develops taqwa (God-consciousness) by creating a physical reminder of Allah's presence. Beyond abstaining from food and drink, Muslims are encouraged to avoid negative speech, anger, and gossip. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a rhythm of gratitude and community that transforms the entire month."
+      "starter": "在斋月期间，我们从日出到日落不吃不喝。这就叫做斋戒！它教会我们要有耐心，想到那些没有食物的人。到了晚上，我们和家人一起开斋，一起礼拜。这非常特别！",
+      "explorer": "Sawm（斋戒）是指在斋月期间禁食，是伊斯兰的第四大支柱。从黎明到日落，穆斯林戒除食物、饮水和其他身体需求。但斋戒不仅仅是挨饿——它是培养耐心、对穷人的同理心，以及更加亲近真主。斋戒在日落时用一顿叫做开斋饭（Iftar）的餐食来打破，通常与家人和社区一起分享。",
+      "thinker": "斋月期间的斋戒是一项全面的功修，锻炼身体、思想和灵魂。古兰经首次在斋月降示（《黄牛章》2:185），使得这个月格外神圣。斋戒通过身体的提醒来培养敬畏（Taqwa，敬畏真主），让人时刻意识到真主的存在。除了戒除饮食，穆斯林还被鼓励避免恶言、愤怒和闲话。封斋饭（Suhoor）和开斋饭（Iftar）创造了感恩与社区的节奏，使整个月都充满转变。"
     },
-    "funFact": "Did you know? Muslims break their fast with dates, just like Prophet Muhammad ﷺ used to! The word 'Iftar' means 'breaking the fast'!",
+    "funFact": "你知道吗？穆斯林用椰枣开斋，就像先知穆罕默德ﷺ曾经做的那样！“Iftar”这个词的意思就是“开斋”！",
     "quiz": [
       {
-        "q": "During which month do Muslims fast?",
+        "q": "穆斯林在哪个月份斋戒？",
         "options": [
-          "Muharram",
-          "Ramadan",
-          "Shawwal"
+          "穆哈兰月",
+          "斋月",
+          "沙瓦尔月"
         ],
         "correct": 1,
-        "explanation": "Muslims fast during the holy month of Ramadan."
+        "explanation": "穆斯林在神圣的斋月期间斋戒。"
       },
       {
-        "q": "What is the meal called when we break our fast?",
+        "q": "开斋时吃的饭叫什么？",
         "options": [
-          "Suhoor",
-          "Iftar",
-          "Dhuhr"
+          "封斋饭（Suhoor）",
+          "开斋饭（Iftar）",
+          "晌礼（Dhuhr）"
         ],
         "correct": 1,
-        "explanation": "The meal at sunset to break the fast is called Iftar."
+        "explanation": "日落时开斋的那顿饭叫做开斋饭（Iftar）。"
       },
       {
-        "q": "What food did Prophet Muhammad ﷺ use to break his fast?",
+        "q": "先知穆罕默德ﷺ用什么食物开斋？",
         "options": [
-          "Bread",
-          "Dates",
-          "Rice"
+          "面包",
+          "椰枣",
+          "米饭"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ would break his fast with dates and water."
+        "explanation": "先知穆罕默德ﷺ用椰枣和水开斋。"
       }
     ]
   },
   {
     "id": "hajj",
-    "title": "Hajj - Pilgrimage to Mecca",
+    "title": "Hajj - 朝觐",
     "image": "https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446",
     "emoji": "🕋",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Hajj is a big trip to Mecca! Every Muslim who is able goes there to pray around the Kaaba — Allah's house. Millions of people go together, wearing simple white clothes. Everyone is equal there — rich or poor, it doesn't matter!",
-      "explorer": "Hajj is the fifth pillar of Islam — a pilgrimage to Mecca that every Muslim must make at least once in their lifetime if they are able. It happens during the Islamic month of Dhul Hijjah. Pilgrims wear simple white clothes called Ihram, circling the Kaaba, walking between hills, and standing in prayer at Arafat. Hajj teaches equality, patience, and devotion to Allah.",
-      "thinker": "Hajj is the world's largest annual gathering and represents the ultimate expression of Islamic unity. Following the footsteps of Prophet Ibrahim ﷺ and his family, pilgrims perform rituals that symbolize sacrifice, purification, and submission to Allah. The wearing of Ihram strips away all markers of wealth and status — everyone stands equal before Allah. The Prophet ﷺ said: 'Hajj is an obligation once in a lifetime for whoever has the ability.' It is a profound spiritual journey that cleanses sins and renews one's connection with the Creator."
+      "starter": "朝觐是一次前往麦加的伟大旅行！每个有能力的穆斯林都要去那里环绕天房——真主的天房礼拜。数百万人一起去，穿着简单的白色衣服。在那里人人平等——无论贫富，都没有区别！",
+      "explorer": "朝觐是伊斯兰的第五大支柱——每个有能力穆斯林一生中必须至少进行一次的麦加朝圣。它在伊斯兰历的祖勒·希哲月进行。朝觐者穿着叫做受戒衣（Ihram）的简单白色衣服，环绕天房，在两山之间行走，在阿拉法特山站立祈祷。朝觐教会我们平等、耐心和对真主的虔诚。",
+      "thinker": "朝觐是世界上最大规模的年度集会，代表了伊斯兰团结的终极表达。追随先知易卜拉欣ﷺ及其家人的脚步，朝觐者进行象征牺牲、净化和顺从真主的仪式。穿着受戒衣去除了所有财富和地位的标志——每个人在真主面前都是平等的。先知ﷺ说：“朝觐是对有能力者一生的义务。”这是一次深刻的精神之旅，能清除罪过，更新与造物主的联系。"
     },
-    "funFact": "Did you know? Over 2 million people perform Hajj every year! When pilgrims throw stones at the pillars (Jamarat), they're following the example of Prophet Ibrahim!",
+    "funFact": "你知道吗？每年有超过200万人进行朝觐！当朝觐者向石柱（Jamarat）投掷石块时，他们是在效仿先知易卜拉欣的榜样！",
     "quiz": [
       {
-        "q": "How often must a Muslim perform Hajj?",
+        "q": "穆斯林一生中必须朝觐几次？",
         "options": [
-          "Every year",
-          "Once in a lifetime",
-          "Every 5 years"
+          "每年一次",
+          "一生一次",
+          "每五年一次"
         ],
         "correct": 1,
-        "explanation": "Every Muslim who is able must perform Hajj at least once in their lifetime."
+        "explanation": "每个有能力穆斯林一生中必须至少朝觐一次。"
       },
       {
-        "q": "What do pilgrims wear during Hajj?",
+        "q": "朝觐者穿什么衣服？",
         "options": [
-          "Regular clothes",
-          "Simple white clothes called Ihram",
-          "Black clothes"
+          "日常衣服",
+          "叫做受戒衣的简单白色衣服",
+          "黑色衣服"
         ],
         "correct": 1,
-        "explanation": "Pilgrims wear simple white clothes called Ihram to show everyone is equal."
+        "explanation": "朝觐者穿着叫做受戒衣（Ihram）的简单白色衣服，表示人人平等。"
       },
       {
-        "q": "Which prophet's example do pilgrims follow at Hajj?",
+        "q": "朝觐者效仿哪位先知的榜样？",
         "options": [
-          "Prophet Musa",
-          "Prophet Ibrahim",
-          "Prophet Isa"
+          "穆萨圣人",
+          "易卜拉欣圣人",
+          "尔萨圣人"
         ],
         "correct": 1,
-        "explanation": "Pilgrims follow the example of Prophet Ibrahim ﷺ and his family."
+        "explanation": "朝觐者效仿先知易卜拉欣ﷺ及其家人的榜样。"
       }
     ]
   },
   {
     "id": "tawheed",
-    "title": "Tawheed - Oneness of God",
+    "title": "Tawheed - 认主独一",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☝️",
     "category": "core_beliefs",
     "content": {
-      "starter": "Tawheed means there is ONLY ONE God — Allah! He created everything: you, me, the stars, the animals, everything! We only pray to Allah, not to anyone else. Allah is the only one who deserves our love and worship!",
-      "explorer": "Tawheed is the most important belief in Islam — that there is only one God, Allah. He has no partners, no family, and no equals. He is the Creator of everything and the only one worthy of worship. Understanding Tawheed means we don't pray to statues, people, or anything else — only to Allah. This belief is the foundation of everything in Islam.",
-      "thinker": "Tawheed is the cornerstone of Islamic theology, encompassing three dimensions: Tawheed ar-Rububiyyah (Oneness of Lordship), Tawheed al-Uluhiyyah (Oneness of Worship), and Tawheed al-Asma wa'l-Sifat (Oneness of Names and Attributes). The first recognizes Allah as the sole Creator and Sustainer. The second directs all forms of worship exclusively to Him. The third affirms that Allah's attributes are unique and incomparable. The Quran states: 'Say, He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is begotten. And there is none comparable to Him' (Surah Al-Ikhlas 112:1-4)."
+      "starter": "Tawheed（认主独一）的意思是只有一位神——真主！他创造了一切：你、我、星星、动物，一切！我们只向真主祈祷，不向其他任何人。真主是唯一值得我们敬爱和崇拜的！",
+      "explorer": "Tawheed（认主独一）是伊斯兰中最重要的信仰——只有一位神，即真主。他没有伙伴，没有家人，也没有等同者。他是万物的创造者，是唯一值得崇拜的。理解Tawheed意味着我们不向偶像、人或任何其他事物祈祷——只向真主祈祷。这个信仰是伊斯兰中一切的基础。",
+      "thinker": "Tawheed（认主独一）是伊斯兰神学的基石，包含三个维度：Tawheed ar-Rububiyyah（主宰的独一）、Tawheed al-Uluhiyyah（崇拜的独一）和Tawheed al-Asma wa'l-Sifat（名号与属性的独一）。第一个维度确认真主是唯一的创造者和维持者；第二个维度将一切形式的崇拜只归于他；第三个维度确认真主的属性是独一无二、无可比拟的。古兰经说：“你说：他是真主，是独一的主。真主是万物所仰赖的。他没有生育，也没有被生。没有任何物可与比拟。”（《忠诚章》112:1-4）"
     },
-    "funFact": "Did you know? The word 'Islam' comes from the root 'salaam' which means peace, and it means submission to Allah — the One God!",
+    "funFact": "你知道吗？“Islam”（伊斯兰）一词来源于词根“salaam”，意为和平，它的意思是顺从真主——唯一的神！",
     "quiz": [
       {
-        "q": "What does Tawheed mean?",
+        "q": "Tawheed是什么意思？",
         "options": [
-          "Many gods",
-          "Oneness of God",
-          "Prayer"
+          "多神",
+          "认主独一",
+          "礼拜"
         ],
         "correct": 1,
-        "explanation": "Tawheed means the Oneness of God — believing there is only one God, Allah."
+        "explanation": "Tawheed的意思是认主独一——相信只有一位神，即真主。"
       },
       {
-        "q": "How many gods does Islam teach us about?",
+        "q": "伊斯兰教导我们有多少位神？",
         "options": [
-          "Many gods",
-          "Only one God",
-          "Two gods"
+          "多位神",
+          "只有一位神",
+          "两位神"
         ],
         "correct": 1,
-        "explanation": "Islam teaches us that there is only one God — Allah."
+        "explanation": "伊斯兰教导我们只有一位神——真主。"
       },
       {
-        "q": "Which surah of the Quran talks about Tawheed?",
+        "q": "古兰经中哪一章讲述Tawheed？",
         "options": [
-          "Al-Fatiha",
-          "Al-Ikhlas",
-          "Al-Baqarah"
+          "开端章",
+          "忠诚章",
+          "黄牛章"
         ],
         "correct": 1,
-        "explanation": "Surah Al-Ikhlas (112) talks about the Oneness of God."
+        "explanation": "忠诚章（第112章）讲述认主独一。"
       }
     ]
   },
   {
     "id": "angels",
-    "title": "Angels",
+    "title": "天使",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "👼",
     "category": "core_beliefs",
     "content": {
-      "starter": "Angels are special creatures made of light! Allah sends them to help us. Some angels write down our good and bad deeds. Some angels take our souls when it's time. Angels always obey Allah and never make mistakes!",
-      "explorer": "Angels are one of the six articles of faith in Islam. They are created from light and always obey Allah. The most famous angel is Jibril (Gabriel), who brought Allah's messages to the prophets. Other important angels include Mikail (Michael), Israfil (who will blow the trumpet on Judgment Day), and Azra'il (the angel of death). Angels record our deeds and protect us.",
-      "thinker": "Angels (Mala'ika) are a fundamental article of Islamic belief. Created from light, they exist in a different dimension and serve Allah in various capacities. Jibril (Gabriel) delivered the Quran to Prophet Muhammad ﷺ. The Kiraman Katibin are recording angels who document every deed. The angel Munkar and Nakir question the dead in their graves. Unlike humans, angels have no free will — they always obey Allah. Their existence reminds us that we are never truly alone and that our actions are always being witnessed."
+      "starter": "天使是真主用光创造的特别存在！真主派遣他们来帮助我们。有些天使记录我们的善行和恶行。有些天使在我们寿限到来时取走我们的灵魂。天使总是顺从真主，从不会犯错！",
+      "explorer": "天使是伊斯兰六大信仰之一。他们由光创造，永远顺从真主。最著名的天使是吉卜利勒（Jibril，加百列），他将真主的启示传达给先知们。其他重要的天使包括米卡伊勒（Mikail，米迦勒）、伊斯拉菲勒（Israfil，将在审判日吹响号角）和阿兹拉伊勒（Azra'il，死神天使）。天使记录我们的行为并保护我们。",
+      "thinker": "天使（Mala'ika）是伊斯兰信仰的基本信条之一。他们由光创造，存在于不同的维度，以各种方式侍奉真主。吉卜利勒（加百列）将古兰经传达给先知穆罕默德ﷺ。Kiraman Katibin是记录天使，记录每一件善行和恶行。蒙卡尔和纳基尔天使在坟墓中审问亡者。与人类不同，天使没有自由意志——他们永远顺从真主。他们的存在提醒我们，我们从不真正孤单，我们的行为始终在被见证。"
     },
-    "funFact": "Did you know? Angels have wings! Some have two, some have three, some have four — and Prophet Muhammad ﷺ saw the angel Jibril with 600 wings!",
+    "funFact": "你知道吗？天使有翅膀！有的有两只翅膀，有的有三只，有的有四只——先知穆罕默德ﷺ曾看到吉卜利勒天使有600只翅膀！",
     "quiz": [
       {
-        "q": "What are angels made of?",
+        "q": "天使是由什么创造的？",
         "options": [
-          "Fire",
-          "Light",
-          "Water"
+          "火",
+          "光",
+          "水"
         ],
         "correct": 1,
-        "explanation": "Angels are created from light."
+        "explanation": "天使是由光创造的。"
       },
       {
-        "q": "Which angel brought messages to the prophets?",
+        "q": "哪位天使将启示传达给先知们？",
         "options": [
-          "Mikail",
-          "Jibril",
-          "Israfil"
+          "米卡伊勒",
+          "吉卜利勒",
+          "伊斯拉菲勒"
         ],
         "correct": 1,
-        "explanation": "Jibril (Gabriel) brought Allah's messages to the prophets."
+        "explanation": "吉卜利勒（加百列）将真主的启示传达给先知们。"
       },
       {
-        "q": "Do angels have free will?",
+        "q": "天使有自由意志吗？",
         "options": [
-          "Yes, they can choose",
-          "No, they always obey Allah",
-          "Sometimes"
+          "有，他们可以选择",
+          "没有，他们永远顺从真主",
+          "有时候有"
         ],
         "correct": 1,
-        "explanation": "Angels always obey Allah — they don't have free will like humans."
+        "explanation": "天使永远顺从真主——他们不像人类那样有自由意志。"
       }
     ]
   },
   {
     "id": "holy_books",
-    "title": "Holy Books",
+    "title": "天经",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📕",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent holy books to guide people! The most important one for us is the Quran — Allah's final book, sent to Prophet Muhammad ﷺ. Before that, Allah sent the Torah to Musa, the Zabur to Dawud, and the Injil to Isa. The Quran is special because Allah promised to protect it!",
-      "explorer": "Muslims believe that Allah revealed several holy books to guide humanity. The Tawrat (Torah) was given to Prophet Musa, the Zabur (Psalms) to Prophet Dawud, and the Injil (Gospel) to Prophet Isa. The Quran is the final and most complete revelation, sent to Prophet Muhammad ﷺ. We believe the earlier books were changed over time, but the Quran has been preserved exactly as Allah revealed it.",
-      "thinker": "The belief in holy books (Kutub) is the third article of Islamic faith. Allah revealed guidance through various scriptures: the Sahifat to Ibrahim, the Tawrat to Musa, the Zabur to Dawud, the Injil to Isa, and the Quran to Muhammad ﷺ. While Muslims respect all these revelations, we believe the Quran is the final and preserved word of Allah. It was revealed over 23 years and has been memorized by millions of huffaz (memorizers) throughout history. The Quran is unique in that Allah Himself guaranteed its preservation: 'Indeed, it is We who sent down the Quran and indeed, We will be its guardian' (Surah Al-Hijr 15:9)."
+      "starter": "真主降示了天经来引导人们！对我们来说最重要的是古兰经——真主最后的经典，降示给先知穆罕默德ﷺ。在此之前，真主降示了《讨拉特》给穆萨、《宰布尔》给达乌德、《引支勒》给尔萨。古兰经特别之处在于真主承诺保护它！",
+      "explorer": "穆斯林相信真主降示了几部天经来引导人类。《讨拉特》（Torah）赐给了穆萨圣人，《宰布尔》（Psalms）赐给了达乌德圣人，《引支勒》（Gospel）赐给了尔萨圣人。古兰经是最后的、最完整的启示，降示给先知穆罕默德ﷺ。我们相信早期的经典在历史中被篡改了，但古兰经一直被完好地保存，与真主降示时完全一致。",
+      "thinker": "信仰天经（Kutub）是伊斯兰信仰的第三大信条。真主通过各种经典降示指引：给易卜拉欣的《萨哈法》、给穆萨的《讨拉特》、给达乌德的《宰布尔》、给尔萨的《引支勒》，以及给穆罕默德ﷺ的古兰经。虽然穆斯林尊重所有这些启示，但我们相信古兰经是真主最后的、被保护的语言。它在23年间被降示，历史上数百万哈菲兹（背诵者）将其记忆在心。古兰经的独特之处在于真主亲自保证其保护：“我确已降示了教诲，我确是教诲的保护者。”（《石谷章》15:9）"
     },
-    "funFact": "Did you know? The Quran has been completely memorized by millions of people around the world — and some children as young as 7 years old!",
+    "funFact": "你知道吗？古兰经已被全世界数百万人完整背诵——有些孩子年仅7岁就能背完整部古兰经！",
     "quiz": [
       {
-        "q": "Which is the final holy book in Islam?",
+        "q": "伊斯兰中最后的天经是哪部？",
         "options": [
-          "Torah",
-          "Bible",
-          "Quran"
+          "讨拉特",
+          "圣经",
+          "古兰经"
         ],
         "correct": 2,
-        "explanation": "The Quran is the final and most complete holy book sent by Allah."
+        "explanation": "古兰经是真主降示的最后的、最完整的天经。"
       },
       {
-        "q": "Which prophet received the Torah?",
+        "q": "哪位先知接受了《讨拉特》？",
         "options": [
-          "Prophet Ibrahim",
-          "Prophet Musa",
-          "Prophet Isa"
+          "易卜拉欣圣人",
+          "穆萨圣人",
+          "尔萨圣人"
         ],
         "correct": 1,
-        "explanation": "The Torah (Tawrat) was given to Prophet Musa (Moses)."
+        "explanation": "《讨拉特》（Tawrat）赐给了穆萨圣人（摩西）。"
       },
       {
-        "q": "What makes the Quran special?",
+        "q": "古兰经有什么特别之处？",
         "options": [
-          "It's the oldest book",
-          "Allah promised to protect it",
-          "It has many pages"
+          "它是最古老的书",
+          "真主承诺保护它",
+          "它有很多页"
         ],
         "correct": 1,
-        "explanation": "Allah promised to protect the Quran from being changed — it's preserved exactly as revealed."
+        "explanation": "真主承诺保护古兰经不被篡改——它被完好保存，与降示时完全一致。"
       }
     ]
   },
   {
     "id": "prophets",
-    "title": "Prophets of Allah",
+    "title": "真主的先知",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_3_prophet_stories_feature-FtRej2zvGTyPa9u6r2MF85.webp?updatedAt=1781117901347",
     "emoji": "🧑‍🏫",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent many prophets to guide people! We believe in 25 prophets, like Adam, Ibrahim, Musa, Isa, and the last one, Muhammad ﷺ. They were all good people who taught us to worship Allah and be kind to others!",
-      "explorer": "Allah sent prophets to every nation throughout history to guide people to the right path. We know of 25 prophets mentioned in the Quran, including Adam, Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. All prophets taught the same message: worship Allah alone and be good to others. Prophet Muhammad ﷺ is the last and final prophet.",
-      "thinker": "The belief in prophets (Anbiya) is the fourth article of Islamic faith. Allah sent 124,000 prophets to guide humanity, with 25 specifically mentioned in the Quran. They include the five greatest prophets (Ulul-Azm): Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. Each prophet was sent to a specific nation but carried the same universal message of Tawheed and moral conduct. Prophet Muhammad ﷺ is the Seal of the Prophets (Khatam an-Nabiyyin), meaning no new prophet will come after him. His message is for all of humanity until the Day of Judgment."
+      "starter": "真主派遣了许多先知来引导人们！我们相信有25位先知，比如阿丹、易卜拉欣、穆萨、尔萨，以及最后一位穆罕默德ﷺ。他们都是好人，教导我们崇拜真主，善待他人！",
+      "explorer": "真主在历史上向每个民族派遣了先知，引导人们走上正道。我们知道古兰经中提到了25位先知，包括阿丹、努哈、易卜拉欣、穆萨、尔萨和穆罕默德ﷺ。所有先知都传达了同样的信息：只崇拜真主，善待他人。先知穆罕默德ﷺ是最后的、封印的先知。",
+      "thinker": "信仰先知（Anbiya）是伊斯兰信仰的第四大信条。真主派遣了124,000位先知来引导人类，其中25位在古兰经中被明确提及。他们包括五位最伟大的先知（Ulul-Azm，坚定使者）：努哈、易卜拉欣、穆萨、尔萨和穆罕默德ﷺ。每位先知被派遣到一个特定的民族，但都传达了认主独一和道德行为的普世信息。先知穆罕默德ﷺ是众先知的封印（Khatam an-Nabiyyin），意味着他之后不会再有新的先知。他的信息属于全人类，直到审判日。"
     },
-    "funFact": "Did you know? Muslims believe in 25 prophets mentioned in the Quran! Prophet Nuh (Noah) lived for 950 years and built the big ship!",
+    "funFact": "你知道吗？穆斯林相信古兰经中提到了25位先知！努哈圣人（诺亚）活了950年，还建造了大方舟！",
     "quiz": [
       {
-        "q": "How many prophets are mentioned in the Quran?",
+        "q": "古兰经中提到了多少位先知？",
         "options": [
-          "10",
-          "25",
-          "100"
+          "10位",
+          "25位",
+          "100位"
         ],
         "correct": 1,
-        "explanation": "25 prophets are specifically mentioned in the Quran."
+        "explanation": "古兰经中明确提到了25位先知。"
       },
       {
-        "q": "Who is the last prophet in Islam?",
+        "q": "伊斯兰中最后的先知是谁？",
         "options": [
-          "Prophet Isa",
-          "Prophet Musa",
-          "Prophet Muhammad"
+          "尔萨圣人",
+          "穆萨圣人",
+          "穆罕默德圣人"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ is the last and final prophet sent by Allah."
+        "explanation": "先知穆罕默德ﷺ是真主派遣的最后一位先知。"
       },
       {
-        "q": "What did all prophets teach?",
+        "q": "所有先知教导了什么？",
         "options": [
-          "Different messages",
-          "Worship Allah alone and be kind",
-          "Only pray"
+          "不同的信息",
+          "只崇拜真主并善待他人",
+          "只做礼拜"
         ],
         "correct": 1,
-        "explanation": "All prophets taught the same message: worship Allah alone and be good to others."
+        "explanation": "所有先知都传达了同样的信息：只崇拜真主，善待他人。"
       }
     ]
   },
   {
     "id": "day_of_judgment",
-    "title": "Day of Judgment",
+    "title": "审判日",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326",
     "emoji": "⚖️",
     "category": "core_beliefs",
     "content": {
-      "starter": "One day, everyone will come back to life and stand in front of Allah! He will check all our good and bad deeds. People who did good will go to Paradise — a beautiful place with everything nice. People who were bad and didn't sorry will go to Hell. That's why we should always try to do good!",
-      "explorer": "The Day of Judgment (Yawm al-Qiyamah) is when all people will be resurrected and brought before Allah to be judged for their deeds. Every action — even the smallest kindness — will be weighed on a scale. Those whose good deeds outweigh their bad will enter Paradise (Jannah), a place of eternal happiness. Those whose bad deeds are heavier will face punishment. This belief motivates Muslims to always do their best.",
-      "thinker": "The Day of Judgment (Qiyamah) is the fifth article of Islamic faith. It is the day when all of creation will be resurrected and judged by Allah with perfect justice. The Prophet ﷺ described signs that will precede it, including major earthquakes, the sun rising from the west, and the emergence of the Dajjal. On that day, every person will receive their book of deeds — in the right hand for the righteous, in the left for the wrongdoers. The scale (Mizan) will weigh every deed, no matter how small. This belief provides moral accountability and motivates Muslims to live righteously."
+      "starter": "有一天，所有人都会复活并站在真主面前！他会检查我们所有的善行和恶行。做好事的人会进入乐园——一个拥有一切美好事物的美丽地方。做坏事且不知悔改的人会进入火狱。这就是为什么我们总是要努力做好事！",
+      "explorer": "审判日（Yawm al-Qiyamah）是所有人被复活并被带到真主面前接受审判的日子。每一个行为——即使是最小的善举——都会在天平上被称量。善行多于恶行的人将进入乐园（Jannah），一个永恒幸福的地方。恶行更重的人将面临惩罚。这个信仰激励穆斯林始终尽力而为。",
+      "thinker": "审判日（Qiyamah）是伊斯兰信仰的第五大信条。那是所有被造物被复活并以完美的公正被真主审判的日子。先知ﷺ描述了审判日来临前的征兆，包括大地震、太阳从西边升起和达贾勒的出现。在那一天，每个人将收到自己的功过簿——义人右手接，恶人左手接。天平（Mizan）将称量每一个行为，无论多么微小。这个信仰提供了道德约束，激励穆斯林正直地生活。"
     },
-    "funFact": "Did you know? On the Day of Judgment, even a small good deed — like removing a thorn from the road — will be rewarded!",
+    "funFact": "你知道吗？在审判日，即使是一个小小的善行——比如清除路上的一根刺——也会得到回报！",
     "quiz": [
       {
-        "q": "What happens on the Day of Judgment?",
+        "q": "审判日会发生什么？",
         "options": [
-          "Everyone goes to Paradise",
-          "Everyone is judged for their deeds",
-          "Nothing happens"
+          "所有人都进入乐园",
+          "所有人都因其行为受审判",
+          "什么也不会发生"
         ],
         "correct": 1,
-        "explanation": "On the Day of Judgment, everyone will be judged for their good and bad deeds."
+        "explanation": "在审判日，所有人都将因其善行和恶行受审判。"
       },
       {
-        "q": "What is the name of Paradise in Arabic?",
+        "q": "乐园的阿拉伯语名称是什么？",
         "options": [
           "Jannah",
           "Jahannam",
           "Dunya"
         ],
         "correct": 0,
-        "explanation": "Paradise is called Jannah in Arabic — it means 'garden'."
+        "explanation": "乐园的阿拉伯语叫做Jannah——意思是“花园”。"
       },
       {
-        "q": "Will even small deeds be judged?",
+        "q": "即使是小小的行为也会被审判吗？",
         "options": [
-          "No, only big deeds",
-          "Yes, every single deed",
-          "Only bad deeds"
+          "不会，只有大的行为",
+          "会，每一个行为都会",
+          "只有恶行"
         ],
         "correct": 1,
-        "explanation": "Every deed, no matter how small, will be weighed on the Day of Judgment."
+        "explanation": "每一个行为，无论多么微小，都将在审判日被称量。"
       }
     ]
   },
   {
     "id": "wudu",
-    "title": "Wudu - Ablution",
+    "title": "Wudu - 小净",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🚿",
     "category": "daily_practices",
     "content": {
-      "starter": "Wudu is washing before prayer! We wash our hands, mouth, nose, face, arms, head, and feet with clean water. It makes us clean and ready to talk to Allah. Wudu also washes away our small sins — how cool is that!",
-      "explorer": "Wudu is the ritual ablution Muslims perform before praying. It involves washing specific body parts in order: hands, mouth, nose, face, arms to elbows, wiping the head, and washing feet to ankles. Wudu is not just about physical cleanliness — it's also spiritual purification. Each step has benefits: washing the hands removes germs, rinsing the mouth keeps it clean, and washing the feet removes dirt from the road.",
-      "thinker": "Wudu is a beautiful act that combines physical hygiene with spiritual purification. The Quran states: 'Indeed, Allah loves those who are constantly repenting and loves those who purify themselves' (Surah Al-Baqarah 2:222). The Prophet ﷺ said that when a Muslim performs wudu and washes their face, sins fall away with the water. When they wash their hands, sins fall from their hands. When they wash their feet, sins fall from their feet. Wudu is thus both a practical act of cleanliness and a spiritual ritual of renewal."
+      "starter": "小净就是礼拜前的清洗！我们用干净的水洗手、漱口、呛鼻、洗脸、洗胳膊、抹头和洗脚。它让我们变得洁净，准备好和真主对话。小净还能洗掉我们的小罪——多棒啊！",
+      "explorer": "小净（Wudu）是穆斯林在礼拜前进行的仪式性净洗。它包括按顺序清洗特定的身体部位：手、口、鼻、脸、臂至肘、抹头和脚至踝。小净不仅仅是身体上的清洁——它也是精神上的净化。每个步骤都有益处：洗手去除细菌，漱口保持口腔清洁，洗脚去除路上的污垢。",
+      "thinker": "小净是一项美丽的功修，结合了身体卫生与精神净化。古兰经说：“真主的确喜爱常常悔改的人，的确喜爱洁净的人。”（《黄牛章》2:222）先知ﷺ说，当穆斯林做小净洗脸时，罪过随水而去；洗手时，罪过从手上落下；洗脚时，罪过从脚上落下。因此，小净既是清洁的实际行动，也是精神更新的仪式。"
     },
-    "funFact": "Did you know? When you perform wudu and wash each body part, your sins fall away with the water — it's like getting a fresh start!",
+    "funFact": "你知道吗？当你做小净清洗每个身体部位时，你的罪过会随水流走——就像获得了一次新的开始！",
     "quiz": [
       {
-        "q": "What do we perform before praying?",
+        "q": "礼拜之前我们做什么？",
         "options": [
-          "Ghusl",
-          "Wudu",
-          "Tayammum"
+          "大净（Ghusl）",
+          "小净（Wudu）",
+          "土净（Tayammum）"
         ],
         "correct": 1,
-        "explanation": "We perform wudu (ablution) before praying to clean ourselves."
+        "explanation": "我们在礼拜前做小净（Wudu）来清洁自己。"
       },
       {
-        "q": "How many steps are in wudu?",
+        "q": "小净有几个步骤？",
         "options": [
-          "3 steps",
-          "7 steps",
-          "10 steps"
+          "3个步骤",
+          "7个步骤",
+          "10个步骤"
         ],
         "correct": 1,
-        "explanation": "There are 7 main steps in wudu: hands, mouth, nose, face, arms, head, and feet."
+        "explanation": "小净有7个主要步骤：洗手、漱口、呛鼻、洗脸、洗臂、抹头和洗脚。"
       },
       {
-        "q": "What does wudu clean besides the body?",
+        "q": "小净除了清洁身体还清洁什么？",
         "options": [
-          "Our clothes",
-          "Our sins",
-          "Our room"
+          "我们的衣服",
+          "我们的罪过",
+          "我们的房间"
         ],
         "correct": 1,
-        "explanation": "Wudu washes away our small sins — it's spiritual purification too!"
+        "explanation": "小净洗去我们的小罪——它也是精神上的净化！"
       }
     ]
   },
   {
     "id": "islamic_dress",
-    "title": "Islamic Dress",
+    "title": "伊斯兰服饰",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_13_topic_islamic_dress-7whwzZgTnmsVkCdmrsGaFv.webp?updatedAt=1781117899286",
     "emoji": "👗",
     "category": "daily_practices",
     "content": {
-      "starter": "Allah asks us to dress nicely and modestly! Boys and girls should cover their bodies properly. It's about being respectful and showing that we love Allah. Modest dressing makes us feel confident and proud of being Muslim!",
-      "explorer": "Islamic dress is about modesty and respecting Allah's guidelines. For women, this generally means covering everything except the face, hands, and feet — many choose to wear hijab (headscarf). For men, clothing should cover from the navel to the knees. The key is modesty — not showing off or wearing inappropriate clothes. Islamic dress is an act of worship and identity.",
-      "thinker": "Islamic dress codes are rooted in the Quran and Sunnah. Allah says: 'O Children of Adam, take your adornment at every masjid' (Surah Al-A'raf 7:31). The hijab is more than a piece of cloth — it's a statement of identity, dignity, and devotion to Allah. For both men and women, modest dress is about self-respect and not reducing oneself to physical appearance. It's important to understand that modesty is a comprehensive concept that includes behavior, speech, and dress. The goal is to be recognized for one's character and intellect, not merely for appearance."
+      "starter": "真主要求我们穿得得体端庄！男孩和女孩都应该适当地遮盖身体。这是关于尊重和表示我们敬爱真主。端庄的穿着让我们感到自信，为身为穆斯林而自豪！",
+      "explorer": "伊斯兰服饰关乎端庄和尊重真主的指引。对女性而言，这通常意味着遮盖除脸、手和脚以外的所有部位——许多人选择戴头巾（Hijab）。对男性而言，衣服应从肚脐遮盖到膝盖。关键在于端庄——不炫耀或不穿不适当的衣服。伊斯兰服饰是一种功修和身份认同。",
+      "thinker": "伊斯兰服饰规范根植于古兰经和圣训。真主说：“阿丹的子孙啊！每逢礼拜，你们必须穿着服饰。”（《高处章》7:31）头巾不仅仅是一块布——它是身份、尊严和对真主虔诚的宣言。对男女而言，端庄的衣着关乎自尊，不让自己被简化为外貌。重要的是理解端庄是一个全面的概念，包括行为、言语和穿着。目标是让人因其品格和才智而被认可，而非仅仅因为外表。"
     },
-    "funFact": "Did you know? The word 'hijab' comes from Arabic and means 'curtain' or 'screen' — it's about creating a space of dignity and privacy!",
+    "funFact": "你知道吗？“Hijab”这个词来源于阿拉伯语，意思是“帷幕”或“遮挡”——它是关于创造一个尊严和私密的空间！",
     "quiz": [
       {
-        "q": "What is the main purpose of Islamic dress?",
+        "q": "伊斯兰服饰的主要目的是什么？",
         "options": [
-          "Fashion",
-          "Modesty",
-          "Uniform"
+          "时尚",
+          "端庄",
+          "制服"
         ],
         "correct": 1,
-        "explanation": "Islamic dress is about modesty and respecting Allah's guidelines."
+        "explanation": "伊斯兰服饰是为了端庄和尊重真主的指引。"
       },
       {
-        "q": "What does 'hijab' mean?",
+        "q": "Hijab是什么意思？",
         "options": [
-          "Prayer",
-          "Curtain or screen",
-          "Charity"
+          "礼拜",
+          "帷幕或遮挡",
+          "天课"
         ],
         "correct": 1,
-        "explanation": "The word 'hijab' means 'curtain' or 'screen' in Arabic."
+        "explanation": "“Hijab”在阿拉伯语中的意思是“帷幕”或“遮挡”。"
       },
       {
-        "q": "For men, what part of the body must be covered?",
+        "q": "男性必须遮盖身体的哪个部位？",
         "options": [
-          "Only the head",
-          "From navel to knees",
-          "Entire body"
+          "只有头部",
+          "从肚脐到膝盖",
+          "全身"
         ],
         "correct": 1,
-        "explanation": "Men must cover from the navel to the knees as a minimum."
+        "explanation": "男性最低限度必须从肚脐遮盖到膝盖。"
       }
     ]
   },
   {
     "id": "halal_food",
-    "title": "Halal Food",
+    "title": "清真食品",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194",
     "emoji": "🍽️",
     "category": "daily_practices",
     "content": {
-      "starter": "Halal means 'okay to eat' in Arabic! Allah tells us what food is good for us. We can eat fruits, vegetables, chicken, and fish. We can't eat pork or drink alcohol. We always say 'Bismillah' before eating to thank Allah!",
-      "explorer": "Halal means permissible in Islam. Allah has told us which foods are halal (allowed) and haram (forbidden). Halal foods include fruits, vegetables, grains, and properly slaughtered meat. Haram foods include pork, blood, alcohol, and meat not slaughtered in Allah's name. Saying 'Bismillah' before eating is a Sunnah and reminds us that food is a blessing from Allah.",
-      "thinker": "The concept of halal and haram in food is rooted in the Quran and Sunnah. Allah says: 'Eat of what is lawful and good on the earth' (Surah Al-Baqarah 2:168). Halal is not just about what we eat but how food is obtained — it must be through ethical, humane, and clean methods. Pork is prohibited (haram) as stated in multiple Quranic verses. Alcohol is forbidden because it clouds the mind and leads to sin. Even when eating halal food, Islam teaches moderation: 'Eat and drink, but do not be excessive' (Surah Al-A'raf 31). The act of saying 'Bismillah' before eating transforms a routine meal into an act of worship."
+      "starter": "Halal（清真）在阿拉伯语中意思是“可以吃的”！真主告诉我们什么食物对我们有益。我们可以吃水果、蔬菜、鸡肉和鱼。我们不能吃猪肉或喝酒。我们在吃饭前总是念“Bismillah”（奉真主之名）来感谢真主！",
+      "explorer": "Halal（清真）在伊斯兰中意思是允许的。真主告诉了我们哪些食物是Halal（允许的）和Haram（禁止的）。清真食品包括水果、蔬菜、谷物和按规定宰杀的肉类。禁止的食品包括猪肉、血液、酒类和未以真主之名宰杀的肉。饭前念“Bismillah”是圣行，提醒我们食物是真主的恩典。",
+      "thinker": "清真和哈拉姆的饮食概念根植于古兰经和圣训。真主说：“你们可以吃大地上所有合法而且佳美的食物。”（《黄牛章》2:168）清真不仅仅关乎我们吃什么，还关乎食物是如何获得的——必须通过合乎道德、人道和清洁的方式。猪肉在多节古兰经文中被禁止（Haram）。酒类被禁止是因为它会蒙蔽心智，导致犯罪。即使食用清真食品，伊斯兰也教导节制：“你们应当吃，应当喝，但不要过分。”（《高处章》31）饭前念“Bismillah”将一顿普通的饭食转变为功修。"
     },
-    "funFact": "Did you know? Muslims say 'Bismillah' (In the name of Allah) before eating — it's like saying grace and thanking Allah for the food!",
+    "funFact": "你知道吗？穆斯林在吃饭前念“Bismillah”（奉真主之名）——就像做餐前祷告，感谢真主赐予食物！",
     "quiz": [
       {
-        "q": "What does 'halal' mean?",
+        "q": "Halal是什么意思？",
         "options": [
-          "Forbidden",
-          "Permissible",
-          "Delicious"
+          "禁止的",
+          "允许的",
+          "美味的"
         ],
         "correct": 1,
-        "explanation": "Halal means 'permissible' — food that Allah allows us to eat."
+        "explanation": "Halal的意思是“允许的”——真主允许我们食用的食物。"
       },
       {
-        "q": "Which of these is haram (forbidden) in Islam?",
+        "q": "以下哪项在伊斯兰中是Haram（禁止的）？",
         "options": [
-          "Chicken",
-          "Fruits",
-          "Pork"
+          "鸡肉",
+          "水果",
+          "猪肉"
         ],
         "correct": 2,
-        "explanation": "Pork is haram (forbidden) in Islam."
+        "explanation": "猪肉在伊斯兰中是Haram（禁止的）。"
       },
       {
-        "q": "What do Muslims say before eating?",
+        "q": "穆斯林饭前念什么？",
         "options": [
           "Alhamdulillah",
           "Bismillah",
           "Subhanallah"
         ],
         "correct": 1,
-        "explanation": "Muslims say 'Bismillah' (In the name of Allah) before eating."
+        "explanation": "穆斯林在吃饭前念“Bismillah”（奉真主之名）。"
       }
     ]
   },
   {
     "id": "duas",
-    "title": "Duas - Supplications",
+    "title": "Duas - 祈祷",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_10_pillar_duas-EqyXdQq6eb7Aov9Lmrvy3T.webp?updatedAt=1781117901995",
     "emoji": "🤲",
     "category": "daily_practices",
     "content": {
-      "starter": "Duas are prayers we say to Allah anytime! When we wake up, eat, go outside, or feel scared — we can talk to Allah. He always listens! There's a special dua for everything. It's like having a direct line to Allah!",
-      "explorer": "Duas are personal prayers to Allah — conversations where we ask for help, guidance, forgiveness, or express gratitude. Unlike formal salah, duas can be made anytime in any language. The Prophet ﷺ taught us specific duas for waking up, eating, traveling, and more. Making dua shows our dependence on Allah and our trust in His help.",
-      "thinker": "Duas (supplications) represent the direct relationship between a servant and Allah. The Prophet ﷺ said: 'Dua is the essence of worship.' Islam teaches duas for every occasion — from waking up ('Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin-nushur') to entering the mosque, before sleeping, and during times of distress. Allah says: 'Call upon Me; I will respond to you' (Surah Ghafir 40:60). This is a profound promise — the Creator of the universe invites us to speak with Him directly, without any intermediary."
+      "starter": "Duas是我们随时向真主做的祈祷！当我们醒来、吃饭、出门或感到害怕时——我们都可以和真主对话。他总是倾听！任何事情都有特别的祈祷词。就像有一条直通真主的热线！",
+      "explorer": "Duas是向真主做的个人祈祷——是我们祈求帮助、指引、宽恕或表达感恩的对话。与正式的礼拜（Salah）不同，Duas可以随时用任何语言来做。先知ﷺ教导了我们特定的祈祷词——起床时、吃饭时、旅行时等等。做祈祷表明我们依赖真主，信任他的帮助。",
+      "thinker": "Duas（祈祷）代表仆人与真主之间的直接关系。先知ﷺ说：“祈祷是功修的精华。”伊斯兰为每个场合都教导了祈祷词——从起床时念的（Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin-nushur）到进入清真寺、睡前和困境中的祈祷。真主说：“你们祈祷我，我就应答你们。”（《赦宥章》40:60）这是一个深刻的承诺——宇宙的造物主邀请我们直接与他对话，无需任何中介。"
     },
-    "funFact": "Did you know? There's a dua for almost everything — even for when you enter your bathroom! Allah wants us to remember Him in every moment!",
+    "funFact": "你知道吗？几乎凡事都有祈祷词——甚至进洗手间都有！真主希望我们在每个时刻都记念他！",
     "quiz": [
       {
-        "q": "What is a dua?",
+        "q": "Dua是什么？",
         "options": [
-          "A type of food",
-          "A personal prayer to Allah",
-          "A holy book"
+          "一种食物",
+          "向真主的个人祈祷",
+          "一部天经"
         ],
         "correct": 1,
-        "explanation": "A dua is a personal prayer — talking to Allah anytime, anywhere."
+        "explanation": "Dua是个人祈祷——随时随地向真主倾诉。"
       },
       {
-        "q": "Can duas be made in any language?",
+        "q": "Duas可以用任何语言做吗？",
         "options": [
-          "Only in Arabic",
-          "Only in English",
-          "Yes, in any language"
+          "只能用阿拉伯语",
+          "只能用英语",
+          "是的，任何语言都可以"
         ],
         "correct": 2,
-        "explanation": "Duas can be made in any language — Allah understands all languages!"
+        "explanation": "Duas可以用任何语言来做——真主理解所有语言！"
       },
       {
-        "q": "What did the Prophet ﷺ say about dua?",
+        "q": "先知ﷺ关于祈祷说了什么？",
         "options": [
-          "Dua is useless",
-          "Dua is the essence of worship",
-          "Only pray at night"
+          "祈祷是没有用的",
+          "祈祷是功修的精华",
+          "只在夜间祈祷"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said: 'Dua is the essence of worship.'"
+        "explanation": "先知ﷺ说：“祈祷是功修的精华。”"
       }
     ]
   },
   {
     "id": "reading_quran",
-    "title": "Reading Quran",
+    "title": "诵读古兰经",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📖",
     "category": "daily_practices",
     "content": {
-      "starter": "The Quran is Allah's special book! When we read it, Allah rewards us. Even reading one letter gives us 10 rewards! The Quran teaches us how to be good Muslims and how to live happily. Let's try to read a little bit every day!",
-      "explorer": "The Quran is the holy book of Islam, revealed to Prophet Muhammad ﷺ through the angel Jibril. Reading the Quran is one of the most rewarding acts a Muslim can do — each letter earns 10 rewards. Muslims try to read the Quran daily, especially during Ramadan. The Quran is in Arabic, but translations help us understand its meanings. Reading with understanding and reflection is the goal.",
-      "thinker": "The Quran is the literal word of Allah, revealed over 23 years through the angel Jibril to Prophet Muhammad ﷺ. It consists of 114 surahs (chapters) and over 6,000 ayahs (verses). The Prophet ﷺ said: 'Whoever reads a letter from the Book of Allah will have a reward, and the reward of each letter is multiplied by ten.' Beyond reading, the Quran invites contemplation (tadabbur) — understanding its messages and applying them to life. The Quran is unique in that it has been perfectly preserved in its original Arabic since its revelation, making it the only religious text with an unbroken chain of transmission."
+      "starter": "古兰经是真主特别的书！当我们读它时，真主会回赐我们。即使只读一个字母也能获得10份回赐！古兰经教导我们如何成为好穆斯林，如何快乐地生活。让我们每天都试着读一点吧！",
+      "explorer": "古兰经是伊斯兰的天经，通过吉卜利勒天使降示给先知穆罕默德ﷺ。诵读古兰经是穆斯林最能获得回赐的行为之一——每个字母能获得10份回赐。穆斯林努力每天诵读古兰经，特别是在斋月期间。古兰经是阿拉伯语的，但翻译帮助我们理解其含义。阅读并思考理解才是目标。",
+      "thinker": "古兰经是真主的语言，在23年间通过吉卜利勒天使降示给先知穆罕默德ﷺ。它由114章（Surah）和6000多节（Ayah）经文组成。先知ﷺ说：“谁读了真主经典中的一个字母，谁就有一份回赐，每份回赐以十倍计算。”除了诵读，古兰经还邀请思考（Tadabbur）——理解其信息并将其应用于生活。古兰经的独特之处在于它自降示以来就被完好保存在原始阿拉伯语中，使其成为唯一拥有不间断传承链的宗教经典。"
     },
-    "funFact": "Did you know? Reading just ONE letter of the Quran earns you 10 rewards from Allah! So reading 'Al-Fatiha' gives you over 1,000 rewards!",
+    "funFact": "你知道吗？诵读古兰经的一个字母就能获得真主的10份回赐！所以诵读“开端章”就能获得超过1000份回赐！",
     "quiz": [
       {
-        "q": "Who revealed the Quran to Prophet Muhammad ﷺ?",
+        "q": "谁将古兰经降示给先知穆罕默德ﷺ？",
         "options": [
-          "Allah directly",
-          "Angel Jibril",
-          "Angel Mikail"
+          "真主直接",
+          "吉卜利勒天使",
+          "米卡伊勒天使"
         ],
         "correct": 1,
-        "explanation": "Angel Jibril (Gabriel) brought the Quran to Prophet Muhammad ﷺ."
+        "explanation": "吉卜利勒天使（加百列）将古兰经带给先知穆罕默德ﷺ。"
       },
       {
-        "q": "How many rewards do you get for reading one letter of the Quran?",
+        "q": "读古兰经一个字母能获得多少回赐？",
         "options": [
-          "1 reward",
-          "10 rewards",
-          "100 rewards"
+          "1份回赐",
+          "10份回赐",
+          "100份回赐"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said each letter of the Quran earns 10 rewards."
+        "explanation": "先知ﷺ说古兰经的每个字母能获得10份回赐。"
       },
       {
-        "q": "How many surahs (chapters) are in the Quran?",
+        "q": "古兰经有多少章（Surah）？",
         "options": [
-          "100",
-          "114",
-          "200"
+          "100章",
+          "114章",
+          "200章"
         ],
         "correct": 1,
-        "explanation": "The Quran has 114 surahs (chapters)."
+        "explanation": "古兰经有114章（Surah）。"
       }
     ]
   },
   {
     "id": "how_to_pray",
-    "title": "How to Pray: A Complete Guide",
+    "title": "如何礼拜：完整指南",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🕌",
     "category": "daily_practices",
     "content": {
-      "starter": "How do Muslims pray? It starts with Wudu — washing your hands, face, arms, and feet to get clean for Allah. Then you face the Kaaba in Mecca and do special movements: standing, bowing, and putting your forehead on the ground. Each prayer has a name like Fajr (morning) and Maghrib (sunset). There are 5 prayers every day! It's like having 5 special meetings with Allah.\n\nWUDU — The 8 Steps:\n1) Niyyah — Make the intention in your heart to perform Wudu for the sake of Allah. 2) Wash Hands — Wash both hands up to the wrists three times, starting with the right hand. Make sure water reaches between your fingers! 3) Rinse Mouth — Take water into your mouth and rinse it thoroughly three times. 4) Rinse Nose — Breathe water in through your nose and blow it out three times. 5) Wash Face — Wash your entire face three times, from forehead to chin and ear to ear. 6) Wash Arms — Wash both arms up to the elbows three times, starting with the right arm. 7) Wipe Head — Wipe your entire head once with wet hands. 8) Wash Feet — Wash both feet up to the ankles three times, starting with the right foot. Make sure water reaches between your toes!\n\nRemember: Take your time with each step, use clean water, and avoid waste. Wudu brings purity to your body and light to your heart!\n\nSALAH — The 7 Main Positions:\n1) Niyyah — Intend in your heart to pray. 2) Takbir — Raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). 3) Qiyam — Stand upright with hands crossed at chest level, and recite Surah Al-Fatiha and another Surah. 4) Ruku — Bow forward with your hands on your knees, and say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah — Rise from bowing and say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud — Put your forehead, nose, hands, knees, and toes on the ground, and say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud — Sit and recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): 2 Fard + 2 Sunnah = 4 rak'ahs — strengthens your faith!\n- Dhuhr (Noon): 4 Fard + 6 Sunnah = 10 rak'ahs — find peace and clarity!\n- Asr (Afternoon): 4 Fard + 4 Sunnah = 8 rak'ahs — seek Allah's pleasure!\n- Maghrib (Sunset): 3 Fard + 2 Sunnah = 5 rak'ahs — build discipline and gratitude!\n- Isha (Night): 4 Fard + 2 Sunnah = 6 rak'ahs — connect with your Creator!\nTotal daily: 17 Fard + 12 Sunnah = 29 rak'ahs combined.",
-      "explorer": "How to Pray: A Complete Guide covers Wudu (ablution), Salah (prayer), the 5 daily prayers, and the rak'ah breakdown in full detail.\n\nWUDU — The 8 Steps of Ablution:\nWudu is the ritual purification performed before prayer. It is a physical and spiritual cleansing that prepares the body and mind for communication with Allah. Wudu is obligatory before performing Salah and is considered one of the most important prerequisites for prayer. The steps are: 1) Niyyah — make the intention in your heart to perform Wudu for prayer, 2) Wash both hands up to the wrists three times starting with the right hand, ensuring water reaches between fingers, 3) Rinse your mouth thoroughly three times — this cleanses the mouth for recitation, 4) Breathe water in through the nose and blow it out three times using your left hand to assist, 5) Wash your entire face three times from forehead to chin and ear to ear, including the beard if you have one, 6) Wash both arms up to and including the elbows three times starting with the right arm, 7) Wipe your head once with wet hands — you can wipe the entire head or just a portion, 8) Wash both feet up to and including the ankles three times starting with the right foot, ensuring water reaches between the toes.\n\nWhen is Wudu Required? Before every obligatory prayer (Fard), before voluntary prayers (Sunnah/Nafl), when touching the Quran, and after using the bathroom.\n\nSALAH — The 7 Main Positions of Prayer:\nSalah is the Islamic prayer performed five times daily at prescribed times. It is the second pillar of Islam and a direct connection between the believer and Allah. Each prayer consists of one or more rak'ahs (cycles). The seven positions are: 1) Niyyah (Intention) — intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha). The intention must be clear and sincere. 2) Takbir (Opening) — raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). This marks the beginning of your prayer. 3) Qiyam (Standing) — stand upright with your hands crossed at chest level. Recite Surah Al-Fatiha and another Surah from the Quran. 4) Ruku (Bowing) — bow forward with your hands on your knees, keeping your back parallel to the ground. Say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah (Rising) — rise from bowing to the standing position. Say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud (Prostration) — prostrate with your forehead, nose, hands, knees, and toes touching the ground. Say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud (Testimony) — sit between prostrations or at the end of prayer. Recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nImportant Notes About Salah: Always face the Qibla (direction of the Kaaba in Mecca), maintain proper body covering (Satr): men from navel to below knees, women entire body except hands and face, perform Wudu before every prayer, pray at the prescribed times, and concentrate and be present during prayer (Khushu) for spiritual benefit.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): Before sunrise. 2 Fard + 2 Sunnah = 4 total rak'ahs. The dawn prayer marks the beginning of the Islamic day and strengthens your faith.\n- Dhuhr (Noon): After the sun passes its zenith. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 10 total rak'ahs. The longest prayer of the day helps find peace and clarity.\n- Asr (Afternoon): Late afternoon before sunset. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Seek Allah's pleasure in the late afternoon.\n- Maghrib (Sunset): Just after the sun sets. 3 Fard + 2 Sunnah Ghair Muakkadah = 5 total rak'ahs. Unique among the five prayers with 3 Fard rak'ahs. Builds discipline and gratitude.\n- Isha (Night): After nightfall. 4 Fard + 2 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Connect with your Creator before sleep.\n\nTotal Daily: 17 Fard rak'ahs + 12 Sunnah Muakkadah = 29 combined total.",
-      "thinker": "How to Pray: A Complete Guide provides comprehensive instruction on Wudu (ablution), Salah (prayer), the five daily prayers, and the complete rak'ah breakdown.\n\nWUDU (Ablution):\nWudu is the ritual purification that serves as both a physical cleansing and spiritual preparation for Salah. It is obligatory before every Fard (obligatory) prayer, Sunnah/Nafl (voluntary) prayers, and before touching the Quran. The eight steps follow a specific sequence established by the Sunnah of Prophet Muhammad ﷺ: 1) Niyyah — the internal intention, 2) Washing hands up to the wrists three times, 3) Rinsing the mouth thoroughly three times, 4) Inhaling water through the nose and expelling it three times, 5) Washing the entire face three times (from hairline to chin and ear to ear, including the beard for men), 6) Washing both arms up to and including the elbows three times, 7) Wiping the head once with wet hands, 8) Washing both feet up to and including the ankles three times. Each step has precise requirements: water must reach between fingers and toes, and all parts must be washed in the correct order. Wudu is invalidated by natural discharges, deep sleep, loss of consciousness, and touching one's private parts.\n\nSALAH (Prayer) — The Seven Positions:\n1) Niyyah (النية): The internal intention specifying which prayer is being performed. It must be clear and sincere. 2) Takbir (التكبير): The opening 'Allahu Akbar' when raising hands to the ears, marking the sacred boundary of prayer. 3) Qiyam (القيام): Standing position with hands folded at chest level (right hand over left), reciting Al-Fatiha followed by a second Surah. 4) Ruku (الركوع): Bowing with hands on knees, back parallel to ground, reciting 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest) three times. 5) Qawmah (القومة): Rising from Ruku to standing with 'Sami'a Allahu liman hamidah, Rabbana lakal hamd' (Allah hears those who praise Him, our Lord, all praise is for You). 6) Sujud (السجود): Prostration with seven points of contact — forehead, nose, both hands, both knees, and toes — reciting 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High) three times. Performed twice in each rak'ah. 7) Tashahhud (التشهد): Sitting position for the testimony of faith (At-Tahiyyatu lillahi was-salawatu wat-tayyibat), the Salawat (Allahumma salli 'ala Muhammad), and the Du'a.\n\nTHE FIVE DAILY PRAYERS — Complete Breakdown:\n- Fajr: 2 Fard + 2 Sunnah Muakkadah (before Fard) = 4 rak'ahs (before sunrise, approximately 4:30-5:30 AM)\n- Dhuhr: 4 Sunnah Muakkadah (before Fard) + 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 10-12 rak'ahs (midday, approximately 12:00-1:00 PM)\n- Asr: 4 Sunnah Ghair Muakkadah (before Fard) + 4 Fard = 4-8 rak'ahs (late afternoon, approximately 3:30-4:30 PM)\n- Maghrib: 3 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 5-7 rak'ahs (after sunset, approximately 6:45-7:15 PM)\n- Isha: 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 6-8 rak'ahs (after nightfall, approximately 8:15-9:30 PM)\n\nRAK'AH BREAKDOWN TABLE:\n| Prayer | Fard | Sunnah Muakkadah | Sunnah Ghair Muakkadah | Total |\n| Fajr | 2 | 2 | 0 | 4 |\n| Dhuhr | 4 | 4 | 2 | 10 |\n| Asr | 4 | 0 | 2 | 6 |\n| Maghrib | 3 | 0 | 2 | 5 |\n| Isha | 4 | 2 | 2 | 8 |\n| TOTAL | 17 | 8 | 8 | 33 |\n\nTypes of Prayers: Fard (Obligatory) — compulsory, missing them is a grave sin. Sunnah Muakkadah (Strongly Recommended) — highly emphasized, the Prophet ﷺ regularly performed them. Sunnah Ghair Muakkadah (Optional) — the Prophet ﷺ occasionally performed them, bringing extra reward.\n\nPrayer is not merely physical movement — it demands Khushu (concentration and humility) and sincere connection with Allah. As Allah says: 'Indeed, prayer prohibits immorality and wrongdoing' (Quran 29:45)."
+      "starter": "穆斯林如何礼拜？首先是小净——洗手、洗脸、洗胳膊和洗脚，为真主而洁净。然后面向麦加的天房，做特定的动作：站立、鞠躬和将额头放在地上。每次礼拜都有名称，如晨礼（早晨）和昏礼（日落）。每天有5次礼拜！就像每天与真主的5次特别约会。\n\n小净——8个步骤：\n1) 举意（Niyyah）——在心中举意为取悦真主而做小净。2) 洗手——将双手洗到手腕三次，先从右手开始。确保水到达指缝之间！3) 漱口——将水含入口中，彻底漱口三次。4) 呛鼻——用鼻子吸水再喷出三次。5) 洗脸——将整个脸洗三次，从额头到下巴，从耳到耳。6) 洗臂——将双臂洗到肘部三次，先从右臂开始。7) 抹头——用湿手抹整个头部一次。8) 洗脚——将双脚洗到脚踝三次，先从右脚开始。确保水到达脚趾之间！\n\n记住：每一步都要从容，使用干净的水，避免浪费。小净为你的身体带来洁净，为你的心灵带来光明！\n\n礼拜——7个主要姿势：\n1) 举意（Niyyah）——在心中举意礼拜。2) 塔克比尔（Takbir）——将手举至耳旁，念“Allahu Akbar”（真主至大）。3) 站立（Qiyam）——直立站立，双手交叉放在胸前，诵读开端章和另一章古兰经。4) 鞠躬（Ruku）——弯腰，双手放在膝盖上，念“Subhana Rabbiyal Azeem”（赞颂我的伟大的主）。5) 直身（Qawmah）——从鞠躬中起身，念“Sami'a Allahu liman hamidah”（真主听到赞颂他的人）。6) 叩头（Sujud）——将额头、鼻子、双手、膝盖和脚趾放在地上，念“Subhana Rabbiyal A'la”（赞颂我的至高的主）。7) 坐念（Tashahhud）——坐下诵读信仰宣言并为先知穆罕默德祈福。\n\n每日五番礼拜：\n- 晨礼（Fajr，黎明）：2拜主命 + 2拜圣行 = 4拜——增强你的信仰！\n- 晌礼（Dhuhr，正午）：4拜主命 + 6拜圣行 = 10拜——获得平安和清明！\n- 晡礼（Asr，下午）：4拜主命 + 4拜圣行 = 8拜——寻求真主的喜悦！\n- 昏礼（Maghrib，日落）：3拜主命 + 2拜圣行 = 5拜——培养自律和感恩！\n- 宵礼（Isha，夜晚）：4拜主命 + 2拜圣行 = 6拜——与造物主联系！\n每日总计：17拜主命 + 12拜圣行 = 29拜合计。",
+      "explorer": "如何礼拜：完整指南详细介绍了小净（净洗）、礼拜（Salah）、每日五番礼拜和拜数的详细分解。\n\n小净——8个步骤的净洗：\n小净是礼拜前进行的仪式性净化。它是身心净化，为身体和思想与真主沟通做准备。小净在礼拜前是必须的，被认为是礼拜最重要的前提之一。步骤如下：1) 举意（Niyyah）——在心中举意为礼拜而做小净，2) 将双手洗到手腕三次，先从右手开始，确保水到达指缝之间，3) 彻底漱口三次——这为诵读古兰经清洁口腔，4) 用鼻子吸水并用左手辅助喷出三次，5) 将整个脸洗三次，从额头到下巴，从耳到耳，包括胡须（如果有的话），6) 将双臂洗到并包括肘部三次，先从右臂开始，7) 用湿手抹头一次——可以抹整个头部或一部分，8) 将双脚洗到并包括脚踝三次，先从右脚开始，确保水到达脚趾之间。\n\n什么时候需要做小净？每番主命拜（Fard）之前、副功拜（Sunnah/Nafl）之前、触摸古兰经时，以及如厕之后。\n\n礼拜——7个主要礼拜姿势：\n礼拜是穆斯林每天在规定时间进行的五次伊斯兰祈祷。它是伊斯兰的第二大支柱，是信士与真主之间的直接联系。每番礼拜由一个或多个拜（Rak'ah，循环）组成。七个姿势是：1) 举意（Niyyah）——在心中举意进行特定的礼拜（晨礼、晌礼、晡礼、昏礼或宵礼）。举意必须清晰真诚。2) 塔克比尔（Takbir，开拜）——将手举至耳旁，念“Allahu Akbar”（真主至大）。这标志着礼拜的开始。3) 站立（Qiyam）——直立站立，双手交叉放在胸前。诵读开端章和古兰经的另一章。4) 鞠躬（Ruku）——弯腰，双手放在膝盖上，保持背部与地面平行。念“Subhana Rabbiyal Azeem”（赞颂我的伟大的主）。5) 直身（Qawmah）——从鞠躬中起身到站立姿势。念“Sami'a Allahu liman hamidah”（真主听到赞颂他的人）。6) 叩头（Sujud）——将额头、鼻子、双手、膝盖和脚趾触地叩拜。念“Subhana Rabbiyal A'la”（赞颂我的至高的主）。7) 坐念（Tashahhud，作证）——在两次叩头之间或礼拜结束时坐下。诵读信仰宣言并为先知穆罕默德祈福。\n\n礼拜的重要注意事项：始终面向朝向（Qibla，麦加天房方向），保持适当的遮盖（Satr）：男性从肚脐到膝盖以下，女性除手和脸以外的全身，每次礼拜前做小净，在规定时间礼拜，并在礼拜中保持专注和敬畏（Khushu）以获得精神收益。\n\n每日五番礼拜：\n- 晨礼（Fajr，黎明）：日出前。2拜主命 + 2拜圣行 = 总共4拜。晨礼标志着伊斯兰日的开始，增强你的信仰。\n- 晌礼（Dhuhr，正午）：太阳过午后。4拜主命 + 4拜强调圣行 + 2拜非强调圣行 = 总共10拜。一天中最长的礼拜，帮助获得平安和清明。\n- 晡礼（Asr，下午）：日落前的下午。4拜主命 + 4拜强调圣行 + 2拜非强调圣行 = 总共8拜。在下午寻求真主的喜悦。\n- 昏礼（Maghrib，日落）：太阳刚落下后。3拜主命 + 2拜非强调圣行 = 总共5拜。五番礼拜中唯一有3拜主命的。培养自律和感恩。\n- 宵礼（Isha，夜晚）：入夜后。4拜主命 + 2拜强调圣行 + 2拜非强调圣行 = 总共8拜。睡前与造物主联系。\n\n每日总计：17拜主命 + 12拜强调圣行 = 29拜合计。",
+      "thinker": "如何礼拜：完整指南提供了关于小净（净洗）、礼拜（Salah）、每日五番礼拜和完整拜数分解的全面指导。\n\n小净（净洗）：\n小净是既为身体清洁又为礼拜做精神准备的仪式性净化。每番主命拜（Fard）、圣行/副功拜（Sunnah/Nafl）之前和触摸古兰经之前都必须做小净。八个步骤遵循先知穆罕默德ﷺ圣训所确定的特定顺序：1) 举意（Niyyah）——内心的举意，2) 洗手到手腕三次，3) 彻底漱口三次，4) 用鼻子吸水再喷出三次，5) 洗整个脸三次（从发际线到下巴，从耳到耳，包括男性的胡须），6) 洗双臂到并包括肘部三次，7) 用湿手抹头一次，8) 洗双脚到并包括脚踝三次。每个步骤都有精确的要求：水必须到达指缝和脚趾之间，所有部位必须按正确顺序清洗。小净会被自然排泄、深睡、失去意识和触摸私处所破坏。\n\n礼拜（Salah）——七个姿势：\n1) 举意（النية）：指定进行哪番礼拜的内心举意。必须清晰真诚。2) 塔克比尔（التكبير）：举双手至耳旁念“Allahu Akbar”开拜，标志着礼拜的神圣边界。3) 站立（القيام）：双手折叠在胸前（右手在左手上），诵读开端章和第二章。4) 鞠躬（الركوع）：弯腰双手放在膝盖上，背部与地面平行，念“Subhana Rabbiyal Azeem”（赞颂我的伟大的主）三次。5) 直身（القومة）：从鞠躬起身站立，念“Sami'a Allahu liman hamidah, Rabbana lakal hamd”（真主听到赞颂他的人，我们的主啊，一切赞颂全归于你）。6) 叩头（السجود）：七个触地点的叩拜——额头、鼻子、双手、双膝和脚趾——念“Subhana Rabbiyal A'la”（赞颂我的至高的主）三次。每拜叩头两次。7) 坐念（التشهد）：坐下的姿势，诵读信仰宣言（At-Tahiyyatu lillahi was-salawatu wat-tayyibat）、祝福词（Allahumme salli 'ala Muhammad）和祈祷词。\n\n每日五番礼拜——完整分解：\n- 晨礼：2拜主命 + 2拜强调圣行（主命前）= 4拜（日出前，约凌晨4:30-5:30）\n- 晌礼：4拜强调圣行（主命前）+ 4拜主命 + 2拜强调圣行（主命后）+ 2拜非强调圣行（之后）= 10-12拜（正午，约中午12:00-下午1:00）\n- 晡礼：4拜非强调圣行（主命前）+ 4拜主命 = 4-8拜（下午，约下午3:30-4:30）\n- 昏礼：3拜主命 + 2拜强调圣行（主命后）+ 2拜非强调圣行（之后）= 5-7拜（日落后，约下午6:45-7:15）\n- 宵礼：4拜主命 + 2拜强调圣行（主命后）+ 2拜非强调圣行（之后）= 6-8拜（入夜后，约晚上8:15-9:30）\n\n拜数分解表：\n| 礼拜 | 主命 | 强调圣行 | 非强调圣行 | 总计 |\n| 晨礼 | 2 | 2 | 0 | 4 |\n| 晌礼 | 4 | 4 | 2 | 10 |\n| 晡礼 | 4 | 0 | 2 | 6 |\n| 昏礼 | 3 | 0 | 2 | 5 |\n| 宵礼 | 4 | 2 | 2 | 8 |\n| 总计 | 17 | 8 | 8 | 33 |\n\n礼拜类型：主命拜（Fard）——必须的，缺失是大罪。强调圣行拜（Sunnah Muakkadah）——被高度强调的，先知ﷺ经常做的。非强调圣行拜（Sunnah Ghair Muakkadah）——先知ﷺ偶尔做的，能带来额外回赐。\n\n礼拜不仅仅是身体动作——它需要敬畏（Khushu，专注和谦卑）和与真主的真诚联系。正如真主所说：“礼拜确能禁止丑事和恶行。”（古兰经29:45）"
     },
-    "funFact": "Did you know? The five daily prayers were prescribed during Prophet Muhammad's Night Journey (Isra and Mi'raj) to heaven. Originally, Allah commanded 50 prayers per day, but after several reductions through Prophet Musa's advice, it became 5 — yet the reward remains equal to 50!",
+    "funFact": "你知道吗？每日五番礼拜是在先知穆罕默德的夜行登霄（Isra and Mi'raj）中被规定的。最初，真主命令每天50番礼拜，但经过穆萨圣人的建议多次减少后，变成了5番——但回赐仍等于50番！",
     "quiz": [
       {
-        "q": "How many steps are there in Wudu?",
+        "q": "小净有几个步骤？",
         "options": [
-          "6 steps",
-          "8 steps",
-          "10 steps"
+          "6个步骤",
+          "8个步骤",
+          "10个步骤"
         ],
         "correct": 1,
-        "explanation": "Wudu consists of 8 main steps: Niyyah (intention), washing hands, rinsing mouth, rinsing nose, washing face, washing arms, wiping head, and washing feet."
+        "explanation": "小净有8个主要步骤：举意、洗手、漱口、呛鼻、洗脸、洗臂、抹头和洗脚。"
       },
       {
-        "q": "What is the first step of Wudu?",
+        "q": "小净的第一步是什么？",
         "options": [
-          "Wash hands",
-          "Niyyah (Intention)",
-          "Rinse mouth"
+          "洗手",
+          "举意（Niyyah）",
+          "漱口"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Wudu. You make the intention in your heart to perform Wudu for prayer."
+        "explanation": "举意（Niyyah）是小净的第一步。你在心中举意为礼拜而做小净。"
       },
       {
-        "q": "How many times should you wash your hands in Wudu?",
+        "q": "小净中洗手要洗几次？",
         "options": [
-          "Once",
-          "Twice",
-          "Three times"
+          "一次",
+          "两次",
+          "三次"
         ],
         "correct": 2,
-        "explanation": "In Wudu, you should wash your hands three times, starting with the right hand. This ensures thorough cleansing."
+        "explanation": "小净中，你应该洗手三次，先从右手开始。这确保彻底清洁。"
       },
       {
-        "q": "Which body part is wiped (not washed) in Wudu?",
+        "q": "小净中哪个身体部位是抹（而不是洗）的？",
         "options": [
-          "Face",
-          "Head",
-          "Arms"
+          "脸",
+          "头",
+          "胳膊"
         ],
         "correct": 1,
-        "explanation": "The head is wiped once with wet hands during Wudu. This is different from washing, which is done for other body parts."
+        "explanation": "小净中头部是用湿手抹一次。这与清洗不同，其他身体部位是清洗的。"
       },
       {
-        "q": "When performing Wudu, which hand should you start with?",
+        "q": "做小净时应该先从哪只手开始？",
         "options": [
-          "Left hand",
-          "Right hand",
-          "Either hand"
+          "左手",
+          "右手",
+          "哪只手都可以"
         ],
         "correct": 1,
-        "explanation": "In Wudu, you should start with the right hand for washing hands, arms, and feet. This is part of the Sunnah (practice of the Prophet ﷺ)."
+        "explanation": "做小净时，洗手、洗臂和洗脚都应该先从右手开始。这是先知ﷺ的圣行。"
       },
       {
-        "q": "What is the first position in Salah prayer?",
+        "q": "礼拜的第一个姿势是什么？",
         "options": [
-          "Ruku (Bowing)",
-          "Niyyah (Intention)",
-          "Qiyam (Standing)"
+          "鞠躬（Ruku）",
+          "举意（Niyyah）",
+          "站立（Qiyam）"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Salah. You intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha)."
+        "explanation": "举意（Niyyah）是礼拜的第一步。你在心中举意进行特定的礼拜（晨礼、晌礼、晡礼、昏礼或宵礼）。"
       },
       {
-        "q": "What do you say when starting Salah?",
+        "q": "开始礼拜时念什么？",
         "options": [
           "Bismillah",
           "Allahu Akbar",
           "SubhanAllah"
         ],
         "correct": 1,
-        "explanation": "You say 'Allahu Akbar' (Allah is the Greatest) while raising your hands to your ears to begin Salah. This marks the beginning of your prayer."
+        "explanation": "开始礼拜时，你将双手举至耳旁念“Allahu Akbar”（真主至大）。这标志着礼拜的开始。"
       },
       {
-        "q": "How many main positions are there in Salah?",
+        "q": "礼拜有几个主要姿势？",
         "options": [
-          "5 positions",
-          "7 positions",
-          "9 positions"
+          "5个姿势",
+          "7个姿势",
+          "9个姿势"
         ],
         "correct": 1,
-        "explanation": "There are 7 main positions in Salah: Niyyah, Takbir, Qiyam, Ruku, Qawmah, Sujud, and Tashahhud."
+        "explanation": "礼拜有7个主要姿势：举意、塔克比尔、站立、鞠躬、直身、叩头和坐念。"
       },
       {
-        "q": "What is Ruku in Salah?",
+        "q": "礼拜中的鞠躬（Ruku）是什么？",
         "options": [
-          "Bowing position",
-          "Prostration position",
-          "Standing position"
+          "弯腰鞠躬的姿势",
+          "叩头的姿势",
+          "站立的姿势"
         ],
         "correct": 0,
-        "explanation": "Ruku is the bowing position in Salah where you bend forward with your hands on your knees and your back parallel to the ground, saying 'Subhana Rabbiyal Azeem.'"
+        "explanation": "鞠躬（Ruku）是礼拜中弯腰的姿势，双手放在膝盖上，背部与地面平行，念“Subhana Rabbiyal Azeem”。"
       },
       {
-        "q": "How many Fard rak'ahs are there in total across all 5 daily prayers?",
+        "q": "每日五番礼拜共有多少拜主命拜？",
         "options": [
-          "15",
-          "17",
-          "20"
+          "15拜",
+          "17拜",
+          "20拜"
         ],
         "correct": 1,
-        "explanation": "There are 17 Fard rak'ahs in total: Fajr (2), Dhuhr (4), Asr (4), Maghrib (3), and Isha (4)."
+        "explanation": "共有17拜主命拜：晨礼（2拜）、晌礼（4拜）、晡礼（4拜）、昏礼（3拜）和宵礼（4拜）。"
       },
       {
-        "q": "Which prayer has 3 Fard rak'ahs?",
+        "q": "哪番礼拜有3拜主命拜？",
         "options": [
-          "Fajr",
-          "Maghrib",
-          "Isha"
+          "晨礼",
+          "昏礼",
+          "宵礼"
         ],
         "correct": 1,
-        "explanation": "Maghrib (sunset prayer) is unique as it has 3 Fard rak'ahs, while all other prayers have either 2 or 4 Fard rak'ahs."
+        "explanation": "昏礼（日落礼拜）是独特的，它有3拜主命拜，而其他礼拜的主命拜是2拜或4拜。"
       },
       {
-        "q": "What is Sujud in Salah?",
+        "q": "礼拜中的叩头（Sujud）是什么？",
         "options": [
-          "Standing upright",
-          "Bowing forward",
-          "Prostration on the ground"
+          "直立站立",
+          "弯腰鞠躬",
+          "将额头放在地上叩拜"
         ],
         "correct": 2,
-        "explanation": "Sujud is the prostration position where your forehead, nose, hands, knees, and toes touch the ground. It is performed twice in each rak'ah, and you say 'Subhana Rabbiyal A'la.'"
+        "explanation": "叩头（Sujud）是将额头、鼻子、双手、膝盖和脚趾触地叩拜的姿势。每拜叩头两次，念“Subhana Rabbiyal A'la”。"
       }
     ]
   },
   {
     "id": "honesty",
-    "title": "Honesty",
+    "title": "诚实",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🤝",
     "category": "islamic_values",
     "content": {
-      "starter": "Honesty means always telling the truth! Allah loves people who are honest. Even if telling the truth is hard, it's always the right thing to do. When we're honest, people trust us and Allah is pleased with us!",
-      "explorer": "Honesty (Sidq) is one of the most important values in Islam. The Prophet ﷺ was known as 'Al-Amin' — the Trustworthy — because he always told the truth. Islam teaches us to be honest in our words, actions, and intentions. Lying is a major sin that can damage relationships and break trust. Being honest, even when it's difficult, earns Allah's love and the respect of others.",
-      "thinker": "Honesty (Sidq) and trustworthiness (Amanah) are foundational Islamic virtues. The Prophet ﷺ said: 'Truthfulness leads to righteousness, and righteousness leads to Paradise.' Honesty is not merely about not lying — it encompasses sincerity in intentions, accuracy in reporting, and integrity in all dealings. Allah says in the Quran: 'O you who believe, fear Allah and be among the truthful' (Surah At-Tawbah 9:119). The concept extends to being honest with oneself, honest in worship, and honest in business dealings."
+      "starter": "诚实就是永远说真话！真主喜欢诚实的人。即使说真话很难，它也总是正确的选择。当我们诚实的时候，人们信任我们，真主也喜悦我们！",
+      "explorer": "诚实（Sidq）是伊斯兰中最重要的价值观之一。先知ﷺ被称为“Al-Amin”（忠信者）——因为他总是说真话。伊斯兰教导我们在言语、行为和举意上都要诚实。撒谎是大罪，会破坏关系和信任。即使在困难的时候也要诚实，这能获得真主的爱和他人的尊重。",
+      "thinker": "诚实（Sidq）和可信赖（Amanah）是伊斯兰的基础美德。先知ﷺ说：“诚实通向正义，正义通向乐园。”诚实不仅仅是不说谎——它包括举意的真诚、叙述的准确和一切交往中的正直。真主在古兰经中说：“信士们啊！你们当敬畏真主，当与诚实者同在。”（《忏悔章》9:119）这个概念延伸到对自己诚实、在功修中诚实以及在商业交往中诚实。"
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was called 'Al-Amin' (The Trustworthy) even before he became a prophet — because he NEVER told a lie!",
+    "funFact": "你知道吗？先知穆罕默德ﷺ在成为先知之前就被称为“Al-Amin”（忠信者）——因为他从未说过谎！",
     "quiz": [
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "先知穆罕默德ﷺ在成为先知之前的绰号是什么？",
         "options": [
           "Al-Hakim",
           "Al-Amin",
           "Al-Karim"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "他被称为“Al-Amin”（忠信者），因为他总是说真话。"
       },
       {
-        "q": "Is honesty only about not lying?",
+        "q": "诚实仅仅是关于不说谎吗？",
         "options": [
-          "Yes",
-          "No, it includes sincerity and integrity too",
-          "Sometimes"
+          "是的",
+          "不是，它还包括真诚和正直",
+          "有时候"
         ],
         "correct": 1,
-        "explanation": "Honesty includes being truthful, sincere, and having integrity in everything."
+        "explanation": "诚实包括真诚、坦率以及在一切事物中保持正直。"
       },
       {
-        "q": "What does Allah say about truthful people?",
+        "q": "真主对诚实的人怎么说？",
         "options": [
-          "They are punished",
-          "He loves them",
-          "They are ignored"
+          "他们会受惩罚",
+          "他喜爱他们",
+          "他们被忽视"
         ],
         "correct": 1,
-        "explanation": "Allah loves truthful people and promises them Paradise."
+        "explanation": "真主喜爱诚实的人，并承诺他们乐园。"
       }
     ]
   },
   {
     "id": "kindness",
-    "title": "Kindness",
+    "title": "仁慈",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_46_sadaqah_voluntary-metCJkjaZZWHwc3n86346d.webp?updatedAt=1781117902191",
     "emoji": "💕",
     "category": "islamic_values",
     "content": {
-      "starter": "Kindness means being nice to everyone! Help your friends, smile at people, share your toys, and be gentle. The Prophet ﷺ was the kindest person ever! When we're kind, Allah rewards us and everyone loves us!",
-      "explorer": "Kindness (Ihsan) is at the heart of Islamic teaching. The Prophet ﷺ said: 'The most beloved of people to Allah are those who are most beneficial to people.' Being kind means helping others, smiling, sharing, and treating everyone with respect — whether they're Muslim or not. Islam teaches that even a smile is charity (sadaqah).",
-      "thinker": "Kindness (Ihsan and Rahmah) is a comprehensive Islamic virtue. The Prophet ﷺ embodied mercy — the Quran describes him as 'a mercy to all the worlds' (Surah Al-Anbiya 21:107). Kindness extends to all creation: family, neighbors, strangers, animals, and even the environment. The Prophet ﷺ said: 'Charity does not decrease wealth. No one forgives another except that Allah increases his honor. And no one humbles himself for the sake of Allah except that Allah raises his status.' True kindness in Islam is not performative but stems from genuine love for Allah and His creation."
+      "starter": "仁慈就是善待每一个人！帮助你的朋友，对人微笑，分享你的玩具，温柔待人。先知ﷺ是最仁慈的人！当我们仁慈的时候，真主会回赐我们，大家也都会喜欢我们！",
+      "explorer": "仁慈（Ihsan）是伊斯兰教义的核心。先知ﷺ说：“最受真主喜爱的人是对人最有益的人。”仁慈意味着帮助他人、微笑、分享和尊重每个人——无论他们是否是穆斯林。伊斯兰教导即使是微笑也是施舍（Sadaqah）。",
+      "thinker": "仁慈（Ihsan和Rahmah）是伊斯兰的全面美德。先知ﷺ体现了慈爱——古兰经描述他为“对众世界的一种慈悯”（《众先知章》21:107）。仁慈延伸到所有被造物：家人、邻居、陌生人、动物甚至环境。先知ﷺ说：“施舍不会减少财富。没有人宽恕他人而真主不增加其荣耀的。没有人为了真主而谦卑而真主不提升其品级的。”伊斯兰中真正的仁慈不是做给人看的，而是源于对真主及其被造物的真诚之爱。"
     },
-    "funFact": "Did you know? The Prophet ﷺ said that even smiling at someone is a form of charity! You can earn rewards just by being friendly!",
+    "funFact": "你知道吗？先知ﷺ说即使是对人微笑也是一种施舍！你只需友善就能获得回赐！",
     "quiz": [
       {
-        "q": "What did the Prophet ﷺ say about smiling?",
+        "q": "先知ﷺ关于微笑说了什么？",
         "options": [
-          "It's sinful",
-          "It's a form of charity",
-          "It's meaningless"
+          "这是罪过",
+          "这是一种施舍",
+          "这是无意义的"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said even a smile is charity (sadaqah)."
+        "explanation": "先知ﷺ说即使微笑也是施舍（Sadaqah）。"
       },
       {
-        "q": "Who should we be kind to?",
+        "q": "我们应该对谁仁慈？",
         "options": [
-          "Only Muslims",
-          "Only family",
-          "Everyone"
+          "只对穆斯林",
+          "只对家人",
+          "对所有人"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to be kind to everyone — Muslim or not."
+        "explanation": "伊斯兰教导我们要对所有人仁慈——无论是否是穆斯林。"
       },
       {
-        "q": "What is the most beloved person to Allah?",
+        "q": "谁是最受真主喜爱的人？",
         "options": [
-          "The richest",
-          "The most beautiful",
-          "The most beneficial to others"
+          "最富有的人",
+          "最美丽的人",
+          "对他人最有益的人"
         ],
         "correct": 2,
-        "explanation": "The Prophet ﷺ said the most beloved to Allah are those most beneficial to people."
+        "explanation": "先知ﷺ说最受真主喜爱的人是对人最有益的人。"
       }
     ]
   },
   {
     "id": "respect",
-    "title": "Respect",
+    "title": "尊重",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_17_topic_respect_elders-6wUPfPgJRqgzEPbLKEPMkD.webp?updatedAt=1781117900196",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Respect means treating people nicely and politely! We respect our parents, teachers, and elders. We say 'please' and 'thank you.' We listen when others talk. Allah loves people who are respectful!",
-      "explorer": "Respect (Adab) is a key Islamic value. The Quran commands us to honor our parents, be kind to neighbors, and treat elders with dignity. The Prophet ﷺ taught that respect is not just about words but actions — standing up for elders, listening attentively, and honoring others' feelings. Respect also extends to respecting differences of opinion.",
-      "thinker": "Respect (Adab) in Islam is a comprehensive concept that encompasses how we relate to Allah, His creation, and ourselves. The Quran says: 'And your Lord has decreed that you worship none but Him, and that you be dutiful to your parents' (Surah Al-Isra 17:23). Respect for parents is given such high status that it appears immediately after the command to worship Allah alone. Beyond parents, Islam teaches respect for scholars, neighbors, the elderly, and even strangers. The Prophet ﷺ demonstrated this by standing when a funeral passed, greeting children, and honoring the rights of neighbors regardless of their faith."
+      "starter": "尊重就是友善和礼貌地对待他人！我们尊重父母、老师和长辈。我们说“请”和“谢谢”。别人说话时我们认真听。真主喜欢有礼貌的人！",
+      "explorer": "尊重（Adab）是伊斯兰的核心价值观。古兰经命令我们孝敬父母、善待邻居、尊老爱幼。先知ﷺ教导尊重不仅仅是言语——还包括为长辈起身、认真倾听和尊重他人的感受。尊重还包括尊重不同的意见。",
+      "thinker": "伊斯兰中的尊重（Adab）是一个全面的概念，涵盖了我们与真主、他的被造物以及我们自己的关系。古兰经说：“你的主曾下令说：你们应当只崇拜他，应当孝敬父母。”（《夜行章》17:23）对父母的尊重被赋予了如此高的地位，以至于它出现在只崇拜真主的命令之后。除了父母，伊斯兰还教导尊重学者、邻居、老人甚至陌生人。先知ﷺ通过在送葬队伍经过时起立、向儿童问候和尊重邻居的权利——无论他们的信仰如何——来示范这一点。"
     },
-    "funFact": "Did you know? In Islam, respecting your parents is considered the SECOND most important duty after worshipping Allah alone!",
+    "funFact": "你知道吗？在伊斯兰中，尊重父母被认为是仅次于崇拜真主的第二大义务！",
     "quiz": [
       {
-        "q": "What comes right after worshipping Allah in importance?",
+        "q": "在重要性上仅次于崇拜真主的是什么？",
         "options": [
-          "Being rich",
-          "Respecting parents",
-          "Going to Hajj"
+          "富有",
+          "孝敬父母",
+          "去朝觐"
         ],
         "correct": 1,
-        "explanation": "The Quran commands us to worship Allah alone, then to honor our parents."
+        "explanation": "古兰经命令我们只崇拜真主，然后就是孝敬父母。"
       },
       {
-        "q": "How should we treat elders?",
+        "q": "我们应该如何对待长辈？",
         "options": [
-          "Ignore them",
-          "With disrespect",
-          "With honor and dignity"
+          "忽视他们",
+          "不尊重他们",
+          "以尊荣和尊严对待"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to treat elders with honor and dignity."
+        "explanation": "伊斯兰教导我们以尊荣和尊严对待长辈。"
       },
       {
-        "q": "What does 'Adab' mean?",
+        "q": "Adab是什么意思？",
         "options": [
-          "Prayer",
-          "Respect and good manners",
-          "Food"
+          "礼拜",
+          "尊重和礼貌",
+          "食物"
         ],
         "correct": 1,
-        "explanation": "Adab means respect, good manners, and proper etiquette in Islam."
+        "explanation": "Adab的意思是尊重、礼貌和伊斯兰中的行为规范。"
       }
     ]
   },
   {
     "id": "patience",
-    "title": "Patience",
+    "title": "坚忍",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🧘",
     "category": "islamic_values",
     "content": {
-      "starter": "Patience means waiting calmly and not getting upset when things are hard! When you're sick, or something goes wrong, or you have to wait — be patient! Allah loves patient people and will reward them!",
-      "explorer": "Patience (Sabr) is one of the greatest virtues in Islam. The Quran says: 'Indeed, the patient will be given their reward without account' (Surah Az-Zumar 39:10). Sabr means staying calm during difficulties, resisting temptation, and being content with Allah's plan. The Prophet ﷺ compared patience to a precious gem — it's hard to find but incredibly valuable.",
-      "thinker": "Patience (Sabr) is one of the most emphasized virtues in Islam. The Quran mentions it over 70 times. Sabr has three dimensions: patience in obeying Allah (perseverance), patience in avoiding sin (restraint), and patience during hardship (endurance). Allah says: 'And be patient, for indeed, Allah does not allow to be lost the reward of those who do good' (Surah Hud 11:115). The Prophet ﷺ said: 'How wonderful is the affair of the believer, for all his affairs are good, and this does not apply to anyone except the believer. If something good happens to him, he is grateful, and that is good for him. If something bad happens to him, he bears it with patience, and that is good for him.'"
+      "starter": "坚忍就是冷静地等待，在困难时不沮丧！当你生病、出了问题或需要等待时——要坚忍！真主喜欢坚忍的人，会回赐他们！",
+      "explorer": "坚忍（Sabr）是伊斯兰中最伟大的美德之一。古兰经说：“坚忍的人一定不受亏损地获得他们的报酬。”（《队伍章》39:10）坚忍意味着在困难时保持冷静、抵御诱惑和满足于真主的安排。先知ﷺ将坚忍比作珍贵的宝石——难以找到但价值非凡。",
+      "thinker": "坚忍（Sabr）是伊斯兰中被最强调的美德之一。古兰经提到它超过70次。坚忍有三个维度：在顺从真主中的坚忍（坚持）、在远离罪恶中的坚忍（克制）和在困苦中的坚忍（忍耐）。真主说：“你们当坚忍，真主必不使行善者徒劳无酬。”（《呼德章》11:115）先知ﷺ说：“信士的事务多么奇妙！他的一切事务都是好的，这只适用于信士。如果好事降临他，他就感恩，那对他有益。如果坏事降临他，他就坚忍，那对他也有益。”"
     },
-    "funFact": "Did you know? Allah mentions patience (Sabr) over 70 times in the Quran — it's one of the most important qualities a Muslim can have!",
+    "funFact": "你知道吗？真主在古兰经中提到坚忍（Sabr）超过70次——它是穆斯林能拥有的最重要的品质之一！",
     "quiz": [
       {
-        "q": "What is 'Sabr'?",
+        "q": "Sabr是什么意思？",
         "options": [
-          "Prayer",
-          "Patience",
-          "Charity"
+          "礼拜",
+          "坚忍",
+          "天课"
         ],
         "correct": 1,
-        "explanation": "Sabr means patience — staying calm during difficulties and trusting Allah."
+        "explanation": "Sabr的意思是坚忍——在困难时保持冷静并信任真主。"
       },
       {
-        "q": "How many times does Allah mention patience in the Quran?",
+        "q": "真主在古兰经中提到坚忍多少次？",
         "options": [
-          "5 times",
-          "Over 70 times",
-          "100 times"
+          "5次",
+          "超过70次",
+          "100次"
         ],
         "correct": 1,
-        "explanation": "Allah mentions patience (Sabr) over 70 times in the Quran."
+        "explanation": "真主在古兰经中提到坚忍（Sabr）超过70次。"
       },
       {
-        "q": "What happens to patient people?",
+        "q": "坚忍的人会怎样？",
         "options": [
-          "Nothing",
-          "They are rewarded without limit",
-          "They are punished"
+          "什么也没有",
+          "他们将获得无尽的报酬",
+          "他们会受惩罚"
         ],
         "correct": 1,
-        "explanation": "Allah says the patient will be given their reward without account."
+        "explanation": "真主说坚忍的人将获得不受计算的报酬。"
       }
     ]
   },
   {
     "id": "gratitude",
-    "title": "Gratitude",
+    "title": "感恩",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_50_hiba_gifts-6i3784QxV2uUz9RuU6ni4m.webp?updatedAt=1781117899322",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Gratitude means saying 'thank you' to Allah for everything! For food, family, friends, health — everything! When we're thankful, Allah gives us more blessings. A grateful heart is a happy heart!",
-      "explorer": "Gratitude (Shukr) means recognizing and appreciating Allah's blessings. The Quran says: 'If you are grateful, I will surely increase you' (Surah Ibrahim 14:7). Gratitude isn't just saying 'Alhamdulillah' — it's using Allah's blessings in ways that please Him. When we're grateful for health, we use it to do good. When we're grateful for wealth, we share it with others.",
-      "thinker": "Gratitude (Shukr) is a comprehensive Islamic concept that goes beyond simple thankfulness. It has three dimensions: gratitude of the heart (recognizing blessings), gratitude of the tongue (verbal thanks and praise), and gratitude of the limbs (using blessings in obedience to Allah). The Quran warns against ingratitude: 'If you are ungrateful, indeed, my punishment is severe' (Surah Ibrahim 14:7). The Prophet ﷺ would pray at night until his feet would swell, and when asked why, he would say: 'Should I not be a grateful servant?' Gratitude transforms our perspective — even in hardship, a grateful person finds blessings to thank Allah for."
+      "starter": "感恩就是对真主说“谢谢”感谢一切！感谢食物、家人、朋友、健康——一切！当我们感恩的时候，真主会给我们更多的恩典。感恩的心是快乐的心！",
+      "explorer": "感恩（Shukr）意味着认识和珍视真主的恩典。古兰经说：“如果你们感恩，我一定给你们增加。”（《易卜拉欣章》14:7）感恩不仅仅是说“Alhamdulillah”——它是以取悦真主的方式使用他的恩典。当我们感恩健康时，我们就用它去做善事。当我们感恩财富时，我们就与他人分享。",
+      "thinker": "感恩（Shukr）是一个全面的伊斯兰概念，超越了简单的感谢。它有三个维度：心灵的感恩（认识恩典）、口舌的感恩（口头感谢和赞美）和肢体的感恩（以顺从真主的方式使用恩典）。古兰经警告忘恩负义：“如果你们忘恩负义，我的惩罚确实是严厉的。”（《易卜拉欣章》14:7）先知ﷺ会在夜间礼拜直到双脚肿胀，当被问及原因时，他说：“难道我不应该做一个感恩的仆人吗？”感恩改变了我们的视角——即使在困境中，感恩的人也能找到值得感谢真主的恩典。"
     },
-    "funFact": "Did you know? The Prophet ﷺ would pray at night until his feet swelled — and when asked why, he said: 'Should I not be a grateful servant?'",
+    "funFact": "你知道吗？先知ﷺ会在夜间礼拜直到双脚肿胀——当被问及原因时，他说：“难道我不应该做一个感恩的仆人吗？”",
     "quiz": [
       {
-        "q": "What does 'Shukr' mean?",
+        "q": "Shukr是什么意思？",
         "options": [
-          "Prayer",
-          "Gratitude",
-          "Fasting"
+          "礼拜",
+          "感恩",
+          "斋戒"
         ],
         "correct": 1,
-        "explanation": "Shukr means gratitude — being thankful to Allah for His blessings."
+        "explanation": "Shukr的意思是感恩——感谢真主的恩典。"
       },
       {
-        "q": "What does Allah promise to grateful people?",
+        "q": "真主对感恩的人承诺了什么？",
         "options": [
-          "Nothing",
-          "He will increase their blessings",
-          "He will punish them"
+          "什么也没有",
+          "他会增加他们的恩典",
+          "他会惩罚他们"
         ],
         "correct": 1,
-        "explanation": "Allah says: 'If you are grateful, I will surely increase you.'"
+        "explanation": "真主说：“如果你们感恩，我一定给你们增加。”"
       },
       {
-        "q": "What are the three dimensions of gratitude?",
+        "q": "感恩的三个维度是什么？",
         "options": [
-          "Heart, tongue, and limbs",
-          "Mind, body, soul",
-          "Morning, afternoon, night"
+          "心、舌和肢体",
+          "心灵、身体、灵魂",
+          "早晨、下午、夜晚"
         ],
         "correct": 0,
-        "explanation": "Gratitude is expressed through the heart (recognizing), tongue (thanking), and limbs (using blessings to do good)."
+        "explanation": "感恩通过心灵（认识）、口舌（感谢）和肢体（用恩典行善）来表达。"
       }
     ]
   },
   {
     "id": "prophet_muhammad",
-    "title": "Prophet Muhammad ﷺ",
+    "title": "先知穆罕默德ﷺ",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "☪️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Muhammad ﷺ was the best person ever! He was kind, honest, and brave. He taught us about Allah and how to be good Muslims. He loved children and animals. We follow his example every day!",
-      "explorer": "Prophet Muhammad ﷺ was born in Mecca in 570 CE. He was known as 'Al-Amin' (The Trustworthy) even before prophethood. At age 40, Angel Jibril brought him the first revelation in the cave of Hira. He spent 23 years teaching Islam, facing persecution, and building a just community. He passed away in Medina in 632 CE, leaving behind a message for all of humanity.",
-      "thinker": "Prophet Muhammad ﷺ is the final messenger of Allah and the most influential person in history. Born an orphan, raised by his grandfather Abdul Muttalib and then his uncle Abu Talib, he grew up to be known for his truthfulness and integrity. The Quran describes him as 'a mercy to all the worlds' (21:107). His life (Seerah) is a comprehensive guide — from the early persecution in Mecca to the establishment of the first Islamic state in Medina, from the Treaty of Hudaybiyyah to the conquest of Mecca. He taught through example: he prayed until his feet swelled, gave charity until he had nothing left, and treated everyone with dignity regardless of their status."
+      "starter": "先知穆罕默德ﷺ是最好的人！他善良、诚实、勇敢。他教导我们认识真主和如何成为好穆斯林。他喜爱儿童和动物。我们每天都效仿他的榜样！",
+      "explorer": "先知穆罕默德ﷺ于公元570年出生于麦加。即使在成为先知之前，他就被称为“Al-Amin”（忠信者）。40岁时，吉卜利勒天使在希拉山洞给他带来了第一次启示。他花了23年教授伊斯兰，面对迫害，建立了一个公正的社区。他于公元632年在麦地那归真，留下了一个给全人类的使命。",
+      "thinker": "先知穆罕默德ﷺ是真主的最后使者，也是历史上最有影响力的人。他出生即为孤儿，由祖父阿卜杜勒·穆塔里布抚养，之后由叔父阿布·塔利布抚养长大，以诚实和正直著称。古兰经描述他为“对众世界的一种慈悯”（21:107）。他的生平（Seerah，圣传）是一部全面的指南——从在麦加早期的迫害到在麦地那建立第一个伊斯兰国家，从侯代比亚和约到光复麦加。他以身作则：他礼拜直到双脚肿胀，施舍直到一无所有，以尊严对待每个人，无论其地位如何。"
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was an orphan — his father died before he was born and his mother when he was only 6 years old. Despite this, he became the greatest person in history!",
+    "funFact": "你知道吗？先知穆罕默德ﷺ是一个孤儿——他的父亲在他出生前就去世了，母亲在他仅6岁时也去世了。尽管如此，他成为了历史上最伟大的人！",
     "quiz": [
       {
-        "q": "In which city was Prophet Muhammad ﷺ born?",
+        "q": "先知穆罕默德ﷺ出生在哪个城市？",
         "options": [
-          "Medina",
-          "Mecca",
-          "Jerusalem"
+          "麦地那",
+          "麦加",
+          "耶路撒冷"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ was born in Mecca in 570 CE."
+        "explanation": "先知穆罕默德ﷺ于公元570年出生于麦加。"
       },
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "先知穆罕默德ﷺ在成为先知之前的绰号是什么？",
         "options": [
           "Al-Hakim",
           "Al-Amin",
           "Al-Karim"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "他被称为“Al-Amin”（忠信者），因为他总是说真话。"
       },
       {
-        "q": "How old was Prophet Muhammad ﷺ when he received the first revelation?",
+        "q": "先知穆罕默德ﷺ几岁时接受了第一次启示？",
         "options": [
-          "25",
-          "30",
-          "40"
+          "25岁",
+          "30岁",
+          "40岁"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ was 40 years old when Angel Jibril brought the first revelation."
+        "explanation": "先知穆罕默德ﷺ40岁时吉卜利勒天使带来了第一次启示。"
       }
     ]
   },
   {
     "id": "prophet_ibrahim",
-    "title": "Prophet Ibrahim",
+    "title": "先知易卜拉欣",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "🏗️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Ibrahim loved Allah more than anything! He looked at the stars and knew they couldn't be God. He broke the idols people worshipped and told them only Allah deserves worship. Allah made him a great leader!",
-      "explorer": "Prophet Ibrahim (Abraham) is one of the greatest prophets. He realized at a young age that idols couldn't be God — they couldn't create or help anyone. He broke the idols and called people to worship Allah alone. Allah tested him greatly — He asked Ibrahim to leave his homeland, sacrifice his son, and build the Kaaba. Ibrahim obeyed every command, showing incredible faith.",
-      "thinker": "Prophet Ibrahim (Abraham) is known as 'Khalilullah' — the Friend of Allah. His story is one of absolute submission to divine will. He questioned his father's idol worship, challenged King Namrud, and was thrown into fire for his faith — yet Allah saved him. The sacrifice of his son Ismail (Ismail) is commemorated every year during Eid al-Adha. Ibrahim's willingness to leave his wife Hajar and infant son Ismail in the desert of Mecca — trusting completely in Allah's plan — led to the establishment of the Kaaba and the Zamzam well. He is the patriarch of the Abrahamic faiths and an enduring example of total trust in Allah."
+      "starter": "先知易卜拉欣敬爱真主胜过一切！他观察星星就知道它们不可能是神。他打碎了人们崇拜的偶像，告诉他们只有真主值得崇拜。真主使他成为了一位伟大的领袖！",
+      "explorer": "先知易卜拉欣（亚伯拉罕）是最伟大的先知之一。他年轻时就意识到偶像不可能是神——它们不能创造也不能帮助任何人。他打碎了偶像，号召人们只崇拜真主。真主极大地考验了他——真主要求他离开故土、牺牲他的儿子和建造天房。易卜拉欣服从了每一个命令，展现了惊人的信仰。",
+      "thinker": "先知易卜拉欣（亚伯拉罕）被称为“Khalilullah”——真主的密友。他的故事是绝对顺从真主意志的典范。他质疑他父亲的偶像崇拜，挑战南穆鲁德国王，并因信仰被投入烈火——但真主拯救了他。他牺牲儿子易司马仪的事迹每年在古尔邦节被纪念。易卜拉欣愿意将妻子哈哲尔和婴儿易司马仪留在麦加的沙漠中——完全信赖真主的计划——这导致了天房和渗渗泉的建立。他是亚伯拉罕诸教的先祖，是全心全意信赖真主的永恒典范。"
     },
-    "funFact": "Did you know? When Ibrahim was thrown into a giant fire, Allah said 'O fire, be cool and peaceful!' — and the fire didn't even burn him!",
+    "funFact": "你知道吗？当易卜拉欣被投入大火时，真主说“火啊！你对易卜拉欣变成凉爽的和平的吧！”——火焰甚至没有烧伤他！",
     "quiz": [
       {
-        "q": "What was Prophet Ibrahim known as?",
+        "q": "先知易卜拉欣以什么著称？",
         "options": [
-          "Prophet of Thunder",
-          "Friend of Allah",
-          "King of Nations"
+          "雷鸣先知",
+          "真主的密友",
+          "万国之王"
         ],
         "correct": 1,
-        "explanation": "Ibrahim is called 'Khalilullah' — the Friend of Allah."
+        "explanation": "易卜拉欣被称为“Khalilullah”——真主的密友。"
       },
       {
-        "q": "What did Ibrahim break?",
+        "q": "易卜拉欣打碎了什么？",
         "options": [
-          "The Kaaba",
-          "Idols people worshipped",
-          "A window"
+          "天房",
+          "人们崇拜的偶像",
+          "一扇窗户"
         ],
         "correct": 1,
-        "explanation": "Ibrahim broke the idols people were worshipping to show only Allah deserves worship."
+        "explanation": "易卜拉欣打碎了人们崇拜的偶像，表明只有真主值得崇拜。"
       },
       {
-        "q": "What did Allah ask Ibrahim to build?",
+        "q": "真主要求易卜拉欣建造什么？",
         "options": [
-          "A house",
-          "The Kaaba",
-          "A school"
+          "一栋房子",
+          "天房",
+          "一所学校"
         ],
         "correct": 1,
-        "explanation": "Allah asked Ibrahim to build the Kaaba in Mecca."
+        "explanation": "真主要求易卜拉欣在麦加建造天房。"
       }
     ]
   },
   {
     "id": "islamic_civilization",
-    "title": "Islamic Civilization",
+    "title": "伊斯兰文明",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_20_topic_islamic_civilization-gNpeURs5zuRnR3dMvEndDR.webp?updatedAt=1781117902871",
     "emoji": "🏛️",
     "category": "stories_history",
     "content": {
-      "starter": "Muslims built amazing things long ago! They made beautiful mosques, hospitals, schools, and libraries. They studied science, math, and medicine. Muslims invented things we still use today — like cameras, universities, and coffee!",
-      "explorer": "Islamic civilization made incredible contributions to the world. Muslim scholars invented algebra, developed modern medicine, built the first universities, and preserved ancient Greek knowledge. Cities like Baghdad, Cordoba, and Cairo were centers of learning. Inventions include the camera (camera obscura), surgical instruments, and windmills. Muslims also built beautiful architecture like the Alhambra and the Dome of the Rock.",
-      "thinker": "The Islamic Golden Age (8th-14th centuries) was one of the most productive periods of scholarship in human history. Scholars like Al-Khwarizmi (algebra), Ibn Sina (medicine), Al-Kindi (philosophy), and Fatima al-Fihri (first university) transformed human knowledge. The House of Wisdom in Baghdad translated and preserved Greek, Persian, and Indian texts that would have been lost. Islamic civilization pioneered hospitals (bimaristans), observatories, and public libraries. The concept of the university was literally invented by Muslims — the University of al-Qarawiyyin in Fez, Morocco, founded by Fatima al-Fihri in 859 CE, is recognized by UNESCO as the oldest existing university."
+      "starter": "穆斯林在很久以前就建造了令人惊叹的东西！他们建造了美丽的清真寺、医院、学校和图书馆。他们研究科学、数学和医学。穆斯林发明了我们至今仍在使用的东西——比如照相机、大学和咖啡！",
+      "explorer": "伊斯兰文明对世界做出了令人难以置信的贡献。穆斯林学者发明了代数学，发展了现代医学，建立了第一所大学，保存了古希腊知识。巴格达、科尔多瓦和开罗等城市是学术中心。发明包括照相机（暗箱）、外科手术工具和风车。穆斯林还建造了阿尔罕布拉宫和圆顶清真寺等美丽建筑。",
+      "thinker": "伊斯兰黄金时代（8-14世纪）是人类历史上最富有成效的学术时期之一。像花拉子密（代数学）、伊本·西那（医学）、肯迪（哲学）和法蒂玛·菲赫里（第一所大学）等学者改变了人类知识。巴格达智慧宫翻译和保存了本会失传的希腊、波斯和印度文献。伊斯兰文明开创了医院（Bimaristan）、天文台和公共图书馆。大学的概念实际上是由穆斯林发明的——法蒂玛·菲赫里于公元859年在摩洛哥非斯建立的卡鲁因大学被联合国教科文组织认定为现存最古老的大学。"
     },
-    "funFact": "Did you know? The first university in the world was built by a Muslim woman — Fatima al-Fihri — in Morocco in the year 859 CE!",
+    "funFact": "你知道吗？世界上第一所大学是由一位穆斯林女性——法蒂玛·菲赫里——在公元859年在摩洛哥建立的！",
     "quiz": [
       {
-        "q": "What did Al-Khwarizmi invent?",
+        "q": "花拉子密发明了什么？",
         "options": [
-          "Medicine",
-          "Algebra",
-          "Astronomy"
+          "医学",
+          "代数学",
+          "天文学"
         ],
         "correct": 1,
-        "explanation": "Al-Khwarizmi invented algebra — the word 'algorithm' comes from his name!"
+        "explanation": "花拉子密发明了代数学——“algorithm”（算法）一词就来自他的名字！"
       },
       {
-        "q": "Who built the first university in the world?",
+        "q": "谁建立了世界上第一所大学？",
         "options": [
-          "A Muslim man",
-          "Fatima al-Fihri",
-          "A Greek scholar"
+          "一位穆斯林男子",
+          "法蒂玛·菲赫里",
+          "一位希腊学者"
         ],
         "correct": 1,
-        "explanation": "Fatima al-Fihri, a Muslim woman, built the first university in Morocco in 859 CE."
+        "explanation": "法蒂玛·菲赫里，一位穆斯林女性，于公元859年在摩洛哥建立了第一所大学。"
       },
       {
-        "q": "What was the Islamic Golden Age known for?",
+        "q": "伊斯兰黄金时代以什么著称？",
         "options": [
-          "Only art",
-          "Advances in science, math, and medicine",
-          "Only farming"
+          "只有艺术",
+          "科学、数学和医学的进步",
+          "只有农业"
         ],
         "correct": 1,
-        "explanation": "Muslims made incredible advances in science, math, medicine, and many other fields."
+        "explanation": "穆斯林在科学、数学、医学和许多其他领域取得了令人难以置信的进步。"
       }
     ]
   },
   {
     "id": "ramadan",
-    "title": "Ramadan",
+    "title": "斋月",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_39_ramadan_overview-KSNdX85Mzos8r2Xf3JL6rh.webp?updatedAt=1781117901328",
     "emoji": "🌙",
     "category": "special_times",
     "content": {
-      "starter": "Ramadan is the best month! It's when Allah sent the Quran. We fast from sunrise to sunset — no eating or drinking! At night, we pray, read Quran, and have iftar with family. Everyone is happy and kind during Ramadan!",
-      "explorer": "Ramadan is the ninth month of the Islamic calendar and the holiest month for Muslims. The Quran was first revealed during Ramadan. Muslims fast from dawn to sunset, refraining from food, drink, and other physical needs. It's a time of increased prayer, charity, and Quran reading. Ramadan teaches self-discipline, empathy for the poor, and brings families and communities together.",
-      "thinker": "Ramadan is the month in which the Quran was revealed as guidance for humanity (Surah Al-Baqarah 2:185). Fasting (Sawm) during Ramadan is the fourth pillar of Islam and serves multiple purposes: developing taqwa (God-consciousness), purifying the soul, building empathy for the less fortunate, and strengthening community bonds. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a spiritual rhythm throughout the month. The last 10 nights are especially sacred, as Laylat al-Qadr (the Night of Power) — described as 'better than a thousand months' — falls within them. Ramadan transforms communities: charity increases, tempers cool, and hearts soften."
+      "starter": "斋月是最好的月份！这是真主降示古兰经的时候。我们从日出到日落封斋——不吃不喝！到了晚上，我们礼拜、诵读古兰经，和家人一起开斋。斋月里每个人都快乐和善良！",
+      "explorer": "斋月是伊斯兰历的第九个月，也是穆斯林最神圣的月份。古兰经首次在斋月降示。穆斯林从黎明到日落封斋，戒除食物、饮水和其他身体需求。这是一个增加礼拜、施舍和诵读古兰经的时期。斋月教会我们自律、对穷人的同理心，并让家庭和社区团结在一起。",
+      "thinker": "斋月是古兰经作为人类指引而降示的月份（《黄牛章》2:185）。斋月期间的斋戒是伊斯兰的第四大支柱，具有多重目的：培养敬畏（Taqwa）、净化灵魂、建立对弱者的同理心和增强社区纽带。封斋饭（Suhoor）和开斋饭（Iftar）在整个月中创造了一种精神节奏。最后十个夜晚格外神圣，因为尊贵之夜（Laylat al-Qadr）——被描述为“胜过一千个月”——就在其中。斋月改变了社区：施舍增加，脾气缓和，心灵柔软。"
     },
-    "funFact": "Did you know? Laylat al-Qadr (the Night of Power) in Ramadan is better than 1,000 months — that's over 83 years of blessings in just one night!",
+    "funFact": "你知道吗？斋月中的尊贵之夜（Laylat al-Qadr）胜过1000个月——那一夜的吉庆超过83年！",
     "quiz": [
       {
-        "q": "During which month was the Quran revealed?",
+        "q": "古兰经是在哪个月降示的？",
         "options": [
-          "Muharram",
-          "Ramadan",
-          "Shawwal"
+          "穆哈兰月",
+          "斋月",
+          "沙瓦尔月"
         ],
         "correct": 1,
-        "explanation": "The Quran was first revealed during the month of Ramadan."
+        "explanation": "古兰经首次在斋月降示。"
       },
       {
-        "q": "What is Laylat al-Qadr?",
+        "q": "尊贵之夜（Laylat al-Qadr）是什么？",
         "options": [
-          "A regular night",
-          "The Night of Power, better than 1,000 months",
-          "The first day of Ramadan"
+          "一个普通的夜晚",
+          "尊贵之夜，胜过1000个月",
+          "斋月的第一天"
         ],
         "correct": 1,
-        "explanation": "Laylat al-Qadr (Night of Power) is better than 1,000 months of worship."
+        "explanation": "尊贵之夜（Laylat al-Qadr）胜过1000个月的功修。"
       },
       {
-        "q": "What is the pre-dawn meal called?",
+        "q": "封斋前的饭叫什么？",
         "options": [
-          "Iftar",
-          "Suhoor",
-          "Dhuhr"
+          "开斋饭（Iftar）",
+          "封斋饭（Suhoor）",
+          "晌礼（Dhuhr）"
         ],
         "correct": 1,
-        "explanation": "The pre-dawn meal before fasting is called Suhoor."
+        "explanation": "封斋前的饭叫做封斋饭（Suhoor）。"
       }
     ]
   },
   {
     "id": "eid_al_fitr",
-    "title": "Eid al-Fitr",
+    "title": "开斋节",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_42_eid_fitr_celebration-WoRzqkwEMUXtjWTsNNttWJ.webp?updatedAt=1781117904296",
     "emoji": "🎉",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Fitr is the happy day after Ramadan! We wear new clothes, eat yummy food, give gifts, and say 'Eid Mubarak!' to everyone. We give money to poor people called Zakat al-Fitr. It's like a big party for Allah!",
-      "explorer": "Eid al-Fitr marks the end of Ramadan and is one of the two major Islamic holidays. Muslims gather for a special prayer, give Zakat al-Fitr (charity to the poor), wear their best clothes, and celebrate with family and friends. Children receive gifts and money (Eidi). It's a day of joy, gratitude, and community after a month of fasting and worship.",
-      "thinker": "Eid al-Fitr ('Festival of Breaking the Fast') is celebrated on the first day of Shawwal, the month following Ramadan. It begins with a special congregational prayer and sermon, followed by Zakat al-Fitr — a mandatory charity given before the Eid prayer to ensure even the poorest can celebrate. The Prophet ﷺ would wear his best clothes on Eid and apply perfume. Eid is a day of celebration, but also of reflection — thanking Allah for the strength to complete Ramadan and asking for acceptance of our worship. It strengthens community bonds as Muslims visit relatives, share meals, and reconcile differences."
+      "starter": "开斋节是斋月之后的快乐日子！我们穿新衣服，吃美食，送礼物，对每个人说“Eid Mubarak！”（节日快乐！）。我们给穷人钱，叫做开斋捐（Zakat al-Fitr）。这就像真主的盛大聚会！",
+      "explorer": "开斋节标志着斋月的结束，是伊斯兰两大主要节日之一。穆斯林聚集进行特殊的会礼拜，缴纳开斋捐（给穷人的施舍），穿上最好的衣服，与家人朋友一起庆祝。孩子们收到礼物和钱（Eidi）。这是一个在一个月的斋戒和功修之后的欢乐、感恩和社区的日子。",
+      "thinker": "开斋节（“开斋的节日”）在斋月之后的沙瓦尔月第一天庆祝。它以特殊的集体礼拜和讲道开始，然后是开斋捐——在会礼拜之前缴纳的义务施舍，以确保即使最穷的人也能庆祝。先知ﷺ在节日时会穿最好的衣服并使用香水。开斋节是庆祝的日子，也是反思的日子——感谢真主赐予完成斋月的力量，并祈求我们的功修被接受。它加强了社区纽带，穆斯林互相拜访、分享食物和化解分歧。"
     },
-    "funFact": "Did you know? On Eid, you must give charity (Zakat al-Fitr) BEFORE the Eid prayer — so even poor people can celebrate!",
+    "funFact": "你知道吗？在开斋节，你必须在会礼拜之前缴纳开斋捐（Zakat al-Fitr）——这样即使穷人也能庆祝！",
     "quiz": [
       {
-        "q": "When is Eid al-Fitr celebrated?",
+        "q": "开斋节在什么时候庆祝？",
         "options": [
-          "Beginning of Ramadan",
-          "End of Ramadan",
-          "Middle of Ramadan"
+          "斋月开始时",
+          "斋月结束时",
+          "斋月中间"
         ],
         "correct": 1,
-        "explanation": "Eid al-Fitr is celebrated at the end of Ramadan."
+        "explanation": "开斋节在斋月结束时庆祝。"
       },
       {
-        "q": "What must Muslims give before Eid prayer?",
+        "q": "会礼拜之前穆斯林必须缴纳什么？",
         "options": [
-          "More fasting",
-          "Zakat al-Fitr (charity)",
-          "A new car"
+          "更多的斋戒",
+          "开斋捐（施舍）",
+          "一辆新车"
         ],
         "correct": 1,
-        "explanation": "Zakat al-Fitr is charity given before Eid prayer so the poor can celebrate too."
+        "explanation": "开斋捐是在会礼拜之前缴纳的施舍，让穷人也能庆祝。"
       },
       {
-        "q": "What do we say to others on Eid?",
+        "q": "开斋节我们对别人说什么？",
         "options": [
-          "Happy Birthday",
-          "Eid Mubarak",
-          "Good Morning"
+          "生日快乐",
+          "Eid Mubarak（节日快乐）",
+          "早上好"
         ],
         "correct": 1,
-        "explanation": "We say 'Eid Mubarak' — meaning 'Blessed Eid!'"
+        "explanation": "我们说“Eid Mubarak”——意思是“吉庆的节日！”"
       }
     ]
   },
   {
     "id": "eid_al_adha",
-    "title": "Eid al-Adha",
+    "title": "古尔邦节",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_43_eid_adha_celebration-a8nckcQaGvn3CYJJy7ta5A.webp?updatedAt=1781117903366",
     "emoji": "🐑",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Adha is the big Eid! It remembers when Prophet Ibrahim was ready to sacrifice his son for Allah. Allah was so happy with his faith that He sent a sheep instead! We sacrifice an animal and share the meat with family and poor people!",
-      "explorer": "Eid al-Adha ('Festival of Sacrifice') honors Prophet Ibrahim's willingness to sacrifice his son Ismail for Allah. Before Eid, Muslims who can afford it sacrifice an animal (sheep, goat, cow, or camel) and divide the meat into three parts: one for family, one for friends and neighbors, one for the poor. It coincides with the Hajj pilgrimage and is one of the two major Islamic holidays.",
-      "thinker": "Eid al-Adha commemorates one of the most profound acts of faith in Islamic history — Prophet Ibrahim's willingness to sacrifice his son Ismail in complete obedience to Allah. Just as Ibrahim was about to carry out the sacrifice, Allah replaced Ismail with a ram, and the sacrifice was accepted symbolically. This event is commemorated by millions of Muslims worldwide who sacrifice an animal during the days of Eid. The meat is divided into thirds: family, friends/neighbors, and the poor. Eid al-Adha coincides with the Hajj pilgrimage — while pilgrims are at Arafat, Muslims worldwide celebrate this festival of sacrifice, gratitude, and community."
+      "starter": "古尔邦节是大节！它纪念先知易卜拉欣甘愿为真主牺牲自己的儿子。真主非常满意他的信仰，于是派遣了一只羊代替！我们宰牲并将肉分给家人和穷人！",
+      "explorer": "古尔邦节（“牺牲的节日”）纪念先知易卜拉欣甘愿为真主牺牲他的儿子易司马仪。节日前，有能力的穆斯林宰牲（羊、山羊、牛或骆驼），将肉分成三份：一份给家人，一份给朋友和邻居，一份给穷人。它与朝觐同时进行，是伊斯兰两大主要节日之一。",
+      "thinker": "古尔邦节纪念伊斯兰历史上最深刻的信仰之举——先知易卜拉欣甘愿完全服从真主而牺牲他的儿子易司马仪。正当易卜拉欣即将执行牺牲时，真主用一只公羊代替了易司马仪，牺牲被象征性地接受了。全世界数百万穆斯林在节日期间宰牲来纪念这一事件。肉被分为三份：家人、朋友/邻居和穷人。古尔邦节与朝觐同时——当朝觐者在阿拉法特山时，全世界的穆斯林庆祝这个牺牲、感恩和社区的节日。"
     },
-    "funFact": "Did you know? Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah — but Allah sent a ram instead as a test of faith!",
+    "funFact": "你知道吗？古尔邦节纪念先知易卜拉欣甘愿为真主牺牲自己的儿子——但真主派遣了一只公羊代替，作为对信仰的考验！",
     "quiz": [
       {
-        "q": "What does Eid al-Adha remember?",
+        "q": "古尔邦节纪念什么？",
         "options": [
-          "Ramadan ending",
-          "Ibrahim's willingness to sacrifice his son",
-          "The Quran being revealed"
+          "斋月结束",
+          "易卜拉欣甘愿牺牲自己的儿子",
+          "古兰经降示"
         ],
         "correct": 1,
-        "explanation": "Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah."
+        "explanation": "古尔邦节纪念先知易卜拉欣甘愿为真主牺牲自己的儿子。"
       },
       {
-        "q": "How many parts is the sacrificial meat divided into?",
+        "q": "宰牲的肉分成几份？",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "一份",
+          "两份",
+          "三份"
         ],
         "correct": 2,
-        "explanation": "The meat is divided into three: family, friends/neighbors, and the poor."
+        "explanation": "肉分成三份：家人、朋友/邻居和穷人。"
       },
       {
-        "q": "What did Allah send instead of Ibrahim's son?",
+        "q": "真主用什么代替了易卜拉欣的儿子？",
         "options": [
-          "Nothing",
-          "A ram (sheep)",
-          "An angel"
+          "什么也没有",
+          "一只公羊",
+          "一位天使"
         ],
         "correct": 1,
-        "explanation": "Allah sent a ram to be sacrificed instead, accepting Ibrahim's willingness."
+        "explanation": "真主派遣了一只公羊代替牺牲，接受了易卜拉欣的意愿。"
+      }
+    ]
+  },
+  {
+    "id": "al_khwarizmi",
+    "title": "花拉子密 - 代数之父",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_25_scholar_al_khwarizmi-YyTnbwqk77BcABwPTm7CYw.webp?updatedAt=1781117901745",
+    "emoji": "📐",
+    "category": "stories_history",
+    "content": {
+      "starter": "花拉子密是一位伟大的穆斯林数学天才，他生活在很久以前。他发明了代数学，帮助我们用字母和数字来解决数学问题！他还向全世界展示了如何使用数字零，并引入了1到9的数字，我们至今仍在使用！",
+      "explorer": "穆罕默德·伊本·穆萨·花拉子密（约公元780-850年）是一位传奇数学家、天文学家和地理学家，在巴格达智慧宫工作。他写了一本革命性的书叫《代数学》（Kitab al-Jabr），我们今天说的“代数”（Algebra）一词就来源于此。他还在伊斯兰世界和欧洲推广了印度-阿拉伯数字系统，包括小数点和数字零，奠定了现代数学的基础。",
+      "thinker": "穆罕默德·伊本·穆萨·花拉子密（约公元780-850年）被广泛誉为代数之父。在伊斯兰黄金时代工作于巴格达智慧宫，他的杰作《还原与对消计算概要》（Al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala）系统化了求解线性方程和二次方程的方法。他将阿拉伯数字系统引入西方，他拉丁化的名字最终产生了“algorithm”（算法）一词，彰显了他作为数学和计算机科学先驱的持久遗产。"
+    },
+    "funFact": "你知道吗？“代数”（algebra）一词来自他书名中的“Al-Jabr”（意为还原/补全），而“算法”（algorithm）一词则是对他名字Al-Khwarizmi的翻译！",
+    "quiz": [
+      {
+        "q": "花拉子密发明了哪个数学分支？",
+        "options": [
+          "微积分",
+          "几何学",
+          "代数学"
+        ],
+        "correct": 2,
+        "explanation": "花拉子密写了《Al-Jabr》，创建了被称为代数的解方程系统。"
+      },
+      {
+        "q": "花拉子密在哪里进行科学研究？",
+        "options": [
+          "金字塔",
+          "巴格达智慧宫",
+          "亚历山大图书馆"
+        ],
+        "correct": 1,
+        "explanation": "巴格达智慧宫是伊斯兰黄金时代最重要的学术中心。"
+      },
+      {
+        "q": "哪个现代计算机科学术语来源于花拉子密的名字？",
+        "options": [
+          "硬件",
+          "算法",
+          "互联网"
+        ],
+        "correct": 1,
+        "explanation": "“算法”（algorithm）一词来自他名字的拉丁翻译“Algoritmi”。"
+      }
+    ]
+  },
+  {
+    "id": "ibn_sina",
+    "title": "伊本·西那 - 医学之父",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_26_scholar_ibn_sina-96S5bSYcoRZXXh4aq6Jx7q.webp?updatedAt=1781117902508",
+    "emoji": "🩺",
+    "category": "stories_history",
+    "content": {
+      "starter": "伊本·西那，也被称为阿维森纳，是一位超级聪明的医生和哲学家！他写了一部庞大的医学百科全书叫《医学canon》。它如此全面，以至于欧洲的大学用它来教授人们如何成为医生达数百年之久！",
+      "explorer": "伊本·西那（阿维森纳，公元980-1037年）是一位杰出的波斯博学家，被誉为伊斯兰黄金时代最重要的思想家之一。他10岁时就背诵了整部古兰经，18岁时就已经是一名执业医生。他举世闻名的著作《医学canon》（Al-Qanun fi al-Tibb）成为欧洲和亚洲600多年来的标准医学教科书。",
+      "thinker": "伊本·西那（阿维森纳，公元980-1037年）是一位传奇学者，他的贡献塑造了早期医学科学和中世纪哲学。他的巨著《医学canon》引入了革命性的理念，包括隔离检疫以控制传染病、临床试验和药理学。除了医学，他的百科全书《治愈之书》（Kitab al-Shifa）涵盖了逻辑学、自然科学和形而上学，融合了伊斯兰神学和理性哲学。"
+    },
+    "funFact": "你知道吗？伊本·西那如此聪明，10岁时就背诵了整部古兰经，18岁就成为受人尊敬的执业医师！",
+    "quiz": [
+      {
+        "q": "伊本·西那著名的医学教科书叫什么？",
+        "options": [
+          "智慧之书",
+          "医学Canon",
+          "自然法则"
+        ],
+        "correct": 1,
+        "explanation": "伊本·西那写了《医学Canon》，它数个世纪以来一直是标准教科书。"
+      },
+      {
+        "q": "伊本·西那几岁时背诵了整部古兰经？",
+        "options": [
+          "10岁",
+          "18岁",
+          "25岁"
+        ],
+        "correct": 0,
+        "explanation": "伊本·西那10岁时就背诵了古兰经，从小就展现出天才智力。"
+      },
+      {
+        "q": "伊本·西那开创了哪种医学实践来控制传染病的传播？",
+        "options": [
+          "针灸",
+          "隔离检疫",
+          "石膏绷带"
+        ],
+        "correct": 1,
+        "explanation": "伊本·西那假设疾病通过微粒传播，并开创了隔离检疫方法。"
+      }
+    ]
+  },
+  {
+    "id": "al_razi",
+    "title": "拉齐 - 化学先驱",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_27_scholar_al_razi-734zXvqhUQPULCRdzdCjA9.webp?updatedAt=1781117901576",
+    "emoji": "🧪",
+    "category": "stories_history",
+    "content": {
+      "starter": "拉齐是一位善良的医生和杰出的化学家。他是第一个意识到干净的病房有助于病人更快康复的人，他还设计了先进的实验室工具来研究化学物质！",
+      "explorer": "拉齐（Rhazes，公元854-925年）是一位杰出的临床医生和化学家。他是第一个区分天花和麻疹的人，并写了一篇关于它们的医学论文。在化学方面，他首次对化学物质进行了分类，并设计了实验设备，包括蒸馏瓶和玻璃烧瓶，化学家至今仍在使用。",
+      "thinker": "阿布·巴克尔·拉齐（Rhazes，公元854-925年）是临床医学、实验科学和化学的巨擘。作为巴格达主要医院的负责人，他通过在多个地点悬挂生肉来选择医院建筑地点，找到空气最清洁的地方。在他的巨著《集成书》（Kitab al-Hawi）中，他记录了临床案例研究。在化学方面，他的矿物和化合物分类为当代化学奠定了框架。"
+    },
+    "funFact": "你知道吗？在他的化学实验室里，拉齐发明了煤油灯并对化学元素进行了分类。在医学方面，他通过在巴格达周围悬挂生肉来选择空气最清洁的地方建医院！",
+    "quiz": [
+      {
+        "q": "拉齐如何选择巴格达医院最清洁的建造地点？",
+        "options": [
+          "询问国王",
+          "悬挂生肉看哪里腐烂最慢",
+          "测量水温"
+        ],
+        "correct": 1,
+        "explanation": "他在城市各处悬挂生肉；肉保持新鲜最久的地方空气最清洁。"
+      },
+      {
+        "q": "拉齐是历史上第一位区分哪两种疾病的医生？",
+        "options": [
+          "天花和麻疹",
+          "流感和疟疾",
+          "感冒和发烧"
+        ],
+        "correct": 0,
+        "explanation": "他关于天花和麻疹的论文在国际上受到赞誉，被翻译成多种语言。"
+      },
+      {
+        "q": "拉齐在化学研究中分类了什么？",
+        "options": [
+          "恒星和行星",
+          "矿物和物质",
+          "动物和植物"
+        ],
+        "correct": 1,
+        "explanation": "他创建了矿物和有机物质的早期分类系统，为化学奠定了基础。"
+      }
+    ]
+  },
+  {
+    "id": "al_biruni",
+    "title": "比鲁尼 - 科学大师",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_28_scholar_al_biruni-3CxEZkDDXSfMvzUgmWWyDk.webp?updatedAt=1781117901825",
+    "emoji": "🌍",
+    "category": "stories_history",
+    "content": {
+      "starter": "比鲁尼是一位环游世界的科学侦探。他喜欢绘制地球地图和观察星星！利用一座山和简单的数学，他计算出了地球有多大，结果几乎完全正确！",
+      "explorer": "比鲁尼（公元973-1048年）是一位自然科学家和地理学家。他精通多种语言，包括梵语、波斯语、阿拉伯语和希腊语。他开创了大地测量学，用三角学计算地球的半径和周长，误差不到1%。他还撰写了关于宝石矿物成分的著作，并记录了古代历法系统。",
+      "thinker": "阿布·拉伊汗·比鲁尼（公元973-1048年）被誉为有史以来最伟大的科学家之一。他在天文学、大地测量学、社会学和矿物学方面都有卓越成就。他利用今巴基斯坦境内一座山的高度设计了独特的数学方程来计算地球半径，这比卫星观测早了数个世纪。他关于印度的著作（《Kitab al-Hind》）被认为是第一部客观的民族志和比较宗教学研究。"
+    },
+    "funFact": "你知道吗？利用三角学和一座山，比鲁尼以99.6%的精确度计算出了地球的大小，这个计算结果与现代卫星几乎一致！",
+    "quiz": [
+      {
+        "q": "比鲁尼以惊人的精确度计算了什么地理测量值？",
+        "options": [
+          "海洋深度",
+          "到月球的距离",
+          "地球的大小（周长）"
+        ],
+        "correct": 2,
+        "explanation": "利用一座山和三角学公式，比鲁尼计算出的地球半径误差不到1%。"
+      },
+      {
+        "q": "比鲁尼在研究哪个地区的文化和科学后写了《Kitab al-Hind》？",
+        "options": [
+          "中国",
+          "印度",
+          "希腊"
+        ],
+        "correct": 1,
+        "explanation": "他在印度广泛旅行，学习梵语并撰写了全面的文化分析。"
+      },
+      {
+        "q": "比鲁尼进一步发展了哪种天文仪器用于导航？",
+        "options": [
+          "星盘",
+          "指南针",
+          "显微镜"
+        ],
+        "correct": 0,
+        "explanation": "比鲁尼设计了天文图并改进了星盘，用于计算太阳位置和礼拜方向。"
+      }
+    ]
+  },
+  {
+    "id": "al_ghazali",
+    "title": "安萨里 - 伊斯兰哲学",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_29_scholar_al_ghazali-hXQACXYZ4iArCEGuBdVNNd.webp?updatedAt=1781117901160",
+    "emoji": "💡",
+    "category": "stories_history",
+    "content": {
+      "starter": "安萨里是一位研究人们如何思考的智慧教师。他教导说，拥有一颗纯洁善良的心和超级聪明一样重要，他帮助人们找到了内心的平静！",
+      "explorer": "安萨里（公元1058-1111年）是最具影响力的伊斯兰神学家和哲学家之一。他被称为“Hujjat al-Islam”（伊斯兰的明证），曾在当时最宏伟的学院尼扎米亚学院任教。他写了美丽的著作，将学术研究与精神反思相结合，帮助人们在理性科学与积极的精神道德之间取得平衡。",
+      "thinker": "阿布·哈米德·安萨里（公元1058-1111年）深刻地塑造了伊斯兰哲学、神学和苏菲主义。在他的重要著作《哲学家的矛盾》（Tahafut al-Falasifah）中，他与希腊形而上学辩论。然而，在他的杰作《宗教科学的复兴》（Ihya Ulum al-Din）中，他综合了法学、理性神学和精神神秘主义，将品格建设和伦理确立为科学和个人追求的核心。"
+    },
+    "funFact": "你知道吗？安萨里的称号是“Hujjat al-Islam”（伊斯兰的明证），因为他的知识深度令人难以置信。他认为学习的最终目标是培养高尚品格和内心平静！",
+    "quiz": [
+      {
+        "q": "安萨里以什么称号闻名？",
+        "options": [
+          "物理学之父",
+          "Hujjat al-Islam（伊斯兰的明证）",
+          "东西方的教师"
+        ],
+        "correct": 1,
+        "explanation": "他因对神学哲学的精通而被誉为“Hujjat al-Islam”。"
+      },
+      {
+        "q": "安萨里在他的杰作中描述了什么作为宗教科学的复兴？",
+        "options": [
+          "伦理、精神和心灵的知识",
+          "建造更快的船",
+          "学习微积分"
+        ],
+        "correct": 0,
+        "explanation": "《宗教科学的复兴》专注于重振信仰、道德品格和精神意识。"
+      },
+      {
+        "q": "根据安萨里，求知的目的是：",
+        "options": [
+          "赢得辩论",
+          "培养高尚品格并接近真主",
+          "炫耀"
+        ],
+        "correct": 1,
+        "explanation": "他教导说，没有精神谦卑和崇高道德标准的知识是没有价值的。"
+      }
+    ]
+  },
+  {
+    "id": "fatima_al_fihri",
+    "title": "法蒂玛·菲赫里 - 第一所大学",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_30_scholar_fatima_al_fihri-oUUmqToz9ELRTCtWCXgCQn.webp?updatedAt=1781117901536",
+    "emoji": "🎓",
+    "category": "stories_history",
+    "content": {
+      "starter": "法蒂玛·菲赫里是一位富有而慷慨的穆斯林女性，她搬到了摩洛哥。她如此热爱阅读、科学和教育，以至于用她全部的遗产建造了卡鲁因大学——世界上最古老的大学！",
+      "explorer": "法蒂玛·菲赫里（公元800-880年）是一位鼓舞人心的教育家和慈善家。公元859年，她在摩洛哥非斯建立了卡鲁因大学和清真寺。联合国教科文组织和吉尼斯世界纪录认定它为世界上最古老的持续运营、授予学位的教育机构。",
+      "thinker": "法蒂玛·菲赫里（公元800-880年）是全球高等教育的先驱。移居非斯并继承了一大笔财富后，她发誓将她的财富用于服务社区。她亲自监督了卡鲁因清真寺和大学综合体的复杂建筑和建设，在其多年的建设期间每天封斋。该大学成为世界教育的中心，接待了基督教、犹太教和穆斯林学者，如教皇西尔维斯特二世。"
+    },
+    "funFact": "你知道吗？法蒂玛·菲赫里于公元859年建造了卡鲁因大学。它被联合国教科文组织正式认证为人类历史上最古老的持续运营大学！",
+    "quiz": [
+      {
+        "q": "法蒂玛·菲赫里在哪个城市和国家建立了最古老的大学？",
+        "options": [
+          "开罗，埃及",
+          "非斯，摩洛哥",
+          "巴格达，伊拉克"
+        ],
+        "correct": 1,
+        "explanation": "她在摩洛哥非斯建立了卡鲁因大学。"
+      },
+      {
+        "q": "法蒂玛在卡鲁因建设期间做了什么？",
+        "options": [
+          "她去度假了",
+          "她每天封斋直到完工",
+          "她去航海旅行了"
+        ],
+        "correct": 1,
+        "explanation": "作为虔诚的表现，法蒂玛·菲赫里发誓在建筑完工的数年间每天封斋。"
+      },
+      {
+        "q": "根据联合国教科文组织，卡鲁因大学享有什么荣誉？",
+        "options": [
+          "仅是最古老的图书馆",
+          "世界上最古老的持续运营、授予学位的大学",
+          "欧洲第一所医学院"
+        ],
+        "correct": 1,
+        "explanation": "卡鲁因自公元859年以来一直全面运营并授予大学学位。"
+      }
+    ]
+  },
+  {
+    "id": "ibn_khaldun",
+    "title": "伊本·赫勒敦 - 社会学之父",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_31_scholar_ibn_khaldun-22Tqw9TsmYYVf9NDTfPHYp.webp?updatedAt=1781117901557",
+    "emoji": "📜",
+    "category": "stories_history",
+    "content": {
+      "starter": "伊本·赫勒敦是一位杰出的故事讲述者和历史学家。他是第一位认识到研究*人群*和社会如何发展是一门特殊科学的学者，我们现在称之为社会学！",
+      "explorer": "伊本·赫勒敦（公元1332-1406年）是一位传奇的阿拉伯历史学家、社会学家和哲学家。在他惊人的著作《绪论》（Al-Muqaddimah）中，他引入了“Asabiyyah”（社会凝聚力）的概念，解释了伟大帝国如何崛起、繁荣、老化并最终衰落。",
+      "thinker": "伊本·赫勒敦（公元1332-1406年）被广泛认为是社会学、经济学、历史学和人口学的奠基人之一。他的巨著《绪论》阐述了一种历史哲学。他引入了“Asabiyyah”——社会凝聚力或群体团结——的概念来解释历史周期，分析了游牧文化如何建立文明，在三代之后衰落，然后让位于新的充满活力的社会联盟。"
+    },
+    "funFact": "你知道吗？伊本·赫勒敦写了他那部改变世界的著作《绪论》（代表了早期社会学和经济学），比西方学者将社会学确立为一门学科早了很多年！",
+    "quiz": [
+      {
+        "q": "伊本·赫勒敦世界闻名的历史导论书名是什么？",
+        "options": [
+          "《绪论》",
+          "《历史书》",
+          "《黄金时代》"
+        ],
+        "correct": 0,
+        "explanation": "他写了《绪论》，分析了社会的社会政治发展。"
+      },
+      {
+        "q": "伊本·赫勒敦比西方学者早几个世纪开创了哪门主要学科？",
+        "options": [
+          "社会学和史学",
+          "核物理学",
+          "海洋生物学"
+        ],
+        "correct": 0,
+        "explanation": "他对社会模式和历史周期的系统分析使他成为社会学之父。"
+      },
+      {
+        "q": "伊本·赫勒敦提出的核心概念“Asabiyyah”是什么？",
+        "options": [
+          "航海技能",
+          "社会团结和凝聚力",
+          "天文计算"
+        ],
+        "correct": 1,
+        "explanation": "“Asabiyyah”是使社会能够建立稳定国家的社区纽带或群体团结。"
       }
     ]
   }

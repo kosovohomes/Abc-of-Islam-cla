@@ -1,1306 +1,1621 @@
 [
   {
     "id": "shahada",
-    "title": "Shahada - Declaration of Faith",
+    "title": "Shahada - Tamko la Imani",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☪️",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "The Shahada says: \"There is no god but Allah, and Muhammad is His messenger.\" This is the most important sentence in Islam! When we say it, we tell everyone we believe in Allah and love His Prophet. It makes our heart light and happy!",
-      "explorer": "The Shahada is the first pillar of Islam. It has two parts: first, believing that only Allah is God — no one else deserves worship. Second, believing that Prophet Muhammad ﷺ is Allah's final messenger. Saying the Shahada with sincerity makes you Muslim. It's not just words — it's a promise from your heart to follow Allah's guidance.",
-      "thinker": "The Shahada is far more than a declaration — it's a complete worldview. The first part, \"La ilaha illallah,\" negates all false gods and affirms monotheism (Tawheed). The second part, \"Muhammadun rasulullah,\" establishes the prophetic authority of Muhammad ﷺ. Together, they form the foundation upon which all other Islamic practices are built. Understanding the Shahada means understanding the essence of submission to Allah."
+      "starter": "Shahada inasema: \"Hakuna Mola apasaye kuabudiwa kwa haki isipokuwa Allah, na Muhammad ni Mtume wake.\" Hii ni sentensi muhimu zaidi katika Uislamu! Tunaposema, tunawajulisha wote kuwa tunamwamini Allah na kumpenda Mtume wake. Inafanya moyo wetu kuwa mwepesi na wenye furaha!",
+      "explorer": "Shahada ni nguzo ya kwanza ya Uislamu. Ina sehemu mbili: kwanza, kumwamini kuwa Allah pekee ndiye Mola - hapana mwingine anayestahili kuabudiwa. Pili, kumwamini kuwa Mtume Muhammad ﷺ ni Mtume wa mwisho wa Allah. Kusema Shahada kwa ikhlasi nakufanya kuwa Muislamu. Si maneno tu - ahadi kutoka moyoni kufuata mwongozo wa Allah.",
+      "thinker": "Shahada ni zaidi ya tamko - ni mtazamo kamili wa maisha. Sehemu ya kwanza, \"La ilaha illallah,\" inakataa miungu yote ya uongo na kuthibitisha Umoja wa Mungu (Tawheed). Sehemu ya pili, \"Muhammadun rasulullah,\" inathibitisha mamlaka ya unabii wa Muhammad ﷺ. Pamoja, zinajenga msingi ambao juu yake matendo yote ya Kiislamu yamesimama. Kuelewa Shahada maana yake kuelewa kiini cha kumtii Allah."
     },
-    "funFact": "Did you know? The Shahada is whispered into a newborn baby's ear and is also the last words many Muslims hope to say before they pass away!",
+    "funFact": "Je, ulijua? Shahada husisimuliwa kwenye sikio la mtoto mchanga na pia ni maneno ya mwisho ambayo Waislamu wengi wanatumai kusema kabla ya kufariki!",
     "quiz": [
       {
-        "q": "What does Shahada mean?",
+        "q": "Shahada inamaanisha nini?",
         "options": [
-          "Declaration of Faith",
-          "Daily Prayer",
-          "Charity Giving"
+          "Tamko la Imani",
+          "Swala ya Kila Siku",
+          "Kutoa Sadaka"
         ],
         "correct": 0,
-        "explanation": "Shahada means 'Declaration of Faith' — it's the statement that makes someone Muslim."
+        "explanation": "Shahada inamaanisha 'Tamko la Imani' - ni kauli inayomfanya mtu kuwa Muislamu."
       },
       {
-        "q": "How many parts does the Shahada have?",
+        "q": "Shahada ina sehemu ngapi?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "Sehemu moja",
+          "Sehemu mbili",
+          "Sehemu tatu"
         ],
         "correct": 1,
-        "explanation": "The Shahada has two parts: believing in one God and believing Muhammad is His messenger."
+        "explanation": "Shahada ina sehemu mbili: kumwamini Mungu Mmoja na kumwamini Muhammad kuwa ni Mtume wake."
       },
       {
-        "q": "Who is the last prophet mentioned in the Shahada?",
+        "q": "Nani ni mtume wa mwisho anayetajwa katika Shahada?",
         "options": [
-          "Prophet Musa",
-          "Prophet Isa",
-          "Prophet Muhammad"
+          "Mtume Musa",
+          "Mtume Isa",
+          "Mtume Muhammad"
         ],
         "correct": 2,
-        "explanation": "The Shahada mentions Prophet Muhammad ﷺ as Allah's final messenger."
+        "explanation": "Shahada inamtaja Mtume Muhammad ﷺ kama Mtume wa mwisho wa Allah."
       }
     ]
   },
   {
     "id": "salah",
-    "title": "Salah - Prayer",
+    "title": "Salah - Swala",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🤲",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Salah is talking to Allah! Five times a day, we stop what we're doing, wash our hands and face (that's called wudu), face Mecca, and pray. It's like a special phone call to Allah. He loves when we talk to Him!",
-      "explorer": "Salah is the second pillar of Islam. Muslims pray five times a day: Fajr (dawn), Dhuhr (noon), Asr (afternoon), Maghrib (sunset), and Isha (night). Each prayer involves standing, bowing, and prostrating while reciting verses from the Quran. Salah keeps us connected to Allah throughout the day and teaches us discipline and gratitude.",
-      "thinker": "The five daily prayers (Salawat) are a gift from Allah, prescribed during the Night Journey (Isra and Mi'raj). Each prayer corresponds to a spiritual state: Fajr purifies the soul before the day begins, Dhuhr provides a midday recharge, Asr encourages reflection, Maghrib marks gratitude for the day's blessings, and Isha offers peace before sleep. The physical movements — standing (qiyam), bowing (ruku), and prostration (sujud) — are acts of humility that remind us of our relationship with our Creator."
+      "starter": "Salah ni kuzungumza na Allah! Mara tano kwa siku, tunasimama, tunawasha mikono na uso (hii inaitwa wudhu), tunaelekea Makka, na kuswali. Ni kama simu maalum kwa Allah. Anapenda tunapozungumza naye!",
+      "explorer": "Salah ni nguzo ya pili ya Uislamu. Waislamu huswali mara tano kwa siku: Fajr (alfajiri), Dhuhr (adhuhuri), Asr (alasiri), Maghrib (magharibi), na Isha (usiku). Kila swala linahusisha kusimama, kuinamia, na kusujudu huku ukisoma aya za Quran. Salah inatuduunganisha na Allah siku nzima na kutufundisha nidhamu na shukrani.",
+      "thinker": "Swala tano za kila siku (Salawat) ni zawadi kutoka kwa Allah, zilipangiwa wakati wa Safari ya Usiku (Isra na Mi'raj). Kila swala linaendana na hali ya kiroho: Fajr inatakasa nafsi kabla ya siku kuanza, Dhuhr hutoa nguvu mchana, Asr inahimiza tafakuri, Maghrib inaashiria shukrani kwa baraka za siku, na Isha hutoa amani kabla ya kulala. Harakati za mwili - kusimama (qiyam), kuinamia (ruku), na kusujudu (sujud) - ni matendo ya unyenyekevu yanayotukumbusha uhusiano wetu na Muumba wetu."
     },
-    "funFact": "Did you know? Muslims face the Kaaba in Mecca when they pray, no matter where they are in the world! Even from space, astronauts pray toward Mecca!",
+    "funFact": "Je, ulijua? Waislamu huelekea Ka'bah huko Makka wanaposwali, popote walipo duniani! Hata kutoka angani, wanaroboti huswali kuelekea Makka!",
     "quiz": [
       {
-        "q": "How many times a day do Muslims pray?",
+        "q": "Waislamu huswali mara ngapi kwa siku?",
         "options": [
-          "Three times",
-          "Five times",
-          "Seven times"
+          "Mara tatu",
+          "Mara tano",
+          "Mara saba"
         ],
         "correct": 1,
-        "explanation": "Muslims pray five times a day: Fajr, Dhuhr, Asr, Maghrib, and Isha."
+        "explanation": "Waislamu huswali mara tano kwa siku: Fajr, Dhuhr, Asr, Maghrib, na Isha."
       },
       {
-        "q": "What do we do before praying?",
+        "q": "Tunafanya nini kabla ya kuswali?",
         "options": [
-          "Eat food",
-          "Perform wudu (ablution)",
-          "Read a book"
+          "Kula chakula",
+          "Kufanya wudhu (udhu)",
+          "Kusoma kitabu"
         ],
         "clean": 1,
-        "explanation": "We perform wudu (ablution) to clean ourselves before praying."
+        "explanation": "Tunafanya wudhu (udhu) kujisafisha kabla ya kuswali."
       },
       {
-        "q": "Which direction do Muslims face when praying?",
+        "q": "Waislamu huelekea upande gani wanaposwali?",
         "options": [
-          "North",
-          "The Kaaba in Mecca",
-          "East"
+          "Kaskazini",
+          "Ka'bah huko Makka",
+          "Mashariki"
         ],
         "correct": 1,
-        "explanation": "Muslims face the Kaaba in Mecca, which is called the Qibla."
+        "explanation": "Waislamu huelekea Ka'bah huko Makka, ambayo inaitwa Qibla."
       }
     ]
   },
   {
     "id": "zakat",
-    "title": "Zakat - Charity",
+    "title": "Zakat - Sadaka",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_45_zakat_overview-iB69C239XxvYzdfsgqWaNR.webp?updatedAt=1781117902141",
     "emoji": "💰",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Zakat means sharing what we have with others! If we have extra money, we give a little bit to people who need it. It's like Allah is asking us to be kind and share. When we give, our hearts feel happy!",
-      "explorer": "Zakat is the third pillar of Islam. It means giving 2.5% of your savings each year to those in need. It's not optional — it's an obligation for Muslims who have wealth above a certain amount. Zakat purifies our money and reminds us that everything belongs to Allah. It helps the poor, pays off debts, and strengthens the community.",
-      "thinker": "Zakat is both a social and spiritual obligation. The word 'zakat' means 'purification' and 'growth' — by giving a portion of our wealth, we purify the remainder and grow spiritually. Allah says in the Quran that those who pay Zakat are helping to purify themselves (At-Tawbah 9:103). The fixed rate of 2.5% (one-fortieth) applies to savings held for one lunar year above the nisab threshold. This systematic approach to wealth redistribution was revolutionary and remains one of Islam's most powerful social justice mechanisms."
+      "starter": "Zakat inamaanisha kushiriki tunachonacho na wengine! Ikiwa tuna pesa za ziada, tunatoa kidogo kwa watu wanaohitaji. Ni kama Allah anatuomba tuwe wema na kushiriki. Tunapotoa, moyo wetu unafurahi!",
+      "explorer": "Zakat ni nguzo ya tatu ya Uislamu. Inamaanisha kutoa 2.5% ya akiba yako kila mwaka kwa wanaohitaji. Si hiari - ni wajibu kwa Waislamu waliyo na mali juu ya kiasi fulani. Zakat inatakasa pesa zetu na kutukumbusha kuwa kila kitu kinamilikiwa na Allah. Inasaidia masikini, inalipia madeni, na kuimarisha jamii.",
+      "thinker": "Zakat ni wajibu wa kijamii na wa kiroho. Neno 'zakat' lina maana ya 'kutakasa' na 'kukua' - kwa kutoa sehemu ya mali yetu, tunatakasa iliyobaki na kukua kiroho. Allah anasema katika Quran kuwa wanaotoa Zakat wanasaidia kujitakasa (At-Tawbah 9:103). Kiwango cha 2.5% (sehemu ya arubaini) kinatumika kwa akiba iliyohifadhiwa kwa mwaka mmoja wa kijuu juu ya kizingiti cha nisab. Mfumo huu wa ugawaji mali ulikuwa wa mapinduzi na unabaki kuwa moja ya mitindo imara zaidi ya haki ya jamii katika Uislamu."
     },
-    "funFact": "Did you know? The word 'Zakat' means 'purification' — when you give Zakat, your remaining money becomes blessed and pure!",
+    "funFact": "Je, ulijua? Neno 'Zakat' lina maana ya 'kutakasa' - unapotoa Zakat, pesa zako zilizobaki zinakuwa zimbarikiwa na takatifu!",
     "quiz": [
       {
-        "q": "What percentage of savings is given as Zakat?",
+        "q": "Ni asilimia ngapi ya akiba inatolewa kama Zakat?",
         "options": [
           "1%",
           "2.5%",
           "10%"
         ],
         "correct": 1,
-        "explanation": "Muslims give 2.5% (one-fortieth) of their savings as Zakat each year."
+        "explanation": "Waislamu hutoa 2.5% (sehemu ya arubaini) ya akiba yao kama Zakat kila mwaka."
       },
       {
-        "q": "What does the word 'Zakat' mean?",
+        "q": "Neno 'Zakat' lina maana gani?",
         "options": [
-          "Charity",
-          "Purification",
-          "Prayer"
+          "Sadaka",
+          "Kutakasa",
+          "Swala"
         ],
         "correct": 1,
-        "explanation": "Zakat means 'purification' — it purifies our wealth and our hearts."
+        "explanation": "Zakat inamaanisha 'kutakasa' - inatakasa mali zetu na nyoyo zetu."
       },
       {
-        "q": "Who receives Zakat?",
+        "q": "Nani anapokea Zakat?",
         "options": [
-          "Only family",
-          "People in need",
-          "Only the rich"
+          "Familia tu",
+          "Watu wenye mahitaji",
+          "Matajiri tu"
         ],
         "correct": 1,
-        "explanation": "Zakat is given to people in need, including the poor, debtors, and travelers."
+        "explanation": "Zakat hutolewa kwa watu wenye mahitaji, wakiwemo masikini, wadeni, na wasafiri."
       }
     ]
   },
   {
     "id": "sawm",
-    "title": "Sawm - Fasting in Ramadan",
+    "title": "Sawm - Funga ya Ramadhani",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_40_ramadan_fasting-SeQhGeRR5buiYbtryMhUKA.webp?updatedAt=1781117899738",
     "emoji": "🌙",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "During Ramadan, we don't eat or drink from sunrise to sunset. That's called fasting! It teaches us to be patient and think about people who don't have food. At night, we break our fast with family and pray together. It's very special!",
-      "explorer": "Sawm means fasting during the month of Ramadan, the fourth pillar of Islam. From dawn to sunset, Muslims abstain from food, drink, and other physical needs. But fasting is not just about staying hungry — it's about building patience, empathy for the poor, and getting closer to Allah. The fast is broken at sunset with a meal called Iftar, often shared with family and community.",
-      "thinker": "Sawm during Ramadan is a comprehensive act of worship that trains the body, mind, and soul. The Quran was first revealed during Ramadan (Surah Al-Baqarah 2:185), making this month especially sacred. Fasting develops taqwa (God-consciousness) by creating a physical reminder of Allah's presence. Beyond abstaining from food and drink, Muslims are encouraged to avoid negative speech, anger, and gossip. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a rhythm of gratitude and community that transforms the entire month."
+      "starter": "Wakati wa Ramadhani, hatuli wala hanywi kutoka machweo hadi jua lituangame. Hii inaitwa kufunga! Inatufundisha subira na kufikiria watu wasio na chakula. Usiku, tunafungua funga na familia na kuswali pamoja. Ni kipindi cha pekee sana!",
+      "explorer": "Sawm inamaanisha kufunga wakati wa mwezi wa Ramadhani, nguzo ya nne ya Uislamu. Kutoka alfajiri hadi magharibi, Waislamu hujizuia na chakula, kinywaji, na mahitaji mengine ya kimwili. Lakini kufunga si kuhesabu njaa tu - ni kujenga subira, huruma kwa masikini, na kukaribia Allah. Funga huvunjwa jua lituangame kwa mlo unaoitwa Iftari, mara nyingi kushirikiwa na familia na jamii.",
+      "thinker": "Sawm wakati wa Ramadhani ni ibada kamili inayofunza mwili, akili, na roho. Quran iliteremshwa kwanza wakati wa Ramadhani (Surah Al-Baqarah 2:185), na kufanya mwezi huu kuwa mtukufu hasa. Kufunga kunaendeleza taqwa (kumkumbuka Allah) kwa kuunda kumbukumbu ya kimwili ya uwepo wa Allah. Zaidi ya kujizuia na chakula na kinywaji, Waislamu wanahimizwa kuepuka usemi mbaya, hasira, na kusengenyia. Mlo wa kabla ya alfajiri (Sahuri) na mlo wa jua lituangame (Iftari) huunda mtiririko wa shukrani na jamii unaoibadilisha mwezi mzima."
     },
-    "funFact": "Did you know? Muslims break their fast with dates, just like Prophet Muhammad ﷺ used to! The word 'Iftar' means 'breaking the fast'!",
+    "funFact": "Je, ulijua? Waislamu hufungua funga kwa tende, kama alivyokuwa akifanya Mtume Muhammad ﷺ! Neno 'Iftari' lina maana ya 'kuvunja funga'!",
     "quiz": [
       {
-        "q": "During which month do Muslims fast?",
+        "q": "Waislamu hufunga wakati wa mwezi gani?",
         "options": [
           "Muharram",
-          "Ramadan",
+          "Ramadhani",
           "Shawwal"
         ],
         "correct": 1,
-        "explanation": "Muslims fast during the holy month of Ramadan."
+        "explanation": "Waislamu hufunga wakati wa mwezi mtukufu wa Ramadhani."
       },
       {
-        "q": "What is the meal called when we break our fast?",
+        "q": "Mlo unaoitwa tunapovunja funga unaitwaje?",
         "options": [
-          "Suhoor",
-          "Iftar",
+          "Sahuri",
+          "Iftari",
           "Dhuhr"
         ],
         "correct": 1,
-        "explanation": "The meal at sunset to break the fast is called Iftar."
+        "explanation": "Mlo wa jua lituangame wa kuvunja funga unaitwa Iftari."
       },
       {
-        "q": "What food did Prophet Muhammad ﷺ use to break his fast?",
+        "q": "Mtume Muhammad ﷺ alikuwa akivunja funga kwa chakula gani?",
         "options": [
-          "Bread",
-          "Dates",
-          "Rice"
+          "Mkate",
+          "Tende",
+          "Wali"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ would break his fast with dates and water."
+        "explanation": "Mtume Muhammad ﷺ alikuwa akivunja funga kwa tende na maji."
       }
     ]
   },
   {
     "id": "hajj",
-    "title": "Hajj - Pilgrimage to Mecca",
+    "title": "Hajj - Hijja kwenda Makka",
     "image": "https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446",
     "emoji": "🕋",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Hajj is a big trip to Mecca! Every Muslim who is able goes there to pray around the Kaaba — Allah's house. Millions of people go together, wearing simple white clothes. Everyone is equal there — rich or poor, it doesn't matter!",
-      "explorer": "Hajj is the fifth pillar of Islam — a pilgrimage to Mecca that every Muslim must make at least once in their lifetime if they are able. It happens during the Islamic month of Dhul Hijjah. Pilgrims wear simple white clothes called Ihram, circling the Kaaba, walking between hills, and standing in prayer at Arafat. Hajj teaches equality, patience, and devotion to Allah.",
-      "thinker": "Hajj is the world's largest annual gathering and represents the ultimate expression of Islamic unity. Following the footsteps of Prophet Ibrahim ﷺ and his family, pilgrims perform rituals that symbolize sacrifice, purification, and submission to Allah. The wearing of Ihram strips away all markers of wealth and status — everyone stands equal before Allah. The Prophet ﷺ said: 'Hajj is an obligation once in a lifetime for whoever has the ability.' It is a profound spiritual journey that cleanses sins and renews one's connection with the Creator."
+      "starter": "Hajj ni safari kubwa kwenda Makka! Kila Muislamu anayeweza anaenda kuswali kuzunguka Ka'bah - nyumba ya Allah. Milioni za watu huenda pamoja, wakivaa nguo nyeupe rahisi. Kila mtu ni sawa hapo - tajiri au masikini, haijalishi!",
+      "explorer": "Hajj ni nguzo ya tano ya Uislamu - hijja kwenda Makka ambayo kila Muislamu lazima afanye angalau mara moja maishani mwake ikiwa anaweza. Hufanyika wakati wa mwezi wa Kiislamu wa Dhul Hijjah. Wahiji huvaa nguo nyeupe rahisi zinazoitwa Ihram, wakizunguka Ka'bah, kutembea kati ya milima, na kusimama kuswali Arafat. Hajj inafundisha usawa, subira, na kujitolea kwa Allah.",
+      "thinker": "Hajj ni mkusanyiko mkubwa zaidi wa kila mwaka duniani na unaashiria mshangao wa umoja wa Kiislamu. Wakifuata nyayo za Mtume Ibrahim ﷺ na familia yake, wahiji hufanya matendo yanayosimulia dhabihu, kutakasa, na kumtii Allah. Kuvaa Ihram kunatoa alama zote za utajiri na hadhi - kila mtu anasimama sawa mbele ya Allah. Mtume ﷺ alisema: 'Hajj ni wajibu mara moja maishani kwa anayeweza.' Ni safari ya kiroho ya kina inayosafisha dhambi na kuimarisha uhusiano na Muumba."
     },
-    "funFact": "Did you know? Over 2 million people perform Hajj every year! When pilgrims throw stones at the pillars (Jamarat), they're following the example of Prophet Ibrahim!",
+    "funFact": "Je, ulijua? Zaidi ya milioni 2 wanafanya Hajj kila mwaka! Wahiji wanapotuwa mawe kwa nguzo (Jamarat), wanafuata mfano wa Mtume Ibrahim!",
     "quiz": [
       {
-        "q": "How often must a Muslim perform Hajj?",
+        "q": "Muislamu lazima afanye Hajj mara ngapi?",
         "options": [
-          "Every year",
-          "Once in a lifetime",
-          "Every 5 years"
+          "Kila mwaka",
+          "Mara moja maishani",
+          "Kila miaka 5"
         ],
         "correct": 1,
-        "explanation": "Every Muslim who is able must perform Hajj at least once in their lifetime."
+        "explanation": "Kila Muislamu anayeweza lazima afanye Hajj angalau mara moja maishani mwake."
       },
       {
-        "q": "What do pilgrims wear during Hajj?",
+        "q": "Wahiji huvaa nini wakati wa Hajj?",
         "options": [
-          "Regular clothes",
-          "Simple white clothes called Ihram",
-          "Black clothes"
+          "Nguo za kawaida",
+          "Nguo nyeupe rahisi zinazoitwa Ihram",
+          "Nguo nyeusi"
         ],
         "correct": 1,
-        "explanation": "Pilgrims wear simple white clothes called Ihram to show everyone is equal."
+        "explanation": "Wahiji huvaa nguo nyeupe rahisi zinazoitwa Ihram kuonyesha kila mtu ni sawa."
       },
       {
-        "q": "Which prophet's example do pilgrims follow at Hajj?",
+        "q": "Mtume gani ana mfano unaofuatwa wakati wa Hajj?",
         "options": [
-          "Prophet Musa",
-          "Prophet Ibrahim",
-          "Prophet Isa"
+          "Mtume Musa",
+          "Mtume Ibrahim",
+          "Mtume Isa"
         ],
         "correct": 1,
-        "explanation": "Pilgrims follow the example of Prophet Ibrahim ﷺ and his family."
+        "explanation": "Wahiji wanafuata mfano wa Mtume Ibrahim ﷺ na familia yake."
       }
     ]
   },
   {
     "id": "tawheed",
-    "title": "Tawheed - Oneness of God",
+    "title": "Tawheed - Umoja wa Mungu",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☝️",
     "category": "core_beliefs",
     "content": {
-      "starter": "Tawheed means there is ONLY ONE God — Allah! He created everything: you, me, the stars, the animals, everything! We only pray to Allah, not to anyone else. Allah is the only one who deserves our love and worship!",
-      "explorer": "Tawheed is the most important belief in Islam — that there is only one God, Allah. He has no partners, no family, and no equals. He is the Creator of everything and the only one worthy of worship. Understanding Tawheed means we don't pray to statues, people, or anything else — only to Allah. This belief is the foundation of everything in Islam.",
-      "thinker": "Tawheed is the cornerstone of Islamic theology, encompassing three dimensions: Tawheed ar-Rububiyyah (Oneness of Lordship), Tawheed al-Uluhiyyah (Oneness of Worship), and Tawheed al-Asma wa'l-Sifat (Oneness of Names and Attributes). The first recognizes Allah as the sole Creator and Sustainer. The second directs all forms of worship exclusively to Him. The third affirms that Allah's attributes are unique and incomparable. The Quran states: 'Say, He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is begotten. And there is none comparable to Him' (Surah Al-Ikhlas 112:1-4)."
+      "starter": "Tawheed inamaanisha kuna Mungu MMOJA TU - Allah! Ameumba kila kitu: wewe, mimi, nyota, wanyama, kila kitu! Tunamswali Allah tu, si mtu yeyote mwingine. Allah ndiye pekee anayestahili upendo na ibada yetu!",
+      "explorer": "Tawheed ni imani muhimu zaidi katika Uislamu - kuwa kuna Mungu mmoja tu, Allah. Hana washirika, hana familia, na hana wenzake. Yeye ndiye Muumba wa kila kitu na pekee anayestahili kuabudiwa. Kuelewa Tawheed maana yake hatuswali sanamu, watu, au chochote kingine - tunamswali Allah tu. Imani hii ndiyo msingi wa kila kitu katika Uislamu.",
+      "thinker": "Tawheed ni jiwe la msingi la teolojia ya Kiislamu, likijumisha vipimo vitatu: Tawheed ar-Rububiyyah (Umoja wa Ubumi), Tawheed al-Uluhiyyah (Umoja wa Ibada), na Tawheed al-Asma wa'l-Sifat (Umoja wa Majina na Sifa). Cha kwanza kinamtambua Allah kama Muumba na Mhudumia pekee. Cha pili kinaelekeza aina zote za ibada kwake pekee. Cha tatu kinathibitisha kuwa sifa za Allah ni za kipekee na hazifananishwi. Quran inasema: 'Sema, Yeye ni Allah, Mmoja. Allah, Malazi wa milele. Hamzai wala kuzaliwa. Wala hapana yeyote anayefanana naye' (Surah Al-Ikhlas 112:1-4)."
     },
-    "funFact": "Did you know? The word 'Islam' comes from the root 'salaam' which means peace, and it means submission to Allah — the One God!",
+    "funFact": "Je, ulijua? Neno 'Uislamu' linatokana na mzizi 'salaam' unaomaanisha amani, na lina maana ya kumtii Allah - Mungu Mmoja!",
     "quiz": [
       {
-        "q": "What does Tawheed mean?",
+        "q": "Tawheed inamaanisha nini?",
         "options": [
-          "Many gods",
-          "Oneness of God",
-          "Prayer"
+          "Miungu mingi",
+          "Umoja wa Mungu",
+          "Swala"
         ],
         "correct": 1,
-        "explanation": "Tawheed means the Oneness of God — believing there is only one God, Allah."
+        "explanation": "Tawheed inamaanisha Umoja wa Mungu - kumwamini kuna Mungu mmoja tu, Allah."
       },
       {
-        "q": "How many gods does Islam teach us about?",
+        "q": "Uislamu unafundisha kuwa kuna miungu mingapi?",
         "options": [
-          "Many gods",
-          "Only one God",
-          "Two gods"
+          "Miungu mingi",
+          "Mungu mmoja tu",
+          "Miungu miwili"
         ],
         "correct": 1,
-        "explanation": "Islam teaches us that there is only one God — Allah."
+        "explanation": "Uislamu unafundisha kuwa kuna Mungu mmoja tu - Allah."
       },
       {
-        "q": "Which surah of the Quran talks about Tawheed?",
+        "q": "Ni surah gani ya Quran inayozungumzia Tawheed?",
         "options": [
           "Al-Fatiha",
           "Al-Ikhlas",
           "Al-Baqarah"
         ],
         "correct": 1,
-        "explanation": "Surah Al-Ikhlas (112) talks about the Oneness of God."
+        "explanation": "Surah Al-Ikhlas (112) inazungumzia Umoja wa Mungu."
       }
     ]
   },
   {
     "id": "angels",
-    "title": "Angels",
+    "title": "Malaika",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "👼",
     "category": "core_beliefs",
     "content": {
-      "starter": "Angels are special creatures made of light! Allah sends them to help us. Some angels write down our good and bad deeds. Some angels take our souls when it's time. Angels always obey Allah and never make mistakes!",
-      "explorer": "Angels are one of the six articles of faith in Islam. They are created from light and always obey Allah. The most famous angel is Jibril (Gabriel), who brought Allah's messages to the prophets. Other important angels include Mikail (Michael), Israfil (who will blow the trumpet on Judgment Day), and Azra'il (the angel of death). Angels record our deeds and protect us.",
-      "thinker": "Angels (Mala'ika) are a fundamental article of Islamic belief. Created from light, they exist in a different dimension and serve Allah in various capacities. Jibril (Gabriel) delivered the Quran to Prophet Muhammad ﷺ. The Kiraman Katibin are recording angels who document every deed. The angel Munkar and Nakir question the dead in their graves. Unlike humans, angels have no free will — they always obey Allah. Their existence reminds us that we are never truly alone and that our actions are always being witnessed."
+      "starter": "Malaika ni viumbe maalum walioundwa kwa nuru! Allah anawatuma kutusaidia. Malaika wengine huandika matendo yetu mazuri na mabaya. Malaika wengine huchukua roho zetu wakati wake. Malaika humtii Allah kila wakati na hawakosei kamwe!",
+      "explorer": "Malaika ni mojawapo ya matanoi sita ya imani katika Uislamu. Wameundwa kutoka kwa nuru na humtii Allah kila wakati. Malaika anayejulikana zaidi ni Jibril, aliyeleta ujumbe wa Allah kwa mitume. Malaika wengine muhimu wanajumuisha Mikail, Israfil (atakayepiga tarumbeta Siku ya Hukumu), na Azra'il (malaika wa mauti). Malaika huandika matendo yetu na kutulinda.",
+      "thinker": "Malaika (Mala'ika) ni otete wa imani ya Kiislamu. Wameundwa kutoka kwa nuru, wapo katika ulimwengu tofauti na humtumikia Allah kwa njia mbalimbali. Jibril alijipeleka Quran kwa Mtume Muhammad ﷺ. Kiraman Katibin ni malaika wa kuandika wanaorekodi kila tendo. Malaika Munkar na Nakir wanamuuliza maiti kaburini. Tofauti na binadamu, malaika hawana hiari - humtii Allah kila wakati. Uwepo wao unatukumbusha kuwa hatuwi pekee kamwe na kuwa matendo yetu yanaangaliwa kila wakati."
     },
-    "funFact": "Did you know? Angels have wings! Some have two, some have three, some have four — and Prophet Muhammad ﷺ saw the angel Jibril with 600 wings!",
+    "funFact": "Je, ulijua? Malaika wana mabawa! Wengine wana mawili, wengine matatu, wengine manne - na Mtume Muhammad ﷺ alimuona malaika Jibril akiwa na mabawa 600!",
     "quiz": [
       {
-        "q": "What are angels made of?",
+        "q": "Malaika wameundwa kutoka kwa nini?",
         "options": [
-          "Fire",
-          "Light",
-          "Water"
+          "Moto",
+          "Nuru",
+          "Maji"
         ],
         "correct": 1,
-        "explanation": "Angels are created from light."
+        "explanation": "Malaika wameundwa kutoka kwa nuru."
       },
       {
-        "q": "Which angel brought messages to the prophets?",
+        "q": "Ni malaika gani aliyeleta ujumbe kwa mitume?",
         "options": [
           "Mikail",
           "Jibril",
           "Israfil"
         ],
         "correct": 1,
-        "explanation": "Jibril (Gabriel) brought Allah's messages to the prophets."
+        "explanation": "Jibril alipeleka ujumbe wa Allah kwa mitume."
       },
       {
-        "q": "Do angels have free will?",
+        "q": "Je, malaika wana hiari ya kufanya maamuzi?",
         "options": [
-          "Yes, they can choose",
-          "No, they always obey Allah",
-          "Sometimes"
+          "Ndiyo, wanaweza kuchagua",
+          "Hapana, humtii Allah kila wakati",
+          "Wakati mwingine"
         ],
         "correct": 1,
-        "explanation": "Angels always obey Allah — they don't have free will like humans."
+        "explanation": "Malaika humtii Allah kila wakati - hawana hiari kama binadamu."
       }
     ]
   },
   {
     "id": "holy_books",
-    "title": "Holy Books",
+    "title": "Vitabu Vitakatifu",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📕",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent holy books to guide people! The most important one for us is the Quran — Allah's final book, sent to Prophet Muhammad ﷺ. Before that, Allah sent the Torah to Musa, the Zabur to Dawud, and the Injil to Isa. The Quran is special because Allah promised to protect it!",
-      "explorer": "Muslims believe that Allah revealed several holy books to guide humanity. The Tawrat (Torah) was given to Prophet Musa, the Zabur (Psalms) to Prophet Dawud, and the Injil (Gospel) to Prophet Isa. The Quran is the final and most complete revelation, sent to Prophet Muhammad ﷺ. We believe the earlier books were changed over time, but the Quran has been preserved exactly as Allah revealed it.",
-      "thinker": "The belief in holy books (Kutub) is the third article of Islamic faith. Allah revealed guidance through various scriptures: the Sahifat to Ibrahim, the Tawrat to Musa, the Zabur to Dawud, the Injil to Isa, and the Quran to Muhammad ﷺ. While Muslims respect all these revelations, we believe the Quran is the final and preserved word of Allah. It was revealed over 23 years and has been memorized by millions of huffaz (memorizers) throughout history. The Quran is unique in that Allah Himself guaranteed its preservation: 'Indeed, it is We who sent down the Quran and indeed, We will be its guardian' (Surah Al-Hijr 15:9)."
+      "starter": "Allah alituma vitabu vitakatifu kuongoza watu! Kitabu muhimu zaidi kwetu ni Quran - kitabu cha mwisho cha Allah, kilichoteremshwa kwa Mtume Muhammad ﷺ. Kabla yake, Allah alituma Tawrat kwa Musa, Zabur kwa Dawud, na Injil kwa Isa. Quran ni maalum kwa sababu Allah aliahidi kulilinda!",
+      "explorer": "Waislamu wanamwamini Allah alifunua vitabu vitakatifu kadhaa kuongoza binadamu. Tawrat ilitolewa kwa Mtume Musa, Zabur kwa Mtume Dawud, na Injil kwa Mtume Isa. Quran ni ufahamu wa mwisho na kamili zaidi, ulioteremshwa kwa Mtume Muhammad ﷺ. Tunamwamini vitabu vya awali vilibadilishwa na wakati, lakini Quran imehifadhiwa kama ilivyoteremshwa na Allah.",
+      "thinker": "Imani katika vitabu vitakatifu (Kutub) ni otete la tatu la imani ya Kiislamu. Allah alifunua mwongozo kupitia maandiko mbalimbali: Sahifat kwa Ibrahim, Tawrat kwa Musa, Zabur kwa Dawud, Injil kwa Isa, na Quran kwa Muhammad ﷺ. Ingawa Waislamu wanaheshimu ufahamu huu wote, tunamwamini Quran ni neno la mwisho na linalohifadhiwa la Allah. Liliteremshwa kwa miaka 23 na limehifadhiwa kwa kihafidhina na wahafidhina (wanaohifadhi) mamilioni katika historia. Quran ni ya kipekee kwa kuwa Allah Mwenyewe alidhamini uhifadhi wake: 'Hakika Sisi tulioiteremsha Quran, na Hakika Sisi ndio tutailinda' (Surah Al-Hijr 15:9)."
     },
-    "funFact": "Did you know? The Quran has been completely memorized by millions of people around the world — and some children as young as 7 years old!",
+    "funFact": "Je, ulijua? Quran imehifadhiwa kwa kihafidhina na watu mamilioni duniani kote - na watoto wengine wakiwa na umri wa miaka 7 tu!",
     "quiz": [
       {
-        "q": "Which is the final holy book in Islam?",
+        "q": "Ni kitabu gani cha mwisho kitakatifu katika Uislamu?",
         "options": [
-          "Torah",
-          "Bible",
+          "Tawrat",
+          "Biblia",
           "Quran"
         ],
         "correct": 2,
-        "explanation": "The Quran is the final and most complete holy book sent by Allah."
+        "explanation": "Quran ndiyo kitabu cha mwisho na kamili zaidi kitakatifu kilichotumwa na Allah."
       },
       {
-        "q": "Which prophet received the Torah?",
+        "q": "Ni mtume gani aliyepewa Tawrat?",
         "options": [
-          "Prophet Ibrahim",
-          "Prophet Musa",
-          "Prophet Isa"
+          "Mtume Ibrahim",
+          "Mtume Musa",
+          "Mtume Isa"
         ],
         "correct": 1,
-        "explanation": "The Torah (Tawrat) was given to Prophet Musa (Moses)."
+        "explanation": "Tawrat ilitolewa kwa Mtume Musa."
       },
       {
-        "q": "What makes the Quran special?",
+        "q": "Ni nini kinachofanya Quran kuwa maalum?",
         "options": [
-          "It's the oldest book",
-          "Allah promised to protect it",
-          "It has many pages"
+          "Ni kitabu cha zamani zaidi",
+          "Allah aliahidi kulilinda",
+          "Kina kurasa nyingi"
         ],
         "correct": 1,
-        "explanation": "Allah promised to protect the Quran from being changed — it's preserved exactly as revealed."
+        "explanation": "Allah aliahidi kulinda Quran isibadilishwe - imehifadhiwa kama ilivyoteremshwa."
       }
     ]
   },
   {
     "id": "prophets",
-    "title": "Prophets of Allah",
+    "title": "Mitume wa Allah",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_3_prophet_stories_feature-FtRej2zvGTyPa9u6r2MF85.webp?updatedAt=1781117901347",
     "emoji": "🧑‍🏫",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent many prophets to guide people! We believe in 25 prophets, like Adam, Ibrahim, Musa, Isa, and the last one, Muhammad ﷺ. They were all good people who taught us to worship Allah and be kind to others!",
-      "explorer": "Allah sent prophets to every nation throughout history to guide people to the right path. We know of 25 prophets mentioned in the Quran, including Adam, Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. All prophets taught the same message: worship Allah alone and be good to others. Prophet Muhammad ﷺ is the last and final prophet.",
-      "thinker": "The belief in prophets (Anbiya) is the fourth article of Islamic faith. Allah sent 124,000 prophets to guide humanity, with 25 specifically mentioned in the Quran. They include the five greatest prophets (Ulul-Azm): Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. Each prophet was sent to a specific nation but carried the same universal message of Tawheed and moral conduct. Prophet Muhammad ﷺ is the Seal of the Prophets (Khatam an-Nabiyyin), meaning no new prophet will come after him. His message is for all of humanity until the Day of Judgment."
+      "starter": "Allah alituma mitume wengi kuongoza watu! Tunawaamini mitume 25, kama Adam, Ibrahim, Musa, Isa, na wa mwisho, Muhammad ﷺ. Wote walikuwa watu wema waliotufundisha kumuabudu Allah na kuwa wema kwa wengine!",
+      "explorer": "Allah alituma mitume kwa kila taifa katika historia kuongoza watu kwenye njia sahihi. Tunajua mitume 25 wanaotajwa katika Quran, wakiwemo Adam, Nuh, Ibrahim, Musa, Isa, na Muhammad ﷺ. Mitume wote walifundisha ujumbe uleule: muabuduni Allah pekee na kuwa wema kwa wengine. Mtume Muhammad ﷺ ndiye mtume wa mwisho na wa mwisho kabisa.",
+      "thinker": "Imani katika mitume (Anbiya) ni otete la nne la imani ya Kiislamu. Allah alituma mitume 124,000 kuongoza binadamu, na 25 wameelezwa mahususi katika Quran. Wanajumuisha mitume wakubwa watano (Ulul-Azm): Nuh, Ibrahim, Musa, Isa, na Muhammad ﷺ. Kila mtume alitumwa kwa taifa maalum lakini alibeba ujumbe uleule wa Tawheed na mwenendo bora. Mtume Muhammad ﷺ ni Muhuri wa Mitume (Khatam an-Nabiyyin), maana yake hakuna mtume mpya atakayekuja baada yake. Ujumbe wake ni kwa binadamu wote hadi Siku ya Hukumu."
     },
-    "funFact": "Did you know? Muslims believe in 25 prophets mentioned in the Quran! Prophet Nuh (Noah) lived for 950 years and built the big ship!",
+    "funFact": "Je, ulijua? Waislamu wanawaamini mitume 25 wanaotajwa katika Quran! Mtume Nuh aliishi kwa miaka 950 na kujenga meli kubwa!",
     "quiz": [
       {
-        "q": "How many prophets are mentioned in the Quran?",
+        "q": "Ni mitume wangapi wanatajwa katika Quran?",
         "options": [
           "10",
           "25",
           "100"
         ],
         "correct": 1,
-        "explanation": "25 prophets are specifically mentioned in the Quran."
+        "explanation": "Mitume 25 wameelezwa mahususi katika Quran."
       },
       {
-        "q": "Who is the last prophet in Islam?",
+        "q": "Nani ni mtume wa mwisho katika Uislamu?",
         "options": [
-          "Prophet Isa",
-          "Prophet Musa",
-          "Prophet Muhammad"
+          "Mtume Isa",
+          "Mtume Musa",
+          "Mtume Muhammad"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ is the last and final prophet sent by Allah."
+        "explanation": "Mtume Muhammad ﷺ ndiye mtume wa mwisho na wa mwisho kabisa aliye tumwa na Allah."
       },
       {
-        "q": "What did all prophets teach?",
+        "q": "Mitume wote walifundisha nini?",
         "options": [
-          "Different messages",
-          "Worship Allah alone and be kind",
-          "Only pray"
+          "Ujumbe tofauti",
+          "Kumuabudu Allah pekee na kuwa wema",
+          "Kuswali tu"
         ],
         "correct": 1,
-        "explanation": "All prophets taught the same message: worship Allah alone and be good to others."
+        "explanation": "Mitume wote walifundisha ujumbe uleule: muabuduni Allah pekee na kuwa wema kwa wengine."
       }
     ]
   },
   {
     "id": "day_of_judgment",
-    "title": "Day of Judgment",
+    "title": "Siku ya Hukumu",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326",
     "emoji": "⚖️",
     "category": "core_beliefs",
     "content": {
-      "starter": "One day, everyone will come back to life and stand in front of Allah! He will check all our good and bad deeds. People who did good will go to Paradise — a beautiful place with everything nice. People who were bad and didn't sorry will go to Hell. That's why we should always try to do good!",
-      "explorer": "The Day of Judgment (Yawm al-Qiyamah) is when all people will be resurrected and brought before Allah to be judged for their deeds. Every action — even the smallest kindness — will be weighed on a scale. Those whose good deeds outweigh their bad will enter Paradise (Jannah), a place of eternal happiness. Those whose bad deeds are heavier will face punishment. This belief motivates Muslims to always do their best.",
-      "thinker": "The Day of Judgment (Qiyamah) is the fifth article of Islamic faith. It is the day when all of creation will be resurrected and judged by Allah with perfect justice. The Prophet ﷺ described signs that will precede it, including major earthquakes, the sun rising from the west, and the emergence of the Dajjal. On that day, every person will receive their book of deeds — in the right hand for the righteous, in the left for the wrongdoers. The scale (Mizan) will weigh every deed, no matter how small. This belief provides moral accountability and motivates Muslims to live righteously."
+      "starter": "Siku moja, kila mtu atafufuka na kusimama mbele ya Allah! Atakagua matendo yetu yote mazuri na mabaya. Watu waliofanya mema wataenda Pepo - mahali pazuri pa kila kitu kizuri. Watu waliokuwa wabaya na hawakujuta wataenda Motoni. Kwa hivyo tunapaswa kujaribu kufanya mema kila wakati!",
+      "explorer": "Siku ya Hukumu (Yawm al-Qiyamah) ni wakati watu wote watafufuka na kuletwa mbele ya Allah kuhukumiwa kwa matendo yao. Kila kitendo - hata chem ya wema - kitawekwa kwenye mizani. Wale ambao matendo yao mazuri yatazidi mabaya wataingia Pepo (Janna), mahali pa furaha ya milele. Wale ambao matendo yao mabaya ni makubwa zaidi watakabili adhabu. Imani hii inawahimiza Waislamu kufanya bora zaidi kila wakati.",
+      "thinker": "Siku ya Hukumu (Qiyamah) ni otete la tano la imani ya Kiislamu. Ni siku ambayo uumbaji wote utafufuka na kuhukumiwa na Allah kwa haki kamili. Mtume ﷺ alielezea dalili zitakazotangulia, zikiwemo tetemeko kubwa la ardhi, jua kuchoka magharibi, na kujitokeza kwa Dajjal. Siku hiyo, kila mtu atapokea kitabu cha matendo yake - kwenye mkono wa kulia kwa wanyofu, kwenye mkono wa kushoto kwa wahalifu. Mizani (Mizan) itapima kila tendo, chochote kizuri au kibaya. Imani hii inatoa uwajibikaji wa maadili na inawahimiza Waislamu kuishi kwa haki."
     },
-    "funFact": "Did you know? On the Day of Judgment, even a small good deed — like removing a thorn from the road — will be rewarded!",
+    "funFact": "Je, ulijua? Siku ya Hukumu, hata tendo dogo la wema - kama kuondoa msumari kutoka barabarani - litafanyiwa malipo!",
     "quiz": [
       {
-        "q": "What happens on the Day of Judgment?",
+        "q": "Ni nini kinachotokea Siku ya Hukumu?",
         "options": [
-          "Everyone goes to Paradise",
-          "Everyone is judged for their deeds",
-          "Nothing happens"
+          "Kila mtu anaenda Pepo",
+          "Kila mtu anahukumiwa kwa matendo yake",
+          "Hakuna kinachotokea"
         ],
         "correct": 1,
-        "explanation": "On the Day of Judgment, everyone will be judged for their good and bad deeds."
+        "explanation": "Siku ya Hukumu, kila mtu atahukumiwa kwa matendo yake mazuri na mabaya."
       },
       {
-        "q": "What is the name of Paradise in Arabic?",
+        "q": "Je, Pepo inaitwaje kwa Kiarabu?",
         "options": [
-          "Jannah",
+          "Janna",
           "Jahannam",
-          "Dunya"
+          "Dunia"
         ],
         "correct": 0,
-        "explanation": "Paradise is called Jannah in Arabic — it means 'garden'."
+        "explanation": "Pepo inaitwa Janna kwa Kiarabu - inamaanisha 'bustani'."
       },
       {
-        "q": "Will even small deeds be judged?",
+        "q": "Je, hata matendo madogo yatahukumiwa?",
         "options": [
-          "No, only big deeds",
-          "Yes, every single deed",
-          "Only bad deeds"
+          "Hapana, matendo makubwa tu",
+          "Ndiyo, kila tendo dogo",
+          "Matendo mabaya tu"
         ],
         "correct": 1,
-        "explanation": "Every deed, no matter how small, will be weighed on the Day of Judgment."
+        "explanation": "Kila tendo, chochote kizuri au kibaya, kitapimwa Siku ya Hukumu."
       }
     ]
   },
   {
     "id": "wudu",
-    "title": "Wudu - Ablution",
+    "title": "Wudhu - Udhu",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🚿",
     "category": "daily_practices",
     "content": {
-      "starter": "Wudu is washing before prayer! We wash our hands, mouth, nose, face, arms, head, and feet with clean water. It makes us clean and ready to talk to Allah. Wudu also washes away our small sins — how cool is that!",
-      "explorer": "Wudu is the ritual ablution Muslims perform before praying. It involves washing specific body parts in order: hands, mouth, nose, face, arms to elbows, wiping the head, and washing feet to ankles. Wudu is not just about physical cleanliness — it's also spiritual purification. Each step has benefits: washing the hands removes germs, rinsing the mouth keeps it clean, and washing the feet removes dirt from the road.",
-      "thinker": "Wudu is a beautiful act that combines physical hygiene with spiritual purification. The Quran states: 'Indeed, Allah loves those who are constantly repenting and loves those who purify themselves' (Surah Al-Baqarah 2:222). The Prophet ﷺ said that when a Muslim performs wudu and washes their face, sins fall away with the water. When they wash their hands, sins fall from their hands. When they wash their feet, sins fall from their feet. Wudu is thus both a practical act of cleanliness and a spiritual ritual of renewal."
+      "starter": "Wudhu ni kuosha kabla ya kuswali! Tunawosha mikono, mdomo, pua, uso, mikono, kichwa, na miguu kwa maji safi. Inatusafisha na kutupatia tayari kuzungumza na Allah. Wudhu pia hufuta dhambi zetu ndogo - ni kitu cha ajabu!",
+      "explorer": "Wudhu ni udhu wa kitamkdo Waislamu hufanya kabla ya kuswali. Inahusisha kuosha sehemu maalum za mwili kwa mpangilio: mikono, mdomo, pua, uso, mikono hadi viwiko, kupaka kichwa, na kuosha miguu hadi vifundo. Wudhu si usafi wa kimwili tu - pia ni kutakasa kiroho. Kila hatua ina manufaa: kuosha mikono hondoa vimelea, kuosha mdomo kinaendelea usafi wake, na kuosha miguu hondoa uchafu kutoka barabarani.",
+      "thinker": "Wudhu ni kitendo chema kinachochanganya usafi wa kimwili na kutakasa kiroho. Quran inasema: 'Hakika Allah anapenda wanaotubu kila wakati na anapenda wanaojitakasa' (Surah Al-Baqarah 2:222). Mtume ﷺ alisema kuwa Muislamu anapofanya wudhu na kuosha uso wake, dhambi huondoka pamoja na maji. Anapowosha mikono yake, dhambi huondoka kwenye mikono yake. Anapowosha miguu yake, dhambi huondoka kwenye miguu yake. Wudhu ni hivyo kitendo cha kiutendaji cha usafi na ibada ya kiroho ya kujianza upya."
     },
-    "funFact": "Did you know? When you perform wudu and wash each body part, your sins fall away with the water — it's like getting a fresh start!",
+    "funFact": "Je, ulijua? Unapofanya wudhu na kuosha kila sehemu ya mwili, dhambi zako huondoka pamoja na maji - ni kama kupata maisha mapya!",
     "quiz": [
       {
-        "q": "What do we perform before praying?",
+        "q": "Tunafanya nini kabla ya kuswali?",
         "options": [
           "Ghusl",
-          "Wudu",
+          "Wudhu",
           "Tayammum"
         ],
         "correct": 1,
-        "explanation": "We perform wudu (ablution) before praying to clean ourselves."
+        "explanation": "Tunafanya wudhu (udhu) kabla ya kuswali kujisafisha."
       },
       {
-        "q": "How many steps are in wudu?",
+        "q": "Wudhu ina hatua ngapi?",
         "options": [
-          "3 steps",
-          "7 steps",
-          "10 steps"
+          "Hatua 3",
+          "Hatua 7",
+          "Hatua 10"
         ],
         "correct": 1,
-        "explanation": "There are 7 main steps in wudu: hands, mouth, nose, face, arms, head, and feet."
+        "explanation": "Kuna hatua 7 kuu katika wudhu: mikono, mdomo, pua, uso, mikono, kichwa, na miguu."
       },
       {
-        "q": "What does wudu clean besides the body?",
+        "q": "Wudhu inasafisha nini zaidi ya mwili?",
         "options": [
-          "Our clothes",
-          "Our sins",
-          "Our room"
+          "Nguvu zetu",
+          "Dhambi zetu",
+          "Chumba chetu"
         ],
         "correct": 1,
-        "explanation": "Wudu washes away our small sins — it's spiritual purification too!"
+        "explanation": "Wudhu hufuta dhambi zetu ndogo - pia ni kutakasa kiroho!"
       }
     ]
   },
   {
     "id": "islamic_dress",
-    "title": "Islamic Dress",
+    "title": "Mavazi ya Kiislamu",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_13_topic_islamic_dress-7whwzZgTnmsVkCdmrsGaFv.webp?updatedAt=1781117899286",
     "emoji": "👗",
     "category": "daily_practices",
     "content": {
-      "starter": "Allah asks us to dress nicely and modestly! Boys and girls should cover their bodies properly. It's about being respectful and showing that we love Allah. Modest dressing makes us feel confident and proud of being Muslim!",
-      "explorer": "Islamic dress is about modesty and respecting Allah's guidelines. For women, this generally means covering everything except the face, hands, and feet — many choose to wear hijab (headscarf). For men, clothing should cover from the navel to the knees. The key is modesty — not showing off or wearing inappropriate clothes. Islamic dress is an act of worship and identity.",
-      "thinker": "Islamic dress codes are rooted in the Quran and Sunnah. Allah says: 'O Children of Adam, take your adornment at every masjid' (Surah Al-A'raf 7:31). The hijab is more than a piece of cloth — it's a statement of identity, dignity, and devotion to Allah. For both men and women, modest dress is about self-respect and not reducing oneself to physical appearance. It's important to understand that modesty is a comprehensive concept that includes behavior, speech, and dress. The goal is to be recognized for one's character and intellect, not merely for appearance."
+      "starter": "Allah anatuomba tuvae vizuri na kwa unyenyekevu! Wasichana na wavulana wanapaswa kufunika miili yao ipasavyo. Ni kuheshimu na kuonyesha kuwa tunampenda Allah. Mavazi ya unyenyekevu hutufanya tujisikie kujiamini na kujivunia kuwa Waislamu!",
+      "explorer": "Mavazi ya Kiislamu yanahusu unyenyekevu na kuheshimu miongozo ya Allah. Kwa wanawake, hii kwa ujumla inamaanisha kufunika kila kitu isipokuwa uso, mikono, na miguu - wengi huchagua kuvaa hijabu (kilemba). Kwa wanaume, mavazi yanapaswa kufunika kutoka kitovu hadi magoti. Lengo ni unyenyekevu - si kujivuna au kuvaa mavazi yasiyofaa. Mavazi ya Kiislamu ni ibada na utambulisho.",
+      "thinker": "Miongozo ya mavazi ya Kiislamu inatokana na Quran na Sunnah. Allah anasema: 'Enyi watoto wa Adam, chukueni mapambo yenu kwenye kila msikiti' (Surah Al-A'raf 7:31). Hijabu ni zaidi ya kitambaa - ni tamko la utambulisho, hadhi, na kujitolea kwa Allah. Kwa wanaume na wanawake wote, mavazi ya unyenyekevu yanahusu kujiheshimu na kusi kujipunguza hadhi kwa muonekano wa kimwili. Ni muhimu kuelewa kuwa unyenyekevu ni dhana kamili inayojumuisha mwenendo, usemi, na mavazi. Lengo ni kutambulika kwa tabia na akili, si kwa muonekano tu."
     },
-    "funFact": "Did you know? The word 'hijab' comes from Arabic and means 'curtain' or 'screen' — it's about creating a space of dignity and privacy!",
+    "funFact": "Je, ulijua? Neno 'hijabu' linatokana na Kiarabu na lina maana ya 'pazia' au 'kizazi' - ni kuhusu kuunda nafasi ya hadhi na faragha!",
     "quiz": [
       {
-        "q": "What is the main purpose of Islamic dress?",
+        "q": "Ni nini lengo kuu la mavazi ya Kiislamu?",
         "options": [
-          "Fashion",
-          "Modesty",
-          "Uniform"
+          "Mitindo",
+          "Unyenyekevu",
+          "Sare"
         ],
         "correct": 1,
-        "explanation": "Islamic dress is about modesty and respecting Allah's guidelines."
+        "explanation": "Mavazi ya Kiislamu yanahusu unyenyekevu na kuheshimu miongozo ya Allah."
       },
       {
-        "q": "What does 'hijab' mean?",
+        "q": "'Hijabu' inamaanisha nini?",
         "options": [
-          "Prayer",
-          "Curtain or screen",
-          "Charity"
+          "Swala",
+          "Pazia au kizazi",
+          "Sadaka"
         ],
         "correct": 1,
-        "explanation": "The word 'hijab' means 'curtain' or 'screen' in Arabic."
+        "explanation": "Neno 'hijabu' lina maana ya 'pazia' au 'kizazi' kwa Kiarabu."
       },
       {
-        "q": "For men, what part of the body must be covered?",
+        "q": "Kwa wanaume, ni sehemu gani ya mwili inapaswa kufunikwa?",
         "options": [
-          "Only the head",
-          "From navel to knees",
-          "Entire body"
+          "Kichwa tu",
+          "Kutoka kitovu hadi magoti",
+          "Mwili wote"
         ],
         "correct": 1,
-        "explanation": "Men must cover from the navel to the knees as a minimum."
+        "explanation": "Wanaume lazima wafunike kutoka kitovu hadi magoti kama kiwango cha chini."
       }
     ]
   },
   {
     "id": "halal_food",
-    "title": "Halal Food",
+    "title": "Chakula cha Halali",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194",
     "emoji": "🍽️",
     "category": "daily_practices",
     "content": {
-      "starter": "Halal means 'okay to eat' in Arabic! Allah tells us what food is good for us. We can eat fruits, vegetables, chicken, and fish. We can't eat pork or drink alcohol. We always say 'Bismillah' before eating to thank Allah!",
-      "explorer": "Halal means permissible in Islam. Allah has told us which foods are halal (allowed) and haram (forbidden). Halal foods include fruits, vegetables, grains, and properly slaughtered meat. Haram foods include pork, blood, alcohol, and meat not slaughtered in Allah's name. Saying 'Bismillah' before eating is a Sunnah and reminds us that food is a blessing from Allah.",
-      "thinker": "The concept of halal and haram in food is rooted in the Quran and Sunnah. Allah says: 'Eat of what is lawful and good on the earth' (Surah Al-Baqarah 2:168). Halal is not just about what we eat but how food is obtained — it must be through ethical, humane, and clean methods. Pork is prohibited (haram) as stated in multiple Quranic verses. Alcohol is forbidden because it clouds the mind and leads to sin. Even when eating halal food, Islam teaches moderation: 'Eat and drink, but do not be excessive' (Surah Al-A'raf 31). The act of saying 'Bismillah' before eating transforms a routine meal into an act of worship."
+      "starter": "Halali inamaanisha 'sawa kula' kwa Kiarabu! Allah anatuambia ni chakula gani ni chema kwetu. Tunaweza kula matunda, mboga, kuku, na samaki. Hatuwezi kula nyama ya nguruwe au kunywa pombe. Tunasema 'Bismillah' kila tunapokula kumshukuru Allah!",
+      "explorer": "Halali inamaanisha inayoruhusiwa katika Uislamu. Allah ametuambia ni vyakula gani ni halali (vinavyoruhusiwa) na haramu (vyenye marufuku). Vyakula vya halali vinajumuisha matunda, mboga, nafaka, na nyama iliyochinjwa ipasavyo. Vyakula vya haramu vinajumuisha nyama ya nguruwe, damu, pombe, na nyama isiyochinjwa kwa jina la Allah. Kusema 'Bismillah' kabla ya kula ni Sunnah na kutukumbusha kuwa chakula ni baraka kutoka kwa Allah.",
+      "thinker": "Dhana ya halali na haramu katika chakula inatokana na Quran na Sunnah. Allah anasema: 'Kuleni katika kilicho halali na chema duniani' (Surah Al-Baqarah 2:168). Halali si kuhusu tunachokula tu bali jinsi chakula kinavyopatikana - lazima kiwe kwa njia za maadili, za kibinadamu, na safi. Nyama ya nguruwe imekatazwa (haramu) kama ilivyo tajwa katika aya nyingi za Quran. Pombe imekatazwa kwa sababu inafanya akili iwe changamani na kupelekea dhambi. Hata tunapokula chakula cha halali, Uislamu unafundisha wastani: 'Kuleni na kunyweni, wala msizidi' (Surah Al-A'raf 31). Kitendo cha kusema 'Bismillah' kabla ya kula kinabadilisha mlo wa kawaida kuwa ibada."
     },
-    "funFact": "Did you know? Muslims say 'Bismillah' (In the name of Allah) before eating — it's like saying grace and thanking Allah for the food!",
+    "funFact": "Je, ulijua? Waislamu husema 'Bismillah' (Kwa jina la Allah) kabla ya kula - ni kama kusema asante na kumshukuru Allah kwa chakula!",
     "quiz": [
       {
-        "q": "What does 'halal' mean?",
+        "q": "'Halali' inamaanisha nini?",
         "options": [
-          "Forbidden",
-          "Permissible",
-          "Delicious"
+          "Kimekatazwa",
+          "Inayoruhusiwa",
+          "Kitamu"
         ],
         "correct": 1,
-        "explanation": "Halal means 'permissible' — food that Allah allows us to eat."
+        "explanation": "Halali inamaanisha 'inayoruhusiwa' - chakula ambacho Allah anaturuhusu kula."
       },
       {
-        "q": "Which of these is haram (forbidden) in Islam?",
+        "q": "Ni kipi kati ya hivi ni haramu (kimekatazwa) katika Uislamu?",
         "options": [
-          "Chicken",
-          "Fruits",
-          "Pork"
+          "Kuku",
+          "Matunda",
+          "Nyama ya nguruwe"
         ],
         "correct": 2,
-        "explanation": "Pork is haram (forbidden) in Islam."
+        "explanation": "Nyama ya nguruwe ni haramu (imekatazwa) katika Uislamu."
       },
       {
-        "q": "What do Muslims say before eating?",
+        "q": "Waislamu husema nini kabla ya kula?",
         "options": [
           "Alhamdulillah",
           "Bismillah",
           "Subhanallah"
         ],
         "correct": 1,
-        "explanation": "Muslims say 'Bismillah' (In the name of Allah) before eating."
+        "explanation": "Waislamu husema 'Bismillah' (Kwa jina la Allah) kabla ya kula."
       }
     ]
   },
   {
     "id": "duas",
-    "title": "Duas - Supplications",
+    "title": "Du'a - Maombi",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_10_pillar_duas-EqyXdQq6eb7Aov9Lmrvy3T.webp?updatedAt=1781117901995",
     "emoji": "🤲",
     "category": "daily_practices",
     "content": {
-      "starter": "Duas are prayers we say to Allah anytime! When we wake up, eat, go outside, or feel scared — we can talk to Allah. He always listens! There's a special dua for everything. It's like having a direct line to Allah!",
-      "explorer": "Duas are personal prayers to Allah — conversations where we ask for help, guidance, forgiveness, or express gratitude. Unlike formal salah, duas can be made anytime in any language. The Prophet ﷺ taught us specific duas for waking up, eating, traveling, and more. Making dua shows our dependence on Allah and our trust in His help.",
-      "thinker": "Duas (supplications) represent the direct relationship between a servant and Allah. The Prophet ﷺ said: 'Dua is the essence of worship.' Islam teaches duas for every occasion — from waking up ('Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin-nushur') to entering the mosque, before sleeping, and during times of distress. Allah says: 'Call upon Me; I will respond to you' (Surah Ghafir 40:60). This is a profound promise — the Creator of the universe invites us to speak with Him directly, without any intermediary."
+      "starter": "Du'a ni maombi tunayosema kwa Allah wakati wowote! Tunapoamka, kula, kutoka nje, au kuhisi woga - tunaweza kuzungumza na Allah. Anasikia kila wakati! Kuna du'a maalum kwa kila kitu. Ni kama kuwa na simu ya moja kwa moja kwa Allah!",
+      "explorer": "Du'a ni maombi ya kibinafsi kwa Allah - mazungumzo ambapo tunamuomba msaada, mwongozo, msamaha, au kutoa shukrani. Tofauti na swala ya kawaida, du'a inaweza kufanywa wakati wowote kwa lugha yoyote. Mtume ﷺ alitufundisha du'a maalum za kuamka, kula, kusafiri, na zaidi. Kuomba du'a inaonyesha tegemezi letu kwa Allah na imani yetu kwa msaada wake.",
+      "thinker": "Du'a (maombi) inawakilisha uhusiano wa moja kwa moja kati ya mtumishi na Allah. Mtume ﷺ alisema: 'Du'a ni kiini cha ibada.' Uislamu unafundisha du'a kwa kila tukio - kutoka kuamka ('Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin-nushur') hadi kuingia msikitini, kabla ya kulala, na wakati wa dhiki. Allah anasema: 'Niiteni; Nitajibuni' (Surah Ghafir 40:60). Hii ni ahadi ya kina - Muumba wa ulimwengu anatualika kuzungumza naye moja kwa moja, bila mpatanishi wowote."
     },
-    "funFact": "Did you know? There's a dua for almost everything — even for when you enter your bathroom! Allah wants us to remember Him in every moment!",
+    "funFact": "Je, ulijua? Kuna du'a kwa karibu kila kitu - hata unapoingia bafuni! Allah anataka tumkumbuke kila wakati!",
     "quiz": [
       {
-        "q": "What is a dua?",
+        "q": "Du'a ni nini?",
         "options": [
-          "A type of food",
-          "A personal prayer to Allah",
-          "A holy book"
+          "Aina ya chakula",
+          "Maombi ya kibinafsi kwa Allah",
+          "Kitabu kitakatifu"
         ],
         "correct": 1,
-        "explanation": "A dua is a personal prayer — talking to Allah anytime, anywhere."
+        "explanation": "Du'a ni maombi ya kibinafsi - kuzungumza na Allah wakati wowote, popote."
       },
       {
-        "q": "Can duas be made in any language?",
+        "q": "Je, du'a inaweza kufanywa kwa lugha yoyote?",
         "options": [
-          "Only in Arabic",
-          "Only in English",
-          "Yes, in any language"
+          "Kwa Kiarabu tu",
+          "Kwa Kiingereza tu",
+          "Ndiyo, kwa lugha yoyote"
         ],
         "correct": 2,
-        "explanation": "Duas can be made in any language — Allah understands all languages!"
+        "explanation": "Du'a inaweza kufanywa kwa lugha yoyote - Allah anaelewa lugha zote!"
       },
       {
-        "q": "What did the Prophet ﷺ say about dua?",
+        "q": "Mtume ﷺ alisema nini kuhusu du'a?",
         "options": [
-          "Dua is useless",
-          "Dua is the essence of worship",
-          "Only pray at night"
+          "Du'a ni bure",
+          "Du'a ni kiini cha ibada",
+          "Swali usiku tu"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said: 'Dua is the essence of worship.'"
+        "explanation": "Mtume ﷺ alisema: 'Du'a ni kiini cha ibada.'"
       }
     ]
   },
   {
     "id": "reading_quran",
-    "title": "Reading Quran",
+    "title": "Kusoma Quran",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📖",
     "category": "daily_practices",
     "content": {
-      "starter": "The Quran is Allah's special book! When we read it, Allah rewards us. Even reading one letter gives us 10 rewards! The Quran teaches us how to be good Muslims and how to live happily. Let's try to read a little bit every day!",
-      "explorer": "The Quran is the holy book of Islam, revealed to Prophet Muhammad ﷺ through the angel Jibril. Reading the Quran is one of the most rewarding acts a Muslim can do — each letter earns 10 rewards. Muslims try to read the Quran daily, especially during Ramadan. The Quran is in Arabic, but translations help us understand its meanings. Reading with understanding and reflection is the goal.",
-      "thinker": "The Quran is the literal word of Allah, revealed over 23 years through the angel Jibril to Prophet Muhammad ﷺ. It consists of 114 surahs (chapters) and over 6,000 ayahs (verses). The Prophet ﷺ said: 'Whoever reads a letter from the Book of Allah will have a reward, and the reward of each letter is multiplied by ten.' Beyond reading, the Quran invites contemplation (tadabbur) — understanding its messages and applying them to life. The Quran is unique in that it has been perfectly preserved in its original Arabic since its revelation, making it the only religious text with an unbroken chain of transmission."
+      "starter": "Quran ni kitabu maalum cha Allah! Tunaposoma, Allah anatupa thawabu. Hata kusoma herufi moja kunatupa thawabu 10! Quran inatufundisha jinsi ya kuwa Waislamu wema na jinsi ya kuishi kwa furaha. Hebu tujaribu kusoma kidogo kila siku!",
+      "explorer": "Quran ni kitabu kitakatifu cha Uislamu, kilichoteremshwa kwa Mtume Muhammad ﷺ kupitia malaika Jibril. Kusoma Quran ni moja ya matendo yenye thawabu zaidi ambayo Muislamu anaweza kufanya - kila herufi inapata thawabu 10. Waislamu hujaribu kusoma Quran kila siku, hasa wakati wa Ramadhani. Quran iko kwa Kiarabu, lakini tafsiri zinatusaidia kuelewa maana zake. Kusoma kwa kuelewa na kutafakari ndio lengo.",
+      "thinker": "Quran ni neno halisi la Allah, lililoteremshwa kwa miaka 23 kupitia malaika Jibril kwa Mtume Muhammad ﷺ. Lina surah (mifungu) 114 na aya (mistari) zaidi ya 6,000. Mtume ﷺ alisema: 'Anayesoma herufi moja kutoka Kitabu cha Allah atakuwa na thawabu, na thawabu ya kila herufi inazidishwa kwa kumi.' Zaidi ya kusoma, Quran inaalika tafakuri (tadabbur) - kuelewa ujumbe wake na kuyatumia maishani. Quran ni ya kipekee kwa kuwa imehifadhiwa kikamilifu kwa Kiarabu chake cha asili tangu kuteremshwa kwake, na kifanya kiwe maandiko pekee ya kidini yenye mnyororo usiokatika wa usambazaji."
     },
-    "funFact": "Did you know? Reading just ONE letter of the Quran earns you 10 rewards from Allah! So reading 'Al-Fatiha' gives you over 1,000 rewards!",
+    "funFact": "Je, ulijua? Kusoma herufi MOJA tu ya Quran kunakupa thawabu 10 kutoka kwa Allah! Basi kusoma 'Al-Fatiha' kunakupa thawabu zaidi ya 1,000!",
     "quiz": [
       {
-        "q": "Who revealed the Quran to Prophet Muhammad ﷺ?",
+        "q": "Nani alimeteremsha Quran kwa Mtume Muhammad ﷺ?",
         "options": [
-          "Allah directly",
-          "Angel Jibril",
-          "Angel Mikail"
+          "Allah moja kwa moja",
+          "Malaika Jibril",
+          "Malaika Mikail"
         ],
         "correct": 1,
-        "explanation": "Angel Jibril (Gabriel) brought the Quran to Prophet Muhammad ﷺ."
+        "explanation": "Malaika Jibril alipeleka Quran kwa Mtume Muhammad ﷺ."
       },
       {
-        "q": "How many rewards do you get for reading one letter of the Quran?",
+        "q": "Unapata thawabu ngapi kwa kusoma herufi moja ya Quran?",
         "options": [
-          "1 reward",
-          "10 rewards",
-          "100 rewards"
+          "Thawabu 1",
+          "Thawabu 10",
+          "Thawabu 100"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said each letter of the Quran earns 10 rewards."
+        "explanation": "Mtume ﷺ alisema kila herufi ya Quran inapata thawabu 10."
       },
       {
-        "q": "How many surahs (chapters) are in the Quran?",
+        "q": "Quran ina surah (mifungu) mangapi?",
         "options": [
           "100",
           "114",
           "200"
         ],
         "correct": 1,
-        "explanation": "The Quran has 114 surahs (chapters)."
+        "explanation": "Quran ina surah (mifungu) 114."
       }
     ]
   },
   {
     "id": "how_to_pray",
-    "title": "How to Pray: A Complete Guide",
+    "title": "Jinsi ya Kuswali: Mwongozo Kamili",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🕌",
     "category": "daily_practices",
     "content": {
-      "starter": "How do Muslims pray? It starts with Wudu — washing your hands, face, arms, and feet to get clean for Allah. Then you face the Kaaba in Mecca and do special movements: standing, bowing, and putting your forehead on the ground. Each prayer has a name like Fajr (morning) and Maghrib (sunset). There are 5 prayers every day! It's like having 5 special meetings with Allah.\n\nWUDU — The 8 Steps:\n1) Niyyah — Make the intention in your heart to perform Wudu for the sake of Allah. 2) Wash Hands — Wash both hands up to the wrists three times, starting with the right hand. Make sure water reaches between your fingers! 3) Rinse Mouth — Take water into your mouth and rinse it thoroughly three times. 4) Rinse Nose — Breathe water in through your nose and blow it out three times. 5) Wash Face — Wash your entire face three times, from forehead to chin and ear to ear. 6) Wash Arms — Wash both arms up to the elbows three times, starting with the right arm. 7) Wipe Head — Wipe your entire head once with wet hands. 8) Wash Feet — Wash both feet up to the ankles three times, starting with the right foot. Make sure water reaches between your toes!\n\nRemember: Take your time with each step, use clean water, and avoid waste. Wudu brings purity to your body and light to your heart!\n\nSALAH — The 7 Main Positions:\n1) Niyyah — Intend in your heart to pray. 2) Takbir — Raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). 3) Qiyam — Stand upright with hands crossed at chest level, and recite Surah Al-Fatiha and another Surah. 4) Ruku — Bow forward with your hands on your knees, and say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah — Rise from bowing and say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud — Put your forehead, nose, hands, knees, and toes on the ground, and say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud — Sit and recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): 2 Fard + 2 Sunnah = 4 rak'ahs — strengthens your faith!\n- Dhuhr (Noon): 4 Fard + 6 Sunnah = 10 rak'ahs — find peace and clarity!\n- Asr (Afternoon): 4 Fard + 4 Sunnah = 8 rak'ahs — seek Allah's pleasure!\n- Maghrib (Sunset): 3 Fard + 2 Sunnah = 5 rak'ahs — build discipline and gratitude!\n- Isha (Night): 4 Fard + 2 Sunnah = 6 rak'ahs — connect with your Creator!\nTotal daily: 17 Fard + 12 Sunnah = 29 rak'ahs combined.",
-      "explorer": "How to Pray: A Complete Guide covers Wudu (ablution), Salah (prayer), the 5 daily prayers, and the rak'ah breakdown in full detail.\n\nWUDU — The 8 Steps of Ablution:\nWudu is the ritual purification performed before prayer. It is a physical and spiritual cleansing that prepares the body and mind for communication with Allah. Wudu is obligatory before performing Salah and is considered one of the most important prerequisites for prayer. The steps are: 1) Niyyah — make the intention in your heart to perform Wudu for prayer, 2) Wash both hands up to the wrists three times starting with the right hand, ensuring water reaches between fingers, 3) Rinse your mouth thoroughly three times — this cleanses the mouth for recitation, 4) Breathe water in through the nose and blow it out three times using your left hand to assist, 5) Wash your entire face three times from forehead to chin and ear to ear, including the beard if you have one, 6) Wash both arms up to and including the elbows three times starting with the right arm, 7) Wipe your head once with wet hands — you can wipe the entire head or just a portion, 8) Wash both feet up to and including the ankles three times starting with the right foot, ensuring water reaches between the toes.\n\nWhen is Wudu Required? Before every obligatory prayer (Fard), before voluntary prayers (Sunnah/Nafl), when touching the Quran, and after using the bathroom.\n\nSALAH — The 7 Main Positions of Prayer:\nSalah is the Islamic prayer performed five times daily at prescribed times. It is the second pillar of Islam and a direct connection between the believer and Allah. Each prayer consists of one or more rak'ahs (cycles). The seven positions are: 1) Niyyah (Intention) — intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha). The intention must be clear and sincere. 2) Takbir (Opening) — raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). This marks the beginning of your prayer. 3) Qiyam (Standing) — stand upright with your hands crossed at chest level. Recite Surah Al-Fatiha and another Surah from the Quran. 4) Ruku (Bowing) — bow forward with your hands on your knees, keeping your back parallel to the ground. Say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah (Rising) — rise from bowing to the standing position. Say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud (Prostration) — prostrate with your forehead, nose, hands, knees, and toes touching the ground. Say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud (Testimony) — sit between prostrations or at the end of prayer. Recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nImportant Notes About Salah: Always face the Qibla (direction of the Kaaba in Mecca), maintain proper body covering (Satr): men from navel to below knees, women entire body except hands and face, perform Wudu before every prayer, pray at the prescribed times, and concentrate and be present during prayer (Khushu) for spiritual benefit.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): Before sunrise. 2 Fard + 2 Sunnah = 4 total rak'ahs. The dawn prayer marks the beginning of the Islamic day and strengthens your faith.\n- Dhuhr (Noon): After the sun passes its zenith. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 10 total rak'ahs. The longest prayer of the day helps find peace and clarity.\n- Asr (Afternoon): Late afternoon before sunset. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Seek Allah's pleasure in the late afternoon.\n- Maghrib (Sunset): Just after the sun sets. 3 Fard + 2 Sunnah Ghair Muakkadah = 5 total rak'ahs. Unique among the five prayers with 3 Fard rak'ahs. Builds discipline and gratitude.\n- Isha (Night): After nightfall. 4 Fard + 2 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Connect with your Creator before sleep.\n\nTotal Daily: 17 Fard rak'ahs + 12 Sunnah Muakkadah = 29 combined total.",
-      "thinker": "How to Pray: A Complete Guide provides comprehensive instruction on Wudu (ablution), Salah (prayer), the five daily prayers, and the complete rak'ah breakdown.\n\nWUDU (Ablution):\nWudu is the ritual purification that serves as both a physical cleansing and spiritual preparation for Salah. It is obligatory before every Fard (obligatory) prayer, Sunnah/Nafl (voluntary) prayers, and before touching the Quran. The eight steps follow a specific sequence established by the Sunnah of Prophet Muhammad ﷺ: 1) Niyyah — the internal intention, 2) Washing hands up to the wrists three times, 3) Rinsing the mouth thoroughly three times, 4) Inhaling water through the nose and expelling it three times, 5) Washing the entire face three times (from hairline to chin and ear to ear, including the beard for men), 6) Washing both arms up to and including the elbows three times, 7) Wiping the head once with wet hands, 8) Washing both feet up to and including the ankles three times. Each step has precise requirements: water must reach between fingers and toes, and all parts must be washed in the correct order. Wudu is invalidated by natural discharges, deep sleep, loss of consciousness, and touching one's private parts.\n\nSALAH (Prayer) — The Seven Positions:\n1) Niyyah (النية): The internal intention specifying which prayer is being performed. It must be clear and sincere. 2) Takbir (التكبير): The opening 'Allahu Akbar' when raising hands to the ears, marking the sacred boundary of prayer. 3) Qiyam (القيام): Standing position with hands folded at chest level (right hand over left), reciting Al-Fatiha followed by a second Surah. 4) Ruku (الركوع): Bowing with hands on knees, back parallel to ground, reciting 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest) three times. 5) Qawmah (القومة): Rising from Ruku to standing with 'Sami'a Allahu liman hamidah, Rabbana lakal hamd' (Allah hears those who praise Him, our Lord, all praise is for You). 6) Sujud (السجود): Prostration with seven points of contact — forehead, nose, both hands, both knees, and toes — reciting 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High) three times. Performed twice in each rak'ah. 7) Tashahhud (التشهد): Sitting position for the testimony of faith (At-Tahiyyatu lillahi was-salawatu wat-tayyibat), the Salawat (Allahumma salli 'ala Muhammad), and the Du'a.\n\nTHE FIVE DAILY PRAYERS — Complete Breakdown:\n- Fajr: 2 Fard + 2 Sunnah Muakkadah (before Fard) = 4 rak'ahs (before sunrise, approximately 4:30-5:30 AM)\n- Dhuhr: 4 Sunnah Muakkadah (before Fard) + 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 10-12 rak'ahs (midday, approximately 12:00-1:00 PM)\n- Asr: 4 Sunnah Ghair Muakkadah (before Fard) + 4 Fard = 4-8 rak'ahs (late afternoon, approximately 3:30-4:30 PM)\n- Maghrib: 3 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 5-7 rak'ahs (after sunset, approximately 6:45-7:15 PM)\n- Isha: 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 6-8 rak'ahs (after nightfall, approximately 8:15-9:30 PM)\n\nRAK'AH BREAKDOWN TABLE:\n| Prayer | Fard | Sunnah Muakkadah | Sunnah Ghair Muakkadah | Total |\n| Fajr | 2 | 2 | 0 | 4 |\n| Dhuhr | 4 | 4 | 2 | 10 |\n| Asr | 4 | 0 | 2 | 6 |\n| Maghrib | 3 | 0 | 2 | 5 |\n| Isha | 4 | 2 | 2 | 8 |\n| TOTAL | 17 | 8 | 8 | 33 |\n\nTypes of Prayers: Fard (Obligatory) — compulsory, missing them is a grave sin. Sunnah Muakkadah (Strongly Recommended) — highly emphasized, the Prophet ﷺ regularly performed them. Sunnah Ghair Muakkadah (Optional) — the Prophet ﷺ occasionally performed them, bringing extra reward.\n\nPrayer is not merely physical movement — it demands Khushu (concentration and humility) and sincere connection with Allah. As Allah says: 'Indeed, prayer prohibits immorality and wrongdoing' (Quran 29:45)."
+      "starter": "Waislamu huswali vipi? Inaanza na Wudhu - kuosha mikono, uso, mikono, na miguu kujisafisha kwa Allah. Kisha uelekee Ka'bah huko Makka na ufanye harakati maalum: kusimama, kuinamia, na kuweka paji la uso chini. Kila swala lina jina kama Fajr (alfajiri) na Maghrib (magharibi). Kuna swala 5 kila siku! Ni kama kuwa na mikutano 5 maalum na Allah.\n\nWUDHU - Hatua 8:\n1) Niyyah - Fanya nia moyoni kufanya Wudhu kwa ajili ya Allah. 2) Osha Mikono - Osha mikono yote miwili hadi kifundo cha mkono mara tatu, uanzia mkono wa kulia. Hakikisha maji yanafika kati ya vidole! 3) Sugua Mdomo - Chukua maji kwenye mdomo na kusugua vizuri mara tatu. 4) Sugua Pua - Vuta maji kwenye pua na kuvuta nje mara tatu. 5) Osha Uso - Osha uso wako wote mara tatu, kutoka paja hadi ndevu na sikio hadi sikio. 6) Osha Mikono - Osha mikono yote miwili hadi viwiko mara tatu, uanzia mkono wa kulia. 7) Paka Kichwa - Paka kichwa chako chote mara moja kwa mikono yenye maji. 8) Osha Miguu - Osha miguu yote miwili hadi vifundo mara tatu, uanzia mguu wa kulia. Hakikisha maji yanafika kati ya vidole!\n\nKumbuka: Chukua muda wako kwa kila hatua, tumia maji safi, na epuka upotevu. Wudhu huleta usafi mwilini na nuru moyoni!\n\nSALAH - Nafasi 7 Kuu:\n1) Niyyah - Nia moyoni kuswali. 2) Takbir - Inua mikono hadi masikio na useme 'Allahu Akbar' (Allah ndiye Mkubwa zaidi). 3) Qiyam - Simama wima na mikono mkavu kwenye kifua, na usome Surah Al-Fatiha na Surah nyingine. 4) Ruku - Inama mbele na mikono kwenye magoti, na useme 'Subhana Rabbiyal Azeem' (Utukufu kwa Mola wangu, Mkubwa zaidi). 5) Qawmah - Simama kutoka kunama na useme 'Sami'a Allahu liman hamidah' (Allah anamsikia anayemsifu). 6) Sujud - Weka paji la uso, pua, mikono, magoti, na vidole chini, na useme 'Subhana Rabbiyal A'la' (Utukufu kwa Mola wangu, Mwenye wima zaidi). 7) Tashahhud - Keti na usome shahada na umwombe baraka Mtume Muhammad.\n\nSALA 5 ZA KILA SIKU:\n- Fajr (Alfajiri): Fard 2 + Sunnah 2 = rak'a 4 - inaimarisha imani yako!\n- Dhuhr (Adhuhuri): Fard 4 + Sunnah 6 = rak'a 10 - pata amani na uwazi!\n- Asr (Alasiri): Fard 4 + Sunnah 4 = rak'a 8 - tafuta radhi za Allah!\n- Maghrib (Magharibi): Fard 3 + Sunnah 2 = rak'a 5 - jenga nidhamu na shukrani!\n- Isha (Usiku): Fard 4 + Sunnah 2 = rak'a 6 - unganisha na Muumba wako!\nJumla ya kila siku: Fard 17 + Sunnah 12 = rak'a 29 pamoja.",
+      "explorer": "Jinsi ya Kuswali: Mwongozo Kamili unaangazia Wudhu (udhu), Salah (swala), swala 5 za kila siku, na mgawanyiko wa rak'a kwa kina.\n\nWUDHU - Hatua 8 za Udhu:\nWudhu ni kujitakasa kwa kitamkdo inayofanywa kabla ya swala. Ni usafi wa kimwili na kiroho unaotayarisha mwili na akili kwa mawasiliano na Allah. Wudhu ni lazima kabla ya kuswali na inachukuliwa kuwa moja ya masharti muhimu zaidi ya swala. Hatua ni: 1) Niyyah - fanya nia moyoni kufanya Wudhu kwa swala, 2) Osha mikono yote miwili hadi vifundo vya mkono mara tatu uanzia mkono wa kulia, hakikisha maji yanafika kati ya vidole, 3) Sugua mdomo wako vizuri mara tatu - hii inasafisha mdomo kwa kusoma, 4) Vuta maji kwenye pua na yatoe nje mara tatu ukitumia mkono wa kushotokusaidia, 5) Osha uso wako wote mara tatu kutoka paja hadi ndevu na sikio hadi sikio, ukiwemo ndevu kama una, 6) Osha mikono yote miwili hadi na kujumuisha viwiko mara tatu uanzia mkono wa kulia, 7) Paka kichwa chako mara moja kwa mikono yenye maji - unaweza kupaka kichwa chote au sehemu tu, 8) Osha miguu yote miwili hadi na kujumuisha vifundo mara tatu uanzia mguu wa kulia, hakikisha maji yanafika kati ya vidole.\n\nWudhu Unapotakiwa? Kabla ya kila swala la lazima (Fard), kabla ya swala za hiari (Sunnah/Nafl), unapogusa Quran, na baada ya kutumia chooni.\n\nSALAH - Nafasi 7 Kuu za Swala:\nSalah ni swala ya Kiislamu inayofanywa mara tano kwa siku wakati uliopangwa. Ni nguzo ya pili ya Uislamu na mawasiliano ya moja kwa moja kati ya muumini na Allah. Kila swala lina rak'a (mizunguko) moja au zaidi. Nafasi saba ni: 1) Niyyah (Nia) - nia moyoni kuswali swala maalum (Fajr, Dhuhr, Asr, Maghrib, au Isha). Nia lazima iwe wazi na ya ikhlasi. 2) Takbir (Kufungua) - inua mikono hadi masikio na useme 'Allahu Akbar' (Allah ndiye Mkubwa zaidi). Hii inaashiria mwanzo wa swala lako. 3) Qiyam (Kusimama) - simama wima na mikono mkavu kwenye kifua. Some Surah Al-Fatiha na Surah nyingine kutoka Quran. 4) Ruku (Kuinamia) - inama mbele na mikono kwenye magoti, kuhifadhi mgongo wako sawa na ardhi. Sema 'Subhana Rabbiyal Azeem' (Utukufu kwa Mola wangu, Mkubwa zaidi). 5) Qawmah (Kusimama) - simama kutoka kunama hadi nafasi ya kusimama. Sema 'Sami'a Allahu liman hamidah' (Allah anamsikia anayemsifu). 6) Sujud (Kusujudu) - sujudu kwa paji la uso, pua, mikono, magoti, na vidole vikigusa ardhi. Sema 'Subhana Rabbiyal A'la' (Utukufu kwa Mola wangu, Mwenye wima zaidi). 7) Tashahhud (Shahada) - keti kati ya masujudu au mwishoni mwa swala. Some shahada na umwombe baraka Mtume Muhammad.\n\nVidokezo Muhimu Kuhusu Salah: Kila wakati elekee Qibla (mwelekeo wa Ka'bah huko Makka), weka kifuniko sahihi cha mwili (Satr): wanaume kutoka kitovu hadi chini ya magoti, wanawake mwili wote isipokuwa mikono na uso, fanya Wudhu kabla ya kila swala, swali wakati uliopangwa, na umakini na kutokuwepo wakati wa swala (Khushu) kwa manufaa ya kiroho.\n\nSALA 5 ZA KILA SIKU:\n- Fajr (Alfajiri): Kabla ya jua kuchomoza. Fard 2 + Sunnah 2 = jumla rak'a 4. Swala ya alfajiri inaashiria mwanzo wa siku ya Kiislamu na inaimarisha imani yako.\n- Dhuhr (Adhuhuri): Baada ya jua kupita katikati. Fard 4 + Sunnah Muakkadah 4 + Sunnah Ghair Muakkadah 2 = jumla rak'a 10. Swala ndefu zaidi ya siku husaidia kupata amani na uwazi.\n- Asr (Alasiri): Mchana wa mbeleni kabla ya jua kutua. Fard 4 + Sunnah Muakkadah 4 + Sunnah Ghair Muakkadah 2 = jumla rak'a 8. Tafuta radhi za Allah mchana wa mbeleni.\n- Maghrib (Magharibi): Baada ya jua kutua tu. Fard 3 + Sunnah Ghair Muakkadah 2 = jumla rak'a 5. Ya kipekee kati ya swala tano kwa kuwa na Fard 3. Inajenga nidhamu na shukrani.\n- Isha (Usiku): Baada ya usiku kuingia. Fard 4 + Sunnah Muakkadah 2 + Sunnah Ghair Muakkadah 2 = jumla rak'a 8. Unganisha na Muumba wako kabla ya kulala.\n\nJumla ya Kila Siku: Fard 17 + Sunnah Muakkadah 12 = jumla pamoja 29.",
+      "thinker": "Jinsi ya Kuswali: Mwongozo Kamili hutoa maelekezo ya kina kuhusu Wudhu (udhu), Salah (swala), swala tano za kila siku, na mgawanyiko kamili wa rak'a.\n\nWUDHU (Udhu):\nWudhu ni kujitakasa kwa kitamkdo ambacho ni usafi wa kimwili na maandalizi ya kiroho kwa Salah. Ni lazima kabla ya kila swala la Fard (lazima), Sunnah/Nafl (hiari), na kabla ya kugusa Quran. Hatua nane zinafuata mlolongo maalum uliowekwa na Sunnah ya Mtume Muhammad ﷺ: 1) Niyyah - nia ya ndani, 2) Kuosha mikono hadi vifundo vya mkono mara tatu, 3) Kusugua mdomo vizuri mara tatu, 4) Kuvuta maji kwenye pua na kuyatoa mara tatu, 5) Kuosha uso wote mara tatu (kutoka ukuta hadi ndevu na sikio hadi sikio, ukiwemo ndevu kwa wanaume), 6) Kuosha mikono yote miwili hadi na kujumuisha viwiko mara tatu, 7) Kupaka kichwa mara moja kwa mikono yenye maji, 8) Kuosha miguu yote miwili hadi na kujumuisha vifundo mara tatu. Kila hatua ina mahitaji sahihi: maji lazima yafike kati ya vidole, na sehemu zote lazima zioshwe kwa mpangilio sahihi. Wudhu inavunjwa na kutokwa kwa mwili, usingizi mzito, kupoteza fahamu, na kugusa sehemu za siri.\n\nSALAH (Swala) - Nafasi Saba:\n1) Niyyah: Nia ya ndani inayotaja swala gani inafanywa. Lazima iwe wazi na ya ikhlasi. 2) Takbir: 'Allahu Akbar' ya kufungua unapoinua mikono hadi masikio, inaashiria mpaka mtukufu wa swala. 3) Qiyam: Nafasi ya kusimama na mikono mikavu kwenye kifua (mkono wa kulia juu ya wa kushoto), kusoma Al-Fatiha ikifuatwa na Surah ya pili. 4) Ruku: Kunama na mikono kwenye magoti, mgongo sawa na ardhi, kusoma 'Subhana Rabbiyal Azeem' (Utukufu kwa Mola wangu, Mkubwa zaidi) mara tatu. 5) Qawmah: Kusimama kutoka Ruku hadi kusimama na 'Sami'a Allahu liman hamidah, Rabbana lakal hamd' (Allah anamsikia anayemsifu, Mola wetu, sifa zote ni zako). 6) Sujud: Kusujudu na vituo saba - paji la uso, pua, mikono yote miwili, magoti yote miwili, na vidole - kusoma 'Subhana Rabbiyal A'la' (Utukufu kwa Mola wangu, Mwenye wima zaidi) mara tatu. Hufanywa mara mbili kwenye kila rak'a. 7) Tashahhud: Nafasi ya kuketi kwa shahada (At-Tahiyyatu lillahi was-salawatu wat-tayyibat), Salawat (Allahumma salli 'ala Muhammad), na Du'a.\n\nSALA TANO ZA KILA SIKU - Mgawanyiko Kamili:\n- Fajr: Fard 2 + Sunnah Muakkadah 2 (kabla ya Fard) = rak'a 4 (kabla ya jua kuchomoza, takriban 4:30-5:30 asubuhi)\n- Dhuhr: Sunnah Muakkadah 4 (kabla ya Fard) + Fard 4 + Sunnah Muakkadah 2 (baada ya Fard) + Sunnah Ghair Muakkadah 2 (baada) = rak'a 10-12 (mchana, takriban 12:00-1:00 alasiri)\n- Asr: Sunnah Ghair Muakkadah 4 (kabla ya Fard) + Fard 4 = rak'a 4-8 (mchana wa mbeleni, takriban 3:30-4:30 alasiri)\n- Maghrib: Fard 3 + Sunnah Muakkadah 2 (baada ya Fard) + Sunnah Ghair Muakkadah 2 (baada) = rak'a 5-7 (baada ya jua kutua, takriban 6:45-7:15 jioni)\n- Isha: Fard 4 + Sunnah Muakkadah 2 (baada ya Fard) + Sunnah Ghair Muakkadah 2 (baada) = rak'a 6-8 (baada ya usiku kuingia, takriban 8:15-9:30 usiku)\n\nJEDWALI LA MPAWANYIKO WA RAK'A:\n| Swala | Fard | Sunnah Muakkadah | Sunnah Ghair Muakkadah | Jumla |\n| Fajr | 2 | 2 | 0 | 4 |\n| Dhuhr | 4 | 4 | 2 | 10 |\n| Asr | 4 | 0 | 2 | 6 |\n| Maghrib | 3 | 0 | 2 | 5 |\n| Isha | 4 | 2 | 2 | 8 |\n| JUMLA | 17 | 8 | 8 | 33 |\n\nAina za Swala: Fard (Lazima) - sharti, kukosa ni dhambi kubwa. Sunnah Muakkadah (Iliyopendekezwa sana) - inasisitizwa sana, Mtume ﷺ alifanya mara kwa mara. Sunnah Ghair Muakkadah (Hiari) - Mtume ﷺ alifanya wakati mwingine, inaleta thawabu ya ziada.\n\nSwala si harakati ya kimwili tu - inahitaji Khushu (umakini na unyenyekevu) na mawasiliano ya ikhlasi na Allah. Kama Allah anasema: 'Hakika swala linakataza uchi na uovu' (Quran 29:45)."
     },
-    "funFact": "Did you know? The five daily prayers were prescribed during Prophet Muhammad's Night Journey (Isra and Mi'raj) to heaven. Originally, Allah commanded 50 prayers per day, but after several reductions through Prophet Musa's advice, it became 5 — yet the reward remains equal to 50!",
+    "funFact": "Je, ulijua? Swala tano za kila siku zilipangiwa wakati wa Safari ya Usiku (Isra na Mi'raj) ya Mtume Muhammad kwenda mbinguni. Awali, Allah aliamuru swala 50 kwa siku, lakini baada ya mapunguzo kadhaa kwa ushauri wa Mtume Musa, zikawa 5 - lakini thawabu inabaki sawa na 50!",
     "quiz": [
       {
-        "q": "How many steps are there in Wudu?",
+        "q": "Wudhu ina hatua ngapi?",
         "options": [
-          "6 steps",
-          "8 steps",
-          "10 steps"
+          "Hatua 6",
+          "Hatua 8",
+          "Hatua 10"
         ],
         "correct": 1,
-        "explanation": "Wudu consists of 8 main steps: Niyyah (intention), washing hands, rinsing mouth, rinsing nose, washing face, washing arms, wiping head, and washing feet."
+        "explanation": "Wudhu ina hatua kuu 8: Niyyah (nia), kuosha mikono, kusugua mdomo, kusugua pua, kuosha uso, kuosha mikono, kupaka kichwa, na kuosha miguu."
       },
       {
-        "q": "What is the first step of Wudu?",
+        "q": "Ni hatua gani ya kwanza ya Wudhu?",
         "options": [
-          "Wash hands",
-          "Niyyah (Intention)",
-          "Rinse mouth"
+          "Kuosha mikono",
+          "Niyyah (Nia)",
+          "Kusugua mdomo"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Wudu. You make the intention in your heart to perform Wudu for prayer."
+        "explanation": "Niyyah (nia) ni hatua ya kwanza ya Wudhu. Unafanya nia moyoni kufanya Wudhu kwa swala."
       },
       {
-        "q": "How many times should you wash your hands in Wudu?",
+        "q": "Ni mara ngapi unapaswa kuosha mikono kwenye Wudhu?",
         "options": [
-          "Once",
-          "Twice",
-          "Three times"
+          "Mara moja",
+          "Mara mbili",
+          "Mara tatu"
         ],
         "correct": 2,
-        "explanation": "In Wudu, you should wash your hands three times, starting with the right hand. This ensures thorough cleansing."
+        "explanation": "Kwenye Wudhu, unapaswa kuosha mikono mara tatu, uanzia mkono wa kulia. Hii inahakikisha usafi kamili."
       },
       {
-        "q": "Which body part is wiped (not washed) in Wudu?",
+        "q": "Ni sehemu gani ya mwili inayopakwa (sio kuosha) kwenye Wudhu?",
         "options": [
-          "Face",
-          "Head",
-          "Arms"
+          "Uso",
+          "Kichwa",
+          "Mikono"
         ],
         "correct": 1,
-        "explanation": "The head is wiped once with wet hands during Wudu. This is different from washing, which is done for other body parts."
+        "explanation": "Kichwa kinapakwa mara moja kwa mikono yenye maji wakati wa Wudhu. Hii ni tofauti na kuosha, ambayo hufanywa kwa sehemu nyingine za mwili."
       },
       {
-        "q": "When performing Wudu, which hand should you start with?",
+        "q": "Unapofanya Wudhu, ni mkono gani unapaswa kuanzia?",
         "options": [
-          "Left hand",
-          "Right hand",
-          "Either hand"
+          "Mkono wa kushoto",
+          "Mkono wa kulia",
+          "Wowote"
         ],
         "correct": 1,
-        "explanation": "In Wudu, you should start with the right hand for washing hands, arms, and feet. This is part of the Sunnah (practice of the Prophet ﷺ)."
+        "explanation": "Kwenye Wudhu, unapaswa kuanzia mkono wa kulia kwa kuosha mikono, mikono, na miguu. Hii ni sehemu ya Sunnah (matendo ya Mtume ﷺ)."
       },
       {
-        "q": "What is the first position in Salah prayer?",
+        "q": "Ni nafasi gani ya kwanza katika swala?",
         "options": [
-          "Ruku (Bowing)",
-          "Niyyah (Intention)",
-          "Qiyam (Standing)"
+          "Ruku (Kuinamia)",
+          "Niyyah (Nia)",
+          "Qiyam (Kusimama)"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Salah. You intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha)."
+        "explanation": "Niyyah (nia) ni hatua ya kwanza ya Salah. Unafanya nia moyoni kuswali swala maalum (Fajr, Dhuhr, Asr, Maghrib, au Isha)."
       },
       {
-        "q": "What do you say when starting Salah?",
+        "q": "Unasema nini unapoanza Salah?",
         "options": [
           "Bismillah",
           "Allahu Akbar",
           "SubhanAllah"
         ],
         "correct": 1,
-        "explanation": "You say 'Allahu Akbar' (Allah is the Greatest) while raising your hands to your ears to begin Salah. This marks the beginning of your prayer."
+        "explanation": "Unasema 'Allahu Akbar' (Allah ndiye Mkubwa zaidi) huku ukiinua mikono hadi masikio kuanza Salah. Hii inaashiria mwanzo wa swala lako."
       },
       {
-        "q": "How many main positions are there in Salah?",
+        "q": "Kuna nafasi kuu ngapi katika Salah?",
         "options": [
-          "5 positions",
-          "7 positions",
-          "9 positions"
+          "Nafasi 5",
+          "Nafasi 7",
+          "Nafasi 9"
         ],
         "correct": 1,
-        "explanation": "There are 7 main positions in Salah: Niyyah, Takbir, Qiyam, Ruku, Qawmah, Sujud, and Tashahhud."
+        "explanation": "Kuna nafasi kuu 7 katika Salah: Niyyah, Takbir, Qiyam, Ruku, Qawmah, Sujud, na Tashahhud."
       },
       {
-        "q": "What is Ruku in Salah?",
+        "q": "Ruku katika Salah ni nini?",
         "options": [
-          "Bowing position",
-          "Prostration position",
-          "Standing position"
+          "Nafasi ya kuinamia",
+          "Nafasi ya kusujudu",
+          "Nafasi ya kusimama"
         ],
         "correct": 0,
-        "explanation": "Ruku is the bowing position in Salah where you bend forward with your hands on your knees and your back parallel to the ground, saying 'Subhana Rabbiyal Azeem.'"
+        "explanation": "Ruku ni nafasi ya kuinamia katika Salah ambapo unainama mbele na mikono kwenye magoti na mgongo wako sawa na ardhi, ukisema 'Subhana Rabbiyal Azeem.'"
       },
       {
-        "q": "How many Fard rak'ahs are there in total across all 5 daily prayers?",
+        "q": "Kuna rak'a ngapi za Fard jumla katika swala 5 za kila siku?",
         "options": [
           "15",
           "17",
           "20"
         ],
         "correct": 1,
-        "explanation": "There are 17 Fard rak'ahs in total: Fajr (2), Dhuhr (4), Asr (4), Maghrib (3), and Isha (4)."
+        "explanation": "Kuna rak'a 17 za Fard jumla: Fajr (2), Dhuhr (4), Asr (4), Maghrib (3), na Isha (4)."
       },
       {
-        "q": "Which prayer has 3 Fard rak'ahs?",
+        "q": "Ni swala gani lenye rak'a 3 za Fard?",
         "options": [
           "Fajr",
           "Maghrib",
           "Isha"
         ],
         "correct": 1,
-        "explanation": "Maghrib (sunset prayer) is unique as it has 3 Fard rak'ahs, while all other prayers have either 2 or 4 Fard rak'ahs."
+        "explanation": "Maghrib (swala ya jua lituangame) ni la kipekee kwa kuwa lina rak'a 3 za Fard, huku swala nyingine zina rak'a 2 au 4 za Fard."
       },
       {
-        "q": "What is Sujud in Salah?",
+        "q": "Sujud katika Salah ni nini?",
         "options": [
-          "Standing upright",
-          "Bowing forward",
-          "Prostration on the ground"
+          "Kusimama wima",
+          "Kuinama mbele",
+          "Kusujudu chini"
         ],
         "correct": 2,
-        "explanation": "Sujud is the prostration position where your forehead, nose, hands, knees, and toes touch the ground. It is performed twice in each rak'ah, and you say 'Subhana Rabbiyal A'la.'"
+        "explanation": "Sujud ni nafasi ya kusujudu ambapo paji la uso, pua, mikono, magoti, na vidole vyako vinagusa ardhi. Hufanywa mara mbili kwenye kila rak'a, na useme 'Subhana Rabbiyal A'la.'"
       }
     ]
   },
   {
     "id": "honesty",
-    "title": "Honesty",
+    "title": "Ukweli",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🤝",
     "category": "islamic_values",
     "content": {
-      "starter": "Honesty means always telling the truth! Allah loves people who are honest. Even if telling the truth is hard, it's always the right thing to do. When we're honest, people trust us and Allah is pleased with us!",
-      "explorer": "Honesty (Sidq) is one of the most important values in Islam. The Prophet ﷺ was known as 'Al-Amin' — the Trustworthy — because he always told the truth. Islam teaches us to be honest in our words, actions, and intentions. Lying is a major sin that can damage relationships and break trust. Being honest, even when it's difficult, earns Allah's love and the respect of others.",
-      "thinker": "Honesty (Sidq) and trustworthiness (Amanah) are foundational Islamic virtues. The Prophet ﷺ said: 'Truthfulness leads to righteousness, and righteousness leads to Paradise.' Honesty is not merely about not lying — it encompasses sincerity in intentions, accuracy in reporting, and integrity in all dealings. Allah says in the Quran: 'O you who believe, fear Allah and be among the truthful' (Surah At-Tawbah 9:119). The concept extends to being honest with oneself, honest in worship, and honest in business dealings."
+      "starter": "Ukweli maana yake kusema kweli kila wakati! Allah anapenda watu wa kweli. Hata kama kusema kweli ni vigumu, daima ni kitu sahihi cha kufanya. Tunapokuwa wa kweli, watu wanatuamini na Allah anaridhika nasi!",
+      "explorer": "Ukweli (Sidq) ni mojawapo ya maadili muhimu zaidi katika Uislamu. Mtume ﷺ alijulikana kama 'Al-Amin' - Mwenye Kuaminika - kwa sababu alikuwa akisema kweli kila wakati. Uislamu unatufundisha tuwe wa kweli katika maneno yetu, matendo yetu, na nia zetu. Kuongo ni dhambi kubwa inayoweza kuharibu mahusiano na kuvunja imani. Kuwa mkweli, hata wakati ni vigumu, kunapata upendo wa Allah na heshima ya wengine.",
+      "thinker": "Ukweli (Sidq) na uaminifu (Amanah) ni maadili ya msingi ya Kiislamu. Mtume ﷺ alisema: 'Ukweli unaongoza kwa wema, na wema unaongoza kwenye Pepo.' Ukweli si kuhusu kutosema uongo tu - unajumuisha ikhlasi katika nia, usahihi katika kuripoti, na uadilifu katika shughuli zote. Allah anasema katika Quran: 'Enyi mlioamini, mcheni Allah na kuwa miongoni mwa wakweli' (Surah At-Tawbah 9:119). Dhana hii inaenea hadi kuwa mkweli na wewe mwenyewe, mkweli katika ibada, na mkweli katika biashara."
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was called 'Al-Amin' (The Trustworthy) even before he became a prophet — because he NEVER told a lie!",
+    "funFact": "Je, ulijua? Mtume Muhammad ﷺ alitwa 'Al-Amin' (Mwenye Kuaminika) hata kabla ya kuwa mtume - kwa sababu HAKUWAI kuongo!",
     "quiz": [
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "Mtume Muhammad ﷺ alijulikana kwa jina gani kabla ya unabii?",
         "options": [
           "Al-Hakim",
           "Al-Amin",
           "Al-Karim"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "Alitwa 'Al-Amin' (Mwenye Kuaminika) kwa sababu alikuwa akisema kweli kila wakati."
       },
       {
-        "q": "Is honesty only about not lying?",
+        "q": "Je, ukweli ni kuhusu kutosema uongo tu?",
         "options": [
-          "Yes",
-          "No, it includes sincerity and integrity too",
-          "Sometimes"
+          "Ndiyo",
+          "Hapana, unajumuisha ikhlasi na uadilifu pia",
+          "Wakati mwingine"
         ],
         "correct": 1,
-        "explanation": "Honesty includes being truthful, sincere, and having integrity in everything."
+        "explanation": "Ukweli unajumuisha kusema kweli, kuwa na ikhlasi, na kuwa na uadilifu katika kila kitu."
       },
       {
-        "q": "What does Allah say about truthful people?",
+        "q": "Allah anasema nini kuhusu watu wakweli?",
         "options": [
-          "They are punished",
-          "He loves them",
-          "They are ignored"
+          "Wanaadhibiwa",
+          "Anawapenda",
+          "Wanapuuzwa"
         ],
         "correct": 1,
-        "explanation": "Allah loves truthful people and promises them Paradise."
+        "explanation": "Allah anapenda watu wakweli na kuwaahidi Pepo."
       }
     ]
   },
   {
     "id": "kindness",
-    "title": "Kindness",
+    "title": "Wema",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_46_sadaqah_voluntary-metCJkjaZZWHwc3n86346d.webp?updatedAt=1781117902191",
     "emoji": "💕",
     "category": "islamic_values",
     "content": {
-      "starter": "Kindness means being nice to everyone! Help your friends, smile at people, share your toys, and be gentle. The Prophet ﷺ was the kindest person ever! When we're kind, Allah rewards us and everyone loves us!",
-      "explorer": "Kindness (Ihsan) is at the heart of Islamic teaching. The Prophet ﷺ said: 'The most beloved of people to Allah are those who are most beneficial to people.' Being kind means helping others, smiling, sharing, and treating everyone with respect — whether they're Muslim or not. Islam teaches that even a smile is charity (sadaqah).",
-      "thinker": "Kindness (Ihsan and Rahmah) is a comprehensive Islamic virtue. The Prophet ﷺ embodied mercy — the Quran describes him as 'a mercy to all the worlds' (Surah Al-Anbiya 21:107). Kindness extends to all creation: family, neighbors, strangers, animals, and even the environment. The Prophet ﷺ said: 'Charity does not decrease wealth. No one forgives another except that Allah increases his honor. And no one humbles himself for the sake of Allah except that Allah raises his status.' True kindness in Islam is not performative but stems from genuine love for Allah and His creation."
+      "starter": "Wema maana yake kuwa mzuri kwa kila mtu! Saidia marafiki zako, tabasamu na watu, shiriki vitu vyako, na kuwa mpole. Mtume ﷺ alikuwa mtu mwenye wema zaidi milele! Tunapokuwa wema, Allah anatupa thawabu na kila mtu anatupenda!",
+      "explorer": "Wema (Ihsan) uko moyoni mwa mafundisho ya Kiislamu. Mtume ﷺ alisema: 'Watu wapendao zaidi kwa Allah ni wale wenye manufaa zaidi kwa watu.' Kuwa mwema maana yake kusaidia wengine, kutabasamu, kushiriki, na kuwaheshimu wote - iwe ni Waislamu au la. Uislamu unafundisha kuwa hata tabasamu ni sadaka (sadaqah).",
+      "thinker": "Wema (Ihsan na Rahmah) ni chema kamili cha Kiislamu. Mtume ﷺ alikuwa mfano wa rehema - Quran inamueleza kuwa 'rehema kwa ulimwengu wote' (Surah Al-Anbiya 21:107). Wema unaenea kwa uumbaji wote: familia, jirani, watu wasiojulikana, wanyama, na hata mazingira. Mtume ﷺ alisema: 'Sadaka haipunguzi mali. Hakuna mtu anayemsamehe mwingine isipokuwa Allah anaongeza heshima yake. Na hakuna anayejinyenyekea kwa ajili ya Allah isipokuwa Allah anamuinua.' Wema wa kweli katika Uislamu si wa kuonesha bali unatokana na upendo wa kweli kwa Allah na uumbaji wake."
     },
-    "funFact": "Did you know? The Prophet ﷺ said that even smiling at someone is a form of charity! You can earn rewards just by being friendly!",
+    "funFact": "Je, ulijua? Mtume ﷺ alisema kuwa hata kutabasamu kwa mtu ni aina ya sadaka! Unaweza kupata thawabu kwa kuwa mkarimu!",
     "quiz": [
       {
-        "q": "What did the Prophet ﷺ say about smiling?",
+        "q": "Mtume ﷺ alisema nini kuhusu kutabasamu?",
         "options": [
-          "It's sinful",
-          "It's a form of charity",
-          "It's meaningless"
+          "Ni dhambi",
+          "Ni aina ya sadaka",
+          "Hakuna maana"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said even a smile is charity (sadaqah)."
+        "explanation": "Mtume ﷺ alisema hata tabasamu ni sadaka (sadaqah)."
       },
       {
-        "q": "Who should we be kind to?",
+        "q": "Tunapaswa kuwa wema kwa nani?",
         "options": [
-          "Only Muslims",
-          "Only family",
-          "Everyone"
+          "Waislamu tu",
+          "Familia tu",
+          "Kila mtu"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to be kind to everyone — Muslim or not."
+        "explanation": "Uislamu unatufundisha kuwa wema kwa kila mtu - iwe ni Muislamu au la."
       },
       {
-        "q": "What is the most beloved person to Allah?",
+        "q": "Ni nani mtu anayependwa zaidi na Allah?",
         "options": [
-          "The richest",
-          "The most beautiful",
-          "The most beneficial to others"
+          "Mtajiri zaidi",
+          "Mrembo zaidi",
+          "Mwenye manufaa zaidi kwa wengine"
         ],
         "correct": 2,
-        "explanation": "The Prophet ﷺ said the most beloved to Allah are those most beneficial to people."
+        "explanation": "Mtume ﷺ alisema wapendao zaidi kwa Allah ni wenye manufaa zaidi kwa watu."
       }
     ]
   },
   {
     "id": "respect",
-    "title": "Respect",
+    "title": "Heshima",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_17_topic_respect_elders-6wUPfPgJRqgzEPbLKEPMkD.webp?updatedAt=1781117900196",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Respect means treating people nicely and politely! We respect our parents, teachers, and elders. We say 'please' and 'thank you.' We listen when others talk. Allah loves people who are respectful!",
-      "explorer": "Respect (Adab) is a key Islamic value. The Quran commands us to honor our parents, be kind to neighbors, and treat elders with dignity. The Prophet ﷺ taught that respect is not just about words but actions — standing up for elders, listening attentively, and honoring others' feelings. Respect also extends to respecting differences of opinion.",
-      "thinker": "Respect (Adab) in Islam is a comprehensive concept that encompasses how we relate to Allah, His creation, and ourselves. The Quran says: 'And your Lord has decreed that you worship none but Him, and that you be dutiful to your parents' (Surah Al-Isra 17:23). Respect for parents is given such high status that it appears immediately after the command to worship Allah alone. Beyond parents, Islam teaches respect for scholars, neighbors, the elderly, and even strangers. The Prophet ﷺ demonstrated this by standing when a funeral passed, greeting children, and honoring the rights of neighbors regardless of their faith."
+      "starter": "Heshima maana yake kuwatendea watu kwa heshima na adabu! Tunawaheshimu wazazi wetu, walimu, na wazee. Tunasema 'tafadhali' na 'asante'. Tunasikiliza wakati wengine wanapozungumza. Allah anapenda watu wenye heshima!",
+      "explorer": "Heshima (Adab) ni chemo muhimu cha Kiislamu. Quran inatuamuru kuheshimu wazazi, kuwa wema kwa majirani, na kuwaheshimu wazee. Mtume ﷺ alifundisha kuwa heshima si kuhusu maneno tu bali matendo - kusimama kwa wazee, kusikiliza kwa makini, na kuheshimu hisia za wengine. Heshima pia inaenea kwa kuheshimu tofauti za maoni.",
+      "thinker": "Heshima (Adab) katika Uislamu ni dhana kamili inayojumuisha jinsi tunavyohusiana na Allah, uumbaji wake, na sisi wenyewe. Quran inasema: 'Na Mola wako ameamuru msimuabudu yeyote isipokuwa Yeye, na kuwa wema kwa wazazi' (Surah Al-Isra 17:23). Heshima kwa wazazi imepewa hadhi ya juu sana kiasi kwamba inaonekana mara moja baada ya amri ya kumuabudu Allah pekee. Zaidi ya wazazi, Uislamu unafundisha heshima kwa wanachuoni, majirani, wazee, na hata watu wasiojulikana. Mtume ﷺ alionyesha hii kwa kusimama wakati jeneza linapopita, kusalimiana na watoto, na kuheshimu haki za majirani bila kujali imani yao."
     },
-    "funFact": "Did you know? In Islam, respecting your parents is considered the SECOND most important duty after worshipping Allah alone!",
+    "funFact": "Je, ulijua? Katika Uislamu, kuheshimu wazazi wako inachukuliwa kuwa wajibu wa PILI muhimu zaidi baada ya kumuabudu Allah pekee!",
     "quiz": [
       {
-        "q": "What comes right after worshipping Allah in importance?",
+        "q": "Ni nini kinachoja baada ya kumuabudu Allah kwa umuhimu?",
         "options": [
-          "Being rich",
-          "Respecting parents",
-          "Going to Hajj"
+          "Kuwa tajiri",
+          "Kuheshimu wazazi",
+          "Kwenda Hajj"
         ],
         "correct": 1,
-        "explanation": "The Quran commands us to worship Allah alone, then to honor our parents."
+        "explanation": "Quran inatuamuru kumuabudu Allah pekee, kisha kuheshimu wazazi."
       },
       {
-        "q": "How should we treat elders?",
+        "q": "Tunapaswa kuwaheshimu wazee vipi?",
         "options": [
-          "Ignore them",
-          "With disrespect",
-          "With honor and dignity"
+          "Kuwapuuza",
+          "Bila heshima",
+          "Kwa heshima na hadhi"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to treat elders with honor and dignity."
+        "explanation": "Uislamu unatufundisha kuwaheshimu wazee kwa heshima na hadhi."
       },
       {
-        "q": "What does 'Adab' mean?",
+        "q": "'Adab' inamaanisha nini?",
         "options": [
-          "Prayer",
-          "Respect and good manners",
-          "Food"
+          "Swala",
+          "Heshima na adabu njema",
+          "Chakula"
         ],
         "correct": 1,
-        "explanation": "Adab means respect, good manners, and proper etiquette in Islam."
+        "explanation": "Adab inamaanisha heshima, adabu njema, na mienendo sahihi katika Uislamu."
       }
     ]
   },
   {
     "id": "patience",
-    "title": "Patience",
+    "title": "Subira",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🧘",
     "category": "islamic_values",
     "content": {
-      "starter": "Patience means waiting calmly and not getting upset when things are hard! When you're sick, or something goes wrong, or you have to wait — be patient! Allah loves patient people and will reward them!",
-      "explorer": "Patience (Sabr) is one of the greatest virtues in Islam. The Quran says: 'Indeed, the patient will be given their reward without account' (Surah Az-Zumar 39:10). Sabr means staying calm during difficulties, resisting temptation, and being content with Allah's plan. The Prophet ﷺ compared patience to a precious gem — it's hard to find but incredibly valuable.",
-      "thinker": "Patience (Sabr) is one of the most emphasized virtues in Islam. The Quran mentions it over 70 times. Sabr has three dimensions: patience in obeying Allah (perseverance), patience in avoiding sin (restraint), and patience during hardship (endurance). Allah says: 'And be patient, for indeed, Allah does not allow to be lost the reward of those who do good' (Surah Hud 11:115). The Prophet ﷺ said: 'How wonderful is the affair of the believer, for all his affairs are good, and this does not apply to anyone except the believer. If something good happens to him, he is grateful, and that is good for him. If something bad happens to him, he bears it with patience, and that is good for him.'"
+      "starter": "Subira maana yake kusubiri kimyakimya na hukasiriki wakati mambo ni magumu! Ukiwa mgonjwa, au kitu kinabadilika, au lazima usubiri - kuwa na subira! Allah anapenda watu wenye subira na atawalipa!",
+      "explorer": "Subira (Sabr) ni mojawapo ya maadili makuu zaidi katika Uislamu. Quran inasema: 'Hakika wenyesubira watalipwa bila hesabu' (Surah Az-Zumar 39:10). Sabr maana yake kukaa kimya wakati wa matatizo, kushinda mvutano, na kuridhika na mpango wa Allah. Mtume ﷺ alilinganisha subira na jimbo la thamani - ni vigumu kupata lakini lenye thamani kubwa sana.",
+      "thinker": "Subira (Sabr) ni mojawapo ya maadili yaliyoasisitizwa zaidi katika Uislamu. Quran inaitaja zaidi ya mara 70. Sabr ina vipimo vitatu: subira katika kumtii Allah (kudumisha), subira katika kuepuka dhambi (kujizuia), na subira wakati wa shida (ustahimilivu). Allah anasema: 'Na kuweni na subira, hakika Allah hapotezi ujira wa wafanyao wema' (Surah Hud 11:115). Mtume ﷺ alisema: 'Ni ajabu jambo la muumini, kwa sababu mambo yake yote ni mazuri, na hii haikutumiki kwa mtu yeyote isipokuwa muumini. Ikiwa jambo zuri limetokea, anashukuru, na hiyo ni chema kwake. Ikiwa jambo baya limetokea, anastahimili, na hiyo ni chema kwake.'"
     },
-    "funFact": "Did you know? Allah mentions patience (Sabr) over 70 times in the Quran — it's one of the most important qualities a Muslim can have!",
+    "funFact": "Je, ulijua? Allah anataja subira (Sabr) zaidi ya mara 70 katika Quran - ni mojawapo ya sifa muhimu zaidi ambayo Muislamu anaweza kuwa nayo!",
     "quiz": [
       {
-        "q": "What is 'Sabr'?",
+        "q": "'Sabr' ni nini?",
         "options": [
-          "Prayer",
-          "Patience",
-          "Charity"
+          "Swala",
+          "Subira",
+          "Sadaka"
         ],
         "correct": 1,
-        "explanation": "Sabr means patience — staying calm during difficulties and trusting Allah."
+        "explanation": "Sabr inamaanisha subira - kukaa kimya wakati wa matatizo na kumtegemea Allah."
       },
       {
-        "q": "How many times does Allah mention patience in the Quran?",
+        "q": "Allah anataja subira mara ngapi katika Quran?",
         "options": [
-          "5 times",
-          "Over 70 times",
-          "100 times"
+          "Mara 5",
+          "Zaidi ya mara 70",
+          "Mara 100"
         ],
         "correct": 1,
-        "explanation": "Allah mentions patience (Sabr) over 70 times in the Quran."
+        "explanation": "Allah anataja subira (Sabr) zaidi ya mara 70 katika Quran."
       },
       {
-        "q": "What happens to patient people?",
+        "q": "Ni nini kinachotokea kwa wenye subira?",
         "options": [
-          "Nothing",
-          "They are rewarded without limit",
-          "They are punished"
+          "Hakuna kitu",
+          "Wanalipwa bila kikomo",
+          "Wanaadhibiwa"
         ],
         "correct": 1,
-        "explanation": "Allah says the patient will be given their reward without account."
+        "explanation": "Allah anasema wenye subira watalipwa bila hesabu."
       }
     ]
   },
   {
     "id": "gratitude",
-    "title": "Gratitude",
+    "title": "Shukrani",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_50_hiba_gifts-6i3784QxV2uUz9RuU6ni4m.webp?updatedAt=1781117899322",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Gratitude means saying 'thank you' to Allah for everything! For food, family, friends, health — everything! When we're thankful, Allah gives us more blessings. A grateful heart is a happy heart!",
-      "explorer": "Gratitude (Shukr) means recognizing and appreciating Allah's blessings. The Quran says: 'If you are grateful, I will surely increase you' (Surah Ibrahim 14:7). Gratitude isn't just saying 'Alhamdulillah' — it's using Allah's blessings in ways that please Him. When we're grateful for health, we use it to do good. When we're grateful for wealth, we share it with others.",
-      "thinker": "Gratitude (Shukr) is a comprehensive Islamic concept that goes beyond simple thankfulness. It has three dimensions: gratitude of the heart (recognizing blessings), gratitude of the tongue (verbal thanks and praise), and gratitude of the limbs (using blessings in obedience to Allah). The Quran warns against ingratitude: 'If you are ungrateful, indeed, my punishment is severe' (Surah Ibrahim 14:7). The Prophet ﷺ would pray at night until his feet would swell, and when asked why, he would say: 'Should I not be a grateful servant?' Gratitude transforms our perspective — even in hardship, a grateful person finds blessings to thank Allah for."
+      "starter": "Shukrani maana yake kusema 'asante' kwa Allah kwa kila kitu! Kwa chakula, familia, marafiki, afya - kila kitu! Tunaposhukuru, Allah anatupa baraka zaidi. Moyo wenye shukrani ni moyo wenye furaha!",
+      "explorer": "Shukrani (Shukr) inamaanisha kutambua na kuthamini baraka za Allah. Quran inasema: 'Mkishukuru, Nitawazidisheni' (Surah Ibrahim 14:7). Shukrani si kusema 'Alhamdulillah' tu - ni kutumia baraka za Allah kwa njia zinazomridhisha. Tunaposhukuru kwa afya, tunaitumia kufanya wema. Tunaposhukuru kwa mali, tunashiriki na wengine.",
+      "thinker": "Shukrani (Shukr) ni dhana kamili ya Kiislamu inayoenda zaidi ya kushukuru tu. Ina vipimo vitatu: shukrani ya moyo (kutambua baraka), shukrani ya ulimi (shukrani za maneno na sifa), na shukrani ya viungo (kutumia baraka katika kumtii Allah). Quran inaonya dhidi ya kuto shukuru: 'Mkishukuru, hakika adhabu yangu ni kali' (Surah Ibrahim 14:7). Mtume ﷺ alikuwa akiswali usiku hadi miguu yake kuvimba, na alipoombwa kwa nini, alisema: 'Je, sijwe mjakazi mwenye kushukuru?' Shukrani inabadilisha mtazamo wetu - hata katika shida, mtu mwenye shukrani anapata baraka za kumshukuru Allah."
     },
-    "funFact": "Did you know? The Prophet ﷺ would pray at night until his feet swelled — and when asked why, he said: 'Should I not be a grateful servant?'",
+    "funFact": "Je, ulijua? Mtume ﷺ alikuwa akiswali usiku hadi miguu yake kuvimba - na alipoombwa kwa nini, alisema: 'Je, sijwe mjakazi mwenye kushukuru?'",
     "quiz": [
       {
-        "q": "What does 'Shukr' mean?",
+        "q": "'Shukr' inamaanisha nini?",
         "options": [
-          "Prayer",
-          "Gratitude",
-          "Fasting"
+          "Swala",
+          "Shukrani",
+          "Funga"
         ],
         "correct": 1,
-        "explanation": "Shukr means gratitude — being thankful to Allah for His blessings."
+        "explanation": "Shukr inamaanisha shukrani - kumshukuru Allah kwa baraka zake."
       },
       {
-        "q": "What does Allah promise to grateful people?",
+        "q": "Allah anaahidi nini kwa wanaoshukuru?",
         "options": [
-          "Nothing",
-          "He will increase their blessings",
-          "He will punish them"
+          "Hakuna kitu",
+          "Atawazidishia baraka",
+          "Atawaadhibu"
         ],
         "correct": 1,
-        "explanation": "Allah says: 'If you are grateful, I will surely increase you.'"
+        "explanation": "Allah anasema: 'Mkishukuru, Nitawazidisheni.'"
       },
       {
-        "q": "What are the three dimensions of gratitude?",
+        "q": "Ni vipimo gani vitatu vya shukrani?",
         "options": [
-          "Heart, tongue, and limbs",
-          "Mind, body, soul",
-          "Morning, afternoon, night"
+          "Moyo, ulimi, na viungo",
+          "Akili, mwili, roho",
+          "Asubuhi, mchana, usiku"
         ],
         "correct": 0,
-        "explanation": "Gratitude is expressed through the heart (recognizing), tongue (thanking), and limbs (using blessings to do good)."
+        "explanation": "Shukrani inatolewa kupitia moyo (kutambua), ulimi (kushukuru), na viungo (kutumia baraka kufanya wema)."
       }
     ]
   },
   {
     "id": "prophet_muhammad",
-    "title": "Prophet Muhammad ﷺ",
+    "title": "Mtume Muhammad ﷺ",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "☪️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Muhammad ﷺ was the best person ever! He was kind, honest, and brave. He taught us about Allah and how to be good Muslims. He loved children and animals. We follow his example every day!",
-      "explorer": "Prophet Muhammad ﷺ was born in Mecca in 570 CE. He was known as 'Al-Amin' (The Trustworthy) even before prophethood. At age 40, Angel Jibril brought him the first revelation in the cave of Hira. He spent 23 years teaching Islam, facing persecution, and building a just community. He passed away in Medina in 632 CE, leaving behind a message for all of humanity.",
-      "thinker": "Prophet Muhammad ﷺ is the final messenger of Allah and the most influential person in history. Born an orphan, raised by his grandfather Abdul Muttalib and then his uncle Abu Talib, he grew up to be known for his truthfulness and integrity. The Quran describes him as 'a mercy to all the worlds' (21:107). His life (Seerah) is a comprehensive guide — from the early persecution in Mecca to the establishment of the first Islamic state in Medina, from the Treaty of Hudaybiyyah to the conquest of Mecca. He taught through example: he prayed until his feet swelled, gave charity until he had nothing left, and treated everyone with dignity regardless of their status."
+      "starter": "Mtume Muhammad ﷺ alikuwa mtu bora zaidi milele! Alikuwa mpole, mkweli, na mjasiri. Alitufundisha kuhusu Allah na jinsi ya kuwa Waislamu wema. Aliwapenda watoto na wanyama. Tunamfuata mfano wake kila siku!",
+      "explorer": "Mtume Muhammad ﷺ alizaliwa Makka mwaka 570 BK. Alitambuliwa kama 'Al-Amin' (Mwenye Kuaminika) hata kabla ya unabii. Akiwa na umri wa miaka 40, Malaika Jibril alimletea ufunuo wa kwanza kwenye pango la Hira. Alitumia miaka 23 akifundisha Uislamu, akikabili mateso, na kujenga jamii ya haki. Alifariki Madina mwaka 632 BK, akiacha ujumbe kwa binadamu wote.",
+      "thinker": "Mtume Muhammad ﷺ ni mtume wa mwisho wa Allah na mtu mwenye ushawishi mkubwa zaidi katika historia. Alizaliwa yatima, akalelewa na babu yake Abdul Muttalib na kisha mjomba wake Abu Talib, akakulia na kujulikana kwa ukweli wake na uadilifu wake. Quran inamueleza kuwa 'rehema kwa ulimwengu wote' (21:107). Maisha yake (Seerah) ni mwongozo kamili - kutoka kwa mateso ya mapema Makka hadi kuanzisha dola ya kwanza ya Kiislamu Madina, kutoka Mkataba wa Hudaybiyyah hadi kuteka Makka. Alifundisha kwa mfano: aliswali hadi miguu yake kuvimba, alitoa sadaka hadi hakumwachia chochote, na aliwaheshimu wote bila kujali hadhi yao."
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was an orphan — his father died before he was born and his mother when he was only 6 years old. Despite this, he became the greatest person in history!",
+    "funFact": "Je, ulijua? Mtume Muhammad ﷺ alikuwa yatima - baba yake alifariki kabla hajazaliwa na mama yake alipokuwa na umri wa miaka 6 tu. Licha ya hayo, akawa mtu mkubwa zaidi katika historia!",
     "quiz": [
       {
-        "q": "In which city was Prophet Muhammad ﷺ born?",
+        "q": "Mtume Muhammad ﷺ alizaliwa katika mji gani?",
         "options": [
-          "Medina",
-          "Mecca",
-          "Jerusalem"
+          "Madina",
+          "Makka",
+          "Quds"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ was born in Mecca in 570 CE."
+        "explanation": "Mtume Muhammad ﷺ alizaliwa Makka mwaka 570 BK."
       },
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "Mtume Muhammad ﷺ alijulikana kwa jina gani kabla ya unabii?",
         "options": [
           "Al-Hakim",
           "Al-Amin",
           "Al-Karim"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "Alitwa 'Al-Amin' (Mwenye Kuaminika) kwa sababu alikuwa akisema kweli kila wakati."
       },
       {
-        "q": "How old was Prophet Muhammad ﷺ when he received the first revelation?",
+        "q": "Mtume Muhammad ﷺ alikuwa na umri gani alipopokea ufunuo wa kwanza?",
         "options": [
           "25",
           "30",
           "40"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ was 40 years old when Angel Jibril brought the first revelation."
+        "explanation": "Mtume Muhammad ﷺ alikuwa na umri wa miaka 40 pale Malaika Jibril alipomletea ufunuo wa kwanza."
       }
     ]
   },
   {
     "id": "prophet_ibrahim",
-    "title": "Prophet Ibrahim",
+    "title": "Mtume Ibrahim",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "🏗️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Ibrahim loved Allah more than anything! He looked at the stars and knew they couldn't be God. He broke the idols people worshipped and told them only Allah deserves worship. Allah made him a great leader!",
-      "explorer": "Prophet Ibrahim (Abraham) is one of the greatest prophets. He realized at a young age that idols couldn't be God — they couldn't create or help anyone. He broke the idols and called people to worship Allah alone. Allah tested him greatly — He asked Ibrahim to leave his homeland, sacrifice his son, and build the Kaaba. Ibrahim obeyed every command, showing incredible faith.",
-      "thinker": "Prophet Ibrahim (Abraham) is known as 'Khalilullah' — the Friend of Allah. His story is one of absolute submission to divine will. He questioned his father's idol worship, challenged King Namrud, and was thrown into fire for his faith — yet Allah saved him. The sacrifice of his son Ismail (Ismail) is commemorated every year during Eid al-Adha. Ibrahim's willingness to leave his wife Hajar and infant son Ismail in the desert of Mecca — trusting completely in Allah's plan — led to the establishment of the Kaaba and the Zamzam well. He is the patriarch of the Abrahamic faiths and an enduring example of total trust in Allah."
+      "starter": "Mtume Ibrahim alimpenda Allah zaidi ya chochote! Alistaarifu nyota na kujua hazikuweza kuwa Mungu. Alivunja sanamu watu walizokuwa wakiziazi na kuwaambia Allah pekee ndiye anayestahili kuabudiwa. Allah alimfanya kuwa kiongozi mkubwa!",
+      "explorer": "Mtume Ibrahim ni mojawapo ya mitume wakubwa zaidi. Aligundua akiwa mdogo kuwa sanamu hazikuweza kuwa Mungu - hazikuweza kuumba au kumsaidia mtu yeyote. Alizivunja sanamu na kuwaita watu kumuabudu Allah pekee. Allah alimjaribu sana - Alimwomba Ibrahim aondoke katika nchi yake, atoe dhabihu ya mwanawe, na ajenge Ka'bah. Ibrahim alitii kila amri, akionyesha imani ya ajabu.",
+      "thinker": "Mtume Ibrahim anajulikana kama 'Khalilullah' - Rafiki wa Allah. Hadithi yake ni ya kumtii mapenzi ya kimungu kabisa. Alikosoa ibada ya sanamu ya baba yake, alimkabili Mfalme Namrud, na alitupwa motoni kwa imani yake - lakini Allah alimokoa. Dhabihu ya mwanawe Ismail inakumbukwa kila mwaka wakati wa Eid al-Adha. Kuwa tayari kwa Ibrahim kuacha mkewe Hajar na mtoto wake mchanga Ismail katika jangwa la Makka - akitumai kikamilifu kwa mpango wa Allah - kulipelekea kuanzisha Ka'bah na kisima cha Zamzam. Yeye ni baba wa imani za Ibrahim na mfano wa kudumu wa kuamini Allah kikamilifu."
     },
-    "funFact": "Did you know? When Ibrahim was thrown into a giant fire, Allah said 'O fire, be cool and peaceful!' — and the fire didn't even burn him!",
+    "funFact": "Je, ulijua? Ibrahim alipotupwa katika moto mkubwa, Allah alisema 'Ewe moto, kuwa baridi na amani!' - na moto haukumwunguza hata kidogo!",
     "quiz": [
       {
-        "q": "What was Prophet Ibrahim known as?",
+        "q": "Mtume Ibrahim alijulikana kama nini?",
         "options": [
-          "Prophet of Thunder",
-          "Friend of Allah",
-          "King of Nations"
+          "Mtume wa Ngurumo",
+          "Rafiki wa Allah",
+          "Mfalme wa Mataifa"
         ],
         "correct": 1,
-        "explanation": "Ibrahim is called 'Khalilullah' — the Friend of Allah."
+        "explanation": "Ibrahim anaitwa 'Khalilullah' - Rafiki wa Allah."
       },
       {
-        "q": "What did Ibrahim break?",
+        "q": "Ibrahim alivunja nini?",
         "options": [
-          "The Kaaba",
-          "Idols people worshipped",
-          "A window"
+          "Ka'bah",
+          "Sanamu watu walizokuzaa",
+          "Dirisha"
         ],
         "correct": 1,
-        "explanation": "Ibrahim broke the idols people were worshipping to show only Allah deserves worship."
+        "explanation": "Ibrahim alizivunja sanamu watu walizokuzaa kuonyesha Allah pekee ndiye anayestahili kuabudiwa."
       },
       {
-        "q": "What did Allah ask Ibrahim to build?",
+        "q": "Allah alimwomba Ibrahim ajenge nini?",
         "options": [
-          "A house",
-          "The Kaaba",
-          "A school"
+          "Nyumba",
+          "Ka'bah",
+          "Shule"
         ],
         "correct": 1,
-        "explanation": "Allah asked Ibrahim to build the Kaaba in Mecca."
+        "explanation": "Allah alimwomba Ibrahim ajenge Ka'bah huko Makka."
       }
     ]
   },
   {
     "id": "islamic_civilization",
-    "title": "Islamic Civilization",
+    "title": "Ustaarabu wa Kiislamu",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_20_topic_islamic_civilization-gNpeURs5zuRnR3dMvEndDR.webp?updatedAt=1781117902871",
     "emoji": "🏛️",
     "category": "stories_history",
     "content": {
-      "starter": "Muslims built amazing things long ago! They made beautiful mosques, hospitals, schools, and libraries. They studied science, math, and medicine. Muslims invented things we still use today — like cameras, universities, and coffee!",
-      "explorer": "Islamic civilization made incredible contributions to the world. Muslim scholars invented algebra, developed modern medicine, built the first universities, and preserved ancient Greek knowledge. Cities like Baghdad, Cordoba, and Cairo were centers of learning. Inventions include the camera (camera obscura), surgical instruments, and windmills. Muslims also built beautiful architecture like the Alhambra and the Dome of the Rock.",
-      "thinker": "The Islamic Golden Age (8th-14th centuries) was one of the most productive periods of scholarship in human history. Scholars like Al-Khwarizmi (algebra), Ibn Sina (medicine), Al-Kindi (philosophy), and Fatima al-Fihri (first university) transformed human knowledge. The House of Wisdom in Baghdad translated and preserved Greek, Persian, and Indian texts that would have been lost. Islamic civilization pioneered hospitals (bimaristans), observatories, and public libraries. The concept of the university was literally invented by Muslims — the University of al-Qarawiyyin in Fez, Morocco, founded by Fatima al-Fihri in 859 CE, is recognized by UNESCO as the oldest existing university."
+      "starter": "Waislamu walijenga vitu vya ajabu zamani! Walijenga misikiti ya kupendeza, hospitali, shule, na maktaba. Walisoma sayansi, hesabu, na tiba. Waislamu walivumbua vitu tunavyotumia hadi leo - kama kamera, vyuo vikuu, na kahawa!",
+      "explorer": "Ustaarabu wa Kiislamu ulitoa michango ya ajabu kwa dunia. Wanachuoni Waislamu walivumbua aljebra, wakaendeleza tiba ya kisasa, walijenga vyuo vikuu vya kwanza, na wakahifadhi elimu ya Wagiriki wa zamani. Miji kama Baghdad, Cordoba, na Cairo ilikuwa vituo vya elimu. Vuvuvuvu zinajumuisha kamera (camera obscura), vifaa vya upasuaji, na mitambo ya upepo. Waislamu pia walijenga usanifu wa kupendeza kama Alhambra na Qubat al-Sakhra.",
+      "thinker": "Enzi ya Dhahabu ya Kiislamu (karne ya 8-14) ilikuwa kipindi cha uzalishaji zaidi cha elimu katika historia ya binadamu. Wanachuoni kama Al-Khwarizmi (aljebra), Ibn Sina (tiba), Al-Kindi (falsafa), na Fatima al-Fihri (chuoni kuu cha kwanza) walibadilisha elimu ya binadamu. Nyumba ya Hekima huko Baghdad iliongeza na kuhifadhi maandishi ya Kigiriki, Kiajemi, na Kihindi ambayo yangepotea. Ustaarabu wa Kiislamu ulipionisha hospitali (bimaristans), vituo vya uchunguzi, na maktaba za umma. Dhana ya chuo kikuu ilitengenezwa na Waislamu - Chuo Kikuu cha al-Qarawiyyin huko Fez, Morocco, kilichoanzishwa na Fatima al-Fihri mwaka 859 BK, kinatambuliwa na UNESCO kuwa chuo kikuu cha zamani zaidi kilichopo."
     },
-    "funFact": "Did you know? The first university in the world was built by a Muslim woman — Fatima al-Fihri — in Morocco in the year 859 CE!",
+    "funFact": "Je, ulijua? Chuo kikuu cha kwanza duniani kilijengwa na mwanamke Muislamu - Fatima al-Fihri - nchini Morocco mwaka 859 BK!",
     "quiz": [
       {
-        "q": "What did Al-Khwarizmi invent?",
+        "q": "Al-Khwarizmi alivumbua nini?",
         "options": [
-          "Medicine",
-          "Algebra",
-          "Astronomy"
+          "Tiba",
+          "Aljebra",
+          "Astronomia"
         ],
         "correct": 1,
-        "explanation": "Al-Khwarizmi invented algebra — the word 'algorithm' comes from his name!"
+        "explanation": "Al-Khwarizmi alivumbua aljebra - neno 'algorithm' linatokana na jina lake!"
       },
       {
-        "q": "Who built the first university in the world?",
+        "q": "Nani alijenga chuo kikuu cha kwanza duniani?",
         "options": [
-          "A Muslim man",
+          "Mwanaume Muislamu",
           "Fatima al-Fihri",
-          "A Greek scholar"
+          "Mwanachuoni wa Kigiriki"
         ],
         "correct": 1,
-        "explanation": "Fatima al-Fihri, a Muslim woman, built the first university in Morocco in 859 CE."
+        "explanation": "Fatima al-Fihri, mwanamke Muislamu, alijenga chuo kikuu cha kwanza nchini Morocco mwaka 859 BK."
       },
       {
-        "q": "What was the Islamic Golden Age known for?",
+        "q": "Enzi ya Dhahabu ya Kiislamu ilijulikana kwa nini?",
         "options": [
-          "Only art",
-          "Advances in science, math, and medicine",
-          "Only farming"
+          "Sanaa tu",
+          "Maendeleo katika sayansi, hesabu, na tiba",
+          "Ukilimo tu"
         ],
         "correct": 1,
-        "explanation": "Muslims made incredible advances in science, math, medicine, and many other fields."
+        "explanation": "Waislamu walifanya maendeleo ya ajabu katika sayansi, hesabu, tiba, na nyanja nyingine nyingi."
       }
     ]
   },
   {
     "id": "ramadan",
-    "title": "Ramadan",
+    "title": "Ramadhani",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_39_ramadan_overview-KSNdX85Mzos8r2Xf3JL6rh.webp?updatedAt=1781117901328",
     "emoji": "🌙",
     "category": "special_times",
     "content": {
-      "starter": "Ramadan is the best month! It's when Allah sent the Quran. We fast from sunrise to sunset — no eating or drinking! At night, we pray, read Quran, and have iftar with family. Everyone is happy and kind during Ramadan!",
-      "explorer": "Ramadan is the ninth month of the Islamic calendar and the holiest month for Muslims. The Quran was first revealed during Ramadan. Muslims fast from dawn to sunset, refraining from food, drink, and other physical needs. It's a time of increased prayer, charity, and Quran reading. Ramadan teaches self-discipline, empathy for the poor, and brings families and communities together.",
-      "thinker": "Ramadan is the month in which the Quran was revealed as guidance for humanity (Surah Al-Baqarah 2:185). Fasting (Sawm) during Ramadan is the fourth pillar of Islam and serves multiple purposes: developing taqwa (God-consciousness), purifying the soul, building empathy for the less fortunate, and strengthening community bonds. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a spiritual rhythm throughout the month. The last 10 nights are especially sacred, as Laylat al-Qadr (the Night of Power) — described as 'better than a thousand months' — falls within them. Ramadan transforms communities: charity increases, tempers cool, and hearts soften."
+      "starter": "Ramadhani ni mwezi bora zaidi! Ni wakati Allah alipoteremsha Quran. Tunafunga kutoka machweo hadi jua lituangame - hakuna kula wala kunywa! Usiku, tunaswali, kusoma Quran, na kufanya iftari na familia. Kila mtu ni mwenye furaha na wema wakati wa Ramadhani!",
+      "explorer": "Ramadhani ni mwezi wa tisa wa kalenda ya Kiislamu na mwezi mtukufu zaidi kwa Waislamu. Quran iliteremshwa kwanza wakati wa Ramadhani. Waislamu hufunga kutoka alfajiri hadi magharibi, wakijizuia na chakula, kinywaji, na mahitaji mengine ya kimwili. Ni wakati wa kuongeza swala, sadaka, na kusoma Quran. Ramadhani inafundisha nidhamu ya nafsi, huruma kwa masikini, na inaleta familia na jamii pamoja.",
+      "thinker": "Ramadhani ni mwezi ambao Quran iliteremshwa kama mwongozo kwa binadamu (Surah Al-Baqarah 2:185). Kufunga (Sawm) wakati wa Ramadhani ni nguzo ya nne ya Uislamu na ina madhumuni mengi: kuendeleza taqwa (kumkumbuka Allah), kutakasa nafsi, kujenga huruma kwa wahitaji, na kuimarisha mahusiano ya jamii. Mlo wa kabla ya alfajiri (Sahuri) na mlo wa jua lituangame (Iftari) huunda mtiririko wa kiroho kipindi cha mwezi wote. Siku kumi za mwisho ni takatifu sana, kwani Laylat al-Qadr (Usiku wa Qadr) - ulioelezwa kuwa 'bora zaidi ya miezi elfu moja' - uko ndani yake. Ramadhani inabadilisha jamii: sadaka inaongezeka, hasira zinapungua, na nyoyo zinalemavika."
     },
-    "funFact": "Did you know? Laylat al-Qadr (the Night of Power) in Ramadan is better than 1,000 months — that's over 83 years of blessings in just one night!",
+    "funFact": "Je, ulijua? Laylat al-Qadr (Usiku wa Qadr) katika Ramadhani ni bora zaidi ya miezi 1,000 - hiyo ni zaidi ya miaka 83 ya baraka katika usiku mmoja tu!",
     "quiz": [
       {
-        "q": "During which month was the Quran revealed?",
+        "q": "Quran iliteremshwa wakati wa mwezi gani?",
         "options": [
           "Muharram",
-          "Ramadan",
+          "Ramadhani",
           "Shawwal"
         ],
         "correct": 1,
-        "explanation": "The Quran was first revealed during the month of Ramadan."
+        "explanation": "Quran iliteremshwa kwanza wakati wa mwezi wa Ramadhani."
       },
       {
-        "q": "What is Laylat al-Qadr?",
+        "q": "Laylat al-Qadr ni nini?",
         "options": [
-          "A regular night",
-          "The Night of Power, better than 1,000 months",
-          "The first day of Ramadan"
+          "Usiku wa kawaida",
+          "Usiku wa Qadr, bora zaidi ya miezi 1,000",
+          "Siku ya kwanza ya Ramadhani"
         ],
         "correct": 1,
-        "explanation": "Laylat al-Qadr (Night of Power) is better than 1,000 months of worship."
+        "explanation": "Laylat al-Qadr (Usiku wa Qadr) ni bora zaidi ya miezi 1,000 ya ibada."
       },
       {
-        "q": "What is the pre-dawn meal called?",
+        "q": "Mlo wa kabla ya alfajiri unaitwaje?",
         "options": [
-          "Iftar",
-          "Suhoor",
+          "Iftari",
+          "Sahuri",
           "Dhuhr"
         ],
         "correct": 1,
-        "explanation": "The pre-dawn meal before fasting is called Suhoor."
+        "explanation": "Mlo wa kabla ya alfajiri kabla ya kufunga unaitwa Sahuri."
       }
     ]
   },
   {
     "id": "eid_al_fitr",
-    "title": "Eid al-Fitr",
+    "title": "Eid al-Fitr - Sikukuu ya Kuvunja Saumu",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_42_eid_fitr_celebration-WoRzqkwEMUXtjWTsNNttWJ.webp?updatedAt=1781117904296",
     "emoji": "🎉",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Fitr is the happy day after Ramadan! We wear new clothes, eat yummy food, give gifts, and say 'Eid Mubarak!' to everyone. We give money to poor people called Zakat al-Fitr. It's like a big party for Allah!",
-      "explorer": "Eid al-Fitr marks the end of Ramadan and is one of the two major Islamic holidays. Muslims gather for a special prayer, give Zakat al-Fitr (charity to the poor), wear their best clothes, and celebrate with family and friends. Children receive gifts and money (Eidi). It's a day of joy, gratitude, and community after a month of fasting and worship.",
-      "thinker": "Eid al-Fitr ('Festival of Breaking the Fast') is celebrated on the first day of Shawwal, the month following Ramadan. It begins with a special congregational prayer and sermon, followed by Zakat al-Fitr — a mandatory charity given before the Eid prayer to ensure even the poorest can celebrate. The Prophet ﷺ would wear his best clothes on Eid and apply perfume. Eid is a day of celebration, but also of reflection — thanking Allah for the strength to complete Ramadan and asking for acceptance of our worship. It strengthens community bonds as Muslims visit relatives, share meals, and reconcile differences."
+      "starter": "Eid al-Fitr ni siku ya furaha baada ya Ramadhani! Tunavaa nguo mpya, tunakula chakula kitamu, tunawapa zawadi, na tunasema 'Eid Mubarak!' kwa kila mtu. Tunawapa pesa masikini inayoitwa Zakat al-Fitr. Ni kama sherehe kubwa kwa Allah!",
+      "explorer": "Eid al-Fitr inaashiria mwisho wa Ramadhani na ni mojawapo ya likizo kuu mbili za Kiislamu. Waislamu hukusanyika kwa swala maalum, hutoa Zakat al-Fitr (sadaka kwa masikini), huvaa nguo zao bora, na kusherehekea na familia na marafiki. Watoto hupokea zawadi na pesa (Eidi). Ni siku ya furaha, shukrani, na jamii baada ya mwezi wa kufunga na ibada.",
+      "thinker": "Eid al-Fitr ('Sherehe ya Kuvunja Funga') inasherehekewa siku ya kwanza ya Shawwal, mwezi unaofuata Ramadhani. Inaanza na swala la pamoja na hotuba, ikifuatiwa na Zakat al-Fitr - sadaka ya lazima inayotolewa kabla ya swala ya Eid kuhakikisha hata masikini wanaweza kusherehekea. Mtume ﷺ alikuwa akivaa nguo zake bora Eid na kupaka manukato. Eid ni siku ya sherehe, lakini pia ya tafakuri - kumshukuru Allah kwa nguvu ya kumaliza Ramadhani na kuomba ibada zetu kukubaliwa. Inaimarisha mahusiano ya jamii Waislamu wakitembelea jamaa, kushiriki milo, na kusuluhisha tofauti."
     },
-    "funFact": "Did you know? On Eid, you must give charity (Zakat al-Fitr) BEFORE the Eid prayer — so even poor people can celebrate!",
+    "funFact": "Je, ulijua? Eid, lazima utoe sadaka (Zakat al-Fitr) KABLA ya swala ya Eid - hata masikini wanaweza kusherehekea!",
     "quiz": [
       {
-        "q": "When is Eid al-Fitr celebrated?",
+        "q": "Eid al-Fitr inasherehekewa lini?",
         "options": [
-          "Beginning of Ramadan",
-          "End of Ramadan",
-          "Middle of Ramadan"
+          "Mwanzo wa Ramadhani",
+          "Mwisho wa Ramadhani",
+          "Katikati ya Ramadhani"
         ],
         "correct": 1,
-        "explanation": "Eid al-Fitr is celebrated at the end of Ramadan."
+        "explanation": "Eid al-Fitr inasherehekewa mwishoni mwa Ramadhani."
       },
       {
-        "q": "What must Muslims give before Eid prayer?",
+        "q": "Waislamu lazima watoe nini kabla ya swala ya Eid?",
         "options": [
-          "More fasting",
-          "Zakat al-Fitr (charity)",
-          "A new car"
+          "Kufunga zaidi",
+          "Zakat al-Fitr (sadaka)",
+          "Gari jipya"
         ],
         "correct": 1,
-        "explanation": "Zakat al-Fitr is charity given before Eid prayer so the poor can celebrate too."
+        "explanation": "Zakat al-Fitr ni sadaka inayotolewa kabla ya swala ya Eid ili masikini pia washereheke."
       },
       {
-        "q": "What do we say to others on Eid?",
+        "q": "Tunasema nini kwa wengine Eid?",
         "options": [
-          "Happy Birthday",
+          "Heri ya Kuzaliwa",
           "Eid Mubarak",
-          "Good Morning"
+          "Asubuhi Njema"
         ],
         "correct": 1,
-        "explanation": "We say 'Eid Mubarak' — meaning 'Blessed Eid!'"
+        "explanation": "Tunasema 'Eid Mubarak' - maana yake 'Eid Iliyobarikiwa!'"
       }
     ]
   },
   {
     "id": "eid_al_adha",
-    "title": "Eid al-Adha",
+    "title": "Eid al-Adha - Sikukuu ya Kuhitimia Hija",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_43_eid_adha_celebration-a8nckcQaGvn3CYJJy7ta5A.webp?updatedAt=1781117903366",
     "emoji": "🐑",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Adha is the big Eid! It remembers when Prophet Ibrahim was ready to sacrifice his son for Allah. Allah was so happy with his faith that He sent a sheep instead! We sacrifice an animal and share the meat with family and poor people!",
-      "explorer": "Eid al-Adha ('Festival of Sacrifice') honors Prophet Ibrahim's willingness to sacrifice his son Ismail for Allah. Before Eid, Muslims who can afford it sacrifice an animal (sheep, goat, cow, or camel) and divide the meat into three parts: one for family, one for friends and neighbors, one for the poor. It coincides with the Hajj pilgrimage and is one of the two major Islamic holidays.",
-      "thinker": "Eid al-Adha commemorates one of the most profound acts of faith in Islamic history — Prophet Ibrahim's willingness to sacrifice his son Ismail in complete obedience to Allah. Just as Ibrahim was about to carry out the sacrifice, Allah replaced Ismail with a ram, and the sacrifice was accepted symbolically. This event is commemorated by millions of Muslims worldwide who sacrifice an animal during the days of Eid. The meat is divided into thirds: family, friends/neighbors, and the poor. Eid al-Adha coincides with the Hajj pilgrimage — while pilgrims are at Arafat, Muslims worldwide celebrate this festival of sacrifice, gratitude, and community."
+      "starter": "Eid al-Adha ni Eid kubwa! Inakumbuka wakati Mtume Ibrahim alikuwa tayari kutoa dhabihu ya mwanawe kwa Allah. Allah alifurahishwa na imani yake hadi Akamtuma kondoo badala yake! Tunatoa dhabihu ya mnyama na kushiriki nyama na familia na masikini!",
+      "explorer": "Eid al-Adha ('Sherehe ya Dhabihu') inamheshimu Mtume Ibrahim kwa kuwa tayari kutoa dhabihu ya mwanawe Ismail kwa Allah. Kabla ya Eid, Waislamu wanaoweza wanatoa dhabihu ya mnyama (kondoo, mbuzi, ng'ombe, au ngamia) na kugawanya nyama katika sehemu tatu: moja kwa familia, moja kwa marafiki na majirani, moja kwa masikini. Inaendana na hijja ya Hajj na ni mojawapo ya likizo kuu mbili za Kiislamu.",
+      "thinker": "Eid al-Adha inakumbuka mojawapo ya matendo ya imani ya kina zaidi katika historia ya Kiislamu - Mtume Ibrahim kuwa tayari kutoa dhabihu ya mwanawe Ismail kwa kumtii Allah kabisa. Ibrahim alipokuwa karibu kutekeleza dhabihu, Allah alimbadilisha Ismail na kondoo dume, na dhabihu ilikubaliwa kama ishara. Tukio hili linakumbukwa na Waislamu mamilioni duniani kote wanaoitoa dhabihu ya mnyama wakati wa siku za Eid. Nyama hugawanywa katika thuluthi tatu: familia, marafiki/majirani, na masikini. Eid al-Adha inaendana na hijja ya Hajj - wakati wahiji wapo Arafat, Waislamu duniani kote wanasherehekea sherehe hii ya dhabihu, shukrani, na jamii."
     },
-    "funFact": "Did you know? Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah — but Allah sent a ram instead as a test of faith!",
+    "funFact": "Je, ulijua? Eid al-Adha inakumbuka wakati Mtume Ibrahim alikuwa tayari kutoa dhabihu ya mwanawe kwa Allah - lakini Allah alimtuma kondoo dume badala yake kama jaribu la imani!",
     "quiz": [
       {
-        "q": "What does Eid al-Adha remember?",
+        "q": "Eid al-Adha inakumbuka nini?",
         "options": [
-          "Ramadan ending",
-          "Ibrahim's willingness to sacrifice his son",
-          "The Quran being revealed"
+          "Kumalizika kwa Ramadhani",
+          "Ibrahim kuwa tayari kutoa dhabihu ya mwanawe",
+          "Quran kuteremshwa"
         ],
         "correct": 1,
-        "explanation": "Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah."
+        "explanation": "Eid al-Adha inakumbuka wakati Mtume Ibrahim alikuwa tayari kutoa dhabihu ya mwanawe kwa Allah."
       },
       {
-        "q": "How many parts is the sacrificial meat divided into?",
+        "q": "Nyama ya dhabihu inagawanywa katika sehemu ngapi?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "Sehemu moja",
+          "Sehemu mbili",
+          "Sehemu tatu"
         ],
         "correct": 2,
-        "explanation": "The meat is divided into three: family, friends/neighbors, and the poor."
+        "explanation": "Nyama inagawanywa katika tatu: familia, marafiki/majirani, na masikini."
       },
       {
-        "q": "What did Allah send instead of Ibrahim's son?",
+        "q": "Allah alimtuma nini badala ya mwana wa Ibrahim?",
         "options": [
-          "Nothing",
-          "A ram (sheep)",
-          "An angel"
+          "Hakuna kitu",
+          "Kondoo dume",
+          "Malaika"
         ],
         "correct": 1,
-        "explanation": "Allah sent a ram to be sacrificed instead, accepting Ibrahim's willingness."
+        "explanation": "Allah alimtuma kondoo dume kutoa dhabihu badala yake, akikubali utayari wa Ibrahim."
+      }
+    ]
+  },
+  {
+    "id": "al_khwarizmi",
+    "title": "Al-Khwarizmi - Baba wa Aljebra",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_25_scholar_al_khwarizmi-YyTnbwqk77BcABwPTm7CYw.webp?updatedAt=1781117901745",
+    "emoji": "📐",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Khwarizmi alikuwa mjanja wa hesabu Muislamu aliyishi zamani. Alivumbua Aljebra, ambayo inatusaidia kutatua matatizo ya hesabu kwa kutumia herufi na namba! Pia alionyesha dunia yote jinsi ya kutumia namba sifuri na kuanzisha namba 1 hadi 9, ambazo bado tunazitumia leo!",
+      "explorer": "Muhammad ibn Musa al-Khwarizmi (takriban 780-850 BK) alikuwa mwanahesabu, mwananajimu, na mwanajiografia mashuhuri aliyefanya kazi katika Nyumba ya Hekima ya Baghdad. Aliandika kitabu cha mapinduzi kiitwacho 'Kitab al-Jabr' ambacho tunapata neno 'Aljebra'. Pia alisambaza mfumo wa namba wa Kihindi-Kiarabu, ukiwemo nukta ya desimali na namba sifuri, katika ulimwengu wa Kiislamu na Ulaya, akiweka msingi wa hesabu za kisasa.",
+      "thinker": "Muhammad ibn Musa al-Khwarizmi (takriban 780-850 BK) anachukuliwa sana kuwa Baba wa Aljebra. Akifanya kazi katika Nyumba ya Hekima huko Baghdad wakati wa Enzi ya Dhahabu ya Kiislamu, kazi yake kuu, 'Kitabu Kifupi cha Hesabu kwa kukamilisha na kusawazisha' ('Al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala'), kilifanya mfumo rasmi wa kutatua milinganyo ya mstari na mraba. Alianzisha mfumo wa namba wa Kiarabu kwa Magharibi, na jina lake la Kilatini mwishowe likatoa neno 'algorithm', likisherehekea urithi wake wa kudumu kama mpionia wa hesabu na sayansi ya kompyuta."
+    },
+    "funFact": "Je, ulijua? Neno 'aljebra' linatokana na kichwa cha kitabu chake 'Al-Jabr' (maana yake kurejesha/kukamilisha), na neno 'algorithm' ni tafsiri ya jina lake mwenyewe, Al-Khwarizmi!",
+    "quiz": [
+      {
+        "q": "Al-Khwarizmi alivumbua tawi gani la hesabu?",
+        "options": [
+          "Kalkulasi",
+          "Jiometri",
+          "Aljebra"
+        ],
+        "correct": 2,
+        "explanation": "Al-Khwarizmi aliandika 'Al-Jabr', akitengeneza mfumo wa kimtindo wa kutatua milinganyo unaoitwa aljebra."
+      },
+      {
+        "q": "Al-Khwarizmi alifanya utafiti wake wa kisayansi wapi?",
+        "options": [
+          "Mipyramidi",
+          "Nyumba ya Hekima huko Baghdad",
+          "Maktaba ya Alexandria"
+        ],
+        "correct": 1,
+        "explanation": "Nyumba ya Hekima huko Baghdad ilikuwa kituo cha kipekee cha kiakili cha Enzi ya Dhahabu ya Kiislamu."
+      },
+      {
+        "q": "Ni neno gani la kisasa la sayansi ya kompyuta linatokana na jina la Al-Khwarizmi?",
+        "options": [
+          "Hardware",
+          "Algorithm",
+          "Internet"
+        ],
+        "correct": 1,
+        "explanation": "Neno 'algorithm' linatokana na tafsiri ya Kilatini ya jina lake, 'Algoritmi'."
+      }
+    ]
+  },
+  {
+    "id": "ibn_sina",
+    "title": "Ibn Sina - Baba wa Tiba",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_26_scholar_ibn_sina-96S5bSYcoRZXXh4aq6Jx7q.webp?updatedAt=1781117902508",
+    "emoji": "🩺",
+    "category": "stories_history",
+    "content": {
+      "starter": "Ibn Sina, pia anayejulikana kama Avicenna, alikuwa daktari na mwanafalsafa mjanja sana! Aliandika kamusi kubwa ya tiba iitwayo 'Kanuni ya Tiba'. Ilikuwa ya kina sana hivi kwamba vyuo vikuu Ulaya vilitumia kwa mamia ya miaka kufundisha watu jinsi ya kuwa madaktari!",
+      "explorer": "Ibn Sina (Avicenna, 980-1037 BK) alikuwa mwanachuoni Mwajemi aliyekumbwa kama mmojawapo wa wafikiri w muhimu zaidi wa Enzi ya Dhahabu ya Kiislamu. Alifahamu Quran yote kwa kihafidhina akiwa na umri wa miaka 10 na alikuwa daktari anayefanya kazi akiwa na umri wa miaka 18. Kitabu chake maarufu duniani, 'Kanuni ya Tiba' ('Al-Qanun fi al-Tibb'), kilikuwa kitabu cha kawaida cha tiba kote Ulaya na Asia kwa zaidi ya miaka 600.",
+      "thinker": "Ibn Sina (Avicenna, 980-1037 BK) alikuwa mwanachuoni mashuhuri ambaye michango yake ilikuza sayansi ya mapema ya tiba na falsafa ya kati. Mkusanyiko wake mkubwa 'Kanuni ya Tiba' ulianzisha mawazo ya mapinduzi, ukiwemo karantini kudhibiti magonjwa ya kuambukiza, majaribio ya kliniki, na famasia. Zaidi ya tiba, kamusi yake 'Kitabu cha Uponyaji' ('Kitab al-Shifa') iliangazia mantiki, sayansi za asili, na metafizikia, ikiunganisha teolojia ya Kiislamu na falsafa ya busara."
+    },
+    "funFact": "Je, ulijua? Ibn Sina alikuwa mwenye akili sana kwamba alifahamu Quran yote kwa kihafidhina akiwa na umri wa miaka 10 na akawa daktari anayeheshimika akiwa na umri wa miaka 18 tu!",
+    "quiz": [
+      {
+        "q": "Ni kitabu gani cha tiba cha Ibn Sina kinachojulikana sana?",
+        "options": [
+          "Kitabu cha Hekima",
+          "Kanuni ya Tiba",
+          "Sheria za Mwanzo"
+        ],
+        "correct": 1,
+        "explanation": "Ibn Sina aliandika 'Kanuni ya Tiba', ambacho kilibaki kuwa kitabu cha kawaida kwa karne nyingi."
+      },
+      {
+        "q": "Ibn Sina alifahamu Quran yote kwa kihafidhina akiwa na umri gani?",
+        "options": [
+          "Miaka 10",
+          "Miaka 18",
+          "Miaka 25"
+        ],
+        "correct": 0,
+        "explanation": "Ibn Sina alifahamu Quran akiwa na umri wa miaka 10, akionyesha akili ya ajabu tangu akiwa mdogo sana."
+      },
+      {
+        "q": "Ni mbinu gani ya tiba Ibn Sina aliyopionisha kudhibiti kuenea kwa magonjwa ya kuambukiza?",
+        "options": [
+          "Upigaji msumari",
+          "Karantini",
+          "Vifuniko cha jasi"
+        ],
+        "correct": 1,
+        "explanation": "Ibn Sina alidhani kuwa magonjwa yanaenea kupitia chembechembe ndogo na alipionisha mbinu za karantini."
+      }
+    ]
+  },
+  {
+    "id": "al_razi",
+    "title": "Al-Razi - Mpionia wa Kemia",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_27_scholar_al_razi-734zXvqhUQPULCRdzdCjA9.webp?updatedAt=1781117901576",
+    "emoji": "🧪",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Razi alikuwa daktari mwenye moyo wema na mwanakemia mzuri. Alikuwa wa kwanza kugundua kuwa vyumba vya hospitali safi husaidia wagonjwa kupona haraka, na aliunda vifaa vya hali ya juu vya maabara kusoma kemikali!",
+      "explorer": "Al-Razi (Rhazes, 854-925 BK) alikuwa daktari bora wa kliniki na mwanakemia. Alikuwa wa kwanza kutofautisha ndui na ukoma, akiandika insha ya tiba kuhusu hayo. Katika kemia, aligawanya dutu za kemikali kwa mara ya kwanza na kuunda vifaa vya maabara, ukiwemo chombo cha kupashia joto na vyombo vya kioo, ambavyo wanakemia bado wanavitumia kufanya majaribio.",
+      "thinker": "Abu Bakr al-Razi (Rhazes, 854-925 BK) alikuwa jitu la tiba ya kliniki, sayansi ya majaribio, na kemia. Kama mkuu wa hospitali kuu huko Baghdad, alichagua eneo la jengo lake kwa kunyingiza nyama mbichi katika maeneo mbalimbali kupata mahali pa hewa safi zaidi. Katika kazi yake kuu 'Kitab al-Hawi' (Kitabu cha Kina), alirekodi visa za kliniki. Katika kemia, uainishaji wake wa madini na misombo ya kemikali uliweka msingi wa kemia ya kisasa."
+    },
+    "funFact": "Je, ulijua? Katika maabara yake ya kemia, Al-Razi alivumbua taa za kerosini na kugawanya elementi za kemikali. Katika tiba, alichagua maeneo ya hospitali kwa kunyingiza nyama mbichi kuzunguka Baghdad kupata mahali ambapo hewa ni safi zaidi!",
+    "quiz": [
+      {
+        "q": "Al-Razi alichagua eneo safi zaidi la kujenga hospitali ya Baghdad vipi?",
+        "options": [
+          "Kwa kumwuliza mfalme",
+          "Kwa kunyingiza nyama mbichi kuona ilipooza polepole zaidi",
+          "Kwa kupima joto la maji"
+        ],
+        "correct": 1,
+        "explanation": "Alinyingiza nyama kuzunguka jiji; eneo ambapo nyama ilibaki safi kwa muda mrefu zaidi lilikuwa na hewa safi zaidi."
+      },
+      {
+        "q": "Al-Razi alikuwa daktari wa kwanza katika historia kutofautisha ni magonjwa gani mawili?",
+        "options": [
+          "Ndui na ukoma",
+          "Mafua na malaria",
+          "Baridi na homa"
+        ],
+        "correct": 0,
+        "explanation": "Insha yake kuhusu ndui na ukoma ilisifiwa kimataifa na kutafsiriwa katika lugha nyingi."
+      },
+      {
+        "q": "Al-Razi aligawanya nini katika masomo yake ya kemia?",
+        "options": [
+          "Nyota na sayari",
+          "Madini na dutu",
+          "Wanyama na mimea"
+        ],
+        "correct": 1,
+        "explanation": "Aliunda mfumo wa mapema wa uainishaji kwa madini na dutu za kikaboni, akiweka misingi ya kemia."
+      }
+    ]
+  },
+  {
+    "id": "al_biruni",
+    "title": "Al-Biruni - Bora wa Sayansi",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_28_scholar_al_biruni-3CxEZkDDXSfMvzUgmWWyDk.webp?updatedAt=1781117901825",
+    "emoji": "🌍",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Biruni alikuwa mpelelezi wa sayansi aliyependa kusafiri. Alipenda kuorodhesha Dunia na kutazama nyota! Akitumia mlima na hesabu rahisi, alihesabu ukubwa wa Dunia, na akapata karibu sana sawa!",
+      "explorer": "Al-Biruni (973-1048 BK) alikuwa mwanasayansi wa asili na mwanajiografia. Alizungumza lugha nyingi, ukiwemo Kisanskriti, Kiajemi, Kiarabu, na Kigiriki. Alipionisha jiodesia, akitumia hesabu ya trigonometri kuhesabu eneo na mzunguko wa Dunia kwa hitilafu chini ya 1%. Pia aliandika kuhusu muundo wa madini wa mawe ya thamani na kuhifadhi mifumo ya kalenda ya zamani.",
+      "thinker": "Abu al-Rayhan al-Biruni (973-1048 BK) anasherehekea kama mmojawapo wa wanasayansi wakuu wa wakati wote. Alifanya vizuri katika astronomia, jiodesia, sosholojia, na mineralojia. Aliunda milinganyo ya kipekee ya hesabu akitumia kimo cha mlima katika Pakistan ya kisasa kuhesabu eneo la Dunia, karne kabla ya uchunguzi wa satelaiti. Utaalamu wake kuhusu India ('Kitab al-Hind') unachukuliwa kuwa ethnografia ya kwanza ya kielezi na utafiti wa dini za kulinganisha."
+    },
+    "funFact": "Je, ulijua? Akitumia trigonometria na mlima mmoja, Al-Biruni alihesabu ukubwa wa Dunia kwa usahihi wa 99.6%, hesabu ambayo ni karibu sawa na satelaiti za kisasa!",
+    "quiz": [
+      {
+        "q": "Al-Biruni alihesabu kipimo gani cha jiografia kwa usahihi wa ajabu?",
+        "options": [
+          "Kina cha bahari",
+          "Umbali hadi Mwezi",
+          "Ukubwa (mzunguko) wa Dunia"
+        ],
+        "correct": 2,
+        "explanation": "Akitumia mlima na fomula za trigonometri, Al-Biruni alihesabu eneo la Dunia kwa hitilafu chini ya 1%."
+      },
+      {
+        "q": "Al-Biruni aliandika 'Kitab al-Hind' baada ya kusoma utamaduni na sayansi za eneo gani?",
+        "options": [
+          "China",
+          "India",
+          "Ugiriki"
+        ],
+        "correct": 1,
+        "explanation": "Alisafiri sana India, akijifunza Kisanskriti na kuandika uchambuzi wa kina wa kitamaduni."
+      },
+      {
+        "q": "Ni kifaa gani cha astronomia Al-Biruni alikiongeza kwa ajili ya uongozaji?",
+        "options": [
+          "Astrolabe",
+          "Kompasi",
+          "Darubini"
+        ],
+        "correct": 0,
+        "explanation": "Al-Biruni aliunda ramani za astronomia na kuboresha astrolabe kuhesabu nafasi za jua na mwelekeo wa swala."
+      }
+    ]
+  },
+  {
+    "id": "al_ghazali",
+    "title": "Al-Ghazali - Falsafa ya Kiislamu",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_29_scholar_al_ghazali-hXQACXYZ4iArCEGuBdVNNd.webp?updatedAt=1781117901160",
+    "emoji": "💡",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Ghazali alikuwa mwalimu mwenye hekima aliyesomea jinsi watu wanavyofikiri. Alifundisha kuwa kuwa na moyo safi na mwema ni muhimu kiasi cha kuwa mjanja sana, na aliwasaidia watu kupata amani ya moyo!",
+      "explorer": "Al-Ghazali (1058-1111 BK) alikuwa mwanateolojia na mwanafalsafa mwenye ushawishi mkubwa zaidi wa Kiislamu. Anayejulikana kama 'Hujjat al-Islam' (Uthibitisho wa Uislamu), alifundisha katika Nizamiyya, chuo kikuu kikubwa zaidi cha wakati wake. Aliandika vitabu vizuri vilivyounganisha masomo ya kiakili na tafakuri ya kiroho, akiwasaidia watu kusawazisha sayansi ya busara na maadili ya kiroho chanya.",
+      "thinker": "Abu Hamid al-Ghazali (1058-1111 BK) aliathiri kwa kina falsafa ya Kiislamu, teolojia, na Sufism. Katika kazi yake kuu, 'Kutokuwa na Maana kwa Wafalsafa' ('Tahafut al-Falasifah'), alijadili metafizikia ya Kigiriki. Hata hivyo, katika kazi yake kuu 'Ihya Ulum al-Din' (Kufufua Sayansi za Dini), aliunganisha fiqhi, teolojia ya kiakili, na umistiki wa kiroho, akiweka ujenzi wa tabia na maadili kuwa moyo wa masomo ya kisayansi na ya kibinafsi."
+    },
+    "funFact": "Je, ulijua? Jina la Al-Ghazali ni 'Hujjat al-Islam' (Uthibitisho wa Uislamu) kwa sababu ya kina cha elimu yake. Alikuwa na imani kuwa lengo la mwisho la kujifunza ni kujenga tabia njema na amani ya ndani!",
+    "quiz": [
+      {
+        "q": "Al-Ghazali anajulikana kwa jina gani?",
+        "options": [
+          "Baba wa Fizikia",
+          "Hujjat al-Islam (Uthibitisho wa Uislamu)",
+          "Mwalimu wa Mashariki na Magharibi"
+        ],
+        "correct": 1,
+        "explanation": "Anajulikana kama 'Hujjat al-Islam' kwa sababu ya ujuzi wake katika falsafa ya teolojia."
+      },
+      {
+        "q": "Al-Ghazali alielezea nini kama kufufua sayansi za dini katika kazi yake kuu?",
+        "options": [
+          "Maadili, kiroho, na elimu ya moyo",
+          "Kujenga meli haraka zaidi",
+          "Kujifunza kalkulasi"
+        ],
+        "correct": 0,
+        "explanation": "'Ihya Ulum al-Din' inazingatia kufufua imani, tabia njema, na ufahamu wa kiroho."
+      },
+      {
+        "q": "Kulingana na Al-Ghazali, lengo la kupata elimu ni:",
+        "options": [
+          "Kushinda mjadala",
+          "Kujenga tabia njema na kukaribia Allah",
+          "Kujivunia nayo"
+        ],
+        "correct": 1,
+        "explanation": "Alifundisha kuwa elimu ya kiakili ni bure isipokuwa ikifuatana na unyenyekevu wa kiroho na viwango vya juu vya maadili."
+      }
+    ]
+  },
+  {
+    "id": "fatima_al_fihri",
+    "title": "Fatima al-Fihri - Chuo Kikuu cha Kwanza",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_30_scholar_fatima_al_fihri-oUUmqToz9ELRTCtWCXgCQn.webp?updatedAt=1781117901536",
+    "emoji": "🎓",
+    "category": "stories_history",
+    "content": {
+      "starter": "Fatima al-Fihri alikuwa mwanamke Muislamu tajiri na mkarimu aliye hamia Morocco. Alipenda kusoma, sayansi, na elimu sana hivi kwamba alitumia urithi wake wote kujenga Chuo Kikuu cha al-Qarawiyyin, chuo kikuu cha zamani zaidi duniani!",
+      "explorer": "Fatima al-Fihri (800-880 BK) alikuwa mwalimu na mtoaji wa hisani mwenye mvuto. Mwaka 859 BK, alianzisha Chuo Kikuu na Msikiti wa al-Qarawiyyin huko Fez, Morocco. UNESCO na Guinness World Records vinakitambua kama taasisi ya elimu ya zamani zaidi inayoendelea kufanya kazi na kutoa shahada duniani.",
+      "thinker": "Fatima al-Fihri (800-880 BK) ni mpionia katika elimu ya juu ya kimataifa. Baada ya kuhamia Fez na kurithi mali kubwa, aliahidi kutumia mali yake katika huduma ya jamii yake. Alisimamia usanifu changamano na ujenzi wa msikiti na chuo kikuu cha Al-Qarawiyyin, akifunga kila siku wakati wa ujenzi wake wa miaka mingi. Chuo kikuu kilikuwa kituo cha elimu ya dunia, kikiwa na wanachuoni Wakristo, Wayahudi, na Waislamu kama Papa Sylvester II."
+    },
+    "funFact": "Je, ulijua? Fatima al-Fihri alijenga Chuo Kikuu cha al-Qarawiyyin mwaka 859 BK. Kimethibitishwa rasmi na UNESCO kuwa chuo kikuu cha zamani zaidi kinachoendelea kufanya kazi katika historia ya binadamu!",
+    "quiz": [
+      {
+        "q": "Katika mji na nchi gani Fatima al-Fihri alianzisha chuo kikuu cha zamani zaidi?",
+        "options": [
+          "Cairo, Misri",
+          "Fez, Morocco",
+          "Baghdad, Iraki"
+        ],
+        "correct": 1,
+        "explanation": "Aalianzisha Chuo Kikuu cha al-Qarawiyyin katika mji wa Fez, Morocco."
+      },
+      {
+        "q": "Fatima alifanya nini wakati wa ujenzi wa Al-Qarawiyyin?",
+        "options": [
+          "Alitumia likizo ndefu",
+          "Alifunga kila siku hadi kukamilika kwake",
+          "Alikwenda kwenye safari ya meli"
+        ],
+        "correct": 1,
+        "explanation": "Kama kitendo cha ibada, Fatima al-Fihri aliahidi kufunga kila siku wakati wa miaka aliyoitumia kujenga."
+      },
+      {
+        "q": "Kulingana na UNESCO, Chuo Kikuu cha al-Qarawiyyin kina sifa gani?",
+        "options": [
+          "Maktaba ya zamani zaidi tu",
+          "Chuo kikuu cha zamani zaidi kinachoendelea kufanya kazi na kutoa shahada duniani",
+          "Shule ya kwanza ya tiba Ulaya"
+        ],
+        "correct": 1,
+        "explanation": "Al-Qarawiyyin imekuwa ikifanya kazi na kutoa shahada kikamilifu tangu 859 BK."
+      }
+    ]
+  },
+  {
+    "id": "ibn_khaldun",
+    "title": "Ibn Khaldun - Baba wa Sosholojia",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_31_scholar_ibn_khaldun-22Tqw9TsmYYVf9NDTfPHYp.webp?updatedAt=1781117901557",
+    "emoji": "📜",
+    "category": "stories_history",
+    "content": {
+      "starter": "Ibn Khaldun alikuwa mtaalamu wa hadithi na mwanahistoria. Alikuwa mwanachuoni wa kwanza kugundua kuwa kusoma *makundi ya watu* na jinsi jamii zinavyokua ni sayansi maalum, ambayo sasa tunaiita sosholojia!",
+      "explorer": "Ibn Khaldun (1332-1406 BK) alikuwa mwanahistoria, mtaalamu wa sosholojia, na mwanafalsafa mashuhuri wa Kiarabu. Katika kitabu chake cha ajabu, 'Al-Muqaddimah' (Utangulizi), alianzisha 'Asabiyyah' (mshikamano wa kijamii), akipata njia milki kubwa zinavyoibuka, kustawi, kuzeeka, na mwishowe kuzimia.",
+      "thinker": "Ibn Khaldun (1332-1406 BK) anachukuliwa sana kuwa baba wa kuanzisha sosholojia, uchumi, historia, na demografia. Kitabu chake kikuu 'Al-Muqaddimah' kilifanyisha falsafa ya historia. Alianzisha dhana ya 'Asabiyyah' - mshikamano wa kijamii au mshikamano wa kundi - kueleza mizunguko ya kihistoria, akipambua jinsi tamaduni za wanyamapori zinaanzisha ustaarabu ambao haukui, huoze baada ya vizazi vitatu, na kuwaachia mapinduzi ya kijamii wenye nguvu mapya."
+    },
+    "funFact": "Je, ulijua? Ibn Khaldun aliandika kitabu chake chote cha kubadilisha dunia 'Al-Muqaddimah' (kinachowakilisha sosholojia na uchumi wa mapema) miaka kabla ya wanachuoni wa Magharibi kuanzisha sosholojia kama fani!",
+    "quiz": [
+      {
+        "q": "Ni jina gani la kitabu cha Ibn Khaldun cha kihistoria kinachojulikana duniani?",
+        "options": [
+          "Al-Muqaddimah (Utangulizi)",
+          "Kitabu cha Historia",
+          "Enzi ya Dhahabu"
+        ],
+        "correct": 0,
+        "explanation": "Aliandika 'Al-Muqaddimah', ambacho kilichambua ukuaji wa kisiasa wa jamii."
+      },
+      {
+        "q": "Ibn Khaldun alipionisha fani gani kuu ya kisayansi karne kabla ya wanachuoni wa Magharibi?",
+        "options": [
+          "Sosholojia na Historiografia",
+          "Fizikia ya Nyuklia",
+          "Biolojia ya Baharini"
+        ],
+        "correct": 0,
+        "explanation": "Uchambuzi wake wa kimfumo wa mifumo ya kijamii na mizunguko ya kihistoria unamfanya kuwa baba wa sosholojia."
+      },
+      {
+        "q": "'Asabiyyah', dhana kuu iliyopendekezwa na Ibn Khaldun, ni nini?",
+        "options": [
+          "Ujuzi wa kusafiri",
+          "Mshikamano na mshikamano wa kijamii",
+          "Hesabu za astronomia"
+        ],
+        "correct": 1,
+        "explanation": "'Asabiyyah' ni kifungo cha jamii au mshikamano wa kijamii ambao huwezesha jamii kujenga mataifa thabiti."
       }
     ]
   }

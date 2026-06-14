@@ -1,1306 +1,1621 @@
 [
   {
     "id": "shahada",
-    "title": "Shahada - Declaration of Faith",
+    "title": "Syahadat - Pernyataan Iman",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☪️",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "The Shahada says: \"There is no god but Allah, and Muhammad is His messenger.\" This is the most important sentence in Islam! When we say it, we tell everyone we believe in Allah and love His Prophet. It makes our heart light and happy!",
-      "explorer": "The Shahada is the first pillar of Islam. It has two parts: first, believing that only Allah is God — no one else deserves worship. Second, believing that Prophet Muhammad ﷺ is Allah's final messenger. Saying the Shahada with sincerity makes you Muslim. It's not just words — it's a promise from your heart to follow Allah's guidance.",
-      "thinker": "The Shahada is far more than a declaration — it's a complete worldview. The first part, \"La ilaha illallah,\" negates all false gods and affirms monotheism (Tawheed). The second part, \"Muhammadun rasulullah,\" establishes the prophetic authority of Muhammad ﷺ. Together, they form the foundation upon which all other Islamic practices are built. Understanding the Shahada means understanding the essence of submission to Allah."
+      "starter": "Syahadat mengucapkan: \"Tidak ada tuhan selain Allah, dan Muhammad adalah utusan-Nya.\" Ini adalah kalimat paling penting dalam Islam! Ketika kita mengucapkannya, kita memberitahu semua orang bahwa kita beriman kepada Allah dan mencintai Rasul-Nya. Syahadat membuat hati kita ringan dan bahagia!",
+      "explorer": "Syahadat adalah rukun Islam pertama. Syahadat memiliki dua bagian: pertama, percaya bahwa hanya Allah yang merupakan Tuhan — tidak ada yang lain berhak disembah. Kedua, percaya bahwa Nabi Muhammad ﷺ adalah utusan terakhir Allah. Mengucapkan Syahadat dengan tulus menjadikan seseorang Muslim. Syahadat bukan sekadar kata-kata — ini adalah janji dari hati untuk mengikuti petunjuk Allah.",
+      "thinker": "Syahadat jauh melampaui sekadar pernyataan — ia merupakan pandangan hidup yang menyeluruh. Bagian pertama, \"La ilaha illallah,\" menafikan semua tuhan palsu dan menegaskan tauhid (monoteisme). Bagian kedua, \"Muhammadun rasulullah,\" menetapkan otoritas kenabian Muhammad ﷺ. Keduanya membentuk fondasi atas segala amalan Islam lainnya. Memahami Syahadat berarti memahami inti ketundukan kepada Allah."
     },
-    "funFact": "Did you know? The Shahada is whispered into a newborn baby's ear and is also the last words many Muslims hope to say before they pass away!",
+    "funFact": "Tahukah kamu? Syahadat dibisikkan ke telinga bayi yang baru lahir dan juga menjadi kata-kata terakhir yang diharapkan diucapkan oleh banyak Muslim sebelum mereka wafat!",
     "quiz": [
       {
-        "q": "What does Shahada mean?",
+        "q": "Apa arti Syahadat?",
         "options": [
-          "Declaration of Faith",
-          "Daily Prayer",
-          "Charity Giving"
+          "Pernyataan Iman",
+          "Shalat Harian",
+          "Memberi Sedekah"
         ],
         "correct": 0,
-        "explanation": "Shahada means 'Declaration of Faith' — it's the statement that makes someone Muslim."
+        "explanation": "Syahadat berarti 'Pernyataan Iman' — ia adalah kalimat yang menjadikan seseorang Muslim."
       },
       {
-        "q": "How many parts does the Shahada have?",
+        "q": "Berapa bagian dalam Syahadat?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "Satu bagian",
+          "Dua bagian",
+          "Tiga bagian"
         ],
         "correct": 1,
-        "explanation": "The Shahada has two parts: believing in one God and believing Muhammad is His messenger."
+        "explanation": "Syahadat memiliki dua bagian: percaya kepada satu Tuhan dan percaya bahwa Muhammad adalah utusan-Nya."
       },
       {
-        "q": "Who is the last prophet mentioned in the Shahada?",
+        "q": "Siapa nabi terakhir yang disebutkan dalam Syahadat?",
         "options": [
-          "Prophet Musa",
-          "Prophet Isa",
-          "Prophet Muhammad"
+          "Nabi Musa",
+          "Nabi Isa",
+          "Nabi Muhammad"
         ],
         "correct": 2,
-        "explanation": "The Shahada mentions Prophet Muhammad ﷺ as Allah's final messenger."
+        "explanation": "Syahadat menyebutkan Nabi Muhammad ﷺ sebagai utusan terakhir Allah."
       }
     ]
   },
   {
     "id": "salah",
-    "title": "Salah - Prayer",
+    "title": "Shalat - ibadah Harian",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🤲",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Salah is talking to Allah! Five times a day, we stop what we're doing, wash our hands and face (that's called wudu), face Mecca, and pray. It's like a special phone call to Allah. He loves when we talk to Him!",
-      "explorer": "Salah is the second pillar of Islam. Muslims pray five times a day: Fajr (dawn), Dhuhr (noon), Asr (afternoon), Maghrib (sunset), and Isha (night). Each prayer involves standing, bowing, and prostrating while reciting verses from the Quran. Salah keeps us connected to Allah throughout the day and teaches us discipline and gratitude.",
-      "thinker": "The five daily prayers (Salawat) are a gift from Allah, prescribed during the Night Journey (Isra and Mi'raj). Each prayer corresponds to a spiritual state: Fajr purifies the soul before the day begins, Dhuhr provides a midday recharge, Asr encourages reflection, Maghrib marks gratitude for the day's blessings, and Isha offers peace before sleep. The physical movements — standing (qiyam), bowing (ruku), and prostration (sujud) — are acts of humility that remind us of our relationship with our Creator."
+      "starter": "Shalat adalah berbicara dengan Allah! Lima kali sehari, kita berhenti dari aktivitas, mencuci tangan dan muka (itu disebut wudu), menghadap Mekah, dan shalat. Ibarat telepon khusus ke Allah. Dia sangat senang ketika kita berbicara dengan-Nya!",
+      "explorer": "Shalat adalah rukun Islam kedua. Muslim shalat lima waktu sehari: Subuh (fajar), Dzuhur (tengah hari), Ashar (sore), Maghrib (matahari terbenam), dan Isya (malam). Setiap shalat meliputi berdiri, ruku, dan sujud sambil membaca ayat-ayat Al-Quran. Shalat menjaga kita tetap terhubung dengan Allah sepanjang hari dan mengajarkan kedisiplinan serta rasa syukur.",
+      "thinker": "Shalat lima waktu (Salawat) adalah hadiah dari Allah, yang diwajibkan pada malam Isra dan Mi'raj. Setiap shalat sesuai dengan keadaan spiritual: Subuh menyucikan jiwa sebelum hari dimulai, Dzuhur memberikan pengisian di tengah hari, Ashar mendorong refleksi, Maghrib menandai rasa syukur atas berkah hari, dan Isya memberikan ketenangan sebelum tidur. Gerakan fisik — berdiri (qiyam), ruku, dan sujud — adalah tindakan kerendahan hati yang mengingatkan kita akan hubungan dengan Sang Pencipta."
     },
-    "funFact": "Did you know? Muslims face the Kaaba in Mecca when they pray, no matter where they are in the world! Even from space, astronauts pray toward Mecca!",
+    "funFact": "Tahukah kamu? Muslim menghadap Kaabah di Mekah ketika shalat, di manapun mereka berada di dunia! Bahkan dari luar angkasa, astronaut shalat menghadap Mekah!",
     "quiz": [
       {
-        "q": "How many times a day do Muslims pray?",
+        "q": "Berapa kali sehari Muslim shalat?",
         "options": [
-          "Three times",
-          "Five times",
-          "Seven times"
+          "Tiga kali",
+          "Lima kali",
+          "Tujuh kali"
         ],
         "correct": 1,
-        "explanation": "Muslims pray five times a day: Fajr, Dhuhr, Asr, Maghrib, and Isha."
+        "explanation": "Muslim shalat lima waktu sehari: Subuh, Dzuhur, Ashar, Maghrib, dan Isya."
       },
       {
-        "q": "What do we do before praying?",
+        "q": "Apa yang kita lakukan sebelum shalat?",
         "options": [
-          "Eat food",
-          "Perform wudu (ablution)",
-          "Read a book"
+          "Makan makanan",
+          "Berwudu (bersuci)",
+          "Membaca buku"
         ],
         "clean": 1,
-        "explanation": "We perform wudu (ablution) to clean ourselves before praying."
+        "explanation": "Kita berwudu (bersuci) untuk membersihkan diri sebelum shalat."
       },
       {
-        "q": "Which direction do Muslims face when praying?",
+        "q": "Ke arah mana Muslim menghadap saat shalat?",
         "options": [
-          "North",
-          "The Kaaba in Mecca",
-          "East"
+          "Utara",
+          "Kaabah di Mekah",
+          "Timur"
         ],
         "correct": 1,
-        "explanation": "Muslims face the Kaaba in Mecca, which is called the Qibla."
+        "explanation": "Muslim menghadap Kaabah di Mekah, yang disebut Kiblat."
       }
     ]
   },
   {
     "id": "zakat",
-    "title": "Zakat - Charity",
+    "title": "Zakat - Sedekah Wajib",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_45_zakat_overview-iB69C239XxvYzdfsgqWaNR.webp?updatedAt=1781117902141",
     "emoji": "💰",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Zakat means sharing what we have with others! If we have extra money, we give a little bit to people who need it. It's like Allah is asking us to be kind and share. When we give, our hearts feel happy!",
-      "explorer": "Zakat is the third pillar of Islam. It means giving 2.5% of your savings each year to those in need. It's not optional — it's an obligation for Muslims who have wealth above a certain amount. Zakat purifies our money and reminds us that everything belongs to Allah. It helps the poor, pays off debts, and strengthens the community.",
-      "thinker": "Zakat is both a social and spiritual obligation. The word 'zakat' means 'purification' and 'growth' — by giving a portion of our wealth, we purify the remainder and grow spiritually. Allah says in the Quran that those who pay Zakat are helping to purify themselves (At-Tawbah 9:103). The fixed rate of 2.5% (one-fortieth) applies to savings held for one lunar year above the nisab threshold. This systematic approach to wealth redistribution was revolutionary and remains one of Islam's most powerful social justice mechanisms."
+      "starter": "Zakat berarti berbagi apa yang kita miliki dengan orang lain! Jika kita punya uang lebih, kita memberikan sedikit kepada orang yang membutuhkan. Ibarat Allah meminta kita untuk berbaik hati dan berbagi. Ketika kita memberi, hati kita merasa senang!",
+      "explorer": "Zakat adalah rukun Islam ketiga. Zakat berarti memberikan 2,5% dari tabungan setiap tahun kepada mereka yang membutuhkan. Zakat bukan pilihan — ia adalah kewajiban bagi Muslim yang memiliki harta di atas jumlah tertentu. Zakat menyucikan harta kita dan mengingatkan bahwa segalanya milik Allah. Zakat membantu kaum miskin, melunasi hutang, dan memperkuat komunitas.",
+      "thinker": "Zakat adalah kewajiban sosial sekaligus spiritual. Kata 'zakat' berarti 'pensucian' dan 'pertumbuhan' — dengan memberikan sebagian harta kita, kita menyucikan sisanya dan tumbuh secara spiritual. Allah berfirman dalam Al-Quran bahwa orang yang membayar zakat membantu menyucikan diri mereka (At-Taubah 9:103). Tarif tetap 2,5% (seperempat puluh) berlaku untuk tabungan yang disimpan selama satu tahun Hijriah di atas batas nisab. Pendekatan sistematis terhadap redistribusi kekayaan ini sangat revolusioner dan tetap menjadi salah satu mekanisme keadilan sosial paling kuat dalam Islam."
     },
-    "funFact": "Did you know? The word 'Zakat' means 'purification' — when you give Zakat, your remaining money becomes blessed and pure!",
+    "funFact": "Tahukah kamu? Kata 'Zakat' berarti 'pensucian' — ketika kamu membayar zakat, sisa hartamu menjadi diberkahi dan suci!",
     "quiz": [
       {
-        "q": "What percentage of savings is given as Zakat?",
+        "q": "Berapa persentase tabungan yang diberikan sebagai zakat?",
         "options": [
           "1%",
-          "2.5%",
+          "2,5%",
           "10%"
         ],
         "correct": 1,
-        "explanation": "Muslims give 2.5% (one-fortieth) of their savings as Zakat each year."
+        "explanation": "Muslim memberikan 2,5% (seperempat puluh) dari tabungan mereka sebagai zakat setiap tahun."
       },
       {
-        "q": "What does the word 'Zakat' mean?",
+        "q": "Apa arti kata 'Zakat'?",
         "options": [
-          "Charity",
-          "Purification",
-          "Prayer"
+          "Sedekah",
+          "Pensucian",
+          "Shalat"
         ],
         "correct": 1,
-        "explanation": "Zakat means 'purification' — it purifies our wealth and our hearts."
+        "explanation": "Zakat berarti 'pensucian' — ia menyucikan harta dan hati kita."
       },
       {
-        "q": "Who receives Zakat?",
+        "q": "Siapa yang menerima zakat?",
         "options": [
-          "Only family",
-          "People in need",
-          "Only the rich"
+          "Hanya keluarga",
+          "Orang-orang yang membutuhkan",
+          "Hanya orang kaya"
         ],
         "correct": 1,
-        "explanation": "Zakat is given to people in need, including the poor, debtors, and travelers."
+        "explanation": "Zakat diberikan kepada orang yang membutuhkan, termasuk fakir miskin, orang yang berutang, dan ibnu sabil."
       }
     ]
   },
   {
     "id": "sawm",
-    "title": "Sawm - Fasting in Ramadan",
+    "title": "Puasa - Berpuasa di Bulan Ramadhan",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_40_ramadan_fasting-SeQhGeRR5buiYbtryMhUKA.webp?updatedAt=1781117899738",
     "emoji": "🌙",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "During Ramadan, we don't eat or drink from sunrise to sunset. That's called fasting! It teaches us to be patient and think about people who don't have food. At night, we break our fast with family and pray together. It's very special!",
-      "explorer": "Sawm means fasting during the month of Ramadan, the fourth pillar of Islam. From dawn to sunset, Muslims abstain from food, drink, and other physical needs. But fasting is not just about staying hungry — it's about building patience, empathy for the poor, and getting closer to Allah. The fast is broken at sunset with a meal called Iftar, often shared with family and community.",
-      "thinker": "Sawm during Ramadan is a comprehensive act of worship that trains the body, mind, and soul. The Quran was first revealed during Ramadan (Surah Al-Baqarah 2:185), making this month especially sacred. Fasting develops taqwa (God-consciousness) by creating a physical reminder of Allah's presence. Beyond abstaining from food and drink, Muslims are encouraged to avoid negative speech, anger, and gossip. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a rhythm of gratitude and community that transforms the entire month."
+      "starter": "Selama bulan Ramadhan, kita tidak makan atau minum dari terbit hingga terbenamnya matahari. Itulah yang disebut puasa! Puasa mengajarkan kita untuk bersabar dan memikirkan orang-orang yang tidak punya makanan. Pada malam hari, kita berbuka puasa bersama keluarga dan shalat bersama. Sangat istimewa!",
+      "explorer": "Puasa berarti berpuasa selama bulan Ramadhan, rukun Islam keempat. Dari terbit fajar hingga matahari terbenam, Muslim menahan diri dari makan, minum, dan kebutuhan fisik lainnya. Namun puasa bukan hanya tentang menahan lapar — ia tentang membangun kesabaran, empati terhadap orang miskin, dan mendekatkan diri kepada Allah. Puasa dibuka saat matahari terbenam dengan makanan yang disebut berbuka, sering dibagikan bersama keluarga dan komunitas.",
+      "thinker": "Puasa di bulan Ramadhan adalah ibadah yang menyeluruh yang melatih tubuh, pikiran, dan jiwa. Al-Quran pertama kali diturunkan selama bulan Ramadhan (Surah Al-Baqarah 2:185), menjadikan bulan ini sangat suci. Puasa mengembangkan takwa (kesadaran akan Allah) dengan menciptakan pengingat fisik atas kehadiran Allah. Selain menahan diri dari makan dan minum, Muslim dianjurkan untuk menghindari perkataan negatif, kemarahan, dan ghibah. Makanan sebelum fajar (sahur) dan makanan berbuka menciptakan ritme rasa syukur dan kebersamaan yang mentransformasi seluruh bulan."
     },
-    "funFact": "Did you know? Muslims break their fast with dates, just like Prophet Muhammad ﷺ used to! The word 'Iftar' means 'breaking the fast'!",
+    "funFact": "Tahukah kamu? Muslim berbuka puasa dengan kurma, sama seperti yang dilakukan Nabi Muhammad ﷺ! Kata 'Iftar' berarti 'memecah puasa'!",
     "quiz": [
       {
-        "q": "During which month do Muslims fast?",
+        "q": "Di bulan apa Muslim berpuasa?",
         "options": [
           "Muharram",
-          "Ramadan",
-          "Shawwal"
+          "Ramadhan",
+          "Syawal"
         ],
         "correct": 1,
-        "explanation": "Muslims fast during the holy month of Ramadan."
+        "explanation": "Muslim berpuasa selama bulan suci Ramadhan."
       },
       {
-        "q": "What is the meal called when we break our fast?",
+        "q": "Apa nama makanan saat kita berbuka puasa?",
         "options": [
-          "Suhoor",
-          "Iftar",
-          "Dhuhr"
+          "Sahur",
+          "Berbuka puasa (Iftar)",
+          "Dzuhur"
         ],
         "correct": 1,
-        "explanation": "The meal at sunset to break the fast is called Iftar."
+        "explanation": "Makanan saat matahari terbenam untuk berbuka puasa disebut Iftar."
       },
       {
-        "q": "What food did Prophet Muhammad ﷺ use to break his fast?",
+        "q": "Makanan apa yang Nabi Muhammad ﷺ gunakan untuk berbuka puasa?",
         "options": [
-          "Bread",
-          "Dates",
-          "Rice"
+          "Roti",
+          "Kurma",
+          "Nasi"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ would break his fast with dates and water."
+        "explanation": "Nabi Muhammad ﷺ berbuka puasa dengan kurma dan air."
       }
     ]
   },
   {
     "id": "hajj",
-    "title": "Hajj - Pilgrimage to Mecca",
+    "title": "Haji - Ziarah ke Mekah",
     "image": "https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446",
     "emoji": "🕋",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Hajj is a big trip to Mecca! Every Muslim who is able goes there to pray around the Kaaba — Allah's house. Millions of people go together, wearing simple white clothes. Everyone is equal there — rich or poor, it doesn't matter!",
-      "explorer": "Hajj is the fifth pillar of Islam — a pilgrimage to Mecca that every Muslim must make at least once in their lifetime if they are able. It happens during the Islamic month of Dhul Hijjah. Pilgrims wear simple white clothes called Ihram, circling the Kaaba, walking between hills, and standing in prayer at Arafat. Hajj teaches equality, patience, and devotion to Allah.",
-      "thinker": "Hajj is the world's largest annual gathering and represents the ultimate expression of Islamic unity. Following the footsteps of Prophet Ibrahim ﷺ and his family, pilgrims perform rituals that symbolize sacrifice, purification, and submission to Allah. The wearing of Ihram strips away all markers of wealth and status — everyone stands equal before Allah. The Prophet ﷺ said: 'Hajj is an obligation once in a lifetime for whoever has the ability.' It is a profound spiritual journey that cleanses sins and renews one's connection with the Creator."
+      "starter": "Haji adalah perjalanan besar ke Mekah! Setiap Muslim yang mampu pergi ke sana untuk shalat mengelilingi Kaabah — rumah Allah. Jutaan orang pergi bersama, mengenakan pakaian putih sederhana. Semua orang setara di sana — kaya atau miskin, tidak masalah!",
+      "explorer": "Haji adalah rukun Islam kelima — ziarah ke Mekah yang harus dilakukan setiap Muslim sekali seumur hidup jika mampu. Haji dilaksanakan pada bulan Dzulhijjah. Jamaah haji mengenakan pakaian putih sederhana yang disebut ihram, mengelilingi Kaabah, berjalan antara bukit-bukit, dan berdiri berdoa di Arafah. Haji mengajarkan kesetaraan, kesabaran, dan pengabdian kepada Allah.",
+      "thinker": "Haji adalah perkumpulan tahunan terbesar di dunia dan merupakan ekspresi tertinggi persatuan Islam. Mengikuti jejak Nabi Ibrahim ﷺ dan keluarganya, jamaah haji melaksanakan ritual yang melambangkan pengorbanan, penyucian, dan ketundukan kepada Allah. Mengenakan ihram menghilangkan semua tanda kekayaan dan status — semua orang berdiri setara di hadapan Allah. Nabi ﷺ bersabda: 'Haji adalah kewajiban sekali seumur hidup bagi siapa yang mampu.' Ini adalah perjalanan spiritual yang mendalam yang menghapus dosa dan memperbarui hubungan seseorang dengan Sang Pencipta."
     },
-    "funFact": "Did you know? Over 2 million people perform Hajj every year! When pilgrims throw stones at the pillars (Jamarat), they're following the example of Prophet Ibrahim!",
+    "funFact": "Tahukah kamu? Lebih dari 2 juta orang melaksanakan Haji setiap tahun! Ketika jamaah melempar batu ke tiang (Jamarat), mereka mengikuti teladan Nabi Ibrahim!",
     "quiz": [
       {
-        "q": "How often must a Muslim perform Hajj?",
+        "q": "Seberapa sering seorang Muslim harus melaksanakan Haji?",
         "options": [
-          "Every year",
-          "Once in a lifetime",
-          "Every 5 years"
+          "Setiap tahun",
+          "Sekali seumur hidup",
+          "Setiap 5 tahun"
         ],
         "correct": 1,
-        "explanation": "Every Muslim who is able must perform Hajj at least once in their lifetime."
+        "explanation": "Setiap Muslim yang mampu harus melaksanakan Haji sekurang-kurangnya sekali seumur hidup."
       },
       {
-        "q": "What do pilgrims wear during Hajj?",
+        "q": "Apa yang dikenakan jamaah haji?",
         "options": [
-          "Regular clothes",
-          "Simple white clothes called Ihram",
-          "Black clothes"
+          "Pakaian biasa",
+          "Pakaian putih sederhana yang disebut ihram",
+          "Pakaian hitam"
         ],
         "correct": 1,
-        "explanation": "Pilgrims wear simple white clothes called Ihram to show everyone is equal."
+        "explanation": "Jamaah haji mengenakan pakaian putih sederhana yang disebut ihram untuk menunjukkan semua orang setara."
       },
       {
-        "q": "Which prophet's example do pilgrims follow at Hajj?",
+        "q": "Teladan nabi mana yang diikuti jamaah haji?",
         "options": [
-          "Prophet Musa",
-          "Prophet Ibrahim",
-          "Prophet Isa"
+          "Nabi Musa",
+          "Nabi Ibrahim",
+          "Nabi Isa"
         ],
         "correct": 1,
-        "explanation": "Pilgrims follow the example of Prophet Ibrahim ﷺ and his family."
+        "explanation": "Jamaah haji mengikuti teladan Nabi Ibrahim ﷺ dan keluarganya."
       }
     ]
   },
   {
     "id": "tawheed",
-    "title": "Tawheed - Oneness of God",
+    "title": "Tauhid - Ke-Esa-an Allah",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☝️",
     "category": "core_beliefs",
     "content": {
-      "starter": "Tawheed means there is ONLY ONE God — Allah! He created everything: you, me, the stars, the animals, everything! We only pray to Allah, not to anyone else. Allah is the only one who deserves our love and worship!",
-      "explorer": "Tawheed is the most important belief in Islam — that there is only one God, Allah. He has no partners, no family, and no equals. He is the Creator of everything and the only one worthy of worship. Understanding Tawheed means we don't pray to statues, people, or anything else — only to Allah. This belief is the foundation of everything in Islam.",
-      "thinker": "Tawheed is the cornerstone of Islamic theology, encompassing three dimensions: Tawheed ar-Rububiyyah (Oneness of Lordship), Tawheed al-Uluhiyyah (Oneness of Worship), and Tawheed al-Asma wa'l-Sifat (Oneness of Names and Attributes). The first recognizes Allah as the sole Creator and Sustainer. The second directs all forms of worship exclusively to Him. The third affirms that Allah's attributes are unique and incomparable. The Quran states: 'Say, He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is begotten. And there is none comparable to Him' (Surah Al-Ikhlas 112:1-4)."
+      "starter": "Tauhid berarti ada SATU-SATUNYA Tuhan — Allah! Dia menciptakan segalanya: kamu, aku, bintang-bintang, hewan, segalanya! Kita hanya beribadah kepada Allah, bukan kepada siapa pun. Allah satu-satunya yang berhak atas cinta dan ibadah kita!",
+      "explorer": "Tauhid adalah keyakinan terpenting dalam Islam — bahwa hanya ada satu Tuhan, Allah. Dia tidak punya sekutu, tidak punya keluarga, dan tidak ada yang setara dengan-Nya. Dia adalah Pencipta segalanya dan satu-satunya yang berhak disembah. Memahami Tauhid berarti kita tidak beribadah kepada patung, manusia, atau apa pun — hanya kepada Allah. Keyakinan ini adalah fondasi dari segala sesuatu dalam Islam.",
+      "thinker": "Tauhid adalah landasan teologi Islam, mencakup tiga dimensi: Tauhid ar-Rububiyyah (Ke-Esa-an Rububiyyah), Tauhid al-Uluhiyyah (Ke-Esa-an Uluhiyyah), dan Tauhid al-Asma wa's-Sifat (Ke-Esa-an Nama dan Sifat). Yang pertama mengakui Allah sebagai satu-satunya Pencipta dan Pemelihara. Yang kedua mengarahkan semua bentuk ibadah hanya kepada-Nya. Yang ketiga menegaskan bahwa sifat-sifat Allah bersifat unik dan tak bandingkan. Al-Quran menyatakan: 'Katakanlah, Dialah Allah, Yang Maha Esa. Allah tempat bergantung. Dia tidak beranak dan tidak pula diperanakkan. Dan tidak ada yang setara dengan-Nya' (Surah Al-Ikhlas 112:1-4)."
     },
-    "funFact": "Did you know? The word 'Islam' comes from the root 'salaam' which means peace, and it means submission to Allah — the One God!",
+    "funFact": "Tahukah kamu? Kata 'Islam' berasal dari akar kata 'salaam' yang berarti damai, dan berarti tunduk kepada Allah — Tuhan Yang Esa!",
     "quiz": [
       {
-        "q": "What does Tawheed mean?",
+        "q": "Apa arti Tauhid?",
         "options": [
-          "Many gods",
-          "Oneness of God",
-          "Prayer"
+          "Banyak tuhan",
+          "Ke-Esa-an Allah",
+          "Shalat"
         ],
         "correct": 1,
-        "explanation": "Tawheed means the Oneness of God — believing there is only one God, Allah."
+        "explanation": "Tauhid berarti Ke-Esa-an Allah — percaya bahwa hanya ada satu Tuhan, Allah."
       },
       {
-        "q": "How many gods does Islam teach us about?",
+        "q": "Berapa tuhan yang diajarkan dalam Islam?",
         "options": [
-          "Many gods",
-          "Only one God",
-          "Two gods"
+          "Banyak tuhan",
+          "Hanya satu Tuhan",
+          "Dua tuhan"
         ],
         "correct": 1,
-        "explanation": "Islam teaches us that there is only one God — Allah."
+        "explanation": "Islam mengajarkan bahwa hanya ada satu Tuhan — Allah."
       },
       {
-        "q": "Which surah of the Quran talks about Tawheed?",
+        "q": "Surah Al-Quran mana yang membahas Tauhid?",
         "options": [
-          "Al-Fatiha",
+          "Al-Fatihah",
           "Al-Ikhlas",
           "Al-Baqarah"
         ],
         "correct": 1,
-        "explanation": "Surah Al-Ikhlas (112) talks about the Oneness of God."
+        "explanation": "Surah Al-Ikhlas (112) membahas Ke-Esa-an Allah."
       }
     ]
   },
   {
     "id": "angels",
-    "title": "Angels",
+    "title": "Malaikat",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "👼",
     "category": "core_beliefs",
     "content": {
-      "starter": "Angels are special creatures made of light! Allah sends them to help us. Some angels write down our good and bad deeds. Some angels take our souls when it's time. Angels always obey Allah and never make mistakes!",
-      "explorer": "Angels are one of the six articles of faith in Islam. They are created from light and always obey Allah. The most famous angel is Jibril (Gabriel), who brought Allah's messages to the prophets. Other important angels include Mikail (Michael), Israfil (who will blow the trumpet on Judgment Day), and Azra'il (the angel of death). Angels record our deeds and protect us.",
-      "thinker": "Angels (Mala'ika) are a fundamental article of Islamic belief. Created from light, they exist in a different dimension and serve Allah in various capacities. Jibril (Gabriel) delivered the Quran to Prophet Muhammad ﷺ. The Kiraman Katibin are recording angels who document every deed. The angel Munkar and Nakir question the dead in their graves. Unlike humans, angels have no free will — they always obey Allah. Their existence reminds us that we are never truly alone and that our actions are always being witnessed."
+      "starter": "Malaikat adalah makhluk istimewa yang diciptakan dari cahaya! Allah mengutus mereka untuk membantu kita. Beberapa malaikat menuliskan perbuatan baik dan buruk kita. Beberapa malaikat mencabut nyawa kita saat waktunya tiba. Malaikat selalu taat kepada Allah dan tidak pernah berbuat salah!",
+      "explorer": "Malaikat adalah salah satu dari enam rukun iman dalam Islam. Mereka diciptakan dari cahaya dan selalu taat kepada Allah. Malaikat yang paling terkenal adalah Jibril, yang membawa wahyu Allah kepada para nabi. Malaikat penting lainnya termasuk Mikail, Israfil (yang akan meniup sangkala pada Hari Kiamat), dan Izrail (malaikat kematian). Malaikat mencatat perbuatan kita dan melindungi kita.",
+      "thinker": "Malaikat (Mala'ika) adalah rukun iman yang fundamental dalam Islam. Diciptakan dari cahaya, mereka ada dalam dimensi yang berbeda dan melayani Allah dalam berbagai kapasitas. Jibril menyampaikan Al-Quran kepada Nabi Muhammad ﷺ. Kiraman Katibin adalah malaikat pencatat yang mendokumentasikan setiap perbuatan. Malaikat Munkar dan Nakir mempertanyakan orang yang telah meninggal di alam kubur. Berbeda dengan manusia, malaikat tidak memiliki kehendak bebas — mereka selalu taat kepada Allah. Keberadaan mereka mengingatkan kita bahwa kita tidak pernah benar-benar sendiri dan bahwa perbuatan kita selalu disaksikan."
     },
-    "funFact": "Did you know? Angels have wings! Some have two, some have three, some have four — and Prophet Muhammad ﷺ saw the angel Jibril with 600 wings!",
+    "funFact": "Tahukah kamu? Malaikat memiliki sayap! Ada yang punya dua, ada yang punya tiga, ada yang punya empat — dan Nabi Muhammad ﷺ melihat Malaikat Jibril dengan 600 sayap!",
     "quiz": [
       {
-        "q": "What are angels made of?",
+        "q": "Dari apa malaikat diciptakan?",
         "options": [
-          "Fire",
-          "Light",
-          "Water"
+          "Api",
+          "Cahaya",
+          "Air"
         ],
         "correct": 1,
-        "explanation": "Angels are created from light."
+        "explanation": "Malaikat diciptakan dari cahaya."
       },
       {
-        "q": "Which angel brought messages to the prophets?",
+        "q": "Malaikat mana yang membawa wahyu kepada para nabi?",
         "options": [
           "Mikail",
           "Jibril",
           "Israfil"
         ],
         "correct": 1,
-        "explanation": "Jibril (Gabriel) brought Allah's messages to the prophets."
+        "explanation": "Jibril membawa wahyu Allah kepada para nabi."
       },
       {
-        "q": "Do angels have free will?",
+        "q": "Apakah malaikat memiliki kehendak bebas?",
         "options": [
-          "Yes, they can choose",
-          "No, they always obey Allah",
-          "Sometimes"
+          "Ya, mereka bisa memilih",
+          "Tidak, mereka selalu taat kepada Allah",
+          "Kadang-kadang"
         ],
         "correct": 1,
-        "explanation": "Angels always obey Allah — they don't have free will like humans."
+        "explanation": "Malaikat selalu taat kepada Allah — mereka tidak memiliki kehendak bebas seperti manusia."
       }
     ]
   },
   {
     "id": "holy_books",
-    "title": "Holy Books",
+    "title": "Kitab Suci",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📕",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent holy books to guide people! The most important one for us is the Quran — Allah's final book, sent to Prophet Muhammad ﷺ. Before that, Allah sent the Torah to Musa, the Zabur to Dawud, and the Injil to Isa. The Quran is special because Allah promised to protect it!",
-      "explorer": "Muslims believe that Allah revealed several holy books to guide humanity. The Tawrat (Torah) was given to Prophet Musa, the Zabur (Psalms) to Prophet Dawud, and the Injil (Gospel) to Prophet Isa. The Quran is the final and most complete revelation, sent to Prophet Muhammad ﷺ. We believe the earlier books were changed over time, but the Quran has been preserved exactly as Allah revealed it.",
-      "thinker": "The belief in holy books (Kutub) is the third article of Islamic faith. Allah revealed guidance through various scriptures: the Sahifat to Ibrahim, the Tawrat to Musa, the Zabur to Dawud, the Injil to Isa, and the Quran to Muhammad ﷺ. While Muslims respect all these revelations, we believe the Quran is the final and preserved word of Allah. It was revealed over 23 years and has been memorized by millions of huffaz (memorizers) throughout history. The Quran is unique in that Allah Himself guaranteed its preservation: 'Indeed, it is We who sent down the Quran and indeed, We will be its guardian' (Surah Al-Hijr 15:9)."
+      "starter": "Allah menurunkan kitab suci untuk membimbing umat manusia! Yang paling penting bagi kita adalah Al-Quran — kitab terakhir Allah, diturunkan kepada Nabi Muhammad ﷺ. Sebelum itu, Allah menurunkan Taurat kepada Musa, Zabur kepada Dawud, dan Injil kepada Isa. Al-Quran istimewa karena Allah berjanji menjaganya!",
+      "explorer": "Muslim percaya bahwa Allah menurunkan beberapa kitab suci untuk membimbing umat manusia. Taurat diberikan kepada Nabi Musa, Zabur (Mazmur) kepada Nabi Dawud, dan Injil kepada Nabi Isa. Al-Quran adalah wahyu terakhir dan paling lengkap, diturunkan kepada Nabi Muhammad ﷺ. Kita percaya kitab-kitab sebelumnya telah berubah seiring waktu, tetapi Al-Quran terjaga persis seperti saat Allah menurunkannya.",
+      "thinker": "Keimanan kepada kitab-kitab suci (Kutub) adalah rukun iman ketiga. Allah menurunkan petunjuk melalui berbagai kitab: Shuhuf kepada Ibrahim, Taurat kepada Musa, Zabur kepada Dawud, Injil kepada Isa, dan Al-Quran kepada Muhammad ﷺ. Meskipun Muslim menghormati semua wahyu ini, kita percaya Al-Quran adalah firman Allah yang terakhir dan terjaga. Al-Quran diturunkan selama 23 tahun dan telah dihafal oleh jutaan penghafal (huffaz) sepanjang sejarah. Al-Quran unik karena Allah sendiri yang menjamin pemeliharaannya: 'Sesungguhnya Kami-lah yang menurunkan Al-Quran, dan pasti Kami (pula) yang memeliharanya' (Surah Al-Hijr 15:9)."
     },
-    "funFact": "Did you know? The Quran has been completely memorized by millions of people around the world — and some children as young as 7 years old!",
+    "funFact": "Tahukah kamu? Al-Quran telah dihafal secara lengkap oleh jutaan orang di seluruh dunia — dan beberapa anak bahkan sudah hafal sejak usia 7 tahun!",
     "quiz": [
       {
-        "q": "Which is the final holy book in Islam?",
+        "q": "Kitab suci manakah yang terakhir dalam Islam?",
         "options": [
-          "Torah",
-          "Bible",
-          "Quran"
+          "Taurat",
+          "Injil",
+          "Al-Quran"
         ],
         "correct": 2,
-        "explanation": "The Quran is the final and most complete holy book sent by Allah."
+        "explanation": "Al-Quran adalah kitab suci terakhir dan paling lengkap yang diturunkan Allah."
       },
       {
-        "q": "Which prophet received the Torah?",
+        "q": "Nabi mana yang menerima Taurat?",
         "options": [
-          "Prophet Ibrahim",
-          "Prophet Musa",
-          "Prophet Isa"
+          "Nabi Ibrahim",
+          "Nabi Musa",
+          "Nabi Isa"
         ],
         "correct": 1,
-        "explanation": "The Torah (Tawrat) was given to Prophet Musa (Moses)."
+        "explanation": "Taurat diberikan kepada Nabi Musa."
       },
       {
-        "q": "What makes the Quran special?",
+        "q": "Apa yang membuat Al-Quran istimewa?",
         "options": [
-          "It's the oldest book",
-          "Allah promised to protect it",
-          "It has many pages"
+          "Ini kitab tertua",
+          "Allah berjanji menjaganya",
+          "Punya banyak halaman"
         ],
         "correct": 1,
-        "explanation": "Allah promised to protect the Quran from being changed — it's preserved exactly as revealed."
+        "explanation": "Allah berjanji menjaga Al-Quran dari perubahan — ia terjaga persis seperti saat diturunkan."
       }
     ]
   },
   {
     "id": "prophets",
-    "title": "Prophets of Allah",
+    "title": "Para Nabi Allah",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_3_prophet_stories_feature-FtRej2zvGTyPa9u6r2MF85.webp?updatedAt=1781117901347",
     "emoji": "🧑‍🏫",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent many prophets to guide people! We believe in 25 prophets, like Adam, Ibrahim, Musa, Isa, and the last one, Muhammad ﷺ. They were all good people who taught us to worship Allah and be kind to others!",
-      "explorer": "Allah sent prophets to every nation throughout history to guide people to the right path. We know of 25 prophets mentioned in the Quran, including Adam, Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. All prophets taught the same message: worship Allah alone and be good to others. Prophet Muhammad ﷺ is the last and final prophet.",
-      "thinker": "The belief in prophets (Anbiya) is the fourth article of Islamic faith. Allah sent 124,000 prophets to guide humanity, with 25 specifically mentioned in the Quran. They include the five greatest prophets (Ulul-Azm): Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. Each prophet was sent to a specific nation but carried the same universal message of Tawheed and moral conduct. Prophet Muhammad ﷺ is the Seal of the Prophets (Khatam an-Nabiyyin), meaning no new prophet will come after him. His message is for all of humanity until the Day of Judgment."
+      "starter": "Allah mengutus banyak nabi untuk membimbing umat manusia! Kita beriman kepada 25 nabi, seperti Adam, Ibrahim, Musa, Isa, dan yang terakhir, Muhammad ﷺ. Mereka semua adalah orang-orang baik yang mengajarkan kita untuk beribadah kepada Allah dan berbuat baik kepada orang lain!",
+      "explorer": "Allah mengutus para nabi kepada setiap bangsa sepanjang sejarah untuk membimbing manusia ke jalan yang benar. Kita mengenal 25 nabi yang disebutkan dalam Al-Quran, termasuk Adam, Nuh, Ibrahim, Musa, Isa, dan Muhammad ﷺ. Semua nabi mengajarkan pesan yang sama: beribadahlah hanya kepada Allah dan berbuat baik kepada orang lain. Nabi Muhammad ﷺ adalah nabi terakhir dan penutup.",
+      "thinker": "Keimanan kepada para nabi (Anbiya) adalah rukun iman keempat. Allah mengutus 124.000 nabi untuk membimbing umat manusia, dengan 25 nabi secara khusus disebutkan dalam Al-Quran. Mereka termasuk lima nabi utama (Ulul-Azm): Nuh, Ibrahim, Musa, Isa, dan Muhammad ﷺ. Setiap nabi diutus kepada bangsa tertentu tetapi membawa pesan universal yang sama tentang Tauhid dan akhlak mulia. Nabi Muhammad ﷺ adalah Penutup Para Nabi (Khatam an-Nabiyyin), artinya tidak ada nabi baru yang akan datang setelah beliau. Risalah beliau untuk seluruh umat manusia hingga Hari Kiamat."
     },
-    "funFact": "Did you know? Muslims believe in 25 prophets mentioned in the Quran! Prophet Nuh (Noah) lived for 950 years and built the big ship!",
+    "funFact": "Tahukah kamu? Muslim beriman kepada 25 nabi yang disebutkan dalam Al-Quran! Nabi Nuh hidup selama 950 tahun dan membangun kapal besar!",
     "quiz": [
       {
-        "q": "How many prophets are mentioned in the Quran?",
+        "q": "Berapa nabi yang disebutkan dalam Al-Quran?",
         "options": [
           "10",
           "25",
           "100"
         ],
         "correct": 1,
-        "explanation": "25 prophets are specifically mentioned in the Quran."
+        "explanation": "25 nabi secara khusus disebutkan dalam Al-Quran."
       },
       {
-        "q": "Who is the last prophet in Islam?",
+        "q": "Siapa nabi terakhir dalam Islam?",
         "options": [
-          "Prophet Isa",
-          "Prophet Musa",
-          "Prophet Muhammad"
+          "Nabi Isa",
+          "Nabi Musa",
+          "Nabi Muhammad"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ is the last and final prophet sent by Allah."
+        "explanation": "Nabi Muhammad ﷺ adalah nabi terakhir dan penutup yang diutus oleh Allah."
       },
       {
-        "q": "What did all prophets teach?",
+        "q": "Apa yang diajarkan semua nabi?",
         "options": [
-          "Different messages",
-          "Worship Allah alone and be kind",
-          "Only pray"
+          "Pesan yang berbeda-beda",
+          "Beribadah hanya kepada Allah dan berbuat baik",
+          "Hanya shalat"
         ],
         "correct": 1,
-        "explanation": "All prophets taught the same message: worship Allah alone and be good to others."
+        "explanation": "Semua nabi mengajarkan pesan yang sama: beribadah hanya kepada Allah dan berbuat baik kepada orang lain."
       }
     ]
   },
   {
     "id": "day_of_judgment",
-    "title": "Day of Judgment",
+    "title": "Hari Kiamat",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326",
     "emoji": "⚖️",
     "category": "core_beliefs",
     "content": {
-      "starter": "One day, everyone will come back to life and stand in front of Allah! He will check all our good and bad deeds. People who did good will go to Paradise — a beautiful place with everything nice. People who were bad and didn't sorry will go to Hell. That's why we should always try to do good!",
-      "explorer": "The Day of Judgment (Yawm al-Qiyamah) is when all people will be resurrected and brought before Allah to be judged for their deeds. Every action — even the smallest kindness — will be weighed on a scale. Those whose good deeds outweigh their bad will enter Paradise (Jannah), a place of eternal happiness. Those whose bad deeds are heavier will face punishment. This belief motivates Muslims to always do their best.",
-      "thinker": "The Day of Judgment (Qiyamah) is the fifth article of Islamic faith. It is the day when all of creation will be resurrected and judged by Allah with perfect justice. The Prophet ﷺ described signs that will precede it, including major earthquakes, the sun rising from the west, and the emergence of the Dajjal. On that day, every person will receive their book of deeds — in the right hand for the righteous, in the left for the wrongdoers. The scale (Mizan) will weigh every deed, no matter how small. This belief provides moral accountability and motivates Muslims to live righteously."
+      "starter": "Suatu hari, semua orang akan dihidupkan kembali dan berdiri di hadapan Allah! Dia akan memeriksa semua perbuatan baik dan buruk kita. Orang yang berbuat baik akan masuk Surga — tempat yang indah dengan segala keindahan. Orang yang jahat dan tidak bertobat akan masuk Neraka. Itulah sebabnya kita harus selalu berusaha berbuat baik!",
+      "explorer": "Hari Kiamat (Yawm al-Qiyamah) adalah ketika semua orang akan dibangkitkan dan dihadapkan ke hadapan Allah untuk diadili atas perbuatan mereka. Setiap tindakan — bahkan kebaikan terkecil — akan ditimbang dengan timbangan. Mereka yang kebaikannya lebih berat dari keburukannya akan masuk Surga (Jannah), tempat kebahagiaan abadi. Mereka yang keburukannya lebih berat akan menghadapi siksaan. Keyakinan ini memotivasi Muslim untuk selalu berusaha yang terbaik.",
+      "thinker": "Hari Kiamat (Qiyamah) adalah rukun iman kelima. Ini adalah hari ketika seluruh makhluk akan dibangkitkan dan diadili oleh Allah dengan keadilan yang sempurna. Nabi ﷺ mendeskripsikan tanda-tanda yang akan mendahuluinya, termasuk gempa bumi besar, matahari terbit dari barat, dan munculnya Dajjal. Pada hari itu, setiap orang akan menerima catatan amalnya — di tangan kanan untuk orang-orang yang bertakwa, di tangan kiri untuk orang-orang zalim. Timbangan (Mizan) akan menimbang setiap amal, sekecil apa pun. Keyakinan ini memberikan akuntabilitas moral dan memotivasi Muslim untuk hidup secara bertaqwa."
     },
-    "funFact": "Did you know? On the Day of Judgment, even a small good deed — like removing a thorn from the road — will be rewarded!",
+    "funFact": "Tahukah kamu? Pada Hari Kiamat, bahkan satu kebaikan kecil — seperti menyingkirkan duri dari jalan — akan mendapat pahala!",
     "quiz": [
       {
-        "q": "What happens on the Day of Judgment?",
+        "q": "Apa yang terjadi pada Hari Kiamat?",
         "options": [
-          "Everyone goes to Paradise",
-          "Everyone is judged for their deeds",
-          "Nothing happens"
+          "Semua orang masuk Surga",
+          "Semua orang diadili atas perbuatan mereka",
+          "Tidak terjadi apa-apa"
         ],
         "correct": 1,
-        "explanation": "On the Day of Judgment, everyone will be judged for their good and bad deeds."
+        "explanation": "Pada Hari Kiamat, semua orang akan diadili atas perbuatan baik dan buruk mereka."
       },
       {
-        "q": "What is the name of Paradise in Arabic?",
+        "q": "Apa nama Surga dalam bahasa Arab?",
         "options": [
           "Jannah",
           "Jahannam",
-          "Dunya"
+          "Dunia"
         ],
         "correct": 0,
-        "explanation": "Paradise is called Jannah in Arabic — it means 'garden'."
+        "explanation": "Surga disebut Jannah dalam bahasa Arab — berarti 'taman'."
       },
       {
-        "q": "Will even small deeds be judged?",
+        "q": "Apakah perbuatan kecil juga akan diadili?",
         "options": [
-          "No, only big deeds",
-          "Yes, every single deed",
-          "Only bad deeds"
+          "Tidak, hanya perbuatan besar",
+          "Ya, setiap perbuatan",
+          "Hanya perbuatan buruk"
         ],
         "correct": 1,
-        "explanation": "Every deed, no matter how small, will be weighed on the Day of Judgment."
+        "explanation": "Setiap perbuatan, sekecil apa pun, akan ditimbang pada Hari Kiamat."
       }
     ]
   },
   {
     "id": "wudu",
-    "title": "Wudu - Ablution",
+    "title": "Wudu - Bersuci",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🚿",
     "category": "daily_practices",
     "content": {
-      "starter": "Wudu is washing before prayer! We wash our hands, mouth, nose, face, arms, head, and feet with clean water. It makes us clean and ready to talk to Allah. Wudu also washes away our small sins — how cool is that!",
-      "explorer": "Wudu is the ritual ablution Muslims perform before praying. It involves washing specific body parts in order: hands, mouth, nose, face, arms to elbows, wiping the head, and washing feet to ankles. Wudu is not just about physical cleanliness — it's also spiritual purification. Each step has benefits: washing the hands removes germs, rinsing the mouth keeps it clean, and washing the feet removes dirt from the road.",
-      "thinker": "Wudu is a beautiful act that combines physical hygiene with spiritual purification. The Quran states: 'Indeed, Allah loves those who are constantly repenting and loves those who purify themselves' (Surah Al-Baqarah 2:222). The Prophet ﷺ said that when a Muslim performs wudu and washes their face, sins fall away with the water. When they wash their hands, sins fall from their hands. When they wash their feet, sins fall from their feet. Wudu is thus both a practical act of cleanliness and a spiritual ritual of renewal."
+      "starter": "Wudu adalah mencuci sebelum shalat! Kita mencuci tangan, mulut, hidung, muka, lengan, kepala, dan kaki dengan air bersih. Ini membuat kita bersih dan siap berbicara dengan Allah. Wudu juga menghapus dosa-dosa kecil kita — hebat sekali bukan!",
+      "explorer": "Wudu adalah bersuci ritual yang dilakukan Muslim sebelum shalat. Wudu meliputi membasuh anggota tubuh tertentu secara berurutan: tangan, mulut, hidung, muka, lengan hingga siku, mengusap kepala, dan membasuh kaki hingga mata kaki. Wudu bukan hanya tentang kebersihan fisik — ia juga penyucian spiritual. Setiap langkah memiliki manfaat: mencuci tangan menghilangkan kuman, berkumur menjaga mulut bersih, dan membasuh kaki menghilangkan kotoran dari jalan.",
+      "thinker": "Wudu adalah perbuatan indah yang menggabungkan kebersihan fisik dengan penyucian spiritual. Al-Quran menyatakan: 'Sesungguhnya Allah menyukai orang-orang yang banyak bertaubat dan menyukai orang-orang yang menyucikan diri' (Surah Al-Baqarah 2:222). Nabi ﷺ bersabda bahwa ketika seorang Muslim berwudu dan membasuh wajahnya, dosa-dosa jatuh bersama air. Ketika membasuh tangannya, dosa-dosa jatuh dari tangannya. Ketika membasuh kakinya, dosa-dosa jatuh dari kakinya. Wudu dengan demikian merupakan perbuatan kebersihan praktis sekaligus ritual spiritual pembaruan."
     },
-    "funFact": "Did you know? When you perform wudu and wash each body part, your sins fall away with the water — it's like getting a fresh start!",
+    "funFact": "Tahukah kamu? Ketika kamu berwudu dan membasuh setiap anggota tubuh, dosa-dosamu jatuh bersama air — ibarat mendapat awal yang baru!",
     "quiz": [
       {
-        "q": "What do we perform before praying?",
+        "q": "Apa yang kita lakukan sebelum shalat?",
         "options": [
-          "Ghusl",
+          "Mandi besar (Ghusl)",
           "Wudu",
-          "Tayammum"
+          "Tayamum"
         ],
         "correct": 1,
-        "explanation": "We perform wudu (ablution) before praying to clean ourselves."
+        "explanation": "Kita berwudu (bersuci) sebelum shalat untuk membersihkan diri."
       },
       {
-        "q": "How many steps are in wudu?",
+        "q": "Berapa langkah dalam wudu?",
         "options": [
-          "3 steps",
-          "7 steps",
-          "10 steps"
+          "3 langkah",
+          "7 langkah",
+          "10 langkah"
         ],
         "correct": 1,
-        "explanation": "There are 7 main steps in wudu: hands, mouth, nose, face, arms, head, and feet."
+        "explanation": "Ada 7 langkah utama dalam wudu: tangan, mulut, hidung, muka, lengan, kepala, dan kaki."
       },
       {
-        "q": "What does wudu clean besides the body?",
+        "q": "Apa yang dibersihkan wudu selain tubuh?",
         "options": [
-          "Our clothes",
-          "Our sins",
-          "Our room"
+          "Pakaian kita",
+          "Dosa-dosa kita",
+          "Kamar kita"
         ],
         "correct": 1,
-        "explanation": "Wudu washes away our small sins — it's spiritual purification too!"
+        "explanation": "Wudu menghapus dosa-dosa kecil — ia juga penyucian spiritual!"
       }
     ]
   },
   {
     "id": "islamic_dress",
-    "title": "Islamic Dress",
+    "title": "Pakaian Islami",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_13_topic_islamic_dress-7whwzZgTnmsVkCdmrsGaFv.webp?updatedAt=1781117899286",
     "emoji": "👗",
     "category": "daily_practices",
     "content": {
-      "starter": "Allah asks us to dress nicely and modestly! Boys and girls should cover their bodies properly. It's about being respectful and showing that we love Allah. Modest dressing makes us feel confident and proud of being Muslim!",
-      "explorer": "Islamic dress is about modesty and respecting Allah's guidelines. For women, this generally means covering everything except the face, hands, and feet — many choose to wear hijab (headscarf). For men, clothing should cover from the navel to the knees. The key is modesty — not showing off or wearing inappropriate clothes. Islamic dress is an act of worship and identity.",
-      "thinker": "Islamic dress codes are rooted in the Quran and Sunnah. Allah says: 'O Children of Adam, take your adornment at every masjid' (Surah Al-A'raf 7:31). The hijab is more than a piece of cloth — it's a statement of identity, dignity, and devotion to Allah. For both men and women, modest dress is about self-respect and not reducing oneself to physical appearance. It's important to understand that modesty is a comprehensive concept that includes behavior, speech, and dress. The goal is to be recognized for one's character and intellect, not merely for appearance."
+      "starter": "Allah meminta kita untuk berpakaian rapi dan sopan! Anak laki-laki dan perempuan harus menutup aurat dengan baik. Ini tentang rasa hormat dan menunjukkan bahwa kita mencintai Allah. Berpakaian sopan membuat kita merasa percaya diri dan bangka menjadi Muslim!",
+      "explorer": "Pakaian Islami adalah tentang kesopanan dan menghormati petunjuk Allah. Bagi perempuan, ini umumnya berarti menutup seluruh tubuh kecuali wajah, tangan, dan kaki — banyak yang memilih mengenakan hijab (kerudung). Bagi laki-laki, pakaian harus menutup dari pusar hingga lutut. Kuncinya adalah kesopanan — tidak pamer atau mengenakan pakaian yang tidak pantas. Pakaian Islami adalah bentuk ibadah dan identitas.",
+      "thinker": "Aturan berpakaian Islam berlandaskan Al-Quran dan Sunnah. Allah berfirman: 'Hai anak Adam, pakailah pakaianmu yang indah di setiap (memasuki) masjid' (Surah Al-A'raf 7:31). Hijab lebih dari selembar kain — ini adalah pernyataan identitas, martabat, dan pengabdian kepada Allah. Bagi laki-laki maupun perempuan, berpakaian sopan adalah tentang menghargai diri sendiri dan tidak mereduksi diri pada penampilan fisik. Penting untuk memahami bahwa kesopanan adalah konsep menyeluruh yang mencakup perilaku, ucapan, dan cara berpakaian. Tujuannya adalah dikenal karena karakter dan kecerdasan, bukan sekadar penampilan."
     },
-    "funFact": "Did you know? The word 'hijab' comes from Arabic and means 'curtain' or 'screen' — it's about creating a space of dignity and privacy!",
+    "funFact": "Tahukah kamu? Kata 'hijab' berasal dari bahasa Arab dan berarti 'tirai' atau 'penutup' — ini tentang menciptakan ruang kehormatan dan privasi!",
     "quiz": [
       {
-        "q": "What is the main purpose of Islamic dress?",
+        "q": "Apa tujuan utama pakaian Islami?",
         "options": [
           "Fashion",
-          "Modesty",
-          "Uniform"
+          "Kesopanan",
+          "Seragam"
         ],
         "correct": 1,
-        "explanation": "Islamic dress is about modesty and respecting Allah's guidelines."
+        "explanation": "Pakaian Islami adalah tentang kesopanan dan menghormati petunjuk Allah."
       },
       {
-        "q": "What does 'hijab' mean?",
+        "q": "Apa arti 'hijab'?",
         "options": [
-          "Prayer",
-          "Curtain or screen",
-          "Charity"
+          "Shalat",
+          "Tirai atau penutup",
+          "Sedekah"
         ],
         "correct": 1,
-        "explanation": "The word 'hijab' means 'curtain' or 'screen' in Arabic."
+        "explanation": "Kata 'hijab' berarti 'tirai' atau 'penutup' dalam bahasa Arab."
       },
       {
-        "q": "For men, what part of the body must be covered?",
+        "q": "Bagi laki-laki, bagian tubuh mana yang wajib ditutup?",
         "options": [
-          "Only the head",
-          "From navel to knees",
-          "Entire body"
+          "Hanya kepala",
+          "Dari pusar hingga lutut",
+          "Seluruh tubuh"
         ],
         "correct": 1,
-        "explanation": "Men must cover from the navel to the knees as a minimum."
+        "explanation": "Laki-laki wajib menutup dari pusar hingga lutut sebagai minimum."
       }
     ]
   },
   {
     "id": "halal_food",
-    "title": "Halal Food",
+    "title": "Makanan Halal",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194",
     "emoji": "🍽️",
     "category": "daily_practices",
     "content": {
-      "starter": "Halal means 'okay to eat' in Arabic! Allah tells us what food is good for us. We can eat fruits, vegetables, chicken, and fish. We can't eat pork or drink alcohol. We always say 'Bismillah' before eating to thank Allah!",
-      "explorer": "Halal means permissible in Islam. Allah has told us which foods are halal (allowed) and haram (forbidden). Halal foods include fruits, vegetables, grains, and properly slaughtered meat. Haram foods include pork, blood, alcohol, and meat not slaughtered in Allah's name. Saying 'Bismillah' before eating is a Sunnah and reminds us that food is a blessing from Allah.",
-      "thinker": "The concept of halal and haram in food is rooted in the Quran and Sunnah. Allah says: 'Eat of what is lawful and good on the earth' (Surah Al-Baqarah 2:168). Halal is not just about what we eat but how food is obtained — it must be through ethical, humane, and clean methods. Pork is prohibited (haram) as stated in multiple Quranic verses. Alcohol is forbidden because it clouds the mind and leads to sin. Even when eating halal food, Islam teaches moderation: 'Eat and drink, but do not be excessive' (Surah Al-A'raf 31). The act of saying 'Bismillah' before eating transforms a routine meal into an act of worship."
+      "starter": "Halal berarti 'boleh dimakan' dalam bahasa Arab! Allah memberi tahu kita makanan apa yang baik untuk kita. Kita boleh makan buah-buahan, sayuran, ayam, dan ikan. Kita tidak boleh makan babi atau minum minuman keras. Kita selalu mengucap 'Bismillah' sebelum makan untuk berterima kasih kepada Allah!",
+      "explorer": "Halal berarti diperbolehkan dalam Islam. Allah telah memberi tahu kita makanan mana yang halal (diperbolehkan) dan haram (dilarang). Makanan halal termasuk buah-buahan, sayuran, biji-bijian, dan daging yang disembelih dengan cara yang benar. Makanan haram termasuk babi, darah, minuman keras, dan daging yang tidak disembelih atas nama Allah. Mengucapkan 'Bismillah' sebelum makan adalah sunnah dan mengingatkan kita bahwa makanan adalah nikmat dari Allah.",
+      "thinker": "Konsep halal dan haram dalam makanan berlandaskan Al-Quran dan Sunnah. Allah berfirman: 'Makanlah dari apa yang baik dan halal di bumi ini' (Surah Al-Baqarah 2:168). Halal bukan hanya tentang apa yang kita makan tetapi bagaimana makanan diperoleh — harus melalui metode yang etis, manusiawi, dan bersih. Babi diharamkan (haram) sebagaimana dinyatakan dalam beberapa ayat Al-Quran. Minuman keras diharamkan karena memabukkan pikiran dan membawa pada dosa. Bahkan saat makan makanan halal, Islam mengajarkan kesederhanaan: 'Makan dan minumlah, tetapi jangan berlebihan' (Surah Al-A'raf 31). Mengucapkan 'Bismillah' sebelum makan mengubah makanan biasa menjadi ibadah."
     },
-    "funFact": "Did you know? Muslims say 'Bismillah' (In the name of Allah) before eating — it's like saying grace and thanking Allah for the food!",
+    "funFact": "Tahukah kamu? Muslim mengucapkan 'Bismillah' (Dengan nama Allah) sebelum makan — ibarat berdoa dan berterima kasih kepada Allah atas makanan!",
     "quiz": [
       {
-        "q": "What does 'halal' mean?",
+        "q": "Apa arti 'halal'?",
         "options": [
-          "Forbidden",
-          "Permissible",
-          "Delicious"
+          "Dilarang",
+          "Diperbolehkan",
+          "Lezat"
         ],
         "correct": 1,
-        "explanation": "Halal means 'permissible' — food that Allah allows us to eat."
+        "explanation": "Halal berarti 'diperbolehkan' — makanan yang Allah izinkan untuk kita makan."
       },
       {
-        "q": "Which of these is haram (forbidden) in Islam?",
+        "q": "Manakah yang haram (dilarang) dalam Islam?",
         "options": [
-          "Chicken",
-          "Fruits",
-          "Pork"
+          "Ayam",
+          "Buah-buahan",
+          "Babi"
         ],
         "correct": 2,
-        "explanation": "Pork is haram (forbidden) in Islam."
+        "explanation": "Babi adalah haram (dilarang) dalam Islam."
       },
       {
-        "q": "What do Muslims say before eating?",
+        "q": "Apa yang diucapkan Muslim sebelum makan?",
         "options": [
           "Alhamdulillah",
           "Bismillah",
           "Subhanallah"
         ],
         "correct": 1,
-        "explanation": "Muslims say 'Bismillah' (In the name of Allah) before eating."
+        "explanation": "Muslim mengucapkan 'Bismillah' (Dengan nama Allah) sebelum makan."
       }
     ]
   },
   {
     "id": "duas",
-    "title": "Duas - Supplications",
+    "title": "Doa - Permohonan",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_10_pillar_duas-EqyXdQq6eb7Aov9Lmrvy3T.webp?updatedAt=1781117901995",
     "emoji": "🤲",
     "category": "daily_practices",
     "content": {
-      "starter": "Duas are prayers we say to Allah anytime! When we wake up, eat, go outside, or feel scared — we can talk to Allah. He always listens! There's a special dua for everything. It's like having a direct line to Allah!",
-      "explorer": "Duas are personal prayers to Allah — conversations where we ask for help, guidance, forgiveness, or express gratitude. Unlike formal salah, duas can be made anytime in any language. The Prophet ﷺ taught us specific duas for waking up, eating, traveling, and more. Making dua shows our dependence on Allah and our trust in His help.",
-      "thinker": "Duas (supplications) represent the direct relationship between a servant and Allah. The Prophet ﷺ said: 'Dua is the essence of worship.' Islam teaches duas for every occasion — from waking up ('Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin-nushur') to entering the mosque, before sleeping, and during times of distress. Allah says: 'Call upon Me; I will respond to you' (Surah Ghafir 40:60). This is a profound promise — the Creator of the universe invites us to speak with Him directly, without any intermediary."
+      "starter": "Doa adalah permohonan yang kita panjatkan kepada Allah kapan saja! Ketika kita bangun, makan, keluar rumah, atau merasa takut — kita bisa berbicara dengan Allah. Dia selalu mendengarkan! Ada doa khusus untuk segala hal. Ibarat punya saluran langsung ke Allah!",
+      "explorer": "Doa adalah permohonan pribadi kepada Allah — percakapan di mana kita meminta pertolongan, petunjuk, pengampunan, atau mengungkapkan rasa syukur. Berbeda dengan shalat formal, doa bisa dipanjatkan kapan saja dalam bahasa apa pun. Nabi ﷺ mengajarkan kita doa-doa khusus untuk bangun tidur, makan, bepergian, dan lainnya. Berdoa menunjukkan ketergantungan kita kepada Allah dan kepercayaan kita pada pertolongan-Nya.",
+      "thinker": "Doa (permohonan) merepresentasikan hubungan langsung antara seorang hamba dan Allah. Nabi ﷺ bersabda: 'Doa adalah inti ibadah.' Islam mengajarkan doa untuk setiap kesempatan — dari bangun tidur ('Alhamdulillahilladzi ahyana ba'da ma amatana wa ilayhin-nushur') hingga memasuki masjid, sebelum tidur, dan saat kesusahan. Allah berfirman: 'Berdoalah kepada-Ku, niscaya Aku akan mengabulkan kamu' (Surah Ghafir 40:60). Ini adalah janji yang mendalam — Sang Pencipta alam semesta mengundang kita untuk berbicara langsung dengan-Nya, tanpa perantara."
     },
-    "funFact": "Did you know? There's a dua for almost everything — even for when you enter your bathroom! Allah wants us to remember Him in every moment!",
+    "funFact": "Tahukah kamu? Ada doa untuk hampir segala hal — bahkan untuk saat kamu masuk kamar mandi! Allah ingin kita mengingat-Nya di setiap momen!",
     "quiz": [
       {
-        "q": "What is a dua?",
+        "q": "Apa itu doa?",
         "options": [
-          "A type of food",
-          "A personal prayer to Allah",
-          "A holy book"
+          "Jenis makanan",
+          "Permohonan pribadi kepada Allah",
+          "Kitab suci"
         ],
         "correct": 1,
-        "explanation": "A dua is a personal prayer — talking to Allah anytime, anywhere."
+        "explanation": "Doa adalah permohonan pribadi — berbicara kepada Allah kapan saja, di mana saja."
       },
       {
-        "q": "Can duas be made in any language?",
+        "q": "Apakah doa bisa dipanjatkan dalam bahasa apa pun?",
         "options": [
-          "Only in Arabic",
-          "Only in English",
-          "Yes, in any language"
+          "Hanya bahasa Arab",
+          "Hanya bahasa Inggris",
+          "Ya, dalam bahasa apa pun"
         ],
         "correct": 2,
-        "explanation": "Duas can be made in any language — Allah understands all languages!"
+        "explanation": "Doa bisa dipanjatkan dalam bahasa apa pun — Allah memahami semua bahasa!"
       },
       {
-        "q": "What did the Prophet ﷺ say about dua?",
+        "q": "Apa yang Nabi ﷺ katakan tentang doa?",
         "options": [
-          "Dua is useless",
-          "Dua is the essence of worship",
-          "Only pray at night"
+          "Doa itu sia-sia",
+          "Doa adalah inti ibadah",
+          "Hanya berdoa di malam hari"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said: 'Dua is the essence of worship.'"
+        "explanation": "Nabi ﷺ bersabda: 'Doa adalah inti ibadah.'"
       }
     ]
   },
   {
     "id": "reading_quran",
-    "title": "Reading Quran",
+    "title": "Membaca Al-Quran",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📖",
     "category": "daily_practices",
     "content": {
-      "starter": "The Quran is Allah's special book! When we read it, Allah rewards us. Even reading one letter gives us 10 rewards! The Quran teaches us how to be good Muslims and how to live happily. Let's try to read a little bit every day!",
-      "explorer": "The Quran is the holy book of Islam, revealed to Prophet Muhammad ﷺ through the angel Jibril. Reading the Quran is one of the most rewarding acts a Muslim can do — each letter earns 10 rewards. Muslims try to read the Quran daily, especially during Ramadan. The Quran is in Arabic, but translations help us understand its meanings. Reading with understanding and reflection is the goal.",
-      "thinker": "The Quran is the literal word of Allah, revealed over 23 years through the angel Jibril to Prophet Muhammad ﷺ. It consists of 114 surahs (chapters) and over 6,000 ayahs (verses). The Prophet ﷺ said: 'Whoever reads a letter from the Book of Allah will have a reward, and the reward of each letter is multiplied by ten.' Beyond reading, the Quran invites contemplation (tadabbur) — understanding its messages and applying them to life. The Quran is unique in that it has been perfectly preserved in its original Arabic since its revelation, making it the only religious text with an unbroken chain of transmission."
+      "starter": "Al-Quran adalah kitab istimewa Allah! Ketika kita membacanya, Allah memberi pahala. Bahkan membaca satu huruf memberi 10 pahala! Al-Quran mengajarkan kita cara menjadi Muslim yang baik dan cara hidup bahagia. Mari coba membaca sedikit setiap hari!",
+      "explorer": "Al-Quran adalah kitab suci Islam, diturunkan kepada Nabi Muhammad ﷺ melalui Malaikat Jibril. Membaca Al-Quran adalah salah satu perbuatan yang paling berpahala bagi seorang Muslim — setiap huruf mendapat 10 pahala. Muslim berusaha membaca Al-Quran setiap hari, terutama selama bulan Ramadhan. Al-Quran dalam bahasa Arab, tetapi terjemahan membantu kita memahami maknanya. Membaca dengan pemahaman dan perenungan adalah tujuannya.",
+      "thinker": "Membaca Al-Quran (Tilawah) adalah ibadah yang menghubungkan kita langsung dengan firman Allah. Al-Quran diturunkan kepada Nabi Muhammad ﷺ selama 23 tahun melalui Malaikat Jibril, dimulai dengan perintah 'Iqra'' (Bacalah!) di Gua Hira. Al-Quran memiliki 114 surah dan lebih dari 6.000 ayat. Allah berfirman: 'Ini adalah sebuah Kitab yang Kami turunkan kepadamu penuh keberkahan agar mereka memperhatikan ayat-ayatnya' (Surah Shad 38:29). Membaca Al-Quran dengan tajwid yang benar dan memahami maknanya adalah tujuan utama — bukan sekadar membaca tanpa refleksi."
     },
-    "funFact": "Did you know? Reading just ONE letter of the Quran earns you 10 rewards from Allah! So reading 'Al-Fatiha' gives you over 1,000 rewards!",
+    "funFact": "Tahukah kamu? Membaca satu huruf Al-Quran memberi 10 pahala! Jadi membaca 'Alif Lam Mim' memberi 30 pahala — karena itu tiga huruf!",
     "quiz": [
       {
-        "q": "Who revealed the Quran to Prophet Muhammad ﷺ?",
+        "q": "Siapa yang menurunkan Al-Quran kepada Nabi Muhammad ﷺ?",
         "options": [
-          "Allah directly",
-          "Angel Jibril",
-          "Angel Mikail"
+          "Allah langsung",
+          "Malaikat Jibril",
+          "Malaikat Mikail"
         ],
         "correct": 1,
-        "explanation": "Angel Jibril (Gabriel) brought the Quran to Prophet Muhammad ﷺ."
+        "explanation": "Malaikat Jibril menyampaikan Al-Quran kepada Nabi Muhammad ﷺ."
       },
       {
-        "q": "How many rewards do you get for reading one letter of the Quran?",
+        "q": "Berapa pahala yang kamu dapatkan dengan membaca satu huruf Al-Quran?",
         "options": [
-          "1 reward",
-          "10 rewards",
-          "100 rewards"
+          "1 pahala",
+          "10 pahala",
+          "100 pahala"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said each letter of the Quran earns 10 rewards."
+        "explanation": "Nabi ﷺ bersabda setiap huruf Al-Quran mendapat 10 pahala."
       },
       {
-        "q": "How many surahs (chapters) are in the Quran?",
+        "q": "Berapa surah (pasal) dalam Al-Quran?",
         "options": [
           "100",
           "114",
           "200"
         ],
         "correct": 1,
-        "explanation": "The Quran has 114 surahs (chapters)."
+        "explanation": "Al-Quran memiliki 114 surah (pasal)."
       }
     ]
   },
   {
     "id": "how_to_pray",
-    "title": "How to Pray: A Complete Guide",
+    "title": "Cara Shalat: Panduan Lengkap",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🕌",
     "category": "daily_practices",
     "content": {
-      "starter": "How do Muslims pray? It starts with Wudu — washing your hands, face, arms, and feet to get clean for Allah. Then you face the Kaaba in Mecca and do special movements: standing, bowing, and putting your forehead on the ground. Each prayer has a name like Fajr (morning) and Maghrib (sunset). There are 5 prayers every day! It's like having 5 special meetings with Allah.\n\nWUDU — The 8 Steps:\n1) Niyyah — Make the intention in your heart to perform Wudu for the sake of Allah. 2) Wash Hands — Wash both hands up to the wrists three times, starting with the right hand. Make sure water reaches between your fingers! 3) Rinse Mouth — Take water into your mouth and rinse it thoroughly three times. 4) Rinse Nose — Breathe water in through your nose and blow it out three times. 5) Wash Face — Wash your entire face three times, from forehead to chin and ear to ear. 6) Wash Arms — Wash both arms up to the elbows three times, starting with the right arm. 7) Wipe Head — Wipe your entire head once with wet hands. 8) Wash Feet — Wash both feet up to the ankles three times, starting with the right foot. Make sure water reaches between your toes!\n\nRemember: Take your time with each step, use clean water, and avoid waste. Wudu brings purity to your body and light to your heart!\n\nSALAH — The 7 Main Positions:\n1) Niyyah — Intend in your heart to pray. 2) Takbir — Raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). 3) Qiyam — Stand upright with hands crossed at chest level, and recite Surah Al-Fatiha and another Surah. 4) Ruku — Bow forward with your hands on your knees, and say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah — Rise from bowing and say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud — Put your forehead, nose, hands, knees, and toes on the ground, and say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud — Sit and recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): 2 Fard + 2 Sunnah = 4 rak'ahs — strengthens your faith!\n- Dhuhr (Noon): 4 Fard + 6 Sunnah = 10 rak'ahs — find peace and clarity!\n- Asr (Afternoon): 4 Fard + 4 Sunnah = 8 rak'ahs — seek Allah's pleasure!\n- Maghrib (Sunset): 3 Fard + 2 Sunnah = 5 rak'ahs — build discipline and gratitude!\n- Isha (Night): 4 Fard + 2 Sunnah = 6 rak'ahs — connect with your Creator!\nTotal daily: 17 Fard + 12 Sunnah = 29 rak'ahs combined.",
-      "explorer": "How to Pray: A Complete Guide covers Wudu (ablution), Salah (prayer), the 5 daily prayers, and the rak'ah breakdown in full detail.\n\nWUDU — The 8 Steps of Ablution:\nWudu is the ritual purification performed before prayer. It is a physical and spiritual cleansing that prepares the body and mind for communication with Allah. Wudu is obligatory before performing Salah and is considered one of the most important prerequisites for prayer. The steps are: 1) Niyyah — make the intention in your heart to perform Wudu for prayer, 2) Wash both hands up to the wrists three times starting with the right hand, ensuring water reaches between fingers, 3) Rinse your mouth thoroughly three times — this cleanses the mouth for recitation, 4) Breathe water in through the nose and blow it out three times using your left hand to assist, 5) Wash your entire face three times from forehead to chin and ear to ear, including the beard if you have one, 6) Wash both arms up to and including the elbows three times starting with the right arm, 7) Wipe your head once with wet hands — you can wipe the entire head or just a portion, 8) Wash both feet up to and including the ankles three times starting with the right foot, ensuring water reaches between the toes.\n\nWhen is Wudu Required? Before every obligatory prayer (Fard), before voluntary prayers (Sunnah/Nafl), when touching the Quran, and after using the bathroom.\n\nSALAH — The 7 Main Positions of Prayer:\nSalah is the Islamic prayer performed five times daily at prescribed times. It is the second pillar of Islam and a direct connection between the believer and Allah. Each prayer consists of one or more rak'ahs (cycles). The seven positions are: 1) Niyyah (Intention) — intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha). The intention must be clear and sincere. 2) Takbir (Opening) — raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). This marks the beginning of your prayer. 3) Qiyam (Standing) — stand upright with your hands crossed at chest level. Recite Surah Al-Fatiha and another Surah from the Quran. 4) Ruku (Bowing) — bow forward with your hands on your knees, keeping your back parallel to the ground. Say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah (Rising) — rise from bowing to the standing position. Say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud (Prostration) — prostrate with your forehead, nose, hands, knees, and toes touching the ground. Say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud (Testimony) — sit between prostrations or at the end of prayer. Recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nImportant Notes About Salah: Always face the Qibla (direction of the Kaaba in Mecca), maintain proper body covering (Satr): men from navel to below knees, women entire body except hands and face, perform Wudu before every prayer, pray at the prescribed times, and concentrate and be present during prayer (Khushu) for spiritual benefit.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): Before sunrise. 2 Fard + 2 Sunnah = 4 total rak'ahs. The dawn prayer marks the beginning of the Islamic day and strengthens your faith.\n- Dhuhr (Noon): After the sun passes its zenith. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 10 total rak'ahs. The longest prayer of the day helps find peace and clarity.\n- Asr (Afternoon): Late afternoon before sunset. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Seek Allah's pleasure in the late afternoon.\n- Maghrib (Sunset): Just after the sun sets. 3 Fard + 2 Sunnah Ghair Muakkadah = 5 total rak'ahs. Unique among the five prayers with 3 Fard rak'ahs. Builds discipline and gratitude.\n- Isha (Night): After nightfall. 4 Fard + 2 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Connect with your Creator before sleep.\n\nTotal Daily: 17 Fard rak'ahs + 12 Sunnah Muakkadah = 29 combined total.",
-      "thinker": "How to Pray: A Complete Guide provides comprehensive instruction on Wudu (ablution), Salah (prayer), the five daily prayers, and the complete rak'ah breakdown.\n\nWUDU (Ablution):\nWudu is the ritual purification that serves as both a physical cleansing and spiritual preparation for Salah. It is obligatory before every Fard (obligatory) prayer, Sunnah/Nafl (voluntary) prayers, and before touching the Quran. The eight steps follow a specific sequence established by the Sunnah of Prophet Muhammad ﷺ: 1) Niyyah — the internal intention, 2) Washing hands up to the wrists three times, 3) Rinsing the mouth thoroughly three times, 4) Inhaling water through the nose and expelling it three times, 5) Washing the entire face three times (from hairline to chin and ear to ear, including the beard for men), 6) Washing both arms up to and including the elbows three times, 7) Wiping the head once with wet hands, 8) Washing both feet up to and including the ankles three times. Each step has precise requirements: water must reach between fingers and toes, and all parts must be washed in the correct order. Wudu is invalidated by natural discharges, deep sleep, loss of consciousness, and touching one's private parts.\n\nSALAH (Prayer) — The Seven Positions:\n1) Niyyah (النية): The internal intention specifying which prayer is being performed. It must be clear and sincere. 2) Takbir (التكبير): The opening 'Allahu Akbar' when raising hands to the ears, marking the sacred boundary of prayer. 3) Qiyam (القيام): Standing position with hands folded at chest level (right hand over left), reciting Al-Fatiha followed by a second Surah. 4) Ruku (الركوع): Bowing with hands on knees, back parallel to ground, reciting 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest) three times. 5) Qawmah (القومة): Rising from Ruku to standing with 'Sami'a Allahu liman hamidah, Rabbana lakal hamd' (Allah hears those who praise Him, our Lord, all praise is for You). 6) Sujud (السجود): Prostration with seven points of contact — forehead, nose, both hands, both knees, and toes — reciting 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High) three times. Performed twice in each rak'ah. 7) Tashahhud (التشهد): Sitting position for the testimony of faith (At-Tahiyyatu lillahi was-salawatu wat-tayyibat), the Salawat (Allahumma salli 'ala Muhammad), and the Du'a.\n\nTHE FIVE DAILY PRAYERS — Complete Breakdown:\n- Fajr: 2 Fard + 2 Sunnah Muakkadah (before Fard) = 4 rak'ahs (before sunrise, approximately 4:30-5:30 AM)\n- Dhuhr: 4 Sunnah Muakkadah (before Fard) + 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 10-12 rak'ahs (midday, approximately 12:00-1:00 PM)\n- Asr: 4 Sunnah Ghair Muakkadah (before Fard) + 4 Fard = 4-8 rak'ahs (late afternoon, approximately 3:30-4:30 PM)\n- Maghrib: 3 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 5-7 rak'ahs (after sunset, approximately 6:45-7:15 PM)\n- Isha: 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 6-8 rak'ahs (after nightfall, approximately 8:15-9:30 PM)\n\nRAK'AH BREAKDOWN TABLE:\n| Prayer | Fard | Sunnah Muakkadah | Sunnah Ghair Muakkadah | Total |\n| Fajr | 2 | 2 | 0 | 4 |\n| Dhuhr | 4 | 4 | 2 | 10 |\n| Asr | 4 | 0 | 2 | 6 |\n| Maghrib | 3 | 0 | 2 | 5 |\n| Isha | 4 | 2 | 2 | 8 |\n| TOTAL | 17 | 8 | 8 | 33 |\n\nTypes of Prayers: Fard (Obligatory) — compulsory, missing them is a grave sin. Sunnah Muakkadah (Strongly Recommended) — highly emphasized, the Prophet ﷺ regularly performed them. Sunnah Ghair Muakkadah (Optional) — the Prophet ﷺ occasionally performed them, bringing extra reward.\n\nPrayer is not merely physical movement — it demands Khushu (concentration and humility) and sincere connection with Allah. As Allah says: 'Indeed, prayer prohibits immorality and wrongdoing' (Quran 29:45)."
+      "starter": "Shalat itu mudah dan indah! Pertama kita bersuci (wudu), lalu berdiri menghadap Kiblat, ucapkan Allahu Akbar, baca Al-Fatihah, ruku, sujud, dan duduk. Ulangi beberapa kali, lalu salam. Setiap gerakan adalah cara kita menunjukkan cinta kepada Allah!",
+      "explorer": "Shalat mengikuti urutan yang telah ditetapkan. Dimulai dengan niat, lalu takbir (mengangkat tangan sambil mengucap Allahu Akbar), berdiri (qiyam) membaca Al-Fatihah dan surah, ruku (membungkuk), i'tidal (berdiri dari ruku), sujud (menyentuhkan dahi ke lantai), duduk di antara dua sujud, dan diakhiri dengan tasyahud dan salam. Setiap sikap memiliki bacaan khusus yang diajarkan oleh Nabi Muhammad ﷺ.",
+      "thinker": "Shalat adalah perpaduan gerakan fisik, bacaan lisan, dan kekhusyukan spiritual. Urutannya dimulai dari niat di hati hingga salam. Ruku melambangkan kerendahan hati di hadapan Allah — Nabi ﷺ bersabda: 'Seseorang paling dekat dengan Tuhannya ketika sujud.' Sujud adalah posisi terendah di mana dahi menyentuh tanah, menunjukkan ketundukan total. Shalat menggabungkan qiyam (berdiri), ruku (membungkuk), dan sujud (menyembah) — mencerminkan perjalanan spiritual dari ketinggian ke kerendahan hati, dari kekuatan ke ketergantungan kepada Allah."
     },
-    "funFact": "Did you know? The five daily prayers were prescribed during Prophet Muhammad's Night Journey (Isra and Mi'raj) to heaven. Originally, Allah commanded 50 prayers per day, but after several reductions through Prophet Musa's advice, it became 5 — yet the reward remains equal to 50!",
+    "funFact": "Tahukah kamu? Nabi ﷺ bersabda: 'Seseorang paling dekat dengan Tuhannya ketika sujud' — jadi perbanyaklah doa saat sujud!",
     "quiz": [
       {
-        "q": "How many steps are there in Wudu?",
+        "q": "Berapa langkah dalam wudu?",
         "options": [
-          "6 steps",
-          "8 steps",
-          "10 steps"
+          "6 langkah",
+          "8 langkah",
+          "10 langkah"
         ],
         "correct": 1,
-        "explanation": "Wudu consists of 8 main steps: Niyyah (intention), washing hands, rinsing mouth, rinsing nose, washing face, washing arms, wiping head, and washing feet."
+        "explanation": "Wudu terdiri dari 8 langkah utama: Niat, membasuh tangan, berkumur, membasuh hidung, membasuh muka, membasuh lengan, mengusap kepala, dan membasuh kaki."
       },
       {
-        "q": "What is the first step of Wudu?",
+        "q": "Apa langkah pertama dalam wudu?",
         "options": [
-          "Wash hands",
-          "Niyyah (Intention)",
-          "Rinse mouth"
+          "Membasuh tangan",
+          "Niat",
+          "Berkumur"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Wudu. You make the intention in your heart to perform Wudu for prayer."
+        "explanation": "Niat adalah langkah pertama wudu. Kamu berniat di dalam hati untuk berwudu karena shalat."
       },
       {
-        "q": "How many times should you wash your hands in Wudu?",
+        "q": "Berapa kali kamu membasuh tangan dalam wudu?",
         "options": [
-          "Once",
-          "Twice",
-          "Three times"
+          "Sekali",
+          "Dua kali",
+          "Tiga kali"
         ],
         "correct": 2,
-        "explanation": "In Wudu, you should wash your hands three times, starting with the right hand. This ensures thorough cleansing."
+        "explanation": "Dalam wudu, kamu membasuh tangan tiga kali, dimulai dari tangan kanan. Ini memastikan pembersihan yang menyeluruh."
       },
       {
-        "q": "Which body part is wiped (not washed) in Wudu?",
+        "q": "Anggota tubuh mana yang diusap (bukan dibasuh) dalam wudu?",
         "options": [
-          "Face",
-          "Head",
-          "Arms"
+          "Muka",
+          "Kepala",
+          "Lengan"
         ],
         "correct": 1,
-        "explanation": "The head is wiped once with wet hands during Wudu. This is different from washing, which is done for other body parts."
+        "explanation": "Kepala diusap sekali dengan tangan yang basah selama wudu. Ini berbeda dari membasuh yang dilakukan pada anggota tubuh lain."
       },
       {
-        "q": "When performing Wudu, which hand should you start with?",
+        "q": "Saat berwudu, tangan mana yang harus didahulukan?",
         "options": [
-          "Left hand",
-          "Right hand",
-          "Either hand"
+          "Tangan kiri",
+          "Tangan kanan",
+          "Salah satu tangan"
         ],
         "correct": 1,
-        "explanation": "In Wudu, you should start with the right hand for washing hands, arms, and feet. This is part of the Sunnah (practice of the Prophet ﷺ)."
+        "explanation": "Dalam wudu, kamu harus mendahulukan tangan kanan untuk membasuh tangan, lengan, dan kaki. Ini adalah bagian dari Sunnah Nabi ﷺ."
       },
       {
-        "q": "What is the first position in Salah prayer?",
+        "q": "Apa posisi pertama dalam shalat?",
         "options": [
-          "Ruku (Bowing)",
-          "Niyyah (Intention)",
-          "Qiyam (Standing)"
+          "Ruku",
+          "Niat",
+          "Qiyam (Berdiri)"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Salah. You intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha)."
+        "explanation": "Niat adalah langkah pertama shalat. Kamu berniat di hati untuk melaksanakan shalat tertentu (Subuh, Dzuhur, Ashar, Maghrib, atau Isya)."
       },
       {
-        "q": "What do you say when starting Salah?",
+        "q": "Apa yang diucapkan saat memulai shalat?",
         "options": [
           "Bismillah",
           "Allahu Akbar",
-          "SubhanAllah"
+          "Subhanallah"
         ],
         "correct": 1,
-        "explanation": "You say 'Allahu Akbar' (Allah is the Greatest) while raising your hands to your ears to begin Salah. This marks the beginning of your prayer."
+        "explanation": "Kamu mengucapkan 'Allahu Akbar' (Allah Maha Besar) sambil mengangkat tangan ke telinga untuk memulai shalat. Ini menandai dimulainya shalatmu."
       },
       {
-        "q": "How many main positions are there in Salah?",
+        "q": "Berapa posisi utama dalam shalat?",
         "options": [
-          "5 positions",
-          "7 positions",
-          "9 positions"
+          "5 posisi",
+          "7 posisi",
+          "9 posisi"
         ],
         "correct": 1,
-        "explanation": "There are 7 main positions in Salah: Niyyah, Takbir, Qiyam, Ruku, Qawmah, Sujud, and Tashahhud."
+        "explanation": "Ada 7 posisi utama dalam shalat: Niat, Takbir, Qiyam, Ruku, I'tidal, Sujud, dan Tasyahud."
       },
       {
-        "q": "What is Ruku in Salah?",
+        "q": "Apa itu ruku dalam shalat?",
         "options": [
-          "Bowing position",
-          "Prostration position",
-          "Standing position"
+          "Posisi membungkuk",
+          "Posisi sujud",
+          "Posisi berdiri"
         ],
         "correct": 0,
-        "explanation": "Ruku is the bowing position in Salah where you bend forward with your hands on your knees and your back parallel to the ground, saying 'Subhana Rabbiyal Azeem.'"
+        "explanation": "Ruku adalah posisi membungkuk dalam shalat di mana kamu membungkuk dengan tangan di lutut dan punggung sejajar tanah, mengucapkan 'Subhana Rabbiyal Azhim.'"
       },
       {
-        "q": "How many Fard rak'ahs are there in total across all 5 daily prayers?",
+        "q": "Berapa total rakaat fardhu dalam 5 waktu shalat?",
         "options": [
           "15",
           "17",
           "20"
         ],
         "correct": 1,
-        "explanation": "There are 17 Fard rak'ahs in total: Fajr (2), Dhuhr (4), Asr (4), Maghrib (3), and Isha (4)."
+        "explanation": "Total ada 17 rakaat fardhu: Subuh (2), Dzuhur (4), Ashar (4), Maghrib (3), dan Isya (4)."
       },
       {
-        "q": "Which prayer has 3 Fard rak'ahs?",
+        "q": "Shalat mana yang memiliki 3 rakaat fardhu?",
         "options": [
-          "Fajr",
+          "Subuh",
           "Maghrib",
-          "Isha"
+          "Isya"
         ],
         "correct": 1,
-        "explanation": "Maghrib (sunset prayer) is unique as it has 3 Fard rak'ahs, while all other prayers have either 2 or 4 Fard rak'ahs."
+        "explanation": "Maghrib (shalat matahari terbenam) unik karena memiliki 3 rakaat fardhu, sementara shalat lain memiliki 2 atau 4 rakaat fardhu."
       },
       {
-        "q": "What is Sujud in Salah?",
+        "q": "Apa itu sujud dalam shalat?",
         "options": [
-          "Standing upright",
-          "Bowing forward",
-          "Prostration on the ground"
+          "Berdiri tegak",
+          "Membungkuk ke depan",
+          "Sujud ke tanah"
         ],
         "correct": 2,
-        "explanation": "Sujud is the prostration position where your forehead, nose, hands, knees, and toes touch the ground. It is performed twice in each rak'ah, and you say 'Subhana Rabbiyal A'la.'"
+        "explanation": "Sujud adalah posisi di mana dahi, hidung, tangan, lutut, dan jari kaki menyentuh tanah. Sujud dilakukan dua kali dalam setiap rakaat, dan kamu mengucapkan 'Subhana Rabbiyal A'la.'"
       }
     ]
   },
   {
     "id": "honesty",
-    "title": "Honesty",
+    "title": "Kejujuran",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🤝",
     "category": "islamic_values",
     "content": {
-      "starter": "Honesty means always telling the truth! Allah loves people who are honest. Even if telling the truth is hard, it's always the right thing to do. When we're honest, people trust us and Allah is pleased with us!",
-      "explorer": "Honesty (Sidq) is one of the most important values in Islam. The Prophet ﷺ was known as 'Al-Amin' — the Trustworthy — because he always told the truth. Islam teaches us to be honest in our words, actions, and intentions. Lying is a major sin that can damage relationships and break trust. Being honest, even when it's difficult, earns Allah's love and the respect of others.",
-      "thinker": "Honesty (Sidq) and trustworthiness (Amanah) are foundational Islamic virtues. The Prophet ﷺ said: 'Truthfulness leads to righteousness, and righteousness leads to Paradise.' Honesty is not merely about not lying — it encompasses sincerity in intentions, accuracy in reporting, and integrity in all dealings. Allah says in the Quran: 'O you who believe, fear Allah and be among the truthful' (Surah At-Tawbah 9:119). The concept extends to being honest with oneself, honest in worship, and honest in business dealings."
+      "starter": "Jujur berarti selalu mengatakan yang benar! Nabi Muhammad ﷺ dikenal dengan nama Al-Amin, artinya 'Yang Terpercaya.' Bahkan sebelum menjadi nabi, semua orang tahu dia selalu jujur. Allah senang ketika kita berkata benar, bahkan saat itu sulit!",
+      "explorer": "Kejujuran (Shidq) sangat ditekankan dalam Islam. Allah memerintahkan kita untuk berkata benar dalam segala situasi. Nabi Muhammad ﷺ dikenal sebagai Al-Amin (Yang Terpercaya) bahkan sebelum menerima wahyu. Kejujuran bukan hanya soal tidak berbohong — itu juga tentang keikhlasan, integritas, dan menjaga amanah. Allah berfirman: 'Hai orang-orang yang beriman, bertakwalah kepada Allah dan katakanlah perkataan yang benar' (Surah Al-Ahzab 33:70).",
+      "thinker": "Kejujuran (Shidq) dalam Islam melampaui sekadar tidak berbohong. Ini mencakup kebenaran dalam perkataan (shidq al-lisan), kebenaran dalam niat (shidq al-niyyah), dan kebenaran dalam perbuatan (shidq al-fi'l). Nabi ﷺ bersabda: 'Berkatalah yang benar, meskipun itu pahit.' Al-Quran menghubungkan kejujuran dengan ketakwaan: 'Orang-orang yang beriman dan mengerjakan amal saleh, mereka akan mendapat surga yang mengalir di bawahnya sungai-sungai. Itulah keberuntungan yang besar' (Surah Al-Buruj 85:11). Kejujuran membangun kepercayaan dalam komunitas dan mencerminkan ciri seorang mukmin sejati."
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was called 'Al-Amin' (The Trustworthy) even before he became a prophet — because he NEVER told a lie!",
+    "funFact": "Tahukah kamu? Nabi Muhammad ﷺ dijuluki 'Al-Amin' (Yang Terpercaya) oleh seluruh penduduk Mekah — bahkan oleh orang-orang yang tidak suka kepadanya!",
     "quiz": [
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "Apa julukan Nabi Muhammad ﷺ sebelum menjadi nabi?",
         "options": [
           "Al-Hakim",
           "Al-Amin",
           "Al-Karim"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "Beliau dijuluki 'Al-Amin' (Yang Terpercaya) karena selalu berkata benar."
       },
       {
-        "q": "Is honesty only about not lying?",
+        "q": "Apakah kejujuran hanya tentang tidak berbohong?",
         "options": [
-          "Yes",
-          "No, it includes sincerity and integrity too",
-          "Sometimes"
+          "Ya",
+          "Tidak, juga mencakup keikhlasan dan integritas",
+          "Kadang-kadang"
         ],
         "correct": 1,
-        "explanation": "Honesty includes being truthful, sincere, and having integrity in everything."
+        "explanation": "Kejujuran mencakup berkata benar, ikhlas, dan memiliki integritas dalam segala hal."
       },
       {
-        "q": "What does Allah say about truthful people?",
+        "q": "Apa yang Allah katakan tentang orang yang jujur?",
         "options": [
-          "They are punished",
-          "He loves them",
-          "They are ignored"
+          "Mereka dihukum",
+          "Allah mencintai mereka",
+          "Mereka diabaikan"
         ],
         "correct": 1,
-        "explanation": "Allah loves truthful people and promises them Paradise."
+        "explanation": "Allah mencintai orang-orang yang jujur dan menjanjikan mereka Surga."
       }
     ]
   },
   {
     "id": "kindness",
-    "title": "Kindness",
+    "title": "Kebaikan",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_46_sadaqah_voluntary-metCJkjaZZWHwc3n86346d.webp?updatedAt=1781117902191",
     "emoji": "💕",
     "category": "islamic_values",
     "content": {
-      "starter": "Kindness means being nice to everyone! Help your friends, smile at people, share your toys, and be gentle. The Prophet ﷺ was the kindest person ever! When we're kind, Allah rewards us and everyone loves us!",
-      "explorer": "Kindness (Ihsan) is at the heart of Islamic teaching. The Prophet ﷺ said: 'The most beloved of people to Allah are those who are most beneficial to people.' Being kind means helping others, smiling, sharing, and treating everyone with respect — whether they're Muslim or not. Islam teaches that even a smile is charity (sadaqah).",
-      "thinker": "Kindness (Ihsan and Rahmah) is a comprehensive Islamic virtue. The Prophet ﷺ embodied mercy — the Quran describes him as 'a mercy to all the worlds' (Surah Al-Anbiya 21:107). Kindness extends to all creation: family, neighbors, strangers, animals, and even the environment. The Prophet ﷺ said: 'Charity does not decrease wealth. No one forgives another except that Allah increases his honor. And no one humbles himself for the sake of Allah except that Allah raises his status.' True kindness in Islam is not performative but stems from genuine love for Allah and His creation."
+      "starter": "Kebaikan berarti bersikap baik kepada semua orang! Bantu temanmu, senyum kepada orang lain, bermain mainanmu, dan bersikap lembut. Nabi ﷺ adalah orang paling baik yang pernah ada! Ketika kita berbuat baik, Allah memberi pahala dan semua orang menyukai kita!",
+      "explorer": "Kebaikan (Ihsan) adalah inti ajaran Islam. Nabi ﷺ bersabda: 'Manusia yang paling dicintai Allah adalah yang paling bermanfaat bagi manusia.' Berbuat baik berarti menolong orang lain, tersenyum, berbagi, dan memperlakukan semua orang dengan hormat — baik Muslim maupun non-Muslim. Islam mengajarkan bahwa bahkan senyuman adalah sedekah.",
+      "thinker": "Kebaikan (Ihsan dan Rahmah) adalah keutamaan Islam yang menyeluruh. Nabi ﷺ mewujudkan kasih sayang — Al-Quran menggambarkan beliau sebagai 'rahmat bagi seluruh alam' (Surah Al-Anbiya 21:107). Kebaikan meluas ke seluruh makhluk: keluarga, tetangga, orang asing, hewan, dan bahkan lingkungan. Nabi ﷺ bersabda: 'Sedekah tidak mengurangi harta. Tidak ada yang memaafkan orang lain kecuali Allah menambah kehormatannya. Dan tidak ada yang merendahkan diri karena Allah kecuali Allah mengangkat derajatnya.' Kebaikan sejati dalam Islam bukan permainan tetapi lahir dari cinta yang tulus kepada Allah dan ciptaan-Nya."
     },
-    "funFact": "Did you know? The Prophet ﷺ said that even smiling at someone is a form of charity! You can earn rewards just by being friendly!",
+    "funFact": "Tahukah kamu? Nabi ﷺ bersabda bahwa bahkan tersenyum kepada seseorang adalah bentuk sedekah! Kamu bisa mendapat pahala hanya dengan bersikap ramah!",
     "quiz": [
       {
-        "q": "What did the Prophet ﷺ say about smiling?",
+        "q": "Apa yang Nabi ﷺ katakan tentang tersenyum?",
         "options": [
-          "It's sinful",
-          "It's a form of charity",
-          "It's meaningless"
+          "Itu dosa",
+          "Itu bentuk sedekah",
+          "Itu tidak bermakna"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said even a smile is charity (sadaqah)."
+        "explanation": "Nabi ﷺ bersabda bahkan senyuman adalah sedekah."
       },
       {
-        "q": "Who should we be kind to?",
+        "q": "Kepada siapa kita harus berbuat baik?",
         "options": [
-          "Only Muslims",
-          "Only family",
-          "Everyone"
+          "Hanya sesama Muslim",
+          "Hanya keluarga",
+          "Semua orang"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to be kind to everyone — Muslim or not."
+        "explanation": "Islam mengajarkan kita untuk berbuat baik kepada semua orang — Muslim maupun non-Muslim."
       },
       {
-        "q": "What is the most beloved person to Allah?",
+        "q": "Siapa orang yang paling dicintai Allah?",
         "options": [
-          "The richest",
-          "The most beautiful",
-          "The most beneficial to others"
+          "Yang paling kaya",
+          "Yang paling tampan/cantik",
+          "Yang paling bermanfaat bagi orang lain"
         ],
         "correct": 2,
-        "explanation": "The Prophet ﷺ said the most beloved to Allah are those most beneficial to people."
+        "explanation": "Nabi ﷺ bersabda yang paling dicintai Allah adalah yang paling bermanfaat bagi manusia."
       }
     ]
   },
   {
     "id": "respect",
-    "title": "Respect",
+    "title": "Rasa Hormat",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_17_topic_respect_elders-6wUPfPgJRqgzEPbLKEPMkD.webp?updatedAt=1781117900196",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Respect means treating people nicely and politely! We respect our parents, teachers, and elders. We say 'please' and 'thank you.' We listen when others talk. Allah loves people who are respectful!",
-      "explorer": "Respect (Adab) is a key Islamic value. The Quran commands us to honor our parents, be kind to neighbors, and treat elders with dignity. The Prophet ﷺ taught that respect is not just about words but actions — standing up for elders, listening attentively, and honoring others' feelings. Respect also extends to respecting differences of opinion.",
-      "thinker": "Respect (Adab) in Islam is a comprehensive concept that encompasses how we relate to Allah, His creation, and ourselves. The Quran says: 'And your Lord has decreed that you worship none but Him, and that you be dutiful to your parents' (Surah Al-Isra 17:23). Respect for parents is given such high status that it appears immediately after the command to worship Allah alone. Beyond parents, Islam teaches respect for scholars, neighbors, the elderly, and even strangers. The Prophet ﷺ demonstrated this by standing when a funeral passed, greeting children, and honoring the rights of neighbors regardless of their faith."
+      "starter": "Rasa hormat berarti memperlakukan orang lain dengan baik! Kita harus menghormati orang tua, guru, dan semua orang yang lebih tua. Islam mengajarkan kita untuk menghormati semua orang — bahkan tetangga dan hewan! Allah sangat suka jika kita berbuat hormat!",
+      "explorer": "Rasa hormat (Adab) sangat penting dalam Islam. Setelah beribadah kepada Allah, Al-Quran memerintahkan kita untuk berbakti kepada orang tua. Islam mengajarkan kita untuk menghormati orang yang lebih tua, guru, tamu, dan tetangga. Nabi ﷺ mengajarkan bahwa tidaklah termasuk umatku orang yang tidak menghormati yang lebih tua dan menyayangi yang lebih muda.",
+      "thinker": "Rasa hormat (Adab) adalah fondasi akhlak Islam. Al-Quran mengaitkan penghormatan kepada orang tua dengan ibadah kepada Allah: 'Dan Tuhanmu telah memerintahkan supaya kamu jangan menyembah selain Dia dan hendaklah kamu berbuat baik pada ibu bapakmu dengan sebaik-baiknya' (Surah Al-Isra 17:23). Rasa hormat dalam Islam meluas ke semua bidang kehidupan — menghormati privasi tetangga, berbicara dengan lembut, mendengarkan ketika orang lain berbicara, dan tidak merendahkan siapa pun. Nabi ﷺ bersabda: 'Bukan dari golongan kami siapa yang tidak menghormati orang yang lebih tua dan tidak menyayangi yang lebih muda.' Adab mencerminkan keimanan seseorang."
     },
-    "funFact": "Did you know? In Islam, respecting your parents is considered the SECOND most important duty after worshipping Allah alone!",
+    "funFact": "Tahukah kamu? Dalam Islam, jika orang tuamu memanggilmu saat kamu sedang shalat sunnah, kamu harus membatalkannya dan menjawab panggilan mereka!",
     "quiz": [
       {
-        "q": "What comes right after worshipping Allah in importance?",
+        "q": "Apa yang datang tepat setelah ibadah kepada Allah dalam kepentingannya?",
         "options": [
-          "Being rich",
-          "Respecting parents",
-          "Going to Hajj"
+          "Menjadi kaya",
+          "Menghormati orang tua",
+          "Pergi haji"
         ],
         "correct": 1,
-        "explanation": "The Quran commands us to worship Allah alone, then to honor our parents."
+        "explanation": "Al-Quran memerintahkan kita untuk beribadah hanya kepada Allah, lalu berbakti kepada orang tua."
       },
       {
-        "q": "How should we treat elders?",
+        "q": "Bagaimana kita harus memperlakukan orang yang lebih tua?",
         "options": [
-          "Ignore them",
-          "With disrespect",
-          "With honor and dignity"
+          "Mengabaikan mereka",
+          "Dengan tidak hormat",
+          "Dengan kehormatan dan martabat"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to treat elders with honor and dignity."
+        "explanation": "Islam mengajarkan kita untuk memperlakukan orang yang lebih tua dengan kehormatan dan martabat."
       },
       {
-        "q": "What does 'Adab' mean?",
+        "q": "Apa arti 'Adab'?",
         "options": [
-          "Prayer",
-          "Respect and good manners",
-          "Food"
+          "Shalat",
+          "Rasa hormat dan tata krama",
+          "Makanan"
         ],
         "correct": 1,
-        "explanation": "Adab means respect, good manners, and proper etiquette in Islam."
+        "explanation": "Adab berarti rasa hormat, tata krama, dan etika yang baik dalam Islam."
       }
     ]
   },
   {
     "id": "patience",
-    "title": "Patience",
+    "title": "Kesabaran",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🧘",
     "category": "islamic_values",
     "content": {
-      "starter": "Patience means waiting calmly and not getting upset when things are hard! When you're sick, or something goes wrong, or you have to wait — be patient! Allah loves patient people and will reward them!",
-      "explorer": "Patience (Sabr) is one of the greatest virtues in Islam. The Quran says: 'Indeed, the patient will be given their reward without account' (Surah Az-Zumar 39:10). Sabr means staying calm during difficulties, resisting temptation, and being content with Allah's plan. The Prophet ﷺ compared patience to a precious gem — it's hard to find but incredibly valuable.",
-      "thinker": "Patience (Sabr) is one of the most emphasized virtues in Islam. The Quran mentions it over 70 times. Sabr has three dimensions: patience in obeying Allah (perseverance), patience in avoiding sin (restraint), and patience during hardship (endurance). Allah says: 'And be patient, for indeed, Allah does not allow to be lost the reward of those who do good' (Surah Hud 11:115). The Prophet ﷺ said: 'How wonderful is the affair of the believer, for all his affairs are good, and this does not apply to anyone except the believer. If something good happens to him, he is grateful, and that is good for him. If something bad happens to him, he bears it with patience, and that is good for him.'"
+      "starter": "Kesabaran berarti tetap tenang saat hal-hal sulit terjadi! Kadang kita harus menunggu, kadang kita sedih, kadang kita sakit — tapi kita harus tetap percaya kepada Allah. Allah bersama orang-orang yang sabar dan memberi mereka pahala besar!",
+      "explorer": "Kesabaran (Sabr) adalah sifat yang sangat penting dalam Islam. Sabr berarti tetap tabah menghadapi kesulitan tanpa mengeluh. Ada tiga jenis kesabaran: sabar dalam ketaatan kepada Allah, sabar dari maksiat, dan sabar menghadapi cobaan. Allah berfirman: 'Sesungguhnya Allah bersama orang-orang yang sabar' (Surah Al-Baqarah 2:153).",
+      "thinker": "Kesabaran (Sabr) adalah keutamaan sentral dalam Islam yang disebutkan lebih dari 70 kali dalam Al-Quran. Ada tiga dimensi kesabaran: Sabr 'ala al-tha'ah (sabar dalam ketaatan), Sabr 'an al-ma'shiyyah (sabar dari maksiat), dan Sabr 'ala al-mushibah (sabar menghadapi musibah). Allah berjanji: 'Sesungguhnya hanya orang-orang yang sabar yang dicukupkan pahala mereka tanpa batas' (Surah Az-Zumar 39:10). Nabi ﷺ mengajarkan bahwa musibah yang menimpa seorang mukmin — kelelahan, sakit, kecemasan, bahkan tertusuk duri — Allah menghapus dosa-dosanya karenanya. Kesabaran bukan pasif tetapi keteguhan aktif."
     },
-    "funFact": "Did you know? Allah mentions patience (Sabr) over 70 times in the Quran — it's one of the most important qualities a Muslim can have!",
+    "funFact": "Tahukah kamu? Allah menyebutkan kesabaran (Sabr) lebih dari 70 kali dalam Al-Quran — itu menunjukkan betapa pentingnya kesabaran!",
     "quiz": [
       {
-        "q": "What is 'Sabr'?",
+        "q": "Apa itu 'Sabr'?",
         "options": [
-          "Prayer",
-          "Patience",
-          "Charity"
+          "Shalat",
+          "Kesabaran",
+          "Sedekah"
         ],
         "correct": 1,
-        "explanation": "Sabr means patience — staying calm during difficulties and trusting Allah."
+        "explanation": "Sabr berarti kesabaran — tetap tenang saat kesulitan dan percaya kepada Allah."
       },
       {
-        "q": "How many times does Allah mention patience in the Quran?",
+        "q": "Berapa kali Allah menyebutkan kesabaran dalam Al-Quran?",
         "options": [
-          "5 times",
-          "Over 70 times",
-          "100 times"
+          "5 kali",
+          "Lebih dari 70 kali",
+          "100 kali"
         ],
         "correct": 1,
-        "explanation": "Allah mentions patience (Sabr) over 70 times in the Quran."
+        "explanation": "Allah menyebutkan kesabaran (Sabr) lebih dari 70 kali dalam Al-Quran."
       },
       {
-        "q": "What happens to patient people?",
+        "q": "Apa yang terjadi pada orang yang sabar?",
         "options": [
-          "Nothing",
-          "They are rewarded without limit",
-          "They are punished"
+          "Tidak ada apa-apa",
+          "Mereka diberi pahala tanpa batas",
+          "Mereka dihukum"
         ],
         "correct": 1,
-        "explanation": "Allah says the patient will be given their reward without account."
+        "explanation": "Allah berfirman bahwa orang-orang yang sabar akan diberi pahala tanpa batas."
       }
     ]
   },
   {
     "id": "gratitude",
-    "title": "Gratitude",
+    "title": "Rasa Syukur",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_50_hiba_gifts-6i3784QxV2uUz9RuU6ni4m.webp?updatedAt=1781117899322",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Gratitude means saying 'thank you' to Allah for everything! For food, family, friends, health — everything! When we're thankful, Allah gives us more blessings. A grateful heart is a happy heart!",
-      "explorer": "Gratitude (Shukr) means recognizing and appreciating Allah's blessings. The Quran says: 'If you are grateful, I will surely increase you' (Surah Ibrahim 14:7). Gratitude isn't just saying 'Alhamdulillah' — it's using Allah's blessings in ways that please Him. When we're grateful for health, we use it to do good. When we're grateful for wealth, we share it with others.",
-      "thinker": "Gratitude (Shukr) is a comprehensive Islamic concept that goes beyond simple thankfulness. It has three dimensions: gratitude of the heart (recognizing blessings), gratitude of the tongue (verbal thanks and praise), and gratitude of the limbs (using blessings in obedience to Allah). The Quran warns against ingratitude: 'If you are ungrateful, indeed, my punishment is severe' (Surah Ibrahim 14:7). The Prophet ﷺ would pray at night until his feet would swell, and when asked why, he would say: 'Should I not be a grateful servant?' Gratitude transforms our perspective — even in hardship, a grateful person finds blessings to thank Allah for."
+      "starter": "Rasa syukur berarti berterima kasih kepada Allah! Setiap kali kita makan, bernapas, atau bermain, kita harus mengucapkan Alhamdulillah — segala puji bagi Allah! Allah sangat senang ketika kita bersyukur, dan Dia akan memberi kita lebih banyak nikmat!",
+      "explorer": "Rasa syukur (Syukr) adalah mengakui bahwa setiap nikmat datang dari Allah. Ketika kita mengucapkan 'Alhamdulillah' (segala puji bagi Allah), kita mengakui bahwa semua yang kita miliki adalah pemberian-Nya. Allah berfirman: 'Jika kamu bersyukur, pasti Kami akan menambah (nikmat) kepadamu' (Surah Ibrahim 14:7). Bersyukur membuat kita menyadari berkah yang kita terima dan menjauhkan kita dari keluhan.",
+      "thinker": "Rasa syukur (Syukr) dalam Islam memiliki tiga dimensi: Syukr al-qalb (pengakuan dalam hati bahwa nikmat berasal dari Allah), Syukr al-lisan (ucapan terima kasih melalui pujian dan dzikir), dan Syukr al-arkan (perbuatan menggunakan nikmat dalam ketaatan kepada Allah). Al-Quran menyatakan: 'Jika kamu bersyukur, pasti Kami akan menambah (nikmat) kepadamu' (Surah Ibrahim 14:7). Yang menarik, Nabi Sulaiman menunjukkan rasa syukur bukan hanya untuk nikmat besar — bahkan untuk hal-hal kecil. Rasa syukur sejati mengubah perspektif seseorang dari apa yang tidak dimilikinya menjadi apa yang telah diberikan Allah."
     },
-    "funFact": "Did you know? The Prophet ﷺ would pray at night until his feet swelled — and when asked why, he said: 'Should I not be a grateful servant?'",
+    "funFact": "Tahukah kamu? Kata 'Alhamdulillah' mengandung rasa syukur yang sempurna — itu berarti 'segala puji bagi Allah' dan bisa diucapkan dalam keadaan apa pun!",
     "quiz": [
       {
-        "q": "What does 'Shukr' mean?",
+        "q": "Apa arti 'Syukr'?",
         "options": [
-          "Prayer",
-          "Gratitude",
-          "Fasting"
+          "Shalat",
+          "Rasa syukur",
+          "Puasa"
         ],
         "correct": 1,
-        "explanation": "Shukr means gratitude — being thankful to Allah for His blessings."
+        "explanation": "Syukr berarti rasa syukur — berterima kasih kepada Allah atas nikmat-Nya."
       },
       {
-        "q": "What does Allah promise to grateful people?",
+        "q": "Apa yang Allah janjikan kepada orang yang bersyukur?",
         "options": [
-          "Nothing",
-          "He will increase their blessings",
-          "He will punish them"
+          "Tidak ada apa-apa",
+          "Dia akan menambah nikmat mereka",
+          "Dia akan menghukum mereka"
         ],
         "correct": 1,
-        "explanation": "Allah says: 'If you are grateful, I will surely increase you.'"
+        "explanation": "Allah berfirman: 'Jika kamu bersyukur, pasti Kami akan menambah (nikmat) kepadamu.'"
       },
       {
-        "q": "What are the three dimensions of gratitude?",
+        "q": "Apa tiga dimensi rasa syukur?",
         "options": [
-          "Heart, tongue, and limbs",
-          "Mind, body, soul",
-          "Morning, afternoon, night"
+          "Hati, lisan, dan anggota tubuh",
+          "Pikiran, tubuh, jiwa",
+          "Pagi, siang, malam"
         ],
         "correct": 0,
-        "explanation": "Gratitude is expressed through the heart (recognizing), tongue (thanking), and limbs (using blessings to do good)."
+        "explanation": "Rasa syukur diungkapkan melalui hati (mengakui), lisan (berterima kasih), dan anggota tubuh (menggunakan nikmat untuk berbuat baik)."
       }
     ]
   },
   {
     "id": "prophet_muhammad",
-    "title": "Prophet Muhammad ﷺ",
+    "title": "Nabi Muhammad ﷺ",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "☪️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Muhammad ﷺ was the best person ever! He was kind, honest, and brave. He taught us about Allah and how to be good Muslims. He loved children and animals. We follow his example every day!",
-      "explorer": "Prophet Muhammad ﷺ was born in Mecca in 570 CE. He was known as 'Al-Amin' (The Trustworthy) even before prophethood. At age 40, Angel Jibril brought him the first revelation in the cave of Hira. He spent 23 years teaching Islam, facing persecution, and building a just community. He passed away in Medina in 632 CE, leaving behind a message for all of humanity.",
-      "thinker": "Prophet Muhammad ﷺ is the final messenger of Allah and the most influential person in history. Born an orphan, raised by his grandfather Abdul Muttalib and then his uncle Abu Talib, he grew up to be known for his truthfulness and integrity. The Quran describes him as 'a mercy to all the worlds' (21:107). His life (Seerah) is a comprehensive guide — from the early persecution in Mecca to the establishment of the first Islamic state in Medina, from the Treaty of Hudaybiyyah to the conquest of Mecca. He taught through example: he prayed until his feet swelled, gave charity until he had nothing left, and treated everyone with dignity regardless of their status."
+      "starter": "Nabi Muhammad ﷺ adalah nabi terakhir! Dia lahir di Mekah dan sangat baik, jujur, dan penyayang. Allah mengirimnya untuk mengajarkan kita tentang Islam. Dia mencintai anak-anak, hewan, dan semua orang. Kita harus mengikuti teladannya!",
+      "explorer": "Nabi Muhammad ﷺ lahir di Mekah pada tahun 570 M. Pada usia 40 tahun, ia menerima wahyu pertama dari Allah melalui Malaikat Jibril di Gua Hira. Ia mengajarkan tauhid, keadilan, kasih sayang, dan akhlak mulia selama 23 tahun. Meskipun menghadapi banyak cobaan, beliau tidak pernah membalas dengan kejahatan. Kehidupannya (Sirah) adalah contoh terbaik bagi setiap Muslim.",
+      "thinker": "Nabi Muhammad ﷺ adalah sosok yang paling berpengaruh dalam sejarah manusia — bahkan diakui oleh Michael H. Hart dalam bukunya 'The 100.' Al-Quran menggambarkan beliau sebagai uswatun hasanah (teladan yang baik) dalam Surah Al-Ahzab 33:21. Kehidupan beliau mencakup peran sebagai nabi, pemimpin negara, hakim, panglima militer, suami, ayah, dan sahabat. Nabi ﷺ mengatakan: 'Tidaklah aku diutus kecuali untuk menyempurnakan akhlak yang mulia.' Sirah (biografi) beliau dan Hadits (perkataan dan perbuatan) membimbing Muslim dalam setiap aspek kehidupan."
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was an orphan — his father died before he was born and his mother when he was only 6 years old. Despite this, he became the greatest person in history!",
+    "funFact": "Tahukah kamu? Nabi Muhammad ﷺ tidak pernah memakan makanan sendirian — beliau selalu mengajak orang lain makan bersama!",
     "quiz": [
       {
-        "q": "In which city was Prophet Muhammad ﷺ born?",
+        "q": "Di kota mana Nabi Muhammad ﷺ lahir?",
         "options": [
-          "Medina",
-          "Mecca",
-          "Jerusalem"
+          "Madinah",
+          "Mekah",
+          "Yerusalem"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ was born in Mecca in 570 CE."
+        "explanation": "Nabi Muhammad ﷺ lahir di Mekah pada tahun 570 M."
       },
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "Apa julukan Nabi Muhammad ﷺ sebelum menjadi nabi?",
         "options": [
           "Al-Hakim",
           "Al-Amin",
           "Al-Karim"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "Beliau dijuluki 'Al-Amin' (Yang Terpercaya) karena selalu berkata benar."
       },
       {
-        "q": "How old was Prophet Muhammad ﷺ when he received the first revelation?",
+        "q": "Berapa usia Nabi Muhammad ﷺ saat menerima wahyu pertama?",
         "options": [
           "25",
           "30",
           "40"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ was 40 years old when Angel Jibril brought the first revelation."
+        "explanation": "Nabi Muhammad ﷺ berusia 40 tahun saat Malaikat Jibril membawa wahyu pertama."
       }
     ]
   },
   {
     "id": "prophet_ibrahim",
-    "title": "Prophet Ibrahim",
+    "title": "Nabi Ibrahim",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "🏗️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Ibrahim loved Allah more than anything! He looked at the stars and knew they couldn't be God. He broke the idols people worshipped and told them only Allah deserves worship. Allah made him a great leader!",
-      "explorer": "Prophet Ibrahim (Abraham) is one of the greatest prophets. He realized at a young age that idols couldn't be God — they couldn't create or help anyone. He broke the idols and called people to worship Allah alone. Allah tested him greatly — He asked Ibrahim to leave his homeland, sacrifice his son, and build the Kaaba. Ibrahim obeyed every command, showing incredible faith.",
-      "thinker": "Prophet Ibrahim (Abraham) is known as 'Khalilullah' — the Friend of Allah. His story is one of absolute submission to divine will. He questioned his father's idol worship, challenged King Namrud, and was thrown into fire for his faith — yet Allah saved him. The sacrifice of his son Ismail (Ismail) is commemorated every year during Eid al-Adha. Ibrahim's willingness to leave his wife Hajar and infant son Ismail in the desert of Mecca — trusting completely in Allah's plan — led to the establishment of the Kaaba and the Zamzam well. He is the patriarch of the Abrahamic faiths and an enduring example of total trust in Allah."
+      "starter": "Nabi Ibrahim sangat mencintai Allah! Dia tidak mau menyembah patung-patung — hanya Allah yang disembahnya. Bahkan saat dilempar ke api besar, Allah menyelamatkannya. Dia juga membangun Kaabah bersama putranya, Ismail. Nabi Ibrahim adalah sahabat Allah!",
+      "explorer": "Nabi Ibrahim dikenal sebagai Khalilullah (Sahabat Allah). Ia menghancurkan berhala-berhala yang disembah orang dan hanya menyembah Allah. Ketika raja melemparkannya ke dalam api, Allah menjadikan api itu dingin dan aman baginya. Ibrahim dan putranya Ismail membangun Kaabah di Mekah. Kisahnya mengajarkan keberanian, pengorbanan, dan ketaatan mutlak kepada Allah.",
+      "thinker": "Nabi Ibrahim adalah figur sentral dalam tiga agama samawi dan disebut 'Khalilullah' (Sahabat Allah) dalam Al-Quran. Ujiannya yang paling terkenal — perintah untuk menyembelih putranya Ismail — menunjukkan ketaatan tanpa batas. Al-Quran menggambarkan momen ketika ia bermimpi menyembelih putranya dan keduanya tunduk pada kehendak Allah (Surah As-Saffat 37:102-107). Allah mengganti Ismail dengan seekor domba. Inilah asal-usul Qurban pada Idul Adha. Ibrahim juga menantang raja Namrud dengan alasan logis tentang keberadaan Allah, menunjukkan bahwa iman dan akal berjalan beriringan."
     },
-    "funFact": "Did you know? When Ibrahim was thrown into a giant fire, Allah said 'O fire, be cool and peaceful!' — and the fire didn't even burn him!",
+    "funFact": "Tahukah kamu? Nabi Ibrahim dijuluki 'Khalilullah' yang berarti 'Sahabat Allah' — gelar yang sangat istimewa!",
     "quiz": [
       {
-        "q": "What was Prophet Ibrahim known as?",
+        "q": "Apa sebutan Nabi Ibrahim?",
         "options": [
-          "Prophet of Thunder",
-          "Friend of Allah",
-          "King of Nations"
+          "Nabi Petir",
+          "Sahabat Allah",
+          "Raja Bangsa-bangsa"
         ],
         "correct": 1,
-        "explanation": "Ibrahim is called 'Khalilullah' — the Friend of Allah."
+        "explanation": "Ibrahim disebut 'Khalilullah' — Sahabat Allah."
       },
       {
-        "q": "What did Ibrahim break?",
+        "q": "Apa yang dihancurkan Ibrahim?",
         "options": [
-          "The Kaaba",
-          "Idols people worshipped",
-          "A window"
+          "Kaabah",
+          "Berhala-berhala yang disembah orang",
+          "Sebuah jendela"
         ],
         "correct": 1,
-        "explanation": "Ibrahim broke the idols people were worshipping to show only Allah deserves worship."
+        "explanation": "Ibrahim menghancurkan berhala-berhala yang disembah orang untuk menunjukkan hanya Allah yang berhak disembah."
       },
       {
-        "q": "What did Allah ask Ibrahim to build?",
+        "q": "Apa yang Allah perintahkan Ibrahim untuk membangun?",
         "options": [
-          "A house",
-          "The Kaaba",
-          "A school"
+          "Sebuah rumah",
+          "Kaabah",
+          "Sebuah sekolah"
         ],
         "correct": 1,
-        "explanation": "Allah asked Ibrahim to build the Kaaba in Mecca."
+        "explanation": "Allah memerintahkan Ibrahim untuk membangun Kaabah di Mekah."
       }
     ]
   },
   {
     "id": "islamic_civilization",
-    "title": "Islamic Civilization",
+    "title": "Peradaban Islam",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_20_topic_islamic_civilization-gNpeURs5zuRnR3dMvEndDR.webp?updatedAt=1781117902871",
     "emoji": "🏛️",
     "category": "stories_history",
     "content": {
-      "starter": "Muslims built amazing things long ago! They made beautiful mosques, hospitals, schools, and libraries. They studied science, math, and medicine. Muslims invented things we still use today — like cameras, universities, and coffee!",
-      "explorer": "Islamic civilization made incredible contributions to the world. Muslim scholars invented algebra, developed modern medicine, built the first universities, and preserved ancient Greek knowledge. Cities like Baghdad, Cordoba, and Cairo were centers of learning. Inventions include the camera (camera obscura), surgical instruments, and windmills. Muslims also built beautiful architecture like the Alhambra and the Dome of the Rock.",
-      "thinker": "The Islamic Golden Age (8th-14th centuries) was one of the most productive periods of scholarship in human history. Scholars like Al-Khwarizmi (algebra), Ibn Sina (medicine), Al-Kindi (philosophy), and Fatima al-Fihri (first university) transformed human knowledge. The House of Wisdom in Baghdad translated and preserved Greek, Persian, and Indian texts that would have been lost. Islamic civilization pioneered hospitals (bimaristans), observatories, and public libraries. The concept of the university was literally invented by Muslims — the University of al-Qarawiyyin in Fez, Morocco, founded by Fatima al-Fihri in 859 CE, is recognized by UNESCO as the oldest existing university."
+      "starter": "Umat Muslim pernah memimpin dunia dalam ilmu pengetahuan! Mereka menemukan aljabar, membuat obat-obatan baru, memetakan bintang-bintang, dan membangun universitas pertama di dunia! Ilmu pengetahuan sangat penting dalam Islam — Nabi ﷺ mengatakan mencari ilmu adalah kewajiban!",
+      "explorer": "Zaman Keemasan Islam (abad ke-8 hingga ke-14) adalah periode kemajuan luar biasa dalam ilmu pengetahuan, matematika, kedokteran, dan filsafat. Ilmuwan Muslim seperti Al-Khwarizmi (aljabar), Ibn Sina (kedokteran), dan Al-Biruni (sains) merevolusi pemahaman manusia. Muslim membangun universitas pertama di dunia, mengembangkan rumah sakit, dan menerjemahkan karya-karya Yunani kuno. Al-Quran mendorong pencarian ilmu: 'Bacalah!' adalah wahyu pertama.",
+      "thinker": "Zaman Keemasan Islam didorong oleh perintah Al-Quran untuk menuntut ilmu dan mengamati alam. Baitul Hikmah (House of Wisdom) di Baghdad menjadi pusat intelektual terbesar di dunia. Ilmuwan Muslim tidak hanya mempertahankan pengetahuan kuno — mereka memperluasnya secara signifikan. Al-Khwarizmi menciptakan aljabar, Ibn Sina menulis 'Kanon Kedokteran' yang menjadi standar selama 600 tahun, dan Al-Biruni menghitung keliling Bumi dengan akurasi yang luar biasa. Muslim juga mengembangkan konsep nol, teknik irigasi canggih, dan arsitektur yang memukau. Warisan ini membentuk fondasi Renaissance Eropa."
     },
-    "funFact": "Did you know? The first university in the world was built by a Muslim woman — Fatima al-Fihri — in Morocco in the year 859 CE!",
+    "funFact": "Tahukah kamu? Kata 'aljabar' berasal dari buku Arab 'Al-Jabr' oleh Al-Khwarizmi — dan kata 'algoritma' berasal dari namanya!",
     "quiz": [
       {
-        "q": "What did Al-Khwarizmi invent?",
+        "q": "Apa yang ditemukan Al-Khwarizmi?",
         "options": [
-          "Medicine",
-          "Algebra",
-          "Astronomy"
+          "Obat-obatan",
+          "Aljabar",
+          "Astronomi"
         ],
         "correct": 1,
-        "explanation": "Al-Khwarizmi invented algebra — the word 'algorithm' comes from his name!"
+        "explanation": "Al-Khwarizmi menemukan aljabar — kata 'algoritma' berasal dari namanya!"
       },
       {
-        "q": "Who built the first university in the world?",
+        "q": "Siapa yang membangun universitas pertama di dunia?",
         "options": [
-          "A Muslim man",
-          "Fatima al-Fihri",
-          "A Greek scholar"
+          "Seorang pria Muslim",
+          "Fatimah al-Fihri",
+          "Seorang ilmuwan Yunani"
         ],
         "correct": 1,
-        "explanation": "Fatima al-Fihri, a Muslim woman, built the first university in Morocco in 859 CE."
+        "explanation": "Fatimah al-Fihri, seorang wanita Muslim, membangun universitas pertama di Maroko pada tahun 859 M."
       },
       {
-        "q": "What was the Islamic Golden Age known for?",
+        "q": "Apa yang dikenal dari Zaman Keemasan Islam?",
         "options": [
-          "Only art",
-          "Advances in science, math, and medicine",
-          "Only farming"
+          "Hanya seni",
+          "Kemajuan dalam sains, matematika, dan kedokteran",
+          "Hanya pertanian"
         ],
         "correct": 1,
-        "explanation": "Muslims made incredible advances in science, math, medicine, and many other fields."
+        "explanation": "Muslim membuat kemajuan luar biasa dalam sains, matematika, kedokteran, dan banyak bidang lainnya."
       }
     ]
   },
   {
     "id": "ramadan",
-    "title": "Ramadan",
+    "title": "Bulan Ramadhan",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_39_ramadan_overview-KSNdX85Mzos8r2Xf3JL6rh.webp?updatedAt=1781117901328",
     "emoji": "🌙",
     "category": "special_times",
     "content": {
-      "starter": "Ramadan is the best month! It's when Allah sent the Quran. We fast from sunrise to sunset — no eating or drinking! At night, we pray, read Quran, and have iftar with family. Everyone is happy and kind during Ramadan!",
-      "explorer": "Ramadan is the ninth month of the Islamic calendar and the holiest month for Muslims. The Quran was first revealed during Ramadan. Muslims fast from dawn to sunset, refraining from food, drink, and other physical needs. It's a time of increased prayer, charity, and Quran reading. Ramadan teaches self-discipline, empathy for the poor, and brings families and communities together.",
-      "thinker": "Ramadan is the month in which the Quran was revealed as guidance for humanity (Surah Al-Baqarah 2:185). Fasting (Sawm) during Ramadan is the fourth pillar of Islam and serves multiple purposes: developing taqwa (God-consciousness), purifying the soul, building empathy for the less fortunate, and strengthening community bonds. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a spiritual rhythm throughout the month. The last 10 nights are especially sacred, as Laylat al-Qadr (the Night of Power) — described as 'better than a thousand months' — falls within them. Ramadan transforms communities: charity increases, tempers cool, and hearts soften."
+      "starter": "Ramadhan adalah bulan paling istimewa! Selama sebulan penuh, Muslim berpuasa dari subuh hingga maghrib. Kita membaca Al-Quran lebih banyak, berdoa lebih banyak, dan berbuat baik lebih banyak. Pada akhir Ramadhan, kita merayakan Idul Fitri — pesta besar setelah sebulan penuh berpuasa!",
+      "explorer": "Ramadhan adalah bulan kesembilan dalam kalender Hijriah, ketika Al-Quran pertama kali diturunkan. Selama bulan ini, Muslim berpuasa dari subuh hingga maghrib, meningkatkan ibadah, dan beramal lebih banyak. Malam Lailatul Qadr (Malam Ketentuan), yang lebih baik dari 1000 bulan, terjadi pada 10 hari terakhir Ramadhan. Ramadhan adalah waktu penyucian spiritual, peningkatan kepedulian sosial, dan mempererat ikatan komunitas.",
+      "thinker": "Ramadhan memegang tempat unik dalam kalender Islam karena Al-Quran diturunkan pada bulan ini: 'Bulan Ramadhan, bulan yang di dalamnya diturunkan Al-Quran' (Surah Al-Baqarah 2:185). Ibadah selama Ramadhan melampaui puasa — termasuk shalat Tarawih, tilawah Al-Quran, dan amal. Lailatul Qadr, pada salah satu malam ganjil dari 10 hari terakhir, adalah malam ketika Al-Quran pertama kali diturunkan. Nabi ﷺ bersabda: 'Barangsiapa beribadah pada Lailatul Qadr dengan iman dan mengharap pahala, maka diampuni dosa-dosanya yang telah lalu.' Ramadhan mengajarkan disiplin spiritual dan kasih sayang sosial."
     },
-    "funFact": "Did you know? Laylat al-Qadr (the Night of Power) in Ramadan is better than 1,000 months — that's over 83 years of blessings in just one night!",
+    "funFact": "Tahukah kamu? Lailatul Qadr (Malam Ketentuan) selama Ramadhan lebih baik dari 1000 bulan ibadah — itu lebih dari 83 tahun!",
     "quiz": [
       {
-        "q": "During which month was the Quran revealed?",
+        "q": "Pada bulan apa Al-Quran diturunkan?",
         "options": [
           "Muharram",
-          "Ramadan",
-          "Shawwal"
+          "Ramadhan",
+          "Syawal"
         ],
         "correct": 1,
-        "explanation": "The Quran was first revealed during the month of Ramadan."
+        "explanation": "Al-Quran pertama kali diturunkan selama bulan Ramadhan."
       },
       {
-        "q": "What is Laylat al-Qadr?",
+        "q": "Apa itu Lailatul Qadr?",
         "options": [
-          "A regular night",
-          "The Night of Power, better than 1,000 months",
-          "The first day of Ramadan"
+          "Malam biasa",
+          "Malam Ketentuan, lebih baik dari 1000 bulan",
+          "Hari pertama Ramadhan"
         ],
         "correct": 1,
-        "explanation": "Laylat al-Qadr (Night of Power) is better than 1,000 months of worship."
+        "explanation": "Lailatul Qadr (Malam Ketentuan) lebih baik dari 1000 bulan ibadah."
       },
       {
-        "q": "What is the pre-dawn meal called?",
+        "q": "Apa nama makanan sebelum fajar?",
         "options": [
-          "Iftar",
-          "Suhoor",
-          "Dhuhr"
+          "Berbuka puasa (Iftar)",
+          "Sahur",
+          "Dzuhur"
         ],
         "correct": 1,
-        "explanation": "The pre-dawn meal before fasting is called Suhoor."
+        "explanation": "Makanan sebelum fajar sebelum berpuasa disebut sahur."
       }
     ]
   },
   {
     "id": "eid_al_fitr",
-    "title": "Eid al-Fitr",
+    "title": "Idul Fitri",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_42_eid_fitr_celebration-WoRzqkwEMUXtjWTsNNttWJ.webp?updatedAt=1781117904296",
     "emoji": "🎉",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Fitr is the happy day after Ramadan! We wear new clothes, eat yummy food, give gifts, and say 'Eid Mubarak!' to everyone. We give money to poor people called Zakat al-Fitr. It's like a big party for Allah!",
-      "explorer": "Eid al-Fitr marks the end of Ramadan and is one of the two major Islamic holidays. Muslims gather for a special prayer, give Zakat al-Fitr (charity to the poor), wear their best clothes, and celebrate with family and friends. Children receive gifts and money (Eidi). It's a day of joy, gratitude, and community after a month of fasting and worship.",
-      "thinker": "Eid al-Fitr ('Festival of Breaking the Fast') is celebrated on the first day of Shawwal, the month following Ramadan. It begins with a special congregational prayer and sermon, followed by Zakat al-Fitr — a mandatory charity given before the Eid prayer to ensure even the poorest can celebrate. The Prophet ﷺ would wear his best clothes on Eid and apply perfume. Eid is a day of celebration, but also of reflection — thanking Allah for the strength to complete Ramadan and asking for acceptance of our worship. It strengthens community bonds as Muslims visit relatives, share meals, and reconcile differences."
+      "starter": "Idul Fitri adalah hari raya besar di akhir Ramadhan! Kita shalat Id bersama-sama, makan makanan enak, mengenakan pakaian baru, dan berkata 'Idul Fitri Mubarak!' Kita juga memberi sedekah kepada orang miskin agar mereka bisa merayakan juga!",
+      "explorer": "Idul Fitri menandai berakhirnya bulan puasa Ramadhan. Pada hari ini, Muslim melakukan shalat Id di masjid atau lapangan terbuka, mengenakan pakaian terbaik, dan mengunjungi keluarga serta teman. Sebelum shalat Id, Muslim wajib membayar Zakat Fitrah — sedekah untuk memastikan kaum miskin juga bisa merayakan. Idul Fitri adalah hari kegembiraan, rasa syukur, dan kebersamaan.",
+      "thinker": "Idul Fitri ('Id al-Fitr') adalah salah satu dari dua hari raya utama dalam Islam. Nabi ﷺ tiba di Madinah dan menemukan orang-orang merayakan dua hari perayaan — beliau menggantikannya dengan dua Id: Idul Fitri dan Idul Adha. Pada hari Idul Fitri, haram berpuasa karena ini adalah hari perayaan. Kewajiban Zakat Fitrah sebelum shalat Id memastikan keadilan sosial — agar tidak ada yang terpinggirkan dari kegembiraan. Khutbah Id menekankan rasa syukur, persatuan, dan memperbarui komitmen kepada Allah."
     },
-    "funFact": "Did you know? On Eid, you must give charity (Zakat al-Fitr) BEFORE the Eid prayer — so even poor people can celebrate!",
+    "funFact": "Tahukah kamu? Kata 'Idul Fitri' berarti 'Hari Raya Berbuka Puasa' — dan 'Mubarak' berarti 'diberkahi!'",
     "quiz": [
       {
-        "q": "When is Eid al-Fitr celebrated?",
+        "q": "Kapan Idul Fitri dirayakan?",
         "options": [
-          "Beginning of Ramadan",
-          "End of Ramadan",
-          "Middle of Ramadan"
+          "Awal Ramadhan",
+          "Akhir Ramadhan",
+          "Pertengahan Ramadhan"
         ],
         "correct": 1,
-        "explanation": "Eid al-Fitr is celebrated at the end of Ramadan."
+        "explanation": "Idul Fitri dirayakan di akhir bulan Ramadhan."
       },
       {
-        "q": "What must Muslims give before Eid prayer?",
+        "q": "Apa yang wajib diberikan Muslim sebelum shalat Id?",
         "options": [
-          "More fasting",
-          "Zakat al-Fitr (charity)",
-          "A new car"
+          "Puasa lagi",
+          "Zakat Fitrah (sedekah)",
+          "Mobil baru"
         ],
         "correct": 1,
-        "explanation": "Zakat al-Fitr is charity given before Eid prayer so the poor can celebrate too."
+        "explanation": "Zakat Fitrah adalah sedekah yang diberikan sebelum shalat Id agar kaum miskin juga bisa merayakan."
       },
       {
-        "q": "What do we say to others on Eid?",
+        "q": "Apa yang kita ucapkan kepada orang lain pada hari Id?",
         "options": [
-          "Happy Birthday",
-          "Eid Mubarak",
-          "Good Morning"
+          "Selamat Ulang Tahun",
+          "Idul Fitri Mubarak",
+          "Selamat Pagi"
         ],
         "correct": 1,
-        "explanation": "We say 'Eid Mubarak' — meaning 'Blessed Eid!'"
+        "explanation": "Kita mengucapkan 'Idul Fitri Mubarak' — artinya 'Id yang Diberkahi!'"
       }
     ]
   },
   {
     "id": "eid_al_adha",
-    "title": "Eid al-Adha",
+    "title": "Idul Adha",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_43_eid_adha_celebration-a8nckcQaGvn3CYJJy7ta5A.webp?updatedAt=1781117903366",
     "emoji": "🐑",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Adha is the big Eid! It remembers when Prophet Ibrahim was ready to sacrifice his son for Allah. Allah was so happy with his faith that He sent a sheep instead! We sacrifice an animal and share the meat with family and poor people!",
-      "explorer": "Eid al-Adha ('Festival of Sacrifice') honors Prophet Ibrahim's willingness to sacrifice his son Ismail for Allah. Before Eid, Muslims who can afford it sacrifice an animal (sheep, goat, cow, or camel) and divide the meat into three parts: one for family, one for friends and neighbors, one for the poor. It coincides with the Hajj pilgrimage and is one of the two major Islamic holidays.",
-      "thinker": "Eid al-Adha commemorates one of the most profound acts of faith in Islamic history — Prophet Ibrahim's willingness to sacrifice his son Ismail in complete obedience to Allah. Just as Ibrahim was about to carry out the sacrifice, Allah replaced Ismail with a ram, and the sacrifice was accepted symbolically. This event is commemorated by millions of Muslims worldwide who sacrifice an animal during the days of Eid. The meat is divided into thirds: family, friends/neighbors, and the poor. Eid al-Adha coincides with the Hajj pilgrimage — while pilgrims are at Arafat, Muslims worldwide celebrate this festival of sacrifice, gratitude, and community."
+      "starter": "Idul Adha mengenang saat Nabi Ibrahim siap mengorbankan putranya karena Allah! Allah mengirim domba sebagai pengganti. Setiap tahun, Muslim menyembelih hewan qurban dan membagikan dagingnya kepada orang miskin. Ini tentang berbagi dan ketaatan kepada Allah!",
+      "explorer": "Idul Adha (Hari Raya Qurban) jatuh pada tanggal 10 Dzulhijjah, selama musim haji. Ini mengenang kesediaan Nabi Ibrahim untuk mengorbankan putranya Ismail atas perintah Allah. Allah mengganti Ismail dengan seekor domba. Muslim yang mampu menyembelih hewan qurban (kambing, domba, sapi, atau unta) dan membagikan dagingnya dalam tiga bagian: keluarga, teman/tetangga, dan kaum miskin.",
+      "thinker": "Idul Adha menghubungkan ritual Haji dengan komunitas Muslim global. Perintah qurban berakar pada ujian Ibrahim — ketaatan mutlak bahkan ketika diperintah mengorbankan yang paling dicintai. Al-Quran menyatakan: 'Bukanlah daging dan darahnya yang sampai kepada Allah, tetapi ketakwaan dari kamu' (Surah Al-Hajj 22:37). Pembagian tiga bagian dari daging qurban memastikan keadilan sosial: sepertiga untuk keluarga, sepertiga untuk teman dan tetangga, dan sepertiga untuk kaum miskin. Idul Adha mengajarkan bahwa pengorbanan sejati bukan tentang kehilangan — tetapi tentang menyerahkan apa yang kita cintai demi Allah."
     },
-    "funFact": "Did you know? Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah — but Allah sent a ram instead as a test of faith!",
+    "funFact": "Tahukah kamu? Daging qurban dibagi menjadi tiga bagian — untuk keluarga, tetangga, dan kaum miskin — sehingga semua orang bisa merayakan!",
     "quiz": [
       {
-        "q": "What does Eid al-Adha remember?",
+        "q": "Apa yang dikenang Idul Adha?",
         "options": [
-          "Ramadan ending",
-          "Ibrahim's willingness to sacrifice his son",
-          "The Quran being revealed"
+          "Berakhirnya Ramadhan",
+          "Kesediaan Ibrahim mengorbankan putranya",
+          "Al-Quran diturunkan"
         ],
         "correct": 1,
-        "explanation": "Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah."
+        "explanation": "Idul Adha mengenang saat Nabi Ibrahim siap mengorbankan putranya karena Allah."
       },
       {
-        "q": "How many parts is the sacrificial meat divided into?",
+        "q": "Berapa bagian daging qurban dibagi?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "Satu bagian",
+          "Dua bagian",
+          "Tiga bagian"
         ],
         "correct": 2,
-        "explanation": "The meat is divided into three: family, friends/neighbors, and the poor."
+        "explanation": "Daging qurban dibagi menjadi tiga: keluarga, teman/tetangga, dan kaum miskin."
       },
       {
-        "q": "What did Allah send instead of Ibrahim's son?",
+        "q": "Apa yang Allah kirim sebagai pengganti putra Ibrahim?",
         "options": [
-          "Nothing",
-          "A ram (sheep)",
-          "An angel"
+          "Tidak ada",
+          "Seekor domba",
+          "Seorang malaikat"
         ],
         "correct": 1,
-        "explanation": "Allah sent a ram to be sacrificed instead, accepting Ibrahim's willingness."
+        "explanation": "Allah mengirim seekor domba sebagai pengganti, menerima kesediaan Ibrahim."
+      }
+    ]
+  },
+  {
+    "id": "al_khwarizmi",
+    "title": "Al-Khwarizmi - Bapak Aljabar",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_25_scholar_al_khwarizmi-YyTnbwqk77BcABwPTm7CYw.webp?updatedAt=1781117901745",
+    "emoji": "📐",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Khwarizmi adalah ilmuwan Muslim yang hebat yang menemukan aljabar! Tanpanya, kita tidak akan memiliki matematika seperti sekarang ini. Bahkan kata 'algoritma' berasal dari namanya! Setiap kali kamu belajar matematika, kamu menggunakan karya-karyanya!",
+      "explorer": "Al-Khwarizmi adalah seorang matematikawan dan ahli astronomi Persia yang bekerja di Baitul Hikmah di Baghdad. Buku terkenalnya 'Al-Jabr wal-Muqabalah' menciptakan aljabar sebagai disiplin ilmu yang terstruktur. Ia juga memperkenalkan angka-angka Hindu-Arab (0-9) ke dunia Barat, menggantikan angka Romawi yang rumit. Karyanya merevolusi matematika dan mempengaruhi seluruh dunia.",
+      "thinker": "Al-Khwarizmi (sekitar 780-850 M) mungkin adalah ilmuwan Muslim yang paling berpengaruh terhadap matematika modern. Karyanya 'Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabalah' menetapkan dasar aljabar sistematis — memecahkan persamaan secara metodis daripada coba-coba. Istilah 'aljabar' berasal dari 'al-Jabr' dalam judul bukunya. Istilah 'algoritma' berasal dari nama Latinnya, 'Algoritmi.' Ia juga mengembangkan trigonometri spherical, membuat tabel astronomi, dan berkontribusi pada geografi. Metodenya yang sistematis dalam memecahkan masalah meletakkan fondasi untuk semua pemrograman komputer modern."
+    },
+    "funFact": "Tahukah kamu? Kata 'algoritma' yang digunakan dalam pemrograman komputer berasal dari nama Al-Khwarizmi — dan 'aljabar' berasal dari bukunya!",
+    "quiz": [
+      {
+        "q": "Cabang matematika apa yang ditemukan Al-Khwarizmi?",
+        "options": [
+          "Kalkulus",
+          "Geometri",
+          "Aljabar"
+        ],
+        "correct": 2,
+        "explanation": "Al-Khwarizmi menulis 'Al-Jabr', menciptakan sistem terstruktur untuk memecahkan persamaan yang disebut aljabar."
+      },
+      {
+        "q": "Di mana Al-Khwarizmi melakukan penelitian ilmiahnya?",
+        "options": [
+          "Piramida",
+          "Baitul Hikmah di Baghdad",
+          "Perpustakaan Alexandria"
+        ],
+        "correct": 1,
+        "explanation": "Baitul Hikmah di Baghdad adalah pusat intelektual utama Zaman Keemasan Islam."
+      },
+      {
+        "q": "Istilah ilmu komputer modern mana yang berasal dari nama Al-Khwarizmi?",
+        "options": [
+          "Perangkat keras",
+          "Algoritma",
+          "Internet"
+        ],
+        "correct": 1,
+        "explanation": "Kata 'algoritma' berasal dari terjemahan Latin namanya, 'Algoritmi'."
+      }
+    ]
+  },
+  {
+    "id": "ibn_sina",
+    "title": "Ibn Sina - Bapak Kedokteran",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_26_scholar_ibn_sina-96S5bSYcoRZXXh4aq6Jx7q.webp?updatedAt=1781117902508",
+    "emoji": "🩺",
+    "category": "stories_history",
+    "content": {
+      "starter": "Ibn Sina adalah dokter yang luar biasa! Dia menulis buku kedokteran paling terkenal yang digunakan selama ratusan tahun. Dia juga menghafal seluruh Al-Quran saat usia 10 tahun! Ibn Sina menemukan cara-cara baru untuk mengobati penyakit yang masih penting hari ini!",
+      "explorer": "Ibn Sina (Avicenna) adalah seorang polimatik Persia yang menulis 'Kanon Kedokteran' (Al-Qanun fi al-Tibb) — buku kedokteran paling berpengaruh yang pernah ditulis. Buku ini digunakan di universitas-universitas Eropa selama lebih dari 600 tahun. Ibn Sina mengidentifikasi penyakit menular, memelopori karantina, dan menemukan banyak pengobatan. Ia juga berkontribusi pada filsafat, fisika, dan kimia.",
+      "thinker": "Ibn Sina (980-1037 M) adalah salah satu polimatik terbesar dalam sejarah. 'Al-Qanun fi al-Tibb' (Kanon Kedokteran) mengkompilasi seluruh pengetahuan medis dan menambahkan observasi orisinalnya sendiri — menjadi ensiklopedia medis paling komprehensif. Ia menghipotesiskan bahwa penyakit menular menyebar melalui partikel tak terlihat (mikroba), memelopori konsep karantina, dan mendeskripsikan gejala klinis pertama dari berbagai penyakit. Di luar kedokteran, karya filosofisnya 'Kitab asy-Syifa'' membahas logika, fisika, matematika, dan metafisika. Warisannya menjembatani ilmu pengetahuan dan filsafat."
+    },
+    "funFact": "Tahukah kamu? Ibn Sina menghafal seluruh Al-Quran pada usia 10 tahun dan menjadi dokter pada usia 18 tahun!",
+    "quiz": [
+      {
+        "q": "Apa nama buku kedokteran terkenal karya Ibn Sina?",
+        "options": [
+          "Kitab Kebijaksanaan",
+          "Kanon Kedokteran",
+          "Hukum Alam"
+        ],
+        "correct": 1,
+        "explanation": "Ibn Sina menulis 'Kanon Kedokteran', yang menjadi standar buku teks selama berabad-abad."
+      },
+      {
+        "q": "Pada usia berapa Ibn Sina menghafal seluruh Al-Quran?",
+        "options": [
+          "10 tahun",
+          "18 tahun",
+          "25 tahun"
+        ],
+        "correct": 0,
+        "explanation": "Ibn Sina menghafal Al-Quran pada usia 10 tahun, menunjukkan kecerdasan luar biasa sejak usia sangat muda."
+      },
+      {
+        "q": "Praktik medis apa yang dipelopori Ibn Sina untuk mengendalikan penyebaran penyakit menular?",
+        "options": [
+          "Akupunktur",
+          "Karantina",
+          "Gips patah tulang"
+        ],
+        "correct": 1,
+        "explanation": "Ibn Sina menghipotesiskan bahwa penyakit menyebar melalui partikel mikroskopis dan memelopori metode karantina."
+      }
+    ]
+  },
+  {
+    "id": "al_razi",
+    "title": "Ar-Razi - Pelopor Kimia",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_27_scholar_al_razi-734zXvqhUQPULCRdzdCjA9.webp?updatedAt=1781117901576",
+    "emoji": "🧪",
+    "category": "stories_history",
+    "content": {
+      "starter": "Ar-Razi adalah ilmuwan Muslim yang menemukan banyak hal tentang kimia dan kedokteran! Dia membedakan antara cacar dan campak — ini sangat penting untuk mengobati orang. Dia juga membangun rumah sakit dan menemukan cara untuk menemukan tempat yang paling bersih untuk membangunnya!",
+      "explorer": "Ar-Razi (Rhazes) adalah seorang dokter dan kimiawan Persia yang menghasilkan karya luar biasa. Ia adalah dokter pertama yang membedakan antara cacar dan campak secara jelas. Karyanya 'Al-Hawi fi al-Tibb' (Buku Komprehensif tentang Kedokteran) menjadi ensiklopedia medis terbesar di dunia. Ia juga mengklasifikasikan bahan kimia menjadi mineral, tumbuhan, dan hewan — meletakkan dasar kimia modern.",
+      "thinker": "Ar-Razi (sekitar 865-925 M) adalah salah satu dokter paling orisinal dalam sejarah. Berbeda dengan banyak sarjana yang hanya mengulangi pengetahuan Yunani, Ar-Razi menantang Galen ketika observasinya berbeda. Risalahnya tentang cacar dan campak diakui secara internasional dan diterjemahkan ke berbagai bahasa. Ia memelopori pendekatan empiris — mengamati pasien secara sistematis sebelum membuat kesimpulan. Saat membangun rumah sakit Baghdad, ia menggantungkan daging mentah di berbagai lokasi; tempat di mana daging paling lambat membusuk memiliki udara paling bersih — metode saintifik yang brilian."
+    },
+    "funFact": "Tahukah kamu? Ar-Razi menemukan lokasi paling bersih untuk rumah sakit di Baghdad dengan menggantungkan daging mentah di seluruh kota — tempat daging paling lambat membusuk menjadi lokasi rumah sakit!",
+    "quiz": [
+      {
+        "q": "Bagaimana Ar-Razi memilih tempat paling bersih untuk membangun rumah sakit Baghdad?",
+        "options": [
+          "Dengan bertanya kepada raja",
+          "Dengan menggantung daging mentah untuk melihat di mana paling lambat membusuk",
+          "Dengan mengukur suhu air"
+        ],
+        "correct": 1,
+        "explanation": "Ia menggantung daging di seluruh kota; lokasi di mana daging paling segar memiliki udara paling bersih."
+      },
+      {
+        "q": "Ar-Razi adalah dokter pertama dalam sejarah yang membedakan antara dua penyakit apa?",
+        "options": [
+          "Cacar dan campak",
+          "Flu dan malaria",
+          "Pilek dan demam"
+        ],
+        "correct": 0,
+        "explanation": "Risalahnya tentang cacar dan campak diakui secara internasional dan diterjemahkan ke berbagai bahasa."
+      },
+      {
+        "q": "Apa yang diklasifikasikan Ar-Razi dalam penelitian kimianya?",
+        "options": [
+          "Bintang dan planet",
+          "Mineral dan zat",
+          "Hewan dan tumbuhan"
+        ],
+        "correct": 1,
+        "explanation": "Ia menciptakan sistem klasifikasi awal untuk mineral dan zat organik, meletakkan fondasi kimia."
+      }
+    ]
+  },
+  {
+    "id": "al_biruni",
+    "title": "Al-Biruni - Pakar Sains",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_28_scholar_al_biruni-3CxEZkDDXSfMvzUgmWWyDk.webp?updatedAt=1781117901825",
+    "emoji": "🌍",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Biruni adalah ilmuwan Muslim yang sangat pintar! Dia menghitung ukuran Bumi dengan sangat akurat — tanpa komputer atau satelit! Dia juga mempelajari India, belajar bahasa Sanskerta, dan menulis buku tentang budaya mereka. Al-Biruni menunjukkan bahwa sains dan iman berjalan bersama!",
+      "explorer": "Al-Biruni adalah ilmuwan dan sarjana Persia yang menguasai matematika, astronomi, fisika, geografi, dan sejarah. Ia menghitung keliling Bumi dengan akurasi yang luar biasa menggunakan trigonometri dan gunung. Ia juga menulis 'Kitab al-Hind' — studi komprehensif tentang budaya dan sains India. Al-Biruni menunjukkan bahwa pencarian ilmu adalah bentuk ibadah.",
+      "thinker": "Al-Biruni (973-1048 M) mungkin adalah polimatik paling beragam dalam Zaman Keemasan Islam. Menggunakan sebuah gunung dan rumus trigonometri, ia menghitung jari-jari Bumi dengan kesalahan kurang dari 1% — pencapaian luar biasa untuk abad ke-11. 'Kitab al-Hind' menunjukkan keterbukaannya terhadap budaya lain — ia belajar Sanskerta dan menganalisis peradaban India dengan objektivitas yang luar biasa. Ia juga mengembangkan astrolab untuk menghitung posisi matahari dan arah kiblat. Al-Biruni membuktikan bahwa Islam mendorong pengamatan ilmiah dan penalaran rasional."
+    },
+    "funFact": "Tahukah kamu? Al-Biruni menghitung keliling Bumi dengan kesalahan kurang dari 1% — menggunakan hanya gunung dan matematika!",
+    "quiz": [
+      {
+        "q": "Pengukuran geografis apa yang dihitung Al-Biruni dengan presisi luar biasa?",
+        "options": [
+          "Kedalaman lautan",
+          "Jarak ke Bulan",
+          "Ukuran (keliling) Bumi"
+        ],
+        "correct": 2,
+        "explanation": "Menggunakan gunung dan rumus trigonometri, Al-Biruni menghitung jari-jari Bumi dengan kesalahan kurang dari 1%."
+      },
+      {
+        "q": "Al-Biruni menulis 'Kitab al-Hind' setelah mempelajari budaya dan sains wilayah mana?",
+        "options": [
+          "Tiongkok",
+          "India",
+          "Yunani"
+        ],
+        "correct": 1,
+        "explanation": "Ia bepergian secara ekstensif di India, belajar Sanskerta dan menulis analisis budaya yang komprehensif."
+      },
+      {
+        "q": "Instrumen astronomi mana yang dikembangkan Al-Biruni lebih lanjut untuk navigasi?",
+        "options": [
+          "Astrolab",
+          "Kompas",
+          "Mikroskop"
+        ],
+        "correct": 0,
+        "explanation": "Al-Biruni merancang peta astronomi dan menyempurnakan astrolab untuk menghitung posisi matahari dan arah shalat."
+      }
+    ]
+  },
+  {
+    "id": "al_ghazali",
+    "title": "Al-Ghazali - Filsuf Islam",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_29_scholar_al_ghazali-hXQACXYZ4iArCEGuBdVNNd.webp?updatedAt=1781117901160",
+    "emoji": "💡",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Ghazali adalah ulama besar yang membantu orang memahami Islam dengan lebih dalam! Dia menulis banyak buku tentang bagaimana menjadi Muslim yang lebih baik. Karyanya yang paling terkenal mengajarkan kita tentang hati, etika, dan bagaimana mendekatkan diri kepada Allah. Dia menunjukkan bahwa ilmu dan spiritualitas saling melengkapi!",
+      "explorer": "Al-Ghazali adalah teolog, filsuf, dan sufi yang berpengaruh. Gelarnya 'Hujjat al-Islam' (Bukti Islam) menunjukkan otoritasnya. Karya masterpiece-nya 'Ihya Ulumuddin' (Menghidupkan Kembali Ilmu-Ilmu Agama) membahas etika, spiritualitas, dan penyucian hati. Ia menunjukkan bahwa pengetahuan intelektual harus disertai dengan transformasi spiritual dan akhlak yang baik.",
+      "thinker": "Al-Ghazali (1058-1111 M) menjembatani teologi rasional dan spiritualitas mendalam. Setelah krisis keraguan yang parah, ia meninggalkan posisi prestisiusnya dan memulai perjalanan spiritual selama satu dekade. 'Ihya Ulumuddin' (Menghidupkan Kembali Ilmu-Ilmu Agama) — karya masterpiece-nya — berfokus pada etika, spiritualitas, dan penyucian hati, bukan sekadar hukum. Karya ini berargumen bahwa ilmu tanpa kebajikan moral adalah tidak berguna. Karya autobiografisnya 'Al-Munqidz min adh-Dhalal' mendokumentasikan perjalanan intelektualnya. Al-Ghazali menunjukkan bahwa keimanan sejati melampaui argumen logis — ia membutuhkan pengalaman spiritual langsung."
+    },
+    "funFact": "Tahukah kamu? Al-Ghazali meninggalkan pekerjaannya yang sangat bergengsi untuk mencari kebenaran spiritual — dan menulis salah satu buku paling berpengaruh dalam sejarah Islam!",
+    "quiz": [
+      {
+        "q": "Gelar apa yang terkenal bagi Al-Ghazali?",
+        "options": [
+          "Bapak Fisika",
+          "Hujjat al-Islam (Bukti Islam)",
+          "Guru Timur dan Barat"
+        ],
+        "correct": 1,
+        "explanation": "Ia terkenal sebagai 'Hujjat al-Islam' karena penguasaannya atas filsafat teologi."
+      },
+      {
+        "q": "Apa yang digambarkan Al-Ghazali sebagai penghidupan ilmu-ilmu agama dalam masterpiece-nya?",
+        "options": [
+          "Etika, spiritualitas, dan ilmu hati",
+          "Membangun kapal yang lebih cepat",
+          "Belajar kalkulus"
+        ],
+        "correct": 0,
+        "explanation": "'Ihya Ulumuddin' berfokus pada penghidupan kembali keimanan, akhlak mulia, dan kesadaran spiritual."
+      },
+      {
+        "q": "Menurut Al-Ghazali, tujuan memperoleh ilmu adalah:",
+        "options": [
+          "Untuk memenangkan perdebatan",
+          "Untuk membangun karakter mulia dan mendekat kepada Allah",
+          "Untuk membanggakannya"
+        ],
+        "correct": 1,
+        "explanation": "Ia mengajarkan bahwa ilmu intelektual tidak berguna jika tidak disertai kerendahan hati spiritual dan standar etika yang tinggi."
+      }
+    ]
+  },
+  {
+    "id": "fatima_al_fihri",
+    "title": "Fatimah al-Fihri - Universitas Pertama",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_30_scholar_fatima_al_fihri-oUUmqToz9ELRTCtWCXgCQn.webp?updatedAt=1781117901536",
+    "emoji": "🎓",
+    "category": "stories_history",
+    "content": {
+      "starter": "Fatimah al-Fihri adalah wanita Muslim hebat yang membangun universitas pertama di dunia! Pada tahun 859 M, ia mendirikan Universitas al-Qarawiyyin di Maroko. Ia menggunakan uang warisannya untuk membangun tempat di mana orang bisa belajar. Ini menunjukkan bahwa wanita dalam Islam selalu menjadi pemimpin dalam pendidikan!",
+      "explorer": "Fatimah al-Fihri mendirikan Universitas al-Qarawiyyin di Fez, Maroko, pada tahun 859 M — universitas tertua yang terus beroperasi dan memberikan gelar di dunia, menurut UNESCO. Ia menggunakan warisannya untuk mendanai pembangunan ini. Selama pembangunan, ia berpuasa setiap hari sebagai bentuk ketaatan. Universitas ini mengajarkan teologi, hukum, matematika, dan astronomi — menarik pelajar dari seluruh dunia Muslim.",
+      "thinker": "Fatimah al-Fihri mendirikan Universitas al-Qarawiyyin pada tahun 859 M — diakui oleh UNESCO dan Guinness World Records sebagai universitas tertua yang terus beroperasi dan memberikan gelar di dunia. Ia berpuasa setiap hari selama bertahun-tahun pembangunan sebagai tindakan kesalehan. Al-Qarawiyyin menghasilkan banyak ulama terkemuka, termasuk Ibn Khaldun dan Al-Idrisi. Fakta bahwa seorang wanita Muslim mendirikan institusi pendidikan tertua di dunia menantang narasi bahwa wanita dikesampingkan dalam sejarah Islam. Warisannya menunjukkan bahwa wanita Muslim telah menjadi pemimpin intelektual sejak awal sejarah Islam."
+    },
+    "funFact": "Tahukah kamu? Universitas al-Qarawiyyin, yang didirikan oleh Fatimah al-Fihri, telah beroperasi selama lebih dari 1.160 tahun — menjadikannya universitas tertua di dunia!",
+    "quiz": [
+      {
+        "q": "Di kota dan negara mana Fatimah al-Fihri mendirikan universitas tertua?",
+        "options": [
+          "Kairo, Mesir",
+          "Fez, Maroko",
+          "Baghdad, Irak"
+        ],
+        "correct": 1,
+        "explanation": "Ia mendirikan Universitas al-Qarawiyyin di kota Fez, Maroko."
+      },
+      {
+        "q": "Apa yang dilakukan Fatimah selama pembangunan al-Qarawiyyin?",
+        "options": [
+          "Ia berlibur panjang",
+          "Ia berpuasa setiap hari hingga selesai",
+          "Ia pergi berlayar"
+        ],
+        "correct": 1,
+        "explanation": "Sebagai bentuk kesalehan, Fatimah al-Fihri bernazar puasa setiap hari selama bertahun-tahun pembangunan."
+      },
+      {
+        "q": "Menurut UNESCO, predikat apa yang dimiliki Universitas al-Qarawiyyin?",
+        "options": [
+          "Perpustakaan tertua saja",
+          "Universitas tertua yang terus beroperasi dan memberikan gelar di dunia",
+          "Sekolah kedokteran pertama di Eropa"
+        ],
+        "correct": 1,
+        "explanation": "Al-Qarawiyyin telah beroperasi penuh dan memberikan gelar perguruan tinggi secara terus-menerus sejak 859 M."
+      }
+    ]
+  },
+  {
+    "id": "ibn_khaldun",
+    "title": "Ibn Khaldun - Bapak Sosiologi",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_31_scholar_ibn_khaldun-22Tqw9TsmYYVf9NDTfPHYp.webp?updatedAt=1781117901557",
+    "emoji": "📜",
+    "category": "stories_history",
+    "content": {
+      "starter": "Ibn Khaldun adalah ilmuwan Muslim yang menemukan cara mempelajari masyarakat! Dia menulis buku terkenal yang menganalisis mengapa peradaban naik dan turun. Karyanya sangat maju sehingga ratusan tahun kemudian, ilmuwan Barat masih kagum dengannya. Ia membuktikan bahwa Islam mendorong kita untuk berpikir tentang bagaimana masyarakat bekerja!",
+      "explorer": "Ibn Khaldun adalah sejarawan dan sosiolog dari Afrika Utara yang menulis 'Al-Muqaddimah' — karya yang merevolusi cara kita memahami sejarah dan masyarakat. Ia menganalisis mengapa peradaban muncul, berkembang, dan runtuh. Konsepnya tentang 'Ashabiyah' (ikatan sosial) menjelaskan bagaimana kelompok menjadi kuat melalui persatuan. Ia dianggap sebagai bapak sosiologi dan historografi.",
+      "thinker": "Ibn Khaldun (1332-1406 M) mengembangkan kerangka analitis yang tidak dikenal sebelumnya dalam memahami peradaban manusia. 'Al-Muqaddimah' (Pengantar) menganalisis siklus sosial-politik masyarakat — bagaimana kelompok nomaden yang terikat oleh 'ashabiyah' (solidaritas sosial) menaklukkan peradaban mapan, lalu sendiri menjadi lemah dan digantikan. Analisisnya tentang ekonomi, pendidikan, dan birokrasi sangat canggih sehingga menjadi dasar sosiologi modern. Ia menulis bahwa 'geografi mempengaruhi budaya,' sebuah konsep yang dikonfirmasi oleh sains modern. Metodenya yang empiris dalam mempelajari masyarakat menjadikannya perintis sosiologi, ekonomi, dan historografi."
+    },
+    "funFact": "Tahukah kamu? Ibn Khaldun menemukan sosiologi ratusan tahun sebelum ilmuwan Barat — dan bukunya masih dipelajari di universitas-universitas di seluruh dunia hari ini!",
+    "quiz": [
+      {
+        "q": "Apa judul buku pengantar sejarah yang terkenal di dunia karya Ibn Khaldun?",
+        "options": [
+          "Al-Muqaddimah (Pengantar)",
+          "Kitab Sejarah",
+          "Zaman Keemasan"
+        ],
+        "correct": 0,
+        "explanation": "Ia menulis 'Al-Muqaddimah', yang menganalisis pertumbuhan sosial-politik masyarakat."
+      },
+      {
+        "q": "Disiplin ilmu utama apa yang dipelopori Ibn Khaldun berabad-abad sebelum ilmuwan Barat?",
+        "options": [
+          "Sosiologi dan Historografi",
+          "Fisika Nuklir",
+          "Biologi Laut"
+        ],
+        "correct": 0,
+        "explanation": "Analisis sistematisnya tentang pola sosial dan siklus sejarah menjadikannya bapak sosiologi."
+      },
+      {
+        "q": "Apa itu 'Ashabiyah', konsep inti yang dikemukakan Ibn Khaldun?",
+        "options": [
+          "Keterampilan berlayar",
+          "Solidaritas dan kohesi sosial",
+          "Perhitungan astronomi"
+        ],
+        "correct": 1,
+        "explanation": "'Ashabiyah' adalah ikatan komunitas atau solidaritas kelompok sosial yang memungkinkan masyarakat membangun negara yang stabil."
       }
     ]
   }

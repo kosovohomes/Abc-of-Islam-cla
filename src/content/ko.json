@@ -1,1306 +1,1622 @@
 [
   {
     "id": "shahada",
-    "title": "Shahada - Declaration of Faith",
+    "title": "샤하다 - 신앙 선언",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☪️",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "The Shahada says: \"There is no god but Allah, and Muhammad is His messenger.\" This is the most important sentence in Islam! When we say it, we tell everyone we believe in Allah and love His Prophet. It makes our heart light and happy!",
-      "explorer": "The Shahada is the first pillar of Islam. It has two parts: first, believing that only Allah is God — no one else deserves worship. Second, believing that Prophet Muhammad ﷺ is Allah's final messenger. Saying the Shahada with sincerity makes you Muslim. It's not just words — it's a promise from your heart to follow Allah's guidance.",
-      "thinker": "The Shahada is far more than a declaration — it's a complete worldview. The first part, \"La ilaha illallah,\" negates all false gods and affirms monotheism (Tawheed). The second part, \"Muhammadun rasulullah,\" establishes the prophetic authority of Muhammad ﷺ. Together, they form the foundation upon which all other Islamic practices are built. Understanding the Shahada means understanding the essence of submission to Allah."
+      "starter": "샤하다는 이렇게 말합니다: \"알라 외에는 신이 없으며, 무함마드는 그의 사자이다.\" 이것은 이슬람에서 가장 중요한 문장입니다! 우리가 이것을 말할 때, 우리는 모든 사람에게 알라를 믿고 그의 예언자를 사랑한다고 알리는 것입니다. 그것은 우리 마음을 가볍고 행복하게 만듭니다!",
+      "explorer": "샤하는 이슬람의 첫 번째 기둥입니다. 두 부분으로 되어 있습니다: 첫째, 오직 알라만이 신이시라는 믿음 — 그 외에는 예배받을 분이 없습니다. 둘째, 예언자 무함마드 ﷺ가 알라의 마지막 사자라는 믿음입니다. 진심으로 샤하다를 말하면 무슬림이 됩니다. 그것은 단순한 말이 아니라 — 알라의 인도를 따르겠다는 마음의 약속입니다.",
+      "thinker": "샤하는 단순한 선언 그 이상입니다 — 그것은 완전한 세계관입니다. 첫 번째 부분인 \"라 일라하 일랄라\"는 모든 거짓 신을 부정하고 유일신 사상(타우히드)을 확증합니다. 두 번째 부분인 \"무함마둔 라술랄라\"는 무함마드 ﷺ의 예언자적 권위를 확립합니다. 이 둘은 다른 모든 이슬람 실천의 기초가 되는 토대를 형성합니다. 샤하다를 이해한다는 것은 알라께 복종한다는 본질을 이해하는 것입니다."
     },
-    "funFact": "Did you know? The Shahada is whispered into a newborn baby's ear and is also the last words many Muslims hope to say before they pass away!",
+    "funFact": "알고 계셨나요? 샤다는 갓 태어난 아기의 귀에 속삭이고, 많은 무슬림들이 세상을 떠나기 전 마지막으로 말하고자 하는 말이기도 합니다!",
     "quiz": [
       {
-        "q": "What does Shahada mean?",
+        "q": "샤하다는 무엇을 의미하나요?",
         "options": [
-          "Declaration of Faith",
-          "Daily Prayer",
-          "Charity Giving"
+          "신앙 선언",
+          "매일의 기도",
+          "자선"
         ],
         "correct": 0,
-        "explanation": "Shahada means 'Declaration of Faith' — it's the statement that makes someone Muslim."
+        "explanation": "샤하는 '신앙 선언'을 의미합니다 — 누군가를 무슬림으로 만드는 선언입니다."
       },
       {
-        "q": "How many parts does the Shahada have?",
+        "q": "샤하는 몇 부분으로 되어 있나요?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "한 부분",
+          "두 부분",
+          "세 부분"
         ],
         "correct": 1,
-        "explanation": "The Shahada has two parts: believing in one God and believing Muhammad is His messenger."
+        "explanation": "샤다는 두 부분으로 되어 있습니다: 한 분의 신을 믿는 것과 무함마드가 그의 사자임을 믿는 것입니다."
       },
       {
-        "q": "Who is the last prophet mentioned in the Shahada?",
+        "q": "샤하다에 언급된 마지막 예언자는 누구인가요?",
         "options": [
-          "Prophet Musa",
-          "Prophet Isa",
-          "Prophet Muhammad"
+          "무사 예언자",
+          "이사 예언자",
+          "무함마드 예언자"
         ],
         "correct": 2,
-        "explanation": "The Shahada mentions Prophet Muhammad ﷺ as Allah's final messenger."
+        "explanation": "샤다는 무함마드 예언자 ﷺ를 알라의 마지막 사자로 언급합니다."
       }
     ]
   },
   {
     "id": "salah",
-    "title": "Salah - Prayer",
+    "title": "살라 - 기도",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🤲",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Salah is talking to Allah! Five times a day, we stop what we're doing, wash our hands and face (that's called wudu), face Mecca, and pray. It's like a special phone call to Allah. He loves when we talk to Him!",
-      "explorer": "Salah is the second pillar of Islam. Muslims pray five times a day: Fajr (dawn), Dhuhr (noon), Asr (afternoon), Maghrib (sunset), and Isha (night). Each prayer involves standing, bowing, and prostrating while reciting verses from the Quran. Salah keeps us connected to Allah throughout the day and teaches us discipline and gratitude.",
-      "thinker": "The five daily prayers (Salawat) are a gift from Allah, prescribed during the Night Journey (Isra and Mi'raj). Each prayer corresponds to a spiritual state: Fajr purifies the soul before the day begins, Dhuhr provides a midday recharge, Asr encourages reflection, Maghrib marks gratitude for the day's blessings, and Isha offers peace before sleep. The physical movements — standing (qiyam), bowing (ruku), and prostration (sujud) — are acts of humility that remind us of our relationship with our Creator."
+      "starter": "살라는 알라와 대화하는 것입니다! 하루 다섯 번, 우리는 하던 일을 멈추고 손과 얼굴을 씻고(그것을 우두라고 합니다), 메카를 향해 기도합니다. 알라께 전화를 거는 것과 같습니다. 알라께서는 우리가 대화하는 것을 사랑하십니다!",
+      "explorer": "살라는 이슬람의 두 번째 기둥입니다. 무슬림은 하루 다섯 번 기도합니다: 파즈르(새벽), 두흐르(정오), 아스르(오후), 마그리브(일몰), 이샤(밤). 각 기도는 꾸란의 구절을 암송하면서 서고, 허리를 굽히고, 엎드리는 것을 포함합니다. 살라는 하루 종일 알라와 연결되게 하고 규율과 감사를 가르칩니다.",
+      "thinker": "다섯 번의 일일 기도(살라와트)는 알라의 선물로, 이스라와 미라지(야간 여행) 동안 처방되었습니다. 각 기도는 영적 상태에 해당합니다: 파즈르는 하루가 시작되기 전 영혼을 정화하고, 두흐르는 정오의 충전을 제공하며, 아스르는 성찰을 장려하고, 마그리브은 그날 축복에 대한 감사를 표시하며, 이샤는 잠들기 전 평안을 제공합니다. 신체적 움직임 — 서기(키얌), 허리 굽히기(루쿠), 엎드리기(수주드) — 는 창조주와의 관계를 상기시키는 겸손의 행위입니다."
     },
-    "funFact": "Did you know? Muslims face the Kaaba in Mecca when they pray, no matter where they are in the world! Even from space, astronauts pray toward Mecca!",
+    "funFact": "알고 계셨나요? 무슬림은 기도할 때 세계 어디서든 메카의 카바를 향합니다! 우주비행사들도 메카를 향해 기도합니다!",
     "quiz": [
       {
-        "q": "How many times a day do Muslims pray?",
+        "q": "무슬림은 하루에 몇 번 기도하나요?",
         "options": [
-          "Three times",
-          "Five times",
-          "Seven times"
+          "세 번",
+          "다섯 번",
+          "일곱 번"
         ],
         "correct": 1,
-        "explanation": "Muslims pray five times a day: Fajr, Dhuhr, Asr, Maghrib, and Isha."
+        "explanation": "무슬림은 하루 다섯 번 기도합니다: 파즈르, 두흐르, 아스르, 마그리브, 이샤."
       },
       {
-        "q": "What do we do before praying?",
+        "q": "기도하기 전에 무엇을 하나요?",
         "options": [
-          "Eat food",
-          "Perform wudu (ablution)",
-          "Read a book"
+          "음식 먹기",
+          "우두(세정)하기",
+          "책 읽기"
         ],
+        "explanation": "기도하기 전에 몸을 깨끗이 하기 위해 우두(세정)를 합니다.",
         "clean": 1,
-        "explanation": "We perform wudu (ablution) to clean ourselves before praying."
+        "correct": 1
       },
       {
-        "q": "Which direction do Muslims face when praying?",
+        "q": "무슬림은 기도할 때 어느 방향을 향하나요?",
         "options": [
-          "North",
-          "The Kaaba in Mecca",
-          "East"
+          "북쪽",
+          "메카의 카바",
+          "동쪽"
         ],
         "correct": 1,
-        "explanation": "Muslims face the Kaaba in Mecca, which is called the Qibla."
+        "explanation": "무슬림은 카블라라고 불리는 메카의 카바를 향합니다."
       }
     ]
   },
   {
     "id": "zakat",
-    "title": "Zakat - Charity",
+    "title": "자카트 - 자선",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_45_zakat_overview-iB69C239XxvYzdfsgqWaNR.webp?updatedAt=1781117902141",
     "emoji": "💰",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Zakat means sharing what we have with others! If we have extra money, we give a little bit to people who need it. It's like Allah is asking us to be kind and share. When we give, our hearts feel happy!",
-      "explorer": "Zakat is the third pillar of Islam. It means giving 2.5% of your savings each year to those in need. It's not optional — it's an obligation for Muslims who have wealth above a certain amount. Zakat purifies our money and reminds us that everything belongs to Allah. It helps the poor, pays off debts, and strengthens the community.",
-      "thinker": "Zakat is both a social and spiritual obligation. The word 'zakat' means 'purification' and 'growth' — by giving a portion of our wealth, we purify the remainder and grow spiritually. Allah says in the Quran that those who pay Zakat are helping to purify themselves (At-Tawbah 9:103). The fixed rate of 2.5% (one-fortieth) applies to savings held for one lunar year above the nisab threshold. This systematic approach to wealth redistribution was revolutionary and remains one of Islam's most powerful social justice mechanisms."
+      "starter": "자카트는 우리가 가진 것을 다른 사람과 나누는 것입니다! 여유 돈이 있으면 필요한 사람들에게 조금 나누어 줍니다. 알라께서 친절하게 나누라고 하시는 것과 같습니다. 줄 때 우리 마음은 행복해집니다!",
+      "explorer": "자카트는 이슬람의 세 번째 기둥입니다. 매년 저축의 2.5%를 필요한 사람들에게 주는 것을 의미합니다. 선택이 아니라 — 일정 금액 이상의 재산이 있는 무슬림에게는 의무입니다. 자카트는 우리의 돈을 정화하고 모든 것이 알라의 것임을 상기시킵니다. 가난한 사람들을 돕고, 빚을 갚아주며, 공동체를 강화합니다.",
+      "thinker": "자카트는 사회적이고 영적인 의무입니다. '자카트'라는 단어는 '정화'와 '성장'을 의미합니다 — 재산의 일부를 줌으로써 나머지를 정화하고 영적으로 성장합니다. 알라께서 꾸란에서 자카트를 내는 자들이 자신을 정화하는 것을 돕는다고 말씀하셨습니다(앗-타우바 9:103). 2.5%(사십분의 일)의 고정 비율은 니사브 기준 이상으로 음력 1년 동안 보유한 저축에 적용됩니다. 이 체계적인 부의 재분배 방식은 혁명적이었으며 이슬람의 가장 강력한 사회 정의 메커니즘 중 하나로 남아 있습니다."
     },
-    "funFact": "Did you know? The word 'Zakat' means 'purification' — when you give Zakat, your remaining money becomes blessed and pure!",
+    "funFact": "알고 계셨나요? '자카트'라는 단어는 '정화'를 의미합니다 — 자카트를 내면 남은 돈이 축복받고 순수해집니다!",
     "quiz": [
       {
-        "q": "What percentage of savings is given as Zakat?",
+        "q": "저축의 몇 퍼센트를 자카트로 내나요?",
         "options": [
           "1%",
           "2.5%",
           "10%"
         ],
         "correct": 1,
-        "explanation": "Muslims give 2.5% (one-fortieth) of their savings as Zakat each year."
+        "explanation": "무슬림은 매년 저축의 2.5%(사십분의 일)를 자카트로 냅니다."
       },
       {
-        "q": "What does the word 'Zakat' mean?",
+        "q": "'자카트'라는 단어는 무엇을 의미하나요?",
         "options": [
-          "Charity",
-          "Purification",
-          "Prayer"
+          "자선",
+          "정화",
+          "기도"
         ],
         "correct": 1,
-        "explanation": "Zakat means 'purification' — it purifies our wealth and our hearts."
+        "explanation": "자카트는 '정화'를 의미합니다 — 우리의 재산과 마음을 정화합니다."
       },
       {
-        "q": "Who receives Zakat?",
+        "q": "자카트는 누가 받나요?",
         "options": [
-          "Only family",
-          "People in need",
-          "Only the rich"
+          "가족만",
+          "필요한 사람들",
+          "부자만"
         ],
         "correct": 1,
-        "explanation": "Zakat is given to people in need, including the poor, debtors, and travelers."
+        "explanation": "자카트는 가난한 사람, 빚진 사람, 여행자 등 필요한 사람들에게 주어집니다."
       }
     ]
   },
   {
     "id": "sawm",
-    "title": "Sawm - Fasting in Ramadan",
+    "title": "사움 - 라마단 금식",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_40_ramadan_fasting-SeQhGeRR5buiYbtryMhUKA.webp?updatedAt=1781117899738",
     "emoji": "🌙",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "During Ramadan, we don't eat or drink from sunrise to sunset. That's called fasting! It teaches us to be patient and think about people who don't have food. At night, we break our fast with family and pray together. It's very special!",
-      "explorer": "Sawm means fasting during the month of Ramadan, the fourth pillar of Islam. From dawn to sunset, Muslims abstain from food, drink, and other physical needs. But fasting is not just about staying hungry — it's about building patience, empathy for the poor, and getting closer to Allah. The fast is broken at sunset with a meal called Iftar, often shared with family and community.",
-      "thinker": "Sawm during Ramadan is a comprehensive act of worship that trains the body, mind, and soul. The Quran was first revealed during Ramadan (Surah Al-Baqarah 2:185), making this month especially sacred. Fasting develops taqwa (God-consciousness) by creating a physical reminder of Allah's presence. Beyond abstaining from food and drink, Muslims are encouraged to avoid negative speech, anger, and gossip. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a rhythm of gratitude and community that transforms the entire month."
+      "starter": "라마단 기간 동안 일출부터 일몰까지 먹거나 마시지 않습니다. 그것을 금식이라고 합니다! 인내하고 음식이 없는 사람들을 생각하게 합니다. 밤에는 가족과 함께 금식을 깨고 함께 기도합니다. 매우 특별합니다!",
+      "explorer": "사움은 라마단 달 동안 금식하는 것을 의미하며, 이슬람의 네 번째 기둥입니다. 새벽부터 일몰까지 무슬림은 음식, 음료 및 기타 신체적 필요를 금합니다. 하지만 금식은 단순히 배고픔을 참는 것이 아닙니다 — 인내심을 기르고, 가난한 사람들에 대한 공감을 키우며, 알라께 더 가까이 다가가는 것입니다. 금식은 이프타르라는 식사로 일몰에 깨며, 가족 및 공동체와 함께 나눕니다.",
+      "thinker": "라마단의 사움은 몸, 마음, 영혼을 훈련하는 포괄적인 예배 행위입니다. 꾸란은 라마단 동안 처음 계시되었기에(수라 알-바카라 2:185), 이 달은 특히 거룩합니다. 금식은 알라의 현존에 대한 육체적 상기처럼 만들어 타크와(신앙의식)를 발전시킵니다. 음식과 음료를 금하는 것 외에도 무슬림은 부정적인 말, 분노, 험담을 피하도록 권장됩니다. 새벽 전 식사(수후르)와 일몰 식사(이프타르)는 감사와 공동체의 리듬을 만들어 한 달 전체를 변화시킵니다."
     },
-    "funFact": "Did you know? Muslims break their fast with dates, just like Prophet Muhammad ﷺ used to! The word 'Iftar' means 'breaking the fast'!",
+    "funFact": "알고 계셨나요? 무슬림은 무함마드 예언자 ﷺ가 하셨던 것처럼 대추야자로 금식을 깹니다! '이프타르'라는 단어는 '금식을 깨다'를 의미합니다!",
     "quiz": [
       {
-        "q": "During which month do Muslims fast?",
+        "q": "무슬림은 어느 달에 금식하나요?",
         "options": [
-          "Muharram",
-          "Ramadan",
-          "Shawwal"
+          "무하람",
+          "라마단",
+          "샤왈"
         ],
         "correct": 1,
-        "explanation": "Muslims fast during the holy month of Ramadan."
+        "explanation": "무슬림은 거룩한 라마단 달에 금식합니다."
       },
       {
-        "q": "What is the meal called when we break our fast?",
+        "q": "금식을 깨는 식사를 무엇이라고 하나요?",
         "options": [
-          "Suhoor",
-          "Iftar",
-          "Dhuhr"
+          "수후르",
+          "이프타르",
+          "두흐르"
         ],
         "correct": 1,
-        "explanation": "The meal at sunset to break the fast is called Iftar."
+        "explanation": "일몰에 금식을 깨는 식사를 이프타르라고 합니다."
       },
       {
-        "q": "What food did Prophet Muhammad ﷺ use to break his fast?",
+        "q": "무함마드 예언자 ﷺ는 무엇으로 금식을 깨셨나요?",
         "options": [
-          "Bread",
-          "Dates",
-          "Rice"
+          "빵",
+          "대추야자",
+          "쌀"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ would break his fast with dates and water."
+        "explanation": "무함마드 예언자 ﷺ는 대추야자와 물로 금식을 깨셨습니다."
       }
     ]
   },
   {
     "id": "hajj",
-    "title": "Hajj - Pilgrimage to Mecca",
+    "title": "하즈 - 메카 순례",
     "image": "https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446",
     "emoji": "🕋",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Hajj is a big trip to Mecca! Every Muslim who is able goes there to pray around the Kaaba — Allah's house. Millions of people go together, wearing simple white clothes. Everyone is equal there — rich or poor, it doesn't matter!",
-      "explorer": "Hajj is the fifth pillar of Islam — a pilgrimage to Mecca that every Muslim must make at least once in their lifetime if they are able. It happens during the Islamic month of Dhul Hijjah. Pilgrims wear simple white clothes called Ihram, circling the Kaaba, walking between hills, and standing in prayer at Arafat. Hajj teaches equality, patience, and devotion to Allah.",
-      "thinker": "Hajj is the world's largest annual gathering and represents the ultimate expression of Islamic unity. Following the footsteps of Prophet Ibrahim ﷺ and his family, pilgrims perform rituals that symbolize sacrifice, purification, and submission to Allah. The wearing of Ihram strips away all markers of wealth and status — everyone stands equal before Allah. The Prophet ﷺ said: 'Hajj is an obligation once in a lifetime for whoever has the ability.' It is a profound spiritual journey that cleanses sins and renews one's connection with the Creator."
+      "starter": "하즈는 메카로 가는 큰 여행입니다! 능력이 있는 모든 무슬림은 알라의 집인 카바 주위에서 기도하기 위해 갑니다. 수백만 명이 함께 가며, 단순한 흰 옷을 입습니다. 거기서는 모두가 평등합니다 — 부자든 가난한 사람든 상관없습니다!",
+      "explorer": "하즈는 이슬람의 다섯 번째 기둥입니다 — 능력이 있는 모든 무슬림이 평생에 한 번은 해야 하는 메카 순례입니다. 이슬람 달인 둘 히자 동안 진행됩니다. 순례자들은 이흐람이라는 단순한 흰 옷을 입고, 카바를 돌고, 언덕 사이를 걷고, 아라파트에서 기도하며 섭니다. 하즈는 평등, 인내, 알라께 대한 헌신을 가르칩니다.",
+      "thinker": "하즈는 세계 최대의 연간 집회이며 이슬람 연대의 궁극적 표현입니다. 예언자 이브라힘 ﷺ과 그의 가족의 발자취를 따라, 순례자들은 희생, 정화, 알라께의 복종을 상징하는 의식을 수행합니다. 이흐람 착용은 부와 지위의 모든 표지를 벗겨냅니다 — 모든 사람이 알라 앞에 평등하게 섭니다. 예언자 ﷺ가 말씀하셨습니다: '하즈는 능력이 있는 자에게 평생에 한 번의 의무입니다.' 그것은 죄를 씻고 창조주와의 연결을 새롭게 하는 깊은 영적 여정입니다."
     },
-    "funFact": "Did you know? Over 2 million people perform Hajj every year! When pilgrims throw stones at the pillars (Jamarat), they're following the example of Prophet Ibrahim!",
+    "funFact": "알고 계셨나요? 매년 2백만 명 이상이 하즈를 수행합니다! 순례자들이 기둥(자마라트)에 돌을 던질 때, 그들은 이브라힘 예언자의 본을 따르는 것입니다!",
     "quiz": [
       {
-        "q": "How often must a Muslim perform Hajj?",
+        "q": "무슬림은 하즈를 얼마나 자주 해야 하나요?",
         "options": [
-          "Every year",
-          "Once in a lifetime",
-          "Every 5 years"
+          "매년",
+          "평생에 한 번",
+          "5년마다"
         ],
         "correct": 1,
-        "explanation": "Every Muslim who is able must perform Hajj at least once in their lifetime."
+        "explanation": "능력이 있는 모든 무슬림은 평생에 적어도 한 번 하즈를 해야 합니다."
       },
       {
-        "q": "What do pilgrims wear during Hajj?",
+        "q": "하즈 동안 순례자들은 무엇을 입나요?",
         "options": [
-          "Regular clothes",
-          "Simple white clothes called Ihram",
-          "Black clothes"
+          "일상복",
+          "이흐람이라는 단순한 흰 옷",
+          "검은 옷"
         ],
         "correct": 1,
-        "explanation": "Pilgrims wear simple white clothes called Ihram to show everyone is equal."
+        "explanation": "순례자들은 모두가 평등함을 보이기 위해 이흐람이라는 단순한 흰 옷을 입습니다."
       },
       {
-        "q": "Which prophet's example do pilgrims follow at Hajj?",
+        "q": "하즈에서 순례자들은 어느 예언자의 본을 따르나요?",
         "options": [
-          "Prophet Musa",
-          "Prophet Ibrahim",
-          "Prophet Isa"
+          "무사 예언자",
+          "이브라힘 예언자",
+          "이사 예언자"
         ],
         "correct": 1,
-        "explanation": "Pilgrims follow the example of Prophet Ibrahim ﷺ and his family."
+        "explanation": "순례자들은 이브라힘 예언자 ﷺ와 그의 가족의 본을 따릅니다."
       }
     ]
   },
   {
     "id": "tawheed",
-    "title": "Tawheed - Oneness of God",
+    "title": "타우히드 - 신의 유일성",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☝️",
     "category": "core_beliefs",
     "content": {
-      "starter": "Tawheed means there is ONLY ONE God — Allah! He created everything: you, me, the stars, the animals, everything! We only pray to Allah, not to anyone else. Allah is the only one who deserves our love and worship!",
-      "explorer": "Tawheed is the most important belief in Islam — that there is only one God, Allah. He has no partners, no family, and no equals. He is the Creator of everything and the only one worthy of worship. Understanding Tawheed means we don't pray to statues, people, or anything else — only to Allah. This belief is the foundation of everything in Islam.",
-      "thinker": "Tawheed is the cornerstone of Islamic theology, encompassing three dimensions: Tawheed ar-Rububiyyah (Oneness of Lordship), Tawheed al-Uluhiyyah (Oneness of Worship), and Tawheed al-Asma wa'l-Sifat (Oneness of Names and Attributes). The first recognizes Allah as the sole Creator and Sustainer. The second directs all forms of worship exclusively to Him. The third affirms that Allah's attributes are unique and incomparable. The Quran states: 'Say, He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is begotten. And there is none comparable to Him' (Surah Al-Ikhlas 112:1-4)."
+      "starter": "타우히드는 오직 한 분의 신 — 알라만 계신다는 것을 의미합니다! 그분은 모든 것을 창조하셨습니다: 나, 당신, 별, 동물, 모든 것! 우리는 알라에게만 기도하고, 다른 누구에게도 기도하지 않습니다. 알라만이 우리의 사랑과 예배를 받으실 자격이 있습니다!",
+      "explorer": "타우히드는 이슬람에서 가장 중요한 신앙입니다 — 오직 한 분의 신, 알라만 계신다는 것입니다. 그분에게는 파트너도, 가족도, 동등한 분도 없습니다. 그분은 만물의 창조주이시며 예배받을 유일한 분이십니다. 타우히드를 이해한다는 것은 우상, 사람, 다른 어떤 것에도 기도하지 않고 오직 알라에게만 기도한다는 것입니다. 이 신앙은 이슬람의 모든 것의 기초입니다.",
+      "thinker": "타우히드는 이슬람 신학의 초석으로, 세 가지 차원을 포함합니다: 타우히드 아르-루부비야(주권의 유일성), 타우히드 알-울루히야(예배의 유일성), 타우히드 알-아스마 와스-시파트(이름과 속성의 유일성). 첫 번째는 알라를 유일한 창조주이자 유지자로 인정합니다. 두 번째는 모든 형태의 예배를 오직 그분에게만 향하게 합니다. 세 번째는 알라의 속성이 고유하고 비교할 수 없음을 확증합니다. 꾸란은 말합니다: '말하라, 그분은 알라, 유일한 분이시라. 알라는 영원한 피난처이시라. 그분은 낳지도 않으시고 낳아지지도 않으시며, 그분과 동등한 자는 아무도 없다'(수라 알-이클라스 112:1-4)."
     },
-    "funFact": "Did you know? The word 'Islam' comes from the root 'salaam' which means peace, and it means submission to Allah — the One God!",
+    "funFact": "알고 계셨나요? '이슬람'이라는 단어는 평화를 의미하는 '살람'에서 유래했으며, 유일한 신 — 알라께 복종한다는 것을 의미합니다!",
     "quiz": [
       {
-        "q": "What does Tawheed mean?",
+        "q": "타우히드는 무엇을 의미하나요?",
         "options": [
-          "Many gods",
-          "Oneness of God",
-          "Prayer"
+          "많은 신들",
+          "신의 유일성",
+          "기도"
         ],
         "correct": 1,
-        "explanation": "Tawheed means the Oneness of God — believing there is only one God, Allah."
+        "explanation": "타우히드는 신의 유일성을 의미합니다 — 오직 한 분의 신, 알라만 계신다는 믿음입니다."
       },
       {
-        "q": "How many gods does Islam teach us about?",
+        "q": "이슬람은 몇 명의 신을 가르치나요?",
         "options": [
-          "Many gods",
-          "Only one God",
-          "Two gods"
+          "많은 신들",
+          "오직 한 분의 신",
+          "두 명의 신"
         ],
         "correct": 1,
-        "explanation": "Islam teaches us that there is only one God — Allah."
+        "explanation": "이슬람은 오직 한 분의 신 — 알라만 계신다고 가르칩니다."
       },
       {
-        "q": "Which surah of the Quran talks about Tawheed?",
+        "q": "꾸란의 어느 수라가 타우히드에 대해 이야기하나요?",
         "options": [
-          "Al-Fatiha",
-          "Al-Ikhlas",
-          "Al-Baqarah"
+          "알-파티하",
+          "알-이클라스",
+          "알-바카라"
         ],
         "correct": 1,
-        "explanation": "Surah Al-Ikhlas (112) talks about the Oneness of God."
+        "explanation": "수라 알-이클라스(112)가 신의 유일성에 대해 이야기합니다."
       }
     ]
   },
   {
     "id": "angels",
-    "title": "Angels",
+    "title": "천사들",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "👼",
     "category": "core_beliefs",
     "content": {
-      "starter": "Angels are special creatures made of light! Allah sends them to help us. Some angels write down our good and bad deeds. Some angels take our souls when it's time. Angels always obey Allah and never make mistakes!",
-      "explorer": "Angels are one of the six articles of faith in Islam. They are created from light and always obey Allah. The most famous angel is Jibril (Gabriel), who brought Allah's messages to the prophets. Other important angels include Mikail (Michael), Israfil (who will blow the trumpet on Judgment Day), and Azra'il (the angel of death). Angels record our deeds and protect us.",
-      "thinker": "Angels (Mala'ika) are a fundamental article of Islamic belief. Created from light, they exist in a different dimension and serve Allah in various capacities. Jibril (Gabriel) delivered the Quran to Prophet Muhammad ﷺ. The Kiraman Katibin are recording angels who document every deed. The angel Munkar and Nakir question the dead in their graves. Unlike humans, angels have no free will — they always obey Allah. Their existence reminds us that we are never truly alone and that our actions are always being witnessed."
+      "starter": "천사들은 빛으로 만들어진 특별한 존재들입니다! 알라께서 그들을 우리를 돕기 위해 보내십니다. 어떤 천사들은 우리의 선행과 악행을 기록합니다. 어떤 천사들은 때가 되면 우리의 영혼을 가져갑니다. 천사들은 항상 알라께 순종하고 결코 실수하지 않습니다!",
+      "explorer": "천사들은 이슬람의 여섯 신앙 조항 중 하나입니다. 빛으로 창조되었으며 항상 알라께 순종합니다. 가장 유명한 천사는 지브릴(가브리엘)로, 알라의 메시지를 예언자들에게 전달했습니다. 다른 중요한 천사들로는 미카일(미카엘), 이스라필(심판의 날 나팔을 부는 천사), 아즈라일(죽음의 천사)이 있습니다. 천사들은 우리의 행위를 기록하고 우리를 보호합니다.",
+      "thinker": "천사들(말라이카)은 이슬람 신앙의 기본 조항입니다. 빛으로 창조되어 다른 차원에 존재하며 다양한 역할로 알라를 섭깁니다. 지브릴(가브리엘)은 꾸란을 무함마드 예언자 ﷺ에게 전달했습니다. 키라만 카티빈은 모든 행위를 기록하는 천사들입니다. 문카르와 나키르 천사는 무덤에서 죽은 자에게 질문합니다. 인간과 달리 천사들은 자유 의지가 없습니다 — 항상 알라께 순종합니다. 그들의 존재는 우리가 결코 혼자가 아니며 우리의 행동이 항상 목격되고 있음을 상기시킵니다."
     },
-    "funFact": "Did you know? Angels have wings! Some have two, some have three, some have four — and Prophet Muhammad ﷺ saw the angel Jibril with 600 wings!",
+    "funFact": "알고 계셨나요? 천사들은 날개가 있습니다! 어떤 천사는 두 개, 어떤 천사는 세 개, 어떤 천사는 네 개 — 그리고 무함마드 예언자 ﷺ는 지브릴 천사가 600개의 날개를 가진 것을 보셨습니다!",
     "quiz": [
       {
-        "q": "What are angels made of?",
+        "q": "천사들은 무엇으로 만들어졌나요?",
         "options": [
-          "Fire",
-          "Light",
-          "Water"
+          "불",
+          "빛",
+          "물"
         ],
         "correct": 1,
-        "explanation": "Angels are created from light."
+        "explanation": "천사들은 빛으로 창조되었습니다."
       },
       {
-        "q": "Which angel brought messages to the prophets?",
+        "q": "어느 천사가 예언자들에게 메시지를 전달했나요?",
         "options": [
-          "Mikail",
-          "Jibril",
-          "Israfil"
+          "미카일",
+          "지브릴",
+          "이스라필"
         ],
         "correct": 1,
-        "explanation": "Jibril (Gabriel) brought Allah's messages to the prophets."
+        "explanation": "지브릴(가브리엘)이 알라의 메시지를 예언자들에게 전달했습니다."
       },
       {
-        "q": "Do angels have free will?",
+        "q": "천사들은 자유 의지가 있나요?",
         "options": [
-          "Yes, they can choose",
-          "No, they always obey Allah",
-          "Sometimes"
+          "네, 선택할 수 있습니다",
+          "아니요, 항상 알라께 순종합니다",
+          "때때로"
         ],
         "correct": 1,
-        "explanation": "Angels always obey Allah — they don't have free will like humans."
+        "explanation": "천사들은 항상 알라께 순종합니다 — 인간과 같은 자유 의지가 없습니다."
       }
     ]
   },
   {
     "id": "holy_books",
-    "title": "Holy Books",
+    "title": "거룩한 책들",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📕",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent holy books to guide people! The most important one for us is the Quran — Allah's final book, sent to Prophet Muhammad ﷺ. Before that, Allah sent the Torah to Musa, the Zabur to Dawud, and the Injil to Isa. The Quran is special because Allah promised to protect it!",
-      "explorer": "Muslims believe that Allah revealed several holy books to guide humanity. The Tawrat (Torah) was given to Prophet Musa, the Zabur (Psalms) to Prophet Dawud, and the Injil (Gospel) to Prophet Isa. The Quran is the final and most complete revelation, sent to Prophet Muhammad ﷺ. We believe the earlier books were changed over time, but the Quran has been preserved exactly as Allah revealed it.",
-      "thinker": "The belief in holy books (Kutub) is the third article of Islamic faith. Allah revealed guidance through various scriptures: the Sahifat to Ibrahim, the Tawrat to Musa, the Zabur to Dawud, the Injil to Isa, and the Quran to Muhammad ﷺ. While Muslims respect all these revelations, we believe the Quran is the final and preserved word of Allah. It was revealed over 23 years and has been memorized by millions of huffaz (memorizers) throughout history. The Quran is unique in that Allah Himself guaranteed its preservation: 'Indeed, it is We who sent down the Quran and indeed, We will be its guardian' (Surah Al-Hijr 15:9)."
+      "starter": "알라께서 사람들을 인도하기 위해 거룩한 책들을 보내셨습니다! 우리에게 가장 중요한 것은 꾸란입니다 — 무함마드 예언자 ﷺ에게 보내진 알라의 마지막 책입니다. 그 전에 알라께서는 무사에게 토라를, 다우드에게 자부르를, 이사에게 인질을 보내셨습니다. 꾸란은 알라께서 보호하겠다고 약속하셨기 때문에 특별합니다!",
+      "explorer": "무슬림은 알라께서 인류를 인도하기 위해 여러 거룩한 책들을 계시하셨다고 믿습니다. 타우라트(토라)는 무사 예언자에게, 자부르(시편)는 다우드 예언자에게, 인질(복음)은 이사 예언자에게 주어졌습니다. 꾸란은 무함마드 예언자 ﷺ에게 보내진 마지막이자 가장 완전한 계시입니다. 우리는 이전 책들이 시간이 지나면서 변경되었다고 믿지만, 꾸란은 알라께서 계시하신 그대로 보존되어 왔습니다.",
+      "thinker": "거룩한 책들(쿠툽)에 대한 신앙은 이슬람 신앙의 세 번째 조항입니다. 알라께서는 여러 경전을 통해 인도를 계시하셨습니다: 이브라힘에게 사히파트를, 무사에게 타우라트를, 다우드에게 자부르를, 이사에게 인질을, 무함마드 ﷺ에게 꾸란을. 무슬림은 모든 계시를 존경하지만, 꾸란이 알라의 마지막이자 보존된 말씀이라고 믿습니다. 23년에 걸쳐 계시되었으며 역사 전반에 걸쳐 수백만의 후파즈(암송자)들이 암기해 왔습니다. 꾸란은 알라께서 직접 그 보존을 보장하셨다는 점에서 독특합니다: '실로 우리가 꾸란을 내렸고 실로 우리가 그 보호자이다'(수라 알-히즈르 15:9)."
     },
-    "funFact": "Did you know? The Quran has been completely memorized by millions of people around the world — and some children as young as 7 years old!",
+    "funFact": "알고 계셨나요? 꾸란은 전 세계 수백만 명이 완전히 암기했습니다 — 일부 어린이는 7살에 암기합니다!",
     "quiz": [
       {
-        "q": "Which is the final holy book in Islam?",
+        "q": "이슬람의 마지막 거룩한 책은 무엇인가요?",
         "options": [
-          "Torah",
-          "Bible",
-          "Quran"
+          "토라",
+          "성경",
+          "꾸란"
         ],
         "correct": 2,
-        "explanation": "The Quran is the final and most complete holy book sent by Allah."
+        "explanation": "꾸란은 알라께서 보내신 마지막이자 가장 완전한 거룩한 책입니다."
       },
       {
-        "q": "Which prophet received the Torah?",
+        "q": "토라를 받은 예언자는 누구인가요?",
         "options": [
-          "Prophet Ibrahim",
-          "Prophet Musa",
-          "Prophet Isa"
+          "이브라힘 예언자",
+          "무사 예언자",
+          "이사 예언자"
         ],
         "correct": 1,
-        "explanation": "The Torah (Tawrat) was given to Prophet Musa (Moses)."
+        "explanation": "토라(타우라트)는 무사 예언자(모세)에게 주어졌습니다."
       },
       {
-        "q": "What makes the Quran special?",
+        "q": "꾸란이 특별한 이유는 무엇인가요?",
         "options": [
-          "It's the oldest book",
-          "Allah promised to protect it",
-          "It has many pages"
+          "가장 오래된 책이다",
+          "알라께서 보호하겠다고 약속하셨다",
+          "페이지가 많다"
         ],
         "correct": 1,
-        "explanation": "Allah promised to protect the Quran from being changed — it's preserved exactly as revealed."
+        "explanation": "알라께서는 꾸란이 변경되지 않도록 보호하겠다고 약속하셨습니다 — 계시된 그대로 보존되어 있습니다."
       }
     ]
   },
   {
     "id": "prophets",
-    "title": "Prophets of Allah",
+    "title": "알라의 예언자들",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_3_prophet_stories_feature-FtRej2zvGTyPa9u6r2MF85.webp?updatedAt=1781117901347",
     "emoji": "🧑‍🏫",
     "category": "core_beliefs",
     "content": {
-      "starter": "Allah sent many prophets to guide people! We believe in 25 prophets, like Adam, Ibrahim, Musa, Isa, and the last one, Muhammad ﷺ. They were all good people who taught us to worship Allah and be kind to others!",
-      "explorer": "Allah sent prophets to every nation throughout history to guide people to the right path. We know of 25 prophets mentioned in the Quran, including Adam, Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. All prophets taught the same message: worship Allah alone and be good to others. Prophet Muhammad ﷺ is the last and final prophet.",
-      "thinker": "The belief in prophets (Anbiya) is the fourth article of Islamic faith. Allah sent 124,000 prophets to guide humanity, with 25 specifically mentioned in the Quran. They include the five greatest prophets (Ulul-Azm): Nuh, Ibrahim, Musa, Isa, and Muhammad ﷺ. Each prophet was sent to a specific nation but carried the same universal message of Tawheed and moral conduct. Prophet Muhammad ﷺ is the Seal of the Prophets (Khatam an-Nabiyyin), meaning no new prophet will come after him. His message is for all of humanity until the Day of Judgment."
+      "starter": "알라께서 사람들을 인도하기 위해 많은 예언자들을 보내셨습니다! 우리는 25명의 예언자를 믿습니다. 아담, 이브라힘, 무사, 이사, 그리고 마지막 무함마드 ﷺ 같은 분들입니다. 그들은 모두 알라를 예배하고 다른 사람에게 친절하라고 가르친 좋은 분들이었습니다!",
+      "explorer": "알라께서는 역사 전반에 걸쳐 모든 민족에게 사람들을 올바른 길로 인도할 예언자들을 보내셨습니다. 꾸란에 언급된 25명의 예언자를 알고 있습니다. 아담, 누, 이브라힘, 무사, 이사, 무함마드 ﷺ가 포함됩니다. 모든 예언자는 같은 메시지를 가르쳤습니다: 오직 알라만 예배하고 다른 사람에게 선하게 대하라. 무함마드 예언자 ﷺ는 마지막 예언자입니다.",
+      "thinker": "예언자들(안비야)에 대한 신앙은 이슬람 신앙의 네 번째 조항입니다. 알라께서는 인류를 인도하기 위해 124,000명의 예언자를 보내셨으며, 꾸란에는 25명이 구체적으로 언급되어 있습니다. 여기에는 다섯 위대한 예언자(울루 알-아즘)가 포함됩니다: 누, 이브라힘, 무사, 이사, 무함마드 ﷺ. 각 예언자는 특정 민족에게 보내졌지만 타우히드와 도덕적 행실이라는 동일한 보편적 메시지를 전했습니다. 무함마드 예언자 ﷺ는 예언자들의 인장(하탐 안-나비인)으로, 그 이후 새로운 예언자가 오지 않을 것임을 의미합니다. 그의 메시지는 심판의 날까지 전 인류를 위한 것입니다."
     },
-    "funFact": "Did you know? Muslims believe in 25 prophets mentioned in the Quran! Prophet Nuh (Noah) lived for 950 years and built the big ship!",
+    "funFact": "알고 계셨나요? 무슬림은 꾸란에 언급된 25명의 예언자를 믿습니다! 누 예언자(노아)는 950년을 살았고 큰 배를 만들었습니다!",
     "quiz": [
       {
-        "q": "How many prophets are mentioned in the Quran?",
+        "q": "꾸란에 몇 명의 예언자가 언급되어 있나요?",
         "options": [
-          "10",
-          "25",
-          "100"
+          "10명",
+          "25명",
+          "100명"
         ],
         "correct": 1,
-        "explanation": "25 prophets are specifically mentioned in the Quran."
+        "explanation": "꾸란에는 25명의 예언자가 구체적으로 언급되어 있습니다."
       },
       {
-        "q": "Who is the last prophet in Islam?",
+        "q": "이슬람의 마지막 예언자는 누구인가요?",
         "options": [
-          "Prophet Isa",
-          "Prophet Musa",
-          "Prophet Muhammad"
+          "이사 예언자",
+          "무사 예언자",
+          "무함마드 예언자"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ is the last and final prophet sent by Allah."
+        "explanation": "무함마드 예언자 ﷺ는 알라께서 보내신 마지막 예언자입니다."
       },
       {
-        "q": "What did all prophets teach?",
+        "q": "모든 예언자는 무엇을 가르쳤나요?",
         "options": [
-          "Different messages",
-          "Worship Allah alone and be kind",
-          "Only pray"
+          "다른 메시지",
+          "오직 알라만 예배하고 친절하라",
+          "기도만"
         ],
         "correct": 1,
-        "explanation": "All prophets taught the same message: worship Allah alone and be good to others."
+        "explanation": "모든 예언자는 같은 메시지를 가르쳤습니다: 오직 알라만 예배하고 다른 사람에게 선하게 대하라."
       }
     ]
   },
   {
     "id": "day_of_judgment",
-    "title": "Day of Judgment",
+    "title": "심판의 날",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326",
     "emoji": "⚖️",
     "category": "core_beliefs",
     "content": {
-      "starter": "One day, everyone will come back to life and stand in front of Allah! He will check all our good and bad deeds. People who did good will go to Paradise — a beautiful place with everything nice. People who were bad and didn't sorry will go to Hell. That's why we should always try to do good!",
-      "explorer": "The Day of Judgment (Yawm al-Qiyamah) is when all people will be resurrected and brought before Allah to be judged for their deeds. Every action — even the smallest kindness — will be weighed on a scale. Those whose good deeds outweigh their bad will enter Paradise (Jannah), a place of eternal happiness. Those whose bad deeds are heavier will face punishment. This belief motivates Muslims to always do their best.",
-      "thinker": "The Day of Judgment (Qiyamah) is the fifth article of Islamic faith. It is the day when all of creation will be resurrected and judged by Allah with perfect justice. The Prophet ﷺ described signs that will precede it, including major earthquakes, the sun rising from the west, and the emergence of the Dajjal. On that day, every person will receive their book of deeds — in the right hand for the righteous, in the left for the wrongdoers. The scale (Mizan) will weigh every deed, no matter how small. This belief provides moral accountability and motivates Muslims to live righteously."
+      "starter": "언젠가 모든 사람이 다시 살아나 알라 앞에 서게 될 것입니다! 그분은 우리의 모든 선행과 악행을 확인하실 것입니다. 선한 일을 한 사람은 낙원에 갈 것입니다 — 모든 것이 아름다운 곳입니다. 나쁜 일을 하고 뉘우치지 않은 사람은 지옥에 갈 것입니다. 그래서 우리는 항상 선을 행하려고 해야 합니다!",
+      "explorer": "심판의 날(야움 알-키야마)은 모든 사람이 부활하여 행위에 대해 심판받기 위해 알라 앞에 서게 되는 날입니다. 모든 행동 — 아주 작은 친절도 — 저울에 달릴 것입니다. 선행이 악행보다 무거운 사람은 영원한 행복의 장소인 낙원(잔나)에 들어갈 것입니다. 악행이 더 무거운 사람은 벌을 받게 될 것입니다. 이 신앙은 무슬림이 항상 최선을 다하게 동기부여합니다.",
+      "thinker": "심판의 날(키야마)은 이슬람 신앙의 다섯 번째 조항입니다. 모든 피조물이 부활하여 알라께서 완전한 공의로 심판하시는 날입니다. 예언자 ﷺ는 그 앞에 올 징조들을 설명하셨습니다. 큰 지진, 태양이 서쪽에서 뜨는 것, 다잘의 출현 등입니다. 그날 모든 사람은 행위의 책을 받습니다 — 의로운 자는 오른손에, 악인은 왼손에. 저울(미잔)은 아무리 작은 행위라도 달 것입니다. 이 신앙은 도덕적 책임감을 제공하고 무슬림이 의롭게 살도록 동기부여합니다."
     },
-    "funFact": "Did you know? On the Day of Judgment, even a small good deed — like removing a thorn from the road — will be rewarded!",
+    "funFact": "알고 계셨나요? 심판의 날에 태양이 머리 바로 위까지 가까워져서 모든 사람이 땀에 젖을 것입니다 — 어떤 사람은 발목까지, 어떤 사람은 무릎까지, 어떤 사람은 허리까지!",
     "quiz": [
       {
-        "q": "What happens on the Day of Judgment?",
+        "q": "심판의 날에 무슨 일이 일어나나요?",
         "options": [
-          "Everyone goes to Paradise",
-          "Everyone is judged for their deeds",
-          "Nothing happens"
+          "아무 일도 일어나지 않는다",
+          "모든 사람이 부활하여 심판받는다",
+          "세상이 끝난다"
         ],
         "correct": 1,
-        "explanation": "On the Day of Judgment, everyone will be judged for their good and bad deeds."
+        "explanation": "심판의 날에 모든 사람이 부활하여 알라 앞에서 행위에 대해 심판받습니다."
       },
       {
-        "q": "What is the name of Paradise in Arabic?",
+        "q": "알라께서는 무엇으로 우리의 행위를 재시나요?",
         "options": [
-          "Jannah",
-          "Jahannam",
-          "Dunya"
+          "컴퓨터",
+          "저울(미잔)",
+          "시험지"
         ],
         "correct": 0,
-        "explanation": "Paradise is called Jannah in Arabic — it means 'garden'."
+        "explanation": "알라께서는 저울(미잔)로 모든 행위를 재십니다."
       },
       {
-        "q": "Will even small deeds be judged?",
+        "q": "선행이 많은 사람은 어디에 가나요?",
         "options": [
-          "No, only big deeds",
-          "Yes, every single deed",
-          "Only bad deeds"
+          "지옥",
+          "낙원(잔나)",
+          "다시 지구로"
         ],
         "correct": 1,
-        "explanation": "Every deed, no matter how small, will be weighed on the Day of Judgment."
+        "explanation": "선행이 악행보다 무거운 사람은 낙원(잔나)에 들어갑니다."
       }
     ]
   },
   {
     "id": "wudu",
-    "title": "Wudu - Ablution",
+    "title": "우두 - 세정",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🚿",
     "category": "daily_practices",
     "content": {
-      "starter": "Wudu is washing before prayer! We wash our hands, mouth, nose, face, arms, head, and feet with clean water. It makes us clean and ready to talk to Allah. Wudu also washes away our small sins — how cool is that!",
-      "explorer": "Wudu is the ritual ablution Muslims perform before praying. It involves washing specific body parts in order: hands, mouth, nose, face, arms to elbows, wiping the head, and washing feet to ankles. Wudu is not just about physical cleanliness — it's also spiritual purification. Each step has benefits: washing the hands removes germs, rinsing the mouth keeps it clean, and washing the feet removes dirt from the road.",
-      "thinker": "Wudu is a beautiful act that combines physical hygiene with spiritual purification. The Quran states: 'Indeed, Allah loves those who are constantly repenting and loves those who purify themselves' (Surah Al-Baqarah 2:222). The Prophet ﷺ said that when a Muslim performs wudu and washes their face, sins fall away with the water. When they wash their hands, sins fall from their hands. When they wash their feet, sins fall from their feet. Wudu is thus both a practical act of cleanliness and a spiritual ritual of renewal."
+      "starter": "우두는 기도하기 전에 씻는 특별한 방법입니다! 우리는 손, 입, 얼굴, 팔, 머리, 발을 씻습니다. 이것은 우리가 깨끗하고 준비되었음을 의미합니다. 알라께서는 깨끗함을 사랑하십니다!",
+      "explorer": "우두는 무슬림이 기도하기 전에 수행하는 의식적 세정입니다. 여기에는 손을 씻고, 입을 헹구고, 얼굴을 씻고, 팔을 팔꿈치까지 씻고, 머리를 쓰다듬고, 발을 발목까지 씻는 것이 포함됩니다. 꾸란에서 알라께서 말씀하십니다: 씻을 물이 없을 때는 깨끗한 흙으로 타얌룸(흙세정)을 할 수 있습니다. 우두는 기도의 필수 조건입니다.",
+      "thinker": "우두(세정)는 이슬람 예배의 필수 전제조건입니다. 꾸란(수라 알-마이다 5:6)은 우두의 방법을 상세히 설명합니다. 예언자 ﷺ는 말씀하셨습니다: '우두 없는 기도는 받아들여지지 않는다.' 우두는 물리적 정결과 영적 정결을 연결합니다. 각 동작은 상징적 의미를 갖습니다: 손을 씻는 것은 나쁜 행동을 씻어내고, 입을 헹구는 것은 나쁜 말을 정화하며, 얼굴을 씻는 것은 죄를 씻어내고, 머리를 쓰다듬는 것은 지식과 이해를 정화하고, 발을 씻는 것은 나쁜 길에서 벗어나게 합니다. 과학적 연구는 우두가 세균을 크게 줄인다는 것을 보여줍니다."
     },
-    "funFact": "Did you know? When you perform wudu and wash each body part, your sins fall away with the water — it's like getting a fresh start!",
+    "funFact": "알고 계셨나요? 우두를 하면 죄가 떨어져 나갑니다! 예언자 ﷺ가 말씀하셨습니다: 무슬림이 우두를 하고 얼굴을 씻을 때, 눈으로 지은 모든 죄가 마지막 물방울과 함께 떨어져 나갑니다!",
     "quiz": [
       {
-        "q": "What do we perform before praying?",
+        "q": "우두는 무엇인가요?",
         "options": [
-          "Ghusl",
-          "Wudu",
-          "Tayammum"
+          "음식을 먹는 것",
+          "기도 전 세정",
+          "잠자는 것"
         ],
         "correct": 1,
-        "explanation": "We perform wudu (ablution) before praying to clean ourselves."
+        "explanation": "우두는 무슬림이 기도하기 전에 수행하는 의식적 세정입니다."
       },
       {
-        "q": "How many steps are in wudu?",
+        "q": "물이 없을 때 어떻게 하나요?",
         "options": [
-          "3 steps",
-          "7 steps",
-          "10 steps"
+          "기도하지 않는다",
+          "타얌룸(흙세정)을 한다",
+          "물을 찾을 때까지 기다린다"
         ],
         "correct": 1,
-        "explanation": "There are 7 main steps in wudu: hands, mouth, nose, face, arms, head, and feet."
+        "explanation": "물이 없을 때는 깨끗한 흙으로 타얌룸(흙세정)을 할 수 있습니다."
       },
       {
-        "q": "What does wudu clean besides the body?",
+        "q": "우두에서 가장 먼저 씻는 것은 무엇인가요?",
         "options": [
-          "Our clothes",
-          "Our sins",
-          "Our room"
+          "발",
+          "손",
+          "얼굴"
         ],
         "correct": 1,
-        "explanation": "Wudu washes away our small sins — it's spiritual purification too!"
+        "explanation": "우두에서 가장 먼저 손을 씻습니다."
       }
     ]
   },
   {
     "id": "islamic_dress",
-    "title": "Islamic Dress",
+    "title": "이슬람 복장",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_13_topic_islamic_dress-7whwzZgTnmsVkCdmrsGaFv.webp?updatedAt=1781117899286",
     "emoji": "👗",
     "category": "daily_practices",
     "content": {
-      "starter": "Allah asks us to dress nicely and modestly! Boys and girls should cover their bodies properly. It's about being respectful and showing that we love Allah. Modest dressing makes us feel confident and proud of being Muslim!",
-      "explorer": "Islamic dress is about modesty and respecting Allah's guidelines. For women, this generally means covering everything except the face, hands, and feet — many choose to wear hijab (headscarf). For men, clothing should cover from the navel to the knees. The key is modesty — not showing off or wearing inappropriate clothes. Islamic dress is an act of worship and identity.",
-      "thinker": "Islamic dress codes are rooted in the Quran and Sunnah. Allah says: 'O Children of Adam, take your adornment at every masjid' (Surah Al-A'raf 7:31). The hijab is more than a piece of cloth — it's a statement of identity, dignity, and devotion to Allah. For both men and women, modest dress is about self-respect and not reducing oneself to physical appearance. It's important to understand that modesty is a comprehensive concept that includes behavior, speech, and dress. The goal is to be recognized for one's character and intellect, not merely for appearance."
+      "starter": "무슬림은 단정하고 겸손하게 옷을 입습니다! 여자들은 히잡이라는 머리 가리개를 쓰고, 남자들도 단정하게 입습니다. 이것은 우리가 몸을 존중하고 알라께서 기뻐하시는 방식으로 옷을 입는다는 것을 보여줍니다!",
+      "explorer": "이슬람에서 겸손한 복장은 중요합니다. 히잡은 무슬림 여성이 머리와 몸을 덮는 겸손한 복장입니다. 남성도 배꼽에서 무릎 사이를 덮어야 하며, 단정하게 입어야 합니다. 겸손한 복장은 우리가 외모가 아닌 내면의 아름다움으로 판단받기를 원한다는 것을 보여줍니다. 이것은 알라의 명령이자 우리의 선택입니다.",
+      "thinker": "이슬람의 겸손 복장(히잡/후자브)은 종종 오해받지만, 실제로는 여성의 존엄성과 자율성을 보호하는 제도입니다. 꾸란(수라 안-누르 24:31, 알-아흐자브 33:59)은 남녀 모두에게 겸손을 명령합니다. 히잡은 단순히 머리 가리개가 아니라, 외모보다 지성과 인격으로 평가받겠다는 의지의 표현입니다. 이슬람 복장 규정은 또한 남성에게 적용됩니다: 느슨한 옷, 특정 부위 덮기, 금과 비단 착용 금지 등. 겸손은 복장에만 국한되지 않고 시선, 말, 행동으로도 확장됩니다."
     },
-    "funFact": "Did you know? The word 'hijab' comes from Arabic and means 'curtain' or 'screen' — it's about creating a space of dignity and privacy!",
+    "funFact": "알고 계셨나요? 히잡이라는 단어는 아랍어로 '가리개'나 '커튼'을 의미합니다 — 단순히 머리 가리개가 아니라 단정함과 겸손의 개념입니다!",
     "quiz": [
       {
-        "q": "What is the main purpose of Islamic dress?",
+        "q": "히잡은 무엇인가요?",
         "options": [
-          "Fashion",
-          "Modesty",
-          "Uniform"
+          "음식의 일종",
+          "겸손한 복장",
+          "기도의 일종"
         ],
         "correct": 1,
-        "explanation": "Islamic dress is about modesty and respecting Allah's guidelines."
+        "explanation": "히잡은 무슬림 여성이 입는 겸손한 복장입니다."
       },
       {
-        "q": "What does 'hijab' mean?",
+        "q": "이슬람은 누구에게 겸손한 복장을 요구하나요?",
         "options": [
-          "Prayer",
-          "Curtain or screen",
-          "Charity"
+          "여성만",
+          "남성만",
+          "남성과 여성 모두"
         ],
         "correct": 1,
-        "explanation": "The word 'hijab' means 'curtain' or 'screen' in Arabic."
+        "explanation": "이슬람은 남성과 여성 모두에게 겸손한 복장을 요구합니다."
       },
       {
-        "q": "For men, what part of the body must be covered?",
+        "q": "겸손한 복장은 무엇을 보여주나요?",
         "options": [
-          "Only the head",
-          "From navel to knees",
-          "Entire body"
+          "부를 보여준다",
+          "내면의 아름다움이 중요함을 보여준다",
+          "유행을 따름을 보여준다"
         ],
         "correct": 1,
-        "explanation": "Men must cover from the navel to the knees as a minimum."
+        "explanation": "겸손한 복장은 우리가 외모가 아닌 내면의 아름다움으로 판단받기를 원함을 보여줍니다."
       }
     ]
   },
   {
     "id": "halal_food",
-    "title": "Halal Food",
+    "title": "할랄 음식",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194",
     "emoji": "🍽️",
     "category": "daily_practices",
     "content": {
-      "starter": "Halal means 'okay to eat' in Arabic! Allah tells us what food is good for us. We can eat fruits, vegetables, chicken, and fish. We can't eat pork or drink alcohol. We always say 'Bismillah' before eating to thank Allah!",
-      "explorer": "Halal means permissible in Islam. Allah has told us which foods are halal (allowed) and haram (forbidden). Halal foods include fruits, vegetables, grains, and properly slaughtered meat. Haram foods include pork, blood, alcohol, and meat not slaughtered in Allah's name. Saying 'Bismillah' before eating is a Sunnah and reminds us that food is a blessing from Allah.",
-      "thinker": "The concept of halal and haram in food is rooted in the Quran and Sunnah. Allah says: 'Eat of what is lawful and good on the earth' (Surah Al-Baqarah 2:168). Halal is not just about what we eat but how food is obtained — it must be through ethical, humane, and clean methods. Pork is prohibited (haram) as stated in multiple Quranic verses. Alcohol is forbidden because it clouds the mind and leads to sin. Even when eating halal food, Islam teaches moderation: 'Eat and drink, but do not be excessive' (Surah Al-A'raf 31). The act of saying 'Bismillah' before eating transforms a routine meal into an act of worship."
+      "starter": "할랄은 허락된다는 뜻입니다! 무슬림은 깨끗하고 건강한 음식만 먹습니다. 우리는 돼지고기를 먹지 않고, 동물을 알라의 이름으로 도축합니다. 할랄 음식을 먹으면 몸과 마음이 깨끗해집니다!",
+      "explorer": "할랄은 '허락된' 것을 의미하고 하람은 '금지된' 것을 의미합니다. 무슬림은 돼지고기, 술, 피, 알라의 이름으로 도축되지 않은 고기를 먹지 않습니다. 할랄 도축은 동물에게 고통을 최소화하는 방식으로 이루어집니다. 할랄 음식을 먹는 것은 알라의 법을 따르고 건강을 유지하는 것입니다.",
+      "thinker": "이슬람의 식이 법규(할랄과 하람)는 신체적 건강, 영적 정결, 동물 복지의 원칙에 기반합니다. 꾸란(수라 알-마이다 5:3)은 금지된 것들을 명시합니다. 할랄 도축(다비하)은 매우 구체적인 규칙을 따릅니다: 날카로운 칼 사용, 알라의 이름 언급, 빠르고 인도적인 방식. 흥미롭게도, 금지된 것들의 대부분은 과학적으로 건강에 해로운 것으로 입증되었습니다. 이슬람의 식이 원칙은 1400년 전에 확립되었지만 현대 영양학과 일치합니다."
     },
-    "funFact": "Did you know? Muslims say 'Bismillah' (In the name of Allah) before eating — it's like saying grace and thanking Allah for the food!",
+    "funFact": "알고 계셨나요? '할랄'이라는 단어는 '허락된'을 의미하고, '하람'은 '금지된'을 의미합니다 — 이 단어들은 음식뿐만 아니라 모든 행동에 적용됩니다!",
     "quiz": [
       {
-        "q": "What does 'halal' mean?",
+        "q": "할랄은 무엇을 의미하나요?",
         "options": [
-          "Forbidden",
-          "Permissible",
-          "Delicious"
+          "금지된",
+          "허락된",
+          "신성한"
         ],
         "correct": 1,
-        "explanation": "Halal means 'permissible' — food that Allah allows us to eat."
+        "explanation": "할랄은 '허락된'을 의미합니다 — 무슬림이 먹거나 할 수 있는 것입니다."
       },
       {
-        "q": "Which of these is haram (forbidden) in Islam?",
+        "q": "무슬림이 먹지 않는 것은 무엇인가요?",
         "options": [
-          "Chicken",
-          "Fruits",
-          "Pork"
+          "닭고기",
+          "돼지고기",
+          "양고기"
         ],
         "correct": 2,
-        "explanation": "Pork is haram (forbidden) in Islam."
+        "explanation": "무슬림은 돼지고기(하람)를 먹지 않습니다."
       },
       {
-        "q": "What do Muslims say before eating?",
+        "q": "할랄 도축의 특징은 무엇인가요?",
         "options": [
-          "Alhamdulillah",
-          "Bismillah",
-          "Subhanallah"
+          "빠르고 인도적이다",
+          "아무렇게나 한다",
+          "기계로만 한다"
         ],
         "correct": 1,
-        "explanation": "Muslims say 'Bismillah' (In the name of Allah) before eating."
+        "explanation": "할랄 도축은 날카로운 칼로 빠르고 인도적으로 이루어집니다."
       }
     ]
   },
   {
     "id": "duas",
-    "title": "Duas - Supplications",
+    "title": "두아 - 기원",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_10_pillar_duas-EqyXdQq6eb7Aov9Lmrvy3T.webp?updatedAt=1781117901995",
     "emoji": "🤲",
     "category": "daily_practices",
     "content": {
-      "starter": "Duas are prayers we say to Allah anytime! When we wake up, eat, go outside, or feel scared — we can talk to Allah. He always listens! There's a special dua for everything. It's like having a direct line to Allah!",
-      "explorer": "Duas are personal prayers to Allah — conversations where we ask for help, guidance, forgiveness, or express gratitude. Unlike formal salah, duas can be made anytime in any language. The Prophet ﷺ taught us specific duas for waking up, eating, traveling, and more. Making dua shows our dependence on Allah and our trust in His help.",
-      "thinker": "Duas (supplications) represent the direct relationship between a servant and Allah. The Prophet ﷺ said: 'Dua is the essence of worship.' Islam teaches duas for every occasion — from waking up ('Alhamdulillahilladhi ahyana ba'da ma amatana wa ilayhin-nushur') to entering the mosque, before sleeping, and during times of distress. Allah says: 'Call upon Me; I will respond to you' (Surah Ghafir 40:60). This is a profound promise — the Creator of the universe invites us to speak with Him directly, without any intermediary."
+      "starter": "두아는 알라와 대화하는 것입니다! 우리는 언제 어디서나 알라께 도움을 요청하고, 감사하고, 어떤 것이든 기도할 수 있습니다. 두아는 무릎을 꿇고 손을 들고 하는 특별한 기도입니다. 알라께서는 항상 들어주십니다!",
+      "explorer": "두아는 알라께 직접 기원하는 것을 의미합니다. 공식 기도(살라)와 달리, 두아는 언제 어디서나 어떤 언어로든 할 수 있습니다. 무슬림은 손을 들고 기도하며, 이것은 알라께 도움을 청하는 것입니다. 두아는 알라와 가까워지는 방법입니다. 꾸란에서 알라께서 말씀하십니다: '나에게 기도하라, 내가 너희에게 응답하리라.'",
+      "thinker": "두아(기원)는 이슬람에서 가장 강력한 예배 형태 중 하나입니다. 예언자 ﷺ는 말씀하셨습니다: '두아는 예배의 본질이다.' 두아는 알라의 전능과 인간의 의존성을 인정하는 것입니다. 알라께서 꾸란에서 약속하셨습니다: '너희 주님이 말씀하시기를 나에게 기도하라 내가 너희에게 응답하리라'(수라 가피르 40:60). 두아에는 에티켓이 있습니다: 올바른 시간(새벽, 금식 개방 시, 기도 후), 올바른 태도(겸손, 확신), 올바른 내용(감사, 용서, 인도). 두아는 또한 자신의 노력과 결합되어야 합니다 — 예언자 ﷺ는 말씀하셨습니다: '노력하고 알라께 의탁하라.'"
     },
-    "funFact": "Did you know? There's a dua for almost everything — even for when you enter your bathroom! Allah wants us to remember Him in every moment!",
+    "funFact": "알고 계셨나요? 알라께서는 세 가지 기도에 응답을 보장하십니다: 억울하게 핍박받는 자의 기도, 여행자의 기도, 그리고 부모가 자녀에 대해 하는 기도!",
     "quiz": [
       {
-        "q": "What is a dua?",
+        "q": "두아는 무엇인가요?",
         "options": [
-          "A type of food",
-          "A personal prayer to Allah",
-          "A holy book"
+          "공식 기도",
+          "알라께 드리는 기원",
+          "꾸란 암송"
         ],
         "correct": 1,
-        "explanation": "A dua is a personal prayer — talking to Allah anytime, anywhere."
+        "explanation": "두아는 알라께 직접 드리는 기원(간절한 기도)입니다."
       },
       {
-        "q": "Can duas be made in any language?",
+        "q": "두아는 언제 할 수 있나요?",
         "options": [
-          "Only in Arabic",
-          "Only in English",
-          "Yes, in any language"
+          "기도 시간에만",
+          "라마단에만",
+          "언제 어디서나"
         ],
         "correct": 2,
-        "explanation": "Duas can be made in any language — Allah understands all languages!"
+        "explanation": "두아는 언제 어디서나 어떤 언어로든 할 수 있습니다."
       },
       {
-        "q": "What did the Prophet ﷺ say about dua?",
+        "q": "두아를 할 때 어떻게 하나요?",
         "options": [
-          "Dua is useless",
-          "Dua is the essence of worship",
-          "Only pray at night"
+          "서서 한다",
+          "손을 들고 한다",
+          "눈을 감고 한다"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said: 'Dua is the essence of worship.'"
+        "explanation": "두아를 할 때 무슬림은 손을 들고 알라께 기원합니다."
       }
     ]
   },
   {
     "id": "reading_quran",
-    "title": "Reading Quran",
+    "title": "꾸란 읽기",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_41_ramadan_quran-Q4vPHzY2VWydTXwzmZNchH.webp?updatedAt=1781117900610",
     "emoji": "📖",
     "category": "daily_practices",
     "content": {
-      "starter": "The Quran is Allah's special book! When we read it, Allah rewards us. Even reading one letter gives us 10 rewards! The Quran teaches us how to be good Muslims and how to live happily. Let's try to read a little bit every day!",
-      "explorer": "The Quran is the holy book of Islam, revealed to Prophet Muhammad ﷺ through the angel Jibril. Reading the Quran is one of the most rewarding acts a Muslim can do — each letter earns 10 rewards. Muslims try to read the Quran daily, especially during Ramadan. The Quran is in Arabic, but translations help us understand its meanings. Reading with understanding and reflection is the goal.",
-      "thinker": "The Quran is the literal word of Allah, revealed over 23 years through the angel Jibril to Prophet Muhammad ﷺ. It consists of 114 surahs (chapters) and over 6,000 ayahs (verses). The Prophet ﷺ said: 'Whoever reads a letter from the Book of Allah will have a reward, and the reward of each letter is multiplied by ten.' Beyond reading, the Quran invites contemplation (tadabbur) — understanding its messages and applying them to life. The Quran is unique in that it has been perfectly preserved in its original Arabic since its revelation, making it the only religious text with an unbroken chain of transmission."
+      "starter": "꾸란은 알라의 말씀입니다! 그것은 천사 지브릴을 통해 무함마드 예언자 ﷺ에게 보내졌습니다. 꾸란을 읽을 때마다 알라와 대화하는 것과 같습니다. 매일 조금씩 읽으면 마음이 편안해집니다!",
+      "explorer": "꾸란은 이슬람의 거룩한 책으로, 23년에 걸쳐 무함마드 예언자 ﷺ에게 계시되었습니다. 114개의 수라(장)로 구성되어 있으며, 아랍어로 되어 있습니다. 꾸란을 읽는 것(틸라와)은 큰 보상이 있는 예배 행위입니다. 꾸란은 삶의 모든 측면에 대한 인도를 제공하며, 알라의 사랑과 자비를 담고 있습니다.",
+      "thinker": "꾸란(알-쿠르안, '암송'이라는 의미)은 이슬람 신앙의 핵심입니다. 23년 동안 계시되었으며, 메카 수라(짧고 영적인)와 메디나 수라(길고 법적인)로 나뉩니다. 꾸란 암송은 이슬람 예배의 핵심 요소입니다. 과학적 연구는 꾸란 암송이 스트레스를 줄이고 심박수를 안정시킨다는 것을 보여줍니다. 꾸란은 번역할 수 없다고 여겨집니다 — 그 아랍어 형태만이 알라의 정확한 말씀입니다. 하지만 번역은 이해를 돕기 위해 장려됩니다. 꾸란의 보존은 수백만의 하피즈(완전 암송자)를 통해 구두 전승으로 보장됩니다."
     },
-    "funFact": "Did you know? Reading just ONE letter of the Quran earns you 10 rewards from Allah! So reading 'Al-Fatiha' gives you over 1,000 rewards!",
+    "funFact": "알고 계셨나요? 꾸란의 가장 긴 수라는 알-바카라(286절)이고, 가장 짧은 수라는 알-카우사르(3절)입니다!",
     "quiz": [
       {
-        "q": "Who revealed the Quran to Prophet Muhammad ﷺ?",
+        "q": "꾸란은 누구에게 계시되었나요?",
         "options": [
-          "Allah directly",
-          "Angel Jibril",
-          "Angel Mikail"
+          "이브라힘 예언자",
+          "무함마드 예언자 ﷺ",
+          "무사 예언자"
         ],
         "correct": 1,
-        "explanation": "Angel Jibril (Gabriel) brought the Quran to Prophet Muhammad ﷺ."
+        "explanation": "꾸란은 천사 지브릴을 통해 무함마드 예언자 ﷺ에게 계시되었습니다."
       },
       {
-        "q": "How many rewards do you get for reading one letter of the Quran?",
+        "q": "꾸란에는 몇 개의 수라(장)가 있나요?",
         "options": [
-          "1 reward",
-          "10 rewards",
-          "100 rewards"
+          "100개",
+          "114개",
+          "120개"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said each letter of the Quran earns 10 rewards."
+        "explanation": "꾸란에는 114개의 수라(장)가 있습니다."
       },
       {
-        "q": "How many surahs (chapters) are in the Quran?",
+        "q": "꾸란은 어떤 언어로 계시되었나요?",
         "options": [
-          "100",
-          "114",
-          "200"
+          "영어",
+          "페르시아어",
+          "아랍어"
         ],
         "correct": 1,
-        "explanation": "The Quran has 114 surahs (chapters)."
+        "explanation": "꾸란은 아랍어로 계시되었습니다."
       }
     ]
   },
   {
     "id": "how_to_pray",
-    "title": "How to Pray: A Complete Guide",
+    "title": "기도하는 방법: 완전한 안내서",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🕌",
     "category": "daily_practices",
     "content": {
-      "starter": "How do Muslims pray? It starts with Wudu — washing your hands, face, arms, and feet to get clean for Allah. Then you face the Kaaba in Mecca and do special movements: standing, bowing, and putting your forehead on the ground. Each prayer has a name like Fajr (morning) and Maghrib (sunset). There are 5 prayers every day! It's like having 5 special meetings with Allah.\n\nWUDU — The 8 Steps:\n1) Niyyah — Make the intention in your heart to perform Wudu for the sake of Allah. 2) Wash Hands — Wash both hands up to the wrists three times, starting with the right hand. Make sure water reaches between your fingers! 3) Rinse Mouth — Take water into your mouth and rinse it thoroughly three times. 4) Rinse Nose — Breathe water in through your nose and blow it out three times. 5) Wash Face — Wash your entire face three times, from forehead to chin and ear to ear. 6) Wash Arms — Wash both arms up to the elbows three times, starting with the right arm. 7) Wipe Head — Wipe your entire head once with wet hands. 8) Wash Feet — Wash both feet up to the ankles three times, starting with the right foot. Make sure water reaches between your toes!\n\nRemember: Take your time with each step, use clean water, and avoid waste. Wudu brings purity to your body and light to your heart!\n\nSALAH — The 7 Main Positions:\n1) Niyyah — Intend in your heart to pray. 2) Takbir — Raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). 3) Qiyam — Stand upright with hands crossed at chest level, and recite Surah Al-Fatiha and another Surah. 4) Ruku — Bow forward with your hands on your knees, and say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah — Rise from bowing and say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud — Put your forehead, nose, hands, knees, and toes on the ground, and say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud — Sit and recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): 2 Fard + 2 Sunnah = 4 rak'ahs — strengthens your faith!\n- Dhuhr (Noon): 4 Fard + 6 Sunnah = 10 rak'ahs — find peace and clarity!\n- Asr (Afternoon): 4 Fard + 4 Sunnah = 8 rak'ahs — seek Allah's pleasure!\n- Maghrib (Sunset): 3 Fard + 2 Sunnah = 5 rak'ahs — build discipline and gratitude!\n- Isha (Night): 4 Fard + 2 Sunnah = 6 rak'ahs — connect with your Creator!\nTotal daily: 17 Fard + 12 Sunnah = 29 rak'ahs combined.",
-      "explorer": "How to Pray: A Complete Guide covers Wudu (ablution), Salah (prayer), the 5 daily prayers, and the rak'ah breakdown in full detail.\n\nWUDU — The 8 Steps of Ablution:\nWudu is the ritual purification performed before prayer. It is a physical and spiritual cleansing that prepares the body and mind for communication with Allah. Wudu is obligatory before performing Salah and is considered one of the most important prerequisites for prayer. The steps are: 1) Niyyah — make the intention in your heart to perform Wudu for prayer, 2) Wash both hands up to the wrists three times starting with the right hand, ensuring water reaches between fingers, 3) Rinse your mouth thoroughly three times — this cleanses the mouth for recitation, 4) Breathe water in through the nose and blow it out three times using your left hand to assist, 5) Wash your entire face three times from forehead to chin and ear to ear, including the beard if you have one, 6) Wash both arms up to and including the elbows three times starting with the right arm, 7) Wipe your head once with wet hands — you can wipe the entire head or just a portion, 8) Wash both feet up to and including the ankles three times starting with the right foot, ensuring water reaches between the toes.\n\nWhen is Wudu Required? Before every obligatory prayer (Fard), before voluntary prayers (Sunnah/Nafl), when touching the Quran, and after using the bathroom.\n\nSALAH — The 7 Main Positions of Prayer:\nSalah is the Islamic prayer performed five times daily at prescribed times. It is the second pillar of Islam and a direct connection between the believer and Allah. Each prayer consists of one or more rak'ahs (cycles). The seven positions are: 1) Niyyah (Intention) — intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha). The intention must be clear and sincere. 2) Takbir (Opening) — raise your hands to your ears and say 'Allahu Akbar' (Allah is the Greatest). This marks the beginning of your prayer. 3) Qiyam (Standing) — stand upright with your hands crossed at chest level. Recite Surah Al-Fatiha and another Surah from the Quran. 4) Ruku (Bowing) — bow forward with your hands on your knees, keeping your back parallel to the ground. Say 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest). 5) Qawmah (Rising) — rise from bowing to the standing position. Say 'Sami'a Allahu liman hamidah' (Allah hears those who praise Him). 6) Sujud (Prostration) — prostrate with your forehead, nose, hands, knees, and toes touching the ground. Say 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High). 7) Tashahhud (Testimony) — sit between prostrations or at the end of prayer. Recite the testimony of faith and send blessings upon Prophet Muhammad.\n\nImportant Notes About Salah: Always face the Qibla (direction of the Kaaba in Mecca), maintain proper body covering (Satr): men from navel to below knees, women entire body except hands and face, perform Wudu before every prayer, pray at the prescribed times, and concentrate and be present during prayer (Khushu) for spiritual benefit.\n\nTHE 5 DAILY PRAYERS:\n- Fajr (Dawn): Before sunrise. 2 Fard + 2 Sunnah = 4 total rak'ahs. The dawn prayer marks the beginning of the Islamic day and strengthens your faith.\n- Dhuhr (Noon): After the sun passes its zenith. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 10 total rak'ahs. The longest prayer of the day helps find peace and clarity.\n- Asr (Afternoon): Late afternoon before sunset. 4 Fard + 4 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Seek Allah's pleasure in the late afternoon.\n- Maghrib (Sunset): Just after the sun sets. 3 Fard + 2 Sunnah Ghair Muakkadah = 5 total rak'ahs. Unique among the five prayers with 3 Fard rak'ahs. Builds discipline and gratitude.\n- Isha (Night): After nightfall. 4 Fard + 2 Sunnah Muakkadah + 2 Sunnah Ghair Muakkadah = 8 total rak'ahs. Connect with your Creator before sleep.\n\nTotal Daily: 17 Fard rak'ahs + 12 Sunnah Muakkadah = 29 combined total.",
-      "thinker": "How to Pray: A Complete Guide provides comprehensive instruction on Wudu (ablution), Salah (prayer), the five daily prayers, and the complete rak'ah breakdown.\n\nWUDU (Ablution):\nWudu is the ritual purification that serves as both a physical cleansing and spiritual preparation for Salah. It is obligatory before every Fard (obligatory) prayer, Sunnah/Nafl (voluntary) prayers, and before touching the Quran. The eight steps follow a specific sequence established by the Sunnah of Prophet Muhammad ﷺ: 1) Niyyah — the internal intention, 2) Washing hands up to the wrists three times, 3) Rinsing the mouth thoroughly three times, 4) Inhaling water through the nose and expelling it three times, 5) Washing the entire face three times (from hairline to chin and ear to ear, including the beard for men), 6) Washing both arms up to and including the elbows three times, 7) Wiping the head once with wet hands, 8) Washing both feet up to and including the ankles three times. Each step has precise requirements: water must reach between fingers and toes, and all parts must be washed in the correct order. Wudu is invalidated by natural discharges, deep sleep, loss of consciousness, and touching one's private parts.\n\nSALAH (Prayer) — The Seven Positions:\n1) Niyyah (النية): The internal intention specifying which prayer is being performed. It must be clear and sincere. 2) Takbir (التكبير): The opening 'Allahu Akbar' when raising hands to the ears, marking the sacred boundary of prayer. 3) Qiyam (القيام): Standing position with hands folded at chest level (right hand over left), reciting Al-Fatiha followed by a second Surah. 4) Ruku (الركوع): Bowing with hands on knees, back parallel to ground, reciting 'Subhana Rabbiyal Azeem' (Glory be to my Lord, the Greatest) three times. 5) Qawmah (القومة): Rising from Ruku to standing with 'Sami'a Allahu liman hamidah, Rabbana lakal hamd' (Allah hears those who praise Him, our Lord, all praise is for You). 6) Sujud (السجود): Prostration with seven points of contact — forehead, nose, both hands, both knees, and toes — reciting 'Subhana Rabbiyal A'la' (Glory be to my Lord, the Most High) three times. Performed twice in each rak'ah. 7) Tashahhud (التشهد): Sitting position for the testimony of faith (At-Tahiyyatu lillahi was-salawatu wat-tayyibat), the Salawat (Allahumma salli 'ala Muhammad), and the Du'a.\n\nTHE FIVE DAILY PRAYERS — Complete Breakdown:\n- Fajr: 2 Fard + 2 Sunnah Muakkadah (before Fard) = 4 rak'ahs (before sunrise, approximately 4:30-5:30 AM)\n- Dhuhr: 4 Sunnah Muakkadah (before Fard) + 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 10-12 rak'ahs (midday, approximately 12:00-1:00 PM)\n- Asr: 4 Sunnah Ghair Muakkadah (before Fard) + 4 Fard = 4-8 rak'ahs (late afternoon, approximately 3:30-4:30 PM)\n- Maghrib: 3 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 5-7 rak'ahs (after sunset, approximately 6:45-7:15 PM)\n- Isha: 4 Fard + 2 Sunnah Muakkadah (after Fard) + 2 Sunnah Ghair Muakkadah (after) = 6-8 rak'ahs (after nightfall, approximately 8:15-9:30 PM)\n\nRAK'AH BREAKDOWN TABLE:\n| Prayer | Fard | Sunnah Muakkadah | Sunnah Ghair Muakkadah | Total |\n| Fajr | 2 | 2 | 0 | 4 |\n| Dhuhr | 4 | 4 | 2 | 10 |\n| Asr | 4 | 0 | 2 | 6 |\n| Maghrib | 3 | 0 | 2 | 5 |\n| Isha | 4 | 2 | 2 | 8 |\n| TOTAL | 17 | 8 | 8 | 33 |\n\nTypes of Prayers: Fard (Obligatory) — compulsory, missing them is a grave sin. Sunnah Muakkadah (Strongly Recommended) — highly emphasized, the Prophet ﷺ regularly performed them. Sunnah Ghair Muakkadah (Optional) — the Prophet ﷺ occasionally performed them, bringing extra reward.\n\nPrayer is not merely physical movement — it demands Khushu (concentration and humility) and sincere connection with Allah. As Allah says: 'Indeed, prayer prohibits immorality and wrongdoing' (Quran 29:45)."
+      "starter": "기도하는 것은 쉬워요! 먼저 우두를 하고, 키블라를 향해 서서, 손을 들고 '알라후 아크바르'라고 말해요. 그런 다음 꾸란을 암송하고, 허리를 굽히고, 엎드려요. 마지막에 인사를 해요. 연습하면 점점 좋아져요!",
+      "explorer": "이슬람 기도(살라)는 특정한 움직임과 암송을 따릅니다. 1) 우두(세정)를 하고, 2) 키블라를 향해 서고, 3) 타크비라(손을 들고 '알라후 아크바르'), 4) 알-파티하를 암송하고, 5) 루쿠(허리 굽히기), 6) 수주드(엎드리기), 7) 타샤후드(앉아서 증언), 8) 살람(인사)으로 마칩니다. 각 기도는 정해진 라카(반복 단위) 수를 가집니다.",
+      "thinker": "살라의 구조는 정밀하게 설계된 예배 체계입니다. 각 라카(기도 단위)는 7가지 필수 요소(아르칸)를 포함합니다: 니야(의향), 키야무(서기), 타크비라툴 이흐람(개선 탁비르), 파티하 암송, 루쿠, 수주드, 마지막 타샤후드. 신체적 움직임은 영적 상태와 일치합니다: 서는 것은 경외, 허리 굽히기는 존경, 엎드리기는 가장 깊은 겸손을 나타냅니다. 예언자 ﷺ는 말씀하셨습니다: '가장 가까운 위치는 엎드린 위치이다.' 이것은 수주드가 알라와 가장 가까워지는 순간임을 의미합니다."
     },
-    "funFact": "Did you know? The five daily prayers were prescribed during Prophet Muhammad's Night Journey (Isra and Mi'raj) to heaven. Originally, Allah commanded 50 prayers per day, but after several reductions through Prophet Musa's advice, it became 5 — yet the reward remains equal to 50!",
+    "funFact": "알고 계셨나요? 매일 다섯 번의 기도에는 하루에 34번의 수주드(엎드림)가 포함됩니다 — 이것은 알라께 가장 가까워지는 순간입니다!",
     "quiz": [
       {
-        "q": "How many steps are there in Wudu?",
+        "q": "우두에는 몇 단계가 있나요?",
         "options": [
-          "6 steps",
-          "8 steps",
-          "10 steps"
+          "6단계",
+          "8단계",
+          "10단계"
         ],
         "correct": 1,
-        "explanation": "Wudu consists of 8 main steps: Niyyah (intention), washing hands, rinsing mouth, rinsing nose, washing face, washing arms, wiping head, and washing feet."
+        "explanation": "우두는 8개의 주요 단계로 구성됩니다: 니야(의향), 손 씻기, 입 헹구기, 코 헹구기, 얼굴 씻기, 팔 씻기, 머리 쓰다듬기, 발 씻기."
       },
       {
-        "q": "What is the first step of Wudu?",
+        "q": "우두의 첫 번째 단계는 무엇인가요?",
         "options": [
-          "Wash hands",
-          "Niyyah (Intention)",
-          "Rinse mouth"
+          "손 씻기",
+          "니야(의향)",
+          "입 헹구기"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Wudu. You make the intention in your heart to perform Wudu for prayer."
+        "explanation": "니야(의향)가 우두의 첫 번째 단계입니다. 기도를 위해 우두를 행하겠다는 의향을 마음으로 정합니다."
       },
       {
-        "q": "How many times should you wash your hands in Wudu?",
+        "q": "우두에서 손을 몇 번 씻어야 하나요?",
         "options": [
-          "Once",
-          "Twice",
-          "Three times"
+          "한 번",
+          "두 번",
+          "세 번"
         ],
         "correct": 2,
-        "explanation": "In Wudu, you should wash your hands three times, starting with the right hand. This ensures thorough cleansing."
+        "explanation": "우두에서 오른손부터 세 번 씻어야 합니다. 이것은 철저한 세정을 보장합니다."
       },
       {
-        "q": "Which body part is wiped (not washed) in Wudu?",
+        "q": "우두에서 닦는(씻지 않는) 신체 부위는 어디인가요?",
         "options": [
-          "Face",
-          "Head",
-          "Arms"
+          "얼굴",
+          "머리",
+          "팔"
         ],
         "correct": 1,
-        "explanation": "The head is wiped once with wet hands during Wudu. This is different from washing, which is done for other body parts."
+        "explanation": "우두에서 머리는 젖은 손으로 한 번 닦습니다. 이것은 다른 부위를 씻는 것과 다릅니다."
       },
       {
-        "q": "When performing Wudu, which hand should you start with?",
+        "q": "우두를 할 때 어느 손부터 시작하나요?",
         "options": [
-          "Left hand",
-          "Right hand",
-          "Either hand"
+          "왼손",
+          "오른손",
+          "아무 손이나"
         ],
         "correct": 1,
-        "explanation": "In Wudu, you should start with the right hand for washing hands, arms, and feet. This is part of the Sunnah (practice of the Prophet ﷺ)."
+        "explanation": "우두에서 손, 팔, 발을 씻을 때 오른손부터 시작해야 합니다. 이것은 예언자 ﷺ의 수나(관행)입니다."
       },
       {
-        "q": "What is the first position in Salah prayer?",
+        "q": "살라 기도의 첫 번째 단계는 무엇인가요?",
         "options": [
-          "Ruku (Bowing)",
-          "Niyyah (Intention)",
-          "Qiyam (Standing)"
+          "루쿠(허리 굽히기)",
+          "니야(의향)",
+          "키야무(서기)"
         ],
         "correct": 1,
-        "explanation": "Niyyah (intention) is the first step of Salah. You intend in your heart to pray the specific prayer (Fajr, Dhuhr, Asr, Maghrib, or Isha)."
+        "explanation": "니야(의향)가 살라의 첫 번째 단계입니다. 마음으로 특정 기도(파즈르, 두흐르, 아스르, 마그리브, 이샤)를 드리겠다고 의향을 정합니다."
       },
       {
-        "q": "What do you say when starting Salah?",
+        "q": "살라를 시작할 때 무엇이라고 하나요?",
         "options": [
-          "Bismillah",
-          "Allahu Akbar",
-          "SubhanAllah"
+          "비스밀라",
+          "알라후 아크바르",
+          "수브한알라"
         ],
         "correct": 1,
-        "explanation": "You say 'Allahu Akbar' (Allah is the Greatest) while raising your hands to your ears to begin Salah. This marks the beginning of your prayer."
+        "explanation": "손을 귀까지 들고 '알라후 아크바르'(알라는 가장 위대하시다)라고 말하며 살라를 시작합니다."
       },
       {
-        "q": "How many main positions are there in Salah?",
+        "q": "살라에는 몇 가지 주요 자세가 있나요?",
         "options": [
-          "5 positions",
-          "7 positions",
-          "9 positions"
+          "5가지",
+          "7가지",
+          "9가지"
         ],
         "correct": 1,
-        "explanation": "There are 7 main positions in Salah: Niyyah, Takbir, Qiyam, Ruku, Qawmah, Sujud, and Tashahhud."
+        "explanation": "살라에는 7가지 주요 자세가 있습니다: 니야, 타크비르, 키야무, 루쿠, 카우마, 수주드, 타샤후드."
       },
       {
-        "q": "What is Ruku in Salah?",
+        "q": "살라에서 루쿠는 무엇인가요?",
         "options": [
-          "Bowing position",
-          "Prostration position",
-          "Standing position"
+          "허리 굽히는 자세",
+          "엎드리는 자세",
+          "서는 자세"
         ],
         "correct": 0,
-        "explanation": "Ruku is the bowing position in Salah where you bend forward with your hands on your knees and your back parallel to the ground, saying 'Subhana Rabbiyal Azeem.'"
+        "explanation": "루쿠는 살라에서 허리를 굽히는 자세로, 손을 무릎에 대고 등을 땅과 평행하게 하며 '수브하나 랍비야 알 아짐'이라고 암송합니다."
       },
       {
-        "q": "How many Fard rak'ahs are there in total across all 5 daily prayers?",
+        "q": "매일 5번 기도의 총 파르드 라카 수는 몇 개인가요?",
         "options": [
-          "15",
-          "17",
-          "20"
+          "15개",
+          "17개",
+          "20개"
         ],
         "correct": 1,
-        "explanation": "There are 17 Fard rak'ahs in total: Fajr (2), Dhuhr (4), Asr (4), Maghrib (3), and Isha (4)."
+        "explanation": "총 17개의 파르드 라카가 있습니다: 파즈르(2), 두흐르(4), 아스르(4), 마그리브(3), 이샤(4)."
       },
       {
-        "q": "Which prayer has 3 Fard rak'ahs?",
+        "q": "3 파르드 라카인 기도는 어느 것인가요?",
         "options": [
-          "Fajr",
-          "Maghrib",
-          "Isha"
+          "파즈르",
+          "마그리브",
+          "이샤"
         ],
         "correct": 1,
-        "explanation": "Maghrib (sunset prayer) is unique as it has 3 Fard rak'ahs, while all other prayers have either 2 or 4 Fard rak'ahs."
+        "explanation": "마그리브(일몰 기도)는 3 파르드 라카로, 다른 기도들이 2나 4 파르드 라카인 것과 다릅니다."
       },
       {
-        "q": "What is Sujud in Salah?",
+        "q": "살라에서 수주드는 무엇인가요?",
         "options": [
-          "Standing upright",
-          "Bowing forward",
-          "Prostration on the ground"
+          "바로 서기",
+          "앞으로 허리 굽히기",
+          "땅에 엎드리기"
         ],
         "correct": 2,
-        "explanation": "Sujud is the prostration position where your forehead, nose, hands, knees, and toes touch the ground. It is performed twice in each rak'ah, and you say 'Subhana Rabbiyal A'la.'"
+        "explanation": "수주드는 이마, 코, 손, 무릎, 발가락이 땅에 닿는 엎드리는 자세입니다. 각 라카에서 두 번 수행되며 '수브하나 랍비야 알 알라'라고 암송합니다."
       }
     ]
   },
   {
     "id": "honesty",
-    "title": "Honesty",
+    "title": "정직",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🤝",
     "category": "islamic_values",
     "content": {
-      "starter": "Honesty means always telling the truth! Allah loves people who are honest. Even if telling the truth is hard, it's always the right thing to do. When we're honest, people trust us and Allah is pleased with us!",
-      "explorer": "Honesty (Sidq) is one of the most important values in Islam. The Prophet ﷺ was known as 'Al-Amin' — the Trustworthy — because he always told the truth. Islam teaches us to be honest in our words, actions, and intentions. Lying is a major sin that can damage relationships and break trust. Being honest, even when it's difficult, earns Allah's love and the respect of others.",
-      "thinker": "Honesty (Sidq) and trustworthiness (Amanah) are foundational Islamic virtues. The Prophet ﷺ said: 'Truthfulness leads to righteousness, and righteousness leads to Paradise.' Honesty is not merely about not lying — it encompasses sincerity in intentions, accuracy in reporting, and integrity in all dealings. Allah says in the Quran: 'O you who believe, fear Allah and be among the truthful' (Surah At-Tawbah 9:119). The concept extends to being honest with oneself, honest in worship, and honest in business dealings."
+      "starter": "정직은 항상 진실을 말하는 것입니다! 알라께서는 진실한 사람들을 사랑하십니다. 우리가 거짓말을 하면, 나쁜 일이 일어날 수 있고 사람들이 우리를 믿지 않게 됩니다. 정직하면 마음이 편안하고 알라께서 기뻐하십니다!",
+      "explorer": "정직(시드크)은 이슬람에서 매우 중요한 미덕입니다. 무함마드 예언자 ﷺ는 '아스-사디크 알-아민'(진실하고 신뢰할 수 있는 사람)이라고 불리셨습니다. 이슬람은 모든 상황에서 진실을 말하도록 가르칩니다. 거짓말은 큰 죄이며, 정직은 알라께 이끌어 줍니다. 정직한 사람은 이 세상과 다음 세상 모두에서 축복을 받습니다.",
+      "thinker": "정직(시드크)은 이슬람 윤리의 기초입니다. 꾸란은 진실한 자들(아스-사디킨)을 칭찬합니다: '알라께서 말씀하시기를 이것은 진실자들에게 진실이 유익한 날이다'(수라 알-마이다 5:119). 시드크는 단순히 진실을 말하는 것을 넘어 — 생각, 행동, 의도의 진실성을 포함합니다. 예언자 ﷺ는 말씀하셨습니다: '진실은 의로움으로 이끌고, 의로움은 낙원으로 이끈다.' 정직의 반대인 키즈브(거짓)는 예언자 ﷺ가 위선의 징표로 언급한 세 가지 특성 중 하나입니다. 정직은 무슬림의 도덕적 신원의 핵심입니다."
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was called 'Al-Amin' (The Trustworthy) even before he became a prophet — because he NEVER told a lie!",
+    "funFact": "알고 계셨나요? 무함마드 예언자 ﷺ는 예언자가 되시기 전에도 '알-아민'(신뢰할 수 있는 사람)이라고 불리셨습니다 — 모든 사람이 그분의 정직함을 믿었습니다!",
     "quiz": [
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "정직의 아랍어 단어는 무엇인가요?",
         "options": [
-          "Al-Hakim",
-          "Al-Amin",
-          "Al-Karim"
+          "사브르",
+          "시드크",
+          "슈크르"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "정직의 아랍어는 시드크이며, 진실함을 의미합니다."
       },
       {
-        "q": "Is honesty only about not lying?",
+        "q": "무함마드 예언자 ﷺ의 별명은 무엇이었나요?",
         "options": [
-          "Yes",
-          "No, it includes sincerity and integrity too",
-          "Sometimes"
+          "용감한 자",
+          "진실하고 신뢰할 수 있는 자",
+          "현명한 자"
         ],
         "correct": 1,
-        "explanation": "Honesty includes being truthful, sincere, and having integrity in everything."
+        "explanation": "예언자 ﷺ는 '아스-사디크 알-아민'(진실하고 신뢰할 수 있는 사람)이라고 불리셨습니다."
       },
       {
-        "q": "What does Allah say about truthful people?",
+        "q": "이슬람에서 거짓말은 어떻게 간주되나요?",
         "options": [
-          "They are punished",
-          "He loves them",
-          "They are ignored"
+          "괜찮다",
+          "큰 죄이다",
+          "때때로 괜찮다"
         ],
         "correct": 1,
-        "explanation": "Allah loves truthful people and promises them Paradise."
+        "explanation": "이슬람에서 거짓말은 큰 죄입니다."
       }
     ]
   },
   {
     "id": "kindness",
-    "title": "Kindness",
+    "title": "친절",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_46_sadaqah_voluntary-metCJkjaZZWHwc3n86346d.webp?updatedAt=1781117902191",
     "emoji": "💕",
     "category": "islamic_values",
     "content": {
-      "starter": "Kindness means being nice to everyone! Help your friends, smile at people, share your toys, and be gentle. The Prophet ﷺ was the kindest person ever! When we're kind, Allah rewards us and everyone loves us!",
-      "explorer": "Kindness (Ihsan) is at the heart of Islamic teaching. The Prophet ﷺ said: 'The most beloved of people to Allah are those who are most beneficial to people.' Being kind means helping others, smiling, sharing, and treating everyone with respect — whether they're Muslim or not. Islam teaches that even a smile is charity (sadaqah).",
-      "thinker": "Kindness (Ihsan and Rahmah) is a comprehensive Islamic virtue. The Prophet ﷺ embodied mercy — the Quran describes him as 'a mercy to all the worlds' (Surah Al-Anbiya 21:107). Kindness extends to all creation: family, neighbors, strangers, animals, and even the environment. The Prophet ﷺ said: 'Charity does not decrease wealth. No one forgives another except that Allah increases his honor. And no one humbles himself for the sake of Allah except that Allah raises his status.' True kindness in Islam is not performative but stems from genuine love for Allah and His creation."
+      "starter": "친절은 다른 사람에게 따뜻하게 대하는 것입니다! 동생을 도와주거나, 친구에게 웃어주거나, 동물에게 먹이를 주는 것 모두 친절입니다. 알라께서는 친절한 사람들을 사랑하십니다. 우리가 친절하면 알라께서도 우리에게 친절하십니다!",
+      "explorer": "친절(이흐산)은 이슬람의 핵심 가치입니다. 알라께서는 꾸란에서 '알 라흐만 알 라힘'(가장 자비로우시고 가장 자애로우신)이라고 설명됩니다. 무슬림은 모든 피조물 — 사람, 동물, 환경 — 에게 친절해야 합니다. 예언자 ﷺ는 말씀하셨습니다: '자비를 베풀어라, 그러면 자비를 받으리라.' 친절은 우리의 신앙을 보여주는 방법입니다.",
+      "thinker": "이흐산(최선의 친절/탁월함)은 이슬람의 가장 높은 영적 상태입니다. 예언자 ﷺ는 이흐산을 '마치 네가 알라를 보는 것처럼 알라를 예배하는 것이라'고 정의하셨습니다. 이흐산은 예배에만 국한되지 않고 모든 인간 관계와 행동에 적용됩니다. 꾸란은 알라의 라흐마(자비)가 모든 것을 포함한다고 말합니다. 예언자 ﷺ는 한 여자가 고양이를 가두어 굶겨 죽인 이야기를 들려주시며, 한 여자가 우물에서 물을 길어 갈증에 해진 개에게 준 이야기로 낙원에 들어간 사람을 언급하셨습니다. 이슬람에서 친절은 선택이 아니라 의무입니다."
     },
-    "funFact": "Did you know? The Prophet ﷺ said that even smiling at someone is a form of charity! You can earn rewards just by being friendly!",
+    "funFact": "알고 계셨나요? 예언자 ﷺ는 한 여자가 개에게 물을 주어 낙원에 들어갔다고 말씀하셨습니다 — 작은 친절도 알라께서 크게 보상하십니다!",
     "quiz": [
       {
-        "q": "What did the Prophet ﷺ say about smiling?",
+        "q": "친절의 아랍어 단어는 무엇인가요?",
         "options": [
-          "It's sinful",
-          "It's a form of charity",
-          "It's meaningless"
+          "이흐산",
+          "사브르",
+          "자카트"
         ],
         "correct": 1,
-        "explanation": "The Prophet ﷺ said even a smile is charity (sadaqah)."
+        "explanation": "이흐산은 친절과 탁월함을 의미하는 아랍어 단어입니다."
       },
       {
-        "q": "Who should we be kind to?",
+        "q": "우리는 누구에게 친절해야 하나요?",
         "options": [
-          "Only Muslims",
-          "Only family",
-          "Everyone"
+          "가족에게만",
+          "모든 피조물에게",
+          "친구에게만"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to be kind to everyone — Muslim or not."
+        "explanation": "이슬람에서는 모든 피조물 — 사람, 동물, 환경 — 에게 친절해야 합니다."
       },
       {
-        "q": "What is the most beloved person to Allah?",
+        "q": "알라의 두 가지 주요 속성은 무엇인가요?",
         "options": [
-          "The richest",
-          "The most beautiful",
-          "The most beneficial to others"
+          "강함과 힘",
+          "자비와 자애",
+          "지혜와 지식"
         ],
         "correct": 2,
-        "explanation": "The Prophet ﷺ said the most beloved to Allah are those most beneficial to people."
+        "explanation": "알라의 두 가지 주요 속성은 '알 라흐만'(가장 자비로우신)과 '알 라힘'(가장 자애로우신)입니다."
       }
     ]
   },
   {
     "id": "respect",
-    "title": "Respect",
+    "title": "존중",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_17_topic_respect_elders-6wUPfPgJRqgzEPbLKEPMkD.webp?updatedAt=1781117900196",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Respect means treating people nicely and politely! We respect our parents, teachers, and elders. We say 'please' and 'thank you.' We listen when others talk. Allah loves people who are respectful!",
-      "explorer": "Respect (Adab) is a key Islamic value. The Quran commands us to honor our parents, be kind to neighbors, and treat elders with dignity. The Prophet ﷺ taught that respect is not just about words but actions — standing up for elders, listening attentively, and honoring others' feelings. Respect also extends to respecting differences of opinion.",
-      "thinker": "Respect (Adab) in Islam is a comprehensive concept that encompasses how we relate to Allah, His creation, and ourselves. The Quran says: 'And your Lord has decreed that you worship none but Him, and that you be dutiful to your parents' (Surah Al-Isra 17:23). Respect for parents is given such high status that it appears immediately after the command to worship Allah alone. Beyond parents, Islam teaches respect for scholars, neighbors, the elderly, and even strangers. The Prophet ﷺ demonstrated this by standing when a funeral passed, greeting children, and honoring the rights of neighbors regardless of their faith."
+      "starter": "존중은 다른 사람을 소중하게 대하는 것입니다! 특히 부모님, 선생님, 어른들을 존중해야 합니다. 꾸란에서 알라께서는 부모님께 효도하라고 말씀하십니다. 우리가 다른 사람을 존중하면 알라께서도 우리를 존중해 주십니다!",
+      "explorer": "존중(이크람)은 이슬람에서 매우 중요합니다. 꾸란은 부모님을 존중하라고 특별히 명령합니다: '주님께서 명하시되 오직 그분만을 예배하고 부모에게 효도하라'(수라 알-이스라 17:23). 무슬림은 또한 어른, 선생님, 이웃, 손님을 존중해야 합니다. 예언자 ﷺ는 말씀하셨습니다: '자신을 존중하지 않는 사람은 다른 사람을 존중할 수 없다.'",
+      "thinker": "존중(이크람/타우키르)은 이슬람 사회 질서의 기본입니다. 꾸란은 부모 존중을 예배 직후에 언급하며 그 중요성을 강조합니다. 부모에게 '우프'(슬픔의 탄식)라는 말조차 하지 말라고 합니다. 존중은 계층적 구조를 따릅니다: 알라, 부모, 어른, 학자, 이웃. 예언자 ﷺ는 말씀하셨습니다: '자기 믿음의 형제를 존중하는 자를 알라께서 존중하시리라.' 이슬람에서 존중은 나이, 지위, 신앙에 관계없이 모든 사람에게 적용됩니다. 심지어 죽은 자에게도 존중은 필요합니다 — 예언자 ﷺ는 무덤 앞을 지날 때 일어서라고 하셨습니다."
     },
-    "funFact": "Did you know? In Islam, respecting your parents is considered the SECOND most important duty after worshipping Allah alone!",
+    "funFact": "알고 계셨나요? 이슬람에서 어른이 방에 들어오면 젊은이는 일어서서 인사해야 합니다 — 이것은 존중의 표현입니다!",
     "quiz": [
       {
-        "q": "What comes right after worshipping Allah in importance?",
+        "q": "꾸란은 누구를 존중하라고 특별히 명령하나요?",
         "options": [
-          "Being rich",
-          "Respecting parents",
-          "Going to Hajj"
+          "부자",
+          "부모님",
+          "친구"
         ],
         "correct": 1,
-        "explanation": "The Quran commands us to worship Allah alone, then to honor our parents."
+        "explanation": "꾸란은 부모님을 존중하라고 특별히 명령합니다."
       },
       {
-        "q": "How should we treat elders?",
+        "q": "어른이 방에 들어오면 어떻게 해야 하나요?",
         "options": [
-          "Ignore them",
-          "With disrespect",
-          "With honor and dignity"
+          "앉아 있는다",
+          "일어서서 인사한다",
+          "무시한다"
         ],
         "correct": 2,
-        "explanation": "Islam teaches us to treat elders with honor and dignity."
+        "explanation": "이슬람에서 어른이 방에 들어오면 일어서서 인사하는 것이 존중의 표현입니다."
       },
       {
-        "q": "What does 'Adab' mean?",
+        "q": "존중은 누구에게 보여야 하나요?",
         "options": [
-          "Prayer",
-          "Respect and good manners",
-          "Food"
+          "부모님에게만",
+          "모든 사람에게",
+          "친구에게만"
         ],
         "correct": 1,
-        "explanation": "Adab means respect, good manners, and proper etiquette in Islam."
+        "explanation": "이슬람에서는 모든 사람 — 부모님, 어른, 이웃, 손님 — 에게 존중을 보여야 합니다."
       }
     ]
   },
   {
     "id": "patience",
-    "title": "Patience",
+    "title": "인내",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_22_topic_shared_values-KgUz6j3XRCxAXqD4mpnH5G.webp?updatedAt=1781117903378",
     "emoji": "🧘",
     "category": "islamic_values",
     "content": {
-      "starter": "Patience means waiting calmly and not getting upset when things are hard! When you're sick, or something goes wrong, or you have to wait — be patient! Allah loves patient people and will reward them!",
-      "explorer": "Patience (Sabr) is one of the greatest virtues in Islam. The Quran says: 'Indeed, the patient will be given their reward without account' (Surah Az-Zumar 39:10). Sabr means staying calm during difficulties, resisting temptation, and being content with Allah's plan. The Prophet ﷺ compared patience to a precious gem — it's hard to find but incredibly valuable.",
-      "thinker": "Patience (Sabr) is one of the most emphasized virtues in Islam. The Quran mentions it over 70 times. Sabr has three dimensions: patience in obeying Allah (perseverance), patience in avoiding sin (restraint), and patience during hardship (endurance). Allah says: 'And be patient, for indeed, Allah does not allow to be lost the reward of those who do good' (Surah Hud 11:115). The Prophet ﷺ said: 'How wonderful is the affair of the believer, for all his affairs are good, and this does not apply to anyone except the believer. If something good happens to him, he is grateful, and that is good for him. If something bad happens to him, he bears it with patience, and that is good for him.'"
+      "starter": "인내는 어려운 일이 있어도 포기하지 않는 것입니다! 시험이 올 때 우리는 알라께서 우리와 함께 계신다는 것을 기억합니다. 인내하면 알라께서 큰 보상을 주십니다. 알라께서는 인내하는 사람을 사랑하십니다!",
+      "explorer": "인내(사브르)는 이슬람에서 가장 중요한 미덕 중 하나입니다. 알라께서는 꾸란에서 90번 이상 인내를 언급하십니다. 인내에는 세 가지 종류가 있습니다: 죄를 짓지 않는 인내, 예배에 인내, 시련에 인내입니다. 알라께서는 인내하는 자와 함께하신다고 약속하십니다. 인내는 우리를 더 강하고 더 나은 사람으로 만듭니다.",
+      "thinker": "사브르(인내)는 이슬람 윤리의 기둥입니다. 꾸란은 말합니다: '실로 알라께서는 인내하는 자들과 함께하시나니'(수라 알-바카라 2:153). 사브르는 수동적인 참음이 아니라 역경 속에서의 적극적인 인내입니다. 세 가지 유형이 있습니다: 알라께 복종하는 사브르(예배의 지속), 알라께 불복하지 않는 사브르(죄의 회피), 알라의 법에 만족하는 사브르(시련 수용). 알라께서는 인내하는 자들에게 '제한 없는' 보상을 약속하십니다(수라 아즈-주마르 39:10). 예언자 ﷺ는 말씀하셨습니다: '인내가 처음에 오는 것이 놀랍다면, 인내가 마지막에 오는 것이 더 놀랍다.'"
     },
-    "funFact": "Did you know? Allah mentions patience (Sabr) over 70 times in the Quran — it's one of the most important qualities a Muslim can have!",
+    "funFact": "알고 계셨나요? 꾸란에서 알라께서는 인내를 90번 이상 언급하십니다 — 이것은 인내가 얼마나 중요한지 보여줍니다!",
     "quiz": [
       {
-        "q": "What is 'Sabr'?",
+        "q": "인내의 아랍어 단어는 무엇인가요?",
         "options": [
-          "Prayer",
-          "Patience",
-          "Charity"
+          "슈크르",
+          "사브르",
+          "시드크"
         ],
         "correct": 1,
-        "explanation": "Sabr means patience — staying calm during difficulties and trusting Allah."
+        "explanation": "인내의 아랍어는 사브르입니다."
       },
       {
-        "q": "How many times does Allah mention patience in the Quran?",
+        "q": "인내에는 몇 가지 종류가 있나요?",
         "options": [
-          "5 times",
-          "Over 70 times",
-          "100 times"
+          "한 가지",
+          "두 가지",
+          "세 가지"
         ],
         "correct": 1,
-        "explanation": "Allah mentions patience (Sabr) over 70 times in the Quran."
+        "explanation": "인내에는 세 가지가 있습니다: 예배에 인내, 죄를 짓지 않는 인내, 시련에 인내."
       },
       {
-        "q": "What happens to patient people?",
+        "q": "알라께서는 인내하는 자들에게 무엇을 약속하시나요?",
         "options": [
-          "Nothing",
-          "They are rewarded without limit",
-          "They are punished"
+          "돈을 준다",
+          "함께하신다",
+          "시련을 없앤다"
         ],
         "correct": 1,
-        "explanation": "Allah says the patient will be given their reward without account."
+        "explanation": "알라께서는 인내하는 자들과 함께하신다고 약속하십니다."
       }
     ]
   },
   {
     "id": "gratitude",
-    "title": "Gratitude",
+    "title": "감사",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_50_hiba_gifts-6i3784QxV2uUz9RuU6ni4m.webp?updatedAt=1781117899322",
     "emoji": "🙏",
     "category": "islamic_values",
     "content": {
-      "starter": "Gratitude means saying 'thank you' to Allah for everything! For food, family, friends, health — everything! When we're thankful, Allah gives us more blessings. A grateful heart is a happy heart!",
-      "explorer": "Gratitude (Shukr) means recognizing and appreciating Allah's blessings. The Quran says: 'If you are grateful, I will surely increase you' (Surah Ibrahim 14:7). Gratitude isn't just saying 'Alhamdulillah' — it's using Allah's blessings in ways that please Him. When we're grateful for health, we use it to do good. When we're grateful for wealth, we share it with others.",
-      "thinker": "Gratitude (Shukr) is a comprehensive Islamic concept that goes beyond simple thankfulness. It has three dimensions: gratitude of the heart (recognizing blessings), gratitude of the tongue (verbal thanks and praise), and gratitude of the limbs (using blessings in obedience to Allah). The Quran warns against ingratitude: 'If you are ungrateful, indeed, my punishment is severe' (Surah Ibrahim 14:7). The Prophet ﷺ would pray at night until his feet would swell, and when asked why, he would say: 'Should I not be a grateful servant?' Gratitude transforms our perspective — even in hardship, a grateful person finds blessings to thank Allah for."
+      "starter": "감사는 알라께서 주신 모든 것에 대해 고마워하는 것입니다! 우리의 눈, 손, 음식, 가족 — 모든 것이 알라의 선물입니다. '알함두릴라'(모든 찬양이 알라께)라고 말하면 알라께서 더 많이 주십니다!",
+      "explorer": "감사(슈크르)는 이슬람에서 중요한 개념입니다. 꾸란에서 알라께서 말씀하십니다: '너희가 감사하면 내가 더 많이 주리라.' 무슬림은 하루 종일 '알함두릴라'라는 말로 감사를 표현합니다. 감사는 단순히 말로 하는 것이 아니라 마음으로 느끼고 행동으로 보여주는 것입니다. 알라께서 주신 축복을 다른 사람과 나누는 것이 진정한 감사입니다.",
+      "thinker": "슈크르(감사)는 이슬람 신앙의 필수 요소입니다. 꾸란은 말합니다: '너희 주님의 은혜를 기억하라'(수라 앗-두하 93:11). 슈크르는 세 가지 차원에서 실천됩니다: 마음(알라의 축복 인정), 혀(알라 찬양), 행동(축복을 알라의 순종에 사용). 흥미롭게도, 꾸란은 알라를 '샤쿠르'(가장 감사하신 분)라고 묘사합니다 — 알라께서는 우리의 작은 행동에도 크게 보상하십니다. 감사와 인내의 관계는 밀접합니다: 감사는 축복의 순간에, 인내는 시련의 순간에 필요합니다. 이슬람은 두 상태 모두에서 알라를 기억하도록 가르칩니다."
     },
-    "funFact": "Did you know? The Prophet ﷺ would pray at night until his feet swelled — and when asked why, he said: 'Should I not be a grateful servant?'",
+    "funFact": "알고 계셨나요? '알함두릴라'는 전 세계 무슬림이 가장 많이 하는 말입니다 — 매일 수십억 번 사용됩니다!",
     "quiz": [
       {
-        "q": "What does 'Shukr' mean?",
+        "q": "감사의 아랍어 단어는 무엇인가요?",
         "options": [
-          "Prayer",
-          "Gratitude",
-          "Fasting"
+          "사브르",
+          "슈크르",
+          "시드크"
         ],
         "correct": 1,
-        "explanation": "Shukr means gratitude — being thankful to Allah for His blessings."
+        "explanation": "감사의 아랍어는 슈크르입니다."
       },
       {
-        "q": "What does Allah promise to grateful people?",
+        "q": "'알함두릴라'는 무슨 뜻인가요?",
         "options": [
-          "Nothing",
-          "He will increase their blessings",
-          "He will punish them"
+          "알라는 위대하시다",
+          "모든 찬양이 알라께",
+          "알라께서 용서하신다"
         ],
         "correct": 1,
-        "explanation": "Allah says: 'If you are grateful, I will surely increase you.'"
+        "explanation": "'알함두릴라'는 '모든 찬양이 알라께'라는 뜻입니다."
       },
       {
-        "q": "What are the three dimensions of gratitude?",
+        "q": "감사하면 어떻게 되나요?",
         "options": [
-          "Heart, tongue, and limbs",
-          "Mind, body, soul",
-          "Morning, afternoon, night"
+          "아무 일도 일어나지 않는다",
+          "알라께서 더 많이 주신다",
+          "덜 받는다"
         ],
         "correct": 0,
-        "explanation": "Gratitude is expressed through the heart (recognizing), tongue (thanking), and limbs (using blessings to do good)."
+        "explanation": "꾸란에서 알라께서 약속하십니다: 감사하면 더 많이 주시겠다고."
       }
     ]
   },
   {
     "id": "prophet_muhammad",
-    "title": "Prophet Muhammad ﷺ",
+    "title": "무함마드 예언자 ﷺ",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "☪️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Muhammad ﷺ was the best person ever! He was kind, honest, and brave. He taught us about Allah and how to be good Muslims. He loved children and animals. We follow his example every day!",
-      "explorer": "Prophet Muhammad ﷺ was born in Mecca in 570 CE. He was known as 'Al-Amin' (The Trustworthy) even before prophethood. At age 40, Angel Jibril brought him the first revelation in the cave of Hira. He spent 23 years teaching Islam, facing persecution, and building a just community. He passed away in Medina in 632 CE, leaving behind a message for all of humanity.",
-      "thinker": "Prophet Muhammad ﷺ is the final messenger of Allah and the most influential person in history. Born an orphan, raised by his grandfather Abdul Muttalib and then his uncle Abu Talib, he grew up to be known for his truthfulness and integrity. The Quran describes him as 'a mercy to all the worlds' (21:107). His life (Seerah) is a comprehensive guide — from the early persecution in Mecca to the establishment of the first Islamic state in Medina, from the Treaty of Hudaybiyyah to the conquest of Mecca. He taught through example: he prayed until his feet swelled, gave charity until he had nothing left, and treated everyone with dignity regardless of their status."
+      "starter": "무함마드 예언자 ﷺ는 알라의 마지막 예언자입니다! 그분은 메카에서 태어나셨고, 40세에 꾸란을 받으셨습니다. 그분은 모든 사람에게 친절하셨고, 가난한 사람을 도우셨고, 항상 정직하셨습니다. 우리는 그분을 사랑하고 본받아야 합니다!",
+      "explorer": "무함마드 예언자 ﷺ는 서기 570년 메카에서 태어나셨습니다. 40세에 히라 동굴에서 천사 지브릴을 통해 첫 계시를 받으셨습니다. 23년 동안 꾸란을 전하셨고, 이슬람을 가르치셨습니다. 그분은 '전 인류를 위한 자비'로 보내셨습니다. 그분의 삶(시라)과 가르침(순나)은 모든 무슬림의 지침입니다.",
+      "thinker": "무함마드 예언자 ﷺ는 예언자들의 인장(카탐 안-나비인)으로, 꾸란(수라 알-아흐자브 33:40)에 명시되어 있습니다. 그분의 생애는 하디스(말씀과 행동 기록)와 시라(전기)를 통해 상세히 기록되어 있습니다. 그분은 국가 지도자, 군사 전략가, 가장, 교사, 재판관이셨습니다. 그분의 메디나 헌법은 다종교 사회를 위한 최초의 성문 헌법이었습니다. 학자들은 그분을 역사상 가장 영향력 있는 인물로 평가합니다. 그분의 가르침은 개인 윤리에서 국가 행정까지 모든 삶의 측면을 다루며, 1400년이 넘도록 수십억 명의 삶을 인도하고 있습니다."
     },
-    "funFact": "Did you know? Prophet Muhammad ﷺ was an orphan — his father died before he was born and his mother when he was only 6 years old. Despite this, he became the greatest person in history!",
+    "funFact": "알고 계셨나요? 무함마드 예언자 ﷺ는 문자 그대로 읽거나 쓸 줄 모르셨습니다 — 이것은 꾸란이 인간이 지은 것이 아니라 알라의 계시임을 증명합니다!",
     "quiz": [
       {
-        "q": "In which city was Prophet Muhammad ﷺ born?",
+        "q": "무함마드 예언자 ﷺ는 어디서 태어나셨나요?",
         "options": [
-          "Medina",
-          "Mecca",
-          "Jerusalem"
+          "메디나",
+          "메카",
+          "예루살렘"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ was born in Mecca in 570 CE."
+        "explanation": "무함마드 예언자 ﷺ는 서기 570년 메카에서 태어나셨습니다."
       },
       {
-        "q": "What was Prophet Muhammad ﷺ's nickname before prophethood?",
+        "q": "그분은 몇 살에 첫 계시를 받으셨나요?",
         "options": [
-          "Al-Hakim",
-          "Al-Amin",
-          "Al-Karim"
+          "25세",
+          "40세",
+          "50세"
         ],
         "correct": 1,
-        "explanation": "He was called 'Al-Amin' (The Trustworthy) because he always told the truth."
+        "explanation": "무함마드 예언자 ﷺ는 40세에 첫 계시를 받으셨습니다."
       },
       {
-        "q": "How old was Prophet Muhammad ﷺ when he received the first revelation?",
+        "q": "그분을 어떻게 부르나요?",
         "options": [
-          "25",
-          "30",
-          "40"
+          "왕",
+          "예언자들의 인장",
+          "장군"
         ],
         "correct": 2,
-        "explanation": "Prophet Muhammad ﷺ was 40 years old when Angel Jibril brought the first revelation."
+        "explanation": "무함마드 예언자 ﷺ는 '예언자들의 인장'(마지막 예언자)이라고 불립니다."
       }
     ]
   },
   {
     "id": "prophet_ibrahim",
-    "title": "Prophet Ibrahim",
+    "title": "이브라힘 예언자",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_19_topic_prophet_journey-8ffuT33CJYiTZzo3bCifJ9.webp?updatedAt=1781117900256",
     "emoji": "🏗️",
     "category": "stories_history",
     "content": {
-      "starter": "Prophet Ibrahim loved Allah more than anything! He looked at the stars and knew they couldn't be God. He broke the idols people worshipped and told them only Allah deserves worship. Allah made him a great leader!",
-      "explorer": "Prophet Ibrahim (Abraham) is one of the greatest prophets. He realized at a young age that idols couldn't be God — they couldn't create or help anyone. He broke the idols and called people to worship Allah alone. Allah tested him greatly — He asked Ibrahim to leave his homeland, sacrifice his son, and build the Kaaba. Ibrahim obeyed every command, showing incredible faith.",
-      "thinker": "Prophet Ibrahim (Abraham) is known as 'Khalilullah' — the Friend of Allah. His story is one of absolute submission to divine will. He questioned his father's idol worship, challenged King Namrud, and was thrown into fire for his faith — yet Allah saved him. The sacrifice of his son Ismail (Ismail) is commemorated every year during Eid al-Adha. Ibrahim's willingness to leave his wife Hajar and infant son Ismail in the desert of Mecca — trusting completely in Allah's plan — led to the establishment of the Kaaba and the Zamzam well. He is the patriarch of the Abrahamic faiths and an enduring example of total trust in Allah."
+      "starter": "이브라힘 예언자는 알라의 위대한 친구입니다! 그분은 우상을 부수고 오직 알라만 예배했습니다. 알라께서 아들 이스마일을 희생하라고 하셨을 때, 그분은 순종했습니다. 알라께서는 이스마일을 구해주셨습니다. 이브라힘의 믿음은 정말 강했습니다!",
+      "explorer": "이브라힘 예언자(아브라함)는 알라의 친구(칼릴룰라)라고 불립니다. 그분은 사람들이 우상을 숭배할 때 오직 알라만 예배했습니다. 가장 유명한 시험은 아들 이스마일을 희생하라는 명령이었습니다. 그분의 순종에 알라께서는 이스마일 대신 양을 보내셨습니다. 하즈의 의식들은 이브라힘과 그의 가족의 순종을 기념합니다.",
+      "thinker": "이브라힘 예언자(칼릴룰라)는 유일신 신앙의 아버지로, 유대교, 기독교, 이슬람 세 종교의 공통 조상입니다. 꾸란은 그분을 69번 언급하며, 수라 이브라힘이 그의 이름을 따릅니다. 그분의 신학적 논증은 꾸란(수라 알-안아므 6:75-79)에 기록되어 있습니다: 별, 달, 태양이 떠질 때마다 '나는 사라지는 것을 사랑하지 않는다'고 하셨습니다. 이브라힘의 희생은 이슬람의 핵심 의식인 이드 알-아드하(희생절)에서 기념됩니다. 예언자 ﷺ는 말씀하셨습니다: '나의 방식을 따르는 자에게는 이브라힘의 방식이 있다.'"
     },
-    "funFact": "Did you know? When Ibrahim was thrown into a giant fire, Allah said 'O fire, be cool and peaceful!' — and the fire didn't even burn him!",
+    "funFact": "알고 계셨나요? 이브라힘 예언자는 우상을 부수고 큰 불속에 던져졌지만, 알라께서 불을 시원하고 안전하게 만드셔서 상처 하나 입지 않았습니다!",
     "quiz": [
       {
-        "q": "What was Prophet Ibrahim known as?",
+        "q": "이브라힘 예언자의 별명은 무엇인가요?",
         "options": [
-          "Prophet of Thunder",
-          "Friend of Allah",
-          "King of Nations"
+          "알라의 사자",
+          "알라의 친구",
+          "알라의 선지자"
         ],
         "correct": 1,
-        "explanation": "Ibrahim is called 'Khalilullah' — the Friend of Allah."
+        "explanation": "이브라힘 예언자는 '칼릴룰라'(알라의 친구)라고 불립니다."
       },
       {
-        "q": "What did Ibrahim break?",
+        "q": "이브라힘이 우상을 부수고 어떤 벌을 받았나요?",
         "options": [
-          "The Kaaba",
-          "Idols people worshipped",
-          "A window"
+          "감옥",
+          "불속에 던져짐",
+          "추방"
         ],
         "correct": 1,
-        "explanation": "Ibrahim broke the idols people were worshipping to show only Allah deserves worship."
+        "explanation": "이브라힘은 우상을 부수고 불속에 던져졌지만 알라께서 보호하셨습니다."
       },
       {
-        "q": "What did Allah ask Ibrahim to build?",
+        "q": "이드 알-아드하는 무엇을 기념하나요?",
         "options": [
-          "A house",
-          "The Kaaba",
-          "A school"
+          "무함마드의 탄생",
+          "이브라힘의 희생에 대한 순종",
+          "꾸란의 계시"
         ],
         "correct": 1,
-        "explanation": "Allah asked Ibrahim to build the Kaaba in Mecca."
+        "explanation": "이드 알-아드하는 이브라힘이 아들을 희생하라는 명령에 순종한 것을 기념합니다."
       }
     ]
   },
   {
     "id": "islamic_civilization",
-    "title": "Islamic Civilization",
+    "title": "이슬람 문명",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_20_topic_islamic_civilization-gNpeURs5zuRnR3dMvEndDR.webp?updatedAt=1781117902871",
     "emoji": "🏛️",
     "category": "stories_history",
     "content": {
-      "starter": "Muslims built amazing things long ago! They made beautiful mosques, hospitals, schools, and libraries. They studied science, math, and medicine. Muslims invented things we still use today — like cameras, universities, and coffee!",
-      "explorer": "Islamic civilization made incredible contributions to the world. Muslim scholars invented algebra, developed modern medicine, built the first universities, and preserved ancient Greek knowledge. Cities like Baghdad, Cordoba, and Cairo were centers of learning. Inventions include the camera (camera obscura), surgical instruments, and windmills. Muslims also built beautiful architecture like the Alhambra and the Dome of the Rock.",
-      "thinker": "The Islamic Golden Age (8th-14th centuries) was one of the most productive periods of scholarship in human history. Scholars like Al-Khwarizmi (algebra), Ibn Sina (medicine), Al-Kindi (philosophy), and Fatima al-Fihri (first university) transformed human knowledge. The House of Wisdom in Baghdad translated and preserved Greek, Persian, and Indian texts that would have been lost. Islamic civilization pioneered hospitals (bimaristans), observatories, and public libraries. The concept of the university was literally invented by Muslims — the University of al-Qarawiyyin in Fez, Morocco, founded by Fatima al-Fihri in 859 CE, is recognized by UNESCO as the oldest existing university."
+      "starter": "이슬람 문명은 아주 대단했어요! 오래전 무슬림 학자들은 수학, 의학, 천문학, 예술에서 세계 최고였습니다. 그들은 병원, 도서관, 대학을 만들었습니다. 우리가 쓰는 숫자(0-9)도 무슬림이 발전시킨 것이에요!",
+      "explorer": "이슬람 황금기(8-14세기)에 무슬림 학자들은 엄청난 발전을 이루었습니다. 바그다드의 지혜의 집에서 학자들이 그리스, 페르시아, 인도의 지식을 번역하고 발전시켰습니다. 알제브라, 의학, 광학, 천문학의 발전은 현대 과학의 기초가 되었습니다. 이슬람 예술과 건축도 세계적으로 유명합니다.",
+      "thinker": "이슬람 문명(8-14세기)은 인류 역사상 가장 번성한 지식 시대 중 하나를 만들었습니다. 압바스 왕조의 지혜의 집(바이트 알-히크마)은 번역, 연구, 혁신의 중심이었습니다. 무슬림 학자들은 알제브라(알-콰리즈미), 광학(이븐 알-하이탐), 외과(알-자라위), 천문학(알-비루니)을 발전시켰습니다. 이슬람 예술은 기하학적 패턴과 아랍식 서예를 발전시켜 무한과 신성을 표현했습니다. 이 시대의 지식은 르네상스를 촉발하는 데 결정적 역할을 했습니다. 꾸란의 '읽으라'는 첫 계시가 학문을 장려하는 이슬람의 전통을 시작했습니다."
     },
-    "funFact": "Did you know? The first university in the world was built by a Muslim woman — Fatima al-Fihri — in Morocco in the year 859 CE!",
+    "funFact": "알고 계셨나요? 우리가 사용하는 '알고리즘'이라는 단어는 무슬림 수학자 알-콰리즈미의 이름에서 유래했습니다!",
     "quiz": [
       {
-        "q": "What did Al-Khwarizmi invent?",
+        "q": "이슬람 황금기는 언제였나요?",
         "options": [
-          "Medicine",
-          "Algebra",
-          "Astronomy"
+          "1-3세기",
+          "8-14세기",
+          "15-17세기"
         ],
         "correct": 1,
-        "explanation": "Al-Khwarizmi invented algebra — the word 'algorithm' comes from his name!"
+        "explanation": "이슬람 황금기는 대략 8세기부터 14세기까지였습니다."
       },
       {
-        "q": "Who built the first university in the world?",
+        "q": "바그다드의 학문 중심지 이름은 무엇인가요?",
         "options": [
-          "A Muslim man",
-          "Fatima al-Fihri",
-          "A Greek scholar"
+          "학문의 탑",
+          "지혜의 집",
+          "지식의 궁전"
         ],
         "correct": 1,
-        "explanation": "Fatima al-Fihri, a Muslim woman, built the first university in Morocco in 859 CE."
+        "explanation": "바그다드의 학문 중심지는 '지혜의 집'(바이트 알-히크마)이었습니다."
       },
       {
-        "q": "What was the Islamic Golden Age known for?",
+        "q": "'알고리즘'은 누구의 이름에서 유래했나요?",
         "options": [
-          "Only art",
-          "Advances in science, math, and medicine",
-          "Only farming"
+          "이븐 시나",
+          "알-콰리즈미",
+          "알-라지"
         ],
         "correct": 1,
-        "explanation": "Muslims made incredible advances in science, math, medicine, and many other fields."
+        "explanation": "'알고리즘'은 무슬림 수학자 알-콰리즈미의 이름에서 유래했습니다."
       }
     ]
   },
   {
     "id": "ramadan",
-    "title": "Ramadan",
+    "title": "라마단",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_39_ramadan_overview-KSNdX85Mzos8r2Xf3JL6rh.webp?updatedAt=1781117901328",
     "emoji": "🌙",
     "category": "special_times",
     "content": {
-      "starter": "Ramadan is the best month! It's when Allah sent the Quran. We fast from sunrise to sunset — no eating or drinking! At night, we pray, read Quran, and have iftar with family. Everyone is happy and kind during Ramadan!",
-      "explorer": "Ramadan is the ninth month of the Islamic calendar and the holiest month for Muslims. The Quran was first revealed during Ramadan. Muslims fast from dawn to sunset, refraining from food, drink, and other physical needs. It's a time of increased prayer, charity, and Quran reading. Ramadan teaches self-discipline, empathy for the poor, and brings families and communities together.",
-      "thinker": "Ramadan is the month in which the Quran was revealed as guidance for humanity (Surah Al-Baqarah 2:185). Fasting (Sawm) during Ramadan is the fourth pillar of Islam and serves multiple purposes: developing taqwa (God-consciousness), purifying the soul, building empathy for the less fortunate, and strengthening community bonds. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a spiritual rhythm throughout the month. The last 10 nights are especially sacred, as Laylat al-Qadr (the Night of Power) — described as 'better than a thousand months' — falls within them. Ramadan transforms communities: charity increases, tempers cool, and hearts soften."
+      "starter": "라마단은 이슬람에서 가장 거룩한 달입니다! 새벽부터 일몰까지 금식하고, 더 많이 기도하고, 꾸란을 더 많이 읽습니다. 라마단의 마지막 10일은 특별히 거룩합니다. 라마단이 끝나면 즐거운 이드 알-피트르 축제가 있습니다!",
+      "explorer": "라마단은 이슬람 달력의 아홉 번째 달로, 꾸란이 계시된 달입니다. 무슬림은 새벽(파즈르)부터 일몰(마그리브)까지 금식합니다. 라마단은 금식뿐만 아니라 — 더 많은 기도, 꾸란 암송, 자선, 영적 성찰의 시간입니다. 라마단의 마지막 10일에는 꾸란이 처음 계시된 밤인 '권능의 밤'(라일라툴 카드르)이 있습니다.",
+      "thinker": "라마단은 이슬람 영성의 정점입니다. 꾸란은 말합니다: '라마단은 꾸란이 내려진 달이니, 인류의 인도로서'(수라 알-바카라 2:185). 라일라툴 카드르(권능의 밤)는 '천 개의 달보다 나은' 밤입니다(수라 알-카드르 97:3). 라마단의 금식은 육체적, 영적, 사회적 차원을 가집니다. 이티카프(마지막 10일 동안의清真寺 고립)는 예언자 ﷺ의 관행입니다. 타라위흐 기도는 라마단 특유의 밤 기도입니다. 라마단의 끝에 자카트 알-피트르(금식 끝 자선)을 내어 가난한 사람도 이드를 즐길 수 있게 합니다."
     },
-    "funFact": "Did you know? Laylat al-Qadr (the Night of Power) in Ramadan is better than 1,000 months — that's over 83 years of blessings in just one night!",
+    "funFact": "알고 계셨나요? '권능의 밤'(라일라툴 카드르)은 천 개의 달보다 나은 밤입니다 — 이 밤에 하는 예배는 천 개월의 예배와 같습니다!",
     "quiz": [
       {
-        "q": "During which month was the Quran revealed?",
+        "q": "라마단은 이슬람 달력의 몇 번째 달인가요?",
         "options": [
-          "Muharram",
-          "Ramadan",
-          "Shawwal"
+          "첫 번째",
+          "아홉 번째",
+          "열두 번째"
         ],
         "correct": 1,
-        "explanation": "The Quran was first revealed during the month of Ramadan."
+        "explanation": "라마단은 이슬람 달력의 아홉 번째 달입니다."
       },
       {
-        "q": "What is Laylat al-Qadr?",
+        "q": "라일라툴 카드르는 무엇인가요?",
         "options": [
-          "A regular night",
-          "The Night of Power, better than 1,000 months",
-          "The first day of Ramadan"
+          "이드의 밤",
+          "권능의 밤",
+          "새해의 밤"
         ],
         "correct": 1,
-        "explanation": "Laylat al-Qadr (Night of Power) is better than 1,000 months of worship."
+        "explanation": "라일라툴 카드르는 '권능의 밤'으로, 꾸란이 처음 계시된 밤입니다."
       },
       {
-        "q": "What is the pre-dawn meal called?",
+        "q": "라마단 끝에 무슬림은 무엇을 내나요?",
         "options": [
-          "Iftar",
-          "Suhoor",
-          "Dhuhr"
+          "선물",
+          "자카트 알-피트르",
+          "음식"
         ],
         "correct": 1,
-        "explanation": "The pre-dawn meal before fasting is called Suhoor."
+        "explanation": "라마단 끝에 자카트 알-피트르를 내어 가난한 사람도 이드를 즐길 수 있게 합니다."
       }
     ]
   },
   {
     "id": "eid_al_fitr",
-    "title": "Eid al-Fitr",
+    "title": "이드 알-피트르",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_42_eid_fitr_celebration-WoRzqkwEMUXtjWTsNNttWJ.webp?updatedAt=1781117904296",
     "emoji": "🎉",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Fitr is the happy day after Ramadan! We wear new clothes, eat yummy food, give gifts, and say 'Eid Mubarak!' to everyone. We give money to poor people called Zakat al-Fitr. It's like a big party for Allah!",
-      "explorer": "Eid al-Fitr marks the end of Ramadan and is one of the two major Islamic holidays. Muslims gather for a special prayer, give Zakat al-Fitr (charity to the poor), wear their best clothes, and celebrate with family and friends. Children receive gifts and money (Eidi). It's a day of joy, gratitude, and community after a month of fasting and worship.",
-      "thinker": "Eid al-Fitr ('Festival of Breaking the Fast') is celebrated on the first day of Shawwal, the month following Ramadan. It begins with a special congregational prayer and sermon, followed by Zakat al-Fitr — a mandatory charity given before the Eid prayer to ensure even the poorest can celebrate. The Prophet ﷺ would wear his best clothes on Eid and apply perfume. Eid is a day of celebration, but also of reflection — thanking Allah for the strength to complete Ramadan and asking for acceptance of our worship. It strengthens community bonds as Muslims visit relatives, share meals, and reconcile differences."
+      "starter": "이드 알-피트르는 라마단이 끝나는 즐거운 날입니다! 모든 사람이 새 옷을 입고, 특별 기도를 하고, 맛있는 음식을 먹습니다. 아이들은 선물과 돈을 받아요! 이것은 한 달간 금식한 것에 대한 알라의 선물 같은 날입니다!",
+      "explorer": "이드 알-피트르는 라마단 금식을 마치는 축제입니다. 무슬림은 아침에 특별 이드 기도를 하고, 가족과 친구와 함께 모여 축하합니다. 자카트 알-피트르(금식 끝 자선)을 내어야 모든 사람이 축제를 즐길 수 있습니다. 사람들은 서로 '이드 무바라크'(축복받은 이드)라고 인사합니다. 이드는 감사, 기쁨, 공동체의 날입니다.",
+      "thinker": "이드 알-피트르(금식 깨기의 축제)는 라마단의 영적 여정을 완성합니다. 이드 기도(살라트 알-이드)는 수나 무악카다(강력한 수나)이며, 야외나 넓은 공간에서 거행됩니다. 자카트 알-피트르는 이드 기도 전에 내야 의무이며, 한 사람당 사아(약 2.5kg)의 음식입니다. 예언자 ﷺ는 말씀하셨습니다: '금식하는 자에게는 두 가지 기쁨이 있다: 이프타르의 기쁨과 주님을 만나는 기쁨이다.' 이드는 개인의 영적 성취와 사회적 연대를 동시에 기념하는 날입니다."
     },
-    "funFact": "Did you know? On Eid, you must give charity (Zakat al-Fitr) BEFORE the Eid prayer — so even poor people can celebrate!",
+    "funFact": "알고 계셨나요? 이드 알-피트르 동안 무슬림은 '택비르'를 크게 외칩니다: '알라후 아크바르, 알라후 아크바르, 라 일라하 일랄라!' — 이것은 기쁨의 외침입니다!",
     "quiz": [
       {
-        "q": "When is Eid al-Fitr celebrated?",
+        "q": "이드 알-피트르는 무엇을 축하하나요?",
         "options": [
-          "Beginning of Ramadan",
-          "End of Ramadan",
-          "Middle of Ramadan"
+          "새해",
+          "라마단 금식의 끝",
+          "예언자의 탄생"
         ],
         "correct": 1,
-        "explanation": "Eid al-Fitr is celebrated at the end of Ramadan."
+        "explanation": "이드 알-피트르는 라마단 금식의 끝을 축하합니다."
       },
       {
-        "q": "What must Muslims give before Eid prayer?",
+        "q": "이드에 무슬림은 무엇을 하나요?",
         "options": [
-          "More fasting",
-          "Zakat al-Fitr (charity)",
-          "A new car"
+          "금식을 한다",
+          "특별 기도를 하고 축하한다",
+          "일한다"
         ],
         "correct": 1,
-        "explanation": "Zakat al-Fitr is charity given before Eid prayer so the poor can celebrate too."
+        "explanation": "이드에 무슬림은 특별 이드 기도를 하고 가족과 함께 축하합니다."
       },
       {
-        "q": "What do we say to others on Eid?",
+        "q": "'이드 무바라크'는 무슨 뜻인가요?",
         "options": [
-          "Happy Birthday",
-          "Eid Mubarak",
-          "Good Morning"
+          "행복한 새해",
+          "축복받은 이드",
+          "평화로운 밤"
         ],
         "correct": 1,
-        "explanation": "We say 'Eid Mubarak' — meaning 'Blessed Eid!'"
+        "explanation": "'이드 무바라크'는 '축복받은 이드'라는 뜻입니다."
       }
     ]
   },
   {
     "id": "eid_al_adha",
-    "title": "Eid al-Adha",
+    "title": "이드 알-아드하",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_43_eid_adha_celebration-a8nckcQaGvn3CYJJy7ta5A.webp?updatedAt=1781117903366",
     "emoji": "🐑",
     "category": "special_times",
     "content": {
-      "starter": "Eid al-Adha is the big Eid! It remembers when Prophet Ibrahim was ready to sacrifice his son for Allah. Allah was so happy with his faith that He sent a sheep instead! We sacrifice an animal and share the meat with family and poor people!",
-      "explorer": "Eid al-Adha ('Festival of Sacrifice') honors Prophet Ibrahim's willingness to sacrifice his son Ismail for Allah. Before Eid, Muslims who can afford it sacrifice an animal (sheep, goat, cow, or camel) and divide the meat into three parts: one for family, one for friends and neighbors, one for the poor. It coincides with the Hajj pilgrimage and is one of the two major Islamic holidays.",
-      "thinker": "Eid al-Adha commemorates one of the most profound acts of faith in Islamic history — Prophet Ibrahim's willingness to sacrifice his son Ismail in complete obedience to Allah. Just as Ibrahim was about to carry out the sacrifice, Allah replaced Ismail with a ram, and the sacrifice was accepted symbolically. This event is commemorated by millions of Muslims worldwide who sacrifice an animal during the days of Eid. The meat is divided into thirds: family, friends/neighbors, and the poor. Eid al-Adha coincides with the Hajj pilgrimage — while pilgrims are at Arafat, Muslims worldwide celebrate this festival of sacrifice, gratitude, and community."
+      "starter": "이드 알-아드하는 희생의 축제입니다! 이브라힘 예언자가 알라께 순종하여 아들을 바치려 한 것을 기념합니다. 알라께서 양을 보내 아들을 대신하게 하셨습니다. 무슬림은 이 날 양이나 소를 희생하고 가난한 사람과 나눕니다!",
+      "explorer": "이드 알-아드하는 하즈의 마지막 날에 해당하는 '희생의 축제'입니다. 이브라힘 예언자가 알라의 명령에 따라 아들 이스마일을 바치려 한 것을 기념합니다. 알라께서는 그들의 순종에 양을 보내 대신하게 하셨습니다. 무슬림은 이 날 동물을 희생(쿠르반)하고, 고기를 세 부분으로 나눕니다: 가족, 친지, 가난한 사람.",
+      "thinker": "이드 알-아드하(희생의 축제)는 이슬람의 두 주요 축제 중 더 큰 것입니다. 하즈의 와쿠프(아라파트 서기) 다음 날인 둘 히자 10일에 시작합니다. 쿠르바니(희생)는 예언자 ﷺ의 수나이며, 능력이 있는 무슬림에게 강력히 권장됩니다. 희생 동물은 특정 기준(건강, 나이)을 충족해야 합니다. 고기는 1/3은 가족이, 1/3은 친지가, 1/3은 가난한 사람이 나눕니다. 꾸란은 말합니다: '고기나 피가 알라께 이르는 것이 아니라 너희의 경건함이 그분께 이르는 것이라'(수라 알-하즈 22:37). 이드 알-아드하는 물질적 희생을 넘어 영적 헌신을 상징합니다."
     },
-    "funFact": "Did you know? Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah — but Allah sent a ram instead as a test of faith!",
+    "funFact": "알고 계셨나요? 이드 알-아드하 동안 전 세계에서 약 1억 마리의 동물이 희생됩니다 — 고기의 대부분은 가난한 사람들에게 나누어집니다!",
     "quiz": [
       {
-        "q": "What does Eid al-Adha remember?",
+        "q": "이드 알-아드하는 무엇을 기념하나요?",
         "options": [
-          "Ramadan ending",
-          "Ibrahim's willingness to sacrifice his son",
-          "The Quran being revealed"
+          "무함마드의 탄생",
+          "이브라힘의 희생에 대한 순종",
+          "꾸란의 계시"
         ],
         "correct": 1,
-        "explanation": "Eid al-Adha remembers when Prophet Ibrahim was ready to sacrifice his son for Allah."
+        "explanation": "이드 알-아드하는 이브라힘이 알라의 명령에 순종하여 아들을 바치려 한 것을 기념합니다."
       },
       {
-        "q": "How many parts is the sacrificial meat divided into?",
+        "q": "희생 고기는 어떻게 나누나요?",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "모두 가족이 먹는다",
+          "세 부분으로 나눈다",
+          "모두 가난한 사람에게 준다"
         ],
         "correct": 2,
-        "explanation": "The meat is divided into three: family, friends/neighbors, and the poor."
+        "explanation": "희생 고기는 세 부분으로 나눕니다: 가족, 친지, 가난한 사람."
       },
       {
-        "q": "What did Allah send instead of Ibrahim's son?",
+        "q": "이드 알-아드하는 언제인가요?",
         "options": [
-          "Nothing",
-          "A ram (sheep)",
-          "An angel"
+          "라마단 끝",
+          "둘 히자 달",
+          "무하람 달"
         ],
         "correct": 1,
-        "explanation": "Allah sent a ram to be sacrificed instead, accepting Ibrahim's willingness."
+        "explanation": "이드 알-아드하는 둘 히자 달 10일에 있습니다."
+      }
+    ]
+  },
+  {
+    "id": "al_khwarizmi",
+    "title": "알-콰리즈미 - 대수학의 아버지",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_25_scholar_al_khwarizmi-YyTnbwqk77BcABwPTm7CYw.webp?updatedAt=1781117901745",
+    "emoji": "📐",
+    "category": "stories_history",
+    "content": {
+      "starter": "알-콰리즈미는 대수학을 발명한 똑똑한 수학자입니다! '알고리즘'이라는 단어가 그의 이름에서 나왔어요. 그는 수학 문제를 푸는 방법을 책으로 썼고, 이것이 오늘날 컴퓨터가 작동하는 방식의 기초가 되었습니다!",
+      "explorer": "알-콰리즈미(780-850년)는 페르시아 수학자로 '대수학의 아버지'라고 불립니다. 그의 책 '알-자브르 왈-무카발라'에서 '알제브라'라는 단어가 유래했습니다. '알고리즘'도 그의 이름에서 나왔습니다. 그는 인도-아랍 숫자 체계를 발전시켰고, 천문학과 지도 제작에도 기여했습니다.",
+      "thinker": "무함마드 이븐 무사 알-콰리즈미(780-850년)는 대수학과 알고리즘의 창시자입니다. 그의 획기적인 저서 '알-자브르 왈-무카발라'(820년)는 체계적인 대수학을 다룬 최초의 책입니다. '알-자브르'(이동)와 '무카발라'(정리)는 방정식 푸는 두 가지 방법입니다. '알고리즘'은 그의 라틴어 이름 '알고리트무스'에서 파생되었습니다. 그는 또한 인도-아랍 십진법을 이슬람 세계와 유럽에 소개했습니다. 바그다드 지혜의 집에서 일했으며, 그의 천문학 표와 지리 작업은 수세기 동안 표준으로 남았습니다."
+    },
+    "funFact": "알고 계셨나요? '알제브라'와 '알고리즘' — 두 중요한 수학 단어 모두 알-콰리즈미에서 유래했습니다!",
+    "quiz": [
+      {
+        "q": "알-콰리즈미는 무엇의 아버지인가요?",
+        "options": [
+          "의학",
+          "대수학",
+          "화학"
+        ],
+        "correct": 2,
+        "explanation": "알-콰리즈미는 '대수학의 아버지'라고 불립니다."
+      },
+      {
+        "q": "'알고리즘'은 어디서 유래했나요?",
+        "options": [
+          "그리스어",
+          "알-콰리즈미의 이름",
+          "라틴어"
+        ],
+        "correct": 1,
+        "explanation": "'알고리즘'은 알-콰리즈미의 라틴어 이름에서 유래했습니다."
+      },
+      {
+        "q": "'알제브라'는 어디서 유래했나요?",
+        "options": [
+          "그의 책 제목",
+          "그의 도시 이름",
+          "그의 스승 이름"
+        ],
+        "correct": 1,
+        "explanation": "'알제브라'는 그의 책 '알-자브르 왈-무카발라'에서 유래했습니다."
+      }
+    ]
+  },
+  {
+    "id": "ibn_sina",
+    "title": "이븐 시나 - 의학의 아버지",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_26_scholar_ibn_sina-96S5bSYcoRZXXh4aq6Jx7q.webp?updatedAt=1781117902508",
+    "emoji": "🩺",
+    "category": "stories_history",
+    "content": {
+      "starter": "이븐 시나는 위대한 의사입니다! 그는 '의학의 정수'라는 책을 썼는데, 이 책은 600년 동안 유럽 의대 교과서였습니다. 그는 질병이 어떻게 퍼지는지 이해하고, 환자를 관찰하는 방법을 가르쳤습니다!",
+      "explorer": "이븐 시나(980-1037년)는 페르시아의 다학자로, 의학, 철학, 수학, 천문학에 기여했습니다. 그의 책 '의학의 정수'(알-카눈 피 알-티브)는 의학 역사상 가장 영향력 있는 책 중 하나입니다. 600년 넘게 유럽 대학의 표준 교과서로 사용되었습니다. 그는 임상 시험의 원칙을 발전시켰습니다.",
+      "thinker": "아부 알리 알-후사인 이븐 압달라 이븐 시나(980-1037년)는 이슬람 황금기의 가장 위대한 학자 중 한 명입니다. '의학의 정수'는 14권으로 구성되어 해부학, 생리학, 병리학, 약리학, 외과를 다룹니다. 그것은 체계적이고 증거 기반 의학의 첫 번째 사례입니다. 그는 전염병 이론을 제안하고, 임상 시험 개념을 도입했으며, 신경학과 안과학에 기여했습니다. 그의 철학적 저작은 이슬람과 유럽 사상 모두에 영향을 미쳤습니다. 서양에서는 아비센나로 알려져 있습니다."
+    },
+    "funFact": "알고 계셨나요? 이븐 시나는 10살에 꾸란을 완전히 암송했고, 18살에 이미 유명한 의사였습니다!",
+    "quiz": [
+      {
+        "q": "이븐 시나의 가장 유명한 책은 무엇인가요?",
+        "options": [
+          "지혜의 책",
+          "의학의 정수",
+          "천문학 개론"
+        ],
+        "correct": 1,
+        "explanation": "이븐 시나의 가장 유명한 책은 '의학의 정수'입니다."
+      },
+      {
+        "q": "이 책은 유럽에서 얼마나 오래 교과서로 사용되었나요?",
+        "options": [
+          "100년",
+          "300년",
+          "600년 이상"
+        ],
+        "correct": 0,
+        "explanation": "이븐 시나의 책은 600년 넘게 유럽 대학의 교과서로 사용되었습니다."
+      },
+      {
+        "q": "이븐 시나의 서양 이름은 무엇인가요?",
+        "options": [
+          "아베로에스",
+          "아비센나",
+          "알하젠"
+        ],
+        "correct": 1,
+        "explanation": "이븐 시나는 서양에서 아비센나로 알려져 있습니다."
+      }
+    ]
+  },
+  {
+    "id": "al_razi",
+    "title": "알-라지 - 화학의 선구자",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_27_scholar_al_razi-734zXvqhUQPULCRdzdCjA9.webp?updatedAt=1781117901576",
+    "emoji": "🧪",
+    "category": "stories_history",
+    "content": {
+      "starter": "알-라지는 화학을 발전시킨 위대한 학자입니다! 그는 실험을 통해 새로운 물질을 발견하고, 병을 치료하는 방법을 찾았습니다. 그는 소아과 의학과 안과학에도 기여했습니다. 알-라지는 실험의 중요성을 가르친 최초의 사람 중 한 명입니다!",
+      "explorer": "알-라지(865-925년)는 페르시아의 의사이자 화학자입니다. 그는 화학을 연금술에서 과학으로 바꾸는 데 기여했습니다. 그의 책 '비밀의 비밀'은 화학의 고전입니다. 그는 최초로 천연두와 홍역을 구별했고, 소아과 의학과 안과학의 선구자였습니다. 그는 환자 관찰과 실험을 강조했습니다.",
+      "thinker": "아부 바크르 무함마드 이븐 자카리야 알-라지(865-925년)는 이슬람 의학과 화학의 거장입니다. 그는 체계적인 화학 실험의 선구자로, 증류, 결정화, 여과 기술을 발전시켰습니다. 의학에서 그는 최초로 천연두와 홍역을 구별하는 임상 설명을 제공했습니다. 그의 백과사전적 저서 '알-하위'(포괄적 서적)는 의학의 주요 참고서였습니다. 그는 동물 창자를 사용한 최초의 봉합사와 안과 수술 기구를 도입했습니다. 알-라지는 관찰과 실험을 이론보다 우선시했으며, 이것은 근대 과학 방법의 핵심 원칙입니다."
+    },
+    "funFact": "알고 계셨나요? 알-라지는 병원을 지을 최적의 위치를 찾기 위해 고기 조각을 여러 곳에 걸어두고 가장 늦게 썩는 곳을 선택했습니다!",
+    "quiz": [
+      {
+        "q": "알-라지는 어떤 분야의 선구자인가요?",
+        "options": [
+          "수학",
+          "화학",
+          "천문학"
+        ],
+        "correct": 1,
+        "explanation": "알-라지는 화학의 선구자입니다."
+      },
+      {
+        "q": "알-라지가 최초로 구별한 두 질병은 무엇인가요?",
+        "options": [
+          "감기와 독감",
+          "천연두와 홍역",
+          "말라리아와 장티푸스"
+        ],
+        "correct": 0,
+        "explanation": "알-라지는 최초로 천연두와 홍역을 구별했습니다."
+      },
+      {
+        "q": "알-라지는 병원 위치를 어떻게 정했나요?",
+        "options": [
+          "제비 뽑기",
+          "고기 조각으로 공기 질 시험",
+          "왕의 명령"
+        ],
+        "correct": 1,
+        "explanation": "알-라지는 고기 조각을 여러 곳에 걸어두고 가장 늦게 썩는 곳을 선택했습니다."
+      }
+    ]
+  },
+  {
+    "id": "al_biruni",
+    "title": "알-비루니 - 과학의 거장",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_28_scholar_al_biruni-3CxEZkDDXSfMvzUgmWWyDk.webp?updatedAt=1781117901825",
+    "emoji": "🌍",
+    "category": "stories_history",
+    "content": {
+      "starter": "알-비루니는 뭐든지 연구하는 호기심 많은 학자입니다! 그는 지구의 둘레를 계산하고, 인도 문화를 연구하고, 보석의 무게를 재는 방법을 발명했습니다. 그는 100권이 넘는 책을 썼습니다!",
+      "explorer": "알-비루니(973-1048년)는 페르시아의 다학자로 수학, 천문학, 물리학, 지리, 인류학에 기여했습니다. 그는 새로운 방법으로 지구의 둘레를 계산하여 매우 정확한 결과를 얻었습니다. 그의 책 '인도'는 인도 문화와 종교에 대한 최초의 객관적 연구입니다. 그는 100개 이상의 천문학 기구를 만들었습니다.",
+      "thinker": "아부 라이한 무함마드 이븐 아흐마드 알-비루니(973-1048년)는 중세의 가장 위대한 학자 중 한 명입니다. 그의 지구 둘레 계산은 실제 값과 1% 이내의 오차였습니다. 그는 비중 측정(유체정역학)을 개발하여 보석과 광물의 밀도를 정확히 측정했습니다. '인도'(타리크 알-힌드)는 종교적 관용과 학문적 객관성의 모델입니다. 알-비루니는 아랍어, 페르시아어, 산스크리트어, 그리스어, 히브리어를 구사했습니다. 그는 과학적 방법의 선구자로, 이론보다 관찰과 실험을 우선시했습니다. 그의 천문학 저작은 코페르니쿠스 이전 지동설적 요소를 포함합니다."
+    },
+    "funFact": "알고 계셨나요? 알-비루니는 1000년 전에 지구 둘레를 계산했는데, 그의 계산은 오늘날 위성 측정과 거의 같습니다!",
+    "quiz": [
+      {
+        "q": "알-비루니가 정확히 계산한 것은 무엇인가요?",
+        "options": [
+          "달의 거리",
+          "지구의 둘레",
+          "태양의 온도"
+        ],
+        "correct": 2,
+        "explanation": "알-비루니는 지구의 둘레를 매우 정확하게 계산했습니다."
+      },
+      {
+        "q": "알-비루니는 몇 권의 책을 썼나요?",
+        "options": [
+          "10권",
+          "50권",
+          "100권 이상"
+        ],
+        "correct": 1,
+        "explanation": "알-비루니는 100권 이상의 책을 썼습니다."
+      },
+      {
+        "q": "그의 인도 연구 책의 특징은 무엇인가요?",
+        "options": [
+          "편견이 있다",
+          "객관적이고 존중하는",
+          "불완전하다"
+        ],
+        "correct": 0,
+        "explanation": "그의 책 '인도'는 인도 문화에 대한 최초의 객관적이고 존중하는 연구입니다."
+      }
+    ]
+  },
+  {
+    "id": "al_ghazali",
+    "title": "알-가잘리 - 이슬람 철학",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_29_scholar_al_ghazali-hXQACXYZ4iArCEGuBdVNNd.webp?updatedAt=1781117901160",
+    "emoji": "💡",
+    "category": "stories_history",
+    "content": {
+      "starter": "알-가잘리는 깊이 생각하는 위대한 학자입니다! 그는 사람들이 참된 믿음과 단순히 흉내 내는 믿음을 구별하도록 도왔습니다. 그는 마음의 눈으로 진리를 보는 것이 중요하다고 가르쳤습니다!",
+      "explorer": "알-가잘리(1058-1111년)는 이슬람의 가장 위대한 신학자이자 철학자 중 한 명입니다. '이슬람의 증인'이라고 불립니다. 그의 책 '철학자들의 목적'과 '종교 과학의 부활'은 이슬람 사상에 깊은 영향을 미쳤습니다. 그는 회의에서 진리에 이르는 길을 보여주었습니다.",
+      "thinker": "아부 하미드 무함마드 이븐 무함마드 알-가잘리(1058-1111년)는 이슬람 지적 역사의 가장 영향력 있는 인물 중 한 명입니다. '후자트 알-이슬람'(이슬람의 증인)이라는 칭호를 받았습니다. 그의 자전적 저서 '알-문키즈 민 알-달랄'(방황에서의 구원)은 회의에서 확신으로의 영적 여정을 기록합니다. 그의 '타하파트 알-팔라시파'(철학자들의 붕괴)는 이슬람 철학의 방법론적 비판으로, 아리스토텔레스주의 철학자들의 20가지 주장을 반박합니다. '이히야 울룸 앗-딘'(종교 과학의 부활)은 40권으로 이슬람 영성의 종합입니다. 알-가잘리는 이성과 계시의 조화를 시도하며, 수피즘(타사우프)을 주류 이슬람에 통합했습니다."
+    },
+    "funFact": "알고 계셨나요? 알-가잘리는 학문의 정점에 있으면서도 영적 공허함을 느껴 모든 것을 떠나 10년 동안 방랑하며 진리를 찾았습니다!",
+    "quiz": [
+      {
+        "q": "알-가잘리의 별명은 무엇인가요?",
+        "options": [
+          "의학의 아버지",
+          "이슬람의 증인",
+          "대수학의 아버지"
+        ],
+        "correct": 1,
+        "explanation": "알-가잘리는 '후자트 알-이슬람'(이슬람의 증인)이라고 불립니다."
+      },
+      {
+        "q": "그의 자전적 저서는 무엇인가요?",
+        "options": [
+          "의학의 정수",
+          "방황에서의 구원",
+          "인도"
+        ],
+        "correct": 0,
+        "explanation": "그의 자전적 저서는 '알-문키즈 민 알-달랄'(방황에서의 구원)입니다."
+      },
+      {
+        "q": "알-가잘리는 무엇을 조화시키려 했나요?",
+        "options": [
+          "수학과 과학",
+          "이성과 계시",
+          "음악과 미술"
+        ],
+        "correct": 1,
+        "explanation": "알-가잘리는 이성과 계시의 조화를 시도했습니다."
+      }
+    ]
+  },
+  {
+    "id": "fatima_al_fihri",
+    "title": "파티마 알-피흐리 - 최초의 대학",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_30_scholar_fatima_al_fihri-oUUmqToz9ELRTCtWCXgCQn.webp?updatedAt=1781117901536",
+    "emoji": "🎓",
+    "category": "stories_history",
+    "content": {
+      "starter": "파티마 알-피흐리는 세계 최초의 대학을 세운 용감한 여성입니다! 859년에 모로코에 알-카라위인 대학을 설립했습니다. 그녀는 교육이 모든 사람에게 중요하다고 믿었습니다. 오늘날까지도 이 대학은 운영되고 있습니다!",
+      "explorer": "파티마 알-피흐리는 859년 모로코 페스에 알-카라위인 모스크와 대학을 설립했습니다. 이것은 기네스 세계 기록에 따르면 현존하는 가장 오래된 대학입니다. 그녀는 부유한 가정에서 왔지만, 유산을 교육에 사용했습니다. 알-카라위인은 이슬람 연구, 수학, 천문학, 의학을 가르쳤습니다.",
+      "thinker": "파티마 알-피흐리(800-880년경)는 이슬람 교육 역사에서 기념비적인 인물입니다. 알-카라위인 대학은 유네스코와 기네스 세계 기록이 인정한 현존하는 가장 오래된 학위 수여 교육 기관입니다. 보로그 왕조 통치 하에서 설립되어, 페스는 학문의 중심지가 되었습니다. 알-카라위인은 이슬람 황금기의 수백 명의 학자들을 배출했습니다. 파티마의 헌신은 이슬람에서 여성의 교육과 공공 봉사에 대한 중요성을 보여줍니다. 그녀는 모스크가 완공될 때까지 금식하며 기도로 시작을 알렸습니다."
+    },
+    "funFact": "알고 계셨나요? 알-카라위인 대학은 1160년대부터 학위를 수여했습니다 — 유럽의 볼로냐 대학(1088년)보다 앞선 기록입니다!",
+    "quiz": [
+      {
+        "q": "파티마 알-피흐리는 무엇을 설립했나요?",
+        "options": [
+          "병원",
+          "알-카라위인 대학",
+          "도서관"
+        ],
+        "correct": 1,
+        "explanation": "파티마 알-피흐리는 알-카라위인 대학을 설립했습니다."
+      },
+      {
+        "q": "이 대학은 어디에 있나요?",
+        "options": [
+          "바그다드",
+          "모로코 페스",
+          "카이로"
+        ],
+        "correct": 1,
+        "explanation": "알-카라위인 대학은 모로코 페스에 있습니다."
+      },
+      {
+        "q": "이 대학의 특별한 점은 무엇인가요?",
+        "options": [
+          "가장 크다",
+          "현존하는 가장 오래된 대학이다",
+          "가장 비싸다"
+        ],
+        "correct": 1,
+        "explanation": "알-카라위인 대학은 현존하는 가장 오래된 대학입니다."
+      }
+    ]
+  },
+  {
+    "id": "ibn_khaldun",
+    "title": "이븐 할둔 - 사회학의 아버지",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_31_scholar_ibn_khaldun-22Tqw9TsmYYVf9NDTfPHYp.webp?updatedAt=1781117901557",
+    "emoji": "📜",
+    "category": "stories_history",
+    "content": {
+      "starter": "이븐 할둔은 사회가 어떻게 일어나고 무너지는지 연구한 똑똑한 학자입니다! 그는 역사의 법칙을 찾아냈고, 이것이 오늘날 사회학의 시작이 되었습니다. 그의 생각은 현대 사회과학에 여전히 영향을 미치고 있습니다!",
+      "explorer": "이븐 할둔(1332-1406년)은 튀니지에서 태어난 학자로 '사회학의 아버지'라고 불립니다. 그의 책 '프로레고메나'(알-무카디마)는 문명, 경제, 정치의 법칙을 연구한 최초의 책입니다. 그는 문명이 어떻게 일어나고, 번성하고, 쇠퇴하는지 설명했습니다. 그의 사상은 현대 사회학, 경제학, 역사학에 영향을 미쳤습니다.",
+      "thinker": "왈리 앗-딘 압드 알-라흐만 이븐 할둔(1332-1406년)은 사회학, 역사철학, 경제학의 선구자입니다. 그의 '알-무카디마'(프로레고메나)는 사회-경제 역사 분석의 기념비적 저작입니다. 그는 '아사비야'(사회적 연대) 개념을 발전시켰습니다 — 이것이 문명의 원동력이라고 보았습니다. 그의 문명 순환 이론은 부상, 전성, 쇠퇴, 몰락의 단계를 설명합니다. 그는 분업, 가치 이론, 세금과 경제 성장의 관계를 분석했습니다. 아서 시실 피긴스와 아널드 토인비 같은 현대 학자들이 그를 찬사했습니다. 토인비는 '알-무카디마'를 '어떤 시대, 어떤 나라에서도 가장 위대한 지적 산물'이라고 불렀습니다."
+    },
+    "funFact": "알고 계셨나요? 이븐 할둔은 600년 전에 세금이 너무 높으면 사람들이 일하기 싫어져서 세수가 오히려 줄어든다고 설명했습니다 — 이것은 현대 경제학의 핵심 개념입니다!",
+    "quiz": [
+      {
+        "q": "이븐 할둔은 무엇의 아버지인가요?",
+        "options": [
+          "의학",
+          "사회학",
+          "수학"
+        ],
+        "correct": 0,
+        "explanation": "이븐 할둔은 '사회학의 아버지'라고 불립니다."
+      },
+      {
+        "q": "그의 가장 유명한 책은 무엇인가요?",
+        "options": [
+          "의학의 정수",
+          "알-무카디마",
+          "지혜의 집"
+        ],
+        "correct": 0,
+        "explanation": "그의 가장 유명한 책은 '알-무카디마'(프로레고메나)입니다."
+      },
+      {
+        "q": "'아사비야'는 무엇을 의미하나요?",
+        "options": [
+          "경제 성장",
+          "사회적 연대",
+          "종교적 의무"
+        ],
+        "correct": 1,
+        "explanation": "'아사비야'는 사회적 연대를 의미하며, 문명의 원동력이라고 보았습니다."
       }
     ]
   }
