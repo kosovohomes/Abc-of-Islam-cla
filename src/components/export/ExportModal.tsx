@@ -20,54 +20,44 @@ export default function ExportModal({ content, currentTopicId }: ExportModalProp
     setOpen(false);
   };
 
-  const handleExportPDF = async () => {
-    setGenerating(true);
-    try {
-      const res = await fetch('/api/pdf', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ locale, ageLevel, topicId: currentTopicId }),
-      });
-      if (!res.ok) throw new Error('PDF render failed');
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `abc-of-islam-${locale}${currentTopicId ? `-${currentTopicId}` : ''}.pdf`;
-      a.click();
-      URL.revokeObjectURL(url);
-    } catch (e) {
-      console.error('PDF export failed:', e);
-      alert(t('exportPdfFailed'));
-    } finally {
-      setGenerating(false);
-      setOpen(false);
-    }
+  const handleExportPDF = () => {
+    // Use browser print-to-PDF functionality
+    window.print();
+    setOpen(false);
   };
 
-  const handleExportEPUB = async () => {
-    setGenerating(true);
-    try {
-      const res = await fetch('/api/epub', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ locale, ageLevel }),
-      });
-      if (!res.ok) throw new Error('EPUB packaging failed');
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `abc-of-islam-${locale}.epub`;
-      a.click();
-      URL.revokeObjectURL(url);
-    } catch (e) {
-      console.error('EPUB export failed:', e);
-      alert(t('exportEpubFailed'));
-    } finally {
-      setGenerating(false);
-      setOpen(false);
-    }
+  const handleExportEPUB = () => {
+    // Export as a simple HTML file that can be opened in any e-reader
+    const topic = currentTopicId ? content.find(tp => tp.id === currentTopicId) : null;
+    const topics = topic ? [topic] : content;
+    
+    const htmlContent = `<!DOCTYPE html>
+<html lang="${locale}">
+<head><meta charset="UTF-8"><title>ABC of Islam</title>
+<style>body{font-family:sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.6}
+h1{color:#059669;border-bottom:2px solid #059669;padding-bottom:10px}
+h2{color:#047857;margin-top:40px}
+.funfact{background:#fffbeb;border-left:4px solid #f59e0b;padding:15px;margin:20px 0;border-radius:8px}
+.quiz{background:#f0fdf4;border:1px solid #bbf7d0;padding:15px;margin:20px 0;border-radius:8px}</style>
+</head>
+<body>
+<h1>🕌 ABC of Islam</h1>
+${topics.map(tp => `
+<h2>${tp.emoji} ${tp.title}</h2>
+<p>${tp.content[ageLevel] || tp.content.explorer}</p>
+${tp.funFact ? `<div class="funfact"><strong>💡 ${t('funFact')}:</strong> ${tp.funFact}</div>` : ''}
+${tp.quiz?.length ? `<div class="quiz"><h3>🎯 ${t('takeQuiz')}</h3>${tp.quiz.map((q, i) => `<p><strong>Q${i+1}:</strong> ${q.q}</p><ul>${q.options.map((o: string, j: number) => `<li${j === q.correct ? ' style="font-weight:bold;color:#059669"' : ''}>${o}</li>`).join('')}</ul>`).join('')}</div>` : ''}
+`).join('')}
+</body></html>`;
+
+    const blob = new Blob([htmlContent], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `abc-of-islam-${locale}${currentTopicId ? `-${currentTopicId}` : ''}.html`;
+    a.click();
+    URL.revokeObjectURL(url);
+    setOpen(false);
   };
 
   return (
@@ -125,7 +115,7 @@ export default function ExportModal({ content, currentTopicId }: ExportModalProp
                 <BookOpen className="w-6 h-6 text-amber-500" />
                 <div>
                   <div className="font-bold text-sm text-amber-950">{t('exportEpub')}</div>
-                  <div className="text-[10px] text-amber-700/85 font-semibold tracking-wide mt-0.5">{t('exportEpubDesc')}</div>
+                  <div className="text-[10px] text-amber-700/85 font-semibold tracking-wide mt-0.5">Save as HTML e-book</div>
                 </div>
               </button>
 

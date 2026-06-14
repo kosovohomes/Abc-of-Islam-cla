@@ -18,9 +18,6 @@ interface TopicReaderProps {
   selectedTopicId: string;
   progress: UserProgress;
   toggleSaveChapter: (id: string) => void;
-  translating: boolean;
-  translationError: string | null;
-  onRetryTranslation: () => void;
   languageNames: Record<string, string>;
   onNavigatePrev: () => void;
   onNavigateNext: () => void;
@@ -39,9 +36,6 @@ export default function TopicReader({
   selectedTopicId,
   progress,
   toggleSaveChapter,
-  translating,
-  translationError,
-  onRetryTranslation,
   languageNames,
   onNavigatePrev,
   onNavigateNext,
@@ -107,17 +101,6 @@ export default function TopicReader({
           <div className="h-1.5 w-full rainbow-border shrink-0" />
 
           <div className="p-4 sm:p-6 space-y-4 flex-1 flex flex-col">
-            {/* Translation loading overlay */}
-            {translating && (
-              <div className="absolute inset-0 bg-white/95 backdrop-blur-sm z-50 flex flex-col items-center justify-center p-8 text-center">
-                <div className="w-16 h-16 border-4 border-emerald-500 border-t-transparent rounded-full animate-spin mb-4" />
-                <h3 className="text-xl font-serif font-bold text-gray-800">{t('translatingChapter')}</h3>
-                <p className="text-sm text-gray-500 max-w-sm mt-3 leading-relaxed">
-                  {t('translatingDesc')}
-                </p>
-              </div>
-            )}
-
             {/* Background watermark */}
             <div className="absolute right-0 top-0 text-[280px] font-sans font-black text-emerald-500/[0.018] select-none leading-none -mr-10 -mt-12 pointer-events-none">
               {activeTopic.emoji}
@@ -165,25 +148,6 @@ export default function TopicReader({
               </div>
               <AudioNarrator text={bodyText} />
             </div>
-
-            {/* Translation error */}
-            {translationError && (
-              <div className="p-4 rounded-2xl bg-amber-50 border-2 border-amber-300/60 relative z-10 space-y-3 shadow-sm shrink-0">
-                <div className="flex items-center gap-2">
-                  <span className="text-lg">⚠️</span>
-                  <h4 className="font-serif font-bold text-slate-900">{t('translationUnavailable')}</h4>
-                </div>
-                <p className="text-xs text-slate-600 leading-relaxed">
-                  {t('translationHighDemand')}
-                </p>
-                <button
-                  onClick={onRetryTranslation}
-                  className="px-3.5 py-1.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 active:translate-y-px text-white font-extrabold text-[11px] uppercase tracking-wider rounded-xl shadow-sm transition-all cursor-pointer"
-                >
-                  {t('tryTranslatingAgain')}
-                </button>
-              </div>
-            )}
 
             {/* Body text */}
             <div className="prose max-w-none text-[#2C3E50]/90 font-sans leading-relaxed text-sm sm:text-base font-medium relative z-10 flex-1">

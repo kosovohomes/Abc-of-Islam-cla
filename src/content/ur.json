@@ -1,316 +1,316 @@
 [
   {
     "id": "shahada",
-    "title": "Shahada - Declaration of Faith",
+    "title": "شہادہ - ایمان کا اعلان",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☪️",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "The Shahada says: \"There is no god but Allah, and Muhammad is His messenger.\" This is the most important sentence in Islam! When we say it, we tell everyone we believe in Allah and love His Prophet. It makes our heart light and happy!",
-      "explorer": "The Shahada is the first pillar of Islam. It has two parts: first, believing that only Allah is God — no one else deserves worship. Second, believing that Prophet Muhammad ﷺ is Allah's final messenger. Saying the Shahada with sincerity makes you Muslim. It's not just words — it's a promise from your heart to follow Allah's guidance.",
-      "thinker": "The Shahada is far more than a declaration — it's a complete worldview. The first part, \"La ilaha illallah,\" negates all false gods and affirms monotheism (Tawheed). The second part, \"Muhammadun rasulullah,\" establishes the prophetic authority of Muhammad ﷺ. Together, they form the foundation upon which all other Islamic practices are built. Understanding the Shahada means understanding the essence of submission to Allah."
+      "starter": "شہادہ کہتا ہے: \"اللہ کے سوا کوئی معبود نہیں، اور محمد ﷺ اس کے رسول ہیں۔\" یہ اسلام میں سب سے اہم جملہ ہے! جب ہم اسے کہتے ہیں، تو ہم سب کو بتاتے ہیں کہ ہم اللہ پر یقین رکھتے ہیں اور اس کے نبی سے محبت کرتے ہیں۔ یہ ہمارے دل کو ہلکا اور خوش کرتا ہے!",
+      "explorer": "شہادہ اسلام کا پہلا ستون ہے۔ اس میں دو حصے ہیں: پہلا، یقین رکھنا کہ صرف اللہ ہی خدا ہے — کوئی اور عبادت کے لائق نہیں۔ دوسرا، یقین رکھنا کہ نبی محمد ﷺ اللہ کے آخری رسول ہیں۔ شہادہ کو صداقت کے ساتھ کہنا آپ کو مسلم بناتا ہے۔ یہ صرف الفاظ نہیں ہیں — بلکہ یہ آپ کے دل سے اللہ کے ہدایت کے پابندی کرنے کا عہد ہے۔",
+      "thinker": "شہادا صرف ایک اعلان سے بہت زیادہ ہے — یہ ایک مکمل دنیاوی نظریہ ہے۔ پہلا حصہ، \"لا الٰہ الا اللہ\"، تمام جھوٹے معبودوں کو مسترد کرتا ہے اور توحید (توحید) کو تصدیق کرتا ہے۔ دوسرا حصہ، \"محمد رسول اللہ\"، محمد ﷺ کی نبوی اتھارٹی قائم کرتا ہے۔ دونوں مل کر وہ بنیاد بناتے ہیں جس پر تمام اسلامی عملے قائم ہیں۔ شہادے کو سمجھنا اللہ کی اطاعت کی اصل کو سمجھنا ہے۔"
     },
-    "funFact": "Did you know? The Shahada is whispered into a newborn baby's ear and is also the last words many Muslims hope to say before they pass away!",
+    "funFact": "جانتے تھے؟ شہادہ نئی پیدا ہونے والی بچی کے کان میں اچھنتی ہے اور یہ بہت سے مسلمانوں کی آخری الفاظ بھی ہیں جن کی وہ موت سے پہلے کہنے کا خواہش رکھتے ہیں!",
     "quiz": [
       {
-        "q": "What does Shahada mean?",
+        "q": "شہادہ کا کیا مطلب ہے؟",
         "options": [
-          "Declaration of Faith",
-          "Daily Prayer",
-          "Charity Giving"
+          "ایمان کا اعلان",
+          "روزانہ نماز",
+          "صدقہ دینا"
         ],
         "correct": 0,
-        "explanation": "Shahada means 'Declaration of Faith' — it's the statement that makes someone Muslim."
+        "explanation": "شہادہ کا مطلب 'ایمان کا اعلان' ہے — یہ وہ بیان ہے جو کوئی شخص مسلم بناتا ہے۔"
       },
       {
-        "q": "How many parts does the Shahada have?",
+        "q": "شہادہ میں کتنے حصے ہیں؟",
         "options": [
-          "One part",
-          "Two parts",
-          "Three parts"
+          "ایک حصہ",
+          "دو حصے",
+          "تیں حصے"
         ],
         "correct": 1,
-        "explanation": "The Shahada has two parts: believing in one God and believing Muhammad is His messenger."
+        "explanation": "شہادہ میں دو حصے ہیں: ایک خدا میں یقین رکھنا اور دوسرا محمد ﷺ اس کے رسول ہونے میں یقین رکھنا۔"
       },
       {
-        "q": "Who is the last prophet mentioned in the Shahada?",
+        "q": "شہادہ میں آخری نبی کس کا ذکر ہے؟",
         "options": [
-          "Prophet Musa",
-          "Prophet Isa",
-          "Prophet Muhammad"
+          "نبی موسیٰ",
+          "نبی عیسیٰ",
+          "نبی محمد ﷺ"
         ],
         "correct": 2,
-        "explanation": "The Shahada mentions Prophet Muhammad ﷺ as Allah's final messenger."
+        "explanation": "شہادہ میں نبی محمد ﷺ کا ذکر اللہ کے آخری رسول کے طور پر ہوتا ہے۔"
       }
     ]
   },
   {
     "id": "salah",
-    "title": "Salah - Prayer",
+    "title": "Salah - نماز",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_11_topic_prayer_salah-AiQHjTprGERKrV6ZWGWS6N.webp?updatedAt=1781117901214",
     "emoji": "🤲",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Salah is talking to Allah! Five times a day, we stop what we're doing, wash our hands and face (that's called wudu), face Mecca, and pray. It's like a special phone call to Allah. He loves when we talk to Him!",
-      "explorer": "Salah is the second pillar of Islam. Muslims pray five times a day: Fajr (dawn), Dhuhr (noon), Asr (afternoon), Maghrib (sunset), and Isha (night). Each prayer involves standing, bowing, and prostrating while reciting verses from the Quran. Salah keeps us connected to Allah throughout the day and teaches us discipline and gratitude.",
-      "thinker": "The five daily prayers (Salawat) are a gift from Allah, prescribed during the Night Journey (Isra and Mi'raj). Each prayer corresponds to a spiritual state: Fajr purifies the soul before the day begins, Dhuhr provides a midday recharge, Asr encourages reflection, Maghrib marks gratitude for the day's blessings, and Isha offers peace before sleep. The physical movements — standing (qiyam), bowing (ruku), and prostration (sujud) — are acts of humility that remind us of our relationship with our Creator."
+      "starter": "Salah Allah سے بات کرنا ہے! ہم دن میں پانچ بار کچھ کرنا چھوڑتے ہیں، ہاتھ اور چہرے دھوتے ہیں (اسے wudu کہتے ہیں)، Mecca کی طرف رخ کرتے ہیں، اور نماز پڑھتے ہیں۔ یہ Allah کے ساتھ ایک خاص فون کال ہے۔ وہ جب ہم اس سے بات کرتے ہیں تو بہت خوش ہوتا ہے!",
+      "explorer": "Salah اسلام کا دوسرا ستون ہے۔ مسلمان دن میں پانگ بار نماز پڑھتے ہیں: Fajr (صبح)، Dhuhr (دوپہر)، Asr (شام)، Maghrib (غروب) اور Isha (رات)۔ ہر نماز میں Quran کی آیات پڑھتے ہوئے کھڑے ہونا، گھٹنے گرنا اور سجدہ کرنا شامل ہے۔ Salah ہمیں پورے دن میں Allah سے جوڑے رکھتی ہے اور ہمیں نظم و ضبط اور شکرانہ سکھاتی ہے۔",
+      "thinker": "پانچ روزانہ نمازیں (Salawat) Allah کا تحفہ ہیں، جنہیں Night Journey (Isra and Mi'raj) کے دوران فرمایا گیا تھا۔ ہر نماز ایک روحانی حالت کے مطابق ہے: Fajr دن شروع ہونے سے پہلے روح کو پاک کرتی ہے، Dhuhr دوپہر میں دوبارہ توانائی فراہم کرتی ہے، Asر غور و فکر کی ترغیب دیتی ہے، Maghrib دن کے برکات کے لیے شکرانہ کا اعلان کرتی ہے، اور Isha سونے سے پہلے امن فراہم کرتی ہے۔ جسمانی حرکات — کھڑے ہونا (qiyam)، گھٹنے گرنا (ruku) اور سجدہ کرنا (sujud) — خضرت کے اعمال ہیں جو ہمیں اپنے خالق کے ساتھ تعلقات یاد دلاتے ہیں۔"
     },
-    "funFact": "Did you know? Muslims face the Kaaba in Mecca when they pray, no matter where they are in the world! Even from space, astronauts pray toward Mecca!",
+    "funFact": "جانتے تھے؟ مسلمان جہاں بھی دنیا میں ہوں، نماز پڑھتے وقت Mecca کی طرف رخ کرتے ہیں! خلابازی سے بھی، خلابازوں نے Mecca کی طرف نماز پڑھی!",
     "quiz": [
       {
-        "q": "How many times a day do Muslims pray?",
+        "q": "مسلمان دن میں کتنے بار نماز پڑھتے ہیں؟",
         "options": [
-          "Three times",
-          "Five times",
-          "Seven times"
+          "تین بار",
+          "پانچ بار",
+          "سات بار"
         ],
         "correct": 1,
-        "explanation": "Muslims pray five times a day: Fajr, Dhuhr, Asr, Maghrib, and Isha."
+        "explanation": "مسلمان دن میں پانچ بار نماز پڑھتے ہیں: Fajr، Dhuhr، Asr، Maghrib، اور Isha۔"
       },
       {
-        "q": "What do we do before praying?",
+        "q": "نماز پڑھنے سے پہلہ ہم کیا کرتے ہیں؟",
         "options": [
-          "Eat food",
-          "Perform wudu (ablution)",
-          "Read a book"
+          "کھانا کھاتے ہیں",
+          "wudu (ablution) کرتے ہیں",
+          "کتاب پڑھتے ہیں"
         ],
         "clean": 1,
-        "explanation": "We perform wudu (ablution) to clean ourselves before praying."
+        "explanation": "ہم نماز پڑھنے سے پہلے wudu (ablution) کرتے ہیں تاکہ خود کو صاف رکھ سکیں۔"
       },
       {
-        "q": "Which direction do Muslims face when praying?",
+        "q": "نماز پڑھتے وقت مسلمان کس طرف رخ کرتے ہیں؟",
         "options": [
-          "North",
-          "The Kaaba in Mecca",
-          "East"
+          "شمال",
+          "Mecca میں Kaaba",
+          "مشرق"
         ],
         "correct": 1,
-        "explanation": "Muslims face the Kaaba in Mecca, which is called the Qibla."
+        "explanation": "مسلمان Mecca میں Kaaba کی طرف رخ کرتے ہیں، جسے Qibla کہتے ہیں۔"
       }
     ]
   },
   {
     "id": "zakat",
-    "title": "Zakat - Charity",
+    "title": "زکات - خیرات",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_45_zakat_overview-iB69C239XxvYzdfsgqWaNR.webp?updatedAt=1781117902141",
     "emoji": "💰",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Zakat means sharing what we have with others! If we have extra money, we give a little bit to people who need it. It's like Allah is asking us to be kind and share. When we give, our hearts feel happy!",
-      "explorer": "Zakat is the third pillar of Islam. It means giving 2.5% of your savings each year to those in need. It's not optional — it's an obligation for Muslims who have wealth above a certain amount. Zakat purifies our money and reminds us that everything belongs to Allah. It helps the poor, pays off debts, and strengthens the community.",
-      "thinker": "Zakat is both a social and spiritual obligation. The word 'zakat' means 'purification' and 'growth' — by giving a portion of our wealth, we purify the remainder and grow spiritually. Allah says in the Quran that those who pay Zakat are helping to purify themselves (At-Tawbah 9:103). The fixed rate of 2.5% (one-fortieth) applies to savings held for one lunar year above the nisab threshold. This systematic approach to wealth redistribution was revolutionary and remains one of Islam's most powerful social justice mechanisms."
+      "starter": "زکات کا مطلب ہے کہ ہم اپنے پاس ہونے والے چیزوں کو دوسروں کے ساتھ بانٹنا! اگر ہم میں اضافی پیسے ہیں، تو ہم ان لوگوں کو ایک چھوٹا سا حصہ دیتے ہیں جھوٹے ہیں۔ یہ اللہ کی طرف سے ہمارے پرہیزگار اور بانٹنے کی دعوت ہے۔ جب ہم دیتے ہیں، تو ہمارے دلوں کو خوشی ہوتی ہے!",
+      "explorer": "زکات اسلام کا تیسرا ستون ہے۔ اس کا مطلب ہے ہر سال اپنے بچھڑے ہوئے پیسوں کا 2.5% ضروری افراد کو دینا۔ یہ اختیاری نہیں ہے — یہ ایک فرض ہے مسلمانوں کے لیے جو ایک خاص حد سے زیادہ دولت رکھتے ہیں۔ زکات ہمارے پیسوں کو پاک کرتی ہے اور یاد دلاتی ہے کہ سب کچھ اللہ کا ہے۔ یہ غریبوں کی مدد کرتی ہے، قرضوں کو چھوڑتی ہے، اور برادری کو مضبوط کرتی ہے۔",
+      "thinker": "زکات ایک سماجی اور روحانی فرض ہے۔ لفظ 'زکات' کا مطلب 'پاک کرانا' اور 'بڑھنا' ہے — اپنے دولت کا حصہ دے کر، ہم باقی کو پاک کرتے ہیں اور روحانی طور پر بڑھتے ہیں۔ اللہ قرآن میں فرماتے ہیں کہ جو لوگ زکات دیتے ہیں وہ اپنے آپ کو پاک کر رہے ہیں (التوبہ 9:103)۔ 2.5% (ایک اڑائیسواں) کا مقررہ شرح ایک قمری سال سے زیادہ نسیب حد سے اوپر رکھے گئے بچھڑے ہوئے پیسوں پر لاگو ہوتا ہے۔ دولت کی اس نظاماتیک تقسیم کا تصور انقلابی تھا اور اب بھی اسلام کی طاقتور ترین سماجی انصاف کے آلات میں سے ایک ہے۔"
     },
-    "funFact": "Did you know? The word 'Zakat' means 'purification' — when you give Zakat, your remaining money becomes blessed and pure!",
+    "funFact": "جانتے تھے؟ لفظ 'زکات' کا مطلب 'پاک کرانا' ہے — جب تم زکات دیتے ہو، تمہارا باقی پیسے مبارک اور پاک ہو جاتا ہے!",
     "quiz": [
       {
-        "q": "What percentage of savings is given as Zakat?",
+        "q": "زکات کے طور پر کس فیصد بچھڑا ہوا پیسہ دیا جاتا ہے؟",
         "options": [
           "1%",
           "2.5%",
           "10%"
         ],
         "correct": 1,
-        "explanation": "Muslims give 2.5% (one-fortieth) of their savings as Zakat each year."
+        "explanation": "مسلمان ہر سال اپنے بچھڑے ہوئے پیسوں کا 2.5% (ایک اڑائیسواں) زکات کے طور پر دیتے ہیں۔"
       },
       {
-        "q": "What does the word 'Zakat' mean?",
+        "q": "لفظ 'زکات' کا کیا مطلب ہے؟",
         "options": [
-          "Charity",
-          "Purification",
-          "Prayer"
+          "خیرات",
+          "پاک کرانا",
+          "نماز"
         ],
         "correct": 1,
-        "explanation": "Zakat means 'purification' — it purifies our wealth and our hearts."
+        "explanation": "زکات کا مطلب 'پاک کرانا' ہے — یہ ہمارے دولت اور دلوں کو پاک کرتی ہے۔"
       },
       {
-        "q": "Who receives Zakat?",
+        "q": "زکات کون لوگوں کو دیا جاتا ہے؟",
         "options": [
-          "Only family",
-          "People in need",
-          "Only the rich"
+          "صرف خاندان",
+          "ضرورت مند لوگ",
+          "صثر امیر لوگ"
         ],
         "correct": 1,
-        "explanation": "Zakat is given to people in need, including the poor, debtors, and travelers."
+        "explanation": "زکات ضرورت مند لوگوں کو دیا جاتا ہے، غریبوں، قرضداروں اور مسافروں سمیت۔"
       }
     ]
   },
   {
     "id": "sawm",
-    "title": "Sawm - Fasting in Ramadan",
+    "title": "سوم - رمضان میں روزہ",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_40_ramadan_fasting-SeQhGeRR5buiYbtryMhUKA.webp?updatedAt=1781117899738",
     "emoji": "🌙",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "During Ramadan, we don't eat or drink from sunrise to sunset. That's called fasting! It teaches us to be patient and think about people who don't have food. At night, we break our fast with family and pray together. It's very special!",
-      "explorer": "Sawm means fasting during the month of Ramadan, the fourth pillar of Islam. From dawn to sunset, Muslims abstain from food, drink, and other physical needs. But fasting is not just about staying hungry — it's about building patience, empathy for the poor, and getting closer to Allah. The fast is broken at sunset with a meal called Iftar, often shared with family and community.",
-      "thinker": "Sawm during Ramadan is a comprehensive act of worship that trains the body, mind, and soul. The Quran was first revealed during Ramadan (Surah Al-Baqarah 2:185), making this month especially sacred. Fasting develops taqwa (God-consciousness) by creating a physical reminder of Allah's presence. Beyond abstaining from food and drink, Muslims are encouraged to avoid negative speech, anger, and gossip. The pre-dawn meal (Suhoor) and sunset meal (Iftar) create a rhythm of gratitude and community that transforms the entire month."
+      "starter": "رمضان میں، ہم صبح سغری سے غروب تک کھانا یا پینہ نہیں کرتے۔ اسے روزہ کہتے ہیں! یہ ہمیں صبر کرنے سے سکھاتا ہے اور ہمیں اس بات پر سوچنے پر مجبور کرتا ہے کہ جو لوں کے پاس کھانا نہیں ہوتا۔ رات کو، ہم اپنے خاندان کے ساتھ روزہ توڑتے ہیں ا� مل کر نماز پڑھتے ہیں۔ یہ بہت خاص ہے!",
+      "explorer": "سوم کا مطلب ہے رمضان کے مہینے میں روزہ رکھنا، اسلام کا چوتھا ستون۔ صبح سغری سے غروب تک، مسلمان کھانا، پینا اور دوسرے جسمانی ضروریات سے پہرہ کرتے ہیں۔ لیکن روزہ صرف بھوک رہنے کے بارے میں نہیں ہے — یہ صبر بنانے، غریبوں کے لیے ہمدردی پیدا کرنے اور اللہ سے قریب آنے کے بارے میں ہے۔ غروب آفتاب پر روزہ ایفٹر نامی کھانے سے توڑا جاتا ہے، جو اکثر خاندان اور برادری کے ساتھ شیڈ کیا جاتا ہے۔",
+      "thinker": "رمضان میں سوم جسمانی، ذہنی اور روحانی عبادت کا ایک جامع عمل ہے۔ قرآن پہلی بار رمضان میں نازل ہوا (سورہ البقرہ 2:185)، جس سے اس مہینے کو خاص طور پر مقدس بنا دیا گیا۔ روزہ اللہ کے وجود کا جسمانی یاد دہانہ بناتے ہوئے تقوی (خدا سے آگاہی) کو فروغ دیتا ہے۔ کھانے اور پینے سے پہرہ کرنے کے علاوہ، مسلمانوں کو منفی گفتگو، غصب اور غیبت سے بچنے کی ترغیب دی جاتی ہے۔ صبح کا کھانا (سحور) اور غروب کا کھانا (افطار) شکرانہ اور برادری کا ایک رتھ بناتا ہے جو پورے مہینے کو بدل دیتا ہے۔"
     },
-    "funFact": "Did you know? Muslims break their fast with dates, just like Prophet Muhammad ﷺ used to! The word 'Iftar' means 'breaking the fast'!",
+    "funFact": "جانتے تھے؟ مسافر اپنے روزے کو خرمے سے توھتے ہیں، جیسے کہ نبی محمد ﷺ کرتے تھے! 'افطار' کا لفظ 'روزہ توڑنے' کا مطلب ہے!",
     "quiz": [
       {
-        "q": "During which month do Muslims fast?",
+        "q": "کون سے مہینے میں مسلمان روزہ رکھتے ہیں؟",
         "options": [
-          "Muharram",
-          "Ramadan",
-          "Shawwal"
+          "محرم",
+          "رمضان",
+          "شوال"
         ],
         "correct": 1,
-        "explanation": "Muslims fast during the holy month of Ramadan."
+        "explanation": "مسلمان مقدس مہینے رمضان میں روزہ رکھتے ہیں۔"
       },
       {
-        "q": "What is the meal called when we break our fast?",
+        "q": "جب ہم اپنے روزے کو توھتے ہیں تو اس کھانے کو کیا کہتے ہیں؟",
         "options": [
-          "Suhoor",
-          "Iftar",
-          "Dhuhr"
+          "سحور",
+          "افطار",
+          "ظهر"
         ],
         "correct": 1,
-        "explanation": "The meal at sunset to break the fast is called Iftar."
+        "explanation": "غروب آفتاب پر روزہ توھنے کے لیے کھانا افطار کہلاتا ہے۔"
       },
       {
-        "q": "What food did Prophet Muhammad ﷺ use to break his fast?",
+        "q": "نبی محمد ﷺ اپنے روزے کو کس کھانے سے توھتے تھے؟",
         "options": [
-          "Bread",
-          "Dates",
-          "Rice"
+          "روٹی",
+          "خرمے",
+          "چاول"
         ],
         "correct": 1,
-        "explanation": "Prophet Muhammad ﷺ would break his fast with dates and water."
+        "explanation": "نبی محمد ﷺ اپنے روزے کو خرمے اور پانی سے توھتے تھے۔"
       }
     ]
   },
   {
     "id": "hajj",
-    "title": "Hajj - Pilgrimage to Mecca",
+    "title": "حج - مکہ کی زیارت",
     "image": "https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446",
     "emoji": "🕋",
     "category": "pillars_of_islam",
     "content": {
-      "starter": "Hajj is a big trip to Mecca! Every Muslim who is able goes there to pray around the Kaaba — Allah's house. Millions of people go together, wearing simple white clothes. Everyone is equal there — rich or poor, it doesn't matter!",
+      "starter": "حج مکہ کا ایک بڑا سفر ہے! ہر مسل جو اس کا قابل ہو وہاں اللہ کے گھر کے گرد نماز پڑھنے کے لیے جاتا ہے — کعبہ کے گرد۔ ملینوں لوگ مل کر جاتے ہیں، سادہ سفید کپڑے پہنتے ہوئے۔ وہاں ہر کسی برابر ہے — امیر یا غریب، اس کا کوئی فرق نہیں پڑتا!",
       "explorer": "Hajj is the fifth pillar of Islam — a pilgrimage to Mecca that every Muslim must make at least once in their lifetime if they are able. It happens during the Islamic month of Dhul Hijjah. Pilgrims wear simple white clothes called Ihram, circling the Kaaba, walking between hills, and standing in prayer at Arafat. Hajj teaches equality, patience, and devotion to Allah.",
-      "thinker": "Hajj is the world's largest annual gathering and represents the ultimate expression of Islamic unity. Following the footsteps of Prophet Ibrahim ﷺ and his family, pilgrims perform rituals that symbolize sacrifice, purification, and submission to Allah. The wearing of Ihram strips away all markers of wealth and status — everyone stands equal before Allah. The Prophet ﷺ said: 'Hajj is an obligation once in a lifetime for whoever has the ability.' It is a profound spiritual journey that cleanses sins and renews one's connection with the Creator."
+      "thinker": "حج دنیا کا سب سے بڑا سالانہ اجتماع ہے اور اسلامی اتحاد کی اعلیٰ ترین اظہار ہے۔ حضرت ابراہیم ﷺ اور ان کے خاندان کے پاؤں کے نقوش پر چلتے ہوئے، زیارت کار ایسے رسوم انجام دیتے ہیں جن کا مطلب قربانی، پاکی، اور اللہ کی اطاعت ہے۔ احرام پہننے سے دولت اور عہدے کی تمام نشانیاں ختم ہو جاتی ہیں — اللہ کے سامنے ہر کسی برابر ک�ڑتا ہے۔ رسول اللہ ﷺ نے فرمایا: 'حج جو شخص اس کا قابل ہو اپنی زندگی میں ایک بار فرض ہے۔' یہ ایک گہرا روحانی سفر ہے جو گناہوں کو صاف کرتا ہے اور خالق کے ساتھ آپ کے رشتے کو تازہ کرتا ہے۔"
     },
-    "funFact": "Did you know? Over 2 million people perform Hajj every year! When pilgrims throw stones at the pillars (Jamarat), they're following the example of Prophet Ibrahim!",
+    "funFact": "جانتے ہوے؟ ہر سال 2 ملین سے زیادہ لوگ حج کرتے ہیں! جب زیارت کار ستونوں (جمارات) پر پتھر مارتے ہیں، تو وہ حضرت ابراہیم ﷺ کی مثال پیچھے چل رہے ہیں!",
     "quiz": [
       {
-        "q": "How often must a Muslim perform Hajj?",
+        "q": "ایک مسل کتنے بار حج کرنا چاہیے؟",
         "options": [
-          "Every year",
-          "Once in a lifetime",
-          "Every 5 years"
+          "ہر سال",
+          "ایک بار زندگی میں",
+          "ہر 5 سال میں"
         ],
         "correct": 1,
-        "explanation": "Every Muslim who is able must perform Hajj at least once in their lifetime."
+        "explanation": "ہر مسل جو اس کا قابل ہو اپنی زندگی میں کم از کم ایک بار حج کرنا چاہیے۔"
       },
       {
-        "q": "What do pilgrims wear during Hajj?",
+        "q": "زیارت کار حج کے دوران کیا کپڑے پہنتے ہیں؟",
         "options": [
-          "Regular clothes",
-          "Simple white clothes called Ihram",
-          "Black clothes"
+          "عام کپڑے",
+          "احرام کہلاتے سادے سفید کپڑے",
+          "سیاہ کپڑے"
         ],
         "correct": 1,
-        "explanation": "Pilgrims wear simple white clothes called Ihram to show everyone is equal."
+        "explanation": "زیارت کار احرام کہلاتے سادے سفید کپڑے پہنتے ہیں تاکہ دکھایا جا سکے کہ ہر کسی برابر ہے۔"
       },
       {
-        "q": "Which prophet's example do pilgrims follow at Hajj?",
+        "q": "حج پر زیارت کار کس نبی کی مثال پیچھے چلتے ہیں؟",
         "options": [
-          "Prophet Musa",
-          "Prophet Ibrahim",
-          "Prophet Isa"
+          "حضرت موسیٰ ﷺ",
+          "حضرت ابراہیم ﷺ",
+          "حضرت عیسیٰ ﷺ"
         ],
         "correct": 1,
-        "explanation": "Pilgrims follow the example of Prophet Ibrahim ﷺ and his family."
+        "explanation": "زیارت کار حضرت ابرا۹یم ﷺ اور ان کے خاندان کی مثال پیچھے چلتے ہیں۔"
       }
     ]
   },
   {
     "id": "tawheed",
-    "title": "Tawheed - Oneness of God",
+    "title": "Tawheed - خداوند کا اکھر",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "☝️",
     "category": "core_beliefs",
     "content": {
-      "starter": "Tawheed means there is ONLY ONE God — Allah! He created everything: you, me, the stars, the animals, everything! We only pray to Allah, not to anyone else. Allah is the only one who deserves our love and worship!",
-      "explorer": "Tawheed is the most important belief in Islam — that there is only one God, Allah. He has no partners, no family, and no equals. He is the Creator of everything and the only one worthy of worship. Understanding Tawheed means we don't pray to statues, people, or anything else — only to Allah. This belief is the foundation of everything in Islam.",
-      "thinker": "Tawheed is the cornerstone of Islamic theology, encompassing three dimensions: Tawheed ar-Rububiyyah (Oneness of Lordship), Tawheed al-Uluhiyyah (Oneness of Worship), and Tawheed al-Asma wa'l-Sifat (Oneness of Names and Attributes). The first recognizes Allah as the sole Creator and Sustainer. The second directs all forms of worship exclusively to Him. The third affirms that Allah's attributes are unique and incomparable. The Quran states: 'Say, He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is begotten. And there is none comparable to Him' (Surah Al-Ikhlas 112:1-4)."
+      "starter": "توحید کا مطلب ہے کہ صرف ایک ہی خدا ہے — اللہ! نے سب کچھ بنایا: تم، میں، ستارے، جانور، سب کچھ! ہم صرف اللہ کی عبادت کرتے ہیں، کسی اور کے لیے نہیں۔ اللہ ہی واحد ہے جسے ہمارا پیار اور عبادت حاصل ہونا چاہیے!",
+      "explorer": "توحید اسلام میں سب سے اہم یقین ہے — کہ صرف ایک خدا ہے، اللہ۔ اس کے شرکا، خاندان اور برابر نہیں ہیں۔ وہ ہر چیز کا خالق ہے اور عبادت کے واحد لائق۔ توحید کو سمجھنا یہ معلوم کرتا ہے کہ ہم مجسموں، لوگوں، یا کسی اور چیز کی عبادت نہیں کرتے — صرف اللہ کی۔ یہ یقین اسلام میں ہر چیز کی بنیاد ہے۔",
+      "thinker": "توحید اسلامی الٰہیات کا سنگ بنیاد ہے، جس میں تین ابعاد شامل ہیں: توحید ربوبیہ (ربوبیت کا اکھر)، توحید الٰہیہ (عبادت کا اکھر)، اور توحید اسماء و صفات (اسماء و صفات کا اکھر)۔ پہلا اللہ کو واحد خالق اور قائم رکھنے والے کے طور پر تسلیم کرتا ہے۔ دوسرا تمام اقسام کی عبادات صرف اس کی طرف ہی موڑتا ہے۔ تیسرا یہ تصدیق کرتا ہے کے اللہ کے صفات منفرد اور قابل موازنہ نہیں ہیں۔ قرآن میں کہا گیا ہے: 'کہو، وہ اللہ ہے، اکھر۔ اللہ، �مستقل پناہ۔ وہ نہیں پالتا اور نہیں پلایا جاتا۔ اور اس کے برابر کوئی نہیں ہے' (سورہ الاخلاص 112:1-4)۔"
     },
-    "funFact": "Did you know? The word 'Islam' comes from the root 'salaam' which means peace, and it means submission to Allah — the One God!",
+    "funFact": "جانتے تھے؟ کہ لفظ 'اسلام' 'سلام' سے آتا ہے جس کا مطلب امن ہے، اور اس کا مطلب اللہ کی اطاعت — ایک خدا کی!",
     "quiz": [
       {
-        "q": "What does Tawheed mean?",
+        "q": "توحید کا کیا مطلب ہے؟",
         "options": [
-          "Many gods",
-          "Oneness of God",
-          "Prayer"
+          "بہت سے خدا",
+          "خدا کا اکھر",
+          "نماز"
         ],
         "correct": 1,
-        "explanation": "Tawheed means the Oneness of God — believing there is only one God, Allah."
+        "explanation": "توحید کا مطلب خدا کا اکھر ہے — یقین کرنا کہ صرف ایک خدا ہے، اللہ۔"
       },
       {
-        "q": "How many gods does Islam teach us about?",
+        "q": "اسلام ہمیں کتنے خداوں کے بارے میں سکھاتا ہے؟",
         "options": [
-          "Many gods",
-          "Only one God",
-          "Two gods"
+          "بہت سے خدا",
+          "صرف ایک خدا",
+          "دو خدا"
         ],
         "correct": 1,
-        "explanation": "Islam teaches us that there is only one God — Allah."
+        "explanation": "اسلام ہمیں سکھاتا ہے کہ صرف ایک خدا ہے — اللہ۔"
       },
       {
-        "q": "Which surah of the Quran talks about Tawheed?",
+        "q": "قرآن کی کون سی سورہ توحید کے بارے میں باتیں کرتی ہے؟",
         "options": [
-          "Al-Fatiha",
-          "Al-Ikhlas",
-          "Al-Baqarah"
+          "الفاتحہ",
+          "الاخلاص",
+          "البقرہ"
         ],
         "correct": 1,
-        "explanation": "Surah Al-Ikhlas (112) talks about the Oneness of God."
+        "explanation": "سورہ الاخلاص (112) خدا کے اکھر کے بارے میں باتیں کرتی ہے۔"
       }
     ]
   },
   {
     "id": "angels",
-    "title": "Angels",
+    "title": "فرشتے",
     "image": "https://ik.imagekit.io/4zbzbdytp/imgi_21_topic_abrahamic_religions-24Ub5MbtndBYdeZHxSMfyV.webp?updatedAt=1781117902606",
     "emoji": "👼",
     "category": "core_beliefs",
     "content": {
-      "starter": "Angels are special creatures made of light! Allah sends them to help us. Some angels write down our good and bad deeds. Some angels take our souls when it's time. Angels always obey Allah and never make mistakes!",
-      "explorer": "Angels are one of the six articles of faith in Islam. They are created from light and always obey Allah. The most famous angel is Jibril (Gabriel), who brought Allah's messages to the prophets. Other important angels include Mikail (Michael), Israfil (who will blow the trumpet on Judgment Day), and Azra'il (the angel of death). Angels record our deeds and protect us.",
-      "thinker": "Angels (Mala'ika) are a fundamental article of Islamic belief. Created from light, they exist in a different dimension and serve Allah in various capacities. Jibril (Gabriel) delivered the Quran to Prophet Muhammad ﷺ. The Kiraman Katibin are recording angels who document every deed. The angel Munkar and Nakir question the dead in their graves. Unlike humans, angels have no free will — they always obey Allah. Their existence reminds us that we are never truly alone and that our actions are always being witnessed."
+      "starter": "فرشتے روشنی سے بنے ہوئے خاص مخلوقات ہیں! اللہ انہیں ہماری مدد کے لیے بھیجتا ہے۔ کچھ فرشتے ہمارے اچھے اور برے اعمال لکھتے ہیں۔ کچھ فرشتے وقت آجانے پر ہمارے روحوں کو لے جاتے ہیں۔ فرشتے ہمیشہ اللہ کی اطاعت کرتے ہیں اور کبھی غلطی نہیں کرتے!",
+      "explorer": "فرشتے اسلام میں ایمان کے چھوے ارکان میں سے ایک ہیں۔ وہ روشنی سے پیدا کیے گئے ہیں اور ہمیشہ اللہ کی اطاعت کرتے ہیں۔ سب سے مشہور فرشتہ جبریل (گبرییل) ہے، جس نے اللہ کے پیغامات انبیاء تک پہنچائے۔ دیگر اہم فرشتوں میں میکائیل (میکائل)، اسرافیل (جو قیامت کے دن بوق بجائے گا) اور عزرائیل (موت کا فرشتہ) شامل ہیں۔ فرشتے ہمارے اعمال کو ریکارڈ کرتے ہیں اور ہماری حفاظت کرتے ہیں۔",
+      "thinker": "فرشتے (ملائکہ) اسلامی ایمان کا بنیادی جزو ہیں۔ روشنی سے پیدا کیے گئے، وہ مختلف بعد میں موجود ہیں اور مختلف صلاحیتوں میں اللہ کی خدمت کرتے ہیں۔ جبریل (گبرییل) نے قرآن نبی محمد ﷺ تک پہنچایا۔ کرمان کاتبین ریکارڈنگ فرشتے ہیں جو ہر کام کو دستاویز کرتے ہیں۔ فرشتے منکر اور نکر مرگ میں مردے ہوئے سوال کرتے ہیں۔ انسانی مخلوقوں کے برعکس، فرشتے کوئی آزارئہ ارادہ نہیں رکھتے — وہ ہمیشہ اللہ کی اطاعت کرتے ہیں۔ ان کی موجودگی ہمیں یاد دلاتی ہے کہ ہم کبھی واقعی تنہا نہیں ہوتے اور ہمارے اعمال ہمیشہ دیکھے جا رہے ہوتے ہیں۔"
     },
-    "funFact": "Did you know? Angels have wings! Some have two, some have three, some have four — and Prophet Muhammad ﷺ saw the angel Jibril with 600 wings!",
+    "funFact": "جانتے تھے؟ فرشتے پر ہیں! کچھ کے دو، کچھ کے تین، کچھ کے چار پر ہیں — اور نبی محمد ﷺ نے فرشتہ جبریل کو 600 پروں کے ساتھ دیکھا!",
     "quiz": [
       {
-        "q": "What are angels made of?",
+        "q": "فرشتے کس سے بنے ہیں؟",
         "options": [
-          "Fire",
-          "Light",
-          "Water"
+          "آگ",
+          "روشنی",
+          "پانی"
         ],
         "correct": 1,
-        "explanation": "Angels are created from light."
+        "explanation": "فرشتے روشنی سے پیدا کیے گئے ہیں۔"
       },
       {
-        "q": "Which angel brought messages to the prophets?",
+        "q": "کون سا فرشتہ انبیاء تک پیغام لے کر آتا تھا؟",
         "options": [
-          "Mikail",
-          "Jibril",
-          "Israfil"
+          "میکائیل",
+          "جبریل",
+          "اسرافیل"
         ],
         "correct": 1,
-        "explanation": "Jibril (Gabriel) brought Allah's messages to the prophets."
+        "explanation": "جبریل (گبرییل) نے اللہ کے پیغامات انبیاء تک پہنچائے۔"
       },
       {
-        "q": "Do angels have free will?",
+        "q": "فرشتے کو آزاد ارادہ ہے؟",
         "options": [
-          "Yes, they can choose",
-          "No, they always obey Allah",
-          "Sometimes"
+          "ہاں، وہ چھو سکتے ہیں",
+          "نہیں، وہ ہمیشہ اللہ کی اطاعت کرتے ہیں",
+          "کبھی کبھی"
         ],
         "correct": 1,
-        "explanation": "Angels always obey Allah — they don't have free will like humans."
+        "explanation": "فرشتے ہمیشہ اللہ کی اطاعت کرتے ہیں — انسانوں کی طرح انہیں آزاد ارادہ نہیں ہوتا۔"
       }
     ]
   },
@@ -1301,6 +1301,321 @@
         ],
         "correct": 1,
         "explanation": "Allah sent a ram to be sacrificed instead, accepting Ibrahim's willingness."
+      }
+    ]
+  },
+  {
+    "id": "al_khwarizmi",
+    "title": "Al-Khwarizmi - Father of Algebra",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_25_scholar_al_khwarizmi-YyTnbwqk77BcABwPTm7CYw.webp?updatedAt=1781117901745",
+    "emoji": "📐",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Khwarizmi was a great Muslim math genius who lived a long time ago. He invented Algebra, which helps us solve math problems using letters and numbers! He also showed the whole world how to use the number zero and introduced the numbers 1 to 9, which we still use today!",
+      "explorer": "Muhammad ibn Musa al-Khwarizmi (c. 780–850 CE) was a legendary mathematician, astronomer, and geographer who worked in Baghdad's House of Wisdom. He wrote a revolutionary book called 'Kitab al-Jabr' from which we get the word 'Algebra'. He also popularised the Hindu-Arabic numeral system, including the decimal point and the number zero, in the Islamic world and Europe, establishing the foundation of modern mathematics.",
+      "thinker": "Muhammad ibn Musa al-Khwarizmi (c. 780–850 CE) is widely regarded as the Father of Algebra. Working at the House of Wisdom in Baghdad during the Islamic Golden Age, his masterpiece, 'The Compendious Book on Calculation by Completion and Balancing' ('Al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala'), formalized a systematic way of solving linear and quadratic equations. He introduced the Arabic numeral system to the West, and his latinized name eventually gave rise to the term 'algorithm', celebrating his lasting legacy as a pioneer of mathematics and computer science."
+    },
+    "funFact": "Did you know? The word 'algebra' comes from the title of his book 'Al-Jabr' (meaning restoring/completion), and the word 'algorithm' is a translation of his own name, Al-Khwarizmi!",
+    "quiz": [
+      {
+        "q": "What branch of mathematics did Al-Khwarizmi invent?",
+        "options": [
+          "Calculus",
+          "Geometry",
+          "Algebra"
+        ],
+        "correct": 2,
+        "explanation": "Al-Khwarizmi wrote 'Al-Jabr', creating a structured system for solving equations called algebra."
+      },
+      {
+        "q": "Where did Al-Khwarizmi carry out his scientific research?",
+        "options": [
+          "The Pyramids",
+          "The House of Wisdom in Baghdad",
+          "The Library of Alexandria"
+        ],
+        "correct": 1,
+        "explanation": "The House of Wisdom in Baghdad was the premier intellectual hub of the Islamic Golden Age."
+      },
+      {
+        "q": "Which modern computer science term is derived from Al-Khwarizmi's name?",
+        "options": [
+          "Hardware",
+          "Algorithm",
+          "Internet"
+        ],
+        "correct": 1,
+        "explanation": "The word 'algorithm' comes from the Latin translation of his name, 'Algoritmi'."
+      }
+    ]
+  },
+  {
+    "id": "ibn_sina",
+    "title": "Ibn Sina - Father of Medicine",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_26_scholar_ibn_sina-96S5bSYcoRZXXh4aq6Jx7q.webp?updatedAt=1781117902508",
+    "emoji": "🩺",
+    "category": "stories_history",
+    "content": {
+      "starter": "Ibn Sina, also known as Avicenna, was a super-smart doctor and philosopher! He wrote a massive medical encyclopedia called 'The Canon of Medicine'. It was so comprehensive that universities in Europe used it for hundreds of years to teach people how to become doctors!",
+      "explorer": "Ibn Sina (Avicenna, 980–1037 CE) was an extraordinary Persian polymath who is celebrated as one of the most significant thinkers of the Islamic Golden Age. He memorized the entire Quran by age 10 and was a practicing doctor by age 18. His world-famous book, 'The Canon of Medicine' ('Al-Qanun fi al-Tibb'), became the standard medical textbook across Europe and Asia for over 600 years.",
+      "thinker": "Ibn Sina (Avicenna, 980–1037 CE) was a legendary scholar whose contributions shaped early medical science and medieval philosophy. His massive compilation 'The Canon of Medicine' introduced revolutionary ideas, including quarantine to contain infectious diseases, clinical trials, and pharmacology. In addition to medicine, his encyclopedia 'The Book of Healing' ('Kitab al-Shifa') covered logic, natural sciences, and metaphysics, blending Islamic theology with rational philosophy."
+    },
+    "funFact": "Did you know? Ibn Sina was so brilliant that he memorized the entire Quran by the age of 10 and became a respected, practicing physician at just 18 years old!",
+    "quiz": [
+      {
+        "q": "What is the name of Ibn Sina's famous medical textbook?",
+        "options": [
+          "The Book of Wisdom",
+          "The Canon of Medicine",
+          "The Laws of Nature"
+        ],
+        "correct": 1,
+        "explanation": "Ibn Sina wrote 'The Canon of Medicine', which remained the standard text for centuries."
+      },
+      {
+        "q": "At what age did Ibn Sina memorize the entire Quran?",
+        "options": [
+          "10 years old",
+          "18 years old",
+          "25 years old"
+        ],
+        "correct": 0,
+        "explanation": "Ibn Sina memorized the Quran at age 10, displaying genius intellect from a very young age."
+      },
+      {
+        "q": "Which medical practice did Ibn Sina pioneer to control the spread of contagious diseases?",
+        "options": [
+          "Acupuncture",
+          "Quarantine",
+          "Plaster casts"
+        ],
+        "correct": 1,
+        "explanation": "Ibn Sina hypothesized that diseases spread through microscopic particles and pioneered quarantine methods."
+      }
+    ]
+  },
+  {
+    "id": "al_razi",
+    "title": "Al-Razi - Pioneer of Chemistry",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_27_scholar_al_razi-734zXvqhUQPULCRdzdCjA9.webp?updatedAt=1781117901576",
+    "emoji": "🧪",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Razi was a kind-hearted doctor and an amazing chemist. He was the first to realize that clean hospital rooms help sick people heal faster, and he designed advanced laboratory tools to study chemicals!",
+      "explorer": "Al-Razi (Rhazes, 854–925 CE) was an outstanding clinical doctor and chemist. He was the first to differentiate between smallpox and measles, writing a medical treatise on them. In chemistry, he of categorized chemical substances for the first time and designed lab equipment, including retorts and glass flasks, which chemists still use to run experiments.",
+      "thinker": "Abu Bakr al-Razi (Rhazes, 854–925 CE) was a titan of clinical medicine, experimental science, and chemistry. As head of the main hospital in Baghdad, he selected its building site by hanging raw meat in various locations to find the place with the cleanest air. In his masterwork 'Kitab al-Hawi' (The Comprehensive Book), he recorded clinical case studies. In chemistry, his taxonomy of minerals and chemical compounds laid the framework for contemporary chemistry."
+    },
+    "funFact": "Did you know? In his chemistry lab, Al-Razi invented kerosene lamps and categorized chemical elements. In medicine, he chose hospital locations by hanging raw meat around Baghdad to find where air was cleanest!",
+    "quiz": [
+      {
+        "q": "How did Al-Razi choose the cleanest place to build Baghdad's hospital?",
+        "options": [
+          "By asking the king",
+          "By hanging raw meat to see where it decayed slowest",
+          "By measuring water temperature"
+        ],
+        "correct": 1,
+        "explanation": "He hung meat around the city; the location where the meat stayed fresh longest had the cleanest air."
+      },
+      {
+        "q": "Al-Razi was the first physician in history to distinguish between which two diseases?",
+        "options": [
+          "Smallpox and measles",
+          "Flu and malaria",
+          "Colds and fevers"
+        ],
+        "correct": 0,
+        "explanation": "His treatise on smallpox and measles was acclaimed internationally and translated into multiple languages."
+      },
+      {
+        "q": "What did Al-Razi classify in his chemical studies?",
+        "options": [
+          "Stars and planets",
+          "Minerals and substances",
+          "Animals and plants"
+        ],
+        "correct": 1,
+        "explanation": "He created an early classification system for minerals and organic substances, laying foundations for chemistry."
+      }
+    ]
+  },
+  {
+    "id": "al_biruni",
+    "title": "Al-Biruni - Master of Sciences",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_28_scholar_al_biruni-3CxEZkDDXSfMvzUgmWWyDk.webp?updatedAt=1781117901825",
+    "emoji": "🌍",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Biruni was a globetrotting science detective. He loved mapping the Earth and looking at the stars! Using a mountain and simple mathematics, he calculated how big the Earth is, and got it almost perfectly correct!",
+      "explorer": "Al-Biruni (973–1048 CE) was a natural scientist and geographer. He was fluent in multiple languages, including Sanskrit, Persian, Arabic, and Greek. He pioneered geodesy, using trigonometric math to calculate the radius and circumference of the Earth with less than 1% error. He also wrote about the mineral composition of gems and documented ancient calendar systems.",
+      "thinker": "Abu al-Rayhan al-Biruni (973–1048 CE) is celebrated as one of the greatest scientists of all time. He excelled in astronomy, geodesy, sociology, and mineralogy. He designed unique mathematical equations using the height of a mountain in modern Pakistan to calculate the radius of the Earth, centuries before satellite observations. His scholarship on India ('Kitab al-Hind') is considered the first objective ethnography and comparative religion study."
+    },
+    "funFact": "Did you know? Using trigonometry and a single mountain, Al-Biruni calculated the size of the Earth with 99.6% accuracy, a calculation that is nearly identical to modern satellites!",
+    "quiz": [
+      {
+        "q": "What geographic measurement did Al-Biruni calculate with incredible precision?",
+        "options": [
+          "The depth of the oceans",
+          "The distance to the Moon",
+          "The size (circumference) of the Earth"
+        ],
+        "correct": 2,
+        "explanation": "Using a mountain and trigonometric formulas, Al-Biruni calculated the radius of the Earth with under 1% error."
+      },
+      {
+        "q": "Al-Biruni wrote 'Kitab al-Hind' after studying the culture and sciences of which region?",
+        "options": [
+          "China",
+          "India",
+          "Greece"
+        ],
+        "correct": 1,
+        "explanation": "He traveled extensively in India, learning Sanskrit and writing a comprehensive cultural analysis."
+      },
+      {
+        "q": "Which astronomical instrument did Al-Biruni develop further for navigation?",
+        "options": [
+          "Astrolabe",
+          "Compass",
+          "Microscope"
+        ],
+        "correct": 0,
+        "explanation": "Al-Biruni designed astronomical maps and improved astrolabes to calculate solar positions and prayer directions."
+      }
+    ]
+  },
+  {
+    "id": "al_ghazali",
+    "title": "Al-Ghazali - Islamic Philosophy",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_29_scholar_al_ghazali-hXQACXYZ4iArCEGuBdVNNd.webp?updatedAt=1781117901160",
+    "emoji": "💡",
+    "category": "stories_history",
+    "content": {
+      "starter": "Al-Ghazali was a wise teacher who studied how people think. He taught that having a clean, kind heart is just as important as being super smart, and he helped people find peace of mind!",
+      "explorer": "Al-Ghazali (1058–1111 CE) was one of the most influential Islamic theologians and philosophers. Known as 'Hujjat al-Islam' (Proof of Islam), he taught at Nizamiyya, the grandest academy of his time. He wrote beautiful books that combined intellectual study with spiritual reflection, helping people balance rational science with positive spiritual morals.",
+      "thinker": "Abu Hamid al-Ghazali (1058–1111 CE) profoundly shaped Islamic philosophy, theology, and Sufism. In his major work, 'The Incoherence of the Philosophers' ('Tahafut al-Falasifah'), he debated Greek metaphysics. However, in his masterpiece 'Ihya Ulum al-Din' (The Revival of the Religious Sciences), he synthesized jurisprudence, intellectual theology, and spiritual mysticism, establishing character-building and ethics as the heart of scientific and personal pursuits."
+    },
+    "funFact": "Did you know? Al-Ghazali's title is 'Hujjat al-Islam' (Proof of Islam) due to his incredible depth of knowledge. He believed the ultimate goal of learning is to build noble character and inner peace!",
+    "quiz": [
+      {
+        "q": "What title is Al-Ghazali famously known as?",
+        "options": [
+          "Father of Physics",
+          "Hujjat al-Islam (Proof of Islam)",
+          "Teacher of East and West"
+        ],
+        "correct": 1,
+        "explanation": "He is renowned as 'Hujjat al-Islam' due to his mastery over theological philosophy."
+      },
+      {
+        "q": "What has Al-Ghazali described as the revival of religious sciences in his masterpiece?",
+        "options": [
+          "Ethics, spirituality, and knowledge of the heart",
+          "Building faster boats",
+          "Learning calculus"
+        ],
+        "correct": 0,
+        "explanation": "'Ihya Ulum al-Din' focuses on rejuvenating faith, moral character, and spiritual consciousness."
+      },
+      {
+        "q": "According to Al-Ghazali, the objective of obtaining knowledge is:",
+        "options": [
+          "To win debates",
+          "To build noble character and get closer to Allah",
+          "To boast about it"
+        ],
+        "correct": 1,
+        "explanation": "He taught that intellectual knowledge is worthless unless accompanied by spiritual humility and high ethical standards."
+      }
+    ]
+  },
+  {
+    "id": "fatima_al_fihri",
+    "title": "Fatima al-Fihri - First University",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_30_scholar_fatima_al_fihri-oUUmqToz9ELRTCtWCXgCQn.webp?updatedAt=1781117901536",
+    "emoji": "🎓",
+    "category": "stories_history",
+    "content": {
+      "starter": "Fatima al-Fihri was a wealthy and generous Muslim woman who moved to Morocco. She loved reading, science, and education so much that she used her entire inheritance to build the University of al-Qarawiyyin, the oldest university in the world!",
+      "explorer": "Fatima al-Fihri (800–880 CE) was an inspirational educator and philanthropist. In 859 CE, she founded the University and Mosque of al-Qarawiyyin in Fez, Morocco. UNESCO and the Guinness World Records recognize it as the oldest continuously operating, degree-granting educational institution in the world.",
+      "thinker": "Fatima al-Fihri (800–880 CE) is a pioneer in global higher education. After migrating to Fez and inheriting a vast fortune, she vowed to spend her wealth in service of her community. She oversaw the complex architecture and construction of the Al-Qarawiyyin mosque and university complex, fasting daily during its multi-year construction. The university became a hub of world education, hosting Christian, Jewish, and Muslim scholars like Pope Sylvester II."
+    },
+    "funFact": "Did you know? Fatima al-Fihri built the University of al-Qarawiyyin in 859 CE. It is officially certified by UNESCO as the oldest running university in human history!",
+    "quiz": [
+      {
+        "q": "In which city and country did Fatima al-Fihri found the oldest university?",
+        "options": [
+          "Cairo, Egypt",
+          "Fez, Morocco",
+          "Baghdad, Iraq"
+        ],
+        "correct": 1,
+        "explanation": "She founded the University of al-Qarawiyyin in the city of Fez, Morocco."
+      },
+      {
+        "q": "What did Fatima do during the construction of Al-Qarawiyyin?",
+        "options": [
+          "She took a long holiday",
+          "She fasted daily until its completion",
+          "She went on a sailing trip"
+        ],
+        "correct": 1,
+        "explanation": "As an act of piety, Fatima al-Fihri vowed to fast every single day during the years it took to build."
+      },
+      {
+        "q": "According to UNESCO, what distinction does the University of al-Qarawiyyin hold?",
+        "options": [
+          "Oldest running library only",
+          "Oldest continuously operating, degree-granting university in the world",
+          "First medical school in Europe"
+        ],
+        "correct": 1,
+        "explanation": "Al-Qarawiyyin has been fully operating and granting college degrees continuously since 859 CE."
+      }
+    ]
+  },
+  {
+    "id": "ibn_khaldun",
+    "title": "Ibn Khaldun - Father of Sociology",
+    "image": "https://ik.imagekit.io/4zbzbdytp/imgi_31_scholar_ibn_khaldun-22Tqw9TsmYYVf9NDTfPHYp.webp?updatedAt=1781117901557",
+    "emoji": "📜",
+    "category": "stories_history",
+    "content": {
+      "starter": "Ibn Khaldun was an expert storyteller and historian. He was the first scholar to realize that studying *groups of people* and how societies grow is a special science, which we now call sociology!",
+      "explorer": "Ibn Khaldun (1332–1406 CE) was a legendary Arab historian, sociologist, and philosopher. In his amazing book, 'Al-Muqaddimah' (The Introduction), he introduced 'Asabiyyah' (social cohesion), explaining how great empires rise, thrive, grow old, and eventually dissolve.",
+      "thinker": "Ibn Khaldun (1332–1406 CE) is widely regarded as a founding father of sociology, economics, history, and demography. His monumental book 'Al-Muqaddimah' formulated a philosophy of history. He introduced the concept of 'Asabiyyah' — social cohesion or group solidarity — to explain historical cycles, analyzing how nomadic cultures establish civilizations which rise, decay after three generations, and yield to new dynamic social alliances."
+    },
+    "funFact": "Did you know? Ibn Khaldun wrote his entire world-changing book 'Al-Muqaddimah' (representing early sociology and economics) years before Western scholars established sociology as a field!",
+    "quiz": [
+      {
+        "q": "What is the title of Ibn Khaldun's world-famous historical introduction book?",
+        "options": [
+          "Al-Muqaddimah (The Introduction)",
+          "The Book of History",
+          "The Golden Age"
+        ],
+        "correct": 0,
+        "explanation": "He wrote 'Al-Muqaddimah', which analyzed the sociopolitical growth of societies."
+      },
+      {
+        "q": "Which major scientific discipline did Ibn Khaldun pioneer centuries before Western scholars?",
+        "options": [
+          "Sociology and Historiography",
+          "Nuclear Physics",
+          "Marine Biology"
+        ],
+        "correct": 0,
+        "explanation": "His systematic analysis of social patterns and historical cycles makes him the father of sociology."
+      },
+      {
+        "q": "What is 'Asabiyyah', the core concept proposed by Ibn Khaldun?",
+        "options": [
+          "Sailing skills",
+          "Social solidarity and cohesion",
+          "Astronomy calculations"
+        ],
+        "correct": 1,
+        "explanation": "'Asabiyyah' is the community bond or social group solidarity that enables societies to build stable nations."
       }
     ]
   }

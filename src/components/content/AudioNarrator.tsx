@@ -11,7 +11,7 @@ function getCleanText(text: string): string {
   return text.replace(/[\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD00-\uDFFF]/g, '');
 }
 
-// Float32 PCM Player function to play raw audio from Gemini TTS
+// Float32 PCM Player function to play raw audio
 function playRawPCM(base64Data: string, sampleRate = 24000): { stop: () => void; finishedPromise: Promise<void> } | null {
   try {
     const audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate });
@@ -205,57 +205,15 @@ export default function AudioNarrator({ text }: AudioNarratorProps) {
   const speak = useCallback(async () => {
     if (!text) return;
 
-    if (currentPCMHandle.current) {
-      currentPCMHandle.current.stop();
-      currentPCMHandle.current = null;
-    }
     if (typeof window !== 'undefined') {
       window.speechSynthesis.cancel();
     }
 
     const cleanText = getCleanText(text);
-
-    setLoading(true);
-    setSpeaking(true);
-
-    try {
-      // Fire request to our premium natural server-side Google GenAI TTS engine
-      const res = await fetch('/api/tts', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text: cleanText, locale }),
-      });
-
-      if (!res.ok) {
-        throw new Error('TTS response error');
-      }
-
-      const data = await res.json();
-      if (!data.audio) {
-        throw new Error('No audio voice stream found');
-      }
-
-      const handle = playRawPCM(data.audio);
-      if (handle) {
-        currentPCMHandle.current = handle;
-        setLoading(false);
-        await handle.finishedPromise;
-        setSpeaking(false);
-        currentPCMHandle.current = null;
-      } else {
-        throw new Error('Audio PCM playback initialization failed');
-      }
-    } catch (err) {
-      console.warn('Advanced Google TTS model failed. Activating native fallback...', err);
-      speakNativeFallback(cleanText);
-    }
+    speakNativeFallback(cleanText);
   }, [text, locale, speakNativeFallback]);
 
   const stop = useCallback(() => {
-    if (currentPCMHandle.current) {
-      currentPCMHandle.current.stop();
-      currentPCMHandle.current = null;
-    }
     if (typeof window !== 'undefined') {
       window.speechSynthesis.cancel();
     }
@@ -265,9 +223,6 @@ export default function AudioNarrator({ text }: AudioNarratorProps) {
 
   useEffect(() => {
     return () => {
-      if (currentPCMHandle.current) {
-        currentPCMHandle.current.stop();
-      }
       if (typeof window !== 'undefined') {
         window.speechSynthesis.cancel();
       }

@@ -181,150 +181,13 @@ export default function App() {
     };
   }, [setOnline]);
 
-  // ── Translation cache & loading state ────────────────────────────────────────
-  const [translatedTopics, setTranslatedTopics] = useState<Record<string, any>>(() => {
-    try {
-      const cached = localStorage.getItem('translated_topics_cache_v2');
-      if (!cached) return {};
-      const parsed = JSON.parse(cached);
-      if (typeof parsed !== 'object' || parsed === null) return {};
-
-      const validated: Record<string, any> = {};
-      let hasChanges = false;
-      const englishContent = getContent('en');
-
-      Object.entries(parsed).forEach(([key, val]: [string, any]) => {
-        if (typeof key !== 'string' || !key.includes('-')) {
-          hasChanges = true;
-          return;
-        }
-        const [loc, topicId] = key.split('-');
-        const engTopic = englishContent.find(tp => tp.id === topicId);
-
-        if (
-          val &&
-          typeof val === 'object' &&
-          val.id &&
-          val.title &&
-          val.content &&
-          typeof val.content.starter === 'string' &&
-          typeof val.content.explorer === 'string' &&
-          typeof val.content.thinker === 'string' &&
-          Array.isArray(val.quiz)
-        ) {
-          // Discard untranslated English fallbacks stored in non-English slots
-          if (loc !== 'en' && engTopic) {
-            const isTitleIdentical = val.title === engTopic.title;
-            const isStarterIdentical = val.content?.starter === engTopic.content?.starter;
-            if (isTitleIdentical && isStarterIdentical) {
-              hasChanges = true;
-              console.warn(`[Cache] Discarding untranslated entry: ${key}`);
-              return;
-            }
-          }
-          validated[key] = val;
-        } else {
-          hasChanges = true;
-        }
-      });
-
-      if (hasChanges) {
-        localStorage.setItem('translated_topics_cache_v2', JSON.stringify(validated));
-      }
-      return validated;
-    } catch {
-      return {};
-    }
-  });
-
-  const [translating, setTranslating] = useState(false);
-  const [translationError, setTranslationError] = useState<string | null>(null);
-  const [translationRetryCount, setTranslationRetryCount] = useState(0);
-
   // ── Derived content values ────────────────────────────────────────────────────
   const isRtlLayout = isRTLLocale(locale);
   const content = getContent(locale);
-  const baseActiveTopic = content.find(tp => tp.id === selectedTopicId) ?? content[0];
-  const cacheKey = `${locale}-${selectedTopicId}`;
-  const activeTopic =
-    locale !== 'en' && translatedTopics[cacheKey]
-      ? translatedTopics[cacheKey]
-      : baseActiveTopic;
+  const activeTopic = content.find(tp => tp.id === selectedTopicId) ?? content[0];
   const topicsReadCount = progress.topicsRead.length;
   const totalTopics = getTopics().filter(t => !isSuspended(t.id)).length;
   const currentIdx = content.findIndex(tp => tp.id === selectedTopicId);
-
-  // ── On-demand translation effect ─────────────────────────────────────────────
-  useEffect(() => {
-    let active = true;
-
-    const fetchTranslation = async () => {
-      if (locale === 'en') {
-        setTranslationError(null);
-        return;
-      }
-      const topicToTranslate = content.find(tp => tp.id === selectedTopicId);
-      if (!topicToTranslate) return;
-      if (translatedTopics[cacheKey]) {
-        setTranslationError(null);
-        return;
-      }
-
-      setTranslating(true);
-      setTranslationError(null);
-
-      try {
-        const res = await fetch('/api/translate-topic', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ topic: topicToTranslate, locale }),
-        });
-        if (!res.ok) {
-          const errData = await res.json().catch(() => ({}));
-          // Provide user-friendly messages for known error codes
-          if (errData.code === 'API_KEY_MISSING') {
-            throw new Error('Translation is not configured on the server. Please contact the administrator.');
-          }
-          if (res.status === 503) {
-            throw new Error('Translation service is temporarily unavailable. Please try again later.');
-          }
-          throw new Error(errData.error || 'Server translation error');
-        }
-        const data = await res.json();
-
-        if (active && data.topic) {
-          // Guard: reject if API silently returned untranslated English
-          const engTopic = getContent('en').find(tp => tp.id === selectedTopicId);
-          if (engTopic) {
-            const isTitleIdentical = data.topic.title === engTopic.title;
-            const isStarterIdentical =
-              data.topic.content?.starter === engTopic.content?.starter;
-            if (isTitleIdentical && isStarterIdentical) {
-              throw new Error('API returned untranslated content. Retrying...');
-            }
-          }
-          setTranslatedTopics(prev => {
-            const updated = { ...prev, [cacheKey]: data.topic };
-            try {
-              localStorage.setItem('translated_topics_cache_v2', JSON.stringify(updated));
-            } catch (e) {
-              console.error('Translation localStorage write failed:', e);
-            }
-            return updated;
-          });
-          setTranslationError(null);
-        }
-      } catch (err: any) {
-        console.error('Translation fetch failed:', err);
-        if (active) setTranslationError(err.message ?? 'Translation failed');
-      } finally {
-        if (active) setTranslating(false);
-      }
-    };
-
-    fetchTranslation();
-    return () => { active = false; };
-  }, [locale, selectedTopicId, translationRetryCount]);
 
   // ── Mark topic read when entering topic view ──────────────────────────────────
   useEffect(() => {
@@ -347,10 +210,6 @@ export default function App() {
   }, []);
 
   // ── Badge checker ─────────────────────────────────────────────────────────────
-  /**
-   * Uses Zustand's getState() instead of a setTimeout hack so the score is
-   * always read from the store's committed state, not a stale React closure.
-   */
   const checkBadgeTriggers = () => {
     const updatedProgress = useAppStore.getState().progress;
     for (const badge of BADGES) {
@@ -393,7 +252,6 @@ export default function App() {
   const handleTopicSelect = (topicId: string) => {
     setSelectedTopicId(topicId);
     setCurrentView('topic');
-    // URL is synced via the useEffect above
   };
 
   const handleNavigateNext = () => {
@@ -579,11 +437,6 @@ export default function App() {
                 selectedTopicId={selectedTopicId}
                 progress={progress}
                 toggleSaveChapter={toggleSaveChapter}
-                translating={translating}
-                translationError={translationError}
-                onRetryTranslation={() =>
-                  setTranslationRetryCount(prev => prev + 1)
-                }
                 languageNames={LANGUAGE_NAMES}
                 onNavigatePrev={handleNavigatePrev}
                 onNavigateNext={handleNavigateNext}
