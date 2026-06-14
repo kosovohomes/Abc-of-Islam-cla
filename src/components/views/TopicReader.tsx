@@ -1,13 +1,12 @@
 import { Fragment } from 'react';
 import { motion } from 'motion/react';
 import { ArrowLeft, Volume2, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import AudioNarrator from '@/components/content/AudioNarrator';
 import ImageCard from '@/components/content/ImageCard';
 import ExportModal from '@/components/export/ExportModal';
 import AgeSelector from '@/components/content/AgeSelector';
 import QuizPanel from '@/components/content/QuizPanel';
-import { getCategoryName } from '@/lib/translations';
-import { t } from '@/lib/translations';
 import { getDefensiveTitle, getDefensiveFunFact, getDefensiveContent } from '@/lib/helpers';
 import type { Topic, UserProgress, Locale, AgeLevel } from '@/types';
 
@@ -52,6 +51,7 @@ export default function TopicReader({
   onSaveQuizScore,
   onBadgeCheck,
 }: TopicReaderProps) {
+  const { t } = useTranslation();
   const title = getDefensiveTitle(activeTopic, locale);
   const bodyText = getDefensiveContent(activeTopic, ageLevel, locale);
   const funFact = getDefensiveFunFact(activeTopic, locale);
@@ -75,7 +75,7 @@ export default function TopicReader({
           <div className="w-7 h-7 bg-emerald-100 group-hover:bg-emerald-200 rounded-full flex items-center justify-center transition-colors">
             <ArrowLeft className="w-3.5 h-3.5 stroke-[2.5]" />
           </div>
-          <span>{t(locale, 'exploreIndex')}</span>
+          <span>{t('exploreIndex')}</span>
         </button>
 
         <div className="flex flex-wrap items-center gap-2">
@@ -89,9 +89,9 @@ export default function TopicReader({
                 ? 'bg-amber-400 text-amber-950 border-amber-300'
                 : 'bg-white text-gray-600 border-gray-200 hover:bg-black/5'
             }`}
-            title={isSaved ? t(locale, 'saved') + '!' : t(locale, 'saveOffline')}
+            title={isSaved ? t('saved') + '!' : t('saveOffline')}
           >
-            <span>★ {isSaved ? t(locale, 'saved') : t(locale, 'saveOffline')}</span>
+            <span>★ {isSaved ? t('saved') : t('saveOffline')}</span>
           </button>
           <ExportModal content={content} currentTopicId={activeTopic.id} />
         </div>
@@ -111,9 +111,9 @@ export default function TopicReader({
             {translating && (
               <div className="absolute inset-0 bg-white/95 backdrop-blur-sm z-50 flex flex-col items-center justify-center p-8 text-center">
                 <div className="w-16 h-16 border-4 border-emerald-500 border-t-transparent rounded-full animate-spin mb-4" />
-                <h3 className="text-xl font-serif font-bold text-gray-800">{t(locale, 'translatingChapter')}</h3>
+                <h3 className="text-xl font-serif font-bold text-gray-800">{t('translatingChapter')}</h3>
                 <p className="text-sm text-gray-500 max-w-sm mt-3 leading-relaxed">
-                  {t(locale, 'translatingDesc')}
+                  {t('translatingDesc')}
                 </p>
               </div>
             )}
@@ -127,7 +127,7 @@ export default function TopicReader({
             <div className="flex flex-wrap items-start justify-between gap-3 relative z-10 shrink-0">
               <div>
                 <span className="text-[10px] uppercase font-bold tracking-[0.15em] text-emerald-800 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200 inline-block">
-                  {getCategoryName(activeTopic.category, locale)}
+                  {t('categories.' + activeTopic.category)}
                 </span>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-extrabold tracking-tight bg-gradient-to-r from-emerald-700 via-teal-600 to-emerald-500 bg-clip-text text-transparent mt-2 leading-tight">
                   {title}
@@ -159,8 +159,8 @@ export default function TopicReader({
                   <Volume2 className="w-4 h-4" />
                 </div>
                 <div>
-                  <span className="font-bold text-xs text-emerald-800 uppercase tracking-wider block">{t(locale, 'listenToStory')}</span>
-                  <span className="text-[10px] text-emerald-600">{t(locale, 'cheerfulVoice')}</span>
+                  <span className="font-bold text-xs text-emerald-800 uppercase tracking-wider block">{t('listenToStory')}</span>
+                  <span className="text-[10px] text-emerald-600">{t('cheerfulVoice')}</span>
                 </div>
               </div>
               <AudioNarrator text={bodyText} />
@@ -171,16 +171,16 @@ export default function TopicReader({
               <div className="p-4 rounded-2xl bg-amber-50 border-2 border-amber-300/60 relative z-10 space-y-3 shadow-sm shrink-0">
                 <div className="flex items-center gap-2">
                   <span className="text-lg">⚠️</span>
-                  <h4 className="font-serif font-bold text-slate-900">{t(locale, 'translationUnavailable')}</h4>
+                  <h4 className="font-serif font-bold text-slate-900">{t('translationUnavailable')}</h4>
                 </div>
                 <p className="text-xs text-slate-600 leading-relaxed">
-                  {t(locale, 'translationHighDemand')}
+                  {t('translationHighDemand')}
                 </p>
                 <button
                   onClick={onRetryTranslation}
                   className="px-3.5 py-1.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 active:translate-y-px text-white font-extrabold text-[11px] uppercase tracking-wider rounded-xl shadow-sm transition-all cursor-pointer"
                 >
-                  {t(locale, 'tryTranslatingAgain')}
+                  {t('tryTranslatingAgain')}
                 </button>
               </div>
             )}
@@ -196,7 +196,7 @@ export default function TopicReader({
                 <div className="absolute right-3 -bottom-3 text-6xl opacity-10 select-none">💡</div>
                 <h4 className="text-xs font-bold uppercase tracking-[0.1em] text-amber-900 flex items-center gap-1.5 border-b border-amber-200 pb-2 mb-2">
                   <span>🌟</span>
-                  <span>{t(locale, 'funFact')}</span>
+                  <span>{t('funFact')}</span>
                 </h4>
                 <p className="text-sm text-slate-700 leading-relaxed relative z-10">{funFact}</p>
               </div>
@@ -227,7 +227,7 @@ export default function TopicReader({
           className="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-3 bg-white hover:bg-gray-50 border-2 border-gray-200 hover:border-gray-300 text-gray-650 rounded-2xl font-bold text-xs uppercase tracking-wider transition-all cursor-pointer disabled:opacity-35 disabled:cursor-not-allowed shadow-sm"
         >
           <ChevronLeft className="w-4 h-4 stroke-[2.5]" />
-          <span>{t(locale, 'previous')}</span>
+          <span>{t('previous')}</span>
         </button>
         <button
           id="btn-next-topic"
@@ -235,7 +235,7 @@ export default function TopicReader({
           disabled={!hasNext}
           className="flex-1 inline-flex items-center justify-center gap-2 px-3 py-3 shimmer-btn text-white rounded-2xl font-bold text-xs uppercase tracking-wider transition-all cursor-pointer disabled:opacity-35 disabled:cursor-not-allowed shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
         >
-          <span>{t(locale, 'nextTopic')}</span>
+          <span>{t('nextTopic')}</span>
           <ChevronRight className="w-4 h-4 stroke-[2.5]" />
         </button>
       </div>

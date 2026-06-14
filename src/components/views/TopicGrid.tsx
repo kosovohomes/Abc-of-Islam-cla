@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, Search, BookOpen, Check, ChevronRight, ArrowLeft, Star, Zap, Trophy } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import i18n from '@/i18n';
 import ExportModal from '@/components/export/ExportModal';
-import { t, getCategoryName } from '@/lib/translations';
 import { CATEGORIES } from '@/lib/topics';
 import { getContent } from '@/lib/content';
 import { getDefensiveTitle, getDefensiveFunFact, getDefensiveContent } from '@/lib/helpers';
@@ -82,6 +83,7 @@ function ImagePreviewModal({ topic, locale, theme, onClose, onReadFull }: {
   topic: Topic; locale: Locale; theme: typeof CATEGORY_THEMES[string];
   onClose: () => void; onReadFull: (id: string) => void;
 }) {
+  const { t } = useTranslation();
   const title = getDefensiveTitle(topic, locale);
   const funFact = getDefensiveFunFact(topic, locale);
   const bodyText = getDefensiveContent(topic, 'starter' as AgeLevel, locale);
@@ -128,7 +130,7 @@ function ImagePreviewModal({ topic, locale, theme, onClose, onReadFull }: {
               </motion.div>
               <div className="min-w-0">
                 <span className="text-white/70 text-[10px] font-extrabold uppercase tracking-[0.15em] block">
-                  {getCategoryName(topic.category, locale)}
+                  {t('categories.' + topic.category)}
                 </span>
                 <h3 className="text-lg sm:text-xl font-serif font-extrabold text-white leading-tight">
                   {title}
@@ -146,7 +148,7 @@ function ImagePreviewModal({ topic, locale, theme, onClose, onReadFull }: {
               >
                 <span className="text-2xl shrink-0 select-none">🌟</span>
                 <div>
-                  <p className="text-[9px] font-extrabold uppercase tracking-[0.15em] text-amber-600 mb-1">{t(locale, 'funFactLabel')}</p>
+                  <p className="text-[9px] font-extrabold uppercase tracking-[0.15em] text-amber-600 mb-1">{t('funFactLabel')}</p>
                   <p className="text-sm text-amber-900 leading-relaxed">{funFact}</p>
                 </div>
               </motion.div>
@@ -169,7 +171,7 @@ function ImagePreviewModal({ topic, locale, theme, onClose, onReadFull }: {
               className={`w-full flex items-center justify-center gap-2.5 px-5 py-4 bg-gradient-to-r ${theme.gradientFrom} ${theme.gradientTo} text-white rounded-2xl font-extrabold text-base cursor-pointer shadow-lg hover:shadow-xl transition-shadow`}
             >
               <BookOpen className="w-5 h-5" />
-              <span>{t(locale, 'readFullChapter')}</span>
+              <span>{t('readFullChapter')}</span>
               <ChevronRight className="w-5 h-5 stroke-[2.5]" />
             </motion.button>
           </div>
@@ -210,6 +212,7 @@ function CategoryCard({ category, topics, theme, locale, progress, onExplore }: 
   category: Category; topics: Topic[]; theme: typeof CATEGORY_THEMES[string];
   locale: Locale; progress: UserProgress; onExplore: (id: string) => void;
 }) {
+  const { t } = useTranslation();
   const readInCat = topics.filter(t => progress.topicsRead.includes(t.id)).length;
   const quizzedInCat = topics.filter(t => progress.quizzesCompleted[t.id] !== undefined).length;
   const percent = Math.round((readInCat / topics.length) * 100);
@@ -269,15 +272,15 @@ function CategoryCard({ category, topics, theme, locale, progress, onExplore }: 
         </motion.div>
 
         <h3 className="text-2xl font-serif font-extrabold leading-tight mb-1 drop-shadow">
-          {getCategoryName(category.id, locale)}
+          {t('categories.' + category.id)}
         </h3>
 
         <p className="text-xs text-white/75 font-semibold mb-4 px-2">
           {readInCat === 0
-            ? `${topics.length} ${t(locale, 'lessonsStart')}`
+            ? `${topics.length} ${t('lessonsStart')}`
             : readInCat === topics.length
-            ? t(locale, 'lessonsAllDone')
-            : `${readInCat} of ${topics.length} ${t(locale, 'lessonsDone')}`}
+            ? t('lessonsAllDone')
+            : `${readInCat} of ${topics.length} ${t('lessonsDone')}`}
         </p>
 
         {/* Topic pills */}
@@ -300,10 +303,10 @@ function CategoryCard({ category, topics, theme, locale, progress, onExplore }: 
           className="w-full flex items-center justify-center gap-2 px-5 py-3 bg-white/25 backdrop-blur-sm hover:bg-white/35 rounded-2xl text-sm font-extrabold text-white border border-white/25 shadow-md transition-all"
         >
           {allDone
-            ? <><Trophy className="w-4 h-4 fill-yellow-300 text-yellow-300" /> {t(locale, 'mastered')}</>
+            ? <><Trophy className="w-4 h-4 fill-yellow-300 text-yellow-300" /> {t('mastered')}</>
             : readInCat === topics.length
-            ? <><Check className="w-4 h-4" /> {t(locale, 'allRead')}</>
-            : <><Zap className="w-4 h-4 fill-yellow-300 text-yellow-300" /> {t(locale, 'explore')}</>
+            ? <><Check className="w-4 h-4" /> {t('allRead')}</>
+            : <><Zap className="w-4 h-4 fill-yellow-300 text-yellow-300" /> {t('explore')}</>
           }
         </motion.div>
       </div>
@@ -317,6 +320,7 @@ function CategoryDetailView({ category, topics, theme, locale, progress, onBack,
   locale: Locale; progress: UserProgress;
   onBack: () => void; onTopicSelect: (id: string) => void; onPreview: (topic: Topic) => void;
 }) {
+  const { t } = useTranslation();
   const readInCat = topics.filter(t => progress.topicsRead.includes(t.id)).length;
   const quizzedInCat = topics.filter(t => progress.quizzesCompleted[t.id] !== undefined).length;
   const percent = Math.round((readInCat / topics.length) * 100);
@@ -335,19 +339,19 @@ function CategoryDetailView({ category, topics, theme, locale, progress, onBack,
           <div className="text-4xl select-none filter drop-shadow-lg">{category.emoji}</div>
           <div className="flex-1 min-w-0">
             <h2 className="text-2xl font-serif font-extrabold text-white leading-tight">
-              {getCategoryName(category.id, locale)}
+              {t('categories.' + category.id)}
             </h2>
             <div className="flex items-center gap-3 mt-1 flex-wrap">
-              <span className="text-xs text-white/80 font-semibold">{readInCat}/{topics.length} {t(locale, 'read')}</span>
+              <span className="text-xs text-white/80 font-semibold">{readInCat}/{topics.length} {t('read')}</span>
               <span className="text-white/30 text-xs">·</span>
-              <span className="text-xs text-white/80 font-semibold">{quizzedInCat} {t(locale, 'quizzesDone')}</span>
-              {percent === 100 && <span className="text-xs font-bold text-yellow-300">🏆 {t(locale, 'complete')}</span>}
+              <span className="text-xs text-white/80 font-semibold">{quizzedInCat} {t('quizzesDone')}</span>
+              {percent === 100 && <span className="text-xs font-bold text-yellow-300">🏆 {t('complete')}</span>}
             </div>
           </div>
           {/* Progress pill */}
           <div className="shrink-0 bg-white/25 backdrop-blur-sm px-4 py-2 rounded-2xl border border-white/25 text-center">
             <div className="text-2xl font-extrabold text-white">{percent}%</div>
-              <div className="text-[9px] font-bold text-white/70 uppercase tracking-wider">{t(locale, 'progress')}</div>
+              <div className="text-[9px] font-bold text-white/70 uppercase tracking-wider">{t('progress')}</div>
           </div>
         </div>
         {/* Progress bar */}
@@ -440,6 +444,7 @@ export default function TopicGrid({
   locale, content, progress, isRtlLayout, showSavedOnly, setShowSavedOnly,
   searchQuery, setSearchQuery, topicsReadCount, totalTopics, onTopicSelect,
 }: TopicGridProps) {
+  const { t } = useTranslation();
   const englishContent = getContent('en');
   const [previewTopic, setPreviewTopic] = useState<Topic | null>(null);
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
@@ -458,8 +463,8 @@ export default function TopicGrid({
       const starterL = ((topic.content?.starter as any)?.[locale] || (topic.content?.starter as any)?.en || (typeof topic.content?.starter === 'string' ? topic.content.starter : '')).toLowerCase();
       const explorerL = ((topic.content?.explorer as any)?.[locale] || (topic.content?.explorer as any)?.en || (typeof topic.content?.explorer === 'string' ? topic.content.explorer : '')).toLowerCase();
       const thinkerL = ((topic.content?.thinker as any)?.[locale] || (topic.content?.thinker as any)?.en || (typeof topic.content?.thinker === 'string' ? topic.content.thinker : '')).toLowerCase();
-      const catNameLocal = getCategoryName(topic.category, locale).toLowerCase();
-      const catNameEng = getCategoryName(topic.category, 'en').toLowerCase();
+      const catNameLocal = i18n.t('categories.' + topic.category, { lng: locale }).toLowerCase();
+      const catNameEng = i18n.t('categories.' + topic.category, { lng: 'en' }).toLowerCase();
       return (
         titleLocal.includes(query) || titleEng.includes(query) || factLocal.includes(query) ||
         factEng.includes(query) || starterL.includes(query) || explorerL.includes(query) ||
@@ -517,11 +522,11 @@ export default function TopicGrid({
             <div className="flex items-center gap-2 mb-1">
               <span className="text-3xl select-none">🗺️</span>
               <h2 className="text-3xl sm:text-4xl font-serif font-extrabold text-white leading-tight drop-shadow-sm">
-                {t(locale, 'myLearningMap')}
+                {t('myLearningMap')}
               </h2>
             </div>
             <p className="text-white/80 text-sm font-semibold mt-1">
-              {t(locale, 'learningMapSubtitle')}
+              {t('learningMapSubtitle')}
             </p>
           </div>
 
@@ -541,7 +546,7 @@ export default function TopicGrid({
               </svg>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <span className="text-xl font-extrabold text-white leading-none">{overallPercent}%</span>
-                <span className="text-[9px] text-white/70 font-bold uppercase tracking-wide">{t(locale, 'done')}</span>
+                <span className="text-[9px] text-white/70 font-bold uppercase tracking-wide">{t('done')}</span>
               </div>
             </div>
 
@@ -551,7 +556,7 @@ export default function TopicGrid({
                 <span className="text-white/50 mx-1 text-xl">/</span>
                 <span>{totalTopics}</span>
               </div>
-              <div className="text-xs text-white/70 font-bold uppercase tracking-wider mt-0.5">{t(locale, 'lessonsUnlocked')}</div>
+              <div className="text-xs text-white/70 font-bold uppercase tracking-wider mt-0.5">{t('lessonsUnlocked')}</div>
               <div className="flex mt-1.5 gap-0.5">
                 {Array.from({ length: 5 }).map((_, i) => (
                   <Star key={i} className={`w-3.5 h-3.5 ${i < Math.ceil(overallPercent / 20) ? 'fill-yellow-300 text-yellow-300' : 'text-white/25'}`} />
@@ -569,7 +574,7 @@ export default function TopicGrid({
             <Search className="w-4.5 h-4.5 stroke-[2]" />
           </span>
           <input type="text" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder={t(locale, 'searchPlaceholder')}
+            placeholder={t('searchPlaceholder')}
             className={`w-full py-3.5 ${isRtlLayout ? 'pr-11 pl-9' : 'pl-11 pr-9'} border-2 border-gray-100 rounded-2xl outline-none focus:ring-2 focus:ring-emerald-200 focus:border-emerald-300 bg-white text-sm text-slate-800 shadow-sm transition-all font-medium`}
           />
           {searchQuery && (
@@ -600,7 +605,7 @@ export default function TopicGrid({
                 ? 'bg-amber-400 text-amber-950 border-amber-300 shadow-md shadow-amber-200'
                 : 'bg-white text-gray-500 border-gray-200 hover:bg-amber-50 hover:text-amber-600 hover:border-amber-200'
             }`}>
-            <span>{t(locale, 'savedFilter')}</span>
+            <span>{t('savedFilter')}</span>
             {(progress.savedChapters || []).length > 0 && (
               <span className="bg-amber-500 text-white px-1.5 py-0.5 text-[8px] rounded-full font-bold">
                 {(progress.savedChapters || []).length}
@@ -622,8 +627,8 @@ export default function TopicGrid({
                 <div className="flex items-center gap-2 mb-4 px-1">
                   <div className={`w-1.5 h-7 rounded-full bg-gradient-to-b ${theme.gradientFrom} ${theme.gradientTo}`} />
                   <span className="text-2xl">{category.emoji}</span>
-                  <h3 className="text-lg font-bold text-gray-900">{getCategoryName(category.id, locale)}</h3>
-                  <span className="text-xs text-gray-400 font-medium bg-gray-100 px-2 py-0.5 rounded-full">{topicsInCat.length} {t(locale, 'results')}</span>
+                  <h3 className="text-lg font-bold text-gray-900">{t('categories.' + category.id)}</h3>
+                  <span className="text-xs text-gray-400 font-medium bg-gray-100 px-2 py-0.5 rounded-full">{topicsInCat.length} {t('results')}</span>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {topicsInCat.map(topic => {
@@ -708,7 +713,7 @@ export default function TopicGrid({
 
       {/* Footer */}
       <div className="mt-12 pt-6 border-t border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4 no-print">
-        <p className="text-xs text-gray-400 font-medium">{t(locale, 'footer')}</p>
+        <p className="text-xs text-gray-400 font-medium">{t('footer')}</p>
         <div className="shrink-0"><ExportModal content={content} /></div>
       </div>
     </motion.div>

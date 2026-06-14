@@ -2,6 +2,7 @@ import { useAppStore } from '@/lib/store';
 import type { Locale } from '@/types';
 import { Globe, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export const LANGUAGES: { code: Locale; name: string; nativeName: string; flag: string }[] = [
   { code: 'en', name: 'English', nativeName: 'English', flag: '🇬🇧' },
@@ -30,6 +31,7 @@ export function isRTL(locale: Locale): boolean {
 
 export default function LanguagePicker() {
   const { locale, setLocale } = useAppStore();
+  const { i18n } = useTranslation();
   const [open, setOpen] = useState(false);
   const current = LANGUAGES.find(l => l.code === locale) || LANGUAGES[0];
 
@@ -53,7 +55,7 @@ export default function LanguagePicker() {
               <button
                 id={`lang-select-${lang.code}`}
                 key={lang.code}
-                onClick={() => { setLocale(lang.code); setOpen(false); }}
+                onClick={() => { setLocale(lang.code); i18n.changeLanguage(lang.code); setOpen(false); }}
                 className={`flex items-center gap-2.5 p-2 rounded-none text-left text-sm transition-all duration-150 ${
                   locale === lang.code
                     ? 'bg-black text-white font-bold shadow-none'

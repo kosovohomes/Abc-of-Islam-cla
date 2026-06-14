@@ -1,8 +1,8 @@
 import { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, ArrowRight, CheckCircle2, Star, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import BadgeBoard from '@/components/gamification/BadgeBoard';
-import { t } from '@/lib/translations';
 import {
   getDefensiveQuestion,
   getDefensiveOption,
@@ -20,10 +20,10 @@ interface QuizPanelProps {
 }
 
 const SCORE_CONFIG = [
-  { emoji: '😢', label: 'Keep Trying!', color: 'from-rose-400 to-pink-500', bg: 'bg-rose-50' },
-  { emoji: '😊', label: 'Good Try!',    color: 'from-amber-400 to-orange-500', bg: 'bg-amber-50' },
-  { emoji: '🌟', label: 'Great Job!',   color: 'from-sky-400 to-blue-500', bg: 'bg-sky-50' },
-  { emoji: '🏆', label: 'PERFECT!',     color: 'from-emerald-400 to-teal-500', bg: 'bg-emerald-50' },
+  { emoji: '😢', labelKey: 'keepTrying', color: 'from-rose-400 to-pink-500', bg: 'bg-rose-50' },
+  { emoji: '😊', labelKey: 'goodTry',    color: 'from-amber-400 to-orange-500', bg: 'bg-amber-50' },
+  { emoji: '🌟', labelKey: 'greatJob',   color: 'from-sky-400 to-blue-500', bg: 'bg-sky-50' },
+  { emoji: '🏆', labelKey: 'perfect',     color: 'from-emerald-400 to-teal-500', bg: 'bg-emerald-50' },
 ];
 
 // Floating particles for correct answer celebration
@@ -53,6 +53,7 @@ export default function QuizPanel({
   onSaveScore,
   onBadgeCheck,
 }: QuizPanelProps) {
+  const { t } = useTranslation();
   const [quizActive, setQuizActive] = useState(false);
   const [currentQuestionIdx, setCurrentQuestionIdx] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
@@ -143,12 +144,12 @@ export default function QuizPanel({
 
             <div>
               <h3 className="text-2xl sm:text-3xl font-serif font-extrabold text-white leading-tight drop-shadow">
-                {t(locale, 'takeQuiz')}
+                {t('takeQuiz')}
               </h3>
               <p className="text-sm text-white/80 mt-2 max-w-xs mx-auto leading-relaxed font-medium">
-                Let's practice what we learned about{' '}
+                {t('quizPracticeAbout')}{' '}
                 <span className="font-extrabold text-yellow-300">{getDefensiveTitle(activeTopic, locale)}</span>{' '}
-                with a fun puzzle!
+                {t('quizWithPuzzle')}
               </p>
             </div>
 
@@ -161,7 +162,7 @@ export default function QuizPanel({
                 className="flex items-center gap-2 px-4 py-2 bg-yellow-400/20 border-2 border-yellow-300/50 text-yellow-200 rounded-full text-sm font-bold backdrop-blur-sm"
               >
                 <Star className="w-4 h-4 fill-yellow-300 text-yellow-300" />
-                Best Score: {previousBest}/{totalQuestions}
+                {t('bestScore')} {previousBest}/{totalQuestions}
               </motion.div>
             )}
 
@@ -188,11 +189,11 @@ export default function QuizPanel({
               className="mt-2 flex items-center gap-2.5 px-8 py-3.5 bg-white text-purple-700 rounded-2xl text-base font-extrabold shadow-xl hover:shadow-2xl transition-shadow cursor-pointer pulse-glow"
             >
               <Zap className="w-5 h-5 fill-yellow-400 text-yellow-500" />
-              <span>Start Quiz!</span>
+              <span>{t('startQuiz')}</span>
               <ArrowRight className="w-5 h-5 stroke-[2.5]" />
             </motion.button>
 
-            <p className="text-white/50 text-xs font-medium">{totalQuestions} questions · earn up to {totalQuestions} ⭐</p>
+            <p className="text-white/50 text-xs font-medium">{t('quizQuestionsCount', { count: totalQuestions, total: totalQuestions })}</p>
           </motion.div>
         )}
 
@@ -324,7 +325,7 @@ export default function QuizPanel({
                       className="bg-white/15 backdrop-blur-sm border border-white/20 rounded-2xl p-3 shrink-0"
                     >
                       <span className="font-extrabold block text-[9px] uppercase tracking-wider text-yellow-300 mb-1">
-                        🎓 Learning Moment
+                        {t('learningMoment')}
                       </span>
                       <p className="text-xs text-white/90 leading-relaxed">
                         {getDefensiveExplanation(activeTopic.quiz[currentQuestionIdx], locale)}
@@ -347,8 +348,8 @@ export default function QuizPanel({
                     >
                       <span>
                         {currentQuestionIdx < totalQuestions - 1
-                          ? t(locale, 'nextQuestion')
-                          : t(locale, 'seeResults')}
+                          ? t('nextQuestion')
+                          : t('seeResults')}
                       </span>
                       <ArrowRight className="w-4 h-4 stroke-[2.5]" />
                     </motion.button>
@@ -378,7 +379,7 @@ export default function QuizPanel({
 
             <div>
               <h4 className="text-3xl font-serif font-extrabold text-white drop-shadow">
-                {SCORE_CONFIG[Math.min(displayScore, 3)].label}
+                {t(SCORE_CONFIG[Math.min(displayScore, 3)].labelKey)}
               </h4>
               <div className="mt-3 flex items-center justify-center gap-2 flex-wrap">
                 {Array.from({ length: totalQuestions }).map((_, i) => (
@@ -399,11 +400,7 @@ export default function QuizPanel({
                 transition={{ delay: 0.6 }}
                 className="text-sm text-white/80 mt-3 font-semibold"
               >
-                You got{' '}
-                <span className="text-yellow-300 font-extrabold text-lg">
-                  {displayScore}
-                </span>{' '}
-                out of <span className="font-extrabold">{totalQuestions}</span> correct!
+                {t('youGotCorrect', { score: displayScore, total: totalQuestions })}
               </motion.p>
             </div>
 
@@ -429,14 +426,14 @@ export default function QuizPanel({
                 onClick={resetQuiz}
                 className="flex-1 py-3 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-2xl text-xs font-bold uppercase tracking-wider text-white transition-all cursor-pointer border border-white/30 hover:border-white/50"
               >
-                {t(locale, 'tryAgain')} 🔄
+                {t('tryAgain')} 🔄
               </button>
               <button
                 id="btn-quiz-complete"
                 onClick={resetQuiz}
                 className="flex-1 py-3 bg-white text-purple-700 rounded-2xl text-xs font-extrabold uppercase tracking-wider transition-all cursor-pointer shadow-lg hover:shadow-xl hover:scale-105"
               >
-                {t(locale, 'continueBtn')} →
+                {t('continueBtn')} →
               </button>
             </motion.div>
           </motion.div>

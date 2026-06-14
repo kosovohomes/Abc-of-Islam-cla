@@ -3,7 +3,7 @@ import confetti from 'canvas-confetti';
 import { AnimatePresence, motion } from 'motion/react';
 import { Trophy, VolumeX, Volume2, Menu, X, ChevronLeft } from 'lucide-react';
 
-import LanguagePicker, { isRTL } from '@/components/layout/LanguagePicker';
+import LanguagePicker from '@/components/layout/LanguagePicker';
 import AgeSelector from '@/components/content/AgeSelector';
 import BadgeBoard, { BADGES } from '@/components/gamification/BadgeBoard';
 
@@ -15,7 +15,8 @@ import CelebrationOverlays from '@/components/layout/CelebrationOverlays';
 import AdminDashboard from '@/components/admin/AdminDashboard';
 
 import { useAppStore } from '@/lib/store';
-import { t, getCategoryName } from '@/lib/translations';
+import { useTranslation } from 'react-i18next';
+import { isRTLLocale } from '@/i18n';
 import { CATEGORIES, TOPICS, getTopics } from '@/lib/topics';
 import { trackTopicView, trackQuizAttempt, getAdminSettings, isSuspended } from '@/lib/adminStore';
 import { getContent } from '@/lib/content';
@@ -25,6 +26,7 @@ export default function App() {
   // ── Global store ─────────────────────────────────────────────────────────────
   const {
     locale,
+    setLocale,
     ageLevel,
     progress,
     markTopicRead,
@@ -36,6 +38,29 @@ export default function App() {
     setOnline,
     toggleSaveChapter,
   } = useAppStore();
+
+  // ── i18next ──────────────────────────────────────────────────────────────────
+  const { t, i18n } = useTranslation();
+
+  // Sync i18next language with Zustand store (bidirectional)
+  useEffect(() => {
+    if (i18n.language !== locale) {
+      i18n.changeLanguage(locale);
+    }
+  }, [locale, i18n]);
+
+  // Also listen for i18next language changes (e.g. from browser detection) and sync to store
+  useEffect(() => {
+    const handleLanguageChanged = (lng: string) => {
+      const supported = ['en', 'ar', 'ur', 'tr', 'fr', 'es', 'hi', 'id', 'de', 'ru', 'bn', 'pt', 'zh', 'ja', 'sw', 'ko'];
+      const baseLng = lng.split('-')[0]; // 'ar-SA' → 'ar'
+      if (supported.includes(baseLng) && baseLng !== locale) {
+        setLocale(baseLng as any);
+      }
+    };
+    i18n.on('languageChanged', handleLanguageChanged);
+    return () => i18n.off('languageChanged', handleLanguageChanged);
+  }, [locale, i18n, setLocale]);
 
   // ── View / navigation state ───────────────────────────────────────────────────
   // Parse initial state from URL hash (e.g. #/topic/shahada, #/topics, #/)
@@ -81,8 +106,8 @@ export default function App() {
       <div className="min-h-screen bg-[#0a1628] flex items-center justify-center p-8 text-center">
         <div>
           <div className="text-7xl mb-6">🔧</div>
-          <h1 className="text-3xl font-extrabold text-white mb-3">Under Maintenance</h1>
-          <p className="text-white/60 text-lg">{adminSettings.siteName} is being updated. Please check back soon.</p>
+          <h1 className="text-3xl font-extrabold text-white mb-3">{t('underMaintenance')}</h1>
+          <p className="text-white/60 text-lg">{t('maintenanceMsg', { siteName: adminSettings.siteName })}</p>
         </div>
       </div>
     );
@@ -132,7 +157,7 @@ export default function App() {
       setCompletedQuizCategories(currentCompleted);
       const category = CATEGORIES.find(c => c.id === newlyCompleted);
       if (category) {
-        triggerCategoryCelebration(getCategoryName(category.id, locale), category.emoji);
+        triggerCategoryCelebration(t('categories.' + category.id), category.emoji);
       }
     } else if (currentCompleted.length < completedQuizCategories.length) {
       setCompletedQuizCategories(currentCompleted);
@@ -217,7 +242,7 @@ export default function App() {
   const [translationRetryCount, setTranslationRetryCount] = useState(0);
 
   // ── Derived content values ────────────────────────────────────────────────────
-  const isRtlLayout = isRTL(locale);
+  const isRtlLayout = isRTLLocale(locale);
   const content = getContent(locale);
   const baseActiveTopic = content.find(tp => tp.id === selectedTopicId) ?? content[0];
   const cacheKey = `${locale}-${selectedTopicId}`;
@@ -256,6 +281,13 @@ export default function App() {
         });
         if (!res.ok) {
           const errData = await res.json().catch(() => ({}));
+          // Provide user-friendly messages for known error codes
+          if (errData.code === 'API_KEY_MISSING') {
+            throw new Error('Translation is not configured on the server. Please contact the administrator.');
+          }
+          if (res.status === 503) {
+            throw new Error('Translation service is temporarily unavailable. Please try again later.');
+          }
           throw new Error(errData.error || 'Server translation error');
         }
         const data = await res.json();
@@ -327,7 +359,7 @@ export default function App() {
         badge.condition(updatedProgress)
       ) {
         addBadge(badge.id);
-        setUnlockedBadgeName(badge.name);
+        setUnlockedBadgeName(badge.nameKey);
       }
     }
   };
@@ -409,7 +441,7 @@ export default function App() {
               className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 rounded-full text-xs font-bold uppercase tracking-wider cursor-pointer transition-colors border border-emerald-100"
             >
               <ChevronLeft className="w-3.5 h-3.5 stroke-[2.5]" />
-              <span>{currentView === 'topic' ? t(locale, 'topicIndex') : t(locale, 'home')}</span>
+              <span>{currentView === 'topic' ? t('topicIndex') : t('home')}</span>
             </button>
           )}
 
@@ -426,7 +458,7 @@ export default function App() {
               isOnline ? 'bg-emerald-50 text-emerald-700 border-emerald-200' : 'bg-amber-50 text-amber-700 border-amber-200'
             }`}>
               <span className={`w-1.5 h-1.5 rounded-full ${isOnline ? 'bg-emerald-500 animate-pulse' : 'bg-amber-500'}`} />
-              {isOnline ? t(locale, 'online') : t(locale, 'offline')}
+              {isOnline ? t('online') : t('offline')}
             </div>
 
             {/* Audio toggle */}
@@ -451,7 +483,7 @@ export default function App() {
               className="relative flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 bg-amber-50 hover:bg-amber-100 text-amber-800 rounded-full border border-amber-200 text-[11px] font-bold uppercase tracking-wider cursor-pointer transition-colors"
             >
               <Trophy className="w-3.5 h-3.5 text-amber-600 shrink-0" />
-              <span className="hidden sm:inline">{t(locale, 'badges')}</span>
+              <span className="hidden sm:inline">{t('badges')}</span>
               {progress.badges.length > 0 && (
                 <span className="absolute -top-1.5 -right-1.5 w-4 h-4 flex items-center justify-center bg-rose-500 text-white text-[8px] font-extrabold rounded-full shadow-sm">
                   {progress.badges.length}
@@ -487,16 +519,16 @@ export default function App() {
             >
               <div className="px-4 py-4 space-y-4">
                 <div>
-                  <p className="text-[10px] font-extrabold uppercase tracking-widest text-gray-400 mb-2">{t(locale, 'ageLevel')}</p>
+                  <p className="text-[10px] font-extrabold uppercase tracking-widest text-gray-400 mb-2">{t('ageLevel')}</p>
                   <AgeSelector />
                 </div>
                 <div>
-                  <p className="text-[10px] font-extrabold uppercase tracking-widest text-gray-400 mb-2">{t(locale, 'language')}</p>
+                  <p className="text-[10px] font-extrabold uppercase tracking-widest text-gray-400 mb-2">{t('language')}</p>
                   <LanguagePicker />
                 </div>
                 <div className="flex items-center gap-2 pb-1">
                   <span className={`w-2 h-2 rounded-full ${isOnline ? 'bg-emerald-500 animate-pulse' : 'bg-amber-500'}`} />
-                  <span className="text-xs font-semibold text-gray-500">{isOnline ? t(locale, 'online') : t(locale, 'offline')}</span>
+                  <span className="text-xs font-semibold text-gray-500">{isOnline ? t('online') : t('offline')}</span>
                 </div>
               </div>
             </motion.div>

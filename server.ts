@@ -18,12 +18,19 @@ import { getContent } from './src/lib/content';
 import { Topic } from './src/types';
 
 let aiClient: GoogleGenAI | null = null;
+let apiKeyMissing = false;
+
 function getGenAI(): GoogleGenAI {
+  if (apiKeyMissing) {
+    throw new Error('GEMINI_API_KEY is not configured. Please set it in your .env file. See .env.example for details.');
+  }
   if (!aiClient) {
     const key = process.env.GEMINI_API_KEY;
-    if (!key) {
-      throw new Error('GEMINI_API_KEY environment variable is missing');
+    if (!key || key === 'your_gemini_api_key_here') {
+      apiKeyMissing = true;
+      throw new Error('GEMINI_API_KEY is not configured. Please set it in your .env file. See .env.example for details.');
     }
+    console.log('[Gemini] Initializing client with API key ending in ...' + key.slice(-4));
     aiClient = new GoogleGenAI({
       apiKey: key,
       httpOptions: {
@@ -34,6 +41,26 @@ function getGenAI(): GoogleGenAI {
     });
   }
   return aiClient;
+}
+
+/** Check whether the Gemini API key is available without throwing */
+function isGeminiAvailable(): boolean {
+  const key = process.env.GEMINI_API_KEY;
+  return !!key && key !== 'your_gemini_api_key_here';
+}
+
+function isRetryableError(err: any): boolean {
+  const msg = (err?.message || '').toLowerCase();
+  const status = err?.status || err?.statusCode;
+  // Retry on rate limits, server errors, and network issues
+  if (status === 429 || status === 500 || status === 502 || status === 503 || status === 504) return true;
+  if (msg.includes('rate limit') || msg.includes('quota') || msg.includes('overloaded') || msg.includes('resource exhausted')) return true;
+  if (msg.includes('econnreset') || msg.includes('econnrefused') || msg.includes('etimedout') || msg.includes('network')) return true;
+  // Don't retry on auth errors or invalid requests
+  if (status === 400 || status === 401 || status === 403) return false;
+  if (msg.includes('api key') || msg.includes('invalid') || msg.includes('not found')) return false;
+  // Default: retry unknown errors
+  return true;
 }
 
 async function callGeminiWithRetry<T>(
@@ -48,12 +75,13 @@ async function callGeminiWithRetry<T>(
       return await apiCall();
     } catch (err: any) {
       attempt++;
-      if (attempt >= retries) {
+      const shouldRetry = isRetryableError(err);
+      if (attempt >= retries || !shouldRetry) {
         console.error(`[Gemini Retry Handler] Failed after ${attempt} attempts for ${contextMessage}:`, err.message || err);
         throw err;
       }
-      const nextDelay = delayMs * Math.pow(2, attempt - 1);
-      console.warn(`[Gemini Retry Handler] ${contextMessage} failed (attempt ${attempt}/${retries}) with error: ${err.message || err}. Retrying in ${nextDelay}ms...`);
+      const nextDelay = delayMs * Math.pow(2, attempt - 1) + Math.random() * 500; // jitter
+      console.warn(`[Gemini Retry Handler] ${contextMessage} failed (attempt ${attempt}/${retries}) with error: ${err.message || err}. Retrying in ${Math.round(nextDelay)}ms...`);
       await new Promise(resolve => setTimeout(resolve, nextDelay));
     }
   }
@@ -282,12 +310,20 @@ async function startServer() {
     }
   });
 
-  // API 3: Server-side Text-To-Speech endpoint using pristine Gemini Live/TTS engine
+  // API 3: Server-side Text-To-Speech endpoint using Gemini TTS
   app.post('/api/tts', async (req: Request, res: Response): Promise<any> => {
     try {
       const { text, locale = 'en' } = req.body;
       if (!text) {
         return res.status(400).json({ error: 'Text parameter is required' });
+      }
+
+      // Early check: skip API call if key is not configured
+      if (!isGeminiAvailable()) {
+        return res.status(503).json({ 
+          error: 'Gemini API key is not configured. TTS requires a valid GEMINI_API_KEY in .env',
+          code: 'API_KEY_MISSING'
+        });
       }
 
       const client = getGenAI();
@@ -296,37 +332,64 @@ Do not sound robotic or monotone. Deliver the reading with warm, engaging, and l
 The text to read is:
 ${text}`;
 
-      const response = await callGeminiWithRetry(
-        () => client.models.generateContent({
-          model: "gemini-3.1-flash-tts-preview",
-          contents: [{ parts: [{ text: prompt }] }],
-          config: {
-            responseModalities: ["AUDIO"],
-            speechConfig: {
-              voiceConfig: {
-                prebuiltVoiceConfig: { voiceName: 'Kore' },
+      // Try primary TTS model, fall back to alternatives
+      const ttsModels = ['gemini-2.5-flash-tts-preview', 'gemini-2.5-pro-tts-preview'];
+      let response: any = null;
+      let usedModel = '';
+
+      for (const model of ttsModels) {
+        try {
+          console.log(`[TTS] Attempting with model: ${model} for locale ${locale}`);
+          response = await callGeminiWithRetry(
+            () => client.models.generateContent({
+              model,
+              contents: [{ parts: [{ text: prompt }] }],
+              config: {
+                responseModalities: ["AUDIO"],
+                speechConfig: {
+                  voiceConfig: {
+                    prebuiltVoiceConfig: { voiceName: 'Kore' },
+                  },
+                },
               },
-            },
-          },
-        }),
-        3,
-        1500,
-        `TTS voice synthesis for ${locale}`
-      );
+            }),
+            2,
+            1000,
+            `TTS ${model} for ${locale}`
+          );
+          usedModel = model;
+          break;
+        } catch (modelErr: any) {
+          console.warn(`[TTS] Model ${model} failed:`, modelErr.message);
+          continue;
+        }
+      }
+
+      if (!response) {
+        return res.status(503).json({ 
+          error: 'All TTS models are currently unavailable. Please try again later.',
+          code: 'TTS_UNAVAILABLE'
+        });
+      }
 
       const base64Audio = response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
       if (!base64Audio) {
         return res.status(500).json({ error: 'Could not obtain voice stream from Gemini TTS' });
       }
 
+      console.log(`[TTS] Successfully generated audio with ${usedModel} for locale ${locale}`);
       res.json({ audio: base64Audio });
     } catch (err: any) {
       console.error('Server side Gemini TTS failed:', err);
-      res.status(500).json({ error: err.message || 'Gemini Speech generation failed' });
+      const status = err?.status || err?.statusCode || 500;
+      res.status(status).json({ 
+        error: err.message || 'Gemini Speech generation failed',
+        code: 'TTS_ERROR'
+      });
     }
   });
 
-  // API 4: Dynamic high-quality translation endpoint using Gemini 3.5 Flash
+  // API 4: Dynamic high-quality translation endpoint using Gemini
   app.post('/api/translate-topic', async (req: Request, res: Response): Promise<any> => {
     try {
       const { topic, locale } = req.body;
@@ -338,11 +401,23 @@ ${text}`;
         return res.json({ topic });
       }
 
+      // Early check: return friendly error if API key is missing
+      if (!isGeminiAvailable()) {
+        return res.status(503).json({ 
+          error: 'Gemini API key is not configured. Translation requires a valid GEMINI_API_KEY in .env',
+          code: 'API_KEY_MISSING'
+        });
+      }
+
       const translated = await translateTopicCached(topic, locale);
       res.json({ topic: translated });
     } catch (err: any) {
       console.error('Dynamic translation route failed:', err);
-      res.status(500).json({ error: err.message || 'Translation failed' });
+      const status = err?.status || err?.statusCode || 500;
+      res.status(status).json({ 
+        error: err.message || 'Translation failed',
+        code: 'TRANSLATION_ERROR'
+      });
     }
   });
 
@@ -361,8 +436,15 @@ ${text}`;
     });
   }
 
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server started successfully on http://0.0.0.0:${PORT}`);
+  const actualPort = process.env.PORT || PORT;
+  app.listen(Number(actualPort), '0.0.0.0', () => {
+    console.log(`Server started successfully on http://0.0.0.0:${actualPort}`);
+    if (!isGeminiAvailable()) {
+      console.warn('⚠️  GEMINI_API_KEY is not set. Translation, TTS, and AI features will be unavailable.');
+      console.warn('   Create a .env file with your key. See .env.example for details.');
+    } else {
+      console.log('✅ GEMINI_API_KEY detected — AI features enabled.');
+    }
   });
 }
 
@@ -469,44 +551,46 @@ ${JSON.stringify({
     required: ["title", "content", "funFact", "quiz"]
   };
 
+  // Model fallback chain — try each model in order until one succeeds
+  const translationModels = [
+    { name: 'gemini-2.5-flash', retries: 3, delay: 1500 },
+    { name: 'gemini-2.0-flash', retries: 2, delay: 2000 },
+    { name: 'gemini-1.5-flash', retries: 2, delay: 2000 },
+  ];
+
   let response;
-  try {
-    // Try primary model (gemini-3.5-flash) first
-    console.log(`[Translation] Attempting translation for '${topic.id}' to '${locale}' using gemini-3.5-flash...`);
-    response = await callGeminiWithRetry(
-      () => client.models.generateContent({
-        model: "gemini-3.5-flash",
-        contents: [{ parts: [{ text: prompt }] }],
-        config: {
-          responseMimeType: "application/json",
-          responseSchema
-        }
-      }),
-      3,
-      1500,
-      `Translate topic ${topic.id} to ${locale} (gemini-3.5-flash)`
-    );
-  } catch (primaryErr) {
-    console.warn(`[Translation] Primary model failed, falling back to backup model (gemini-flash-latest) for topic ${topic.id} to ${locale}. Error:`, primaryErr);
-    // Fallback to gemini-flash-latest
+  let usedModel = '';
+  let lastError: any;
+
+  for (const modelConfig of translationModels) {
     try {
+      console.log(`[Translation] Attempting translation for '${topic.id}' to '${locale}' using ${modelConfig.name}...`);
       response = await callGeminiWithRetry(
         () => client.models.generateContent({
-          model: "gemini-flash-latest",
+          model: modelConfig.name,
           contents: [{ parts: [{ text: prompt }] }],
           config: {
             responseMimeType: "application/json",
             responseSchema
           }
         }),
-        2,
-        1500,
-        `Translate topic ${topic.id} to ${locale} (gemini-flash-latest)`
+        modelConfig.retries,
+        modelConfig.delay,
+        `Translate topic ${topic.id} to ${locale} (${modelConfig.name})`
       );
-    } catch (fallbackErr) {
-      console.error(`[Translation] Both primary and backup models failed for topic ${topic.id} to ${locale}:`, fallbackErr);
-      throw fallbackErr; // Propagate error upward to be caught by router (returns 500)
+      usedModel = modelConfig.name;
+      console.log(`[Translation] Successfully translated '${topic.id}' to '${locale}' using ${usedModel}`);
+      break;
+    } catch (modelErr: any) {
+      console.warn(`[Translation] Model ${modelConfig.name} failed for topic ${topic.id} to ${locale}:`, modelErr.message);
+      lastError = modelErr;
+      continue;
     }
+  }
+
+  if (!response) {
+    console.error(`[Translation] All models failed for topic ${topic.id} to ${locale}`);
+    throw lastError;
   }
 
   const text = response.text;

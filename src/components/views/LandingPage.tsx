@@ -12,10 +12,10 @@ import {
   X,
   ExternalLink,
 } from 'lucide-react';
-import { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import AgeSelector from '@/components/content/AgeSelector';
 import { useAppStore } from '@/lib/store';
-import { t } from '@/lib/translations';
+import { useTranslation } from 'react-i18next';
 import type { Locale } from '@/types';
 
 interface LandingPageV2Props {
@@ -32,7 +32,9 @@ const topicCards = [
     id: 'hajj',
     title: 'Hajj',
     subtitle: 'The sacred journey to Makkah',
+    subtitleKey: 'hajjSubtitle',
     tag: 'Pilgrimage',
+    tagKey: 'tagPilgrimage',
     tagColor: '#0d9488',
     topicLink: 'hajj',
     img: 'https://ik.imagekit.io/4zbzbdytp/hajj_overview-9BS5YUf8qgFKvNgAVo2DpT.webp?updatedAt=1781117901446',
@@ -41,7 +43,9 @@ const topicCards = [
     id: 'umrah',
     title: 'Umrah',
     subtitle: 'The lesser pilgrimage, full of reward',
+    subtitleKey: 'umrahSubtitle',
     tag: 'Pilgrimage',
+    tagKey: 'tagPilgrimage',
     tagColor: '#ff7f5c',
     topicLink: 'hajj',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326',
@@ -50,7 +54,9 @@ const topicCards = [
     id: 'sadaqah',
     title: 'Sadaqah',
     subtitle: 'Voluntary giving for the love of Allah',
+    subtitleKey: 'sadaqahSubtitle',
     tag: 'Charity',
+    tagKey: 'tagCharity',
     tagColor: '#f5b400',
     tagTextDark: true,
     topicLink: 'zakat',
@@ -60,7 +66,9 @@ const topicCards = [
     id: 'ramadan',
     title: 'Ramadan',
     subtitle: 'The blessed month of fasting & reflection',
+    subtitleKey: 'ramadanSubtitle',
     tag: 'Fasting',
+    tagKey: 'tagFasting',
     tagColor: '#0d9488',
     topicLink: 'ramadan',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_39_ramadan_overview-KSNdX85Mzos8r2Xf3JL6rh.webp?updatedAt=1781117901328',
@@ -69,7 +77,9 @@ const topicCards = [
     id: 'myths-facts',
     title: 'Myths & Facts',
     subtitle: 'Separating truth from misconception',
+    subtitleKey: 'mythsFactsSubtitle',
     tag: 'Truth',
+    tagKey: 'tagTruth',
     tagColor: '#ff7f5c',
     topicLink: 'day_of_judgment',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_24_topic_myths_facts-9XosEGtJZUumCGvLgPN7Zd.webp?updatedAt=1781117901326',
@@ -78,7 +88,9 @@ const topicCards = [
     id: 'prophet-muhammad',
     title: 'Prophet Muhammad ﷺ',
     subtitle: 'The journey of the final messenger',
+    subtitleKey: 'prophetMuhammadSubtitle',
     tag: 'Prophet',
+    tagKey: 'tagProphet',
     tagColor: '#f5b400',
     tagTextDark: true,
     topicLink: 'prophet_muhammad',
@@ -88,7 +100,9 @@ const topicCards = [
     id: 'prophet-stories',
     title: 'Stories of Prophets',
     subtitle: 'Adam, Nuh, Musa & more — timeless tales',
+    subtitleKey: 'prophetStoriesSubtitle',
     tag: 'Stories',
+    tagKey: 'tagStories',
     tagColor: '#0d9488',
     topicLink: 'prophets',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_3_prophet_stories_feature-FtRej2zvGTyPa9u6r2MF85.webp?updatedAt=1781117901347',
@@ -97,7 +111,9 @@ const topicCards = [
     id: 'eid',
     title: 'Eid al-Fitr & Eid al-Adha',
     subtitle: 'Two joyful celebrations for Muslims',
+    subtitleKey: 'eidSubtitle',
     tag: 'Celebration',
+    tagKey: 'tagCelebration',
     tagColor: '#ff7f5c',
     topicLink: 'eid_al_fitr',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_44_eid_fitr_vs_adha-5iDNf8qryiopWpY9KdzQY6.webp?updatedAt=1781117900159',
@@ -106,7 +122,9 @@ const topicCards = [
     id: 'halal-haram',
     title: 'Halal & Haram',
     subtitle: 'Understanding what is permitted in Islam',
+    subtitleKey: 'halalHaramSubtitle',
     tag: 'Lifestyle',
+    tagKey: 'tagLifestyle',
     tagColor: '#0a7a70',
     topicLink: 'halal_food',
     img: 'https://ik.imagekit.io/4zbzbdytp/imgi_16_topic_halal_haram_food-2MdETNGseNCerrvGkHzkzE.webp?updatedAt=1781117900194',
@@ -114,6 +132,7 @@ const topicCards = [
 ];
 
 export default function LandingPageV2({ locale, onStart, onTopicSelect }: LandingPageV2Props) {
+  const { t } = useTranslation();
   const [activeSlide, setActiveSlide] = useState(0);
   const [winW, setWinW] = useState(typeof window !== 'undefined' ? window.innerWidth : 1024);
   useEffect(() => {
@@ -429,7 +448,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
               transform: 'rotate(-2deg)',
             }}
           >
-            A Journey of Faith for Young Hearts
+            {t('journeyOfFaith')}
           </motion.p>
 
           <motion.p
@@ -440,29 +459,29 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
               theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'
             }`}
           >
-            Discover the{' '}
+            {t('discoverThe')}{' '}
             <span className={`relative inline-block font-extrabold px-1 ${theme === 'dark' ? 'text-[#5cd5bd]' : 'text-[#075f58]'}`}>
-              beautiful world of Islam
+              {t('beautifulWorldOfIslam')}
               <span
                 className="absolute bottom-0 left-0 right-0 -z-10 rounded"
                 style={{ height: 8, background: theme === 'dark' ? '#064a45' : '#fde08a', opacity: 0.55 }}
               />
             </span>{' '}
-            through{' '}
+            {t('throughText')}{' '}
             <span className="font-extrabold" style={{ color: '#ff7f5c' }}>
-              26 wonderful topics
+              {t('wonderfulTopics')}
             </span>
-            . Learn through{' '}
+            . {t('learnThrough')}{' '}
             <span className="font-extrabold" style={{ color: '#f5b400' }}>
-              play
+              {t('playText')}
             </span>{' '}
             &amp;{' '}
             <span className="font-extrabold" style={{ color: '#0d9488' }}>
-              growth
+              {t('growthText')}
             </span>{' '}
-            with{' '}
+            {t('withText')}{' '}
             <span className="font-extrabold" style={{ color: '#0d9488' }}>
-              stories crafted just for you
+              {t('storiesCraftedForYou')}
             </span>
             !
           </motion.p>
@@ -487,7 +506,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             marginBottom: 12,
             boxShadow: '0 6px 18px rgba(255,127,92,.35)',
           }}>
-            📖 Sneak Peek
+            {t('sneakPeek')}
           </span>
           <h2 style={{
             fontFamily: 'Poppins, sans-serif',
@@ -496,10 +515,10 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             color: theme === 'dark' ? '#5cd5bd' : '#075f58',
             margin: '0 0 8px',
           }}>
-            Topics ♥ Waiting for You
+            {t('topicsWaitingForYou')}
           </h2>
           <p style={{ fontSize: 14, color: theme === 'dark' ? '#7fa89f' : '#4a6b62', margin: 0 }}>
-            {isMobile ? 'Swipe to explore • Tap to open' : 'Click any card to explore the full lesson'}
+            {isMobile ? t('swipeToExplore') : t('clickToExplore')}
           </p>
         </div>
 
@@ -543,7 +562,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                     padding: '2px 8px', borderRadius: 5, marginBottom: 4,
                     background: card.tagColor,
                     color: card.tagTextDark ? '#6b4a00' : 'white',
-                  }}>{card.tag}</span>
+                  }}>{t(card.tagKey)}</span>
                   <div style={{ fontSize: 12, fontWeight: 800, color: 'white', lineHeight: 1.25 }}>
                     {card.title}
                   </div>
@@ -618,12 +637,12 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                         padding: '3px 10px', borderRadius: 6, marginBottom: 6,
                         background: card.tagColor,
                         color: card.tagTextDark ? '#6b4a00' : 'white',
-                      }}>{card.tag}</span>
+                      }}>{t(card.tagKey)}</span>
                       <div style={{ fontSize: 20, fontWeight: 800, color: 'white', lineHeight: 1.25, marginBottom: 4 }}>
                         {card.title}
                       </div>
                       <div style={{ fontSize: 13, color: 'rgba(255,255,255,.8)', fontWeight: 500 }}>
-                        {card.subtitle}
+                        {t(card.subtitleKey)}
                       </div>
                     </div>
                     <div style={{
@@ -686,22 +705,22 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             style={{ fontFamily: 'Poppins, sans-serif' }}
           >
             <span className="text-3xl sm:text-4xl">👶</span>
-            Choose Your Level
+            {t('chooseYourLevel')}
             <span className="text-3xl sm:text-4xl">👶</span>
           </h2>
           <p className={`text-sm sm:text-base mt-1 ${theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'}`}>
-            The content adapts automatically to your age
+            {t('contentAdaptsAge')}
           </p>
         </div>
 
         <div className="grid grid-cols-3 gap-3 sm:gap-6">
           {[
-            { label: 'Beginner', range: 'Ages 5–7', emoji: '🌱', color: 'coral' as const, active: activeAge === 'Beginner' },
-            { label: 'Explorer', range: 'Ages 8–11', emoji: '🔍', color: 'teal' as const, active: activeAge === 'Explorer' },
-            { label: 'Thinker', range: 'Ages 12–14', emoji: '🧠', color: 'gold' as const, active: activeAge === 'Thinker' },
+            { label: 'Beginner', labelKey: 'beginnerLabel', range: 'Ages 5–7', rangeKey: 'ages57', emoji: '🌱', color: 'coral' as const, active: activeAge === 'Beginner' },
+            { label: 'Explorer', labelKey: 'explorerLabel', range: 'Ages 8–11', rangeKey: 'ages811', emoji: '🔍', color: 'teal' as const, active: activeAge === 'Explorer' },
+            { label: 'Thinker', labelKey: 'thinkerLabel', range: 'Ages 12–14', rangeKey: 'ages1214', emoji: '🧠', color: 'gold' as const, active: activeAge === 'Thinker' },
           ].map((card, i) => (
             <motion.button
-              key={card.label}
+              key={t(card.labelKey)}
               initial={{ opacity: 0, y: 40, scale: 0.9 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ delay: 1.6 + i * 0.2, type: 'spring', stiffness: 200, damping: 16 }}
@@ -756,7 +775,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                 {card.label}
               </div>
               <div className={`text-xs sm:text-sm font-semibold mt-0.5 sm:mt-1 ${theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'}`}>
-                {card.range}
+                {t(card.rangeKey)}
               </div>
             </motion.button>
           ))}
@@ -780,19 +799,19 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             className="inline-block text-xs font-extrabold tracking-widest uppercase px-4 py-1.5 rounded-full mb-4"
             style={{ background: 'linear-gradient(135deg,#d4f5ee,#b9f0e3)', color: '#0a7a70' }}
           >
-            🎬 Watch & Learn
+            {t('watchAndLearn')}
           </span>
           <h2
             className="text-2xl sm:text-3xl font-extrabold leading-tight"
             style={{ color: theme === 'dark' ? '#e2f5f1' : '#0a2520', fontFamily: 'Poppins, sans-serif' }}
           >
-            The Five Pillars of Islam
+            {t('fivePillarsOfIslam')}
           </h2>
           <p
             className="mt-2 text-sm sm:text-base max-w-lg mx-auto"
             style={{ color: theme === 'dark' ? '#7fa89f' : '#4a6b62' }}
           >
-            A beautiful visual journey through the foundations of our faith
+            {t('fivePillarsDesc')}
           </p>
         </div>
 
@@ -851,12 +870,12 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
       <section className="relative z-10 py-4 sm:py-8 px-4 sm:px-8 max-w-[1080px] mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
           {[
-            { title: 'PDF & eBook', desc: 'Printable worksheets & beautiful e-books available anytime', icon: '📚', color: 'teal' as const, corner: '⭐' },
-            { title: 'Audio Narration', desc: 'Read aloud in a calm, engaging voice with text-to-speech', icon: '🔊', color: 'gold' as const, corner: '🌟' },
-            { title: '16 Languages', desc: 'Full multilingual support for diaspora communities worldwide', icon: '🌐', color: 'coral' as const, corner: '✨' },
+            { title: 'PDF & eBook', titleKey: 'pdfEbook', desc: 'Printable worksheets & beautiful e-books available anytime', descKey: 'featurePdfDesc', icon: '📚', color: 'teal' as const, corner: '⭐' },
+            { title: 'Audio Narration', titleKey: 'audioNarration', desc: 'Read aloud in a calm, engaging voice with text-to-speech', descKey: 'featureAudioDesc', icon: '🔊', color: 'gold' as const, corner: '🌟' },
+            { title: '16 Languages', titleKey: 'languages', desc: 'Full multilingual support for diaspora communities worldwide', descKey: 'featureLangDesc', icon: '🌐', color: 'coral' as const, corner: '✨' },
           ].map((f, i) => (
             <motion.div
-              key={f.title}
+              key={f.titleKey}
               initial={{ opacity: 0, y: 40, scale: 0.9 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ delay: 1.8 + i * 0.2, type: 'spring', stiffness: 200, damping: 16 }}
@@ -904,10 +923,10 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                 className={`text-lg sm:text-xl font-extrabold ${theme === 'dark' ? 'text-[#d4e8e3]' : 'text-[#06241f]'}`}
                 style={{ fontFamily: 'Poppins, sans-serif' }}
               >
-                {f.title}
+                {t(f.titleKey)}
               </h3>
               <p className={`text-xs sm:text-sm font-medium mt-1 ${theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'}`}>
-                {f.desc}
+                {t(f.descKey)}
               </p>
             </motion.div>
           ))}
@@ -920,13 +939,13 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
       <section className="relative z-10 py-10 sm:py-12 px-4 sm:px-8 max-w-[800px] mx-auto">
         <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3">
           {[
-            { ico: '🛡️', text: '100% Safe & Child Friendly' },
-            { ico: '📚', text: '26 Beautiful Topics' },
-            { check: true, text: 'Sadaqah Jariyah Model' },
-            { ico: '🌍', text: 'For Muslim Diaspora' },
+            { ico: '🛡️', text: '100% Safe & Child Friendly', textKey: 'trustSafe' },
+            { ico: '📚', text: '26 Beautiful Topics', textKey: 'trust26Topics' },
+            { check: true, text: 'Sadaqah Jariyah Model', textKey: 'trustSadaqah' },
+            { ico: '🌍', text: 'For Muslim Diaspora', textKey: 'trustDiaspora' },
           ].map((p, i) => (
             <motion.span
-              key={p.text}
+              key={p.textKey}
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 2.2 + i * 0.1 }}
@@ -943,7 +962,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
               ) : (
                 <span className="text-base sm:text-xl">{p.ico}</span>
               )}
-              {p.text}
+              {t(p.textKey)}
             </motion.span>
           ))}
         </div>
@@ -973,7 +992,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
             }}
           />
           <Sparkles className="w-5 h-5 text-yellow-200" />
-          <span className="relative">Start the Islam Journey</span>
+          <span className="relative">{t('startTheIslamJourney')}</span>
           <motion.span
             className="relative w-8.5 h-8.5 rounded-full flex items-center justify-center"
             style={{ width: 34, height: 34, background: 'rgba(255,255,255,.25)' }}
@@ -1012,7 +1031,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
         }`}
       >
         <p>
-          ABC of Islam — Made with{' '}
+          {t('footerLandingBefore')}{' '}
           <motion.span
             animate={reduceMotion ? undefined : { scale: [1, 1.2, 1] }}
             transition={{ duration: 1.4, ease: 'easeInOut', repeat: Infinity }}
@@ -1021,21 +1040,21 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
           >
             ♥
           </motion.span>{' '}
-          for Muslim children everywhere
+          {t('footerLandingAfter')}
         </p>
         <p className={`text-xs mt-1.5 opacity-70`}>
-          Built on Next.js 14 · Supabase · TypeScript · Free Forever
+          {t('footerTech')}
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mt-3 text-xs sm:text-sm font-bold">
-          {['Privacy Policy', 'Terms of Use', 'Contact Us', 'About', 'Donate'].map((link) => (
+          {[{ key: 'footerPrivacy' }, { key: 'footerTerms' }, { key: 'footerContact' }, { key: 'footerAbout' }, { key: 'footerDonate' }].map((link) => (
             <a
-              key={link}
+              key={link.key}
               href="#"
               className={`transition-colors ${
                 theme === 'dark' ? 'text-[#2bbfa1] hover:text-[#5cd5bd]' : 'text-[#0a7a70] hover:text-[#2bbfa1]'
               }`}
             >
-              {link}
+              {t(link.key)}
             </a>
           ))}
         </div>
@@ -1084,7 +1103,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                     ABC of Islam
                   </h2>
                   <p className={`text-sm mt-1 ${theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'}`}>
-                    {authTab === 'signin' ? 'Welcome back! Sign in to continue.' : 'Create your account to get started.'}
+                    {authTab === 'signin' ? t('welcomeBackSignin') : t('createAccountStarted')}
                   </p>
                 </div>
 
@@ -1102,7 +1121,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                           : theme === 'dark' ? 'text-[#7fa89f]' : 'text-[#4a6b62]'
                       }`}
                     >
-                      {tab === 'signin' ? 'Sign In' : 'Sign Up'}
+                      {tab === 'signin' ? t('signIn') : t('signUp')}
                     </button>
                   ))}
                 </div>
@@ -1112,7 +1131,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                   {authTab === 'signup' && (
                     <div>
                       <label className={`block text-xs font-bold mb-1.5 ${theme === 'dark' ? 'text-[#a8ccc4]' : 'text-[#0a3a32]'}`}>
-                        Your Name
+                        {t('yourNameLabel')}
                       </label>
                       <input
                         type="text"
@@ -1129,7 +1148,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                   )}
                   <div>
                     <label className={`block text-xs font-bold mb-1.5 ${theme === 'dark' ? 'text-[#a8ccc4]' : 'text-[#0a3a32]'}`}>
-                      Email Address
+                      {t('emailAddressLabel')}
                     </label>
                     <input
                       type="email"
@@ -1175,44 +1194,44 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                     onClick={() => {
                       setAuthError('');
                       setAuthSuccess('');
-                      if (!authEmail.includes('@')) { setAuthError('Please enter a valid email.'); return; }
-                      if (authPassword.length < 6) { setAuthError('Password must be at least 6 characters.'); return; }
+                      if (!authEmail.includes('@')) { setAuthError(t('errorValidEmail')); return; }
+                      if (authPassword.length < 6) { setAuthError(t('errorPasswordLength')); return; }
 
                       if (authTab === 'signup') {
-                        if (!authName.trim()) { setAuthError('Please enter your name.'); return; }
+                        if (!authName.trim()) { setAuthError(t('errorEnterName')); return; }
                         const existing = localStorage.getItem(`abc_user_${authEmail}`);
-                        if (existing) { setAuthError('An account with this email already exists.'); return; }
+                        if (existing) { setAuthError(t('errorEmailExists')); return; }
                         const user = { name: authName.trim(), email: authEmail };
                         localStorage.setItem(`abc_user_${authEmail}`, JSON.stringify({ ...user, password: authPassword }));
                         localStorage.setItem('abc_islam_user', JSON.stringify(user));
                         setCurrentUser(user);
-                        setAuthSuccess('Account created! Welcome 🌟');
+                        setAuthSuccess(t('accountCreated'));
                         setTimeout(() => setShowAuthModal(false), 1200);
                       } else {
                         const stored = localStorage.getItem(`abc_user_${authEmail}`);
-                        if (!stored) { setAuthError('No account found. Please sign up first.'); return; }
+                        if (!stored) { setAuthError(t('errorNoAccount')); return; }
                         const record = JSON.parse(stored);
-                        if (record.password !== authPassword) { setAuthError('Incorrect password. Please try again.'); return; }
+                        if (record.password !== authPassword) { setAuthError(t('errorWrongPassword')); return; }
                         const user = { name: record.name, email: record.email };
                         localStorage.setItem('abc_islam_user', JSON.stringify(user));
                         setCurrentUser(user);
-                        setAuthSuccess(`Welcome back, ${user.name}! 🌟`);
+                        setAuthSuccess(t('welcomeBackName', { name: user.name }));
                         setTimeout(() => setShowAuthModal(false), 1200);
                       }
                     }}
                     className="w-full py-3.5 rounded-xl text-white font-bold text-sm"
                     style={{ background: 'linear-gradient(135deg, #0d9488, #075f58)', boxShadow: '0 8px 24px rgba(13,148,136,.4)' }}
                   >
-                    {authTab === 'signin' ? 'Sign In →' : 'Create Account →'}
+                    {authTab === 'signin' ? t('signInArrow') : t('createAccountArrow')}
                   </motion.button>
 
                   <p className={`text-center text-xs ${theme === 'dark' ? 'text-[#4a6b62]' : 'text-[#9bbfb8]'}`}>
-                    {authTab === 'signin' ? "Don't have an account? " : 'Already have an account? '}
+                    {authTab === 'signin' ? t('noAccountYet') : t('alreadyHaveAccount')}
                     <button
                       onClick={() => { setAuthTab(authTab === 'signin' ? 'signup' : 'signin'); setAuthError(''); }}
                       className="font-bold text-[#0d9488] hover:underline"
                     >
-                      {authTab === 'signin' ? 'Sign Up' : 'Sign In'}
+                      {authTab === 'signin' ? t('signUp') : t('signIn')}
                     </button>
                   </p>
                 </div>
@@ -1314,7 +1333,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                     padding: '4px 12px', borderRadius: 8,
                     background: modalCard.tagColor,
                     color: modalCard.tagTextDark ? '#6b4a00' : 'white',
-                  }}>{modalCard.tag}</span>
+                  }}>{t(modalCard.tagKey)}</span>
                   <button
                     onClick={() => setModalCard(null)}
                     style={{
@@ -1336,14 +1355,14 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                     color: 'white', marginBottom: 8,
                   }}>{modalCard.title}</div>
                   <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.62)', lineHeight: 1.6 }}>
-                    {modalCard.subtitle}
+                    {t(modalCard.subtitleKey)}
                   </div>
                 </div>
 
                 <div style={{ width: 36, height: 3, borderRadius: 99, background: modalCard.tagColor, marginBottom: isMobile ? 16 : 20 }} />
 
                 <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.35)', lineHeight: 1.6, marginBottom: isMobile ? 20 : 28 }}>
-                  Tap below to open the full lesson — illustrations, explanations &amp; a quiz.
+                  {t('tapBelowToOpen')}
                 </div>
 
                 {/* CTA */}
@@ -1364,7 +1383,7 @@ export default function LandingPageV2({ locale, onStart, onTopicSelect }: Landin
                     }}
                   >
                     <ExternalLink style={{ width: 16, height: 16 }} />
-                    Explore This Topic
+                    {t('exploreThisTopic')}
                   </button>
                   <button
                     onClick={() => setModalCard(null)}

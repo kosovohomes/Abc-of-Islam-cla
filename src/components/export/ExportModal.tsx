@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useAppStore } from '@/lib/store';
-import { t } from '@/lib/translations';
+import { useTranslation } from 'react-i18next';
 import { Download, FileText, BookOpen, Printer, X, Loader2 } from 'lucide-react';
 import type { Topic } from '@/types';
 
@@ -11,6 +11,7 @@ interface ExportModalProps {
 
 export default function ExportModal({ content, currentTopicId }: ExportModalProps) {
   const { locale, ageLevel } = useAppStore();
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const [generating, setGenerating] = useState(false);
 
@@ -37,7 +38,7 @@ export default function ExportModal({ content, currentTopicId }: ExportModalProp
       URL.revokeObjectURL(url);
     } catch (e) {
       console.error('PDF export failed:', e);
-      alert('Failed to generate PDF. Please try again.');
+      alert(t('exportPdfFailed'));
     } finally {
       setGenerating(false);
       setOpen(false);
@@ -62,7 +63,7 @@ export default function ExportModal({ content, currentTopicId }: ExportModalProp
       URL.revokeObjectURL(url);
     } catch (e) {
       console.error('EPUB export failed:', e);
-      alert('Failed to generate ePub eBook. Please try again.');
+      alert(t('exportEpubFailed'));
     } finally {
       setGenerating(false);
       setOpen(false);
@@ -77,7 +78,7 @@ export default function ExportModal({ content, currentTopicId }: ExportModalProp
         className="flex items-center gap-2 px-4 py-2.5 bg-amber-500 hover:bg-amber-600 active:scale-95 text-white rounded-xl font-bold text-sm shadow-sm transition-all text-center cursor-pointer"
       >
         <Download className="w-4 h-4" />
-        <span>{t(locale, 'exportTitle')}</span>
+        <span>{t('exportTitle')}</span>
       </button>
 
       {open && (
@@ -88,7 +89,7 @@ export default function ExportModal({ content, currentTopicId }: ExportModalProp
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-center justify-between mb-5">
-              <h3 className="text-lg font-bold text-teal-800">{t(locale, 'exportTitle')}</h3>
+              <h3 className="text-lg font-bold text-teal-800">{t('exportTitle')}</h3>
               <button
                 onClick={() => setOpen(false)}
                 className="p-1.5 hover:bg-gray-100 active:scale-95 rounded-lg transition-colors"
@@ -98,7 +99,7 @@ export default function ExportModal({ content, currentTopicId }: ExportModalProp
             </div>
 
             <p className="text-xs text-gray-500 mb-5 leading-normal">
-              {t(locale, 'exportDesc')}
+              {t('exportDesc')}
             </p>
 
             <div className="space-y-3">
@@ -110,8 +111,8 @@ export default function ExportModal({ content, currentTopicId }: ExportModalProp
               >
                 <FileText className="w-6 h-6 text-rose-500" />
                 <div>
-                  <div className="font-bold text-sm text-rose-950">{t(locale, 'exportPdf')}</div>
-                  <div className="text-[10px] text-rose-700/80 font-semibold tracking-wide mt-0.5">High-Quality Vector Document</div>
+                  <div className="font-bold text-sm text-rose-950">{t('exportPdf')}</div>
+                  <div className="text-[10px] text-rose-700/80 font-semibold tracking-wide mt-0.5">{t('exportPdfDesc')}</div>
                 </div>
               </button>
 
@@ -123,8 +124,8 @@ export default function ExportModal({ content, currentTopicId }: ExportModalProp
               >
                 <BookOpen className="w-6 h-6 text-amber-500" />
                 <div>
-                  <div className="font-bold text-sm text-amber-950">{t(locale, 'exportEpub')}</div>
-                  <div className="text-[10px] text-amber-700/85 font-semibold tracking-wide mt-0.5">Reflowable eBook Reader package</div>
+                  <div className="font-bold text-sm text-amber-950">{t('exportEpub')}</div>
+                  <div className="text-[10px] text-amber-700/85 font-semibold tracking-wide mt-0.5">{t('exportEpubDesc')}</div>
                 </div>
               </button>
 
@@ -135,8 +136,8 @@ export default function ExportModal({ content, currentTopicId }: ExportModalProp
               >
                 <Printer className="w-6 h-6 text-teal-500" />
                 <div>
-                  <div className="font-bold text-sm text-teal-950">{t(locale, 'exportPrint')}</div>
-                  <div className="text-[10px] text-teal-700/80 font-semibold tracking-wide mt-0.5">Send directly to local network printer</div>
+                  <div className="font-bold text-sm text-teal-950">{t('exportPrint')}</div>
+                  <div className="text-[10px] text-teal-700/80 font-semibold tracking-wide mt-0.5">{t('exportPrintDesc')}</div>
                 </div>
               </button>
             </div>
@@ -144,7 +145,7 @@ export default function ExportModal({ content, currentTopicId }: ExportModalProp
             {generating && (
               <div className="flex items-center justify-center gap-2 mt-4 text-teal-600 bg-teal-50/50 border border-teal-100 p-2.5 rounded-xl">
                 <Loader2 className="w-4 h-4 animate-spin stroke-[2.5]" />
-                <span className="text-xs font-bold">Packaging download packages...</span>
+                <span className="text-xs font-bold">{t('exportPackaging')}</span>
               </div>
             )}
           </div>

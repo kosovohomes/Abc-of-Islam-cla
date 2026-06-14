@@ -1,15 +1,17 @@
 import { useAppStore } from '@/lib/store';
+import { useTranslation } from 'react-i18next';
 import type { AgeLevel } from '@/types';
 import { Baby, BookOpen, Brain } from 'lucide-react';
 
-const LEVELS: { key: AgeLevel; label: string; age: string; icon: typeof Baby; color: string }[] = [
-  { key: 'starter', label: 'Starter', age: '5-7', icon: Baby, color: 'bg-amber-500' },
-  { key: 'explorer', label: 'Explorer', age: '8-11', icon: BookOpen, color: 'bg-sky-500' },
-  { key: 'thinker', label: 'Thinker', age: '12-14', icon: Brain, color: 'bg-indigo-500' },
+const LEVELS: { key: AgeLevel; labelKey: string; ageKey: string; icon: typeof Baby; color: string }[] = [
+  { key: 'starter', labelKey: 'starterLabel', ageKey: 'starterAge', icon: Baby, color: 'bg-amber-500' },
+  { key: 'explorer', labelKey: 'explorerLabel', ageKey: 'explorerAge', icon: BookOpen, color: 'bg-sky-500' },
+  { key: 'thinker', labelKey: 'thinkerLabel', ageKey: 'thinkerAge', icon: Brain, color: 'bg-indigo-500' },
 ];
 
 export default function AgeSelector() {
   const { ageLevel, setAgeLevel } = useAppStore();
+  const { t } = useTranslation();
 
   return (
     <div className="flex gap-2">
@@ -28,8 +30,8 @@ export default function AgeSelector() {
             }`}
           >
             <Icon className="w-4 h-4" />
-            <span>{level.label}</span>
-            <span className="text-[10px] opacity-80 font-normal">({level.age})</span>
+            <span>{t(level.labelKey)}</span>
+            <span className="text-[10px] opacity-80 font-normal">({t(level.ageKey)})</span>
           </button>
         );
       })}

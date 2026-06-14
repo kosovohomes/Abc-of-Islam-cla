@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useAppStore } from '@/lib/store';
+import { useTranslation } from 'react-i18next';
 
 interface AudioNarratorProps {
   text: string;
@@ -143,6 +144,7 @@ function getFemaleVoice(voices: SpeechSynthesisVoice[], locale: string): SpeechS
 
 export default function AudioNarrator({ text }: AudioNarratorProps) {
   const { locale, audioEnabled } = useAppStore();
+  const { t } = useTranslation();
   const [speaking, setSpeaking] = useState(false);
   const [loading, setLoading] = useState(false);
   const [ready, setReady] = useState(false);
@@ -293,7 +295,7 @@ export default function AudioNarrator({ text }: AudioNarratorProps) {
             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
             <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
           </svg>
-          <span>Tuning Voice...</span>
+          <span>{t('tuningVoice')}</span>
         </>
       ) : speaking ? (
         <>
@@ -301,14 +303,14 @@ export default function AudioNarrator({ text }: AudioNarratorProps) {
             <rect x="6" y="4" width="4" height="16" rx="1" />
             <rect x="14" y="4" width="4" height="16" rx="1" />
           </svg>
-          <span>Stop Narration</span>
+          <span>{t('stopNarration')}</span>
         </>
       ) : (
         <>
           <svg className="w-4 h-4 fill-none stroke-current" strokeWidth={2.5} viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" d="M15.536 8.464a5 5 0 010 7.072M12 6l-4 4H4v4h4l4 4V6z" />
           </svg>
-          <span>Read Aloud</span>
+          <span>{t('readAloud')}</span>
         </>
       )}
     </button>
